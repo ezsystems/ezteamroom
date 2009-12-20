@@ -1,0 +1,33 @@
+Installation
+------------
+* Installation script should ask if anonymous will get access and set the Anonymous role automatically
+* Database settings should be done automatically
+
+
+General
+-------
+* Normalize translation scopes
+* Remove "Join teamroom" when user has still joined, but ot approved
+* Add Help texts
+
+
+ezfeatureselect datatype
+------------------------
++ make the feature list easier to handle
+
+
+File list
+---------
+* split file upload and metadata edit
+
+
+Task list
+---------
+* Only owner and assigned people can manage task
+
+
+Collaboration
+--------------
+* Simplify collaboration related processes
+* Optimize templates
+* Add a new widget for this

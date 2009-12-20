@@ -1,0 +1,214 @@
+/* Lightbox CSS */
+
+/* Lightbox settings box */
+
+div#lightbox-settings {
+    border:2px solid gray;
+    left:770px;
+    /* HACK */
+    position:absolute;
+    top:210px;
+    width:200px;
+    padding: 5px;
+    background-color: white;
+    /* display: none;*/  /* default value */
+    z-index: 999;
+}
+
+div#lightbox-settings-button .lightbox-title {}
+div#lightbox-settings-button .lightbox-name {
+    color: #F06020;
+}
+
+
+span.current-lightbox {
+    color: #F06020;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+div#lightbox-settings h3 {
+    margin-top: 5px;
+}
+
+div#lightbox-settings div.lightbox-buttons {
+    padding: 10px 0;
+}
+
+div#lightbox-settings div.lightbox-buttons {
+}
+
+div#lightbox-settings div.close-button {
+    float: right;
+}
+
+div#lightbox-settings #lightboxselection {
+    width: 156px;
+    float: left;
+    border: 1px solid gray;
+}
+
+div#lightbox-settings div.create-lightbox {
+    margin: 0;
+    padding: 0;
+    float: right;
+    margin-top: -5px;
+}
+
+div#lightbox-settings div.create-lightbox span {
+    color: #F06020;
+    display: none;
+}
+
+div.add-current-page input.add-current-page-button {
+    background-color: transparent;
+    border: none;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-size: 11px;
+    color: #F06020;
+    padding: 0;
+    padding-bottom: 1px;
+    clear: both;
+    cursor: pointer;
+}
+
+/*div.add-current-page input.add-current-page-button:hover {
+    padding: 0;
+    border-bottom: 1px solid #F06020;
+}*/
+
+/* View Lightbox */
+
+div.content-view-full div.class-lightbox
+{
+    padding: 0.3em;
+    padding-top: 0em;
+    margin-right: 3px;
+}
+
+div.content-view-full div.norightcolumn div.columns-lightbox
+{
+    padding-right: 0;
+}
+
+div.content-view-full div.leftcolumn div.columns-lightbox div.left-column-position div.left-column
+{
+    margin-right: 0.2em;
+}
+
+div.content-view-full div.norightcolumn div.columns-lightbox div.right-column-position
+{
+    display: none;
+}
+
+div.content-view-full div.rightcolumn div.columns-lightbox div.right-column-position div.right-column
+{
+    margin-left: 1em;
+}
+
+div.content-view-full div.class-lightbox div.columns-lightbox div.center-column-position
+{
+    width: 100%;
+    float: left;
+}
+
+div.content-view-full div.noleftcolumn div.columns-lightbox div.center-column-position div.center-column
+{
+    margin-left: 0;
+    padding-right: 0;
+}
+
+div.content-view-full div.norightcolumn div.columns-lightbox div.center-column-position div.center-column
+{
+    margin-right: 0;
+    padding-left: 0;
+}
+
+div.content-view-full div.class-lightbox div.columns-frontpage div.center-column-position div.center-column
+{
+    margin: 0; /* Space between main and other columns */
+}
+
+div.class-lightbox
+{
+    background-color: rgb( 255, 255, 255 );
+}
+
+div.content-view-full div.class-lightbox div.columns-lightbox
+{
+    padding: 0 0 0 220px;
+}
+
+div.content-view-full div.class-lightbox div.columns-lightbox div.left-column-position
+{
+    width: 220px;
+    margin-left: -220px;
+    float: left;
+    display: inline; /* Fix for IE double margin bug */
+    margin-top: 3px;
+}
+
+div.lightbox-create
+{
+    background-color: rgb( 255, 255, 255 );
+    padding:          0 0.3em 0.3em 0.3em;
+}
+
+div.class-lightbox .lightbox-buttons
+{
+    margin-top: 1.2em;
+    margin-bottom: 1.2em;
+}
+
+div.class-lightbox .lightbox-buttons input
+{
+    margin-right: 1.0em;
+}
+div.content-view-full div.class-lightbox div.columns-lightbox div.center-column fieldset
+{
+    margin-top: 1.0em;
+}
+
+div.content-view-full div.class-lightbox div.columns-lightbox div.center-column h1
+{
+    padding-bottom: 1.0em;
+}
+
+div.content-view-full div.leftcolumn div.columns-lightbox div.left-column-position div.left-column li
+{
+    background-image:none;
+    background-position:0pt 0.4em;
+    background-repeat:no-repeat;
+    line-height:1.25em;
+    list-style-type:none;
+    margin:0pt 0pt 0.5em 0.25em;
+    padding:0pt 0pt 0pt 14px;
+}
+
+div.content-view-full div.class-lightbox div.left-column p {
+    padding: 0.2em 1.25em;
+}
+
+div.content-view-full div.class-lightbox table.list {
+    width: 70%;
+}
+
+div.class-lightbox div.left-column div.border-box div.border-mc h1 {
+    padding: 5px;
+}
+
+div.class-lightbox div.center-column div.border-box div.border-mc {
+    background:transparent url( '/extension/ezteamroom/design/ezteamroom/images/teamroom_bg.png' ) repeat-x 0 0;
+    margin-bottom:10px;
+    padding-left:10px;
+    margin-left:10px;
+    padding-top:15px;
+    margin-top:16px;
+    min-height:100px;
+}
+
+option.own-lightbox {
+    font-weight: bold;
+}

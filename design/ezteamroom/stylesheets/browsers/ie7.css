@@ -1,0 +1,300 @@
+/* IE5 + IE6 + IE7 SPECIAL CSS - 20060522 */
+
+/*div#searchbox
+{
+    margin-top: 1.5em;
+}*/
+div#searchbox input#searchbutton
+{
+    margin-bottom: 3px;
+}
+
+div.overflow-fix /* Hides long non-breaking lines and terminates bugs */
+{
+    width: 100%;
+    overflow: hidden;
+}
+
+div#heightresize-main
+{
+    border-bottom: 1px solid #ffffff;  /* Fix if height script is used */
+}
+
+ /* Fix for %-padding on input buttons *//*input.button
+{
+    padding: 0 0.5em 0 0.5em;
+    overflow: visible; 
+}*/
+
+/*div#path
+{
+    padding-top: 0.6em;
+    padding-bottom: 0.6em;
+}*/
+
+/*div.content-view-full div.class-frontpage div.attribute-billboard
+{
+    padding-top: 0.2em;
+}*/
+
+
+div#path div#path_2
+{
+    margin-top: 0px;
+    margin-bottom: -4px;
+    padding-top: 2px;
+}
+div#path div.path_delimiter
+{
+    margin-top: 0px;
+    margin-bottom: -4px;
+}
+
+div#path div.path_text
+{
+    margin-top: 2px;
+	line-height: 13px;
+}
+
+div.widget-dragbar div.title
+{
+    width: 110px;
+}
+
+
+div.widget-box div.widget-menu
+{
+    width:47px;
+}
+
+div.widget-content
+{
+    margin-bottom: -3px;
+}
+
+div.widget-footer
+{
+    width: auto;
+    height: 10px;
+    left: -11px;
+    position:static;
+    top: 16px;
+}
+
+
+div.widget-dragbar
+{
+    margin-bottom: 0px;
+}
+
+div.widget-dragbar div.icon
+{
+    margin-bottom: -40px;
+    margin-top: 0px;
+}
+
+div.widget-box-over, div.widget-box-drag, div.widget-box
+{
+    margin:0px;
+    margin-bottom:20px;
+    width:222px;
+    text-align: left;
+}
+
+div.class-personal-frontpage-header div.object-right
+{
+    margin: 0px;
+    margin-bottom: -40px;
+    position: relative;
+    top: -30px;
+}
+
+/*div.class-personal-frontpage
+{
+    border: #f00 solid 1px;
+}*/
+
+a#addNewWidgetButton
+{
+    position: relative;
+    bottom: -15px;
+}
+
+div.class-personal-frontpage div.border-box,
+div.class-teamroom-header
+{
+    margin-bottom: 0px;
+}
+
+div#main-position div.class-personal-frontpage
+{
+    margin-bottom: 25px;
+}
+
+div.DragContainer
+{
+    /* Prevent Drag Containers from breaking in 2 lines */
+    padding: 0;
+}
+
+div.ContainerContainer
+{
+    /* Prevent Drag Containers from breaking in 2 lines */
+    margin-left: 0;
+    margin-top: 30px;
+    padding: 0;
+}
+
+div.edit-attribute
+{   
+    /* border: 1px solid red; */
+    /* padding: 0 !important; */
+    /* margin: 0 !important; */
+    padding-top: 20px !important;
+}
+
+div.edit-attribute label.title
+{
+    margin-left: -10px !important;
+    margin-top: -20px !important;
+    position: absolute;
+}
+
+div.edit-attribute div.element input
+{
+    width: 130px !important;
+}
+
+/*div.widget-dragbar-handler
+{
+    border: 1px solid black;
+}
+div.ContainerContainer
+{
+    border: 2px solid red;
+    padding-left: 0;
+}
+div#TempContainer
+{
+}*/
+div.widget-content
+{
+    padding-bottom: 10px !important;
+    border: 1px solid transparent !important;
+}
+div.widget-footer
+{
+    left: -11px !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    top: 16px !important;
+    position: relative !important;
+    width: 224px !important;
+}
+
+div.widget-dragbar-handler
+{
+    margin: -2px !important;
+}
+div.widget-dragbar div.title h3
+{
+    height: 0;
+}
+div.center-column-position
+{
+    margin-top: 0 !important;
+}
+div.center-column
+{
+    padding-left: 0 !important;
+}
+div.center-column-position .overflow-fix {}
+div.center-column div.title 
+{
+    margin-left: 0px !important;
+}
+div#available-widgets-list.available-widgets div.border-ml {}
+div#available-widgets-list.available-widgets div.border-bc {}
+div#main div#available-widgets-list.available-widgets ul
+{
+    border: 1px solid transparent;
+}
+div.attribute-join
+{
+    padding-left: 0 !important;
+}
+div.attribute-join form
+{
+    margin-left: 0 !important;
+    width: 350px !important;
+}
+div.attribute-join p
+{
+    width: auto;
+}
+
+/* Calendar header image fix */
+    div#ezagenda_calendar_container_full table {
+        background: url(../../images/cal_th_bg.gif) no-repeat -1px -1px !important;
+    }
+    div#ezagenda_calendar_container_full table tr.calendar_heading {
+        background: none !important;
+    }
+
+/* Calendar header image fix (Widget) */
+    div#ezagenda_calendar_container table {
+        background: url(../../images/month_bg.gif) no-repeat scroll 6px -2px;
+    }
+    div#ezagenda_calendar_container table tr.calendar_heading,
+    div#ezagenda_calendar_container table tr.calendar_heading th {
+        background: transparent none !important;
+    }
+
+/* Calendar footer fix */
+    div#ezagenda_calendar_container_full table tr.calendar_footer ul {
+        width: 290px !important;
+    }
+    div#ezagenda_calendar_container_full table tr.calendar_footer li {
+        padding-top: 4px !important;
+        line-height: 13px !important;
+    }
+    div#ezagenda_calendar_container_full table tr.calendar_footer li div {
+        padding-top: 0px !important;
+    }
+
+/* remove border from login checkbox */
+div.user-login div.block input.checkbox {
+    border: none;
+}
+
+div.class-documentation-page div.blog_actions
+{
+    margin-top:-25px;
+}
+
+h1 {
+    padding-top: 1em !important;
+}
+
+/* Fix jumping add new widget button */
+div.class-personal-frontpage a#addNewWidgetButton
+{
+    top: -17px !important;
+    margin-top: 0 !important;
+    margin-bottom: -40px !important;
+    padding-top: 11px;
+}
+
+div#main div.widget-content ul li
+{
+    border-right: 1px solid transparent;
+}
+div#main div.widget-content ul li a
+{
+    padding-left: 2px !important;
+}
+
+/** User Profile fix **/
+div.user-edit div.profile-content {
+    border: 1px solid transparent;
+}

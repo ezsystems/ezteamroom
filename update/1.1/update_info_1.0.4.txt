@@ -1,0 +1,5 @@
+- The module "membership" has been removed completely. The existing policies must be adjusted when upgrading from a previous version like 1.0.4
+- A new view "messagecenter" has been added, having a new permission function "messagecenter"
+- Added a new class "file_subfolder"
+- Ability to show and create folders in file section
+

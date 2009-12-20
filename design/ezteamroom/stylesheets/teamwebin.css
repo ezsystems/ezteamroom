@@ -1,0 +1,98 @@
+div#message_allcontent
+{
+    margin: 0px 80px 30px 80px;
+}
+div#message_infocontent
+{
+    margin: 30px 80px;
+}
+
+div.message-icon
+{
+    width: 160px;
+}
+div.message-textcontent
+{
+    width: 640px;
+    color:#999999;
+}
+div.message-textcontent h1
+{
+    color: #999999;
+    margin: 0px;
+}
+div.message-infoline-border
+{
+    margin: 0px 0px;
+}
+div.message-infoline
+{
+    padding: 3px 10px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #8b8b8b;
+    background-color: #f1f2ed;
+}
+div.message-infoline h2
+{
+    margin: 0px;
+}
+div.message-buttonblock
+{
+    text-align: center;
+    margin: 25px;
+}
+div.message-subline
+{
+    padding: 0px 15px;
+    margin-bottom: 20px;
+}
+input.teamroomsearch
+{
+    border: 1px solid #A5ACB2;
+    font-size: 1em;
+    padding: 0px 2px;
+    width: 280px;
+}
+
+/* advanced search */
+div.labelblock
+{
+    float: left;
+    width: 175px;
+}
+div.inputblock
+{
+    float: left;
+    width: 450px;
+}
+div.searchrow
+{
+    margin: 3px 0px;
+}
+input.teamroomadsearch
+{
+    border: 1px solid #A5ACB2;
+    font-size: 1em;
+    padding: 0px 2px;
+    width: 100%;
+}
+
+
+
+
+div.more_foot
+{
+    margin-bottom: 25px;
+}
+
+div#full_article
+{
+    margin: 0px 0px 30px 80px;
+}
+span.date,
+span.author
+{
+    font-size: 11px;
+    color: #F06020;
+}

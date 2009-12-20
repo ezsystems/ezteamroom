@@ -1,0 +1,56 @@
+eZMailToeZPublish
+
+Neue Funktionalität für eZ Teamroom
+-----------------------------------
+
+Neue Elemente
+
+- Ini Einstellungen
+  [DefaultMailServerSettings]
+  Server[IMAP/POP3]=<STRING>
+  Port[IMAP/POP3]=<INTEGER>
+  Username[IMAP/POP3]=<STRING>
+  Password[IMAP/POP3]=<STRING>
+  UseSSL[IMAP/POP3]=<BOOLEAN>
+
+  [MailToeZP]
+
+- Tabelle "eZMailServer"
+  ID        Integer Unique Auto-Increment
+  Name      Varchar 255
+  Port      Integer
+  Username  Varchar 255
+  Password  Varchar 20
+  SSL       Integer
+  Type      String ( either "IMAP" or "POP3")
+
+- Datentyp "Mail server" (eZMailServerType)
+
+- Cronjob "teamroommails"
+  Untersucht die Konten aller Teamrooms auf neue Nachrichten
+
+Angepasste Elemente
+
+- Klasse "teamroom"
+  Neues Attribut: "Mail server" vom Typ "Mail server"
+
+Use Cases
+
+- Anlegen eines neuen Teamrooms
+  Über den Datentyp KANN ein E-Mail Server konfiguriert werden.
+
+- Umbenennen eines Teamrooms
+  ?
+
+- Löschen eines Teamrooms
+  ?
+
+- Eine E-Mail wird an ein Konto geschickt
+
+  Aufbau der Empfängeradresse:
+  Option 1: "Teamroom '<NAME DES TEAMROOMS>' (<NODE_ID DES TEAMROOMS>)" <<TEAMROOM-E-MAIL>>
+  Option 2: <TEAMROOM-E-MAIL>
+
+  Alle Felder untersuchen (An, CC, BCC)
+
+  Wann dürfen Dokumente nicht importiert werden?

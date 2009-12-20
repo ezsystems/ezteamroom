@@ -1,0 +1,4189 @@
+/* FULL PAGE */
+
+div#page
+{
+    width: 770px;
+    margin: 0 auto 0 auto;
+    text-align: left;
+}
+
+/* HEADER */
+
+div#header
+{
+    padding-left: 0.25em;
+    padding-right: 0.25em;
+    padding-top: 0.25em;
+    background-color: #FFFFFF;
+    padding-bottom: 0.75em;
+}
+
+div#header ul
+{
+    margin: 0;
+    padding: 0.25em 0 0.25em 0;
+}
+
+div#header ul li
+{
+    list-style-type: none;
+    list-style-image: none;
+    padding: 0;
+    display: inline;
+    margin-left: 1em;
+}
+
+div#logo
+{
+    float: left;
+    margin: 1em 0 0 1.5em;
+}
+
+div#usermenu
+{
+    background-image: url( '/extension/ezteamroom/design/ezteamroom/images/header_bg.png' );
+    background-position: top left;
+    background-repeat: repeat-x;
+    height: 25px;
+}
+
+div#languages
+{
+    background-image: url( '/extension/ezteamroom/design/ezteamroom/images/header_bg_left.png' );
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    float: left;
+    clear: left;
+    width: 24%;
+    height: 25px;
+    font-size: 0.85em;
+}
+
+
+input#searchtext
+{
+    border: 1px solid #A5ACB2;
+    font-size: 0.85em;
+    width: 12em;
+}
+
+input#searchbutton
+{
+    margin-top: -0.1em;
+}
+
+/* TOP MENU */
+
+div#topmenu
+{
+    margin: 0;
+    padding: 0;
+}
+
+div#topmenu ul
+{
+    margin: 0;
+    padding: 0;
+    background-image: url( '/extension/ezteamroom/design/ezteamroom/images/topmenu_bg.png' );
+    background-repeat: repeat-x;
+    height: 33px;
+}
+
+div#topmenu li
+{
+    background-image: url( '/extension/ezteamroom/design/ezteamroom/images/topmenu_bg.png' );
+    background-repeat: repeat-x;
+    height: 33px;
+    margin: 0;
+    float: left;
+    padding: 0;
+    font-size: 0.85em;
+    font-weight: bold;
+    list-style-type: none;
+    list-style-image: none;
+}
+
+div#topmenu li.selected
+{
+    background-image: url( '/extension/ezteamroom/design/ezteamroom/images/topmenu_bg_selected.png' );
+
+}
+
+div#topmenu li a
+{
+    text-decoration: none;
+    color: #4F5241;
+    border-right: 1px solid #C3C4B6;
+    display: block;
+    float: left;
+    margin: 0;
+    padding: 15px;
+    margin-top: 4px;
+    padding-top: 2px;
+    padding-bottom: 0;
+    height: 22px;
+    line-height: 22px;
+    background-color: transparent;
+}
+
+div#topmenu li a:hover
+{
+    border-bottom: 3px solid #ABAB9E;
+}
+
+div#topmenu div.topmenu-design
+{
+    background-color: #FFF;
+    padding: 0 0.25em 0 0.2em;
+}
+
+/* PATH */
+
+div#path
+{
+    padding: 0.5em 0.5em 0.5em 2em;
+    font-size: 0.85em;
+}
+
+div#path p
+{
+    margin: 0;
+}
+
+div#path div#version-box
+{
+    border-left: 1px solid #CCCCCC;
+    float: right;
+    padding: 0 1em;
+}
+
+div#path a.version-link
+{
+    color: gray;
+    text-decoration: underline;
+}
+
+/* COLUMNS */
+
+div#columns
+{
+   padding: 0 14em 0 14em;
+}
+
+.nowrap
+{
+    white-space: nowrap;
+}
+
+.centered
+{
+    text-align: center;
+}
+
+.middeled
+{
+    vertical-align: middle;
+}
+
+.centrum
+{
+    text-align: center;
+    vertical-align: middle;
+}
+
+.mousePointer
+{
+    cursor: auto;
+}
+
+.mousePointer:hover
+{
+    cursor: pointer;
+}
+
+div.lightbox-owner
+{
+    font-size: x-small;
+}
+
+div.arrowWhiteButton
+{
+    width: 193px;
+    height: 47px;
+    vertical-align: middle;
+    text-align: left;
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    background-image: url( '/extension/ezteamroom/design/ezteamroom/images/buttons/empty_arrows_white_button_193_47.gif' );
+    margin: auto;
+}
+
+input.arrowWhiteButton
+{
+    width: 193px;
+    height: 47px;
+    padding-left: 50px;
+    vertical-align: middle;
+    text-align: left;
+    border: none;
+    background-color: transparent;
+    font-size: 1.2em;
+    color: #888;
+    font-weight: bold;
+    margin: auto;
+    position: relative;
+}
+
+div.emptyButton
+{
+    width: 187px;
+    height: 39px;
+    vertical-align: middle;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    background-image: url( '/extension/ezteamroom/design/ezteamroom/images/buttons/empty_button_187_39.gif' );
+    margin: auto;
+}
+
+input.emptyButton
+{
+    width: 187px;
+    height: 39px;
+    vertical-align: middle;
+    text-align: center;
+    border: none;
+    background-color: transparent;
+    font-size: 1.3em;
+    color: #fff;
+    font-weight: bold;
+}
+
+div.emptyButton_whitebg
+{
+    width: 160px;
+    float: left;
+    background-image: url( '/extension/ezteamroom/design/ezteamroom/images/buttons/empty_button_160_40.jpg' );
+}
+
+div.emptyButton_whitebg input.emptyButton
+{
+    width: 160px;
+}
+
+div.nosidemenu div#columns
+{
+   padding-left: 0;
+}
+
+div.noextrainfo div#columns
+{
+   padding-right: 0;
+}
+
+/* SIDE MENU */
+
+div#sidemenu-position
+{
+    width: 14em;
+    margin-left: -14em;
+    float: left;
+    display: inline; /* Fix for IE double margin bug */
+}
+
+div.nosidemenu div#sidemenu-position
+{
+    display: none;
+}
+
+div#sidemenu ul
+{
+    list-style-type: none;
+    margin: 0.5em 0 0.5em 0;
+}
+
+div#sidemenu ul li
+{
+    margin: 0.25em 0 0.25em 0;
+    list-style-type: none;
+    list-style-image: none;
+}
+
+div#sidemenu div.box div.box-content
+{
+    padding-left: 0.75em;
+    padding-right: 0;
+}
+
+div#sidemenu h4
+{
+    margin: 0;
+}
+
+div#sidemenu h4 a
+{
+    color: #525345;
+    text-decoration: none;
+}
+
+div#sidemenu ul.menu-list a.selected
+{
+    font-weight: bold;
+}
+
+div#sidemenu ul.submenu-list
+{
+    list-style-type: none;
+    margin-left: 1em;
+}
+
+div#sidemenu ul.submenu-list a.selected
+{
+    font-weight: bold;
+}
+
+div#sidemenu ul.menu-list li a, div#sidemenu ul.submenu-list li a
+{
+    background-image: url( '/extension/ezteamroom/design/ezteamroom/images/sidemenu_bullet.png' );
+    background-position: 0.2em 0.5em;
+    background-repeat: no-repeat;
+    padding-left: 18px;
+    display: block;
+    font-size: 0.85em;
+}
+
+/* MAIN AREA */
+
+div#main-position
+{
+    width: 100%;
+    float: left;
+}
+
+div.nosidemenu div#main-position
+{
+    margin-left: 0;
+}
+
+div.noextrainfo div#main-position
+{
+    margin-right: 0;
+}
+
+/* EXTRA CONTENT */
+
+div#extrainfo-position
+{
+    width: 14em;
+    margin-right: -14em;
+    float: left;
+}
+
+div.noextrainfo div#extrainfo-position
+{
+    display: none;
+}
+
+/* FOOTER */
+
+div#footer
+{
+    clear: both;
+    text-align: center;
+    padding-top: 1.25em;
+    margin-top: 1.25em;
+    background-image: url( '/extension/ezteamroom/design/ezteamroom/images/footer_bg.png' );
+    background-position: top center;
+    background-repeat: no-repeat;
+    font-size: 0.85em;
+    margin-bottom: 0.25em;
+}
+
+div#footer address
+{
+    font-style:normal;
+}
+
+div#sidemenu
+{
+    padding: 0 0.25em 0 0;
+}
+
+div#extrainfo
+{
+    padding: 0 0 0 0.25em;
+}
+
+div#page
+{
+    width:960px;
+}
+
+div.noextrainfo div#main-position
+{
+    margin-right:0pt;
+    padding: 0px;
+    width: 100%;
+}
+
+div#main
+{
+    padding: 0px;
+}
+
+
+h2
+{
+    font-size:1.4em;
+}
+h1, h2, h3, h4, h5, h6
+{
+    font-weight:bold;
+    margin:0.8em 0pt 0.5em;
+    padding:0pt;
+    color:#999;
+}
+
+a
+{
+    color:#666;
+    text-decoration:underline;
+}
+
+
+div.attribute-header h1.long
+{
+    background: none;
+    color:#f06020;
+    font-size:1.8em;
+    font-weight:bold;
+    margin-bottom:0pt;
+    padding-bottom:20px;
+}
+
+div.attribute-header h1
+{
+    background: none;
+    color:#f06020;
+    font-size:1.8em;
+    font-weight:bold;
+    margin-bottom:0pt;
+    padding-bottom:20px;
+}
+
+input.text-button {
+    border: none;
+    background: none;
+    color: #E46507;
+    font-size: 11px;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+}
+
+table.list
+{
+    margin:0pt;
+    width:100%;
+}
+
+table.list th
+{
+    background: none;
+    font-weight:bold;
+}
+
+table.rolemanagement th
+{
+    background-color: #eeeee5;
+}
+
+
+table.renderedtable td,
+table.renderedtable a,
+table.list td,
+table.list a
+{
+    color: #999;
+    font-size: 10px;
+    text-decoration: none;
+}
+
+table.renderedtable a,
+table.list a
+{
+    color: #f06020;
+}
+div.object-right
+{
+    float: right;
+}
+
+div.class-personal-frontpage-header div.object-right
+{
+    margin-top: -50px;
+}
+
+div.border-box div.border-mc
+{
+    padding: 0px;
+}
+
+div.teamroom_menu div.border-tl
+{
+    background: url( '/extension/ezteamroom/design/ezteamroom/images/teamroom_box/border-tl.gif' ) no-repeat top left;
+}
+
+div.teamroom_menu div.border-tr
+{
+    background: url( '/extension/ezteamroom/design/ezteamroom/images/teamroom_box/border-tr.gif' ) no-repeat top right;
+    padding: 0 10px 0 10px;
+}
+
+div.teamroom_menu div.border-tc
+{
+    font-size: 0;
+    height: 10px;
+    background: url( '/extension/ezteamroom/design/ezteamroom/images/teamroom_box/border-tc.gif' ) repeat-x top left;
+}
+
+div.teamroom_menu div.border-ml
+{
+    background: url( '/extension/ezteamroom/design/ezteamroom/images/teamroom_box/border-ml.gif' ) repeat-y center left;
+}
+
+div.teamroom_menu div.border-mr
+{
+    background: url( '/extension/ezteamroom/design/ezteamroom/images/teamroom_box/border-mr.gif' ) repeat-y center right;
+    padding: 0 1px 0 1px;
+}
+
+div.teamroom_menu div.border-mc
+{
+    height: 1%;
+    background-color: #eeeee5;
+    padding: 0.5em 0.75em 0.5em 0.75em;
+}
+
+div.teamroom_menu div.border-mc:before, div.teamroom_menu div.border-mc:after
+{
+    content: "-";
+    height: 0;
+    visibility: hidden;
+    display: block;
+    clear: both;
+}
+
+div.teamroom_menu div.border-bl
+{
+    background: url( '/extension/ezteamroom/design/ezteamroom/images/teamroom_box/border-bl.gif' ) no-repeat bottom left;
+}
+
+div.teamroom_menu div.border-br
+{
+    background: url( '/extension/ezteamroom/design/ezteamroom/images/teamroom_box/border-br.gif' ) no-repeat bottom right;
+    padding: 0 4px 0 4px;
+}
+
+div.teamroom_menu div.border-bc
+{
+    font-size: 0;
+    height: 4px;
+    background: url( '/extension/ezteamroom/design/ezteamroom/images/teamroom_box/border-bc.gif' ) repeat-x bottom left;
+}
+
+div.access_type_image
+{
+    display: block;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 0px;
+    margin-left: 8px;
+}
+div.access_type_private
+{
+    background-position: 0px 0px;
+    background-image: url( '/extension/ezteamroom/design/ezteamroom/images/teamroom/sprites_map_50_50_itemsize.gif' );
+    background-repeat: no-repeat;
+}
+div.access_type_private_active
+{
+    background-position: -50px 0px;
+    background-image: url( '/extension/ezteamroom/design/ezteamroom/images/teamroom/sprites_map_50_50_itemsize.gif' );
+    background-repeat: no-repeat;
+}
+div.access_type_internal
+{
+    background-position: -100px 0px;
+    background-image: url( '/extension/ezteamroom/design/ezteamroom/images/teamroom/sprites_map_50_50_itemsize.gif' );
+    background-repeat: no-repeat;
+}
+div.access_type_internal_active
+{
+    background-position: -150px 0px;
+    background-image: url( '/extension/ezteamroom/design/ezteamroom/images/teamroom/sprites_map_50_50_itemsize.gif' );
+    background-repeat: no-repeat;
+}
+div.access_type_protected
+{
+    background-position: 0px -50px;
+    background-image: url( '/extension/ezteamroom/design/ezteamroom/images/teamroom/sprites_map_50_50_itemsize.gif' );
+    background-repeat: no-repeat;
+}
+div.access_type_protected_active
+{
+    background-position: -50px -50px;
+    background-image: url( '/extension/ezteamroom/design/ezteamroom/images/teamroom/sprites_map_50_50_itemsize.gif' );
+    background-repeat: no-repeat;
+}
+div.access_type_public
+{
+    background-position: -100px -50px;
+    background-image: url( '/extension/ezteamroom/design/ezteamroom/images/teamroom/sprites_map_50_50_itemsize.gif' );
+    background-repeat: no-repeat;
+}
+div.access_type_public_active
+{
+    background-position: -150px -50px;
+    background-image: url( '/extension/ezteamroom/design/ezteamroom/images/teamroom/sprites_map_50_50_itemsize.gif' );
+    background-repeat: no-repeat;
+}
+
+
+div.itemized_sub_items
+{
+    width:auto;
+}
+div.content_width
+{
+    width: 785px;
+}
+div#sidemenu h4,
+div#extrainfo-position h4,
+div#sidemenu h4 a,
+div#extrainfo-position h4 a
+{
+    margin: 0px;
+    color:#525345;
+    float: left;
+}
+
+div#sidemenu h5,
+div#extrainfo-position h5
+{
+    color:#525345;
+    font-size: 0.9em;
+}
+
+div#extrainfo-position ul li
+{
+    list-style-image:none;
+    list-style-type:none;
+    margin:0.25em 0pt;
+}
+
+div#extrainfo-position ul
+{
+    list-style-type:none;
+    margin:0.5em 0pt;
+}
+
+div#extrainfo-position ul.menu-list li a,
+div#extrainfo-position ul.submenu-list li a
+{
+    background-image:none;
+    display:block;
+    padding-left:0px;
+}
+
+div#extrainfo-position ul li,
+div#sidemenu ul.menu-list li,
+div#sidemenu ul.submenu-list li
+{
+    background-image:url( '/extension/ezteamroom/design/ezteamroom/images/sidemenu_bullet.png' );
+    background-position:0.2em 0.5em;
+    background-repeat:no-repeat;
+    font-size:0.8em;
+}
+
+div#sidemenu ul.menu-list li a, div#sidemenu ul.submenu-list li a
+{
+    background: none;
+    display:block;
+    font-size:0.8em;
+    padding-left:0px;
+}
+
+
+div#sidemenu div.border-box,
+div#extrainfo-position div.border-box,
+div.drag_drop_box
+{
+    max-width:14em;
+    background-color:#fff;
+}
+
+/*
+
+Is this required? Why is it not 18px x 18px?
+
+div#sidemenu div.widget-menu a.maxmin-button,
+div#extrainfo-position div.widget-menu a.maxmin-button
+{
+    background-image: url( '/extension/ezteamroom/design/ezteamroom/images/boxes/max_min_close.png' );
+    background-position: 0px 18px;
+    display: block;
+    float: left;
+    height: 10px;
+    width: 10px;
+}*/
+
+div#sidemenu div.widget-menu,
+div#extrainfo-position div.widget-menu
+{
+    float:              right;
+    width:              44px;
+}
+
+/*
+
+Is this required? Why is it not 18px x 18px?
+
+div#sidemenu div.widget-menu a.close-button,
+div#extrainfo-position div.widget-menu a.close-button
+{
+    background-image: url( '/extension/ezteamroom/design/ezteamroom/images/boxes/max_min_close.png' );
+    background-position: 0px 18px;
+    display:block;
+    float:right;
+    height:10px;
+    width:10px;
+}
+
+*/
+
+div#sidemenu div.widget-dragbar-handler,
+div#extrainfo-position div.widget-dragbar-handler
+{
+    background: none;
+    cursor:move;
+    height:20px;
+    margin-left:4px;
+    margin-top:3px;
+    padding:0pt;
+    position:absolute;
+    width:13em;
+    z-index:0;
+}
+
+div.dnd_move div.widget-menu {
+    display: none;
+}
+
+div.dnd_move,
+div.dnd_move a
+{
+    color:#666;
+}
+
+    div#sidemenu div.available-widgets a
+{
+    float: none;
+}
+
+div.dnd_move h4
+{
+    color:#666;
+}
+
+div.attribute-join
+{
+    padding-left: 14em;
+    border-top: #ccc 1px solid;
+    margin-top: 10px;
+    font-size: 10px;
+}
+
+div.attribute-join p
+{
+    width: 100%;
+}
+
+div.attribute-join form
+{
+    width:350px;
+    margin: 3px;
+    margin-left:-14em;
+    float: left;
+    font-size: 10px;
+}
+
+div.attribute-join form input
+{
+    font-size: 10px;
+}
+
+div.attribute-join label
+{
+    float: left;
+}
+
+div#extrainfo-position div.teamroom_menu ul li,
+div#sidemenu div.teamroom_menu ul li
+{
+    background-image:url( '/extension/ezteamroom/design/ezteamroom/images/sidemenu_bullet2.png' );
+}
+
+table.avatar
+{
+    width: 100%;
+}
+
+table.avatar td.image
+{
+    width: 70px;
+    border-right: 1px solid #fff;
+}
+
+table.avatar td.info
+{
+    border-right: 1px solid #fff;
+    padding-left: 10px;
+}
+
+table.avatar td.invite
+{
+    width: 100px;
+    border-right: 1px solid #fff;
+}
+
+table.avatar td.mail
+{
+    width: 100px;
+}
+
+table.avatar a
+{
+    color: #f06020;
+}
+
+div#main ul.member-list
+{
+    list-style-type:none;
+    margin:0.5em 0pt;
+}
+
+div#main ul.member-list li
+{
+    background:transparent url( '/extension/ezteamroom/design/ezteamroom/images/teamroom_bg.png' ) repeat-x scroll 0px 0px;
+}
+
+
+input.button,
+input.defaultbutton,
+button
+{
+    background:transparent url( '/extension/ezteamroom/design/ezteamroom/images/button_bg.png' ) no-repeat scroll 0px;
+    border:medium none;
+    color:#EEEEE5;
+    font-weight:normal;
+    height:25px;
+    width:152px;
+}
+
+input.smallbutton
+{
+    background:transparent url( '/extension/ezteamroom/design/ezteamroom/images/button_bg.png' ) no-repeat scroll 0px;
+    border:medium none;
+    color:#EEEEE5;
+    font-weight:normal;
+    height:25px;
+    width:152px;
+}
+
+input.defaultbutton
+{
+    font-weight: bold;
+}
+
+div.blog_actions
+{
+    float:right;
+    margin-top:-10px;
+    text-align:right;
+    width:155px;
+}
+
+div.comment_actions
+{
+    float:right;
+    margin-top:-5px;
+    text-align:right;
+    width:55px;
+}
+
+
+
+div.class-event-calendar div.blog_actions,
+div.class-documentation-page div.blog_actions
+{
+    float:right;
+    margin-top:-32px;
+    text-align:right;
+    width:153px;
+}
+div.class-event-calendar div.blog_actions
+{
+    margin-top:-10px;
+}
+
+
+div.blog_actions div.attribute-comments,
+div.blog_actions div.attribute-edit
+{
+    border-left:1px solid #FFFFFF;
+    float:left;
+    height:50px;
+    padding-top:10px;
+    padding-top:15px;
+    text-align:center;
+    width:50px;
+}
+
+div.comment_actions div.attribute-comments,
+div.comment_actions div.attribute-edit
+{
+    border-left:1px solid #FFFFFF;
+    float:left;
+    height:25px;
+    padding-top:10px;
+    text-align:center;
+    width:25px;
+}
+
+div.blog_actions div.attribute-comments p
+{
+    margin:0px;
+    padding: 0px;
+}
+
+div.class-event-calendar div.blog_actions div.attribute-edit
+{
+    height: 40px;
+}
+
+
+
+table.tasklist th
+{
+    color: #fff;
+    background-color: #f06020;
+}
+
+table.tasklist tr.task-additional-info
+{
+    background: none;
+}
+
+table.tasklist tr.task-additional-info div.attribute-long
+{
+    text-align: justify;
+}
+
+table.tasklist tr.task-additional-info td.content
+{
+    background: url( '/extension/ezteamroom/design/ezteamroom/images/taskinfo_bg.png' ) repeat-x top left;
+    border-left: 1px #999 solid;
+    border-right: 1px #999 solid;
+    border-bottom: 1px #999 solid;
+}
+table.tasklist tr.task-additional-info td.left
+{
+    border-top: 1px #999 solid;
+}
+table.tasklist tr.task-additional-info td.right
+{
+    border-top: 1px #999 solid;
+}
+
+table.tasklist tr.bglight,
+table.tasklist tr.bgdark,
+table.tasklist tr
+{
+    background: #fff url( '/extension/ezteamroom/design/ezteamroom/images/task_bg.png' ) repeat-x bottom left;
+}
+table.tasklist tr:hover
+{
+    background: #eeeeec;
+}
+
+
+table.tasklist td.edit
+{
+    width: 10px;
+}
+
+
+table.taskdetails
+{
+    margin-top: 1.1em;
+}
+
+table.taskdetails tr
+{
+    background-image: none;
+    background-color: transparent;
+}
+
+table.taskdetails tr td
+{
+    padding: 2px;
+}
+
+#slider-bg
+{
+    position: relative;
+    background:url( '/extension/ezteamroom/design/ezteamroom/images/yui/fader.gif' ) 0px 7px no-repeat;
+    width:28px;
+    height:100px;
+    border: #2e3436 1px solid;
+}
+
+#slider-thumb
+{
+    cursor:default;
+    position: absolute;
+    top: 4px;
+}
+
+
+
+
+
+
+
+
+div.sliderprio5,
+#slider-bg.sliderprio5
+{
+    background-color: #eeeee5;
+}
+
+div.sliderprio4,
+#slider-bg.sliderprio4
+{
+    background-color: #8ae234;
+}
+
+div.sliderprio3,
+#slider-bg.sliderprio3
+{
+    background-color: #edd400;
+}
+
+div.sliderprio2,
+#slider-bg.sliderprio2
+{
+    background-color: #f57900;
+}
+
+div.sliderprio1,
+#slider-bg.sliderprio1
+{
+    background-color: #cc0000;
+}
+
+
+div.sortfield
+{
+    float: left;
+    margin-right: 5px;
+}
+
+
+table.list tr.bggroup
+{
+    background-color: #d3d7cf;
+}
+
+div#header
+{
+    background-color:#FFFFFF;
+    padding:0.25em 0.25em 0.25em;
+    border-bottom:1px solid #CCCCCC;
+    margin-bottom:10px;
+    padding-bottom:10px;
+}
+
+div#header ul li
+{
+    display:inline;
+    list-style-image:none;
+    list-style-type:none;
+    margin-left:1em;
+    padding:0pt;
+}
+
+/* top link list */
+div#links {
+    float: right;
+    clear: right;
+    height: 70px;
+    padding: 0;
+}
+div#links ul {
+    display: inline;
+}
+div#links ul li {
+    float: left;
+    display: block;
+    padding: 0;
+    margin: 0;
+    width: 81px;
+}
+div#links div.link-text {
+    text-align: center;
+    font-size: 10px;
+    margin-top: -1px;
+}
+div#links div.link-text a{
+    background-image: none !important;
+    text-decoration: none;
+    display: inline;
+}
+div#links a {
+    display: block;
+    padding: 0;
+    margin: 0 auto;
+    width: 45px;
+    height: 45px;
+}
+
+div#links a#links_login_a
+{
+    background-image: url( '/extension/ezteamroom/design/ezteamroom/images/icons/top/sprites_map_90_45_itemsize.gif' );
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+}
+div#links a#links_login_a:hover
+{
+    background-image: url( '/extension/ezteamroom/design/ezteamroom/images/icons/top/sprites_map_90_45_itemsize.gif' );
+    background-position: -45px 0px;
+    background-repeat: no-repeat;
+}
+div#links a#links_logout_a
+{
+    background-image: url( '/extension/ezteamroom/design/ezteamroom/images/icons/top/sprites_map_90_45_itemsize.gif' );
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+}
+div#links a#links_logout_a:hover
+{
+    background-image: url( '/extension/ezteamroom/design/ezteamroom/images/icons/top/sprites_map_90_45_itemsize.gif' );
+    background-position: -45px 0px;
+    background-repeat: no-repeat;
+}
+div#links a#links_profile_a
+{
+    background-position: -90px 0px;
+    background-image: url( '/extension/ezteamroom/design/ezteamroom/images/icons/top/sprites_map_90_45_itemsize.gif' );
+    background-repeat: no-repeat;
+}
+div#links a#links_profile_a:hover
+{
+    background-position: -135px 0px;
+    background-image: url( '/extension/ezteamroom/design/ezteamroom/images/icons/top/sprites_map_90_45_itemsize.gif' );
+    background-repeat: no-repeat;
+}
+div#links a#links_teamrooms_a
+{
+    background-position: -180px 0px;
+    background-image: url( '/extension/ezteamroom/design/ezteamroom/images/icons/top/sprites_map_90_45_itemsize.gif' );
+    background-repeat: no-repeat;
+}
+div#links a#links_teamrooms_a:hover
+{
+    background-position: -225px 0px;
+    background-image: url( '/extension/ezteamroom/design/ezteamroom/images/icons/top/sprites_map_90_45_itemsize.gif' );
+    background-repeat: no-repeat;
+}
+div#links a#links_sitemap_a
+{
+    background-position: 0px -45px;
+    background-image: url( '/extension/ezteamroom/design/ezteamroom/images/icons/top/sprites_map_90_45_itemsize.gif' );
+    background-repeat: no-repeat;
+}
+div#links a#links_sitemap_a:hover
+{
+    background-position: -45px -45px;
+    background-image: url( '/extension/ezteamroom/design/ezteamroom/images/icons/top/sprites_map_90_45_itemsize.gif' );
+    background-repeat: no-repeat;
+}
+div#links a#links_help_a
+{
+    background-position: -90px -45px;
+    background-image: url( '/extension/ezteamroom/design/ezteamroom/images/icons/top/sprites_map_90_45_itemsize.gif' );
+    background-repeat: no-repeat;
+}
+div#links a#links_help_a:hover
+{
+    background-position: -135px -45px;
+    background-image: url( '/extension/ezteamroom/design/ezteamroom/images/icons/top/sprites_map_90_45_itemsize.gif' );
+    background-repeat: no-repeat;
+}
+div#links a#links_register_a
+{
+    background-position: -180px -45px;
+    background-image: url( '/extension/ezteamroom/design/ezteamroom/images/icons/top/sprites_map_90_45_itemsize.gif' );
+    background-repeat: no-repeat;
+}
+div#links a#links_register_a:hover
+{
+    background-position: -225px -45px;
+    background-image: url( '/extension/ezteamroom/design/ezteamroom/images/icons/top/sprites_map_90_45_itemsize.gif' );
+    background-repeat: no-repeat;
+}
+
+div#searchbox
+{
+    float:right;
+    margin:0px;
+    text-align:right;
+    width: 270px;
+}
+div#searchbox label
+{
+    display: inline;
+    font-size: 12px;
+    margin-bottom: 3px;
+    position: relative;
+    top: 0px;
+}
+div#searchbox input#searchbutton
+{
+    height: 19px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    color: #000;
+    margin: 0px;
+    margin-bottom: 3px;
+    padding: 0px;
+    font-weight: bold;
+    font-size: 11px;
+}
+
+div#searchbox input#searchtext
+{
+    border:1px solid #ccc;
+    font-size:12px;
+    height: 15px;
+    margin-bottom: 3px;
+    background-color: #FFF;
+}
+
+div#topmenu
+{
+    margin:0px;
+    margin-bottom:5px;
+    margin-top:5px;
+    padding:0px;
+}
+
+div#footer
+{
+    background-image:url( '/extension/ezteamroom/design/ezteamroom/images/footer-bg.jpg' );
+    background-position:center top;
+    background-repeat:no-repeat;
+    clear:both;
+    font-size:0.85em;
+    margin-bottom:0.25em;
+    padding-top:1.25em;
+    text-align:center;
+    height: 100px;
+}
+
+div.widget-dragbar-handler
+{
+    background-color:transparent;
+    background-position:right top;
+    cursor:move;
+    position:absolute;
+    height:32px;
+    margin-left:0;
+    margin-top:1px;
+    padding:0;
+    width:173px;
+}
+
+
+div.DragContainer
+{
+    float:left;
+    margin: 0px 20px 0px 0px;
+    padding:0px;
+    width:225px;
+    min-height: 400px;
+}
+
+div#DragContainer4.DragContainer
+{
+    margin: 0px;
+}
+
+div.module-content a.module-url
+{
+    display: none;
+}
+
+div.widget-dragbar
+{
+    width: auto;
+    background:url( '/extension/ezteamroom/design/ezteamroom/images/box_bg.gif' ) 0px 0px no-repeat;
+    border :none;
+    height: 35px;
+}
+
+.widget-box-over, .widget-box-drag, .widget-box
+{
+    background-color:#ffffff;
+    background: none;
+    border: none;
+    margin:4px;
+    margin-bottom:35px;
+    padding:1px;
+    width:223px;
+}
+
+div.widget-content
+{
+    background:url( '/extension/ezteamroom/design/ezteamroom/images/box_bg2.gif' ) 0px 0px repeat-y;
+    width: auto;
+    padding: 10px 10px 0px 10px;
+    font-size: 10px;
+    margin-bottom:0px;
+}
+
+div.widget-content p
+{
+    font-size: 10px;
+    text-align: justify;
+}
+div.widget-content a
+{
+    color: #f06020;
+    font-size: 10px;
+    text-decoration: none;
+}
+
+div.widget-footer
+{
+    background:transparent url( '/extension/ezteamroom/design/ezteamroom/images/box_bg3.gif' ) no-repeat scroll 0px;
+    height:10px;
+    left:-10px;
+    margin-bottom:0px;
+    position:relative;
+    top:10px;
+    width:224px;
+}
+
+div.widget-menu a.maxmin-button
+{
+    background-image: url( '/extension/ezteamroom/design/ezteamroom/images/boxes/max_min_close.png' );
+    background-position: 0px 36px;
+    display:block;
+    float:left;
+    height: 18px;
+    width: 18px;
+    margin:3px 2px 2px;
+    padding:0pt
+}
+
+div.widget-menu a.close-button
+{
+    background-image: url( '/extension/ezteamroom/design/ezteamroom/images/boxes/max_min_close.png' );
+    background-position: 0px 18px;
+    display:block;
+    float:right;
+    height:18px;
+    width:18px;
+    margin:3px 2px 2px;
+    padding:0pt
+}
+
+div.widget-menu
+{
+    margin-right:7px;
+    margin-top:6px;
+    width:44px;
+    float: right;
+}
+div.widget-dragbar div.title
+{
+    color: #fff;
+    float:left;
+    font-size:12px;
+    font-weight: bold;
+    padding: 7px 5px 0px 5px;
+    text-decoration: none;
+    width: 122px;
+    height: 35px;
+    line-height: 21px;
+    white-space: nowrap;
+}
+div.widget-dragbar div.title h3
+{
+    color: #fff;
+    margin: 0px;
+    padding: 0px;
+    font-size:11px;
+}
+div.widget-dragbar div.icon div
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+div.widget-dragbar div.icon
+{
+    float:left;
+    height: 50px;
+    width: 50px;
+    margin: 0px 0px -5px -12px;
+    position:relative;
+    top:-13px;
+}
+
+div.addWidget
+{
+    color:#f06020;
+    height:33px;
+    margin-bottom:-20px;
+    text-align:left;
+    text-decoration:none;
+    display:block;
+    width:150px;
+    font-size:10px;
+    position: relative;
+    top: -29px;
+    left: 14px;
+}
+
+a#addNewWidgetButton
+{
+    background:url( '/extension/ezteamroom/design/ezteamroom/images/icons/add_widget.gif' ) 0px 0px no-repeat;
+    color:#f06020;
+    height:33px;
+    padding-top:10px;
+    padding-left:40px;
+    text-align:left;
+    text-decoration:none;
+    display:block;
+    width:150px;
+    font-size:10px;
+}
+
+div.class-personal-frontpage div.border-box,
+div.class-teamroom-header
+{
+    background: url( '/extension/ezteamroom/design/ezteamroom/images/content-bg.jpg' ) bottom center no-repeat;
+    margin-bottom: 14px;
+}
+
+div.class-infobox,
+div.pf_box
+{
+    margin-top: 7px;
+}
+div.class-personal-frontpage div.available-widgets
+{
+    background: #ccc;
+}
+div.class-personal-frontpage div.border-box div.border-mc div.class-personal-frontpage-header
+{
+    padding-left: 25px;
+    padding-bottom: 22px;
+}
+
+div.class-personal-frontpage h1
+{
+    color: #f06020;
+}
+
+div#path_search
+{
+    background-color:#FFFFFF;
+    padding:0px;
+}
+
+div#path
+{
+    float:left;
+    font-size:10px;
+    padding: 0px;
+    width: 655px;
+    border: 1px solid #ccc;
+    height: 17px;
+    line-height: 17px;
+}
+
+div#path div
+{
+    float: left;
+    color: #f06020;
+}
+
+div#path a
+{
+    text-decoration: none;
+    color: #f06020;
+}
+
+div#path div#path_2,
+div#path div.path_delimiter
+{
+    margin-right: 6px;
+}
+
+div#path div#path_2
+{
+    padding-top: 2px;
+}
+
+div#path div.path_delimiter
+{
+    margin-left: 5px;
+}
+
+div#path div.path_text
+{
+    padding-top: 0;
+}
+
+div#path div.path_text img
+{
+    margin-top: -2px;
+}
+
+
+div.attribute-header h1,
+div.maincontentheader h1,
+h1.context-title
+{
+    background: none;
+    color: #f06020;
+    padding-left: 10px;
+}
+
+
+div.attribute-header h2,
+div.maincontentheader h2,
+h2.context-title
+{
+    background: none;
+    color: #f06020;
+}
+
+div#topmenu div.topmenu-design
+{
+    background:none;
+    padding: 0px;
+}
+
+div#topmenu ul
+{
+    background:url( '/extension/ezteamroom/design/ezteamroom/images/menu/bg.gif' ) 0px 0px no-repeat;
+    height:39px;
+    margin:0pt;
+    padding-left:10px;
+}
+div#topmenu li
+{
+    background: none;
+    float:left;
+    font-size:0.85em;
+    font-weight:bold;
+    height:39px;
+    list-style-image:none;
+    list-style-type:none;
+    margin:0pt;
+    padding:0pt;
+}
+
+div#topmenu li.firstli
+{
+    background: none;
+}
+div#topmenu li.firstli a
+{
+    border-left: 1px solid #FFFFFF;
+}
+div#topmenu li.lastli
+{
+    background: none;
+}
+
+div#topmenu li a
+{
+    background-color:transparent;
+    border-right:1px solid #fff;
+    color:#fff;
+    display:block;
+    float:left;
+    height:22px;
+    line-height:22px;
+    margin: 0px;
+    padding: 8px 15px 0pt;
+    text-decoration:none;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+div#topmenu li a:hover
+{
+    border-bottom: 3px solid #fff;
+}
+
+div#topmenu li.current,
+div#topmenu li.selected
+{
+    background:url( '/extension/ezteamroom/design/ezteamroom/images/menu/bg_current.gif' ) repeat-x 0px 0px;
+}
+
+div#topmenu li.current a,
+div#topmenu li.selected a
+{
+    font-weight: bold;
+    color:#666;
+}
+
+
+
+
+
+
+
+
+
+
+div.class-teamroom-header div.columns-teamroom-header
+{
+    padding: 0 270px 0 260px;
+}
+div.content-view-full div.class-file-folder div.columns-frontpage,
+div.content-view-full div.class-task_list div.columns-frontpage,
+div.content-view-full div.class-milestone_folder div.columns-frontpage,
+div.content-view-full div.class-personal_frontpage div.columns-frontpage,
+div.content-view-full div.class-user_group div.columns-frontpage,
+div.content-view-full div.class-forum div.columns-frontpage,
+div.content-view-full div.class-forum_topic div.columns-frontpage,
+div.content-view-full div.class-blog div.columns-frontpage,
+div.content-view-full div.class-blog_post div.columns-frontpage
+{
+    padding: 0 260px 0 260px;
+}
+
+div.content-view-full div.class-event_calendar div.columns-frontpage
+{
+    padding: 0 260px 0 300px;
+}
+
+
+div.content-view-full div.class-documentation_page div.columns-frontpage
+{
+    padding: 0 260px 0 190px;
+}
+
+div.class-teamroom-header.noleftcolumn div.columns-teamroom-header,
+div.content-view-full div.noleftcolumn div.columns-frontpage
+{
+    padding-left: 0;
+}
+
+div.class-teamroom-header.norightcolumn div.columns-teamroom-header,
+div.content-view-full div.norightcolumn div.columns-frontpage
+{
+    padding-right: 0;
+}
+
+div.class-teamroom-header div.columns-teamroom-header div.left-column-position,
+div.content-view-full div.columns-frontpage div.left-column-position
+{
+    width: 260px;
+    margin-left: -260px;
+    float: left;
+    display: inline;
+}
+
+div.content-view-full div.class-event_calendar div.columns-frontpage  div.left-column-position
+{
+    width: 300px;
+    margin-left: -300px;
+    float: left;
+    display: inline;
+}
+
+div.content-view-full div.class-documentation_page div.columns-frontpage div.left-column-position
+{
+    width: 170px;
+    margin-left: -190px;
+}
+
+
+
+div.class-teamroom-header.noleftcolumn div.columns-teamroom-header div.left-column-position,
+div.content-view-full div.noleftcolumn div.columns-frontpage div.left-column-position
+{
+    display: none;
+}
+
+div.class-teamroom-header div.columns-teamroom-header div.left-column-position div.left-column,
+div.content-view-full div.leftcolumn div.columns-frontpage div.left-column-position div.left-column
+{
+    margin-right: 1em;
+}
+
+div.class-teamroom-header div.columns-teamroom-header div.right-column-position
+{
+    width: 270px;
+    margin-right: -270px;
+    float: left;
+}
+
+div.content-view-full div.columns-frontpage div.right-column-position
+{
+    width: 260px;
+    margin-right: -260px;
+    float: left;
+}
+
+div.content-view-full div.class-event_calendar div.columns-frontpage div.right-column-position
+{
+    margin-top: 5px;
+}
+
+div.class-teamroom-header.norightcolumn  div.columns-teamroom-header div.right-column-position,
+div.content-view-full div.norightcolumn div.columns-frontpage div.right-column-position
+{
+    display: none;
+}
+
+div.class-teamroom-header.rightcolumn  div.columns-teamroom-header div.right-column-position div.right-column,
+div.content-view-full div.rightcolumn div.columns-frontpage div.right-column-position div.right-column
+{
+    margin-left: 0px;
+}
+
+div.class-teamroom-header div.columns-teamroom-header div.center-column-position,
+div.content-view-full div.columns-frontpage div.center-column-position
+{
+    width: 100%;
+    float: left;
+    margin-top: 0;
+    margin-right:10px;
+    min-height: 20px;
+}
+
+div.content-view-full div.class-blog div.columns-frontpage div.center-column-position,
+div.content-view-full div.class-documentation_page div.columns-frontpage div.center-column-position
+{
+    margin-top:0px;
+}
+
+
+div.class-teamroom-header div.columns-teamroom-header div.center-column-position div.center-column,
+div.content-view-full div.noleftcolumn div.columns-frontpage div.center-column-position div.center-column
+{
+    margin-left: 0;
+    padding-right: 10px;
+}
+
+div.class-teamroom-header.norightcolumn div.columns-teamroom-header div.center-column-position div.center-column,
+div.content-view-full div.norightcolumn div.columns-frontpage div.center-column-position div.center-column
+{
+    margin-right: 0;
+    padding-left: 0;
+}
+
+div.class-teamroom-header div.columns-teamroom-header div.center-column-position div.center-column,
+div.content-view-full div.columns-frontpage div.center-column-position div.center-column
+{
+    margin: 0;
+}
+
+div.content-view-full div.class-event_calendar div.center-column-position div.center-column
+{
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+
+div.content-view-full div.class-event_calendar div.center-column-position div.center-column div.event-calendar-calendarview div.content-view-line
+{
+    margin-bottom: 10px;
+}
+
+div.content-view-full div.attribute-bottom-column
+{
+    clear: both
+}
+
+div.itemized_sub_items div.content-view-embed
+{
+    font-size: 12px;
+}
+div.itemized_sub_items div.content-view-embed ul li a
+{
+    background:none;
+    display:block;
+    padding-left:18px;
+    text-decoration: none;
+    color: #666;
+    font-size: 10px;
+}
+div.itemized_sub_items div.content-view-embed ul li a:hover
+{
+    color: #c60;
+}
+div.class-personal-frontpage div.content-view-embed div.border-box
+{
+    background:none;
+}
+
+div.content-view-full div.class-personal_frontpage div.center-column-position
+{
+    margin-left: 10px;
+}
+
+
+span.listitem_teamroom,
+span.listitem_file,
+span.listitem_blog-post,
+div.listitem_blog
+{
+    font-size: 10px;
+    color: #666;
+}
+div.class-personal-frontpage div.border-box div.border-mc div.listitem_blog
+{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+span.listitem_teamroom strong,
+span.listitem_file strong,
+span.listitem_blog-post strong,
+div.listitem_blog strong
+{
+    font-weight: bold;
+}
+
+span.listitem_file span.icon
+{
+    float: left;
+    margin-right: 3px;
+}
+
+span.listitem_file span.icon img
+{
+    height: 20px;
+    width:  20px;
+}
+
+span.listitem_teamroom span.name,
+span.listitem_file span.name,
+span.listitem_blog-post span.name,
+div.listitem_blog span.name
+{
+    color: #000;
+}
+div.class-teamroom-line span.date,
+span.listitem_teamroom span.date,
+div.listitem_blog span.date,
+span.listitem_file span.date,
+span.listitem_blog-post span.date
+{
+    margin-right: 5px;
+}
+span.listitem_teamroom span.owner,
+span.listitem_file span.owner,
+span.listitem_blog-post span.owner,
+div.listitem_blog span.owner
+{
+
+}
+div.class-teamroom-line span.owner strong,
+span.listitem_teamroom span.owner strong,
+span.listitem_file span.owner strong,
+span.listitem_blog-post span.owner strong
+{
+    color: #f06020;
+    font-weight: bold;
+}
+
+div.class-personal-frontpage div.border-box div.border-mc div.listitem_blog div.header
+{
+    border-bottom: 1px dotted #999;
+    padding-bottom: 3px;
+}
+
+div.class-personal-frontpage div.border-box div.border-mc div.listitem_blog div.tags
+{
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+div.class-personal-frontpage div.border-box div.border-mc div.listitem_blog span.more a,
+div.class-personal-frontpage div.border-box div.border-mc div.listitem_blog div.tags a
+{
+    color: #f06020;
+}
+
+div.class-personal-frontpage div.border-box div.border-mc div.listitem_blog span.more
+{
+    float: right;
+    color: #f06020;
+    margin-top: -16px;
+}
+
+div.class-personal-frontpage div.border-box div.border-mc div.listitem_blog span.message
+{
+    float: left;
+    border-bottom: 1px dotted #999;
+    padding-bottom: 10px;
+}
+
+div.class-personal-frontpage div.border-box div.border-mc div.listitem_blog div.title
+{
+    color: #f06020;
+    font-weight: bold;
+}
+
+div.listitem_blog span.owner
+{
+    float: right;
+    color: #f06020;
+}
+div.listitem_blog span.date
+{
+    float: left;
+    color: #f06020;
+}
+
+
+div.infobox-link
+{
+    width: 200px;
+    text-align: right;
+}
+
+div.infobox-link a
+{
+    font-size: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #f06020;
+}
+
+div.infobox-link a:hover
+{
+    color: #666;
+}
+
+
+div.class-personal-frontpage table td div.object-center div.content-view-embeddedmedia div.class-image img
+{
+    margin-bottom: -30px;
+    margin-top: -100px;
+}
+
+
+
+div.right-column div.border-box div div.create-file,
+div.right-column div.border-box div div.create-task,
+div.right-column div.border-box div div.sort-by,
+div.right-column div.border-box div div.categories,
+div.right-column div.border-box div div.keywords,
+div.left-column div.border-box div.border-mc
+{
+    background:url( '/extension/ezteamroom/design/ezteamroom/images/filebox_bg.gif' ) 0px 0px repeat-x;
+    min-height: 50px;
+    margin-bottom: 20px;
+}
+
+div#main div.right-column div.border-box div li.selected a,
+div#main div.right-column div.border-box div a.selected
+{
+    color: #999;
+}
+
+div.right-column div.border-box div div.keywords div.tags
+{
+    margin: 10px;
+    margin-left: 15px;
+}
+
+div#main div.right-column div.border-box div div.categories li,
+div#main div.right-column div.border-box div div.sort-by li
+{
+    background:transparent none repeat scroll 0%;
+    list-style:none;
+    margin-left:15px;
+    padding:0px;
+}
+
+div.right-column div.border-box div div.categories div.tags,
+div.right-column div.border-box div div.categories a,
+div.right-column div.border-box div div.keywords div.tags,
+div.right-column div.border-box div div.keywords a,
+div.right-column div.border-box div div.sort-by div.tags,
+div.right-column div.border-box div div.sort-by a
+{
+    font-size: 11px;
+    font-weight: bold;
+    color: #f06020;
+}
+
+div.class-personal_frontpage div.right-column div.border-box div.create-file div.submitimage,
+div.right-column div.border-box div.create-task div.submitimage,
+div.right-column div.border-box div.create-file div.submitimage
+{
+    padding-top:5px;
+    text-align:center;
+}
+
+div.right-column div.border-box div.create-task div.keepupdated
+{
+    padding-top:9px;
+    text-align:center;
+}
+
+div.right-column h3
+{
+    border-bottom:1px dotted #666666;
+    color:#666666;
+    font-size:12px;
+    font-weight:bold;
+    margin:10px 10px 0px;
+    padding:5px 0px 0px 3px;
+}
+
+div.file-list
+{
+    height: 80px;
+    width: 655px;
+    margin: 0px;
+    padding: 0px;
+}
+
+div.file-list a
+{
+    color: #f06020;
+    text-decoration: none;
+}
+
+div.file-list h4 a
+{
+    text-decoration: underline;
+}
+
+div.file-list a span.link
+{
+    text-decoration: underline;
+    white-space: normal;
+}
+
+div.file-list.bglight
+{
+    background-color: #fff;
+    font-weight: normal;
+    width:100%;
+}
+div.file-list.bgdark
+{
+    background-color: #EBEBEB;
+    font-weight: normal;
+    white-space: normal;
+    width:100%;
+}
+div.file-list.bgdark.locked
+{
+    background-color: #ffc0a3;
+}
+div.file-list.bglight.locked
+{
+    background-color: #ffd3bf;
+}
+
+div.file-list.bgdark div.file-list-icon,
+div.file-list.bgdark div.file-list-name,
+div.file-list.bgdark div.file-list-delete,
+div.file-list.bgdark div.file-list-update,
+div.file-list.bgdark div.file-list-bookmark,
+div.file-list.bgdark div.file-list-versions
+{
+    border-right: 1px solid #fff;
+}
+div.file-list.bglight div.file-list-icon,
+div.file-list.bglight div.file-list-name,
+div.file-list.bglight div.file-list-delete,
+div.file-list.bglight div.file-list-update,
+div.file-list.bglight div.file-list-bookmark,
+div.file-list.bglight div.file-list-versions
+{
+    border-right: 1px solid #EBEBEB;
+}
+
+
+div.file-list div.file-list-icon,
+div.file-list div.file-list-name,
+div.file-list div.file-list-delete,
+div.file-list div.file-list-update,
+div.file-list div.file-list-versions,
+div.file-list div.file-list-bookmark,
+div.file-list div.file-list-download
+{
+    height: 80px;
+    margin: 0px;
+    padding: 0px;
+}
+
+div.file-list div.file-list-icon,
+div.file-list div.file-list-name
+{
+    float: left;
+}
+div.file-list div.file-list-delete,
+div.file-list div.file-list-update,
+div.file-list div.file-list-versions,
+div.file-list div.file-list-bookmark,
+div.file-list div.file-list-download
+{
+    float: right;
+}
+
+div.file-list div.file-list-icon,
+div.file-list div.file-list-delete,
+div.file-list div.file-list-update,
+div.file-list div.file-list-versions,
+div.file-list div.file-list-bookmark,
+div.file-list div.file-list-download
+{
+    font-size: 10px;
+    color: #f06020;
+    text-align: center;
+}
+
+div.file-list div.file-list-icon
+{
+    padding:20px 0px 0px;
+    text-align:center;
+    vertical-align:middle;
+    width:105px;
+    height:55px;
+}
+
+div.file-list.class-milestone div.file-list-icon
+{
+    padding:25px 0px 0px;
+    text-align:center;
+    vertical-align:middle;
+    width:80px;
+    height:55px;
+    font-weight: bold;
+}
+
+div.file-list div.file-list-name
+{
+    width: 269px;
+    padding-left: 10px;
+    font-size:10px;
+    line-height:11px;
+}
+
+div.file-list div.file-list-name h4
+{
+    font-size:11px;
+    margin-top:6px;
+    padding:0px;
+}
+
+div.file-list div.file-list-name p
+{
+    color:#999;
+}
+
+div.file-list div.file-list-name span.date
+{
+    color: #f06020;
+    margin-right: 10px;
+}
+div.file-list div.file-list-name span.owner
+{
+    padding-left: 10px;
+}
+div.file-list div.file-list-name span.owner strong
+{
+    color: #f06020;
+}
+
+
+
+
+
+div.file-list div.file-list-delete
+{
+    width: 60px;
+}
+
+div.file-list div.file-list-update
+{
+    width: 60px;
+}
+
+div.file-list div.file-list-versions
+{
+    width: 60px;
+}
+
+div.file-list div.file-list-download
+{
+    width: 60px;
+}
+div.file-list div.file-list-bookmark
+{
+    width: 60px;
+}
+
+div.class-milestone div.file-list-download
+{
+    width: 85px;
+}
+
+div.class-milestone div.file-list-update
+{
+    width: 70px;
+}
+
+div.class-milestone div.file-list-name
+{
+    width: 378px;
+}
+
+div.home-box
+{
+    background: url( '/extension/ezteamroom/design/ezteamroom/images/content-bg.jpg' ) bottom center no-repeat;
+    height: 43px;
+}
+
+div.home-box div.home-box-icon
+{
+    background:transparent url( '/extension/ezteamroom/design/ezteamroom/images/icons/home.gif' ) no-repeat scroll 0px 50%;
+    float:left;
+    height:35px;
+    left:40px;
+    padding-left:35px;
+    padding-top:20px;
+    position:relative;
+    text-align:left;
+    top:15px;
+    width:150px;
+    line-height: 15px;
+}
+
+div.home-box div.home-box-favs
+{
+    background:transparent url( '/extension/ezteamroom/design/ezteamroom/images/icons/add_favs.gif' ) no-repeat scroll 0px 50%;
+    float:left;
+    height:35px;
+    left:550px;
+    margin-left:40px;
+    margin-top:10px;
+    padding-left:40px;
+    padding-top:20px;
+    position:relative;
+    text-align:left;
+    top:5px;
+    width:150px;
+    line-height: 15px;
+}
+
+label.submitlabel
+{
+    text-decoration: underline;
+    font-weight: normal;
+    cursor: pointer;
+    white-space: normal;
+}
+
+div.home-box a
+{
+    color:#f06020;
+    text-decoration:none;
+}
+
+
+p.info,
+div.info
+{
+    position:relative;
+    z-index:24;
+}
+
+p.info:hover,
+div.info:hover
+{
+    z-index:25;
+}
+
+p.info div.hiddendescription,
+div.info div.hiddendescription
+{
+    display: none;
+}
+
+p.info div.hiddendescription ul,
+p.info div.hiddendescription ol,
+div.info div.hiddendescription ul,
+div.info div.hiddendescription ol
+{
+    padding-left: 1.8em;
+}
+
+p.info:hover div.hiddendescription,
+div.info:hover div.hiddendescription
+{
+    display:block;
+    position:absolute;
+    top:2em;
+    left:2em;
+    width:270px;
+    border:1px solid #999;
+    background-color:#ddd;
+    padding: 3px;
+    color:#999;
+    text-align: left;
+}
+
+/* PAGE NAVIGATION */
+
+div.pagenavigator
+{
+    font-size:10px;
+    padding-right: 236px;
+    margin-top: 5px;
+}
+div.pagenavigator a
+{
+    color: #f06020;
+    text-decoration:none;
+}
+div.pagenavigator img
+{
+    padding-top: 2px;
+}
+div.pagenavigator strong
+{
+}
+
+div.pagenavigator span.previous,
+div.pagenavigator span.next,
+div.pagenavigator span.pages
+{
+    float: left;
+    margin-right: 5px;
+}
+
+div.pagenavigator span.showing
+{
+    float: left;
+    margin-right: 10px;
+    color: #999;
+}
+div.pagenavigator span.counter
+{
+    color: #999;
+    white-space: nowrap;
+}
+
+div.pagenavigator div.left
+{
+    width: 100%;
+    float: left;
+}
+div.pagenavigator div.right
+{
+    float: left;
+    width: 235px;
+    margin-right: -235px;
+}
+
+
+div.pagelimitator
+{
+    clear:both;
+    font-size:10px;
+    width:250px;
+}
+div.pagelimitator a
+{
+    color: #f06020;
+    text-decoration:none;
+}
+
+
+
+
+div#selectColumnPopup {
+    position: absolute;
+    top: 170px;
+    left: 550px;
+    z-index: 1000;
+    margin: 0;
+    padding: 0;
+}
+
+div#selectColumnPopup div.border-content {
+    height: 91px;
+    background-image: url( '/extension/ezteamroom/design/ezteamroom/images/selectcolumnbg.png' );
+    background-color: #999999;
+    color: white;
+    width: 140px;
+}
+
+div#selectColumnPopup ul.sub-menu-list {
+    font-size: 10px;
+    list-style: none;
+    background: none;
+    margin-left: 17px;
+    padding: 0;
+    text-indent: 0;
+    clear: both;
+}
+
+div#selectColumnPopup ul.sub-menu-list li {
+    float: left;
+    display: block;
+    background: none;
+    list-style: none;
+    margin: 0;
+    padding: 1px;
+}
+
+div#selectColumnPopup ul.sub-menu-list li a {
+    display: block;
+    color: #555555;
+    vertical-align: middle;
+    text-decoration: none;
+    height: 35px;
+    width: 25px;
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 15px;
+}
+
+
+div#selectColumnPopup span
+{
+    font-weight: bold;
+    float: left;
+    margin: 5px;
+}
+
+div#selectColumnPopup a.close-button
+{
+    float: right;
+    background-image: url( '/extension/ezteamroom/design/ezteamroom/images/boxes/max_min_close.png' );
+    background-position: 0px 18px;
+    text-decoration: none;
+    height: 18px;
+    width: 18px;
+    display: block;
+    margin-top: 4px;
+    margin-right: 5px;
+    padding: 0;
+}
+
+
+div#selectColumnPopup ul.sub-menu-list li a {
+    background: url( '/extension/ezteamroom/design/ezteamroom/images/selectcolumncolumn.png' ) no-repeat 0 0;
+}
+
+div#selectColumnPopup ul.sub-menu-list li a:hover {
+    background: url( '/extension/ezteamroom/design/ezteamroom/images/selectcolumncolumn.png' ) no-repeat -25px 0;
+}
+
+div.content-view-full div.class-file-folder div.attribute-long
+{
+    padding-right: 10px;
+}
+
+
+
+
+div.class-personal-frontpage div.columns-teamroom-header h1,
+div.class-personal-frontpage div.columns-teamroom-header h2
+{
+    color:#999;
+    margin: 0px;
+}
+div.class-personal-frontpage div.columns-teamroom-header h1
+{
+    font-size: 20px;
+}
+div.class-personal-frontpage div.columns-teamroom-header h2
+{
+    font-size: 12px;
+}
+
+div.class-personal-frontpage div.columns-teamroom-header strong
+{
+    color: #f06020;
+    margin: 0px;
+}
+
+
+div.class-personal-frontpage div.columns-teamroom-header div.center-column
+{
+    padding: 0px;
+    padding-left: 90px;
+}
+
+div.class-personal-frontpage div.columns-teamroom-header div.center-column div.title
+{
+    color:#f06020;
+    font-weight: bold;
+    width: 90px;
+    margin-left: -90px;
+    float: left;
+}
+
+div.class-personal-frontpage div.columns-teamroom-header div.center-column div.content
+{
+    color: #999;
+}
+
+div.class-teamroom-header.rightcolumn  div.columns-teamroom-header div.right-column-position div.right-column
+{
+    border-left:1px solid #CCCCCC;
+    padding-top:40px;
+    text-align:center;
+    height: 100px;
+}
+
+div.class-teamroom-header.rightcolumn  div.columns-teamroom-header div.left-column-position div.left-column
+{
+    border-right:1px solid #CCCCCC;
+    padding-left: 25px;
+    height: 140px;
+}
+
+div.class-teamroom-line.rightcolumn  div.columns-teamroom-line div.right-column-position div.right-column div.image,
+div.class-teamroom-header.rightcolumn  div.columns-teamroom-header div.right-column-position div.right-column div.image
+{
+    text-align: center;
+    float: left;
+    color: #999;
+    width: 66px;
+}
+
+div.class-teamroom-line.rightcolumn  div.columns-teamroom-line div.right-column-position div.right-column div.image.selected,
+div.class-teamroom-header.rightcolumn  div.columns-teamroom-header div.right-column-position div.right-column div.image.selected
+{
+    color: #f06020;
+}
+
+
+
+
+
+
+
+/* AGENDA */
+
+div#ezagenda_calendar_left
+{
+    vertical-align: top;
+    width: 228px;
+    float: left;
+}
+
+div#ezagenda_calendar_container
+{
+    width: 200px;
+    text-align: center;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+div#ezagenda_calendar_container h5
+{
+    text-align: left;
+    background-image:url( '/extension/ezteamroom/design/ezteamroom/images/list.gif' );
+    background-position:2px;
+    background-repeat:no-repeat;
+    padding-left:18px;
+    border-bottom: 1px #ccc solid;
+    color: #f06020;
+    font-size: 10px;
+}
+div#ezagenda_calendar_container table
+{
+    background: #FFF;
+    margin: 0px;
+    text-align: left;
+    vertical-align: top;
+    font-size: 9px;
+}
+div#ezagenda_calendar_container table th
+{
+    font-weight: bold;
+    text-align: center;
+    height: 20px;
+    border: none;
+    color: #f06020;
+}
+
+div#ezagenda_calendar_container table td
+{
+    background: url( '/extension/ezteamroom/design/ezteamroom/images/cal_bg.gif' ) 0px 0px repeat-x;
+    padding: 0px;
+    border: 1px solid #fff;
+    text-align: center;
+    width: 40px;
+}
+div#ezagenda_calendar_container table td a
+{
+    color: #f06020;
+    text-decoration: none;
+}
+
+div#ezagenda_calendar_container table .first_col
+{
+    border-left: 0px;
+}
+
+div#ezagenda_calendar_container table .last_col
+{
+    border-right: 0px;
+}
+
+
+div#ezagenda_calendar_container table  tr.calendar_heading
+{
+    background:url( '/extension/ezteamroom/design/ezteamroom/images/month_bg.gif' ) no-repeat 5px -2px;
+}
+div#ezagenda_calendar_container table  tr.calendar_heading th
+{
+    border: 0px;
+    padding-bottom: 12px;
+    padding-top: 8px;
+}
+
+div#ezagenda_calendar_container table  tr.calendar_heading th a
+{
+    text-decoration: none;
+    color: #f06020;
+    font-weight: normal;
+}
+
+div#ezagenda_calendar_container table td.ezagenda_selected
+{
+    background-color: #e4e5e4;
+}
+
+div#ezagenda_calendar_container table td.ezagenda_current, div#ezagenda_calendar_container table td.ezagenda_current a
+{
+    background: url( '/extension/ezteamroom/design/ezteamroom/images/cal_bg_s.gif' ) 0px 0px repeat-x;
+    color: #fff;
+    font-weight: bold;
+}
+
+div#ezagenda_calendar_right
+{
+    vertical-align: top;
+    padding-left: 12px;
+    margin-left: 225px;
+}
+
+.event-calendar-programview div#ezagenda_calendar_right
+{
+    margin-left: auto;
+    padding: 0;
+}
+.event-calendar-programview .block .right
+{
+    text-align: right;
+}
+
+
+div#ezagenda_calendar_right table.ezagenda_month_event
+{
+    border: 1px solid #f1f1ed;
+    margin-bottom: 5px;
+    width: 99%;
+       table-layout: fixed;
+       border-collapse: collapse;
+       vertical-align: top;
+}
+
+table.ezagenda_month_event td.ezagenda_month_label
+{
+    vertical-align: top;
+    padding-left: 7px;
+    padding-right: 7px;
+    width: 50px;
+}
+
+table.ezagenda_month_event td.ezagenda_month_label h2
+{
+    border: 1px solid #d2d2c5;
+    padding: 4px;
+    color:#979797;
+    font-size: 1.8em;
+    font-weight: normal;
+    background-color: #eeeee5;
+    width: 39px;
+    margin-top: 9px;
+    background-image:url( '/extension/ezteamroom/design/ezteamroom/images/date_bg.png' );
+    background-position: center bottom;
+    background-repeat: repeat-x;
+    text-align: center;
+}
+
+table.ezagenda_month_event td.ezagenda_month_info
+{
+    width: auto;
+    vertical-align: top;
+    padding-top: 8px;
+}
+
+table.ezagenda_month_event td.ezagenda_month_info h4, div#ezagenda_calendar_today div.ezagenda_day_event h4
+{
+    margin: 0;
+    font-size: 1.1em;
+}
+
+table.ezagenda_month_event td.ezagenda_month_info p
+{
+    margin-top: 0;
+    margin-bottom: 5px;
+    clear: both;
+}
+
+table.ezagenda_month_event span.ezagenda_date
+{
+    float: left;
+    margin-right: 6px;
+}
+
+div#ezagenda_calendar_today
+{
+    margin-top: 14px;
+    width: 228px;
+}
+
+div#ezagenda_calendar_today div.ezagenda_day_event
+{
+    border: 1px solid #f1f1ed;
+    margin-bottom: 4px;
+    padding: 7px;
+}
+
+
+span.ezagenda_keyword
+{
+    display: block;
+    font-size: 14px;
+    color: #666;
+    font-weight: bold;
+}
+
+span.ezagenda_date
+{
+    display: block;
+    font-size: 11px;
+    font-weight: bold;
+    color: #F06020;
+    margin-right: 10px;
+}
+
+div.content-view-embeddedmedia div#ezagenda_calendar_container
+{
+    width: auto;
+}
+
+div#sidebar_calendar_today div
+{
+    text-align: left;
+    padding-left: 10px;
+    font-size: 10px;
+}
+
+div#sidebar_calendar_today a
+{
+    display: block;
+    text-decoration: none;
+    position: relative;
+    color: #f06020;
+}
+
+div#sidebar_calendar_today a span.ezagenda_date
+{
+    position: absolute;
+    right: 10px;
+    top: 0em;
+}
+
+
+div#footer address a
+{
+    color: #f06020;
+    text-decoration: none;
+}
+
+
+div#main div.itemized_sub_items div.content-view-embed ul li,
+div.widget-content ul li,
+div#main div.widget-content ul li
+{
+    background: url( '/extension/ezteamroom/design/ezteamroom/images/list.gif' ) left 2px no-repeat;
+    line-height: 1.25em;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 3px;
+    margin-right: 5px;
+    border-bottom: 1px dotted #999;
+}
+div#main div.widget-content div.attribute-content ul li
+{
+    padding-left: 18px;
+    font-size: 10px;
+}
+div#main div.pf_box div.warning ul li
+{
+    padding-left: 15px;
+}
+
+div#main div.widget-content div.attribute-content ul li a
+{
+    padding-left: 0px;
+    font-size: 10px;
+    color: #f06020;
+}
+div.content-view-full div.class-milestone_folder div.content-view-children div.bglight
+{
+    background-color: #FFF;
+    font-weight: normal;
+    white-space: normal;
+}
+div.content-view-full div.class-milestone_folder div.content-view-children div.bgdark
+{
+    background-color: #EBEBEB;
+    font-weight: normal;
+    white-space: normal;
+}
+
+div.content-view-full div.class-milestone_folder div.content-view-children div.critical_timeline
+{
+    background-color: #fcaf3e;
+    color: #a00000;
+}
+div.content-view-full div.class-milestone_folder div.content-view-children
+{
+    padding: 0px;
+    margin: 0px;
+}
+
+div.content-view-full div.class-milestone_folder div.content-view-children div.milestone-infobox,
+div.content-view-full div.class-file-folder div.content-view-children div.file-infobox
+{
+    background: url( '/extension/ezteamroom/design/ezteamroom/images/taskinfo_bg.png' ) repeat-x top left;
+    border-bottom:1px solid #999;
+    border-left:1px solid #999;
+    border-right:1px solid #999;
+    margin-left:80px;
+    margin-right:105px;
+    padding:5px;
+}
+
+div.content-view-full div.class-milestone_folder div.content-view-children div.milestone-infobox.bglight
+div.content-view-full div.class-file-folder div.content-view-children div.file-infobox.bglight
+{
+
+    border-top:1px solid #EBEBEB;
+    border-left:1px solid #EBEBEB;
+    background-color: #fff;
+}
+
+div.content-view-full div.class-milestone_folder div.content-view-children div.milestone-infobox div.attribute-related_tasks,
+div.content-view-full div.class-milestone_folder div.content-view-children div.milestone-infobox div.attribute-related_files
+{
+    float: left;
+    width: 240px;
+}
+
+
+div.attribute-related_tasks span.prio,
+div.attribute-related_tasks span.date,
+div.attribute-related_tasks span.name,
+div.attribute-related_tasks span.prog
+{
+    font-size: 10px;
+}
+
+div.attribute-related_tasks span.prio
+{
+    font-weight: bold;
+}
+div.attribute-related_tasks span.date
+{
+    color: #666;
+}
+div.attribute-related_tasks span.name
+{
+    color: #666;
+}
+div.attribute-related_tasks span.prog
+{
+}
+
+div#main div.attribute-related_files ul li,
+div#main div.attribute-related_tasks ul li
+{
+    background: none;
+    list-style-image:none;
+    list-style-type:none;
+    margin:0px;
+    padding:0px;
+    padding-left:5px;
+}
+
+div#main div.attribute-related_tasks ul,
+div#main div.attribute-related_files ul
+{
+    list-style-type:none;
+    margin:0.5em 0pt;
+}
+
+div#main div.attribute-related_tasks ul a,
+div#main div.attribute-related_files ul a
+{
+    font-size: 10px;
+    color: #f06020;
+    text-decoration: none;
+}
+
+div#main div.attribute-related_tasks div.sliderprio5,
+div#main div.attribute-related_tasks div.sliderprio4,
+div#main div.attribute-related_tasks div.sliderprio3,
+div#main div.attribute-related_tasks div.sliderprio2,
+div#main div.attribute-related_tasks div.sliderprio1
+{
+    float: left;
+    width: 10px;
+    margin: 0px;
+    padding: 0px;
+    padding-left: 1px;
+    padding-right: 1px;
+    color: #666;
+}
+
+
+div#main div.attribute-related_tasks div.sliderprio5
+{
+    background-color: #eeeee5;
+}
+
+div#main div.attribute-related_tasks div.sliderprio4
+{
+    background-color: #8ae234;
+}
+
+div#main div.attribute-related_tasks div.sliderprio3
+{
+    background-color: #edd400;
+}
+
+div#main div.attribute-related_tasks div.sliderprio2
+{
+    background-color: #f57900;
+}
+
+div#main div.attribute-related_tasks div.sliderprio1
+{
+    background-color: #cc0000;
+}
+
+
+div.user-login div.block
+{
+    margin-left: 200px;
+}
+
+div.user-login div.buttonblock
+{
+    width: 100%;
+    text-align: center;
+    background: none;
+}
+
+div.user-login div.attribute-header h1
+{
+    background: none;
+    color: #f06020;
+}
+
+
+div.user-login div.block label
+{
+    float: left;
+    color: #666;
+    width: 80px;
+}
+
+div.user-login div.block input
+{
+    border: 1px #666 solid;
+    color: #666;
+}
+
+table.tasklist
+{
+    margin-top: 0px;
+}
+
+/* Progress bar */
+table.tasklist td.prog a.prog025,
+table.tasklist td.prog a.prog050,
+table.tasklist td.prog a.prog075,
+table.tasklist td.prog a.prog100
+{
+    display: block;
+    width: 12px;
+    height: 20px;
+    float: left;
+    margin-right: 1px;
+}
+table.tasklist td.prog div.procent
+{
+    float: left;
+    width: 20px;
+    height: 20px;
+    color: #f06020;
+    font-weight: bold;
+    font-size: 14px;
+    margin: 4px 0px 0px 10px;
+}
+
+table.tasklist td.prog a.prog025:hover,
+table.tasklist td.prog a.prog050:hover,
+table.tasklist td.prog a.prog075:hover,
+table.tasklist td.prog a.prog100:hover,
+table.tasklist td.prog a.prog025.selected:hover,
+table.tasklist td.prog a.prog050.selected:hover,
+table.tasklist td.prog a.prog075.selected:hover,
+table.tasklist td.prog a.prog100.selected:hover
+{
+    background-color: #E4E4E4;
+}
+
+table.tasklist td.prog a.prog025 { background:url( '/extension/ezteamroom/design/ezteamroom/images/progress/prog025w.gif ') left bottom no-repeat; }
+table.tasklist td.prog a.prog050 { background:url( '/extension/ezteamroom/design/ezteamroom/images/progress/prog050w.gif' ) left bottom no-repeat; }
+table.tasklist td.prog a.prog075 { background:url( '/extension/ezteamroom/design/ezteamroom/images/progress/prog075w.gif' ) left bottom no-repeat; }
+table.tasklist td.prog a.prog100 { background:url( '/extension/ezteamroom/design/ezteamroom/images/progress/prog100w.gif' ) left bottom no-repeat; }
+table.tasklist td.prog span.prog025 a.selected { background:url( '/extension/ezteamroom/design/ezteamroom/images/progress/prog025a.gif' ) left bottom no-repeat; }
+table.tasklist td.prog span.prog050 a.selected { background:url( '/extension/ezteamroom/design/ezteamroom/images/progress/prog050a.gif' ) left bottom no-repeat; }
+table.tasklist td.prog span.prog075 a.selected { background:url( '/extension/ezteamroom/design/ezteamroom/images/progress/prog075a.gif' ) left bottom no-repeat; }
+table.tasklist td.prog span.prog100 a.selected { background:url( '/extension/ezteamroom/design/ezteamroom/images/progress/prog100a.gif' ) left bottom no-repeat; }
+
+
+table.tasklist td.end,
+table.tasklist td.prio,
+table.tasklist td.desc,
+table.tasklist td.prog,
+table.tasklist td.est,
+table.tasklist td.edit,
+table.tasklist td.del
+{
+    color: #7A7A7A;
+    vertical-align: middle;
+}
+
+table.tasklist td.edit,
+table.tasklist td.del
+{
+    text-align: center;
+}
+table.tasklist td.desc a
+{
+    color:#7A7A7A;
+    float:left;
+    text-decoration: underline;
+}
+
+table.tasklist td.desc img
+{
+    margin-right: 5px;
+    margin-top: -3px;
+}
+
+table.tasklist td.prog
+{
+    padding: 3px 0px 0px 10px;
+}
+
+
+img.loading
+{
+    border:     1px solid #999999;
+    display:    block;
+    margin:     10px auto;
+}
+
+
+div#available-widgets-list.available-widgets
+{
+    background: none;
+    width: 315px;
+    margin:     4px;
+    position:   absolute;
+    top:        170px;
+    left:       220px;
+    z-index:    999;
+    margin:     0;
+    padding:    0;
+}
+
+div#available-widgets-list.available-widgets div.border-tc
+{
+    background:url( '/extension/ezteamroom/design/ezteamroom/images/widgetbox/header.gif' ) 0px 0px no-repeat;
+    height: 34px;
+
+}
+div#available-widgets-list.available-widgets div.border-ml
+{
+    background:url( '/extension/ezteamroom/design/ezteamroom/images/widgetbox/content.gif' ) 0px 0px repeat-y;
+}
+
+div#available-widgets-list.available-widgets div.border-bc
+{
+    background:url( '/extension/ezteamroom/design/ezteamroom/images/widgetbox/footer.gif' ) 0px 0px no-repeat;
+    height: 10px;
+}
+
+div#available-widgets-list.available-widgets div.content
+{
+    padding: 5px;
+}
+
+
+div#available-widgets-list.available-widgets h2
+{
+    color:#FFFFFF;
+    float:left;
+    font-size:1.3em;
+    margin-left:30px;
+    margin-top:10px;
+    padding:0px;
+}
+
+
+div#available-widgets-list.available-widgets a.close-button
+{
+    background-image: url( '/extension/ezteamroom/design/ezteamroom/images/boxes/max_min_close.png' );
+    background-position: 0px 18px;
+    display:block;
+    float:right;
+    height:18px;
+    margin:9px 9px 0px;
+    text-decoration:none;
+    width:18px;
+}
+
+div#available-widgets-list.available-widgets ul
+{
+    border: none;
+    list-style:none;
+    margin: 0px;
+    padding: 5px;
+}
+
+div#available-widgets-list.available-widgets ul li
+{
+    background: none;
+    margin:0px;
+    padding: 0px;
+    border-bottom: 1px dotted #fe0002;
+}
+div#available-widgets-list.available-widgets ul li.lastli
+{
+    border-bottom: none;
+}
+
+div#available-widgets-list.available-widgets ul li div.content-view-embeddedmedia
+{
+    margin:0px;
+    padding: 0px;
+    width: 30px;
+    float: left;
+}
+
+div#available-widgets-list.available-widgets ul li div.widget-item a.widget-name
+{
+    padding-top: 13px;
+    padding-left: 35px;
+    color: #a6a6a6;
+    font-weight: bold;
+    display: block;
+    text-decoration: none;
+}
+
+div#selectColumnPopup div.border-left
+{
+    height:90px;
+    padding-left:23px;
+}
+
+div#selectColumnPopup div.border-right
+{
+    height:90px;
+    padding-right:10px;
+}
+
+
+
+
+
+div.class-teamroom-line,
+div.user-edit
+{
+    background: transparent url( '/extension/ezteamroom/design/ezteamroom/images/teamroom_bg.png' ) repeat-x 0px 0px;
+    padding-left: 10px;
+    padding-top: 5px;
+    margin-bottom: 10px;
+}
+
+div.class-teamroom-line div.columns-teamroom-line,
+div.user-edit div.columns-teamroom-line
+{
+    padding: 0 270px 0 260px;
+}
+div.class-teamroom-line.noleftcolumn div.columns-teamroom-line,
+div.user-edit.noleftcolumn div.columns-teamroom-line
+{
+    padding-left: 0;
+}
+
+div.class-teamroom-line.norightcolumn div.columns-teamroom-line,
+div.user-edit.norightcolumn div.columns-teamroom-line
+{
+    padding-right: 0;
+}
+
+div.class-teamroom-line div.columns-teamroom-line div.left-column-position,
+div.user-edit div.columns-teamroom-line div.left-column-position
+{
+    width: 165px;
+    margin-left: -165px;
+    float: left;
+    display: inline;
+}
+
+div.class-teamroom-line.noleftcolumn div.columns-teamroom-line div.left-column-position,
+div.user-edit.noleftcolumn div.columns-teamroom-line div.left-column-position
+{
+    display: none;
+}
+
+div.class-teamroom-line div.columns-teamroom-line div.left-column-position div.left-column,
+div.user-edit div.columns-teamroom-line div.left-column-position div.left-column
+{
+    margin-right: 1em;
+}
+
+div.class-teamroom-line div.columns-teamroom-line div.right-column-position,
+div.user-edit div.columns-teamroom-line div.right-column-position
+{
+    width: 270px;
+    margin-right: -270px;
+    float: left;
+}
+
+div.class-teamroom-line.norightcolumn  div.columns-teamroom-line div.right-column-position,
+div.user-edit.norightcolumn  div.columns-teamroom-line div.right-column-position
+{
+    display: none;
+}
+
+div.class-teamroom-line.rightcolumn  div.columns-teamroom-line div.right-column-position div.right-column,
+div.user-edit.rightcolumn  div.columns-teamroom-line div.right-column-position div.right-column
+{
+    margin-left: 0px;
+}
+
+div.class-teamroom-line div.columns-teamroom-line div.center-column-position,
+div.user-edit div.columns-teamroom-line div.center-column-position
+{
+    width: 95%;
+    float: left;
+}
+
+div.class-teamroom-line div.columns-teamroom-line div.center-column-position div.center-column,
+div.user-edit div.columns-teamroom-line div.center-column-position div.center-column
+{
+    margin-left: 0;
+    padding-right: 0;
+}
+
+div.class-teamroom-line.norightcolumn div.columns-teamroom-line div.center-column-position div.center-column,
+div.user-edit.norightcolumn div.columns-teamroom-line div.center-column-position div.center-column
+{
+    margin-right: 0;
+    padding-left: 0;
+}
+
+div.class-teamroom-line div.columns-teamroom-line div.center-column-position div.center-column,
+div.user-edit div.columns-teamroom-line div.center-column-position div.center-column
+{
+    margin: 0;
+}
+
+div.class-personal_frontpage div.right-column div.border-box div.create-file div.submitimage
+{
+    padding-top:3px;
+    text-align:center;
+}
+
+
+div.class-teamroom-line h3 a
+{
+    margin-top: 0px;
+    color: #666;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+div.class-teamroom-line div.content
+{
+    color: #666;
+    font-size: 11px;
+}
+
+div.class-teamroom-line span.date
+{
+    color: #c60;
+    font-size: 10px;
+}
+div.class-teamroom-line span.owner
+{
+    font-size: 10px;
+}
+
+
+div.content-view-sitemap
+{
+    margin: 20px;
+}
+
+div.edit-attribute,
+div.buttonblock
+{
+    background-color: #e3e3e3;
+    padding: 10px;
+    margin-bottom: 10px;
+    clear: both;
+}
+
+div.edit-attribute label.title
+{
+    background-color:#f06020;
+    margin-bottom:5px;
+    margin-left:-10px;
+    margin-top:-10px;
+    padding-left:5px;
+    width:215px;
+    color: #fff;
+}
+
+div.edit-attribute input
+{
+    border:1px solid #A5ACB2;
+    font-size:1em;
+    width:50%;
+}
+
+div.edit-attribute input.checkbox,
+div.edit-attribute input.button
+{
+    width:auto;
+    border: none;
+}
+
+div.edit-attribute input.button
+{
+    background: url( '/extension/ezteamroom/design/ezteamroom/images/button_bg.png' ) no-repeat 0px 0px;
+    width: 152px;
+}
+
+
+table.forum
+{
+    font-size: 12px;
+}
+
+table.forum p
+{
+    margin-top: 0px;
+    font-size: 11px;
+}
+
+table.forum tr th
+{
+    background-color: #f06020;
+    color: #fff;
+    font-weight: bold;
+}
+
+table.forum tr.bgdark,
+table.forum tr.bglight,
+table.forum tr
+{
+    background: #fff url( '/extension/ezteamroom/design/ezteamroom/images/forum_bg.png' ) repeat-x top left;
+}
+
+table.forum tr.header
+{
+    background: #fff url( '/extension/ezteamroom/design/ezteamroom/images/forum_tr_bg.gif' ) repeat-x top left;
+}
+
+table.forum tr.header td
+{
+    color: #f06020;
+    padding: 5px;
+}
+
+table.forum tr.header td div.manage_forum_reply
+{
+    border-left:1px solid #FFFFFF;
+    float:right;
+    height:16px;
+    margin-top:-14px;
+    padding-left:5px;
+    padding-top:0;
+    width:70px;
+}
+
+table.forum tr.header td div.manage_forum_reply form,
+table.forum tr.header td div.manage_forum_reply img
+{
+    margin-left: 5px;
+}
+
+table.forum tr.header td div.manage_forum_reply form,
+table.forum tr.header td div.manage_forum_reply a
+{
+    float: left;
+}
+
+table.forum tr td div.authorimage
+{
+    float: left;
+    width: 100px;
+}
+
+table.forum tr td.author
+{
+    width: 185px;
+}
+
+table.forum tr td p.author
+{
+    color: #666;
+    font-size: 12px;
+    font-weight: bold;
+    padding-left: 105px;
+}
+table.forum tr td p.group
+{
+    color: #999;
+    font-size: 11px;
+    padding-left: 105px;
+}
+
+
+table.forum tr td.lastreply,
+table.forum tr td.topic
+{
+    padding: 0px;
+    padding-left: 10px;
+    color: #666;
+    font-weight: bold;
+}
+
+table.forum tr td.lastreply a,
+table.forum tr td.topic a
+{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+table.forum tr td.lastreply span.author,
+table.forum tr td.topic span.author
+{
+    color: #999;
+    font-weight: normal;
+}
+
+table.forum tr td.lastreply span.date,
+table.forum tr td.topic span.date
+{
+    color: #c60;
+    font-weight: normal;
+}
+
+table.forum tr td.replies
+{
+    color: #666;
+    text-align: center;
+}
+
+div.just_background{
+    background: #fff url( '/extension/ezteamroom/design/ezteamroom/images/blog_bg.gif' ) repeat-x top left;
+}
+
+div.box_background,
+div.content-view-line div.class-blog-post,
+div.content-view-line div.class-event,
+div.content-view-full div.class-blog-post,
+div.content-view-full div.class-documentation_page div.center-column,
+div.content-view-full div.class-documentation_page div.left-column-position
+{
+    background: #fff url( '/extension/ezteamroom/design/ezteamroom/images/blog_bg.gif' ) repeat-x top left;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+
+div.content-view-full div.class-documentation_page div.left-column-position
+{
+    border: 1px solid #ccc;
+    width: 180px;
+}
+
+div.content-view-full div.class-blog-post
+{
+    margin-top: 0;
+}
+div.content-view-line div.class-blog-post div.attribute-byline span.date,
+div.content-view-full div.class-blog-post div.attribute-byline span.date
+{
+    color: #f06020;
+}
+div.content-view-line div.class-blog-post div.attribute-byline,
+div.content-view-line div.class-blog-post div.attribute-byline span.author,
+div.content-view-full div.class-blog-post div.attribute-byline,
+div.content-view-full div.class-blog-post div.attribute-byline span.author
+{
+    color: #999;
+}
+
+div.content-view-line div.class-blog-post div.attribute-byline span.author strong,
+div.content-view-full div.class-blog-post div.attribute-byline span.author strong
+{
+    font-weight: bold;
+    color: #f06020;
+}
+
+
+div.content-view-line div.class-blog-post div.attribute-header h1,
+div.content-view-full div.class-blog-post div.attribute-header h1
+{
+    background:none;
+    color:#f06020;
+    padding-left:0px;
+    padding-bottom:5px;
+    font-size: 14px;
+}
+
+div.content-view-line div.class-blog-post div.attribute-byline p.tags a,
+div.content-view-full div.class-blog-post div.attribute-byline p.tags a
+{
+    color:#f06020;
+}
+
+div.content-view-line div.class-comment
+{
+    background:#FFFFFF url( '/extension/ezteamroom/design/ezteamroom/images/blog_bg.gif' ) repeat-x scroll left top;
+    padding: 0px;
+    padding-left: 210px;
+    margin-bottom: 5px;
+}
+
+div.content-view-line div.class-comment div.author
+{
+    border-right: 2px solid white;
+    padding: 3px;
+    float: left;
+    width: 200px;
+    margin-left: -210px;
+}
+
+div.content-view-line div.class-comment div.message
+{
+    padding: 3px;
+    width:100%;
+}
+
+div.content-view-line div.class-comment div.author div.authorimage
+{
+    float: left;
+    width: 100px;
+}
+
+div.content-view-line div.class-comment div.author p.date
+{
+    padding-left: 6px;
+    color: #f06020;
+}
+
+div.content-view-line div.class-comment div.author p.author
+{
+    color: #666;
+    font-size: 12px;
+    font-weight: bold;
+    padding-left: 105px;
+}
+div.content-view-line div.class-comment div.message h3
+{
+    margin-top: 0px;
+}
+
+
+div.attribute-toc ul
+{
+    margin-left: 5px;
+    list-style-type:none;
+    white-space:nowrap;
+}
+
+div.attribute-toc ul.level0
+{
+    background:transparent url( '/extension/ezteamroom/design/ezteamroom/images/li_vert.gif' ) no-repeat scroll 4px -5px;
+    margin-left:0px;
+    padding-top:2px;
+}
+
+
+div.attribute-toc ul li
+{
+    background-image:url( '/extension/ezteamroom/design/ezteamroom/images/li_bg.gif' );
+    background-repeat:no-repeat;
+    list-style-type:none;
+    margin-bottom:0px;
+    padding-bottom:5px;
+    padding-left:11px;
+    padding-top:0pt;
+    white-space:nowrap;
+}
+div.attribute-toc ul li.lastelem
+{
+    background-image:url( '/extension/ezteamroom/design/ezteamroom/images/li_last_bg.gif' );
+}
+div.attribute-toc ul li a
+{
+    background-image:url( '/extension/ezteamroom/design/ezteamroom/images/li_cursor.gif' );
+    background-repeat:no-repeat;
+    margin-bottom:-1px;
+    margin-left:-6px;
+    padding-left:13px;
+}
+
+div.attribute-toc ul.level0 li a
+{
+    color: #666;
+    font-weight: bold;
+}
+
+div.attribute-toc ul.level1 li a
+{
+    color: #f06020;
+    font-weight: normal;
+}
+
+
+
+div.cal_entry
+{
+    height: 10px;
+    width: 100%;
+    margin: 0px;
+    padding: 2px 0px 0px;
+}
+
+div.cal_day
+{
+    height: 20px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+div.cal_entry_milestone,
+div.cal_entry_task,
+div.cal_entry_event
+{
+    height: 6px;
+    width: 6px;
+    margin: 0px;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding: 0px;
+    float: left;
+}
+
+div.cal_entry_task
+{
+    background-color: #fc0;
+}
+
+div.cal_entry_milestone
+{
+    background-color: #cd0100;
+}
+
+div.cal_entry_event
+{
+    background-color: #6799ca;
+}
+
+tr.calendar_footer li
+{
+    list-style-type: none;
+    list-style-image: none;
+    padding: 0;
+    display: inline;
+    margin-left: 1em;
+    float: left;
+}
+
+tr.calendar_footer li div
+{
+    margin-top: 4px;
+    margin-right: -8px;
+}
+
+
+div.content-view-line div.event-type
+{
+    position: relative;
+    top: -10px;
+    left: -12px;
+    width: 12px;
+    height: 20px;
+    border-right: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+
+}
+
+
+
+/* AGENDA */
+
+div#ezagenda_calendar_left
+{
+    vertical-align: top;
+    width: 228px;
+    float: left;
+}
+
+div#ezagenda_calendar_container_full
+{
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 6px;
+}
+
+div#ezagenda_calendar_container_full h5
+{
+    text-align: left;
+    background-image:url( '/extension/ezteamroom/design/ezteamroom/images/list.gif' );
+    background-position:2px;
+    background-repeat:no-repeat;
+    padding-left:18px;
+    border-bottom: 1px #ccc solid;
+    color: #f06020;
+    font-size: 10px;
+}
+div#ezagenda_calendar_container_full table
+{
+    background: #FFF;
+    margin: 0px;
+    text-align: left;
+    vertical-align: top;
+    font-size: 9px;
+    width: 300px;
+    border: 1px solid #ccc;
+}
+div#ezagenda_calendar_container_full table th
+{
+    font-weight: bold;
+    text-align: center;
+    height: 20px;
+    border: none;
+    color: #f06020;
+}
+
+div#ezagenda_calendar_container_full table td
+{
+    background: url( '/extension/ezteamroom/design/ezteamroom/images/cal_td_bg.gif' ) 0px 0px repeat-x;
+    padding: 0px;
+    border: 1px solid #fff;
+    text-align: center;
+    width: 40px;
+    height: 20px;
+}
+div#ezagenda_calendar_container_full table td a
+{
+    color: #f06020;
+    text-decoration: none;
+}
+
+div#ezagenda_calendar_container_full table .first_col
+{
+    border-left: 0px;
+}
+
+div#ezagenda_calendar_container_full table .last_col
+{
+    border-right: 0px;
+}
+
+
+div#ezagenda_calendar_container_full table  tr.calendar_heading
+{
+    background: url( '/extension/ezteamroom/design/ezteamroom/images/cal_th_bg.gif' ) no-repeat -1px -1px;
+}
+div#ezagenda_calendar_container_full table  tr.calendar_heading th
+{
+    background: transparent none;
+    border: 0;
+    padding-bottom: 12px;
+    padding-top: 8px;
+}
+
+div#ezagenda_calendar_container_full table  tr.calendar_heading th a
+{
+    text-decoration: none;
+    color: #f06020;
+    font-weight: normal;
+}
+
+div#ezagenda_calendar_container_full table td.ezagenda_current, div#ezagenda_calendar_container_full table td.ezagenda_current a
+{
+    background: url( '/extension/ezteamroom/design/ezteamroom/images/cal_td_bg_s.gif' ) 0px 0px repeat-x;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+div.content-view-line div.class-event h2
+{
+    margin: 0px;
+    color: #666;
+    font-weight: bold;
+}
+
+div.content-view-line div.class-event h2 a
+{
+    text-decoration: none;
+}
+
+div.content-view-line div.class-event h4
+{
+    margin: 0px;
+    color: #f06020;
+    font-weight: bold;
+}
+
+div.content-view-line div.class-event h4,
+div.content-view-line div.class-event h2,
+div.content-view-line div.class-event div.attribute-short
+{
+    margin-left: 25px;
+}
+div.content-view-line div.class-event div.attribute-short
+{
+    margin-top: 10px;
+}
+
+ul.nobullets li
+{
+    list-style-image:none;
+    list-style-type:none;
+    margin:0.25em 0pt;
+}
+
+div.message-warning,
+div.warning
+{
+    border-color: #f06020;
+    padding-left: 25px;
+}
+
+div.pfd_show,
+div.pfd_hide
+{
+    color: #999;
+    font-size:10px;
+    float: right;
+    margin-top: -10px;
+    margin-right: 7px;
+}
+div.class-personal-frontpage a#addNewWidgetButton.pfd_offset
+{
+    margin-top:-2px;
+}
+
+div.pfd_hide
+{
+    margin-top: 5px;
+}
+div.pfd_show a,
+div.pfd_hide a,
+div.pfd_show a:hover,
+div.pfd_hide a:hover
+{
+    color: #999;
+}
+
+
+div.oe-window
+{
+    background-color: #fff;
+}
+
+div.content-view-ezmultiupload
+{
+    padding: 15px;
+}
+
+div.attribute-body ul,
+div.attribute-body ol
+{
+    padding-left: 1.8em;
+}
+a.search-item-link, a.search-item-link:visited,
+a.help-item-link, a.help-item-link:visited {
+    color: #999999;
+    font-size: 14px;
+}
+a.search-item-link:hover,
+a.help-item-link:hover {
+    color: #666666;
+}
+
+td.lightbox-line-file {
+    text-align: center;
+}
+
+td.lightbox-line-user {
+    text-align: center;
+}
+
+td.lightbox-line-image {
+    text-align: center;
+}
+td.lightbox-line-file img,
+td.lightbox-line-user img{
+    margin-top: 20px;
+}
+
+div.calendar-heading-date {
+    margin-top: -10px;
+    margin-left: 310px;
+}
+div.calendar-heading-date h2{
+    padding: 0;
+    margin: 0;
+}
+
+div.user-success div.buttonblock,
+div.user-activate div.buttonblock,
+div.change-password div.buttonblock
+{
+    padding: 4px;
+    padding-left: 0;
+    background: none;
+}
+
+div.content-pendinglist {
+    background:#FFFFFF url( '/extension/ezteamroom/design/ezteamroom/images/blog_bg.gif' ) repeat-x scroll left top;
+    padding: 1em;
+}
+
+div.notification-settings div.box_background {
+    padding-right: 10px;
+}
+
+div.notification-settings div.buttonblock {
+    margin-left:2px;
+    margin-top:6px;
+    padding:7px;
+    background-color: transparent;
+    margin-bottom: 0px;
+}
+
+div.summary table.list td,
+div.summary table.list a {
+    font-size: 11px
+}
+
+div.summary table.list th:first-child,
+div.summary table.list td:first-child,
+div.summary table.list td {
+    border: none;
+}
+div.notification-addtonotification div.message-feedback {
+    width: 80%;
+    margin-left: 50px;
+    padding: 10px;
+}
+div.teamroom-register-deferred div.message-icon {
+    padding-right: 35px;
+    padding-top: 23px;
+}
+
+/** User Profile **/
+div.user-edit div.user-edit-profile {
+    background:url( '/extension/ezteamroom/design/ezteamroom/images/user/header_orange_background.jpg' ) repeat-x top;
+    position:relative;
+}
+div.user-edit div.profile-header {
+    position:absolute;
+    top:0px;
+    right:0px
+}
+div.user-edit div.profile-image {
+    position:absolute;
+    height:263px;
+    width:186px;
+    background:url( '/extension/ezteamroom/design/ezteamroom/images/user/profile_photo_background.jpg' );
+}
+div.user-edit div.profile-image div {
+    padding:24px;
+}
+div.user-edit div.profile-content {
+    padding-left:190px;
+}
+div.user-edit span.profile-name {
+    font-size:17px;
+    line-height:45px;
+    font-weight:bold;
+    color:#fff;
+}
+div.right-column span.user-profile-name {
+    margin: 0px 20px 2px 20px;
+    padding-top:10px;
+    font-weight:bold;
+    color:#888888;
+    border-bottom:1px dotted #cccccc;
+}
+div.right-column span.user-profile-list {
+    padding: 10px 20px;
+    font-weight:bold;
+    color:#ff7800;
+}
+
+.toolbarButtonOut,
+.toolbarButtonOver,
+.toolbarButton
+{
+    background: #EAE9E1;
+}
+
+div.page-invite div.invite {
+    float:left;
+    width:55%;
+    margin-top:-8px;
+    padding:0 10px 10px 10px;
+}
+
+div.page-invite div.select-user {
+    float:right;
+    width:40%;
+    margin-top:-8px;
+    padding:0 10px 10px 10px;
+}
+
+div.page-invite div.browse-users {
+    padding-top:30px;
+    margin-top:30px;
+    border-top:1px solid #AAA;
+}
+
+div.page-invite div.search-users input.input {
+    width:130px;
+    height:15px;
+    margin-top:2px;
+}
+div.page-invite div.search-users input.defaultbutton {
+    margin-top:-2px;
+}
+
+div.page-invite div.user-not-found {
+    float:left;
+    padding: 10px 20px;
+    margin: 10px 0;
+    background-color: #EEE;
+}
+
+div.page-invite div.select-user li a,
+div.page-invite div.user-not-found a {
+    color:#F06020;
+    text-decoration:none;
+}
+
+div.content-edit div.templatebasedeor.related-document-list {
+    border: 5px solid #F06020;
+    background-color: #EEEEEE;
+    height: 400px;
+    overflow-x:none;
+    overflow-y:scroll;
+    width: 50%;
+}
+
+div.related-document-list ul.related-document-tree,
+div.related-document-list ul.related-document-tree ul {
+  list-style: none;
+  padding-left: 8px;
+  margin-left: 10px;
+  border-left: 1px dotted gray;
+}
+
+div.related-document-list ul.related-document-tree {
+  padding-left: 0;
+  border: none;
+}
+
+div.related-document-list ul.related-document-tree span.creator{
+  color: #F06020;
+  font-size: .8em;
+}
+
+div.class-documentation-page li {
+  list-style-position: outside;
+}
+
+tr.task-additional-info a:hover {
+  color: #FF8F4F;
+}
+div#full_article div.message-textcontent {
+  width: 81%;
+}
+
+
+a#addNewWidgetButton.add_widgets_disabled
+{
+    visibility: hidden;
+}
