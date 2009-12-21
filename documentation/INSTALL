@@ -23,13 +23,11 @@ If you didn't get any packages get the latest versions from
 the following subversion repositories:
 
 - eZ Publish 4.x / PHP5
-  http://svn.ez.no/svn/commercial/projects/ezteamroom/trunk
-  http://svn.ez.no/svn/commercial/projects/ezlightbox/releases/0.7.4/
-  http://svn.ez.no/svn/commercial/projects/ezxmlinstaller/trunk
-  http://svn.ez.no/svn/commercial/projects/ezevent/trunk
+  http://svn.projects.ez.no/ezteamroom/trunk
+  http://svn.projects.ez.no/ezlightbox/releases/0.7.4/
+  http://svn.projects.ez.no/ezxmlinstaller/trunk
+  http://svn.projects.ez.no/ezevent/trunk
   http://svn.projects.ez.no/ezjscore/trunk
-  http://svn.ez.no/svn/commercial/projects/ezmultiupload/trunk (eZ 4.0.x)
-  or
   http://svn.projects.ez.no/ezmultiupload/release/1.0.0/ (eZ 4.1.x)
 - After unpacking the extensions and making them available in the
   extension directory, make sure the ownership of the files is
