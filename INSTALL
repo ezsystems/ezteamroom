@@ -1,0 +1,262 @@
+Step 1: Requirements
+--------------------
+
+- The latest version of eZ Publish.
+- An existing eZ Publish installation (Plain, Website Interface, etc.)
+  Withtin the installation there should exist the following classes
+  (class identifiers):
+  - folder (can be choosen during installation)
+  - image (will be created newly or perhaps be modified if it exists)
+  - quicktime (will be created newly or perhaps be modified if it exists)
+  - real_video (will be created newly or perhaps be modified if it exists)
+  - window_media (will be created newly or perhaps be modified if it exists)
+  - user (will be created newly or perhaps be modified if it exists)
+- Furthermore the following extensions are required:
+  eZ Lightbox, eZ Event, eZ JS Core, eZ XML Installer and eZ Event.
+- Optionally the eZ Multiupload extension can be used to allow
+  the upload of multiple files at the same time.
+
+Step 2: Download
+-----------------
+
+If you didn't get any packages get the latest versions from
+the following subversion repositories:
+
+- eZ Publish 4.x / PHP5
+  http://svn.projects.ez.no/ezteamroom/trunk
+  http://svn.projects.ez.no/ezlightbox/releases/0.7.4/
+  http://svn.projects.ez.no/ezxmlinstaller/trunk
+  http://svn.projects.ez.no/ezevent/trunk
+  http://svn.projects.ez.no/ezjscore/trunk
+  http://svn.projects.ez.no/ezmultiupload/release/1.0.0/ (eZ 4.1.x)
+- After unpacking the extensions and making them available in the
+  extension directory, make sure the ownership of the files is
+  correct
+
+Step 3: Before installing eZ Teamroom
+-------------------------------------
+
+Before starting to install eZ Teamroom you should be aware of the fact
+that eZ Teamroom will (perhaps) modify some content classes in the existing
+eZ Publish installation. By default these are the following classes:
+
+- image
+- quicktime
+- real_video
+- window_media
+- user
+
+If these classes not already exist, they will be created automatically.
+
+If you want to install eZ Teamroom there must already be an existing
+eZ Publish installation. Depending on the kind of the existing installation
+there are some things you should pay attention for, especially because
+eZ Teamroom will install new and/or modify existing classes.
+
+The teamroom installer will modify the user class and add attributes to
+it. If you do not want this to happen you will have to modify the template
+
+extension/ezteamroom/design/standard/templates/teamroom/installezteamroom.tpl
+
+in the same way as described below. Besides modifying this template directly
+you can also create a replacement template.
+
+ATTENTION: Whenever you change something in the mentioned template, it could
+happen that eZ Teamroom will not work as expected anymore and/or that the content
+is not displayed in the correct way, within the teamrooms.
+If the changes will affect content classes that already exist in your
+installation, it could happen that the existing installation will not work as
+expected anymore and/or that  the content is not displayed in the correct way
+anymore.
+
+- Using an installation based on the "Plain" package
+
+  There are no doubts when installing eZ Teamroom.
+
+- Using an installation based on the "Website Interface" package
+
+  It is possible to install eZ Teamroom as an addition to the Website
+  Interface package of for eZ Publish. Depending on your intention you
+  have to decide if you want to make use of the existing classes that
+  are shipped together with the Website Interface or if you want to
+  have a separate set of classes for eZ Teamroom (this is the default).
+  If you intend to make use of the existing Website Interface classes
+  you will have to modify the template
+
+  extension/ezteamroom/design/standard/templates/teamroom/installezteamroom.tpl
+
+  In this template you will find the definition of the content classes
+  that are going to be created / modified by the eZ Teamroom installer
+  for example
+
+  <ContentClass isContainer="false" identifier="teamroom_image" ...
+
+  To be able to use the Website Interface classes just exchange the
+  identifiers of the classes by removing the "teamroom_" prefix:
+
+  <ContentClass isContainer="false" identifier="image" ...
+
+  Furthermore you will have to modify the ClassIdentifiersMap[] setting
+  in extension/ezteamroom/settings/teamroom.ini.append.php from for example
+
+  ClassIdentifiersMap[image]=teamroom_image
+
+  has to be changed to
+
+  ClassIdentifiersMap[image]=image
+
+- Using an existing custom installation
+
+  If you want to install eZ Teamroom on an existing eZ Publish installation
+  this is possible because eZ Teamroom will by default create its own set
+  of content classes. However, if you would like eZ Teamroom to make use of
+  existing content classes available in your installation this is possible.
+  To do so just modify the template
+
+  extension/ezteamroom/design/standard/templates/teamroom/installezteamroom.tpl
+
+  as described above and use the class identifiers of the existing classes.
+  Furthermore you will have to modify the ClassIdentifiersMap[] setting
+  in extension/ezteamroom/settings/teamroom.ini.append.php in the same way
+  as described above.
+
+Step 4: Prepare eZ Publish
+--------------------------
+
+- ezteamroom, ezlightbox, ezxmlinstaller, ezjscore, ezevent and optionally
+  ezmultiupload need to be put into the extension directory and activated
+  globally by adding the extensions to settings/override/site.ini as
+  follows:
+
+  [ExtensionSettings]
+  ...
+  ActiveExtensions[]=ezevent
+  ActiveExtensions[]=ezteamroom
+  ActiveExtensions[]=ezlightbox
+  ActiveExtensions[]=ezxmlinstaller
+  ActiveExtensions[]=ezmultiupload
+  ActiveExtensions[]=ezjscore
+  ...
+
+  When using the website interface you should make sure the that ezwebin
+  extension is enabled after the ezteamroom extensions. Furthermore you
+  will have to merged the "TopIdentifierList" settings in
+
+  extension/ezteamroom/settings/siteaccess/ezteamroom/menu.ini.append.php
+
+  with the ones in
+
+  extension/ezwebin/settings/menu.ini.append.php
+
+  Otherwise the top menu of the eZ Teamroom extension will not be
+  displayed.
+
+- Run bin/php/ezpgenerateautoloads.php -e
+
+- Please make sure that you do not already have a siteaccess that
+  is named 'ezteamroom'
+
+- Don't forget to import ezlightbox databases tables
+  (you will find them in extension/ezlightbox/sql/<DATABASE_HANDLER>/
+   where the placeholder <DATABASE_HANDLER> has to be replaced with the name
+   of the database interface you are currently using)
+
+- Don't forget to import ezevent databases tables
+  (you will find them in extension/ezevent/sql/<DATABASE_HANDLER>/ezevent.sql
+   where the placeholder <DATABASE_HANDLER> has to be replaced with the name
+   of the database interface you are currently using)
+
+- Clear the cache
+
+Step 5: Install eZ Teamroom
+---------------------------
+Simply run this command in your eZ publish root directory:
+
+ "php extension/ezxmlinstaller/bin/php/xmlinstaller.php --template=teamroom/installezteamroom --siteaccess=<SITEACCESS_NAME>"
+
+Replace the placeholder <SITEACCESS_NAME> with the name of an existing siteaccess
+(not ezteamroom!) that should be used for the installation of eZ Teamroom. Make
+sure that the site.ini, that is active for the choosen siteaccess, has the
+[DatabaseSettings] setup correctly.
+IMPORTANT: Some translations (for example the name of eZ Publish roles) depend on
+the language and locale settings that are configured in the choosen siteaccess. This
+means if the siteaccess that has been choosen for the installation of eZ Teamroom
+has English as the primary language configured those parts of eZ Teamroom will also
+be created in that language.
+
+The script will ask for some settings. Just press enter to use the default
+values. Please do not wonder about "Object exists" messages as they appear by default.
+
+The script will do the following things:
+ - Install teamroom classes
+ - Setup roles and policies
+ - Create eZ Teamroom content
+ - Create eZ Teamroom siteaccess ("ezteamroom")
+ - Setup workflows and triggers
+
+If you want to know in detail what will be done, check and "read" this file:
+
+extension/ezteamroom/design/standard/templates/teamroom/installezteamroom.tpl
+
+Here is the XML definition what will happen.
+
+Step 6: Postconfiguration
+-------------------------
+The following things should be done after the installation has finished:
+- Configure the SiteaccessSettings in override/site.ini to your needs
+  (Host-Match or URI Match things)
+- Configure the database settings in the ezteamroom siteaccess (if it is not
+  set globally)
+- Remove the PathPrefix setting from settings/siteaccess/ezteamroom/site.ini.append.php
+  and extension/ezteamroom/settings/siteaccess/ezteamroom/site.ini.append.php if you use
+  host based access method
+  IMPORTANT: If you want to rename the 'Teamrooms' node, you also need to ensure that
+  the PathPrefix settings is changed in settings/siteaccess/ezteamroom/site.ini.append.php
+  and in extension/ezteamroom/settings/siteaccess/ezteamroom/site.ini.append.php
+- IMPORTANT:
+  If there is a SiteURL setting in settings/override/site.ini.append.php you should move it
+  to the siteaccess settings for all siteaccesses. This setting will be used in emails that
+  are sent out by the teamroom extension.
+- Optional:
+  If you would like anonymous users to access the teamrooms, just set RequireUserLogin=false
+  in settings/siteaccess/ezteamroom/site.ini.append.php and add a policy to the anonymous user
+  role that grants access to user/login for the ezteamroom siteaccess.
+- Optional:
+  Assign the role "Anonymous" (or perhaps also other existing roles) to the group used
+  by the teamroom (e.g. Members) and add [UserSettings] DefaultUserPlacement=<NODEID> to the
+  site.ini if you want newly registered users to be placed in this group by default
+- Setup a system cronjob that executes the "frequent" cronjob part of eZ Publish using the
+  ezteamroom siteaccess:
+
+  php runcronjobs.php -s ezteamroom frequent
+
+  If you are not able to use the ezteamroom siteaccesss for some reason, you should adjust the
+  email templates in extension/ezteamroom/design/standard/templates/teamroom/mail/ and change
+  the path to the teamrooms.
+- Clear the cache
+
+Step 7: Create a first teamroom
+-------------------------------
+- Access the teamroom frontpage using http://<YOUR_HOST>/ezteamroom (or http://<YOUR_HOST>/
+  if you choosed the host based access method)
+- Register a new user or login as an existing user
+- Access the frontpage and click on "Create Teamroom" within the appropriate box
+- Enter all required information in the upcoming form and click on the "Create" button
+- Wait until the "frequent" cronjob has been run (unfinished teamroom are marked with a "*")
+- Enter Teamroom and enjoy
+
+HowTo customize the teamroom?
+-----------------------------
+
+In the same way as it is possible to adjust the installation of eZ Teamroom,
+it is possible to modify the installation of new teamrooms within eZ Teamroom.
+
+To do so one has to modify the template
+
+ezteamroom/design/standard/templates/teamroom/createteamroom.tpl
+
+However, modifying this template should only be done by experienced people
+who know about eZ Teamroom and eZ XML Installer. Besides modifying this template
+directly you can also create a replacement template.
+
+Some further documentation can be found in the ezxmlinstaller extension.
