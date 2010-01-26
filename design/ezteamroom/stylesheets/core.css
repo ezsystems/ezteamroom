@@ -152,7 +152,7 @@ table.list th
     background-color: #DFDFDF;
     white-space: nowrap;
     text-align: left;
-    background-image: url( '/extension/ezteamroom/design/ezteamroom/images/th_bg.png' );
+    background-image: url( '../images/th_bg.png' );
     background-repeat: repeat-x;
     background-position: top left;
 }

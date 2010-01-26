@@ -41,7 +41,7 @@ div#logo
 
 div#usermenu
 {
-    background-image: url( '/extension/ezteamroom/design/ezteamroom/images/header_bg.png' );
+    background-image: url( '../images/header_bg.png' );
     background-position: top left;
     background-repeat: repeat-x;
     height: 25px;
@@ -49,7 +49,7 @@ div#usermenu
 
 div#languages
 {
-    background-image: url( '/extension/ezteamroom/design/ezteamroom/images/header_bg_left.png' );
+    background-image: url( '../images/header_bg_left.png' );
     background-position: bottom left;
     background-repeat: no-repeat;
     float: left;
@@ -84,14 +84,14 @@ div#topmenu ul
 {
     margin: 0;
     padding: 0;
-    background-image: url( '/extension/ezteamroom/design/ezteamroom/images/topmenu_bg.png' );
+    background-image: url( '../images/topmenu_bg.png' );
     background-repeat: repeat-x;
     height: 33px;
 }
 
 div#topmenu li
 {
-    background-image: url( '/extension/ezteamroom/design/ezteamroom/images/topmenu_bg.png' );
+    background-image: url( '../images/topmenu_bg.png' );
     background-repeat: repeat-x;
     height: 33px;
     margin: 0;
@@ -105,7 +105,7 @@ div#topmenu li
 
 div#topmenu li.selected
 {
-    background-image: url( '/extension/ezteamroom/design/ezteamroom/images/topmenu_bg_selected.png' );
+    background-image: url( '../images/topmenu_bg_selected.png' );
 
 }
 
@@ -214,7 +214,7 @@ div.arrowWhiteButton
     text-align: left;
     background-repeat: no-repeat;
     background-position: 0px 0px;
-    background-image: url( '/extension/ezteamroom/design/ezteamroom/images/buttons/empty_arrows_white_button_193_47.gif' );
+    background-image: url( '../images/buttons/empty_arrows_white_button_193_47.gif' );
     margin: auto;
 }
 
@@ -242,7 +242,7 @@ div.emptyButton
     text-align: center;
     background-repeat: no-repeat;
     background-position: 0px 0px;
-    background-image: url( '/extension/ezteamroom/design/ezteamroom/images/buttons/empty_button_187_39.gif' );
+    background-image: url( '../images/buttons/empty_button_187_39.gif' );
     margin: auto;
 }
 
@@ -263,7 +263,7 @@ div.emptyButton_whitebg
 {
     width: 160px;
     float: left;
-    background-image: url( '/extension/ezteamroom/design/ezteamroom/images/buttons/empty_button_160_40.jpg' );
+    background-image: url( '../images/buttons/empty_button_160_40.jpg' );
 }
 
 div.emptyButton_whitebg input.emptyButton
@@ -344,7 +344,7 @@ div#sidemenu ul.submenu-list a.selected
 
 div#sidemenu ul.menu-list li a, div#sidemenu ul.submenu-list li a
 {
-    background-image: url( '/extension/ezteamroom/design/ezteamroom/images/sidemenu_bullet.png' );
+    background-image: url( '../images/sidemenu_bullet.png' );
     background-position: 0.2em 0.5em;
     background-repeat: no-repeat;
     padding-left: 18px;
@@ -392,7 +392,7 @@ div#footer
     text-align: center;
     padding-top: 1.25em;
     margin-top: 1.25em;
-    background-image: url( '/extension/ezteamroom/design/ezteamroom/images/footer_bg.png' );
+    background-image: url( '../images/footer_bg.png' );
     background-position: top center;
     background-repeat: no-repeat;
     font-size: 0.85em;
@@ -531,12 +531,12 @@ div.border-box div.border-mc
 
 div.teamroom_menu div.border-tl
 {
-    background: url( '/extension/ezteamroom/design/ezteamroom/images/teamroom_box/border-tl.gif' ) no-repeat top left;
+    background: url( '../images/teamroom_box/border-tl.gif' ) no-repeat top left;
 }
 
 div.teamroom_menu div.border-tr
 {
-    background: url( '/extension/ezteamroom/design/ezteamroom/images/teamroom_box/border-tr.gif' ) no-repeat top right;
+    background: url( '../images/teamroom_box/border-tr.gif' ) no-repeat top right;
     padding: 0 10px 0 10px;
 }
 
@@ -544,17 +544,17 @@ div.teamroom_menu div.border-tc
 {
     font-size: 0;
     height: 10px;
-    background: url( '/extension/ezteamroom/design/ezteamroom/images/teamroom_box/border-tc.gif' ) repeat-x top left;
+    background: url( '../images/teamroom_box/border-tc.gif' ) repeat-x top left;
 }
 
 div.teamroom_menu div.border-ml
 {
-    background: url( '/extension/ezteamroom/design/ezteamroom/images/teamroom_box/border-ml.gif' ) repeat-y center left;
+    background: url( '../images/teamroom_box/border-ml.gif' ) repeat-y center left;
 }
 
 div.teamroom_menu div.border-mr
 {
-    background: url( '/extension/ezteamroom/design/ezteamroom/images/teamroom_box/border-mr.gif' ) repeat-y center right;
+    background: url( '../images/teamroom_box/border-mr.gif' ) repeat-y center right;
     padding: 0 1px 0 1px;
 }
 
@@ -576,12 +576,12 @@ div.teamroom_menu div.border-mc:before, div.teamroom_menu div.border-mc:after
 
 div.teamroom_menu div.border-bl
 {
-    background: url( '/extension/ezteamroom/design/ezteamroom/images/teamroom_box/border-bl.gif' ) no-repeat bottom left;
+    background: url( '../images/teamroom_box/border-bl.gif' ) no-repeat bottom left;
 }
 
 div.teamroom_menu div.border-br
 {
-    background: url( '/extension/ezteamroom/design/ezteamroom/images/teamroom_box/border-br.gif' ) no-repeat bottom right;
+    background: url( '../images/teamroom_box/border-br.gif' ) no-repeat bottom right;
     padding: 0 4px 0 4px;
 }
 
@@ -589,7 +589,7 @@ div.teamroom_menu div.border-bc
 {
     font-size: 0;
     height: 4px;
-    background: url( '/extension/ezteamroom/design/ezteamroom/images/teamroom_box/border-bc.gif' ) repeat-x bottom left;
+    background: url( '../images/teamroom_box/border-bc.gif' ) repeat-x bottom left;
 }
 
 div.access_type_image
@@ -604,49 +604,49 @@ div.access_type_image
 div.access_type_private
 {
     background-position: 0px 0px;
-    background-image: url( '/extension/ezteamroom/design/ezteamroom/images/teamroom/sprites_map_50_50_itemsize.gif' );
+    background-image: url( '../images/teamroom/sprites_map_50_50_itemsize.gif' );
     background-repeat: no-repeat;
 }
 div.access_type_private_active
 {
     background-position: -50px 0px;
-    background-image: url( '/extension/ezteamroom/design/ezteamroom/images/teamroom/sprites_map_50_50_itemsize.gif' );
+    background-image: url( '../images/teamroom/sprites_map_50_50_itemsize.gif' );
     background-repeat: no-repeat;
 }
 div.access_type_internal
 {
     background-position: -100px 0px;
-    background-image: url( '/extension/ezteamroom/design/ezteamroom/images/teamroom/sprites_map_50_50_itemsize.gif' );
+    background-image: url( '../images/teamroom/sprites_map_50_50_itemsize.gif' );
     background-repeat: no-repeat;
 }
 div.access_type_internal_active
 {
     background-position: -150px 0px;
-    background-image: url( '/extension/ezteamroom/design/ezteamroom/images/teamroom/sprites_map_50_50_itemsize.gif' );
+    background-image: url( '../images/teamroom/sprites_map_50_50_itemsize.gif' );
     background-repeat: no-repeat;
 }
 div.access_type_protected
 {
     background-position: 0px -50px;
-    background-image: url( '/extension/ezteamroom/design/ezteamroom/images/teamroom/sprites_map_50_50_itemsize.gif' );
+    background-image: url( '../images/teamroom/sprites_map_50_50_itemsize.gif' );
     background-repeat: no-repeat;
 }
 div.access_type_protected_active
 {
     background-position: -50px -50px;
-    background-image: url( '/extension/ezteamroom/design/ezteamroom/images/teamroom/sprites_map_50_50_itemsize.gif' );
+    background-image: url( '../images/teamroom/sprites_map_50_50_itemsize.gif' );
     background-repeat: no-repeat;
 }
 div.access_type_public
 {
     background-position: -100px -50px;
-    background-image: url( '/extension/ezteamroom/design/ezteamroom/images/teamroom/sprites_map_50_50_itemsize.gif' );
+    background-image: url( '../images/teamroom/sprites_map_50_50_itemsize.gif' );
     background-repeat: no-repeat;
 }
 div.access_type_public_active
 {
     background-position: -150px -50px;
-    background-image: url( '/extension/ezteamroom/design/ezteamroom/images/teamroom/sprites_map_50_50_itemsize.gif' );
+    background-image: url( '../images/teamroom/sprites_map_50_50_itemsize.gif' );
     background-repeat: no-repeat;
 }
 
@@ -701,7 +701,7 @@ div#extrainfo-position ul li,
 div#sidemenu ul.menu-list li,
 div#sidemenu ul.submenu-list li
 {
-    background-image:url( '/extension/ezteamroom/design/ezteamroom/images/sidemenu_bullet.png' );
+    background-image:url( '../images/sidemenu_bullet.png' );
     background-position:0.2em 0.5em;
     background-repeat:no-repeat;
     font-size:0.8em;
@@ -731,7 +731,7 @@ Is this required? Why is it not 18px x 18px?
 div#sidemenu div.widget-menu a.maxmin-button,
 div#extrainfo-position div.widget-menu a.maxmin-button
 {
-    background-image: url( '/extension/ezteamroom/design/ezteamroom/images/boxes/max_min_close.png' );
+    background-image: url( '../images/boxes/max_min_close.png' );
     background-position: 0px 18px;
     display: block;
     float: left;
@@ -753,7 +753,7 @@ Is this required? Why is it not 18px x 18px?
 div#sidemenu div.widget-menu a.close-button,
 div#extrainfo-position div.widget-menu a.close-button
 {
-    background-image: url( '/extension/ezteamroom/design/ezteamroom/images/boxes/max_min_close.png' );
+    background-image: url( '../images/boxes/max_min_close.png' );
     background-position: 0px 18px;
     display:block;
     float:right;
@@ -832,7 +832,7 @@ div.attribute-join label
 div#extrainfo-position div.teamroom_menu ul li,
 div#sidemenu div.teamroom_menu ul li
 {
-    background-image:url( '/extension/ezteamroom/design/ezteamroom/images/sidemenu_bullet2.png' );
+    background-image:url( '../images/sidemenu_bullet2.png' );
 }
 
 table.avatar
@@ -876,7 +876,7 @@ div#main ul.member-list
 
 div#main ul.member-list li
 {
-    background:transparent url( '/extension/ezteamroom/design/ezteamroom/images/teamroom_bg.png' ) repeat-x scroll 0px 0px;
+    background:transparent url( '../images/teamroom_bg.png' ) repeat-x scroll 0px 0px;
 }
 
 
@@ -884,7 +884,7 @@ input.button,
 input.defaultbutton,
 button
 {
-    background:transparent url( '/extension/ezteamroom/design/ezteamroom/images/button_bg.png' ) no-repeat scroll 0px;
+    background:transparent url( '../images/button_bg.png' ) no-repeat scroll 0px;
     border:medium none;
     color:#EEEEE5;
     font-weight:normal;
@@ -894,7 +894,7 @@ button
 
 input.smallbutton
 {
-    background:transparent url( '/extension/ezteamroom/design/ezteamroom/images/button_bg.png' ) no-repeat scroll 0px;
+    background:transparent url( '../images/button_bg.png' ) no-repeat scroll 0px;
     border:medium none;
     color:#EEEEE5;
     font-weight:normal;
@@ -993,7 +993,7 @@ table.tasklist tr.task-additional-info div.attribute-long
 
 table.tasklist tr.task-additional-info td.content
 {
-    background: url( '/extension/ezteamroom/design/ezteamroom/images/taskinfo_bg.png' ) repeat-x top left;
+    background: url( '../images/taskinfo_bg.png' ) repeat-x top left;
     border-left: 1px #999 solid;
     border-right: 1px #999 solid;
     border-bottom: 1px #999 solid;
@@ -1011,7 +1011,7 @@ table.tasklist tr.bglight,
 table.tasklist tr.bgdark,
 table.tasklist tr
 {
-    background: #fff url( '/extension/ezteamroom/design/ezteamroom/images/task_bg.png' ) repeat-x bottom left;
+    background: #fff url( '../images/task_bg.png' ) repeat-x bottom left;
 }
 table.tasklist tr:hover
 {
@@ -1044,7 +1044,7 @@ table.taskdetails tr td
 #slider-bg
 {
     position: relative;
-    background:url( '/extension/ezteamroom/design/ezteamroom/images/yui/fader.gif' ) 0px 7px no-repeat;
+    background:url( '../images/yui/fader.gif' ) 0px 7px no-repeat;
     width:28px;
     height:100px;
     border: #2e3436 1px solid;
@@ -1162,86 +1162,86 @@ div#links a {
 
 div#links a#links_login_a
 {
-    background-image: url( '/extension/ezteamroom/design/ezteamroom/images/icons/top/sprites_map_90_45_itemsize.gif' );
+    background-image: url( '../images/icons/top/sprites_map_90_45_itemsize.gif' );
     background-position: 0px 0px;
     background-repeat: no-repeat;
 }
 div#links a#links_login_a:hover
 {
-    background-image: url( '/extension/ezteamroom/design/ezteamroom/images/icons/top/sprites_map_90_45_itemsize.gif' );
+    background-image: url( '../images/icons/top/sprites_map_90_45_itemsize.gif' );
     background-position: -45px 0px;
     background-repeat: no-repeat;
 }
 div#links a#links_logout_a
 {
-    background-image: url( '/extension/ezteamroom/design/ezteamroom/images/icons/top/sprites_map_90_45_itemsize.gif' );
+    background-image: url( '../images/icons/top/sprites_map_90_45_itemsize.gif' );
     background-position: 0px 0px;
     background-repeat: no-repeat;
 }
 div#links a#links_logout_a:hover
 {
-    background-image: url( '/extension/ezteamroom/design/ezteamroom/images/icons/top/sprites_map_90_45_itemsize.gif' );
+    background-image: url( '../images/icons/top/sprites_map_90_45_itemsize.gif' );
     background-position: -45px 0px;
     background-repeat: no-repeat;
 }
 div#links a#links_profile_a
 {
     background-position: -90px 0px;
-    background-image: url( '/extension/ezteamroom/design/ezteamroom/images/icons/top/sprites_map_90_45_itemsize.gif' );
+    background-image: url( '../images/icons/top/sprites_map_90_45_itemsize.gif' );
     background-repeat: no-repeat;
 }
 div#links a#links_profile_a:hover
 {
     background-position: -135px 0px;
-    background-image: url( '/extension/ezteamroom/design/ezteamroom/images/icons/top/sprites_map_90_45_itemsize.gif' );
+    background-image: url( '../images/icons/top/sprites_map_90_45_itemsize.gif' );
     background-repeat: no-repeat;
 }
 div#links a#links_teamrooms_a
 {
     background-position: -180px 0px;
-    background-image: url( '/extension/ezteamroom/design/ezteamroom/images/icons/top/sprites_map_90_45_itemsize.gif' );
+    background-image: url( '../images/icons/top/sprites_map_90_45_itemsize.gif' );
     background-repeat: no-repeat;
 }
 div#links a#links_teamrooms_a:hover
 {
     background-position: -225px 0px;
-    background-image: url( '/extension/ezteamroom/design/ezteamroom/images/icons/top/sprites_map_90_45_itemsize.gif' );
+    background-image: url( '../images/icons/top/sprites_map_90_45_itemsize.gif' );
     background-repeat: no-repeat;
 }
 div#links a#links_sitemap_a
 {
     background-position: 0px -45px;
-    background-image: url( '/extension/ezteamroom/design/ezteamroom/images/icons/top/sprites_map_90_45_itemsize.gif' );
+    background-image: url( '../images/icons/top/sprites_map_90_45_itemsize.gif' );
     background-repeat: no-repeat;
 }
 div#links a#links_sitemap_a:hover
 {
     background-position: -45px -45px;
-    background-image: url( '/extension/ezteamroom/design/ezteamroom/images/icons/top/sprites_map_90_45_itemsize.gif' );
+    background-image: url( '../images/icons/top/sprites_map_90_45_itemsize.gif' );
     background-repeat: no-repeat;
 }
 div#links a#links_help_a
 {
     background-position: -90px -45px;
-    background-image: url( '/extension/ezteamroom/design/ezteamroom/images/icons/top/sprites_map_90_45_itemsize.gif' );
+    background-image: url( '../images/icons/top/sprites_map_90_45_itemsize.gif' );
     background-repeat: no-repeat;
 }
 div#links a#links_help_a:hover
 {
     background-position: -135px -45px;
-    background-image: url( '/extension/ezteamroom/design/ezteamroom/images/icons/top/sprites_map_90_45_itemsize.gif' );
+    background-image: url( '../images/icons/top/sprites_map_90_45_itemsize.gif' );
     background-repeat: no-repeat;
 }
 div#links a#links_register_a
 {
     background-position: -180px -45px;
-    background-image: url( '/extension/ezteamroom/design/ezteamroom/images/icons/top/sprites_map_90_45_itemsize.gif' );
+    background-image: url( '../images/icons/top/sprites_map_90_45_itemsize.gif' );
     background-repeat: no-repeat;
 }
 div#links a#links_register_a:hover
 {
     background-position: -225px -45px;
-    background-image: url( '/extension/ezteamroom/design/ezteamroom/images/icons/top/sprites_map_90_45_itemsize.gif' );
+    background-image: url( '../images/icons/top/sprites_map_90_45_itemsize.gif' );
     background-repeat: no-repeat;
 }
 
@@ -1292,7 +1292,7 @@ div#topmenu
 
 div#footer
 {
-    background-image:url( '/extension/ezteamroom/design/ezteamroom/images/footer-bg.jpg' );
+    background-image:url( '../images/footer-bg.jpg' );
     background-position:center top;
     background-repeat:no-repeat;
     clear:both;
@@ -1339,7 +1339,7 @@ div.module-content a.module-url
 div.widget-dragbar
 {
     width: auto;
-    background:url( '/extension/ezteamroom/design/ezteamroom/images/box_bg.gif' ) 0px 0px no-repeat;
+    background:url( '../images/box_bg.gif' ) 0px 0px no-repeat;
     border :none;
     height: 35px;
 }
@@ -1357,7 +1357,7 @@ div.widget-dragbar
 
 div.widget-content
 {
-    background:url( '/extension/ezteamroom/design/ezteamroom/images/box_bg2.gif' ) 0px 0px repeat-y;
+    background:url( '../images/box_bg2.gif' ) 0px 0px repeat-y;
     width: auto;
     padding: 10px 10px 0px 10px;
     font-size: 10px;
@@ -1378,7 +1378,7 @@ div.widget-content a
 
 div.widget-footer
 {
-    background:transparent url( '/extension/ezteamroom/design/ezteamroom/images/box_bg3.gif' ) no-repeat scroll 0px;
+    background:transparent url( '../images/box_bg3.gif' ) no-repeat scroll 0px;
     height:10px;
     left:-10px;
     margin-bottom:0px;
@@ -1389,7 +1389,7 @@ div.widget-footer
 
 div.widget-menu a.maxmin-button
 {
-    background-image: url( '/extension/ezteamroom/design/ezteamroom/images/boxes/max_min_close.png' );
+    background-image: url( '../images/boxes/max_min_close.png' );
     background-position: 0px 36px;
     display:block;
     float:left;
@@ -1401,7 +1401,7 @@ div.widget-menu a.maxmin-button
 
 div.widget-menu a.close-button
 {
-    background-image: url( '/extension/ezteamroom/design/ezteamroom/images/boxes/max_min_close.png' );
+    background-image: url( '../images/boxes/max_min_close.png' );
     background-position: 0px 18px;
     display:block;
     float:right;
@@ -1471,7 +1471,7 @@ div.addWidget
 
 a#addNewWidgetButton
 {
-    background:url( '/extension/ezteamroom/design/ezteamroom/images/icons/add_widget.gif' ) 0px 0px no-repeat;
+    background:url( '../images/icons/add_widget.gif' ) 0px 0px no-repeat;
     color:#f06020;
     height:33px;
     padding-top:10px;
@@ -1486,7 +1486,7 @@ a#addNewWidgetButton
 div.class-personal-frontpage div.border-box,
 div.class-teamroom-header
 {
-    background: url( '/extension/ezteamroom/design/ezteamroom/images/content-bg.jpg' ) bottom center no-repeat;
+    background: url( '../images/content-bg.jpg' ) bottom center no-repeat;
     margin-bottom: 14px;
 }
 
@@ -1592,7 +1592,7 @@ div#topmenu div.topmenu-design
 
 div#topmenu ul
 {
-    background:url( '/extension/ezteamroom/design/ezteamroom/images/menu/bg.gif' ) 0px 0px no-repeat;
+    background:url( '../images/menu/bg.gif' ) 0px 0px no-repeat;
     height:39px;
     margin:0pt;
     padding-left:10px;
@@ -1647,7 +1647,7 @@ div#topmenu li a:hover
 div#topmenu li.current,
 div#topmenu li.selected
 {
-    background:url( '/extension/ezteamroom/design/ezteamroom/images/menu/bg_current.gif' ) repeat-x 0px 0px;
+    background:url( '../images/menu/bg_current.gif' ) repeat-x 0px 0px;
 }
 
 div#topmenu li.current a,
@@ -2004,7 +2004,7 @@ div.right-column div.border-box div div.categories,
 div.right-column div.border-box div div.keywords,
 div.left-column div.border-box div.border-mc
 {
-    background:url( '/extension/ezteamroom/design/ezteamroom/images/filebox_bg.gif' ) 0px 0px repeat-x;
+    background:url( '../images/filebox_bg.gif' ) 0px 0px repeat-x;
     min-height: 50px;
     margin-bottom: 20px;
 }
@@ -2270,13 +2270,13 @@ div.class-milestone div.file-list-name
 
 div.home-box
 {
-    background: url( '/extension/ezteamroom/design/ezteamroom/images/content-bg.jpg' ) bottom center no-repeat;
+    background: url( '../images/content-bg.jpg' ) bottom center no-repeat;
     height: 43px;
 }
 
 div.home-box div.home-box-icon
 {
-    background:transparent url( '/extension/ezteamroom/design/ezteamroom/images/icons/home.gif' ) no-repeat scroll 0px 50%;
+    background:transparent url( '../images/icons/home.gif' ) no-repeat scroll 0px 50%;
     float:left;
     height:35px;
     left:40px;
@@ -2291,7 +2291,7 @@ div.home-box div.home-box-icon
 
 div.home-box div.home-box-favs
 {
-    background:transparent url( '/extension/ezteamroom/design/ezteamroom/images/icons/add_favs.gif' ) no-repeat scroll 0px 50%;
+    background:transparent url( '../images/icons/add_favs.gif' ) no-repeat scroll 0px 50%;
     float:left;
     height:35px;
     left:550px;
@@ -2443,7 +2443,7 @@ div#selectColumnPopup {
 
 div#selectColumnPopup div.border-content {
     height: 91px;
-    background-image: url( '/extension/ezteamroom/design/ezteamroom/images/selectcolumnbg.png' );
+    background-image: url( '../images/selectcolumnbg.png' );
     background-color: #999999;
     color: white;
     width: 140px;
@@ -2491,7 +2491,7 @@ div#selectColumnPopup span
 div#selectColumnPopup a.close-button
 {
     float: right;
-    background-image: url( '/extension/ezteamroom/design/ezteamroom/images/boxes/max_min_close.png' );
+    background-image: url( '../images/boxes/max_min_close.png' );
     background-position: 0px 18px;
     text-decoration: none;
     height: 18px;
@@ -2504,11 +2504,11 @@ div#selectColumnPopup a.close-button
 
 
 div#selectColumnPopup ul.sub-menu-list li a {
-    background: url( '/extension/ezteamroom/design/ezteamroom/images/selectcolumncolumn.png' ) no-repeat 0 0;
+    background: url( '../images/selectcolumncolumn.png' ) no-repeat 0 0;
 }
 
 div#selectColumnPopup ul.sub-menu-list li a:hover {
-    background: url( '/extension/ezteamroom/design/ezteamroom/images/selectcolumncolumn.png' ) no-repeat -25px 0;
+    background: url( '../images/selectcolumncolumn.png' ) no-repeat -25px 0;
 }
 
 div.content-view-full div.class-file-folder div.attribute-long
@@ -2617,7 +2617,7 @@ div#ezagenda_calendar_container
 div#ezagenda_calendar_container h5
 {
     text-align: left;
-    background-image:url( '/extension/ezteamroom/design/ezteamroom/images/list.gif' );
+    background-image:url( '../images/list.gif' );
     background-position:2px;
     background-repeat:no-repeat;
     padding-left:18px;
@@ -2644,7 +2644,7 @@ div#ezagenda_calendar_container table th
 
 div#ezagenda_calendar_container table td
 {
-    background: url( '/extension/ezteamroom/design/ezteamroom/images/cal_bg.gif' ) 0px 0px repeat-x;
+    background: url( '../images/cal_bg.gif' ) 0px 0px repeat-x;
     padding: 0px;
     border: 1px solid #fff;
     text-align: center;
@@ -2669,7 +2669,7 @@ div#ezagenda_calendar_container table .last_col
 
 div#ezagenda_calendar_container table  tr.calendar_heading
 {
-    background:url( '/extension/ezteamroom/design/ezteamroom/images/month_bg.gif' ) no-repeat 5px -2px;
+    background:url( '../images/month_bg.gif' ) no-repeat 5px -2px;
 }
 div#ezagenda_calendar_container table  tr.calendar_heading th
 {
@@ -2692,7 +2692,7 @@ div#ezagenda_calendar_container table td.ezagenda_selected
 
 div#ezagenda_calendar_container table td.ezagenda_current, div#ezagenda_calendar_container table td.ezagenda_current a
 {
-    background: url( '/extension/ezteamroom/design/ezteamroom/images/cal_bg_s.gif' ) 0px 0px repeat-x;
+    background: url( '../images/cal_bg_s.gif' ) 0px 0px repeat-x;
     color: #fff;
     font-weight: bold;
 }
@@ -2743,7 +2743,7 @@ table.ezagenda_month_event td.ezagenda_month_label h2
     background-color: #eeeee5;
     width: 39px;
     margin-top: 9px;
-    background-image:url( '/extension/ezteamroom/design/ezteamroom/images/date_bg.png' );
+    background-image:url( '../images/date_bg.png' );
     background-position: center bottom;
     background-repeat: repeat-x;
     text-align: center;
@@ -2845,7 +2845,7 @@ div#main div.itemized_sub_items div.content-view-embed ul li,
 div.widget-content ul li,
 div#main div.widget-content ul li
 {
-    background: url( '/extension/ezteamroom/design/ezteamroom/images/list.gif' ) left 2px no-repeat;
+    background: url( '../images/list.gif' ) left 2px no-repeat;
     line-height: 1.25em;
     list-style-type: none;
     padding: 0px;
@@ -2897,7 +2897,7 @@ div.content-view-full div.class-milestone_folder div.content-view-children
 div.content-view-full div.class-milestone_folder div.content-view-children div.milestone-infobox,
 div.content-view-full div.class-file-folder div.content-view-children div.file-infobox
 {
-    background: url( '/extension/ezteamroom/design/ezteamroom/images/taskinfo_bg.png' ) repeat-x top left;
+    background: url( '../images/taskinfo_bg.png' ) repeat-x top left;
     border-bottom:1px solid #999;
     border-left:1px solid #999;
     border-right:1px solid #999;
@@ -3087,14 +3087,14 @@ table.tasklist td.prog a.prog100.selected:hover
     background-color: #E4E4E4;
 }
 
-table.tasklist td.prog a.prog025 { background:url( '/extension/ezteamroom/design/ezteamroom/images/progress/prog025w.gif ') left bottom no-repeat; }
-table.tasklist td.prog a.prog050 { background:url( '/extension/ezteamroom/design/ezteamroom/images/progress/prog050w.gif' ) left bottom no-repeat; }
-table.tasklist td.prog a.prog075 { background:url( '/extension/ezteamroom/design/ezteamroom/images/progress/prog075w.gif' ) left bottom no-repeat; }
-table.tasklist td.prog a.prog100 { background:url( '/extension/ezteamroom/design/ezteamroom/images/progress/prog100w.gif' ) left bottom no-repeat; }
-table.tasklist td.prog span.prog025 a.selected { background:url( '/extension/ezteamroom/design/ezteamroom/images/progress/prog025a.gif' ) left bottom no-repeat; }
-table.tasklist td.prog span.prog050 a.selected { background:url( '/extension/ezteamroom/design/ezteamroom/images/progress/prog050a.gif' ) left bottom no-repeat; }
-table.tasklist td.prog span.prog075 a.selected { background:url( '/extension/ezteamroom/design/ezteamroom/images/progress/prog075a.gif' ) left bottom no-repeat; }
-table.tasklist td.prog span.prog100 a.selected { background:url( '/extension/ezteamroom/design/ezteamroom/images/progress/prog100a.gif' ) left bottom no-repeat; }
+table.tasklist td.prog a.prog025 { background:url( '../images/progress/prog025w.gif ') left bottom no-repeat; }
+table.tasklist td.prog a.prog050 { background:url( '../images/progress/prog050w.gif' ) left bottom no-repeat; }
+table.tasklist td.prog a.prog075 { background:url( '../images/progress/prog075w.gif' ) left bottom no-repeat; }
+table.tasklist td.prog a.prog100 { background:url( '../images/progress/prog100w.gif' ) left bottom no-repeat; }
+table.tasklist td.prog span.prog025 a.selected { background:url( '../images/progress/prog025a.gif' ) left bottom no-repeat; }
+table.tasklist td.prog span.prog050 a.selected { background:url( '../images/progress/prog050a.gif' ) left bottom no-repeat; }
+table.tasklist td.prog span.prog075 a.selected { background:url( '../images/progress/prog075a.gif' ) left bottom no-repeat; }
+table.tasklist td.prog span.prog100 a.selected { background:url( '../images/progress/prog100a.gif' ) left bottom no-repeat; }
 
 
 table.tasklist td.end,
@@ -3156,18 +3156,18 @@ div#available-widgets-list.available-widgets
 
 div#available-widgets-list.available-widgets div.border-tc
 {
-    background:url( '/extension/ezteamroom/design/ezteamroom/images/widgetbox/header.gif' ) 0px 0px no-repeat;
+    background:url( '../images/widgetbox/header.gif' ) 0px 0px no-repeat;
     height: 34px;
 
 }
 div#available-widgets-list.available-widgets div.border-ml
 {
-    background:url( '/extension/ezteamroom/design/ezteamroom/images/widgetbox/content.gif' ) 0px 0px repeat-y;
+    background:url( '../images/widgetbox/content.gif' ) 0px 0px repeat-y;
 }
 
 div#available-widgets-list.available-widgets div.border-bc
 {
-    background:url( '/extension/ezteamroom/design/ezteamroom/images/widgetbox/footer.gif' ) 0px 0px no-repeat;
+    background:url( '../images/widgetbox/footer.gif' ) 0px 0px no-repeat;
     height: 10px;
 }
 
@@ -3190,7 +3190,7 @@ div#available-widgets-list.available-widgets h2
 
 div#available-widgets-list.available-widgets a.close-button
 {
-    background-image: url( '/extension/ezteamroom/design/ezteamroom/images/boxes/max_min_close.png' );
+    background-image: url( '../images/boxes/max_min_close.png' );
     background-position: 0px 18px;
     display:block;
     float:right;
@@ -3257,7 +3257,7 @@ div#selectColumnPopup div.border-right
 div.class-teamroom-line,
 div.user-edit
 {
-    background: transparent url( '/extension/ezteamroom/design/ezteamroom/images/teamroom_bg.png' ) repeat-x 0px 0px;
+    background: transparent url( '../images/teamroom_bg.png' ) repeat-x 0px 0px;
     padding-left: 10px;
     padding-top: 5px;
     margin-bottom: 10px;
@@ -3422,7 +3422,7 @@ div.edit-attribute input.button
 
 div.edit-attribute input.button
 {
-    background: url( '/extension/ezteamroom/design/ezteamroom/images/button_bg.png' ) no-repeat 0px 0px;
+    background: url( '../images/button_bg.png' ) no-repeat 0px 0px;
     width: 152px;
 }
 
@@ -3449,12 +3449,12 @@ table.forum tr.bgdark,
 table.forum tr.bglight,
 table.forum tr
 {
-    background: #fff url( '/extension/ezteamroom/design/ezteamroom/images/forum_bg.png' ) repeat-x top left;
+    background: #fff url( '../images/forum_bg.png' ) repeat-x top left;
 }
 
 table.forum tr.header
 {
-    background: #fff url( '/extension/ezteamroom/design/ezteamroom/images/forum_tr_bg.gif' ) repeat-x top left;
+    background: #fff url( '../images/forum_tr_bg.gif' ) repeat-x top left;
 }
 
 table.forum tr.header td
@@ -3549,7 +3549,7 @@ table.forum tr td.replies
 }
 
 div.just_background{
-    background: #fff url( '/extension/ezteamroom/design/ezteamroom/images/blog_bg.gif' ) repeat-x top left;
+    background: #fff url( '../images/blog_bg.gif' ) repeat-x top left;
 }
 
 div.box_background,
@@ -3559,7 +3559,7 @@ div.content-view-full div.class-blog-post,
 div.content-view-full div.class-documentation_page div.center-column,
 div.content-view-full div.class-documentation_page div.left-column-position
 {
-    background: #fff url( '/extension/ezteamroom/design/ezteamroom/images/blog_bg.gif' ) repeat-x top left;
+    background: #fff url( '../images/blog_bg.gif' ) repeat-x top left;
     padding-top: 10px;
     padding-left: 10px;
     padding-bottom: 20px;
@@ -3614,7 +3614,7 @@ div.content-view-full div.class-blog-post div.attribute-byline p.tags a
 
 div.content-view-line div.class-comment
 {
-    background:#FFFFFF url( '/extension/ezteamroom/design/ezteamroom/images/blog_bg.gif' ) repeat-x scroll left top;
+    background:#FFFFFF url( '../images/blog_bg.gif' ) repeat-x scroll left top;
     padding: 0px;
     padding-left: 210px;
     margin-bottom: 5px;
@@ -3669,7 +3669,7 @@ div.attribute-toc ul
 
 div.attribute-toc ul.level0
 {
-    background:transparent url( '/extension/ezteamroom/design/ezteamroom/images/li_vert.gif' ) no-repeat scroll 4px -5px;
+    background:transparent url( '../images/li_vert.gif' ) no-repeat scroll 4px -5px;
     margin-left:0px;
     padding-top:2px;
 }
@@ -3677,7 +3677,7 @@ div.attribute-toc ul.level0
 
 div.attribute-toc ul li
 {
-    background-image:url( '/extension/ezteamroom/design/ezteamroom/images/li_bg.gif' );
+    background-image:url( '../images/li_bg.gif' );
     background-repeat:no-repeat;
     list-style-type:none;
     margin-bottom:0px;
@@ -3688,11 +3688,11 @@ div.attribute-toc ul li
 }
 div.attribute-toc ul li.lastelem
 {
-    background-image:url( '/extension/ezteamroom/design/ezteamroom/images/li_last_bg.gif' );
+    background-image:url( '../images/li_last_bg.gif' );
 }
 div.attribute-toc ul li a
 {
-    background-image:url( '/extension/ezteamroom/design/ezteamroom/images/li_cursor.gif' );
+    background-image:url( '../images/li_cursor.gif' );
     background-repeat:no-repeat;
     margin-bottom:-1px;
     margin-left:-6px;
@@ -3807,7 +3807,7 @@ div#ezagenda_calendar_container_full
 div#ezagenda_calendar_container_full h5
 {
     text-align: left;
-    background-image:url( '/extension/ezteamroom/design/ezteamroom/images/list.gif' );
+    background-image:url( '../images/list.gif' );
     background-position:2px;
     background-repeat:no-repeat;
     padding-left:18px;
@@ -3836,7 +3836,7 @@ div#ezagenda_calendar_container_full table th
 
 div#ezagenda_calendar_container_full table td
 {
-    background: url( '/extension/ezteamroom/design/ezteamroom/images/cal_td_bg.gif' ) 0px 0px repeat-x;
+    background: url( '../images/cal_td_bg.gif' ) 0px 0px repeat-x;
     padding: 0px;
     border: 1px solid #fff;
     text-align: center;
@@ -3862,7 +3862,7 @@ div#ezagenda_calendar_container_full table .last_col
 
 div#ezagenda_calendar_container_full table  tr.calendar_heading
 {
-    background: url( '/extension/ezteamroom/design/ezteamroom/images/cal_th_bg.gif' ) no-repeat -1px -1px;
+    background: url( '../images/cal_th_bg.gif' ) no-repeat -1px -1px;
 }
 div#ezagenda_calendar_container_full table  tr.calendar_heading th
 {
@@ -3881,7 +3881,7 @@ div#ezagenda_calendar_container_full table  tr.calendar_heading th a
 
 div#ezagenda_calendar_container_full table td.ezagenda_current, div#ezagenda_calendar_container_full table td.ezagenda_current a
 {
-    background: url( '/extension/ezteamroom/design/ezteamroom/images/cal_td_bg_s.gif' ) 0px 0px repeat-x;
+    background: url( '../images/cal_td_bg_s.gif' ) 0px 0px repeat-x;
     color: #fff;
     font-weight: bold;
 }
@@ -4018,7 +4018,7 @@ div.change-password div.buttonblock
 }
 
 div.content-pendinglist {
-    background:#FFFFFF url( '/extension/ezteamroom/design/ezteamroom/images/blog_bg.gif' ) repeat-x scroll left top;
+    background:#FFFFFF url( '../images/blog_bg.gif' ) repeat-x scroll left top;
     padding: 1em;
 }
 
@@ -4056,7 +4056,7 @@ div.teamroom-register-deferred div.message-icon {
 
 /** User Profile **/
 div.user-edit div.user-edit-profile {
-    background:url( '/extension/ezteamroom/design/ezteamroom/images/user/header_orange_background.jpg' ) repeat-x top;
+    background:url( '../images/user/header_orange_background.jpg' ) repeat-x top;
     position:relative;
 }
 div.user-edit div.profile-header {
@@ -4068,7 +4068,7 @@ div.user-edit div.profile-image {
     position:absolute;
     height:263px;
     width:186px;
-    background:url( '/extension/ezteamroom/design/ezteamroom/images/user/profile_photo_background.jpg' );
+    background:url( '../images/user/profile_photo_background.jpg' );
 }
 div.user-edit div.profile-image div {
     padding:24px;

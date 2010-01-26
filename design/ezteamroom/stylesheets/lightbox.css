@@ -200,7 +200,7 @@ div.class-lightbox div.left-column div.border-box div.border-mc h1 {
 }
 
 div.class-lightbox div.center-column div.border-box div.border-mc {
-    background:transparent url( '/extension/ezteamroom/design/ezteamroom/images/teamroom_bg.png' ) repeat-x 0 0;
+    background:transparent url( '../images/teamroom_bg.png' ) repeat-x 0 0;
     margin-bottom:10px;
     padding-left:10px;
     margin-left:10px;
