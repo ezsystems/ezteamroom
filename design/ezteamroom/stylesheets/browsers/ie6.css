@@ -118,7 +118,7 @@ div.widget-content {
 }
 div.widget-content div.class-infobox,
 div.widget-content div.module-widget {
-    background: transparent url( '/extension/ezteamroom/design/ezteamroom/images/box_bg2.gif' ) repeat-y scroll 0px;
+    background: transparent url( '../../images/box_bg2.gif' ) repeat-y scroll 0px;
 }
 div.widget-content div.class-infobox div.attribute-content,
 div.widget-content div.module-widget div.module-content {
