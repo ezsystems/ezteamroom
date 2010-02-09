@@ -31,8 +31,8 @@ $eZTemplateOperatorArray[] = array( 'script' => eZExtension::baseDirectory() . '
                                                                'teamroom_version',
                                                                'join_teamroom_in_progress', 'str_replace' ) );
 
-$eZTemplateOperatorArray[] = array( 'script' => 'extension/ezteamroom/autoloads/ezkeywordlist.php',
+/*$eZTemplateOperatorArray[] = array( 'script' => 'extension/ezteamroom/autoloads/ezkeywordlist.php',
                                     'class' => 'eZKeywordList',
-                                    'operator_names' => array( 'ezkeywordlist' ) );
+                                    'operator_names' => array( 'ezkeywordlist' ) ); */
 
 ?>
