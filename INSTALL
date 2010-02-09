@@ -12,7 +12,7 @@ Step 1: Requirements
   - window_media (will be created newly or perhaps be modified if it exists)
   - user (will be created newly or perhaps be modified if it exists)
 - Furthermore the following extensions are required:
-  eZ Lightbox, eZ Event, eZ JS Core, eZ XML Installer and eZ Event.
+  eZ Webin, eZ Lightbox, eZ Event, eZ JS Core, eZ XML Installer and eZ Event.
 - Optionally the eZ Multiupload extension can be used to allow
   the upload of multiple files at the same time.
 
