@@ -28,10 +28,10 @@ class ezteamroomInfo
     public static function info()
     {
         return array( 'Name'              => "eZ Publish eZ Teamroom Solution",
-                      'Version'           => "1.3.0",
-                      'Copyright'         => "Copyright (C) 2007-2008 eZ Systems",
+                      'Version'           => "1.0.0",
+                      'Copyright'         => "Copyright (C) 2007-2010 eZ Systems",
                       'Info_url'          => "http://ez.no",
-                      'License'           => "eZ Proprietary Use License (v1.0)" );
+                      'License'           => "GNU GPL v2.0" );
     }
 }
 ?>
