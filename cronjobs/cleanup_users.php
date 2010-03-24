@@ -3,7 +3,7 @@
 // ## BEGIN COPYRIGHT, LICENSE AND WARRANTY NOTICE ##
 // SOFTWARE NAME: eZ XMP
 // SOFTWARE RELEASE: 0.5.0
-// COPYRIGHT NOTICE: Copyright (C) 2007 eZ Systems Germany
+// COPYRIGHT NOTICE: Copyright (C) 1999-2010 eZ Systems AS.
 // SOFTWARE LICENSE: GNU General Public License v2.0
 // NOTICE: >
 //   This program is free software; you can redistribute it and/or
