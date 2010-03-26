@@ -28,7 +28,7 @@ class ezteamroomInfo
     public static function info()
     {
         return array( 'Name'              => "eZ Publish eZ Teamroom Solution",
-                      'Version'           => "1.0.0",
+                      'Version'           => "1.1.0",
                       'Copyright'         => "Copyright (C) 2007-2010 eZ Systems",
                       'Info_url'          => "http://ez.no",
                       'License'           => "GNU GPL v2.0" );
