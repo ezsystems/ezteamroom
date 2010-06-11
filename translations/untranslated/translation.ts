@@ -1,6 +1,101 @@
-<!DOCTYPE TS><TS>
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.0">
 <context>
-    <name>design/standard/user/register</name>
+    <name>design/ezteamroom</name>
+    <message>
+        <source>Lightbox</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Add this file to the current lightbox.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/ezwebin/content/datatype</name>
+    <message>
+        <source>Year</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Month</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Day</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Hour</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Minute</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/content/version</name>
+    <message>
+        <source>Version</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Creator</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Download</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Get version</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>ezteamroom/access_type</name>
+    <message>
+        <source>Private</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Nobody can see that the teamroom exists and users can only become a member of the teamroom if you invited them.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Internal</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Only users that belong to the same group as you do can see that the teamroom exists and you will have to approve any requested membership before people can use the teamroom.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Protected</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Anybody can see that the teamroom exists and you will have to approve any requested membership before people can use the teamroom.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Public</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Anybody can see that the teamroom exists and can join it without asking you for permission.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>ezteamroom/article</name>
@@ -37,10 +132,6 @@
     </message>
     <message>
         <source>Remove</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Remove this item.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -91,6 +182,34 @@
         <source>Add Comment</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Only entries with tag &quot;%1&quot; are shown</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Shown only entries with tag &quot;%1&quot;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Show the comments to this post</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Edit this post</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Remove this post</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Edit this comment</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Remove this comment</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>ezteamroom/bookmark</name>
@@ -127,37 +246,6 @@
     </message>
 </context>
 <context>
-    <name>ezteamroom/bookmarks</name>
-    <message>
-        <source>Edit</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>This lightbox is empty.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>You are not logged in.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Please register here</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Please register here.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Login here</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Login here.</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
     <name>ezteamroom/browse</name>
     <message>
         <source>Browse</source>
@@ -169,10 +257,6 @@
     </message>
     <message>
         <source>To select an object that is a child of one of the displayed objects, click the parent object name to display a list of its children.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Back</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -197,6 +281,10 @@
     </message>
     <message>
         <source>Type</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Up</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -255,10 +343,6 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Membership approval</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>You have approved the membership request of %authorname for the &quot;%groupname&quot; group.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -283,14 +367,6 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Group info</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Created at</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Participants</source>
         <translation type="unfinished"></translation>
     </message>
@@ -305,11 +381,6 @@
     <message>
         <source>%authorname has requested to join the teamroom &quot;%groupname&quot; at %sitename.
 You need to approve or deny this request by using the URL below.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>If you do not wish to continue receiving these notifications,
-change your settings at:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -414,55 +485,11 @@ Your request is waiting for approval. To view the status of your request or to a
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>[%sitename] You have been removed from teamroom &apos;%teamroomname&apos;</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Your membership from teamroom &apos;%2&apos; has been quit by a teamroom moderator.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>If you are thinking this was done by a mistake, please get in contact with the owner &apos;%1&apos; of the teamroom.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>[%sitename] Membership for teamroom &apos;%teamroomname&apos; has been approved</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Your membership to the teamroom &apos;%1&apos; has been approved by a teamroom moderator.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Use the following link to access the teamroom</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>[%sitename] Member has resigned from teamroom &apos;%teamroomname&apos;</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>The member &apos;%1&apos; has resigned from the teamroom &apos;%2&apos;.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>[%sitename] You have resigned from teamroom &apos;%teamroomname&apos;</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>You have successfully resigned from the teamroom &apos;%1&apos;.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>[%sitename] The teamroom &apos;%teamroomname&apos; has been created</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Your teamroom &apos;%1&apos; has been created successfully.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>The access type has been set to: %1.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -479,16 +506,6 @@ Your request is waiting for approval. To view the status of your request or to a
     </message>
     <message>
         <source>This mail was sent by the notification system on %sitename</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>In order to get access to the system you need to login,
-login in at:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>If you have any questions or problems, please send a mail to the 
-site administrator: %sitenadmin.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -546,6 +563,143 @@ site administrator: %sitenadmin.</source>
     </message>
     <message>
         <source>Click the following URL to confirm your account</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&quot;%name&quot; was updated</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>was updated</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This email is to inform you that an updated item has been published at %sitename.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The item can be viewed by using the URL below.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&quot;%name&quot; was published</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>was published</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This email is to inform you that a new item has been published at %sitename.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>If you do not want to continue receiving these notifications,
+change your settings at:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%sitename notification system</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Memberregistration approval</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>[%sitename] Teamroom invitation</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>A teamroom moderator has invited you to be a member of the teamroom &apos;%1&apos;.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>If you do not want to be a member of this teamroom, you can resign using the following link</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>[%sitename] Teamroom membership terminated</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Your membership of the teamroom &apos;%1&apos; has been terminated by a teamroom moderator.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>[%sitename] Member has resigned from teamroom</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The member &quot;%1&quot; has resigned from the teamroom &quot;%2&quot;.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>[%sitename] Teamroom membership resigned</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>You have successfully resigned from the teamroom &quot;%1&quot;.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>[%sitename] Teamroom memberregistration approved</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>You have successfully joined the teamroom &apos;%1&apos;.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Your memberregistration in the teamroom &apos;%1&apos; has been approved by a teamroom moderator.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>If do not want to be a member of this teamroom anymore you can use the following link to resign from the teamroom.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>[%sitename] Teamroom memberregistration denied</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Your memberregistration in the teamroom &apos;%1&apos; has been denied by a teamroom moderator.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>[%sitename] Teamroom invitation reminder</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>If you do not have a user account yet, you received your account information in a separate email. You will find further information in this email about how to activate your user account to be able to use the teamroom.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>[%sitename] Teamroom created</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Your teamroom &apos;%1&apos; (visibility &apos;%2&apos;) has been created successfully.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>If you want to be notified about new members requesting access to your teamroom you can adjust the notification settings using the following link.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>If you do not wish to continue receiving these notifications, use the following link to change your personal notification settings</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>In order to get access to the system you need to login. This can be done using the following link</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>If you have any questions or problems, please send an email to the site administrator %sitenadmin.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Approve teamroom membership</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -607,10 +761,6 @@ site administrator: %sitenadmin.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>The following users are currently members of this teamroom.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Moderator</source>
         <translation type="unfinished"></translation>
     </message>
@@ -647,10 +797,6 @@ site administrator: %sitenadmin.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Widget Pool</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Latest Files</source>
         <translation type="unfinished"></translation>
     </message>
@@ -671,15 +817,43 @@ site administrator: %sitenadmin.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Manage Teamroom</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Teamroom Moderators</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Team member</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The following users are currently members of this teamroom. You can get detailed information about a user within his profile and send an email to each of the users. Using the link in the menu on the right you can invite new users to the teamroom. If you have the required rights you can configure the permissions of the teamroom members by using the link in the menu on the right.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Moderators</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The following users are currently moderators of this teamroom.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The following list shows the milestones that have been created within this teamroom. A milestone is a collection of tasks and has a date that indicates when the milestone should be reached. You can use the button &quot;New milestone&quot; to create a new milestone. The links shown below &quot;Sort by&quot; can be used to sort the milestones in different orders. By clicking on the same link two times, the sorting order will be reverted. A click on one of the tags shown below &quot;Tags&quot; will filter the displayed milestones and show only those having the selected tag.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This message board can be used for teamroom related discussions. You can add a new post using the button &quot;Add new topic&quot;. If you want to read the content of a topic you can click on the title. This will also enable you to reply to that topic.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This blog can be used to post teamroom related messages in form of a diary. To create a new blog entry you can use the button &quot;Add new entry&quot;. If you click on the title of an entry the full article will be shown and you are enabled to write a comment to the article.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Boxes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This Teamroom</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -915,19 +1089,11 @@ site administrator: %sitenadmin.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Event this month</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Today&apos;s events</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Events on</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Events in</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1014,6 +1180,90 @@ site administrator: %sitenadmin.</source>
         <source>Milestones</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Edit complete event</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Edit single event</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>From %1 to %2</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Invalid date</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Weekly on %1 from %2 to %3</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Monthly each %1.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Yearly the %1/%2</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Attendees </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Attendees</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Remove this event</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Events this month</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Events on %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Events in %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No filter</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Only &quot;%1&quot; are shown</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Shown only &quot;%1&quot;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%1 - %2</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No events</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>ezteamroom/files</name>
@@ -1090,14 +1340,6 @@ site administrator: %sitenadmin.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Previous image</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Next image</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Browse all</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1146,31 +1388,7 @@ site administrator: %sitenadmin.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Release</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Lock</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Lightbox</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Add this file to the current lightbox.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Add to current Lightbox</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Versions</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Delete</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1211,14 +1429,6 @@ site administrator: %sitenadmin.</source>
     </message>
     <message>
         <source>Get version</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Upload new version</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Add this image to the current lightbox.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1271,6 +1481,142 @@ site administrator: %sitenadmin.</source>
     </message>
     <message>
         <source>Lightboxes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Download this file</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Release this file</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Lock this file</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Add this file to the current lightbox</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>You can not access the current lightbox.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Show versions of this file</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Edit this file or upload a new version</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Delete this file</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Add this folder to the current lightbox</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Edit this folder or upload a new version</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Delete this folder</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Download this image</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Release this image</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Lock this image</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Add this image to the current lightbox</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Show versions of this image</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Edit this image or upload a new version</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Delete this image</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Edit the entry of this lightbox</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Edit this lightbox entry</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Download this video</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Release this video</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Lock this video</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Show versions of this video</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Edit this video or upload a new version</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Shown only entries with tag &quot;%1&quot;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Are you sure you want to remove the folder?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>One level up</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Create folder</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Create a new folder</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Only files of category &quot;%1&quot; are shown</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Show only files of the category &quot;%1&quot;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Only files with tag &quot;%1&quot; are shown</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Shown only files with tag &quot;%1&quot;</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1376,6 +1722,30 @@ site administrator: %sitenadmin.</source>
         <source>Reply</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Edit %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Edit this entry</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Delete this entry</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Edit this reply</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Remove this reply</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Jump to the top of this page</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>ezteamroom/frontpage</name>
@@ -1449,6 +1819,556 @@ site administrator: %sitenadmin.</source>
     </message>
 </context>
 <context>
+    <name>ezteamroom/install/classes</name>
+    <message>
+        <source>Image</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Tags</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Quicktime</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Description</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Real video</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Windows media</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>First name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Last name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>User account</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Signature</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Teamroom comment</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Subject</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Author</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Teamroom blog</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Teamroom Blog post</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Title</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Body</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Publication date</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Unpublish date</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Enable comments</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Teamroom frontpage</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Billboard</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Left column</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Center column</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Right column</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Bottom column</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Teamroom documentation page</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Display sub items</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Teamroom info box</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Header</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Box Icon</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Content</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>URL</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Module URL</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Check access</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Relates to</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Teamroom file</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Category</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Documents</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Lightboxes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Sounds</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Pictures</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Thumbnail</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Teamroom forum</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Teamroom forum topic</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Sticky</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Notify me about updates</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Teamroom forum reply</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Teamroom event</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Full title</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Short title</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Text</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Teamroom event calendar</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Full Title</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Short Title</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>View</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Teamroom news folder</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Short name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Folder</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Summary</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Publish date</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Teamroom personalized frontpage</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Number of columns</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Allow Minimization</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Default arrangement</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Teamroom room</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Access type</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Feature list</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Teamroom tasks</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Teamroom task</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Planned end date</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>End Date</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Estimated Effort (hours)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Estimated Effort (minutes)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Users</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Related documents</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Priority</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Milestone</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Teamroom file folder</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Teamroom file subfolder</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Subfolder</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Teamroom infobox folder</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Teamroom milestone</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Closed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Teamroom milestone folder</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Teamroom lightbox</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Lightbox</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>ezteamroom/install/roles</name>
+    <message>
+        <source>Use Teamroom</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use Lightbox</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Member</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Moderator</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Read Forum</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use Forum</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Read Blog</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use Blog</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Read Calendar</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use Calendar</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Read Documents</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use Documents</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Read Wiki</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use Wiki</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Read Tasks</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use Tasks</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Read Milestones</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use Milestones</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>ezteamroom/install/sections</name>
+    <message>
+        <source>Private Teamroom</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Public Teamroom</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>ezteamroom/install/sitename</name>
+    <message>
+        <source>eZ Teamroom</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>ezteamroom/install/teamroomcontent</name>
+    <message>
+        <source>Welcome. Success with eZ Teamrooms.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Boxes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Lightbox selection</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>My Teamrooms</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Some help text</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>All Teamrooms</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Create Teamroom</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Add your teamroom and get all the things to manage your team.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Lightboxes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Latest Messages</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>ezteamroom/install/workflows</name>
+    <message>
+        <source>Create Teamroom</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Approve Member Registration</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Set Teamroom Section</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Set Current Teamroom</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Post Publish Multiplexer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Set Teamroom Membership</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>ezteamroom/keepmeupdated</name>
     <message>
         <source>Keep me updated</source>
@@ -1456,6 +2376,10 @@ site administrator: %sitenadmin.</source>
     </message>
     <message>
         <source>Receive an email if anything changes in this area</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Receive an email if new users join this teamroom or modify their profile.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1491,10 +2415,6 @@ site administrator: %sitenadmin.</source>
     </message>
     <message>
         <source>Object ID %1 not available</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Lightbox</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1571,10 +2491,6 @@ site administrator: %sitenadmin.</source>
     </message>
     <message>
         <source>Choose current lightbox</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>None</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1817,17 +2733,17 @@ site administrator: %sitenadmin.</source>
         <source>Select a lightbox</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Create new Lightbox</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Create new lightbox.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>ezteamroom/membership</name>
-    <message>
-        <source>Membership approval</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Membership</source>
-        <translation type="unfinished"></translation>
-    </message>
     <message>
         <source>Email</source>
         <translation type="unfinished"></translation>
@@ -1873,15 +2789,7 @@ site administrator: %sitenadmin.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Sort By</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Teamroom</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>There are no user.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2088,39 +2996,11 @@ site administrator: %sitenadmin.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Select a user by browsing through all registered users.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Browse users</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>User not found - Send email Invitation</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>The user was not found. You can invite this user by email. He will automatically be assigned to this teamroom.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>The invitation will be send to:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Additional Text:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Send email invitation</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Selected Users:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Selected User:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2136,35 +3016,11 @@ site administrator: %sitenadmin.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>You are already a member of this teamroom.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Resign from Teamroom &quot;%name&quot;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Do you really want to leave this team?</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Resigned from teamroom &quot;%name&quot;</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>You are successfully resigned from this teamroom.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>You have been invited to join %teamroom at %siteurl</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>You have been invited to join the following Teamroom: %teamroom.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>An account was automatically created. If you do not login within the next two weeks your account will be deleted.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2189,10 +3045,6 @@ site administrator: %sitenadmin.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Approve membership</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Users were successfully selected</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2205,27 +3057,7 @@ site administrator: %sitenadmin.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Unknown user: </source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>New User</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>The node (%1) specified in [UserSettings].DefaultUserPlacement setting in site.ini does not exist!</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>You were invited</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Sending mail failed.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>$unkownUserMail was successfully invited</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2262,10 +3094,6 @@ site administrator: %sitenadmin.</source>
     </message>
     <message>
         <source>Teamroom &quot;%name&quot; - Request for membership</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Are you sure you want to request a membership for the teamroom &quot;%name&quot;?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2313,11 +3141,182 @@ site administrator: %sitenadmin.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Invite user</source>
+        <source>Group</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Enter a valid email address. It is also possible to enter several email addresses by separting them with semicolons.</source>
+        <source>Send a remind invitation email to %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Invite again</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Send an email to %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>There are no users.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Invite a user</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Enter a valid email address. It is also possible to enter a comma separated list of email addresses. If there does not exist a user with one of the given email addresses in the system yet, new user accounts will be generated for them automatically.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Search user</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Search for existing users or invite new users according to their email addresses</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Select an existing user by browsing through all registered users.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Browse through user groups to find user that already have a user account</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Create new account for:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Automatically create user accounts for new users and send an invitation email to all users displayed in the list above</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Clear list</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Remove all users selected for invitation from the list displayed above</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>[%siteurl] Teamroom invitation user account</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>You have been invited to join the teamroom &apos;%teamroom&apos;.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Therefore a user account was automatically created. If you do not login within the next two weeks your account will be deleted.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Send the invitation email to &quot;%1&quot; again</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>You have successfully joined the teamroom &quot;%name&quot; and are now member of this teamroom.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>To the teamroom</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Do you really want to cancel your membership of this teamroom?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Your membership of this teamroom has successfully been canceld.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>To the teamrooms</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>User is already Member: </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>User already selected: </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>There is no registered user with that email address: </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source> A new account will be created.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>New invited user</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>remind of invitation mail send to %1.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Failed to move Member.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>ezteamroom/messagecenter</name>
+    <message>
+        <source>Send message</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>An email has been send using the teamroom &quot;%1&quot;. The message is included below.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use the following link to access the teamroom</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Hide</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Member list</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Invert selection</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Message form</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Receiver</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Subject</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Body</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Back</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Message Center</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -2487,6 +3486,15 @@ site administrator: %sitenadmin.</source>
         <source>Go</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Start search</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Switch to the %1simple search%2</source>
+        <comment>The parameters are link start and end tags.</comment>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>ezteamroom/setsetction</name>
@@ -2499,6 +3507,13 @@ site administrator: %sitenadmin.</source>
     <name>ezteamroom/setteamroom</name>
     <message>
         <source>Set the current Teamroom</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>ezteamroom/tags</name>
+    <message>
+        <source>No tags available</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -2554,7 +3569,7 @@ site administrator: %sitenadmin.</source>
     </message>
     <message>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <source>No one defined.</source>
@@ -2597,35 +3612,11 @@ site administrator: %sitenadmin.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Title</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Progress</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>End date</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Type</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Until</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Est. time</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Edit</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Del.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2740,6 +3731,30 @@ site administrator: %sitenadmin.</source>
         <source>Delete this task</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Only milestones with tag &quot;%1&quot; are shown</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Shown only milestones with tag &quot;%1&quot;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>View all tasks</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Only tasks with tag &quot;%1&quot; are shown</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Shown only tasks with tag &quot;%1&quot;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>N/A</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>ezteamroom/teamroom</name>
@@ -2777,18 +3792,6 @@ site administrator: %sitenadmin.</source>
     </message>
     <message>
         <source>Description</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>private</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>protected</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>public</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2914,10 +3917,6 @@ site administrator: %sitenadmin.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>New Teamroom</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Sort By</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2943,14 +3942,6 @@ site administrator: %sitenadmin.</source>
     </message>
     <message>
         <source>My teamrooms</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>My ownerships</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>My memberships</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2983,10 +3974,6 @@ site administrator: %sitenadmin.</source>
     </message>
     <message>
         <source>User</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Move to %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3027,10 +4014,6 @@ site administrator: %sitenadmin.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>A membership is required to access this teamroom. If you want to become a member of this teamroom you can use the button on the left to ask a teamroom moderator for access to this teamroom.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>The teamroom extension seems to be not configured correctly.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3048,6 +4031,134 @@ site administrator: %sitenadmin.</source>
     </message>
     <message>
         <source>No teamroom has been created yet.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Approve teamroom membership</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>approve member registration</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Changes have been stored.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Membership</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>If you disable features in your teamroom this will have no effect on existing contents in that area. Thus, you can also enable a feature later on and you will get the same content.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Keep in mind that it can take several minutes until the modifications to the teamroom take effect.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>To create a new teamroom just enter a title and a short description for it.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The access types can be used for access control to your teamroom as follows</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Only those features that you selected will be visible in your teamroom. It is also possible to de-/activate features after the teamroom has been created.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Keep in mind that the creation of your new teamroom can take several minutes.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>A membership is required to access this teamroom. If you want to become a member of this teamroom you can request a membership for this teamroom. After a moderator has approved your membership you will get further access to this teamroom.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Request membership</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Even if this is a public teamroom and you can read most of its content, it is possible to join this teamroom to become a permanent member. This will enable to better participate in teamroom activities. After you have joined this teamroom you will be able to make use of the teamroom.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Teamroom Logo</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Add new Teamroom</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Visibility</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Remove this teamroom</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>There are no Teamrooms yet</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Logout</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>My profile</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Sitemap</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Register</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Move to group &quot;%1&quot;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Invert selection</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Join teamroom &quot;%name&quot;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Teamroom &quot;%name&quot; - Request for membership</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Are you sure you want to join the teamroom &quot;%name&quot;?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Are you sure you want to request a membership for the teamroom &quot;%name&quot;?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Yes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -3074,11 +4185,26 @@ site administrator: %sitenadmin.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Remove this item.</source>
+        <source>Keywords</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Keywords</source>
+        <source>Edit this entry</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Remove this entry</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>lightbox/view</name>
+    <message>
+        <source>Go back</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use this button to go back to the last page.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

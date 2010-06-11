@@ -1,4 +1,102 @@
-<!DOCTYPE TS><TS>
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.0">
+<context>
+    <name>design/ezteamroom</name>
+    <message>
+        <source>Lightbox</source>
+        <translation type="unfinished">Lightbox</translation>
+    </message>
+    <message>
+        <source>Add this file to the current lightbox.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/ezwebin/content/datatype</name>
+    <message>
+        <source>Year</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Month</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Day</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Hour</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Minute</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/content/version</name>
+    <message>
+        <source>Version</source>
+        <translation type="unfinished">Version</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation type="unfinished">Statut</translation>
+    </message>
+    <message>
+        <source>Creator</source>
+        <translation type="unfinished">Créateur</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation type="unfinished">Modifié</translation>
+    </message>
+    <message>
+        <source>Download</source>
+        <translation type="unfinished">Télécharger</translation>
+    </message>
+    <message>
+        <source>Get version</source>
+        <translation type="unfinished">List des version</translation>
+    </message>
+</context>
+<context>
+    <name>ezteamroom/access_type</name>
+    <message>
+        <source>Private</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Nobody can see that the teamroom exists and users can only become a member of the teamroom if you invited them.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Internal</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Only users that belong to the same group as you do can see that the teamroom exists and you will have to approve any requested membership before people can use the teamroom.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Protected</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Anybody can see that the teamroom exists and you will have to approve any requested membership before people can use the teamroom.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Public</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Anybody can see that the teamroom exists and can join it without asking you for permission.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
 <context>
     <name>ezteamroom/article</name>
     <message>
@@ -104,6 +202,14 @@
         <source>Currently there are no new messages.</source>
         <translation>Il n&apos;y a pas de nouveaux messages pour le moment.</translation>
     </message>
+    <message>
+        <source>Only entries with tag &quot;%1&quot; are shown</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Shown only entries with tag &quot;%1&quot;</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>ezteamroom/bookmark</name>
@@ -157,10 +263,6 @@
         <translation>Pour sélectionner un object fils d&apos;un des objects présentés, cliquer sur le nom de l&apos;object parent pour afficher la liste de ses fils</translation>
     </message>
     <message>
-        <source>Back</source>
-        <translation>Précédent</translation>
-    </message>
-    <message>
         <source>Top level</source>
         <translation>Niveau supérieur</translation>
     </message>
@@ -183,6 +285,10 @@
     <message>
         <source>Type</source>
         <translation>Type</translation>
+    </message>
+    <message>
+        <source>Up</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -330,20 +436,16 @@ change your settings at:</source>
         <translation>Approbation</translation>
     </message>
     <message>
-        <source>Membership approval</source>
-        <translation>Approbation des membres</translation>
-    </message>
-    <message>
         <source>Your membership request for the teamroom &quot;%groupname&quot; is awaiting approval. You can use the comment text field and the &quot;Add comment&quot; button to provide further information to the owner of the teamroom.</source>
-        <translation>Votre demande d&apos;adhésion à l'espace projet &quot;%groupname&quot; est en court de validation. Vous pouvez utiliser le champ commentaire et le bouton &quot;Ajouter un commentaire&quot; pour apporter de plus amples informations au propriétaire de cet espace projet.</translation>
+        <translation>Votre demande d&apos;adhésion à l&apos;espace projet &quot;%groupname&quot; est en court de validation. Vous pouvez utiliser le champ commentaire et le bouton &quot;Ajouter un commentaire&quot; pour apporter de plus amples informations au propriétaire de cet espace projet.</translation>
     </message>
     <message>
         <source>The membership request of %authorname for the teamroom &quot;%groupname&quot; requires your approval. You can use the comment text field and the &quot;Add comment&quot; button to provide additional information to %authorname. Use the &quot;Approve&quot; button to grant the membership and the &quot;Deny&quot; button to reject the membership.</source>
-        <translation>La demande d&apos;adhésion de %authorname pour l'espace projet &quot;%groupname&quot; nécessite une validation. Vous pouvez utiliser le champ commentaire et le bouton &quot;Ajouter un commentaire&quot; pour apporter une explication supplémentaire à %authorname. Utilisez le bouton &quot;Approuver&quot; pour accorder l&apos;accès ou le bouton &quot;Refuser&quot; pour rejeter la demande.</translation>
+        <translation>La demande d&apos;adhésion de %authorname pour l&apos;espace projet &quot;%groupname&quot; nécessite une validation. Vous pouvez utiliser le champ commentaire et le bouton &quot;Ajouter un commentaire&quot; pour apporter une explication supplémentaire à %authorname. Utilisez le bouton &quot;Approuver&quot; pour accorder l&apos;accès ou le bouton &quot;Refuser&quot; pour rejeter la demande.</translation>
     </message>
     <message>
         <source>Your membership request for the teamroom &quot;%groupname&quot; has been approved. You are now able to access the teamroom. Please keep in mind that it could take some time until the approval is active and you are able to access the teamroom.</source>
-        <translation>Votre demande d&apos;adhésion pour l'espace projet &quot;%groupname&quot; a été approuvée. Vous pouvez maintenant accéder à l'espace projet. Il se peut qu&apos;un délai soit nécessaire avant que votre adhésion soit pleinement active et que vous puissiez accéder à l'espace projet.</translation>
+        <translation>Votre demande d&apos;adhésion pour l&apos;espace projet &quot;%groupname&quot; a été approuvée. Vous pouvez maintenant accéder à l&apos;espace projet. Il se peut qu&apos;un délai soit nécessaire avant que votre adhésion soit pleinement active et que vous puissiez accéder à l&apos;espace projet.</translation>
     </message>
     <message>
         <source>You have approved the membership request of %authorname for the &quot;%groupname&quot; group.</source>
@@ -351,7 +453,7 @@ change your settings at:</source>
     </message>
     <message>
         <source>Your membership request for the teamroom &quot;%groupname&quot; has been denied. Please have a look at the comments on the bottom of this page if the teamroom owner has left a message for you.</source>
-        <translation>Votre demande d&apos;adhésion pour l'espace projet &quot;%groupname&quot; a été rejetée. Regarder le commentaire au bas de cette page, le propriétaire de cet espace projet a peut-être laissé un message pour vous.</translation>
+        <translation>Votre demande d&apos;adhésion pour l&apos;espace projet &quot;%groupname&quot; a été rejetée. Regarder le commentaire au bas de cette page, le propriétaire de cet espace projet a peut-être laissé un message pour vous.</translation>
     </message>
     <message>
         <source>You have denied the membership request of %authorname for the teamroom &quot;%groupname&quot;. Please make sure that you left a message for %authorname so that he is informed about the reason for the rejection.</source>
@@ -388,14 +490,6 @@ change your settings at:</source>
     <message>
         <source>Show detailed information about %user</source>
         <translation>Afficher les informations détaillées de %user</translation>
-    </message>
-    <message>
-        <source>Group info</source>
-        <translation>Information du groupe</translation>
-    </message>
-    <message>
-        <source>Created at</source>
-        <translation>Créé à</translation>
     </message>
     <message>
         <source>Navigate to: %node</source>
@@ -471,22 +565,22 @@ change your settings at:</source>
     </message>
     <message>
         <source>[%sitename] Membership registration for teamroom &quot;%groupname&quot; waits for approval</source>
-        <translation>[%sitename] Demandes d&apos;adhésion à l'espace projet &quot;%groupname&quot; en attente d&apos;approbation</translation>
+        <translation>[%sitename] Demandes d&apos;adhésion à l&apos;espace projet &quot;%groupname&quot; en attente d&apos;approbation</translation>
     </message>
     <message>
         <source>%authorname has requested to join the teamroom &quot;%groupname&quot; at %sitename.
 You need to approve or deny this request by using the URL below.</source>
-        <translation>%authorname demande à rejoindre l'espace projet &quot;%groupname&quot; sur %sitename.
+        <translation>%authorname demande à rejoindre l&apos;espace projet &quot;%groupname&quot; sur %sitename.
 Vous devez approver ou refuser cette demande en vous rendant à l&apos;adresse URL ci-dessous.</translation>
     </message>
     <message>
         <source>Membership registration for teamroom &quot;%groupname&quot; awaits approval</source>
-        <translation>La demande d&apos;adhésion pour l'espace projet &quot;%groupname&quot; est en attente de validation</translation>
+        <translation>La demande d&apos;adhésion pour l&apos;espace projet &quot;%groupname&quot; est en attente de validation</translation>
     </message>
     <message>
         <source>You have requested to join the teamroom &quot;%groupname&quot; at %sitename.
 Your request is waiting for approval. To view the status of your request or to add a comment, visit the URL below.</source>
-        <translation>Vous demandez à rejoindre l'espace projet &quot;%groupname&quot; sur %sitename.
+        <translation>Vous demandez à rejoindre l&apos;espace projet &quot;%groupname&quot; sur %sitename.
 Votre demande est en attente de validation. L&apos;adresse URL ci-dessous vous premet de visualisé l&apos;état d&apos;avancement de votre demande ou de laisser un commentaire.</translation>
     </message>
     <message>
@@ -495,23 +589,15 @@ Votre demande est en attente de validation. L&apos;adresse URL ci-dessous vous p
     </message>
     <message>
         <source>Your membership of the teamroom &apos;%1&apos; has been terminated by a teamroom moderator.</source>
-        <translation>Votre demande d&apos;adhésion à l'espace projet &apos;%1&apos; a été refusée par un modérateur de l'espace projet.</translation>
+        <translation>Votre demande d&apos;adhésion à l&apos;espace projet &apos;%1&apos; a été refusée par un modérateur de l&apos;espace projet.</translation>
     </message>
     <message>
         <source>If you are thinking this was done by a mistake, please get in contact with the owner &apos;%1&apos; of the teamroom.</source>
         <translation>Si vous pensez que c&apos;est une erreur, n&apos;hésitez pas à entrer en contact avec le propriétaire &apos;%1&apos; de cet espace projet.</translation>
     </message>
     <message>
-        <source>[%sitename] Teamroom membership approved</source>
-        <translation>[%sitename] Adhésion approuvée à un espace projet</translation>
-    </message>
-    <message>
-        <source>Your membership in the teamroom &apos;%1&apos; has been approved by a teamroom moderator.</source>
-        <translation>Votre demande d&apos;adhésion à l'espace projet &apos;%1&apos; a été approuvé par un modérateur de l'espace projet.</translation>
-    </message>
-    <message>
         <source>Use the following link to access the teamroom</source>
-        <translation>Utilisez le lien suivant pour accéder à l'espace projet</translation>
+        <translation>Utilisez le lien suivant pour accéder à l&apos;espace projet</translation>
     </message>
     <message>
         <source>[%sitename] Teamroom invitation</source>
@@ -522,10 +608,6 @@ Votre demande est en attente de validation. L&apos;adresse URL ci-dessous vous p
         <translation>Un modérateur vous a invité à l&apos;espace projet &apos;%1&apos;.</translation>
     </message>
     <message>
-        <source>If you do not have a user account yet, you will receive your account information in a separate email. You will find further information in this email about how to activate your user account to be able to use the teamroom.</source>
-        <translation>Si vous n&apos;avez pas encore de compte utilisateur, vous recevrez vos paramètres de connexion par courriel. Vous disposerez de toutes les informations nécessaire dans ce courriel afin d&apos;activer votre compte et accéder à vos espaces projets.</translation>
-    </message>
-    <message>
         <source>If you do not want to be a member of this teamroom, you can resign using the following link</source>
         <translation>Si vous ne désirez plus être membre de cet espace projet, vous pouvez vous désinscrire en utilisant le lien suivant</translation>
     </message>
@@ -534,16 +616,8 @@ Votre demande est en attente de validation. L&apos;adresse URL ci-dessous vous p
         <translation>[%sitename] Désinscription d&apos;un membre à un espace projet</translation>
     </message>
     <message>
-        <source>The member &apos;%1&apos; has resigned from the teamroom &apos;%2&apos;.</source>
-        <translation>Le membre &apos;%1&apos; s&apos;est désinscrit de l&apos;espace projet &apos;%2&apos;.</translation>
-    </message>
-    <message>
         <source>[%sitename] Teamroom membership resigned</source>
         <translation>[%sitename] Désinscription d&apos;un espace projet</translation>
-    </message>
-    <message>
-        <source>You have successfully resigned from the teamroom &apos;%1&apos;.</source>
-        <translation>Votre désinscription à cet espace projet a été prise en compte avec succès.</translation>
     </message>
     <message>
         <source>[%sitename] Teamroom created</source>
@@ -580,6 +654,58 @@ Votre demande est en attente de validation. L&apos;adresse URL ci-dessous vous p
     <message>
         <source>If you have any questions or problems, please send an email to the site administrator %sitenadmin.</source>
         <translation>Si vous avez des questions ou des problèmes, n&apos;hésitez pas à contacter l&apos;administrateur du site par courriel %sitenadmin.</translation>
+    </message>
+    <message>
+        <source>Memberregistration approval</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The member &quot;%1&quot; has resigned from the teamroom &quot;%2&quot;.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>You have successfully resigned from the teamroom &quot;%1&quot;.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>[%sitename] Teamroom memberregistration approved</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>You have successfully joined the teamroom &apos;%1&apos;.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Your memberregistration in the teamroom &apos;%1&apos; has been approved by a teamroom moderator.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>If do not want to be a member of this teamroom anymore you can use the following link to resign from the teamroom.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>[%sitename] Teamroom memberregistration denied</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Your memberregistration in the teamroom &apos;%1&apos; has been denied by a teamroom moderator.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>[%sitename] Teamroom invitation reminder</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>If you do not have a user account yet, you received your account information in a separate email. You will find further information in this email about how to activate your user account to be able to use the teamroom.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>If you want to be notified about new members requesting access to your teamroom you can adjust the notification settings using the following link.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Approve teamroom membership</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -629,7 +755,7 @@ Votre demande est en attente de validation. L&apos;adresse URL ci-dessous vous p
     </message>
     <message>
         <source>Node ID of the teamroom</source>
-        <translation>Id du noeud de l'espace projet</translation>
+        <translation>Id du noeud de l&apos;espace projet</translation>
     </message>
     <message>
         <source>Which features should be installed</source>
@@ -637,15 +763,15 @@ Votre demande est en attente de validation. L&apos;adresse URL ci-dessous vous p
     </message>
     <message>
         <source>ObjectID of the teamroom owner</source>
-        <translation>Id de l&apos;object du propriétaire de l'espace projet</translation>
+        <translation>Id de l&apos;object du propriétaire de l&apos;espace projet</translation>
     </message>
     <message>
         <source>Team member</source>
-        <translation>Membre de l'espace projet</translation>
+        <translation>Membre de l&apos;espace projet</translation>
     </message>
     <message>
         <source>The following users are currently members of this teamroom. You can get detailed information about a user within his profile and send an email to each of the users. Using the link in the menu on the right you can invite new users to the teamroom. If you have the required rights you can configure the permissions of the teamroom members by using the link in the menu on the right.</source>
-        <translation>Les utilisateurs suivants sont actuellement les membres de cet espace projet. Vous pouvez obtenir des informations détaillées sur un utilisateur dans son profil et envoyer un courrier électronique à chacun des utilisateurs. En utilisant les liens du menu à droite vous pouvez inviter de nouveaux utilisateurs à l'espace projet. Si vous avez les droits vous pouvez aussi configurer les permissions des membres de l'espace projet.</translation>
+        <translation>Les utilisateurs suivants sont actuellement les membres de cet espace projet. Vous pouvez obtenir des informations détaillées sur un utilisateur dans son profil et envoyer un courrier électronique à chacun des utilisateurs. En utilisant les liens du menu à droite vous pouvez inviter de nouveaux utilisateurs à l&apos;espace projet. Si vous avez les droits vous pouvez aussi configurer les permissions des membres de l&apos;espace projet.</translation>
     </message>
     <message>
         <source>Moderator</source>
@@ -657,7 +783,7 @@ Votre demande est en attente de validation. L&apos;adresse URL ci-dessous vous p
     </message>
     <message>
         <source>The following list gives an overview over the teamroom related tasks and their status. To create a new task use the &quot;Add new task button&quot;. A click on the info icon of an existing task will show more detailed information about it. A click on the progress meter will change the current progress of the task. Use the edit icon to edit the details of a task and the trash icon to delete it. Using the link shown below &quot;Filter&quot; will toggle between two modes: one mode shows the finished tasks and one mode shows the unfinished tasks. The links shown below &quot;Sort by&quot; can be used to sort the task in different orders. By clicking on the same link two times, the sorting order will be reverted. A click on one of the keywords shown below &quot;Keywords&quot; will filter the displayed tasks and show only those having the selected keyword.</source>
-        <translation>La liste suivante donne une vue d&apos;ensemble sur les tâches liées à l'espace projet et leur statut. Créer une nouvelle tâche en utilisant le bouton &quot;Ajouter une nouvelle tâche&quot;. Un clic sur l&apos;icône info d&apos;une tâche existante montrera les informations plus détaillées. Un clic sur la barre de progression d&apos;une tâche changera l&apos;avancement de la tâche. Utilisez l&apos;icône d&apos;édition pour éditer les détails d&apos;une tâche et l&apos;icône de corbeille pour le supprimer. L&apos;utilisation du lien au-dessous du &quot;Filtre&quot; basculera entre deux modes : un mode montre les tâches achevées et un mode montre les tâches non finies. Les liens affichés sous &quot;Trier par&quot; peuvent être utilisées pour trier les tâches dans des ordres différents. En cliquant sur le même lien une seconde fois, l&apos;ordre de tri sera inversé. Un clic sur un des mots-clés montrés au-dessous &quot;Mots-clefs&quot; filtrera les tâches et affichera uniquement celles ayant le mot-clef choisi.</translation>
+        <translation>La liste suivante donne une vue d&apos;ensemble sur les tâches liées à l&apos;espace projet et leur statut. Créer une nouvelle tâche en utilisant le bouton &quot;Ajouter une nouvelle tâche&quot;. Un clic sur l&apos;icône info d&apos;une tâche existante montrera les informations plus détaillées. Un clic sur la barre de progression d&apos;une tâche changera l&apos;avancement de la tâche. Utilisez l&apos;icône d&apos;édition pour éditer les détails d&apos;une tâche et l&apos;icône de corbeille pour le supprimer. L&apos;utilisation du lien au-dessous du &quot;Filtre&quot; basculera entre deux modes : un mode montre les tâches achevées et un mode montre les tâches non finies. Les liens affichés sous &quot;Trier par&quot; peuvent être utilisées pour trier les tâches dans des ordres différents. En cliquant sur le même lien une seconde fois, l&apos;ordre de tri sera inversé. Un clic sur un des mots-clés montrés au-dessous &quot;Mots-clefs&quot; filtrera les tâches et affichera uniquement celles ayant le mot-clef choisi.</translation>
     </message>
     <message>
         <source>My first task</source>
@@ -677,11 +803,11 @@ Votre demande est en attente de validation. L&apos;adresse URL ci-dessous vous p
     </message>
     <message>
         <source>The following list shows the files related to this teamroom. To upload single files the button &quot;Upload new file&quot; can be used. Furthermore it is possible to upload multiple files at the same time by using the &quot;Multi upload&quot; button. For uploading multiple files at the same time it is required to use the &quot;Ctrl&quot; key when selecting the files. To add an existing lightbox to the list of files the button &quot;Add lightbox&quot; can be used. The links shown below &quot;Sort by&quot; can be used to sort the files in different orders. By clicking on the same link two times, the sorting order will be reverted. The links shown below &quot;Categories&quot; can be used to filter the list of shown files by the categories they belong to. A click on one of the keywords shown below &quot;Keywords&quot; will filter the displayed tasks and show only those having the selected keyword.</source>
-        <translation>La liste suivante donne une vue d&apos;ensemble sur les fichiers liées à l'espace projet. Pour télécharger un seul fichier cliquer sur le bouton &quot;Télécharger un fichier&quot;. Il est possibles de télécharger plusieurs fichiers à la fois en utilisant le bouton &quot;Multi-téléchargement&quot;. Pour télécharger plusieurs fichiers en même temps il est nécessaire d&apos;utiliser la touche &quot;CTRL&quot; de votre clavier en même temps que vous sélectionnez les fichier. Pour ajouter une Lightbox existante à la liste des fichiers, le bouton &quot;Ajouter une lightbox&quot; peut-être utilisé. Les liens affichés sous &quot;Trier par&quot; peuvent être utilisées pour trier les fichiers dans des ordres différents. En cliquant sur le même lien une seconde fois, l&apos;ordre de tri sera inversé. Les liens affichés sous &quot;Categories&quot; peuvent être utilisés pour filtrer les fichiers par categorie et affichera uniquement les fichiers auxquels ils appartiennent. Un clic sur un des mots-clefs montrés au-dessous de &quot;Mots-clefs&quot; filtrera les fichiers et affichera uniquement ceux ayant le mot-clef choisi.</translation>
+        <translation>La liste suivante donne une vue d&apos;ensemble sur les fichiers liées à l&apos;espace projet. Pour télécharger un seul fichier cliquer sur le bouton &quot;Télécharger un fichier&quot;. Il est possibles de télécharger plusieurs fichiers à la fois en utilisant le bouton &quot;Multi-téléchargement&quot;. Pour télécharger plusieurs fichiers en même temps il est nécessaire d&apos;utiliser la touche &quot;CTRL&quot; de votre clavier en même temps que vous sélectionnez les fichier. Pour ajouter une Lightbox existante à la liste des fichiers, le bouton &quot;Ajouter une lightbox&quot; peut-être utilisé. Les liens affichés sous &quot;Trier par&quot; peuvent être utilisées pour trier les fichiers dans des ordres différents. En cliquant sur le même lien une seconde fois, l&apos;ordre de tri sera inversé. Les liens affichés sous &quot;Categories&quot; peuvent être utilisés pour filtrer les fichiers par categorie et affichera uniquement les fichiers auxquels ils appartiennent. Un clic sur un des mots-clefs montrés au-dessous de &quot;Mots-clefs&quot; filtrera les fichiers et affichera uniquement ceux ayant le mot-clef choisi.</translation>
     </message>
     <message>
         <source>The following list shows the milestones that have been created within this teamroom. A milestone is a collection of tasks and has a date that indicates when the milestone should be reached. You can use the button &quot;New milestone&quot; to create a new milestone. The links shown below &quot;Sort by&quot; can be used to sort the milestones in different orders. By clicking on the same link two times, the sorting order will be reverted. A click on one of the tags shown below &quot;Tags&quot; will filter the displayed milestones and show only those having the selected tag.</source>
-        <translation>La liste suivante donne une vue des jalons créés dans l'espace projet. Les jalons sont une collection de tâches et leur date indique quand le jalon doit être réalisé. Utilisez le bouton &quot;Nouveau jalon&quot; pour créer un nouveau jalon. Les liens affichés sous &quot;Trier par&quot; peuvent être utilisées pour trier les jalons dans des ordres différents. En cliquant sur le même lien une seconde fois, l&apos;ordre de tri sera inversé. Un clic sur un des mots-clefs montrés au-dessous de &quot;Mots-clefs&quot; filtrera les jalons et affichera uniquement ceux ayant le mot-clef choisi.</translation>
+        <translation>La liste suivante donne une vue des jalons créés dans l&apos;espace projet. Les jalons sont une collection de tâches et leur date indique quand le jalon doit être réalisé. Utilisez le bouton &quot;Nouveau jalon&quot; pour créer un nouveau jalon. Les liens affichés sous &quot;Trier par&quot; peuvent être utilisées pour trier les jalons dans des ordres différents. En cliquant sur le même lien une seconde fois, l&apos;ordre de tri sera inversé. Un clic sur un des mots-clefs montrés au-dessous de &quot;Mots-clefs&quot; filtrera les jalons et affichera uniquement ceux ayant le mot-clef choisi.</translation>
     </message>
     <message>
         <source>This message board can be used for teamroom related discussions. You can add a new post using the button &quot;Add new topic&quot;. If you want to read the content of a topic you can click on the title. This will also enable you to reply to that topic.</source>
@@ -694,10 +820,6 @@ Votre demande est en attente de validation. L&apos;adresse URL ci-dessous vous p
     <message>
         <source>My first blog post</source>
         <translation>Mon premier message blog</translation>
-    </message>
-    <message>
-        <source>Widget Pool</source>
-        <translation>Piscine à gadget</translation>
     </message>
     <message>
         <source>Latest Files</source>
@@ -720,12 +842,24 @@ Votre demande est en attente de validation. L&apos;adresse URL ci-dessous vous p
         <translation>Aide</translation>
     </message>
     <message>
-        <source>Manage Teamroom</source>
-        <translation>Administrer l'espace projet</translation>
+        <source>Teamroom Moderators</source>
+        <translation>Modérateurs  de l&apos;espace projet</translation>
     </message>
     <message>
-        <source>Teamroom Moderators</source>
-        <translation>Modérateurs  de l'espace projet</translation>
+        <source>Moderators</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The following users are currently moderators of this teamroom.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Boxes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This Teamroom</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -963,16 +1097,8 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
         <translation>Catégorie</translation>
     </message>
     <message>
-        <source>Edit this event</source>
-        <translation>Editer cet événement</translation>
-    </message>
-    <message>
         <source>Remove this event</source>
         <translation>Supprimer cet événement</translation>
-    </message>
-    <message>
-        <source>Event this month</source>
-        <translation>Evénement du mois</translation>
     </message>
     <message>
         <source>Today&apos;s events</source>
@@ -981,10 +1107,6 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     <message>
         <source>Events on</source>
         <translation>Evénements sur</translation>
-    </message>
-    <message>
-        <source>Events in</source>
-        <translation>Evénement dans</translation>
     </message>
     <message>
         <source>Mon</source>
@@ -1070,6 +1192,86 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
         <source>Future events</source>
         <translation>Evénements futurs</translation>
     </message>
+    <message>
+        <source>Edit complete event</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Edit single event</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>From %1 to %2</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Invalid date</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Weekly on %1 from %2 to %3</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Monthly each %1.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Yearly the %1/%2</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation type="unfinished">Localisation</translation>
+    </message>
+    <message>
+        <source>Attendees </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Attendees</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Events this month</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Events on %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Events in %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No filter</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Only &quot;%1&quot; are shown</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Shown only &quot;%1&quot;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%1 - %2</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No events</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>ezteamroom/files</name>
@@ -1134,16 +1336,8 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
         <translation>Libérer ce fichier</translation>
     </message>
     <message>
-        <source>Release</source>
-        <translation>Libérer</translation>
-    </message>
-    <message>
         <source>Lock this file</source>
         <translation>Bloquer ce fichier</translation>
-    </message>
-    <message>
-        <source>Lock</source>
-        <translation>Bloquer</translation>
     </message>
     <message>
         <source>Lightbox</source>
@@ -1154,10 +1348,6 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
         <translation>Ajouter ce fichier à la Lightbox en court</translation>
     </message>
     <message>
-        <source>Add to current Lightbox</source>
-        <translation>Ajouter à la Lightbox en court</translation>
-    </message>
-    <message>
         <source>You can not access the current lightbox.</source>
         <translation>Vous ne pouvez pas accéder à la Lightbox.</translation>
     </message>
@@ -1166,24 +1356,12 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
         <translation>Afficher les version de ce fichier</translation>
     </message>
     <message>
-        <source>Versions</source>
-        <translation>Versions</translation>
-    </message>
-    <message>
         <source>Edit this file or upload a new version</source>
         <translation>Editer ce fichier ou télécharger une nouvelle version</translation>
     </message>
     <message>
-        <source>Upload new version</source>
-        <translation>Télécharger une nouvelle version</translation>
-    </message>
-    <message>
         <source>Delete this file</source>
         <translation>Supprimer ce fichier</translation>
-    </message>
-    <message>
-        <source>Delete</source>
-        <translation>Supprimer</translation>
     </message>
     <message>
         <source>Version</source>
@@ -1334,14 +1512,6 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
         <translation>Mots-clefs</translation>
     </message>
     <message>
-        <source>Previous image</source>
-        <translation>Image précédente</translation>
-    </message>
-    <message>
-        <source>Next image</source>
-        <translation>Image suivante</translation>
-    </message>
-    <message>
         <source>Browse all</source>
         <translation>Tout parcourir</translation>
     </message>
@@ -1355,7 +1525,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>The Files are uploaded to the Files section of the teamroom:</source>
-        <translation>Ces fichiers sont téléchargés dans la section Fichier de l'espace projet :</translation>
+        <translation>Ces fichiers sont téléchargés dans la section Fichier de l&apos;espace projet :</translation>
     </message>
     <message>
         <source>You can upload a maximum filesize of</source>
@@ -1388,6 +1558,74 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     <message>
         <source>Starting...</source>
         <translation>Démarrage...</translation>
+    </message>
+    <message>
+        <source>Add this folder to the current lightbox</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Edit this folder or upload a new version</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Delete this folder</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Download this video</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Release this video</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Lock this video</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Show versions of this video</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Edit this video or upload a new version</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Shown only entries with tag &quot;%1&quot;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Are you sure you want to remove the folder?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>One level up</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Create folder</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Create a new folder</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Only files of category &quot;%1&quot; are shown</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Show only files of the category &quot;%1&quot;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Only files with tag &quot;%1&quot; are shown</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Shown only files with tag &quot;%1&quot;</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1589,6 +1827,556 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
 </context>
 <context>
+    <name>ezteamroom/install/classes</name>
+    <message>
+        <source>Image</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation type="unfinished">Nom</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Tags</source>
+        <translation type="unfinished">Mots-clefs</translation>
+    </message>
+    <message>
+        <source>Quicktime</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Description</source>
+        <translation type="unfinished">Description</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Real video</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Windows media</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation type="unfinished">Utilisateur</translation>
+    </message>
+    <message>
+        <source>First name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Last name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>User account</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Signature</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Teamroom comment</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Subject</source>
+        <translation type="unfinished">Objet</translation>
+    </message>
+    <message>
+        <source>Author</source>
+        <translation type="unfinished">Auteur</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation type="unfinished">Message</translation>
+    </message>
+    <message>
+        <source>Teamroom blog</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Teamroom Blog post</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Title</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Body</source>
+        <translation type="unfinished">Corps</translation>
+    </message>
+    <message>
+        <source>Publication date</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Unpublish date</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Enable comments</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Teamroom frontpage</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Billboard</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Left column</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Center column</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Right column</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Bottom column</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Teamroom documentation page</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Display sub items</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Teamroom info box</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Header</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Box Icon</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Content</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>URL</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Module URL</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Check access</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Relates to</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Teamroom file</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Category</source>
+        <translation type="unfinished">Catégorie</translation>
+    </message>
+    <message>
+        <source>Documents</source>
+        <translation type="unfinished">Documents</translation>
+    </message>
+    <message>
+        <source>Lightboxes</source>
+        <translation type="unfinished">Lightboxes</translation>
+    </message>
+    <message>
+        <source>Sounds</source>
+        <translation type="unfinished">Sons</translation>
+    </message>
+    <message>
+        <source>Pictures</source>
+        <translation type="unfinished">Images</translation>
+    </message>
+    <message>
+        <source>Thumbnail</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Teamroom forum</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Teamroom forum topic</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Sticky</source>
+        <translation type="unfinished">Adhésif</translation>
+    </message>
+    <message>
+        <source>Notify me about updates</source>
+        <translation type="unfinished">Alerter moi des mises à jour</translation>
+    </message>
+    <message>
+        <source>Teamroom forum reply</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Teamroom event</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Full title</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Short title</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Text</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation type="unfinished">Date</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation type="unfinished">Localisation</translation>
+    </message>
+    <message>
+        <source>Teamroom event calendar</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Full Title</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Short Title</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>View</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Teamroom news folder</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Short name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Folder</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Summary</source>
+        <translation type="unfinished">Résumé</translation>
+    </message>
+    <message>
+        <source>Publish date</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Teamroom personalized frontpage</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Number of columns</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Allow Minimization</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Default arrangement</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Teamroom room</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Access type</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Feature list</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Teamroom tasks</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Teamroom task</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation type="unfinished">Progression</translation>
+    </message>
+    <message>
+        <source>Planned end date</source>
+        <translation type="unfinished">Date de fin plannifiée</translation>
+    </message>
+    <message>
+        <source>End Date</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Estimated Effort (hours)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Estimated Effort (minutes)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Users</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Related documents</source>
+        <translation type="unfinished">Documents liés</translation>
+    </message>
+    <message>
+        <source>Priority</source>
+        <translation type="unfinished">Priorité</translation>
+    </message>
+    <message>
+        <source>Milestone</source>
+        <translation type="unfinished">Jalon</translation>
+    </message>
+    <message>
+        <source>Teamroom file folder</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Teamroom file subfolder</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Subfolder</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Teamroom infobox folder</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Teamroom milestone</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Closed</source>
+        <translation type="unfinished">Fermé</translation>
+    </message>
+    <message>
+        <source>Teamroom milestone folder</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Teamroom lightbox</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Lightbox</source>
+        <translation type="unfinished">Lightbox</translation>
+    </message>
+</context>
+<context>
+    <name>ezteamroom/install/roles</name>
+    <message>
+        <source>Use Teamroom</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use Lightbox</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Member</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Moderator</source>
+        <translation type="unfinished">Modérateur</translation>
+    </message>
+    <message>
+        <source>Read Forum</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use Forum</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Read Blog</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use Blog</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Read Calendar</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use Calendar</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Read Documents</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use Documents</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Read Wiki</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use Wiki</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Read Tasks</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use Tasks</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Read Milestones</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use Milestones</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>ezteamroom/install/sections</name>
+    <message>
+        <source>Private Teamroom</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Public Teamroom</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>ezteamroom/install/sitename</name>
+    <message>
+        <source>eZ Teamroom</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>ezteamroom/install/teamroomcontent</name>
+    <message>
+        <source>Welcome. Success with eZ Teamrooms.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Boxes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Lightbox selection</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>My Teamrooms</source>
+        <translation type="unfinished">Mes espaces projet</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation type="unfinished">Aide</translation>
+    </message>
+    <message>
+        <source>Some help text</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>All Teamrooms</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Create Teamroom</source>
+        <translation type="unfinished">Créer l&apos;espace projet</translation>
+    </message>
+    <message>
+        <source>Add your teamroom and get all the things to manage your team.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Lightboxes</source>
+        <translation type="unfinished">Lightboxes</translation>
+    </message>
+    <message>
+        <source>Latest Messages</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>ezteamroom/install/workflows</name>
+    <message>
+        <source>Create Teamroom</source>
+        <translation type="unfinished">Créer l&apos;espace projet</translation>
+    </message>
+    <message>
+        <source>Approve Member Registration</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Set Teamroom Section</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Set Current Teamroom</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Post Publish Multiplexer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Set Teamroom Membership</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>ezteamroom/keepmeupdated</name>
     <message>
         <source>Keep me updated</source>
@@ -1597,6 +2385,10 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     <message>
         <source>Receive an email if anything changes in this area</source>
         <translation>Recevez un courriel si quelque chose change dans cette partie</translation>
+    </message>
+    <message>
+        <source>Receive an email if new users join this teamroom or modify their profile.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1961,16 +2753,8 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
 <context>
     <name>ezteamroom/membership</name>
     <message>
-        <source>Membership approval</source>
-        <translation>Approbation des membres</translation>
-    </message>
-    <message>
         <source>Changes have been stored.</source>
         <translation>Les changements ont été enregistrés.</translation>
-    </message>
-    <message>
-        <source>Membership</source>
-        <translation>Adhésion</translation>
     </message>
     <message>
         <source>Email</source>
@@ -2021,16 +2805,8 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
         <translation>Inviter un nouveau membre</translation>
     </message>
     <message>
-        <source>Sort By</source>
-        <translation>Trier par</translation>
-    </message>
-    <message>
         <source>Teamroom</source>
         <translation>Espace projet</translation>
-    </message>
-    <message>
-        <source>There are no user.</source>
-        <translation>Il n&apos;y a pas d&apos;utilisateur.</translation>
     </message>
     <message>
         <source>Username</source>
@@ -2229,7 +3005,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Please fill in the form to register yourself as a new user. After filling out the form and pushing the &quot;Register&quot; button an email will be sent to the email address submitted in this form. The email will contain a link to verify the validity of the registration request. After clicking on the link in the email your new user account (login and password combination) will be activated. From there on you will be able to make use of the teamrooms.</source>
-        <translation>Remplissez ce formulaire pour enregistrer vous enregistre en tant que nouvel utilisateur. Cliquer sur le bouton &quot;Enregistrer&quot; un courriel vous sera envoyé à l'adresse mentionnée. Le courriel contiendra un lien pour vérifier la validité de votre adresse et activer votre compte utilisateur. En cliquant sur le lien votre compte utilisateur (identifiant et mot de passe) sera activé. Vous pourrez alors accéder à votre espace projet.</translation>
+        <translation>Remplissez ce formulaire pour enregistrer vous enregistre en tant que nouvel utilisateur. Cliquer sur le bouton &quot;Enregistrer&quot; un courriel vous sera envoyé à l&apos;adresse mentionnée. Le courriel contiendra un lien pour vérifier la validité de votre adresse et activer votre compte utilisateur. En cliquant sur le lien votre compte utilisateur (identifiant et mot de passe) sera activé. Vous pourrez alors accéder à votre espace projet.</translation>
     </message>
     <message>
         <source>Input did not validate</source>
@@ -2280,44 +3056,8 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
         <translation>Parcourir les utilisateurs</translation>
     </message>
     <message>
-        <source>Select a user by browsing through all registered users.</source>
-        <translation>Sélectionner un utilisateur en parcourant la liste des utilisateurs enregistrés</translation>
-    </message>
-    <message>
-        <source>Invite user</source>
-        <translation>Inviter un utilisateur</translation>
-    </message>
-    <message>
-        <source>Enter a valid email address. It is also possible to enter several email addresses by separting them with comma.</source>
-        <translation>Saisissez une adresse email valide. Il est aussi possible de saisir plusieurs adresses en les séparant par une virgule.</translation>
-    </message>
-    <message>
-        <source>User not found - Send email Invitation</source>
-        <translation>Utilisateur introuvable - Envoyer une invitation par courriel</translation>
-    </message>
-    <message>
-        <source>The user was not found. You can invite this user by email. He will automatically be assigned to this teamroom.</source>
-        <translation>L&apos;utilisateur est introuvable. Vous pouvez inviter cet utilisateur par email. Il sera automatiquement assigné à cet espace projet.</translation>
-    </message>
-    <message>
-        <source>The invitation will be send to:</source>
-        <translation>L&apos;invitation sera envoyée à :</translation>
-    </message>
-    <message>
-        <source>Additional Text:</source>
-        <translation>Texte additionnel :</translation>
-    </message>
-    <message>
-        <source>Send email invitation</source>
-        <translation>Envoyer une invitation par courriel</translation>
-    </message>
-    <message>
         <source>Selected Users:</source>
         <translation>Utilisateurs sélectionnés :</translation>
-    </message>
-    <message>
-        <source>Selected User:</source>
-        <translation>Utilisateur sélectionné :</translation>
     </message>
     <message>
         <source>Send invitation</source>
@@ -2328,20 +3068,12 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
         <translation>Espace projet &quot;%name&quot; - Demande d&apos;adhésion</translation>
     </message>
     <message>
-        <source>Are you sure you want to request a membership for the teamroom &quot;%name&quot;?</source>
-        <translation>Etes vous certain de vouloir vous inscrire à l'espace projet &quot;%name&quot;?</translation>
-    </message>
-    <message>
         <source>Yes</source>
         <translation>Oui</translation>
     </message>
     <message>
         <source>No</source>
         <translation>Non</translation>
-    </message>
-    <message>
-        <source>You are already a member of this teamroom.</source>
-        <translation>Vous ètes déjà un membre de cet espace projet.</translation>
     </message>
     <message>
         <source>Your request for membership has been succesfully submitted and is now waiting for approval. You will receive status updates by e-mail.</source>
@@ -2390,23 +3122,11 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Resign from Teamroom &quot;%name&quot;</source>
-        <translation>Se désinscrire de l'espace projet &quot;%name&quot;</translation>
-    </message>
-    <message>
-        <source>Do you really want to leave this team?</source>
-        <translation>Etes-vous sûre de vouloir quitter cet espace projet ?</translation>
+        <translation>Se désinscrire de l&apos;espace projet &quot;%name&quot;</translation>
     </message>
     <message>
         <source>Resigned from teamroom &quot;%name&quot;</source>
-        <translation>Vous ètes désinscrit de l'espace projet &quot;%name&quot;</translation>
-    </message>
-    <message>
-        <source>You are successfully resigned from this teamroom.</source>
-        <translation>Votre désinscription à cet espace projet a été pris en compte avec succès.</translation>
-    </message>
-    <message>
-        <source>Approve membership</source>
-        <translation>Validation d&apos;adhésion </translation>
+        <translation>Vous ètes désinscrit de l&apos;espace projet &quot;%name&quot;</translation>
     </message>
     <message>
         <source>Users were successfully selected</source>
@@ -2421,24 +3141,8 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
         <translation>Vous avez saisi un adresse de courriel invalide : </translation>
     </message>
     <message>
-        <source>Unknown user: </source>
-        <translation>Utilisateur inconnu : </translation>
-    </message>
-    <message>
-        <source>New User</source>
-        <translation>Nouvel utilisateur</translation>
-    </message>
-    <message>
         <source>The node (%1) specified in [UserSettings].DefaultUserPlacement setting in site.ini does not exist!</source>
         <translation>Le noeud (%1) configuré dans le fichier site.ini, [UserSettings].DefaultUserPlacement, n&apos;existe pas !</translation>
-    </message>
-    <message>
-        <source>You were invited</source>
-        <translation>Vous avez été invités</translation>
-    </message>
-    <message>
-        <source>$unkownUserMail was successfully invited</source>
-        <translation>$unkownUserMail a été invité avec succès</translation>
     </message>
     <message>
         <source>Manage Member</source>
@@ -2459,6 +3163,169 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     <message>
         <source>Resign</source>
         <translation>Désinscrire</translation>
+    </message>
+    <message>
+        <source>Group</source>
+        <translation type="unfinished">Groupe</translation>
+    </message>
+    <message>
+        <source>Send a remind invitation email to %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Invite again</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>There are no users.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Invite a user</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Enter a valid email address. It is also possible to enter a comma separated list of email addresses. If there does not exist a user with one of the given email addresses in the system yet, new user accounts will be generated for them automatically.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Search user</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Search for existing users or invite new users according to their email addresses</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Select an existing user by browsing through all registered users.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Browse through user groups to find user that already have a user account</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Create new account for:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Automatically create user accounts for new users and send an invitation email to all users displayed in the list above</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Clear list</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Remove all users selected for invitation from the list displayed above</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Send the invitation email to &quot;%1&quot; again</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>You have successfully joined the teamroom &quot;%name&quot; and are now member of this teamroom.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>To the teamroom</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Do you really want to cancel your membership of this teamroom?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Your membership of this teamroom has successfully been canceld.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>To the teamrooms</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>User is already Member: </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>User already selected: </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>There is no registered user with that email address: </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source> A new account will be created.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>New invited user</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>remind of invitation mail send to %1.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Failed to move Member.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>ezteamroom/messagecenter</name>
+    <message>
+        <source>Send message</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>An email has been send using the teamroom &quot;%1&quot;. The message is included below.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use the following link to access the teamroom</source>
+        <translation type="unfinished">Utilisez le lien suivant pour accéder à l&apos;espace projet</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation type="unfinished">Afficher</translation>
+    </message>
+    <message>
+        <source>Hide</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Member list</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Invert selection</source>
+        <translation type="unfinished">Inverser la sélection</translation>
+    </message>
+    <message>
+        <source>Message form</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Receiver</source>
+        <translation type="unfinished">Destinataire</translation>
+    </message>
+    <message>
+        <source>Subject</source>
+        <translation type="unfinished">Objet</translation>
+    </message>
+    <message>
+        <source>Body</source>
+        <translation type="unfinished">Corps</translation>
+    </message>
+    <message>
+        <source>Back</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Message Center</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2648,7 +3515,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     <name>ezteamroom/setteamroom</name>
     <message>
         <source>Set the current Teamroom</source>
-        <translation>Définir l'espace projet courante</translation>
+        <translation>Définir l&apos;espace projet courante</translation>
     </message>
 </context>
 <context>
@@ -2773,14 +3640,6 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
         <translation>Date de fin plannifiée</translation>
     </message>
     <message>
-        <source>End date</source>
-        <translation>Date de fin</translation>
-    </message>
-    <message>
-        <source>Type</source>
-        <translation>Type</translation>
-    </message>
-    <message>
         <source>Effort</source>
         <translation>Effort</translation>
     </message>
@@ -2880,6 +3739,26 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
         <source>Browse all</source>
         <translation>Tout parcourir</translation>
     </message>
+    <message>
+        <source>Only milestones with tag &quot;%1&quot; are shown</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Shown only milestones with tag &quot;%1&quot;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>View all tasks</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Only tasks with tag &quot;%1&quot; are shown</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Shown only tasks with tag &quot;%1&quot;</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>ezteamroom/teamroom</name>
@@ -2901,11 +3780,11 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Store Teamroom</source>
-        <translation>Enregistrer l'espace projet</translation>
+        <translation>Enregistrer l&apos;espace projet</translation>
     </message>
     <message>
         <source>Create Teamroom</source>
-        <translation>Créer l'espace projet</translation>
+        <translation>Créer l&apos;espace projet</translation>
     </message>
     <message>
         <source>Discard</source>
@@ -2926,18 +3805,6 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     <message>
         <source>Description</source>
         <translation>Description</translation>
-    </message>
-    <message>
-        <source>private</source>
-        <translation>privé</translation>
-    </message>
-    <message>
-        <source>protected</source>
-        <translation>privé</translation>
-    </message>
-    <message>
-        <source>public</source>
-        <translation>publique</translation>
     </message>
     <message>
         <source>Username</source>
@@ -3020,7 +3887,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Please be patient. The teamroom should be ready in a few minutes.</source>
-        <translation>Soyez patient. L'espace projet sera accessible dans quelques instants. </translation>
+        <translation>Soyez patient. L&apos;espace projet sera accessible dans quelques instants. </translation>
     </message>
     <message>
         <source>Membership in progess.</source>
@@ -3032,11 +3899,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Join this teamroom</source>
-        <translation>Rejoindre l'espace projet</translation>
-    </message>
-    <message>
-        <source>A membership is required to access this teamroom. If you want to become a member of this teamroom you can use the button on the left to ask a teamroom moderator for access to this teamroom.</source>
-        <translation>L&apos;adhésion est nécessaire afin d&apos;accéder à cet espace projet. Si vous voulez devenir membre de cet espace, utilisez le bouton à gauche pour faire une demande d&apos;adhésion qui sera validée par à un modérateur.</translation>
+        <translation>Rejoindre l&apos;espace projet</translation>
     </message>
     <message>
         <source>creation in progress</source>
@@ -3120,7 +3983,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Modify teamroom</source>
-        <translation>Modifier l'espace projet</translation>
+        <translation>Modifier l&apos;espace projet</translation>
     </message>
     <message>
         <source>Manage member</source>
@@ -3143,14 +4006,6 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
         <translation>Mes espaces projet</translation>
     </message>
     <message>
-        <source>My ownerships</source>
-        <translation>Mes propriétés</translation>
-    </message>
-    <message>
-        <source>My memberships</source>
-        <translation>Mes adhésions</translation>
-    </message>
-    <message>
         <source>Site map</source>
         <translation>Plan du site</translation>
     </message>
@@ -3164,7 +4019,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>No teamroom has been created yet.</source>
-        <translation>Vous n&apos;avez pas créé d'espace projet pour le moment.</translation>
+        <translation>Vous n&apos;avez pas créé d&apos;espace projet pour le moment.</translation>
     </message>
     <message>
         <source>Logout</source>
@@ -3207,14 +4062,6 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
         <translation>Utilisateur</translation>
     </message>
     <message>
-        <source>Status</source>
-        <translation>Statut</translation>
-    </message>
-    <message>
-        <source>Set status to %1</source>
-        <translation>Définir le statut à %1%</translation>
-    </message>
-    <message>
         <source>Invert selection</source>
         <translation>Inverser la sélection</translation>
     </message>
@@ -3233,6 +4080,90 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     <message>
         <source>Invite selected</source>
         <translation>Inviter la sélection</translation>
+    </message>
+    <message>
+        <source>Approve teamroom membership</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>approve member registration</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Changes have been stored.</source>
+        <translation type="unfinished">Les changements ont été enregistrés.</translation>
+    </message>
+    <message>
+        <source>Membership</source>
+        <translation type="unfinished">Adhésion</translation>
+    </message>
+    <message>
+        <source>If you disable features in your teamroom this will have no effect on existing contents in that area. Thus, you can also enable a feature later on and you will get the same content.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>To create a new teamroom just enter a title and a short description for it.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The access types can be used for access control to your teamroom as follows</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Only those features that you selected will be visible in your teamroom. It is also possible to de-/activate features after the teamroom has been created.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>A membership is required to access this teamroom. If you want to become a member of this teamroom you can request a membership for this teamroom. After a moderator has approved your membership you will get further access to this teamroom.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Request membership</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Even if this is a public teamroom and you can read most of its content, it is possible to join this teamroom to become a permanent member. This will enable to better participate in teamroom activities. After you have joined this teamroom you will be able to make use of the teamroom.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Teamroom Logo</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Remove this teamroom</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>There are no Teamrooms yet</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Move to group &quot;%1&quot;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Join teamroom &quot;%name&quot;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Teamroom &quot;%name&quot; - Request for membership</source>
+        <translation type="unfinished">Espace projet &quot;%name&quot; - Demande d&apos;adhésion</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to join the teamroom &quot;%name&quot;?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Are you sure you want to request a membership for the teamroom &quot;%name&quot;?</source>
+        <translation type="unfinished">Etes vous certain de vouloir vous inscrire à l&apos;espace projet &quot;%name&quot;?</translation>
+    </message>
+    <message>
+        <source>Yes</source>
+        <translation type="unfinished">Oui</translation>
+    </message>
+    <message>
+        <source>No</source>
+        <translation type="unfinished">Non</translation>
     </message>
 </context>
 <context>
@@ -3268,6 +4199,17 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     <message>
         <source>Keywords</source>
         <translation>Mots-clefs</translation>
+    </message>
+</context>
+<context>
+    <name>lightbox/view</name>
+    <message>
+        <source>Go back</source>
+        <translation type="unfinished">Retour</translation>
+    </message>
+    <message>
+        <source>Use this button to go back to the last page.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>

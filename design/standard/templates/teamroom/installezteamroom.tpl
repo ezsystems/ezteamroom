@@ -1,4 +1,4 @@
-{*
+﻿{*
         'site_access_name',     hash(   'info',     'Name of the new teamroom frontend siteaccess',
                                         'type',     'string',
                                         'default',  'ezteamroom'
@@ -95,169 +95,169 @@
   <ProccessInformation comment="Creating classes" />
   <CreateClass>
     <ContentClass isContainer="false" identifier="image" objectNamePattern="&lt;name&gt;" urlAliasPattern="" classExistAction="extend" referenceID="CLASS_IMAGE">
-        <Names eng-GB="Image" ger-DE="Bild" always-available="{$language}"/>
+        <Names {$language}="{"Image"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
         <Groups>
          <Group name="Media"/> {* If the group does not exist, it will be created automatically *}
         </Groups>
         <Attributes>
             <Attribute datatype="ezstring" required="true" searchable="true" informationCollector="false" translatable="true" identifier="name" placement="1">
-                <Names eng-GB="Name" ger-DE="Name" always-available="{$language}"/>
+                <Names {$language}="{"Name"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
                 <DatatypeParameters>
                     <max-length>150</max-length>
                     <default-string/>
                 </DatatypeParameters>
             </Attribute>
             <Attribute datatype="ezxmltext" required="false" searchable="true" informationCollector="false" translatable="true" identifier="caption" placement="2">
-                <Names eng-GB="Caption" ger-DE="Überschrift" always-available="{$language}"/>
+                <Names {$language}="{"Caption"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
                 <DatatypeParameters>
                     <text-column-count>2</text-column-count>
                 </DatatypeParameters>
             </Attribute>
             <Attribute datatype="ezimage" required="false" searchable="false" informationCollector="false" translatable="true" identifier="image" placement="3">
-                <Names eng-GB="Image" ger-DE="Bild" always-available="{$language}"/>
+                <Names {$language}="{"Image"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
                 <DatatypeParameters>
                     <max-size>2</max-size>
                 </DatatypeParameters>
             </Attribute>
             <Attribute datatype="ezkeyword" required="false" searchable="true" informationCollector="false" translatable="true" identifier="tags" placement="4">
-                <Names eng-GB="Tags" ger-DE="Tags" always-available="{$language}"/>
+                <Names {$language}="{"Tags"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
                 <DatatypeParameters>
                 </DatatypeParameters>
             </Attribute>
         </Attributes>
     </ContentClass>
     <ContentClass isContainer="false" identifier="quicktime" objectNamePattern="&lt;name&gt;" urlAliasPattern="" classExistAction="extend" referenceID="CLASS_QUICKTIME">
-        <Names eng-GB="Quicktime" ger-DE="Quicktime" always-available="{$language}"/>
+        <Names {$language}="{"Quicktime"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
         <Groups>
          <Group name="Media"/> {* If the group does not exist, it will be created automatically *}
         </Groups>
         <Attributes>
             <Attribute datatype="ezstring" required="true" searchable="true" informationCollector="false" translatable="true" identifier="name" placement="1">
-                <Names eng-GB="Name" ger-DE="Name" always-available="{$language}"/>
+                <Names {$language}="{"Name"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
                 <DatatypeParameters>
                     <max-length>150</max-length>
                     <default-string/>
                 </DatatypeParameters>
             </Attribute>
             <Attribute datatype="ezxmltext" required="false" searchable="true" informationCollector="false" translatable="true" identifier="description" placement="2">
-                <Names eng-GB="Description" ger-DE="Beschreibung" always-available="{$language}"/>
+                <Names {$language}="{"Description"|i18n( 'ezteamroom/install/classes' )}"  always-available="{$language}"/>
                 <DatatypeParameters>
                     <text-column-count>2</text-column-count>
                 </DatatypeParameters>
             </Attribute>
             <Attribute datatype="ezmedia" required="false" searchable="false" informationCollector="false" translatable="true" identifier="file" placement="3">
-                <Names eng-GB="File" ger-DE="Datei" always-available="{$language}"/>
+                <Names {$language}="{"File"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
                 <DatatypeParameters>
                     <max-size unit-size="mega">0</max-size>
                     <type>quick_time</type>
                 </DatatypeParameters>
             </Attribute>
             <Attribute datatype="ezkeyword" required="false" searchable="true" informationCollector="false" translatable="true" identifier="tags" placement="4">
-                <Names eng-GB="Tags" ger-DE="Tags" always-available="{$language}"/>
+                <Names {$language}="{"Tags"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
                 <DatatypeParameters>
                 </DatatypeParameters>
             </Attribute>
         </Attributes>
     </ContentClass>
     <ContentClass isContainer="false" identifier="real_video" objectNamePattern="&lt;name&gt;" urlAliasPattern="" classExistAction="extend" referenceID="CLASS_REALVIDEO">
-        <Names eng-GB="Real video" ger-DE="Real Video" always-available="{$language}"/>
+        <Names {$language}="{"Real video"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
         <Groups>
          <Group name="Media"/> {* If the group does not exist, it will be created automatically *}
         </Groups>
         <Attributes>
             <Attribute datatype="ezstring" required="true" searchable="true" informationCollector="false" translatable="true" identifier="name" placement="1">
-                <Names eng-GB="Name" ger-DE="Name" always-available="{$language}"/>
+                <Names {$language}="{"Name"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
                 <DatatypeParameters>
                     <max-length>150</max-length>
                     <default-string/>
                 </DatatypeParameters>
             </Attribute>
             <Attribute datatype="ezxmltext" required="false" searchable="true" informationCollector="false" translatable="true" identifier="description" placement="2">
-                <Names eng-GB="Description" ger-DE="Beschreibung" always-available="{$language}"/>
+                <Names {$language}="{"Description"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
                 <DatatypeParameters>
                     <text-column-count>2</text-column-count>
                 </DatatypeParameters>
             </Attribute>
             <Attribute datatype="ezmedia" required="false" searchable="false" informationCollector="false" translatable="true" identifier="file" placement="3">
-                <Names eng-GB="File" ger-DE="Datei" always-available="{$language}"/>
+                <Names {$language}="{"File"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
                 <DatatypeParameters>
                     <max-size unit-size="mega">0</max-size>
                     <type>real_player</type>
                 </DatatypeParameters>
             </Attribute>
             <Attribute datatype="ezkeyword" required="false" searchable="true" informationCollector="false" translatable="true" identifier="tags" placement="4">
-                <Names eng-GB="Tags" ger-DE="Tags" always-available="{$language}"/>
+                <Names {$language}="{"Tags"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
                 <DatatypeParameters>
                 </DatatypeParameters>
             </Attribute>
         </Attributes>
     </ContentClass>
     <ContentClass isContainer="false" identifier="windows_media" objectNamePattern="&lt;name&gt;" urlAliasPattern="" classExistAction="extend" referenceID="CLASS_WINDOWSMEDIA">
-        <Names eng-GB="Windows media" ger-DE="Windows Medien" always-available="{$language}"/>
+        <Names {$language}="{"Windows media"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
         <Groups>
          <Group name="Media"/> {* If the group does not exist, it will be created automatically *}
         </Groups>
         <Attributes>
             <Attribute datatype="ezstring" required="true" searchable="true" informationCollector="false" translatable="true" identifier="name" placement="1">
-                <Names eng-GB="Name" ger-DE="Name" always-available="{$language}"/>
+                <Names {$language}="{"Name"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
                 <DatatypeParameters>
                     <max-length>150</max-length>
                     <default-string/>
                 </DatatypeParameters>
             </Attribute>
             <Attribute datatype="ezxmltext" required="false" searchable="true" informationCollector="false" translatable="true" identifier="description" placement="2">
-                <Names eng-GB="Description" ger-DE="Beschreibung" always-available="{$language}"/>
+                <Names {$language}="{"Description"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
                 <DatatypeParameters>
                     <text-column-count>2</text-column-count>
                 </DatatypeParameters>
             </Attribute>
             <Attribute datatype="ezmedia" required="false" searchable="false" informationCollector="false" translatable="true" identifier="file" placement="3">
-                <Names eng-GB="File" ger-DE="Datei" always-available="{$language}"/>
+                <Names {$language}="{"File"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
                 <DatatypeParameters>
                     <max-size unit-size="mega">0</max-size>
                     <type>windows_media_player</type>
                 </DatatypeParameters>
             </Attribute>
             <Attribute datatype="ezkeyword" required="false" searchable="true" informationCollector="false" translatable="true" identifier="tags" placement="4">
-                <Names eng-GB="Tags" ger-DE="Tags" always-available="{$language}"/>
+                <Names {$language}="{"Tags"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
                 <DatatypeParameters>
                 </DatatypeParameters>
             </Attribute>
         </Attributes>
     </ContentClass>
     <ContentClass isContainer="false" identifier="user" remoteID="40faa822edc579b02c25f6bb7beec3ad" objectNamePattern="&lt;first_name&gt; &lt;last_name&gt;" urlAliasPattern="" classExistAction="extend">
-        <Names always-available="{$language}" eng-GB="User" ger-DE="Benutzer" />
+        <Names always-available="{$language}" {$language}="{"User"|i18n( 'ezteamroom/install/classes' )}" />
             <Groups>
                 <Group name="Users"/> {* If the group does not exist, it will be created automatically *}
             </Groups>
             <Attributes>
                 <Attribute datatype="ezstring" required="true" searchable="true" informationCollector="false" translatable="true" identifier="first_name" placement="1">
-                    <Names always-available="{$language}" eng-GB="First name" ger-DE="Vorname" />
+                    <Names always-available="{$language}" {$language}="{"First name"|i18n( 'ezteamroom/install/classes' )}" />
                     <DatatypeParameters>
                         <max-length>255</max-length>
                         <default-string/>
                         </DatatypeParameters>
                 </Attribute>
                 <Attribute datatype="ezstring" required="true" searchable="true" informationCollector="false" translatable="true" identifier="last_name" placement="2">
-                    <Names always-available="{$language}" eng-GB="Last name" ger-DE="Nachname" />
+                    <Names always-available="{$language}" {$language}="{"Last name"|i18n( 'ezteamroom/install/classes' )}" />
                     <DatatypeParameters>
                         <max-length>255</max-length>
                         <default-string/>
                     </DatatypeParameters>
                 </Attribute>
                 <Attribute datatype="ezuser" required="true" searchable="true" informationCollector="false" translatable="true" identifier="user_account" placement="3">
-                    <Names always-available="{$language}" eng-GB="User account" ger-DE="Zugangsdaten"/>
+                    <Names always-available="{$language}" {$language}="{"User account"|i18n( 'ezteamroom/install/classes' )}" />
                     <DatatypeParameters>
                     </DatatypeParameters>
                 </Attribute>
                 <Attribute datatype="eztext" required="false" searchable="true" informationCollector="false" translatable="true" identifier="signature" placement="4">
-                    <Names always-available="{$language}" eng-GB="Signature" ger-DE="Signatur" />
+                    <Names always-available="{$language}" {$language}="{"Signature"|i18n( 'ezteamroom/install/classes' )}" />
                     <DatatypeParameters>
                         <text-column-count>10</text-column-count>
                     </DatatypeParameters>
                 </Attribute>
                 <Attribute datatype="ezimage" required="false" searchable="false" informationCollector="false" translatable="true" identifier="image" placement="5">
-                    <Names always-available="{$language}" eng-GB="Image" ger-DE="Bild"/>
+                    <Names always-available="{$language}" {$language}="{"Image"|i18n( 'ezteamroom/install/classes' )}" />
                     <DatatypeParameters>
                         <max-size>1</max-size>
                     </DatatypeParameters>
@@ -265,27 +265,27 @@
             </Attributes>
        </ContentClass>
         <ContentClass isContainer="false" identifier="teamroom_comment" remoteID="" objectNamePattern="&lt;subject&gt;" urlAliasPattern=""  classExistAction="extend" referenceID="CLASS_COMMENT">
-            <Names eng-GB="Teamroom comment" ger-DE="Teamroom Kommentar" always-available="{$language}" />
+            <Names {$language}="{"Teamroom comment"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}" />
             <Groups>
              <Group name="Teamroom"/> {* If the group does not exist, it will be created automatically *}
             </Groups>
             <Attributes>
                 <Attribute datatype="ezstring" required="true" searchable="true" informationCollector="false" translatable="true" identifier="subject" placement="1">
-                    <Names eng-GB="Subject" ger-DE="Betreff" always-available="{$language}" />
+                    <Names {$language}="{"Subject"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}" />
                     <DatatypeParameters>
                         <max-length>100</max-length>
                         <default-string/>
                     </DatatypeParameters>
                 </Attribute>
                 <Attribute datatype="ezstring" required="true" searchable="true" informationCollector="false" translatable="true" identifier="author" placement="2">
-                    <Names eng-GB="Author" ger-DE="Autor" always-available="{$language}" />
+                    <Names {$language}="{"Author"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}" />
                     <DatatypeParameters>
                         <max-length>0</max-length>
                         <default-string/>
                 </DatatypeParameters>
             </Attribute>
             <Attribute datatype="eztext" required="true" searchable="true" informationCollector="false" translatable="true" identifier="message" placement="3">
-                <Names eng-GB="Message" ger-DE="Nachricht" always-available="{$language}" />
+                <Names {$language}="{"Message"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}" />
                 <DatatypeParameters>
                     <text-column-count>20</text-column-count>
                 </DatatypeParameters>
@@ -293,69 +293,69 @@
         </Attributes>
     </ContentClass>
     <ContentClass isContainer="true" identifier="teamroom_blog" remoteID="" objectNamePattern="&lt;name&gt;" urlAliasPattern="" classExistAction="extend" referenceID="CLASS_BLOG">
-      <Names ger-DE="Teamroom Blog" eng-GB="Teamroom blog" always-available="{$language}"/>
+      <Names {$language}="{"Teamroom blog"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
       <Groups>
         <Group name="Teamroom"/> {* If the group does not exist, it will be created automatically *}
       </Groups>
       <Attributes>
         <Attribute datatype="ezstring" required="false" searchable="true" informationCollector="false" translatable="true" identifier="name" placement="1">
-          <Names eng-GB="Name" ger-DE="Name" always-available="{$language}"/>
+          <Names {$language}="{"Name"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
           <DatatypeParameters>
             <max-length>0</max-length>
             <default-string/>
           </DatatypeParameters>
         </Attribute>
         <Attribute datatype="ezxmltext" required="false" searchable="true" informationCollector="false" translatable="true" identifier="description" placement="2">
-          <Names eng-GB="Description" ger-DE="Beschreibung" always-available="{$language}"/>
+          <Names {$language}="{"Description"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
           <DatatypeParameters>
             <text-column-count>5</text-column-count>
           </DatatypeParameters>
         </Attribute>
         <Attribute datatype="ezkeyword" required="false" searchable="true" informationCollector="false" translatable="true" identifier="tags" placement="3">
-          <Names eng-GB="Tags" ger-DE="Tags" always-available="{$language}"/>
+          <Names {$language}="{"Tags"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
           <DatatypeParameters>
           </DatatypeParameters>
         </Attribute>
       </Attributes>
     </ContentClass>
     <ContentClass isContainer="true" identifier="teamroom_blog_post" remoteID="" objectNamePattern="&lt;title&gt;" urlAliasPattern="" classExistAction="extend" referenceID="CLASS_BLOGPOST">
-      <Names eng-GB="Teamroom Blog post" ger-DE="Teamroom Blog-Eintrag" always-available="{$language}"/>
+      <Names {$language}="{"Teamroom Blog post"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
       <Groups>
         <Group name="Teamroom"/> {* If the group does not exist, it will be created automatically *}
       </Groups>
       <Attributes>
         <Attribute datatype="ezstring" required="false" searchable="true" informationCollector="false" translatable="true" identifier="title" placement="1">
-          <Names eng-GB="Title" ger-DE="Titel" always-available="{$language}"/>
+          <Names {$language}="{"Title"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
           <DatatypeParameters>
             <max-length>0</max-length>
             <default-string/>
           </DatatypeParameters>
         </Attribute>
         <Attribute datatype="ezxmltext" required="false" searchable="true" informationCollector="false" translatable="true" identifier="body" placement="2">
-          <Names eng-GB="Body" ger-DE="Inhalt" always-available="{$language}"/>
+          <Names {$language}="{"Body"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
           <DatatypeParameters>
             <text-column-count>25</text-column-count>
           </DatatypeParameters>
         </Attribute>
         <Attribute datatype="ezdatetime" required="false" searchable="true" informationCollector="false" translatable="true" identifier="publication_date" placement="3">
-          <Names eng-GB="Publication date" ger-DE="Publizierungsdatum" always-available="{$language}"/>
+          <Names {$language}="{"Publication date"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
           <DatatypeParameters>
             <default-value type="current-date" />
           </DatatypeParameters>
         </Attribute>
         <Attribute datatype="ezdatetime" required="false" searchable="true" informationCollector="false" translatable="true" identifier="unpublish_date" placement="4">
-          <Names eng-GB="Unpublish date" ger-DE="Depublizierungsdatum" always-available="{$language}"/>
+          <Names {$language}="{"Unpublish date"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
           <DatatypeParameters>
             <default-value type="empty" />
           </DatatypeParameters>
         </Attribute>
         <Attribute datatype="ezkeyword" required="false" searchable="true" informationCollector="false" translatable="true" identifier="tags" placement="5">
-          <Names eng-GB="Tags" ger-DE="Tags" always-available="{$language}"/>
+          <Names {$language}="{"Tags"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
           <DatatypeParameters>
           </DatatypeParameters>
         </Attribute>
         <Attribute datatype="ezboolean" required="false" searchable="true" informationCollector="false" translatable="true" identifier="enable_comments" placement="6">
-          <Names eng-GB="Enable comments" ger-DE="Kommentare erlauben" always-available="{$language}"/>
+          <Names {$language}="{"Enable comments"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
           <DatatypeParameters>
             <default-value/>
           </DatatypeParameters>
@@ -363,82 +363,82 @@
       </Attributes>
     </ContentClass>
     <ContentClass isContainer="true" identifier="teamroom_frontpage" remoteID="" objectNamePattern="&lt;name&gt;" urlAliasPattern="" classExistAction="extend" referenceID="CLASS_FRONTPAGE">
-      <Names eng-GB="Teamroom frontpage" ger-DE="Teamroom Einstiegsseite" always-available="{$language}"/>
+      <Names {$language}="{"Teamroom frontpage"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
       <Groups>
          <Group name="Teamroom"/> {* If the group does not exist, it will be created automatically *}
       </Groups>
       <Attributes>
         <Attribute datatype="ezstring" required="true" searchable="true" informationCollector="false" translatable="true" identifier="name" placement="1">
-          <Names eng-GB="Name" ger-DE="Name" always-available="{$language}"/>
+          <Names {$language}="{"Name"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
           <DatatypeParameters>
             <max-length>0</max-length>
             <default-string/>
           </DatatypeParameters>
         </Attribute>
         <Attribute datatype="ezobjectrelation" required="false" searchable="false" informationCollector="false" translatable="true" identifier="billboard" placement="2">
-          <Names eng-GB="Billboard" ger-DE="Titelbild" always-available="{$language}"/>
+          <Names {$language}="{"Billboard"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
           <DatatypeParameters>
             <selection-type/>
             <fuzzy-match/>
           </DatatypeParameters>
         </Attribute>
         <Attribute datatype="ezxmltext" required="false" searchable="true" informationCollector="false" translatable="true" identifier="left_column" placement="3">
-          <Names eng-GB="Left column" ger-DE="Linke Spalte" always-available="{$language}"/>
+          <Names {$language}="{"Left column"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
           <DatatypeParameters>
             <text-column-count>20</text-column-count>
           </DatatypeParameters>
         </Attribute>
         <Attribute datatype="ezxmltext" required="false" searchable="true" informationCollector="false" translatable="true" identifier="center_column" placement="4">
-          <Names eng-GB="Center column" ger-DE="Mittlere Spalte" always-available="{$language}"/>
+          <Names {$language}="{"Center column"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
           <DatatypeParameters>
             <text-column-count>20</text-column-count>
           </DatatypeParameters>
         </Attribute>
         <Attribute datatype="ezxmltext" required="false" searchable="true" informationCollector="false" translatable="true" identifier="right_column" placement="5">
-          <Names eng-GB="Right column" ger-DE="Rechte Spalte" always-available="{$language}"/>
+          <Names {$language}="{"Right column"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
           <DatatypeParameters>
             <text-column-count>20</text-column-count>
           </DatatypeParameters>
         </Attribute>
         <Attribute datatype="ezxmltext" required="false" searchable="true" informationCollector="false" translatable="true" identifier="bottom_column" placement="6">
-          <Names eng-GB="Bottom column" ger-DE="Fußzeile" always-available="{$language}"/>
+          <Names {$language}="{"Bottom column"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
           <DatatypeParameters>
             <text-column-count>10</text-column-count>
           </DatatypeParameters>
         </Attribute>
         <Attribute datatype="ezkeyword" required="false" searchable="true" informationCollector="false" translatable="true" identifier="tags" placement="7">
-          <Names eng-GB="Tags" ger-DE="Tags" always-available="{$language}"/>
+          <Names {$language}="{"Tags"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
           <DatatypeParameters>
           </DatatypeParameters>
         </Attribute>
       </Attributes>
     </ContentClass>
     <ContentClass isContainer="true" identifier="teamroom_documentation_page" remoteID="" objectNamePattern="&lt;title&gt;" urlAliasPattern="" classExistAction="extend" referenceID="CLASS_WIKI">
-      <Names eng-GB="Teamroom documentation page" ger-DE="Teamroom Dokumentationsseite" always-available="{$language}"/>
+      <Names {$language}="{"Teamroom documentation page"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
       <Groups>
          <Group name="Teamroom"/> {* If the group does not exist, it will be created automatically *}
       </Groups>
       <Attributes>
         <Attribute datatype="ezstring" required="true" searchable="true" informationCollector="false" translatable="true" identifier="title" placement="1">
-          <Names eng-GB="Title" ger-DE="Titel" always-available="{$language}"/>
+          <Names {$language}="{"Title"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
           <DatatypeParameters>
             <max-length>0</max-length>
             <default-string/>
           </DatatypeParameters>
         </Attribute>
         <Attribute datatype="ezxmltext" required="false" searchable="true" informationCollector="false" translatable="true" identifier="body" placement="2">
-          <Names eng-GB="Body" ger-DE="Inhalt" always-available="{$language}"/>
+          <Names {$language}="{"Body"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
           <DatatypeParameters>
             <text-column-count>20</text-column-count>
           </DatatypeParameters>
         </Attribute>
         <Attribute datatype="ezkeyword" required="false" searchable="true" informationCollector="false" translatable="true" identifier="tags" placement="3">
-          <Names eng-GB="Tags" ger-DE="Tags" always-available="{$language}"/>
+          <Names {$language}="{"Tags"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
           <DatatypeParameters>
           </DatatypeParameters>
         </Attribute>
         <Attribute datatype="ezboolean" required="false" searchable="false" informationCollector="false" translatable="true" identifier="show_children" placement="4">
-          <Names eng-GB="Display sub items" ger-DE="Zeige Unterelemente" always-available="{$language}"/>
+          <Names {$language}="{"Display sub items"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
           <DatatypeParameters>
             <default-value/>
           </DatatypeParameters>
@@ -446,20 +446,20 @@
       </Attributes>
     </ContentClass>
     <ContentClass isContainer="false" identifier="teamroom_infobox" remoteID="" objectNamePattern="&lt;header&gt;" urlAliasPattern="" classExistAction="extend" referenceID="CLASS_INFOBOX">
-      <Names eng-GB="Teamroom info box" ger-DE="Teamroom Informationsbox" always-available="{$language}"/>
+      <Names {$language}="{"Teamroom info box"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
       <Groups>
          <Group name="Teamroom"/> {* If the group does not exist, it will be created automatically *}
       </Groups>
       <Attributes>
         <Attribute datatype="ezstring" required="true" searchable="false" informationCollector="false" translatable="true" identifier="header" placement="1">
-          <Names eng-GB="Header" ger-DE="Überschrift" always-available="{$language}"/>
+          <Names {$language}="{"Header"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
           <DatatypeParameters>
             <max-length>0</max-length>
             <default-string/>
           </DatatypeParameters>
         </Attribute>
         <Attribute datatype="ezobjectrelation" required="false" searchable="true" informationCollector="false" translatable="true" identifier="box_icon" placement="2">
-          <Names eng-GB="Box Icon" ger-DE="Box Icon" always-available="{$language}"/>
+          <Names {$language}="{"Box Icon"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
           <DatatypeParameters>
             <selection-type/>
             <fuzzy-match/>
@@ -467,32 +467,32 @@
           </DatatypeParameters>
         </Attribute>
         <Attribute datatype="ezxmltext" required="false" searchable="false" informationCollector="false" translatable="true" identifier="content" placement="3">
-          <Names eng-GB="Content" ger-DE="Inhalt" always-available="{$language}"/>
+          <Names {$language}="{"Content"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
           <DatatypeParameters>
             <text-column-count>10</text-column-count>
           </DatatypeParameters>
         </Attribute>
         <Attribute datatype="ezurl" required="false" searchable="false" informationCollector="false" translatable="true" identifier="url" placement="4">
-          <Names eng-GB="URL" ger-DE="URL" always-available="{$language}"/>
+          <Names {$language}="{"URL"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
           <DatatypeParameters>
           </DatatypeParameters>
         </Attribute>
         <Attribute datatype="ezstring" required="false" searchable="false" informationCollector="false" translatable="true" identifier="module_url" placement="5">
-          <Names eng-GB="Module URL" ger-DE="Modul-URL" always-available="{$language}"/>
+          <Names {$language}="{"Module URL"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
           <DatatypeParameters>
             <max-length>0</max-length>
             <default-string/>
           </DatatypeParameters>
         </Attribute>
         <Attribute datatype="ezstring" required="false" searchable="false" informationCollector="false" translatable="true" identifier="check_access" placement="6">
-          <Names eng-GB="Check access" ger-DE="Rechte überprüfen" always-available="{$language}"/>
+          <Names {$language}="{"Check access"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
           <DatatypeParameters>
             <max-length>0</max-length>
             <default-string/>
           </DatatypeParameters>
         </Attribute>
         <Attribute datatype="ezobjectrelation" required="false" searchable="false" informationCollector="false" translatable="true" identifier="relates_to" placement="7">
-          <Names eng-GB="Relates to" ger-DE="Steht in Beziehung mit" always-available="{$language}"/>
+          <Names {$language}="{"Relates to"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
           <DatatypeParameters>
             <selection-type>0</selection-type>
             <fuzzy-match/>
@@ -502,20 +502,20 @@
       </Attributes>
     </ContentClass>
     <ContentClass isContainer="false" identifier="teamroom_file" remoteID="" objectNamePattern="&lt;name&gt;" urlAliasPattern="" classExistAction="extend" referenceID="CLASS_FILE">
-      <Names eng-GB="Teamroom file" ger-DE="Teamroom Datei" always-available="{$language}"/>
+      <Names {$language}="{"Teamroom file"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
       <Groups>
          <Group name="Teamroom"/> {* If the group does not exist, it will be created automatically *}
       </Groups>
       <Attributes>
         <Attribute datatype="ezstring" required="false" searchable="true" informationCollector="false" translatable="true" identifier="name" placement="1">
-          <Names eng-GB="Name" always-available="{$language}" />
+          <Names {$language}="{"Name"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}" />
           <DatatypeParameters>
             <max-length>0</max-length>
             <default-string />
           </DatatypeParameters>
         </Attribute>
         <Attribute datatype="ezselection" required="false" searchable="true" informationCollector="false" translatable="true" identifier="category" placement="6">
-          <Names eng-GB="Category" ger-DE="Kategorie" always-available="{$language}"/>
+          <Names {$language}="{"Category"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
           <DatatypeParameters>
             <options>
               <option id="0" name="{'Documents'|i18n( 'ezteamroom/install/classes' )}" />
@@ -527,45 +527,45 @@
           </DatatypeParameters>
         </Attribute>
         <Attribute datatype="ezxmltext" required="false" searchable="true" informationCollector="false" translatable="true" identifier="description" placement="7">
-          <Names eng-GB="Description" ger-DE="Beschreibung" always-available="{$language}"/>
+          <Names {$language}="{"Description"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
           <DatatypeParameters>
             <text-column-count>2</text-column-count>
           </DatatypeParameters>
         </Attribute>
         <Attribute datatype="ezimage" required="false" searchable="false" informationCollector="false" translatable="true" identifier="thumbnail" placement="5">
-          <Names eng-GB="Thumbnail" ger-DE="Vorschaubild" always-available="{$language}"/>
+          <Names {$language}="{"Thumbnail"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
           <DatatypeParameters>
             <max-size>0</max-size>
           </DatatypeParameters>
         </Attribute>
         <Attribute datatype="ezbinaryfile" required="false" searchable="false" informationCollector="false" translatable="true" identifier="file" placement="3">
-          <Names eng-GB="File" ger-DE="Datei" always-available="{$language}"/>
+          <Names {$language}="{"File"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
           <DatatypeParameters>
             <max-size>0</max-size>
           </DatatypeParameters>
         </Attribute>
         <Attribute datatype="ezkeyword" required="false" searchable="true" informationCollector="false" translatable="true" identifier="tags" placement="4">
-          <Names eng-GB="Tags" ger-DE="Tags" always-available="{$language}"/>
+          <Names {$language}="{"Tags"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
           <DatatypeParameters>
           </DatatypeParameters>
         </Attribute>
       </Attributes>
     </ContentClass>
     <ContentClass isContainer="true" identifier="teamroom_forum" remoteID="" objectNamePattern="&lt;name&gt;" urlAliasPattern="" classExistAction="extend" referenceID="CLASS_FORUM">
-      <Names eng-GB="Teamroom forum" ger-DE="Teamroom Forum" always-available="{$language}"/>
+      <Names {$language}="{"Teamroom forum"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
       <Groups>
          <Group name="Teamroom"/> {* If the group does not exist, it will be created automatically *}
       </Groups>
       <Attributes>
         <Attribute datatype="ezstring" required="true" searchable="true" informationCollector="false" translatable="true" identifier="name" placement="1">
-          <Names eng-GB="Name" ger-DE="Name" always-available="{$language}"/>
+          <Names {$language}="{"Name"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
           <DatatypeParameters>
             <max-length>0</max-length>
             <default-string/>
           </DatatypeParameters>
         </Attribute>
         <Attribute datatype="ezxmltext" required="false" searchable="true" informationCollector="false" translatable="true" identifier="description" placement="2">
-          <Names eng-GB="Description" ger-DE="Beschreibung" always-available="{$language}"/>
+          <Names {$language}="{"Description"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
           <DatatypeParameters>
             <text-column-count>10</text-column-count>
           </DatatypeParameters>
@@ -573,52 +573,52 @@
       </Attributes>
     </ContentClass>
     <ContentClass isContainer="true" identifier="teamroom_forum_topic" remoteID="" objectNamePattern="&lt;subject&gt;" urlAliasPattern="" classExistAction="extend" referenceID="CLASS_FORUMTOPIC">
-      <Names eng-GB="Teamroom forum topic" ger-DE="Teamroom Forum-Thema" always-available="{$language}"/>
+      <Names {$language}="{"Teamroom forum topic"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
       <Groups>
          <Group name="Teamroom"/> {* If the group does not exist, it will be created automatically *}
       </Groups>
       <Attributes>
         <Attribute datatype="ezstring" required="true" searchable="true" informationCollector="false" translatable="true" identifier="subject" placement="1">
-          <Names eng-GB="Subject" ger-DE="Thema" always-available="{$language}"/>
+          <Names {$language}="{"Subject"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
           <DatatypeParameters>
             <max-length>0</max-length>
             <default-string/>
           </DatatypeParameters>
         </Attribute>
         <Attribute datatype="eztext" required="true" searchable="true" informationCollector="false" translatable="true" identifier="message" placement="2">
-          <Names eng-GB="Message" ger-DE="Nachricht" always-available="{$language}"/>
+          <Names {$language}="{"Message"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
           <DatatypeParameters>
             <text-column-count>10</text-column-count>
           </DatatypeParameters>
         </Attribute>
         <Attribute datatype="ezboolean" required="false" searchable="true" informationCollector="false" translatable="true" identifier="sticky" placement="3">
-          <Names eng-GB="Sticky" ger-DE="Sticky" always-available="{$language}"/>
+          <Names {$language}="{"Sticky"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
           <DatatypeParameters>
             <default-value/>
           </DatatypeParameters>
         </Attribute>
         <Attribute datatype="ezsubtreesubscription" required="false" searchable="false" informationCollector="false" translatable="true" identifier="notify_me" placement="4">
-          <Names eng-GB="Notify me about updates" ger-DE="Über Änderungen informieren" always-available="{$language}"/>
+          <Names {$language}="{"Notify me about updates"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
           <DatatypeParameters>
           </DatatypeParameters>
         </Attribute>
       </Attributes>
     </ContentClass>
     <ContentClass isContainer="false" identifier="teamroom_forum_reply" remoteID="" objectNamePattern="&lt;subject&gt;" urlAliasPattern="" classExistAction="extend" referenceID="CLASS_FORUMREPLY">
-      <Names eng-GB="Teamroom forum reply" ger-DE="Teamroom Forum-Antwort" always-available="{$language}"/>
+      <Names {$language}="{"Teamroom forum reply"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
       <Groups>
          <Group name="Teamroom"/> {* If the group does not exist, it will be created automatically *}
       </Groups>
       <Attributes>
         <Attribute datatype="ezstring" required="false" searchable="true" informationCollector="false" translatable="true" identifier="subject" placement="1">
-          <Names eng-GB="Subject" ger-DE="Thema" always-available="{$language}"/>
+          <Names {$language}="{"Subject"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
           <DatatypeParameters>
             <max-length>0</max-length>
             <default-string/>
           </DatatypeParameters>
         </Attribute>
         <Attribute datatype="eztext" required="true" searchable="true" informationCollector="false" translatable="true" identifier="message" placement="2">
-          <Names eng-GB="Message" ger-DE="Nachricht" always-available="{$language}"/>
+          <Names {$language}="{"Message"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
           <DatatypeParameters>
             <text-column-count>10</text-column-count>
           </DatatypeParameters>
@@ -626,44 +626,44 @@
       </Attributes>
     </ContentClass>
     <ContentClass isContainer="false" identifier="teamroom_event" remoteID="" objectNamePattern="&lt;short_title|title&gt;" urlAliasPattern="" classExistAction="extend" referenceID="CLASS_EVENT">
-      <Names eng-GB="Teamroom event" ger-DE="Teamroom Termin" always-available="{$language}"/>
+      <Names {$language}="{"Teamroom event"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
       <Groups>
          <Group name="Teamroom"/>
       </Groups>
       <Attributes>
         <Attribute datatype="ezstring" required="false" searchable="true" informationCollector="false" translatable="true" identifier="title" placement="1">
-          <Names eng-GB="Full title" ger-DE="Titel" always-available="{$language}"/>
+          <Names {$language}="{"Full title"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
           <DatatypeParameters>
             <max-length>55</max-length>
             <default-string/>
           </DatatypeParameters>
         </Attribute>
         <Attribute datatype="ezstring" required="true" searchable="true" informationCollector="false" translatable="true" identifier="short_title" placement="2">
-          <Names eng-GB="Short title" ger-DE="Kurzer Titel" always-available="{$language}"/>
+          <Names {$language}="{"Short title"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
           <DatatypeParameters>
             <max-length>19</max-length>
             <default-string/>
           </DatatypeParameters>
         </Attribute>
         <Attribute datatype="ezxmltext" required="false" searchable="true" informationCollector="false" translatable="true" identifier="text" placement="3">
-          <Names eng-GB="Text" ger-DE="Text" always-available="{$language}"/>
+          <Names {$language}="{"Text"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
           <DatatypeParameters>
             <text-column-count>10</text-column-count>
           </DatatypeParameters>
         </Attribute>
         <Attribute datatype="ezkeyword" required="false" searchable="true" informationCollector="false" translatable="true" identifier="category" placement="4">
-          <Names eng-GB="Category" ger-DE="Kategorie" always-available="{$language}"/>
+          <Names {$language}="{"Category"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
           <DatatypeParameters>
           </DatatypeParameters>
         </Attribute>
         <Attribute datatype="ezevent" required="true" searchable="true" informationCollector="false" translatable="false" identifier="event_date" placement="5">
-          <Names eng-GB="Date" ger-DE="Datum" always-available="{$language}"/>
+          <Names {$language}="{"Date"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
           <DatatypeParameters>
             <default-value type="empty" />
           </DatatypeParameters>
         </Attribute>
         <Attribute datatype="ezstring" required="false" searchable="true" informationCollector="false" translatable="true" identifier="location" placement="6">
-          <Names eng-GB="Location" ger-DE="Ort" always-available="{$language}"/>
+          <Names {$language}="{"Location"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
           <DatatypeParameters>
             <max-length>0</max-length>
             <default-string/>
@@ -672,27 +672,27 @@
       </Attributes>
     </ContentClass>
     <ContentClass isContainer="true" identifier="teamroom_event_calendar" remoteID="" objectNamePattern="&lt;short_title|title&gt;" urlAliasPattern="" classExistAction="extend" referenceID="CLASS_EVENTCALENDAR">
-      <Names eng-GB="Teamroom event calendar" ger-DE="Teamroom Terminkalender" always-available="{$language}"/>
+      <Names {$language}="{"Teamroom event calendar"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
       <Groups>
          <Group name="Teamroom"/> {* If the group does not exist, it will be created automatically *}
       </Groups>
       <Attributes>
         <Attribute datatype="ezstring" required="true" searchable="true" informationCollector="false" translatable="true" identifier="title" placement="1">
-          <Names eng-GB="Full Title" ger-DE="Titel" always-available="{$language}"/>
+          <Names {$language}="{"Full Title"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
           <DatatypeParameters>
             <max-length>65</max-length>
             <default-string/>
           </DatatypeParameters>
         </Attribute>
         <Attribute datatype="ezstring" required="false" searchable="true" informationCollector="false" translatable="true" identifier="short_title" placement="2">
-          <Names eng-GB="Short Title" ger-DE="Kurzer Titel" always-available="{$language}"/>
+          <Names {$language}="{"Short Title"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
           <DatatypeParameters>
             <max-length>25</max-length>
             <default-string/>
           </DatatypeParameters>
         </Attribute>
         <Attribute datatype="ezselection" required="true" searchable="false" informationCollector="false" translatable="false" identifier="view" placement="3">
-          <Names eng-GB="View" ger-DE="Sicht" always-available="{$language}"/>
+          <Names {$language}="{"View"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
           <DatatypeParameters>
             <options>
             </options>
@@ -702,50 +702,50 @@
       </Attributes>
     </ContentClass>
     <ContentClass isContainer="true" identifier="teamroom_news_folder" remoteID="" objectNamePattern="&lt;short_name|name&gt;" urlAliasPattern="" classExistAction="extend" referenceID="CLASS_NEWSFOLDER">
-      <Names eng-GB="Teamroom news folder" ger-DE="Teamroom Nachrichten-Ordner" always-available="{$language}" />
+      <Names {$language}="{"Teamroom news folder"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}" />
       <Groups>
          <Group name="Teamroom"/> {* If the group does not exist, it will be created automatically *}
       </Groups>
       <Attributes>
         <Attribute datatype="ezstring" required="false" searchable="true" informationCollector="false" translatable="true" identifier="short_name" placement="1">
-          <Names eng-GB="Short name" ger-DE="Kurzer Name" always-available="{$language}" />
+          <Names {$language}="{"Short name"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}" />
           <DatatypeParameters>
             <max-length>100</max-length>
             <default-string/>
           </DatatypeParameters>
         </Attribute>
         <Attribute datatype="ezstring" required="true" searchable="true" informationCollector="false" translatable="true" identifier="name" placement="2">
-          <Names eng-GB="Name" ger-DE="Name" always-available="{$language}" />
+          <Names {$language}="{"Name"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}" />
           <DatatypeParameters>
             <max-length>255</max-length>
-            <default-string>{'Folder'|i18n( 'ezteamroom/install/classes' )}</default-string>
+            <default-string>{'Folder'|i18n( 'ezteamroom/install/classes' )}"</default-string>
           </DatatypeParameters>
         </Attribute>
         <Attribute datatype="ezxmltext" required="false" searchable="true" informationCollector="false" translatable="true" identifier="short_description" placement="3">
-          <Names eng-GB="Summary" ger-DE="Zusammenfassung" always-available="{$language}" />
+          <Names {$language}="{"Summary"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}" />
           <DatatypeParameters>
             <text-column-count>5</text-column-count>
           </DatatypeParameters>
         </Attribute>
         <Attribute datatype="ezxmltext" required="false" searchable="true" informationCollector="false" translatable="true" identifier="description" placement="4">
-          <Names eng-GB="Description" ger-DE="Beschreibung" always-available="{$language}" />
+          <Names {$language}="{"Description"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}" />
           <DatatypeParameters>
             <text-column-count>20</text-column-count>
           </DatatypeParameters>
         </Attribute>
         <Attribute datatype="ezboolean" required="false" searchable="false" informationCollector="false" translatable="false" identifier="show_children" placement="5">
-          <Names eng-GB="Display sub items" ger-DE="Zeige Unterelemente" always-available="{$language}" />
+          <Names {$language}="{"Display sub items"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}" />
           <DatatypeParameters>
             <default-value/>
           </DatatypeParameters>
         </Attribute>
         <Attribute datatype="ezkeyword" required="false" searchable="true" informationCollector="false" translatable="true" identifier="tags" placement="6">
-          <Names eng-GB="Tags" ger-DE="Tags" always-available="{$language}" />
+          <Names {$language}="{"Tags"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}" />
           <DatatypeParameters>
           </DatatypeParameters>
         </Attribute>
         <Attribute datatype="ezdatetime" required="false" searchable="true" informationCollector="false" translatable="true" identifier="publish_date" placement="7">
-          <Names eng-GB="Publish date" ger-DE="Publizierungsdatum" always-available="{$language}" />
+          <Names {$language}="{"Publish date"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}" />
           <DatatypeParameters>
             <default-value type="current-date" />
           </DatatypeParameters>
@@ -753,33 +753,33 @@
       </Attributes>
     </ContentClass>
     <ContentClass isContainer="true" identifier="teamroom_personal_frontpage" remoteID="" objectNamePattern="&lt;short_title|title&gt;" urlAliasPattern="" classExistAction="extend" referenceID="CLASS_PERSONALFRONTPAGE">
-      <Names eng-GB="Teamroom personalized frontpage" ger-DE="Teamroom Individuelle Einstiegsseite" always-available="{$language}"/>
+      <Names {$language}="{"Teamroom personalized frontpage"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
       <Groups>
         <Group name="Teamroom"/> {* If the group does not exist, it will be created automatically *}
       </Groups>
       <Attributes>
         <Attribute datatype="ezstring" required="true" searchable="true" informationCollector="false" translatable="true" identifier="title" placement="1">
-          <Names eng-GB="Title" ger-DE="Titel" always-available="{$language}"/>
+          <Names {$language}="{"Title"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
           <DatatypeParameters>
             <max-length>0</max-length>
             <default-string/>
           </DatatypeParameters>
         </Attribute>
         <Attribute datatype="ezstring" required="false" searchable="true" informationCollector="false" translatable="true" identifier="short_title" placement="2">
-          <Names eng-GB="Short title" ger-DE="Kurzer Titel" always-available="{$language}"/>
+          <Names {$language}="{"Short title"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
           <DatatypeParameters>
             <max-length>0</max-length>
             <default-string/>
           </DatatypeParameters>
         </Attribute>
         <Attribute datatype="ezxmltext" required="false" searchable="true" informationCollector="false" translatable="true" identifier="description" placement="3">
-          <Names eng-GB="Description" ger-DE="Beschreibung" always-available="{$language}"/>
+          <Names {$language}="{"Description"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
           <DatatypeParameters>
             <text-column-count>10</text-column-count>
           </DatatypeParameters>
         </Attribute>
         <Attribute datatype="ezinteger" required="true" searchable="true" informationCollector="false" translatable="true" identifier="num_of_columns" placement="4">
-          <Names eng-GB="Number of columns" ger-DE="Anzahl der Spalten" always-available="{$language}"/>
+          <Names {$language}="{"Number of columns"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
           <DatatypeParameters>
             <default-value>3</default-value>
             <min-value>1</min-value>
@@ -787,13 +787,13 @@
           </DatatypeParameters>
         </Attribute>
         <Attribute datatype="ezboolean" required="false" searchable="true" informationCollector="false" translatable="true" identifier="allow_minimization" placement="5">
-          <Names eng-GB="Allow Minimization" ger-DE="Minimierung möglich" always-available="{$language}"/>
+          <Names {$language}="{"Allow Minimization"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
           <DatatypeParameters>
             <default-value/>
           </DatatypeParameters>
         </Attribute>
         <Attribute datatype="ezstring" required="false" searchable="true" informationCollector="false" translatable="true" identifier="default_arrangement" placement="6">
-          <Names eng-GB="Default arrangement" ger-DE="Standardanordnung" always-available="{$language}"/>
+          <Names {$language}="{"Default arrangement"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
           <DatatypeParameters>
             <max-length>0</max-length>
             <default-string>[[0,1],[2,3,4],[5,6,7]]</default-string>
@@ -802,20 +802,20 @@
       </Attributes>
     </ContentClass>
     <ContentClass isContainer="true" identifier="teamroom_room" remoteID="" objectNamePattern="&lt;name&gt;" urlAliasPattern="" classExistAction="extend" referenceID="CLASS_TEAMROOM">
-      <Names eng-GB="Teamroom room" ger-DE="Teamroom Raum" always-available="{$language}"/>
+      <Names {$language}="{"Teamroom room"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
       <Groups>
         <Group name="Teamroom"/> {* If the group does not exist, it will be created automatically *}
       </Groups>
       <Attributes>
         <Attribute datatype="ezstring" required="true" searchable="true" informationCollector="false" translatable="true" identifier="name" placement="1">
-          <Names eng-GB="Name" ger-DE="Name" always-available="{$language}"/>
+          <Names {$language}="{"Name"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
           <DatatypeParameters>
             <max-length>255</max-length>
             <default-string>Teamroom</default-string>
           </DatatypeParameters>
         </Attribute>
         <Attribute datatype="ezselection" required="true" searchable="false" informationCollector="false" translatable="true" identifier="access_type" placement="2">
-          <Names eng-GB="Access type" ger-DE="Zugriffsart" always-available="{$language}"/>
+          <Names {$language}="{"Access type"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
           <DatatypeParameters>
             <options>
               <option id="0" name="{'Private'|i18n( 'ezteamroom/access_type' )}" />
@@ -838,20 +838,20 @@
           </DatatypeParameters>
         </Attribute>
         <Attribute datatype="ezxmltext" required="false" searchable="true" informationCollector="false" translatable="true" identifier="description" placement="3">
-          <Names eng-GB="Description" ger-DE="Beschreibung" always-available="{$language}"/>
+          <Names {$language}="{"Description"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
           <DatatypeParameters>
             <text-column-count>5</text-column-count>
           </DatatypeParameters>
         </Attribute>
         <Attribute datatype="ezstring" required="false" searchable="true" informationCollector="false" translatable="true" identifier="default_arrangement" placement="4">
-          <Names eng-GB="Default arrangement" ger-DE="Standardanordnung" always-available="{$language}"/>
+          <Names {$language}="{"Default arrangement"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
           <DatatypeParameters>
             <max-length>0</max-length>
             <default-string/>
           </DatatypeParameters>
         </Attribute>
         <Attribute datatype="ezfeatureselect" required="false" searchable="false" informationCollector="false" translatable="true" identifier="feature_list" placement="5">
-          <Names eng-GB="Feature list" ger-DE="Funktionen" always-available="{$language}"/>
+          <Names {$language}="{"Feature list"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
           <DatatypeParameters>
             <default-string>teamroom/createteamroom.tpl</default-string>
           </DatatypeParameters>
@@ -859,20 +859,20 @@
       </Attributes>
     </ContentClass>
     <ContentClass isContainer="true" identifier="teamroom_task_list" remoteID="" objectNamePattern="&lt;name&gt;" urlAliasPattern="" classExistAction="extend" referenceID="CLASS_TASKLIST">
-      <Names eng-GB="Teamroom tasks" ger-DE="Teamroom Aufgaben" always-available="{$language}"/>
+      <Names {$language}="{"Teamroom tasks"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
       <Groups>
         <Group name="Teamroom"/> {* If the group does not exist, it will be created automatically *}
       </Groups>
       <Attributes>
         <Attribute datatype="ezstring" required="true" searchable="true" informationCollector="false" translatable="true" identifier="name" placement="1">
-          <Names eng-GB="Name" ger-DE="Name" always-available="{$language}"/>
+          <Names {$language}="{"Name"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
           <DatatypeParameters>
             <max-length>0</max-length>
             <default-string/>
           </DatatypeParameters>
         </Attribute>
         <Attribute datatype="ezxmltext" required="false" searchable="true" informationCollector="false" translatable="true" identifier="description" placement="2">
-          <Names eng-GB="Description" ger-DE="Beschreibung" always-available="{$language}"/>
+          <Names {$language}="{"Description"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
           <DatatypeParameters>
             <text-column-count>10</text-column-count>
           </DatatypeParameters>
@@ -880,26 +880,26 @@
       </Attributes>
     </ContentClass>
     <ContentClass isContainer="true" identifier="teamroom_task" remoteID="" objectNamePattern="&lt;title&gt;" urlAliasPattern="" referenceID="CLASS_TASK" classExistAction="extend">
-        <Names eng-GB="Teamroom task" ger-DE="Teamroom Aufgabe" always-available="{$language}"/>
+        <Names {$language}="{"Teamroom task"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
         <Groups>
             <Group name="Teamroom"/> {* If the group does not exist, it will be created automatically *}
         </Groups>
         <Attributes>
             <Attribute datatype="ezstring" required="true" searchable="true" informationCollector="false" translatable="false" identifier="title" placement="1">
-                <Names eng-GB="Title" ger-DE="Titel" always-available="{$language}"/>
+                <Names {$language}="{"Title"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
                 <DatatypeParameters>
                     <max-length>0</max-length>
                     <default-string/>
                 </DatatypeParameters>
             </Attribute>
             <Attribute datatype="eztext" required="false" searchable="true" informationCollector="false" translatable="false" identifier="description" placement="2">
-                <Names eng-GB="Description" ger-DE="Beschreibung" always-available="{$language}"/>
+                <Names {$language}="{"Description"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
                 <DatatypeParameters>
                     <text-column-count>10</text-column-count>
                 </DatatypeParameters>
             </Attribute>
                 <Attribute datatype="ezinteger" required="true" searchable="true" informationCollector="false" translatable="false" identifier="progress" placement="3">
-                    <Names eng-GB="Progress" ger-DE="Fortschritt" always-available="{$language}"/>
+                    <Names {$language}="{"Progress"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
                     <DatatypeParameters>
                         <default-value>0</default-value>
                         <min-value>0</min-value>
@@ -907,19 +907,19 @@
                     </DatatypeParameters>
             </Attribute>
             <Attribute datatype="ezdatetime" required="false" searchable="true" informationCollector="false" translatable="false" identifier="planned_end_date" placement="4">
-                <Names eng-GB="Planned end date" ger-DE="Geplantes Ende" always-available="{$language}"/>
+                <Names {$language}="{"Planned end date"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
                 <DatatypeParameters>
                     <default-value type="empty" />
                 </DatatypeParameters>
             </Attribute>
             <Attribute datatype="ezdatetime" required="false" searchable="true" informationCollector="false" translatable="false" identifier="end_date" placement="5">
-                <Names eng-GB="End Date" ger-DE="Enddatum" always-available="{$language}"/>
+                <Names {$language}="{"End Date"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
                 <DatatypeParameters>
                     <default-value type="empty" />
                 </DatatypeParameters>
             </Attribute>
             <Attribute datatype="ezinteger" required="false" searchable="true" informationCollector="false" translatable="false" identifier="est_hours" placement="6">
-                <Names eng-GB="Estimated Effort (hours)" ger-DE="Geplanter Aufwand (Stunden)" always-available="{$language}"/>
+                <Names {$language}="{"Estimated Effort (hours)"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
                 <DatatypeParameters>
                     <default-value>0</default-value>
                     <min-value>0</min-value>
@@ -927,7 +927,7 @@
                 </DatatypeParameters>
             </Attribute>
             <Attribute datatype="ezinteger" required="false" searchable="true" informationCollector="false" translatable="false" identifier="est_minutes" placement="7">
-                <Names eng-GB="Estimated Effort (minutes)" ger-DE="Geplanter Aufwand (Minuten)" always-available="{$language}"/>
+                <Names {$language}="{"Estimated Effort (minutes)"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
                 <DatatypeParameters>
                         <default-value>0</default-value>
                         <min-value>0</min-value>
@@ -935,12 +935,12 @@
                 </DatatypeParameters>
             </Attribute>
             <Attribute datatype="ezkeyword" required="false" searchable="true" informationCollector="false" translatable="false" identifier="tags" placement="8">
-                <Names eng-GB="Tags" ger-DE="Tags" always-available="{$language}"/>
+                <Names {$language}="{"Tags"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
                 <DatatypeParameters>
                 </DatatypeParameters>
             </Attribute>
             <Attribute datatype="ezobjectrelationlist" required="false" searchable="true" informationCollector="false" translatable="false" identifier="users" placement="9">
-                <Names eng-GB="Users" ger-DE="Teilnehmer" always-available="{$language}"/>
+                <Names {$language}="{"Users"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
                 <DatatypeParameters>
                     <type>2</type>
                     <selection-type>4</selection-type>
@@ -950,7 +950,7 @@
                 </DatatypeParameters>
             </Attribute>
             <Attribute datatype="ezobjectrelationlist" required="false" searchable="true" informationCollector="false" translatable="false" identifier="documents" placement="10">
-                <Names eng-GB="Related documents" ger-DE="Verknüpfte Dokumente" always-available="{$language}"/>
+                <Names {$language}="{"Related documents"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
                 <DatatypeParameters>
                     <type>2</type>
                     <selection-type>4</selection-type>
@@ -971,7 +971,7 @@
                 </DatatypeParameters>
             </Attribute>
             <Attribute datatype="ezinteger" required="true" searchable="false" informationCollector="false" translatable="false" identifier="priority" placement="11">
-                <Names eng-GB="Priority" ger-DE="Priorität" always-available="{$language}"/>
+                <Names {$language}="{"Priority"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
                 <DatatypeParameters>
                     <default-value>5</default-value>
                     <min-value>1</min-value>
@@ -979,7 +979,7 @@
                 </DatatypeParameters>
             </Attribute>
             <Attribute datatype="ezobjectrelationlist" required="false" searchable="true" informationCollector="false" translatable="true" identifier="milestone" placement="12">
-                <Names eng-GB="Milestone" ger-DE="Meilenstein" always-available="{$language}"/>
+                <Names {$language}="{"Milestone"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
                 <DatatypeParameters>
                     <type>2</type>
                     <selection-type>4</selection-type>
@@ -991,161 +991,161 @@
         </Attributes>
     </ContentClass>
     <ContentClass isContainer="true" identifier="teamroom_file_folder" remoteID="" objectNamePattern="&lt;name&gt;" urlAliasPattern="" classExistAction="extend" referenceID="CLASS_FILEFOLDER">
-      <Names eng-GB="Teamroom file folder" ger-DE="Teamroom Datei-Ordner" always-available="{$language}"/>
+      <Names {$language}="{"Teamroom file folder"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
       <Groups>
         <Group name="Teamroom"/> {* If the group does not exist, it will be created automatically *}
       </Groups>
       <Attributes>
         <Attribute datatype="ezstring" required="true" searchable="true" informationCollector="false" translatable="true" identifier="name" placement="1">
-          <Names eng-GB="Name" ger-DE="Name" always-available="{$language}"/>
+          <Names {$language}="{"Name"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
           <DatatypeParameters>
             <max-length>255</max-length>
-            <default-string>{'Folder'|i18n( 'ezteamroom/install/classes' )}</default-string>
+            <default-string>{'Folder'|i18n( 'ezteamroom/install/classes' )}"</default-string>
           </DatatypeParameters>
         </Attribute>
         <Attribute datatype="ezxmltext" required="false" searchable="true" informationCollector="false" translatable="true" identifier="description" placement="4">
-          <Names eng-GB="Description" ger-DE="Beschreibung" always-available="{$language}"/>
+          <Names {$language}="{"Description"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
           <DatatypeParameters>
             <text-column-count>20</text-column-count>
           </DatatypeParameters>
         </Attribute>
         <Attribute datatype="ezkeyword" required="false" searchable="false" informationCollector="false" translatable="true" identifier="tags" placement="5">
-          <Names eng-GB="Tags" ger-DE="Tags" always-available="{$language}"/>
+          <Names {$language}="{"Tags"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
           <DatatypeParameters>
           </DatatypeParameters>
         </Attribute>
       </Attributes>
     </ContentClass>
     <ContentClass isContainer="true" identifier="teamroom_file_subfolder" remoteID="" objectNamePattern="&lt;name&gt;" urlAliasPattern="" classExistAction="extend" referenceID="CLASS_FILESUBFOLDER">
-      <Names eng-GB="Teamroom file subfolder" ger-DE="Teamroom Datei-Unterordner" always-available="{$language}"/>
+      <Names {$language}="{"Teamroom file subfolder"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
       <Groups>
         <Group name="Teamroom"/> {* If the group does not exist, it will be created automatically *}
       </Groups>
       <Attributes>
         <Attribute datatype="ezstring" required="true" searchable="true" informationCollector="false" translatable="true" identifier="name" placement="1">
-          <Names eng-GB="Name" ger-DE="Name" always-available="{$language}"/>
+          <Names {$language}="{"Name"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
           <DatatypeParameters>
             <max-length>255</max-length>
-            <default-string>{'Subfolder'|i18n( 'ezteamroom/install/classes' )}</default-string>
+            <default-string>{'Subfolder'|i18n( 'ezteamroom/install/classes' )}"</default-string>
           </DatatypeParameters>
         </Attribute>
         <Attribute datatype="ezxmltext" required="false" searchable="true" informationCollector="false" translatable="true" identifier="description" placement="4">
-          <Names eng-GB="Description" ger-DE="Beschreibung" always-available="{$language}"/>
+          <Names {$language}="{"Description"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
           <DatatypeParameters>
             <text-column-count>10</text-column-count>
           </DatatypeParameters>
         </Attribute>
         <Attribute datatype="ezkeyword" required="false" searchable="false" informationCollector="false" translatable="true" identifier="tags" placement="5">
-          <Names eng-GB="Tags" ger-DE="Tags" always-available="{$language}"/>
+          <Names {$language}="{"Tags"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
           <DatatypeParameters>
           </DatatypeParameters>
         </Attribute>
       </Attributes>
     </ContentClass>
     <ContentClass isContainer="true" identifier="teamroom_box_folder" remoteID="" objectNamePattern="&lt;name&gt;" urlAliasPattern="" classExistAction="extend" referenceID="CLASS_BOXFOLDER">
-      <Names eng-GB="Teamroom infobox folder" ger-DE="Teamroom Informationsbox-Ordner" always-available="{$language}"/>
+      <Names {$language}="{"Teamroom infobox folder"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
       <Groups>
         <Group name="Teamroom"/> {* If the group does not exist, it will be created automatically *}
       </Groups>
       <Attributes>
         <Attribute datatype="ezstring" required="true" searchable="true" informationCollector="false" translatable="true" identifier="name" placement="1">
-          <Names eng-GB="Name" ger-DE="Name" always-available="{$language}"/>
+          <Names {$language}="{"Name"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
           <DatatypeParameters>
             <max-length>255</max-length>
-            <default-string>{'Folder'|i18n( 'ezteamroom/install/classes' )}</default-string>
+            <default-string>{'Folder'|i18n( 'ezteamroom/install/classes' )}"</default-string>
           </DatatypeParameters>
         </Attribute>
       </Attributes>
     </ContentClass>
     <ContentClass isContainer="false" identifier="teamroom_milestone" remoteID="" objectNamePattern="&lt;title&gt;" urlAliasPattern="" classExistAction="extend" referenceID="CLASS_MILESTONE">
-        <Names eng-GB="Teamroom milestone" ger-DE="Teamroom Meilenstein" always-available="{$language}"/>
+        <Names {$language}="{"Teamroom milestone"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
         <Groups>
             <Group name="Teamroom"/> {* If the group does not exist, it will be created automatically *}
         </Groups>
         <Attributes>
             <Attribute datatype="ezstring" required="true" searchable="true" informationCollector="false" translatable="false" identifier="title" placement="1">
-                <Names eng-GB="Title" ger-DE="Titel" always-available="{$language}"/>
+                <Names {$language}="{"Title"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
                 <DatatypeParameters>
                     <max-length>0</max-length>
                     <default-string/>
                 </DatatypeParameters>
             </Attribute>
             <Attribute datatype="ezboolean" required="false" searchable="true" informationCollector="false" translatable="false" identifier="closed" placement="2">
-                <Names eng-GB="Closed" ger-DE="Abgeschlossen" always-available="{$language}"/>
+                <Names {$language}="{"Closed"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
                 <DatatypeParameters>
                     <default-value/>
                 </DatatypeParameters>
             </Attribute>
             <Attribute datatype="ezxmltext" required="false" searchable="true" informationCollector="false" translatable="false" identifier="description" placement="3">
-                <Names eng-GB="Description" ger-DE="Beschreibung" always-available="{$language}"/>
+                <Names {$language}="{"Description"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
                 <DatatypeParameters>
                     <text-column-count>10</text-column-count>
                 </DatatypeParameters>
             </Attribute>
             <Attribute datatype="ezdatetime" required="false" searchable="true" informationCollector="false" translatable="false" identifier="date" placement="4">
-                <Names eng-GB="Date" ger-DE="Datum" always-available="{$language}"/>
+                <Names {$language}="{"Date"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
                 <DatatypeParameters>
                     <default-value type="empty" />
                 </DatatypeParameters>
             </Attribute>
             <Attribute datatype="ezkeyword" required="false" searchable="true" informationCollector="false" translatable="true" identifier="tags" placement="5">
-                <Names eng-GB="Tags" ger-DE="Tags" always-available="{$language}"/>
+                <Names {$language}="{"Tags"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
                 <DatatypeParameters>
                 </DatatypeParameters>
             </Attribute>
         </Attributes>
     </ContentClass>
     <ContentClass isContainer="true" identifier="teamroom_milestone_folder" remoteID="" objectNamePattern="&lt;short_name|name&gt;" urlAliasPattern="" classExistAction="extend" referenceID="CLASS_MILESTONEFOLDER">
-      <Names eng-GB="Teamroom milestone folder" ger-DE="Teamroom Meilenstein-Ordner" always-available="{$language}"/>
+      <Names {$language}="{"Teamroom milestone folder"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
       <Groups>
         <Group name="Teamroom"/> {* If the group does not exist, it will be created automatically *}
       </Groups>
       <Attributes>
         <Attribute datatype="ezstring" required="true" searchable="true" informationCollector="false" translatable="true" identifier="name" placement="1">
-          <Names eng-GB="Name" ger-DE="Name" always-available="{$language}"/>
+          <Names {$language}="{"Name"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
           <DatatypeParameters>
             <max-length>255</max-length>
-            <default-string>{'Folder'|i18n( 'ezteamroom/install/classes' )}</default-string>
+            <default-string>{'Folder'|i18n( 'ezteamroom/install/classes' )}"</default-string>
           </DatatypeParameters>
         </Attribute>
         <Attribute datatype="ezstring" required="false" searchable="true" informationCollector="false" translatable="true" identifier="short_name" placement="2">
-          <Names eng-GB="Short name" ger-DE="Kurzer Name" always-available="{$language}"/>
+          <Names {$language}="{"Short name"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
           <DatatypeParameters>
             <max-length>100</max-length>
             <default-string/>
           </DatatypeParameters>
         </Attribute>
         <Attribute datatype="ezxmltext" required="false" searchable="true" informationCollector="false" translatable="true" identifier="short_description" placement="3">
-          <Names eng-GB="Summary" ger-DE="Zusammenfassung" always-available="{$language}"/>
+          <Names {$language}="{"Summary"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
           <DatatypeParameters>
             <text-column-count>5</text-column-count>
           </DatatypeParameters>
         </Attribute>
         <Attribute datatype="ezxmltext" required="false" searchable="true" informationCollector="false" translatable="true" identifier="description" placement="4">
-          <Names eng-GB="Description" ger-DE="Beschreibung" always-available="{$language}"/>
+          <Names {$language}="{"Description"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
           <DatatypeParameters>
             <text-column-count>20</text-column-count>
           </DatatypeParameters>
         </Attribute>
         <Attribute datatype="ezkeyword" required="false" searchable="false" informationCollector="false" translatable="true" identifier="tags" placement="5">
-          <Names eng-GB="Tags" ger-DE="Tags" always-available="{$language}"/>
+          <Names {$language}="{"Tags"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
           <DatatypeParameters>
           </DatatypeParameters>
         </Attribute>
       </Attributes>
     </ContentClass>
     <ContentClass isContainer="false" identifier="teamroom_lightbox" remoteID="" objectNamePattern="&lt;name&gt;" urlAliasPattern="&lt;name&gt;" classExistAction="extend" referenceID="CLASS_LIGHTBOX">
-      <Names eng-GB="Teamroom lightbox" ger-DE="Teamroom Lightbox" always-available="{$language}" />
+      <Names {$language}="{"Teamroom lightbox"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}" />
       <Groups>
         <Group name="Teamroom" /> {* If the group does not exist, it will be created automatically *}
       </Groups>
       <Attributes>
         <Attribute datatype="ezlightboxwrapper" required="false" searchable="false" informationCollector="false" translatable="true" identifier="lightbox" placement="2">
-          <Names eng-GB="Lightbox" ger-DE="Lightbox" always-available="{$language}" />
+          <Names {$language}="{"Lightbox"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}" />
           <DatatypeParameters />
         </Attribute>
         <Attribute datatype="ezselection" required="false" searchable="true" informationCollector="false" translatable="true" identifier="category" placement="3">
-          <Names eng-GB="Category" ger-DE="Kategorie" always-available="{$language}" />
+          <Names {$language}="{"Category"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}" />
           <DatatypeParameters>
             <options>
               <option id="0" name="{'Documents'|i18n( 'ezteamroom/install/classes' )}" />
