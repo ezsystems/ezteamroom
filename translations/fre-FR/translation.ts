@@ -2208,6 +2208,10 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
         <source>Lightbox</source>
         <translation type="unfinished">Lightbox</translation>
     </message>
+    <message>
+        <source>Lock</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>ezteamroom/install/roles</name>

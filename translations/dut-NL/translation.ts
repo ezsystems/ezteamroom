@@ -2200,6 +2200,10 @@ Your request is waiting for approval. To view the status of your request or to a
         <source>Lightbox</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Lock</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>ezteamroom/install/roles</name>

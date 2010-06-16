@@ -192,6 +192,20 @@
             </Attribute>
         </Attributes>
     </ContentClass>
+    <ContentClass isContainer="false" identifier="file" objectNamePattern="&lt;name&gt;" urlAliasPattern="" classExistAction="extend" referenceID="CLASS_FILE">
+        <Names {$language}="{"File"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
+        <Groups>
+         <Group name="Media"/> {* If the group does not exist, it will be created automatically *}
+        </Groups>
+        <Attributes>
+            <Attribute datatype="ezboolean" required="false" searchable="true" informationCollector="false" translatable="true" identifier="lock" placement="6">
+              <Names {$language}="{"Lock"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
+              <DatatypeParameters>
+                <default-value/>
+              </DatatypeParameters>
+            </Attribute>
+        </Attributes>
+    </ContentClass>
     <ContentClass isContainer="false" identifier="windows_media" objectNamePattern="&lt;name&gt;" urlAliasPattern="" classExistAction="extend" referenceID="CLASS_WINDOWSMEDIA">
         <Names {$language}="{"Windows media"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
         <Groups>

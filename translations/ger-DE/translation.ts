@@ -2208,6 +2208,10 @@ Sie sollten diese Person kontaktieren oder einen neuen eigenen Entwurf anlegen.<
         <source>Lightbox</source>
         <translation>Lightbox</translation>
     </message>
+    <message>
+        <source>Lock</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>ezteamroom/install/roles</name>

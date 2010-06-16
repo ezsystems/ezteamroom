@@ -2200,6 +2200,10 @@ change your settings at:</source>
         <source>Lightbox</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Lock</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>ezteamroom/install/roles</name>

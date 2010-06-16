@@ -2203,6 +2203,10 @@ Felveheti a kapcsolatot vele az egyik piszkoztata szerkesztése miatt vagy létr
         <source>Lightbox</source>
         <translation type="unfinished">Gyűjtődoboz</translation>
     </message>
+    <message>
+        <source>Lock</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>ezteamroom/install/roles</name>
