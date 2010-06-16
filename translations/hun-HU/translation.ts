@@ -1,2377 +1,100 @@
-<!DOCTYPE TS><TS>
-<context>
-    <name>design/admin/collaboration/view/element/ezapprove_comment</name>
-    <message>
-        <source>Posted: %1</source>
-        <translation type="obsolete">Elküldött: %1</translation>
-    </message>
-</context>
-<context>
-    <name>design/admin/node/view/full</name>
-    <message>
-        <source>Show %1 items per page.</source>
-        <translation type="obsolete">Mutass %1 elemet oldalanként!</translation>
-    </message>
-    <message>
-        <source>Registered at</source>
-        <translation type="obsolete">Bejelentkezett</translation>
-    </message>
-    <message>
-        <source>Created at</source>
-        <translation type="obsolete">Létrehozott</translation>
-    </message>
-</context>
-<context>
-    <name>design/admin/notification/handler/ezsubtree/settings/edit</name>
-    <message>
-        <source>You have not subscribed to receive notifications about any items.</source>
-        <translation type="obsolete">Önnek nincs előjegyzése figyelmeztetést kapni egyik elemről sem.</translation>
-    </message>
-</context>
-<context>
-    <name>design/base</name>
-    <message>
-        <source>The following words were excluded from the search</source>
-        <translation type="obsolete">A következő szavakat nem tartalmazza a keresés.</translation>
-    </message>
-    <message>
-        <source>Edit %1 - %2</source>
-        <translation type="obsolete">%1 - %2 szerkesztése</translation>
-    </message>
-    <message>
-        <source>Send for publishing</source>
-        <translation type="obsolete">Jóváhagy</translation>
-    </message>
-    <message>
-        <source>Discard</source>
-        <translation type="obsolete">Visszavon</translation>
-    </message>
-    <message>
-        <source>Subject</source>
-        <translation type="obsolete">Tárgy</translation>
-    </message>
-    <message>
-        <source>Message</source>
-        <translation type="obsolete">Üzenet</translation>
-    </message>
-    <message>
-        <source>Notify me about updates</source>
-        <translation type="obsolete">Figyelmeztess a feltöltésekre</translation>
-    </message>
-    <message>
-        <source>Sticky</source>
-        <translation type="obsolete">Cédula</translation>
-    </message>
-    <message>
-        <source>Tip a friend</source>
-        <translation type="obsolete">Ajánl egy ismerősnek</translation>
-    </message>
-    <message>
-        <source>Download PDF</source>
-        <translation type="obsolete">PDF letöltés</translation>
-    </message>
-    <message>
-        <source>Download PDF version of this page</source>
-        <translation type="obsolete">Az oldal PDF változata</translation>
-    </message>
-    <message>
-        <source>Comments</source>
-        <translation type="obsolete">Megjegyzés</translation>
-    </message>
-    <message>
-        <source>New Comment</source>
-        <translation type="obsolete">Új megjegyzés</translation>
-    </message>
-    <message>
-        <source>You are not allowed to create comments.</source>
-        <translation type="obsolete">Önnek nincs engedélye új megjegyzés létrehozására.</translation>
-    </message>
-    <message>
-        <source>Previous image</source>
-        <translation type="obsolete">Előző kép</translation>
-    </message>
-    <message>
-        <source>Next image</source>
-        <translation type="obsolete">Következő kép</translation>
-    </message>
-</context>
-<context>
-    <name>design/ezpersonalfrontpage/full</name>
-    <message>
-        <source>Insert into column:</source>
-        <translation type="obsolete">Oszlopba illesztés:</translation>
-    </message>
-    <message>
-        <source>Add widget:</source>
-        <translation type="obsolete">Bigyó hozzáadása</translation>
-    </message>
-    <message>
-        <source>Add new widget</source>
-        <translation type="obsolete">Új bigyó hozzáadása</translation>
-    </message>
-    <message>
-        <source>Debug</source>
-        <translation type="obsolete">Hibakeresés</translation>
-    </message>
-    <message>
-        <source>Reload</source>
-        <translation type="obsolete">Újratölt</translation>
-    </message>
-    <message>
-        <source>You have to enable JavaScript in your web browser.</source>
-        <translation type="obsolete">Önnek be kell kapcsolnia a JavaScriptet a böngészőjében.</translation>
-    </message>
-    <message>
-        <source>Home</source>
-        <translation type="obsolete">Főlap</translation>
-    </message>
-    <message>
-        <source>Add to bookmarks</source>
-        <translation type="obsolete">Könyvjelző</translation>
-    </message>
-</context>
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.0">
 <context>
     <name>design/ezteamroom</name>
     <message>
         <source>Lightbox</source>
-        <translation type="obsolete">Gyűjtődoboz</translation>
+        <translation type="unfinished">Gyűjtődoboz</translation>
     </message>
     <message>
         <source>Add this file to the current lightbox.</source>
-        <translation type="obsolete">Tedd a fájlt az alapértelmezett gyűjtődobozba!</translation>
-    </message>
-    <message>
-        <source>Add this image to the current lightbox.</source>
-        <translation type="obsolete">Tedd a képet az alapértelmezett gyűjtődobozba!</translation>
-    </message>
-    <message>
-        <source>Edit description</source>
-        <translation type="obsolete">Leírás szerkesztése</translation>
-    </message>
-    <message>
-        <source>No Tags</source>
-        <translation type="obsolete">Nincsenek &quot;tag&quot;-ek</translation>
-    </message>
-    <message>
-        <source>Tags</source>
-        <translation type="obsolete">&quot;Tag&quot;-ek</translation>
-    </message>
-    <message>
-        <source>Content Object has been deleted.</source>
-        <translation type="obsolete">Tartalomobjektum törölve</translation>
-    </message>
-    <message>
-        <source>Skip to main content</source>
-        <translation type="obsolete">A főtartalom kihagyása</translation>
-    </message>
-    <message>
-        <source>List of all teamrooms</source>
-        <translation type="obsolete">Az összes gyűjtődoboz listája</translation>
-    </message>
-    <message>
-        <source>My teamrooms</source>
-        <translation type="obsolete">Csoportszobáim</translation>
-    </message>
-    <message>
-        <source>You are not assigned to any teamroom.</source>
-        <translation type="obsolete">Ön nem jelentkezett egyik csoportszobába sem.</translation>
+        <translation type="unfinished">Tedd a fájlt az alapértelmezett gyűjtődobozba!</translation>
     </message>
 </context>
 <context>
-    <name>design/ezteamroom/bookmark</name>
+    <name>design/ezwebin/content/datatype</name>
     <message>
-        <source>My bookmarks</source>
-        <translation type="obsolete">Könyvjelzőim</translation>
+        <source>Year</source>
+        <translation type="unfinished"></translation>
     </message>
-</context>
-<context>
-    <name>design/ezteamroom/content/advancedsearch</name>
     <message>
-        <source>Advanced search</source>
-        <translation type="obsolete">Összetett keresés</translation>
+        <source>Month</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>No results were found when searching for &quot;%1&quot;</source>
-        <translation type="obsolete">&quot;%1&quot; keresése nem vezetett eredményre.</translation>
+        <source>Day</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Search for &quot;%1&quot; returned %2 matches</source>
-        <translation type="obsolete">&quot;%1&quot; keresése %2 találatot adott.</translation>
+        <source>Hour</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Search all the words</source>
-        <translation type="obsolete">Keresés minden szóra</translation>
-    </message>
-    <message>
-        <source>Search the exact phrase</source>
-        <translation type="obsolete">Keresés minden pontos kifejezésre</translation>
-    </message>
-    <message>
-        <source>Published</source>
-        <translation type="obsolete">Jóváhagyott</translation>
-    </message>
-    <message>
-        <source>Any time</source>
-        <translation type="obsolete">Bármikor</translation>
-    </message>
-    <message>
-        <source>Last day</source>
-        <translation type="obsolete">Utolsó nap</translation>
-    </message>
-    <message>
-        <source>Last week</source>
-        <translation type="obsolete">Utolsó hét</translation>
-    </message>
-    <message>
-        <source>Last month</source>
-        <translation type="obsolete">Utolsó hónap</translation>
-    </message>
-    <message>
-        <source>Last three months</source>
-        <translation type="obsolete">Utolsó három hónap</translation>
-    </message>
-    <message>
-        <source>Last year</source>
-        <translation type="obsolete">Utóbbi év</translation>
-    </message>
-    <message>
-        <source>Display per page</source>
-        <translation type="obsolete">Megjelenítés oldalanként</translation>
-    </message>
-    <message>
-        <source>5 items</source>
-        <translation type="obsolete">5 elem</translation>
-    </message>
-    <message>
-        <source>10 items</source>
-        <translation type="obsolete">10 elem</translation>
-    </message>
-    <message>
-        <source>20 items</source>
-        <translation type="obsolete">20 elem</translation>
-    </message>
-    <message>
-        <source>30 items</source>
-        <translation type="obsolete">30 elem</translation>
-    </message>
-    <message>
-        <source>50 items</source>
-        <translation type="obsolete">50 elem</translation>
-    </message>
-    <message>
-        <source>Search</source>
-        <translation type="obsolete">Keresés</translation>
-    </message>
-</context>
-<context>
-    <name>design/ezteamroom/content/browse</name>
-    <message>
-        <source>Browse</source>
-        <translation type="obsolete">Keresés</translation>
-    </message>
-    <message>
-        <source>To select objects, choose the appropriate radiobutton or checkbox(es), and click the &quot;Select&quot; button.</source>
-        <translation type="obsolete">Az elemválasztáshoz jelölje meg a megfelelő rádiógombot vagy jelölőnégyzetet és kattintson a Választ gombra.</translation>
-    </message>
-    <message>
-        <source>To select an object that is a child of one of the displayed objects, click the parent object name to display a list of its children.</source>
-        <translation type="obsolete">Egy megjelenített objektum gyermekének kiválasztásához kattintson a szülő objektum nevére, hogy megjelenjen a gyermekek listája.</translation>
-    </message>
-    <message>
-        <source>Back</source>
-        <translation type="obsolete">Vissza</translation>
-    </message>
-    <message>
-        <source>Top level</source>
-        <translation type="obsolete">Felső szint</translation>
-    </message>
-    <message>
-        <source>Select</source>
-        <translation type="obsolete">Választ</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation type="obsolete">Mégsem</translation>
-    </message>
-</context>
-<context>
-    <name>design/ezteamroom/content/browse_mode_list</name>
-    <message>
-        <source>Invert selection</source>
-        <translation type="obsolete">Kijelölés megfordítása</translation>
-    </message>
-    <message>
-        <source>Name</source>
-        <translation type="obsolete">Név</translation>
-    </message>
-    <message>
-        <source>Type</source>
-        <translation type="obsolete">Típus</translation>
-    </message>
-</context>
-<context>
-    <name>design/ezteamroom/content/edit</name>
-    <message>
-        <source>Edit %1 - %2</source>
-        <translation type="obsolete">%1 - %2 szerkesztése</translation>
-    </message>
-    <message>
-        <source>Create new file</source>
-        <translation type="obsolete">Új fájl létrehozása</translation>
-    </message>
-    <message>
-        <source>Store File</source>
-        <translation type="obsolete">Mentés</translation>
-    </message>
-    <message>
-        <source>Create File</source>
-        <translation type="obsolete">Létrehoz</translation>
-    </message>
-    <message>
-        <source>Store draft</source>
-        <translation type="obsolete">Piszkozat mentése</translation>
-    </message>
-    <message>
-        <source>Discard draft</source>
-        <translation type="obsolete">Piszkozat elvetése</translation>
-    </message>
-    <message>
-        <source>Translating content from %from_lang to %to_lang</source>
-        <translation type="obsolete">Tartalom fordítása %from_lang nyelvről %to_lang nyelvre.</translation>
-    </message>
-    <message>
-        <source>Content in %language</source>
-        <translation type="obsolete">%language tartalom </translation>
-    </message>
-    <message>
-        <source>Send for publishing</source>
-        <translation type="obsolete">Jóváhagy</translation>
-    </message>
-    <message>
-        <source>Create new teamroom</source>
-        <translation type="obsolete">Új csoportszoba létrehozása</translation>
-    </message>
-    <message>
-        <source>Store Teamroom</source>
-        <translation type="obsolete">Mentés</translation>
-    </message>
-    <message>
-        <source>Create Teamroom</source>
-        <translation type="obsolete">Létrehoz</translation>
-    </message>
-    <message>
-        <source>Store lightbox</source>
-        <translation type="obsolete">Mentés</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation type="obsolete">Mégsem</translation>
-    </message>
-</context>
-<context>
-    <name>design/ezteamroom/content/edit_draft</name>
-    <message>
-        <source>The currently published version is %version and was published at %time.</source>
-        <translation type="obsolete">A jelenleg jóváhagyott változat: %version , közzétéve: %time.</translation>
-    </message>
-    <message>
-        <source>The last modification was done at %modified.</source>
-        <translation type="obsolete">Az utolsó módosítás befejezve: %modified.</translation>
-    </message>
-    <message>
-        <source>The object is owned by %owner.</source>
-        <translation type="obsolete">Az objektum tulajdonosa: %owner.</translation>
-    </message>
-    <message>
-        <source>This object is already being edited by yourself and others.
-            You can either continue editing one of your drafts or you can create a new draft.</source>
-        <translation type="obsolete">Az obejktumot már szerkesztette Ön és mások.(new line)
-Folytathatja az egyik piszkoztata szerkesztését vagy létrehozhat egy újat.</translation>
-    </message>
-    <message>
-        <source>This object is already being edited by you.
-                You can either continue editing one of your drafts or you can create a new draft.</source>
-        <translation type="obsolete">Az obejktumot már szerkesztette Ön. (new line)
-Folytathatja az egyik piszkoztata szerkesztését vagy létrehozhat egy újat.</translation>
-    </message>
-    <message>
-        <source>This object is already being edited by someone else.
-                You should either contact the person about their draft or create a new draft for your own use.</source>
-        <translation type="obsolete">Az obejktumot már szerkesztette valaki más.(new line)
-Felveheti a kapcsolatot vele az egyik piszkoztata szerkesztése miatt vagy létrehozhat egy újat saját használatra.</translation>
-    </message>
-    <message>
-        <source>Current drafts</source>
-        <translation type="obsolete">Jelenlegi piszkozat</translation>
-    </message>
-    <message>
-        <source>Version</source>
-        <translation type="obsolete">Változat</translation>
-    </message>
-    <message>
-        <source>Name</source>
-        <translation type="obsolete">Név</translation>
-    </message>
-    <message>
-        <source>Owner</source>
-        <translation type="obsolete">Tulajdonos</translation>
-    </message>
-    <message>
-        <source>Created</source>
-        <translation type="obsolete">Létrehozott</translation>
-    </message>
-    <message>
-        <source>Last modified</source>
-        <translation type="obsolete">Utolsó módosítás</translation>
-    </message>
-    <message>
-        <source>Edit</source>
-        <translation type="obsolete">Szerkeszt</translation>
-    </message>
-    <message>
-        <source>New draft</source>
-        <translation type="obsolete">Új piszkozat</translation>
-    </message>
-</context>
-<context>
-    <name>design/ezteamroom/content/search</name>
-    <message>
-        <source>Search</source>
-        <translation type="obsolete">Keresés</translation>
-    </message>
-    <message>
-        <source>No results were found when searching for &quot;%1&quot;.</source>
-        <translation type="obsolete">&quot;%1&quot; keresése nem vezetett eredményre.</translation>
-    </message>
-    <message>
-        <source>Search tips</source>
-        <translation type="obsolete">Keresési ötletek</translation>
-    </message>
-    <message>
-        <source>Check spelling of keywords.</source>
-        <translation type="obsolete">Kulcsszavak ellenőrzése</translation>
-    </message>
-    <message>
-        <source>Try changing some keywords (eg, &quot;car&quot; instead of &quot;cars&quot;).</source>
-        <translation type="obsolete">Változtasson néhány kulcszón (pl. kocsik helyett kocsi).</translation>
-    </message>
-    <message>
-        <source>Try searching with less specific keywords.</source>
-        <translation type="obsolete">Keressen kevésbé egyedi kulcsszavakkal.</translation>
-    </message>
-    <message>
-        <source>Reduce number of keywords to get more results.</source>
-        <translation type="obsolete">A kulcsszavak számának csökkentése több találatot ad.</translation>
-    </message>
-    <message>
-        <source>Search for &quot;%1&quot; returned %2 matches</source>
-        <translation type="obsolete">&quot;%1&quot; keresése %2 találatot adott.</translation>
-    </message>
-    <message>
-        <source>For more options try the %1Advanced search%2</source>
-        <comment>The parameters are link start and end tags.</comment>
-        <translation type="obsolete">További lehetőségek az %1Összetett keresőben%2</translation>
-    </message>
-</context>
-<context>
-    <name>design/ezteamroom/content/view/line/image</name>
-    <message>
-        <source>No image available</source>
-        <translation type="obsolete">Nincs kép.</translation>
-    </message>
-</context>
-<context>
-    <name>design/ezteamroom/content/view/line/xmpimage</name>
-    <message>
-        <source>No image available</source>
-        <translation type="obsolete">Nincs kép.</translation>
-    </message>
-    <message>
-        <source>Use this button to delete the asset from this lightbox</source>
-        <translation type="obsolete">Itt törölheti az elemet ebből a gyűjtődobozból.</translation>
-    </message>
-    <message>
-        <source>Remove</source>
-        <translation type="obsolete">Töröl</translation>
-    </message>
-    <message>
-        <source>Move</source>
-        <translation type="obsolete">Mozgat</translation>
-    </message>
-    <message>
-        <source>Use this button to move the asset from this lightbox to the selected one</source>
-        <translation type="obsolete">Itt mozgathatja az elemet ebből a gyűjtődobozból egy másikba.</translation>
-    </message>
-</context>
-<context>
-    <name>design/ezteamroom/content/view/line/xmproduct</name>
-    <message>
-        <source>No cover available</source>
-        <translation type="obsolete">Nincs fedél.</translation>
-    </message>
-</context>
-<context>
-    <name>design/ezteamroom/edit/comment</name>
-    <message>
-        <source>Edit %1 - %2</source>
-        <translation type="obsolete">%1 - %2 szerkesztése</translation>
-    </message>
-    <message>
-        <source>Send for publishing</source>
-        <translation type="obsolete">Jóváhagy</translation>
-    </message>
-    <message>
-        <source>Discard</source>
-        <translation type="obsolete">Visszavon</translation>
-    </message>
-</context>
-<context>
-    <name>design/ezteamroom/full/article</name>
-    <message>
-        <source>Edit</source>
-        <translation type="obsolete">Szerkeszt</translation>
-    </message>
-    <message>
-        <source>New comment</source>
-        <translation type="obsolete">Új megjegyzés</translation>
-    </message>
-</context>
-<context>
-    <name>design/ezteamroom/full/blog_post</name>
-    <message>
-        <source>No Comments</source>
-        <translation type="obsolete">Nincs megjegyzés</translation>
-    </message>
-    <message>
-        <source>Comments</source>
-        <translation type="obsolete">Megjegyzés</translation>
-    </message>
-</context>
-<context>
-    <name>design/ezteamroom/full/calendar</name>
-    <message>
-        <source>Event this month</source>
-        <translation type="obsolete">Esemény ebben a hónapban</translation>
-    </message>
-    <message>
-        <source>Today&apos;s events</source>
-        <translation type="obsolete">Mai esemény</translation>
-    </message>
-    <message>
-        <source>Events on</source>
-        <translation type="obsolete">Esemény ekkor</translation>
-    </message>
-    <message>
-        <source>Events in</source>
-        <translation type="obsolete">Esemény itt</translation>
-    </message>
-    <message>
-        <source>No events found</source>
-        <translation type="obsolete">Nincs esemény.</translation>
-    </message>
-</context>
-<context>
-    <name>design/ezteamroom/full/documentation_page</name>
-    <message>
-        <source>Table of contents</source>
-        <translation type="obsolete">Tartalmak táblázata</translation>
-    </message>
-</context>
-<context>
-    <name>design/ezteamroom/full/event</name>
-    <message>
-        <source>Category</source>
-        <translation type="obsolete">Kategória</translation>
-    </message>
-</context>
-<context>
-    <name>design/ezteamroom/full/event_view_calendar</name>
-    <message>
-        <source>Mon</source>
-        <translation type="obsolete">H</translation>
-    </message>
-    <message>
-        <source>Tue</source>
-        <translation type="obsolete">K</translation>
-    </message>
-    <message>
-        <source>Wed</source>
-        <translation type="obsolete">Sze</translation>
-    </message>
-    <message>
-        <source>Thu</source>
-        <translation type="obsolete">Cs</translation>
-    </message>
-    <message>
-        <source>Fri</source>
-        <translation type="obsolete">P</translation>
-    </message>
-    <message>
-        <source>Sat</source>
-        <translation type="obsolete">Szo</translation>
-    </message>
-    <message>
-        <source>Sun</source>
-        <translation type="obsolete">V</translation>
-    </message>
-    <message>
-        <source>Today</source>
-        <translation type="obsolete">Ma</translation>
-    </message>
-    <message>
-        <source>Category</source>
-        <translation type="obsolete">Kategória</translation>
-    </message>
-    <message>
-        <source>Next days</source>
-        <translation type="obsolete">Holnap</translation>
-    </message>
-</context>
-<context>
-    <name>design/ezteamroom/full/event_view_program</name>
-    <message>
-        <source>Past events</source>
-        <translation type="obsolete">Múltbeli események</translation>
-    </message>
-    <message>
-        <source>Future events</source>
-        <translation type="obsolete">Jövőbeli események</translation>
-    </message>
-</context>
-<context>
-    <name>design/ezteamroom/full/forum</name>
-    <message>
-        <source>New Reply</source>
-        <translation type="obsolete">Új válasz</translation>
-    </message>
-    <message>
-        <source>Keep me updated</source>
-        <translation type="obsolete">Frissítés</translation>
-    </message>
-    <message>
-        <source>New Task</source>
-        <translation type="obsolete">Új feladat</translation>
-    </message>
-    <message>
-        <source>Topic</source>
-        <translation type="obsolete">Téma</translation>
-    </message>
-    <message>
-        <source>Author</source>
-        <translation type="obsolete">Szerző</translation>
-    </message>
-    <message>
-        <source>Replies</source>
-        <translation type="obsolete">Válaszok</translation>
-    </message>
-    <message>
-        <source>Last reply</source>
-        <translation type="obsolete">Utolsó válasz</translation>
-    </message>
-    <message>
-        <source>Pages</source>
-        <translation type="obsolete">Oldalak</translation>
-    </message>
-    <message>
-        <source>New Milestone</source>
-        <translation type="obsolete">Új mérföldkő</translation>
-    </message>
-    <message>
-        <source>Set progress to %1%.</source>
-        <translation type="obsolete">Haladás beállítása %1%-ra.</translation>
-    </message>
-    <message>
-        <source>Remove</source>
-        <translation type="obsolete">Töröl</translation>
-    </message>
-    <message>
-        <source>New Teamroom</source>
-        <translation type="obsolete">Új csoportszoba</translation>
-    </message>
-</context>
-<context>
-    <name>design/ezteamroom/full/forum_reply</name>
-    <message>
-        <source>Message preview</source>
-        <translation type="obsolete">Üzenet előnézete</translation>
-    </message>
-    <message>
-        <source>Author</source>
-        <translation type="obsolete">Szerző</translation>
-    </message>
-    <message>
-        <source>Topic</source>
-        <translation type="obsolete">Téma</translation>
-    </message>
-    <message>
-        <source>Location</source>
-        <translation type="obsolete">Hely</translation>
-    </message>
-    <message>
-        <source>Moderated by</source>
-        <translation type="obsolete">Moderálja</translation>
-    </message>
-    <message>
-        <source>Edit</source>
-        <translation type="obsolete">Szerkeszt</translation>
-    </message>
-</context>
-<context>
-    <name>design/ezteamroom/full/forum_topic</name>
-    <message>
-        <source>Remove</source>
-        <translation type="obsolete">Töröl</translation>
-    </message>
-    <message>
-        <source>Remove this item.</source>
-        <translation type="obsolete">Az elem törlése.</translation>
-    </message>
-    <message>
-        <source>Edit</source>
-        <translation type="obsolete">Szerkeszt</translation>
-    </message>
-    <message>
-        <source>Moderated by</source>
-        <translation type="obsolete">Moderálja</translation>
-    </message>
-    <message>
-        <source>Jump to top</source>
-        <translation type="obsolete">Ugrás fel</translation>
-    </message>
-    <message>
-        <source>Previous topic</source>
-        <translation type="obsolete">Előző téma</translation>
-    </message>
-    <message>
-        <source>Next topic</source>
-        <translation type="obsolete">Következő téma</translation>
-    </message>
-</context>
-<context>
-    <name>design/ezteamroom/lightbox-head</name>
-    <message>
-        <source>Lightbox</source>
-        <translation type="obsolete">Gyűjtődoboz</translation>
-    </message>
-    <message>
-        <source>No Lightbox</source>
-        <translation type="obsolete">Nincs gyűjtődoboz</translation>
-    </message>
-    <message>
-        <source>close</source>
-        <translation type="obsolete">Bezár</translation>
-    </message>
-    <message>
-        <source>Current Lightbox</source>
-        <translation type="obsolete">Alapértelmezett gyűjtődoboz</translation>
-    </message>
-    <message>
-        <source>Edit</source>
-        <translation type="obsolete">Szerkeszt</translation>
-    </message>
-    <message>
-        <source>Use this button to edit the current lightbox.</source>
-        <translation type="obsolete">Itt szerkesztheti az alapértelmezett gyűjtődobozt.</translation>
-    </message>
-    <message>
-        <source>Delete</source>
-        <translation type="obsolete">Töröl</translation>
-    </message>
-    <message>
-        <source>Use this button to delete the current lightbox.</source>
-        <translation type="obsolete">Itt törölheti a jelenlegi gyűjtődobozt.</translation>
-    </message>
-    <message>
-        <source>You are not allowed to edit the current lightbox.</source>
-        <translation type="obsolete">Nincs engedélye az alapértelmezett gyűjtődoboz szerkesztésére.</translation>
-    </message>
-    <message>
-        <source>You are not allowed to delete the current lightbox.</source>
-        <translation type="obsolete">Nincs engedélye az alapértelmezett gyűjtődoboz törlésére.</translation>
-    </message>
-    <message>
-        <source>Send</source>
-        <translation type="obsolete">Küld</translation>
-    </message>
-    <message>
-        <source>Use this button to send the current lightbox by email.</source>
-        <translation type="obsolete">Itt küldheti el az alapértelmezett gyűjtődobozt e-mailben.</translation>
-    </message>
-    <message>
-        <source>You are not allowed to send the current lightbox by email.</source>
-        <translation type="obsolete">Nincs engedélye az alapértelmezett gyűjtődoboz elküldésére e-mailben.</translation>
-    </message>
-    <message>
-        <source>Show</source>
-        <translation type="obsolete">Megmutat</translation>
-    </message>
-    <message>
-        <source>Use this button to show the contents of the current lightbox.</source>
-        <translation type="obsolete">Itt tekintheti meg az alapértelmezett gyűjtődoboz tartalmát.</translation>
-    </message>
-    <message>
-        <source>You are not allowed to view the contents of the current lightbox.</source>
-        <translation type="obsolete">Nincs engedélye az alapértelmezett gyűjtődoboz megtekintésére.</translation>
-    </message>
-    <message>
-        <source>Currently no lightbox can be edited</source>
-        <translation type="obsolete">Nincs szerkeszthető gyűjtődoboz.</translation>
-    </message>
-    <message>
-        <source>Currently no lightbox can be deleted.</source>
-        <translation type="obsolete">Nincs törölhető gyűjtődoboz.</translation>
-    </message>
-    <message>
-        <source>Currently no lightbox can be send by email.</source>
-        <translation type="obsolete">Nincs e-mailben elküldhető gyűjtődoboz.</translation>
-    </message>
-    <message>
-        <source>Currently no lightbox can be shown.</source>
-        <translation type="obsolete">Nincs megtekinthető gyűjtődoboz.</translation>
-    </message>
-    <message>
-        <source>Change current Lightbox</source>
-        <translation type="obsolete">Válasszon alapértelmezett gyűjtődobozt!</translation>
-    </message>
-    <message>
-        <source>Choose current lightbox</source>
-        <translation type="obsolete">Válasszon alapértelmezett gyűjtődobozt!</translation>
-    </message>
-    <message>
-        <source>None</source>
-        <translation type="obsolete">Nincs</translation>
-    </message>
-    <message>
-        <source>Create</source>
-        <translation type="obsolete">Létrehoz</translation>
-    </message>
-    <message>
-        <source>Use this button to create a new lightbox.</source>
-        <translation type="obsolete">Itt hozhat létre új gyűjtődobozt.</translation>
-    </message>
-    <message>
-        <source>You are not allowed to create a new lightbox.</source>
-        <translation type="obsolete">Nincs engedélye új gyűjtődoboz létrehozásához.</translation>
-    </message>
-    <message>
-        <source>Add this page to current Lightbox</source>
-        <translation type="obsolete">Tedd az oldalt az alapértelmezett gyűjtődobozba!</translation>
-    </message>
-</context>
-<context>
-    <name>design/ezteamroom/lightbox/create</name>
-    <message>
-        <source>Go back</source>
-        <translation type="obsolete">Vissza</translation>
-    </message>
-    <message>
-        <source>Use this button to go back to the last page.</source>
-        <translation type="obsolete">Itt mehet vissza a legutóbbi oldalra.</translation>
-    </message>
-    <message>
-        <source>Name</source>
-        <translation type="obsolete">Név</translation>
-    </message>
-    <message>
-        <source>Use the newly created lightbox as the current lightbox.</source>
-        <translation type="obsolete">Az új gyűjtődoboz legyen az alapértelmezett.</translation>
-    </message>
-    <message>
-        <source>Create new</source>
-        <translation type="obsolete">Újat létrehoz</translation>
-    </message>
-    <message>
-        <source>Use this button to go back.</source>
-        <translation type="obsolete">Itt mehet vissza.</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation type="obsolete">Mégsem</translation>
-    </message>
-    <message>
-        <source>Send lightbox</source>
-        <translation type="obsolete">Gyűjtődoboz küldése</translation>
-    </message>
-    <message>
-        <source>Find user</source>
-        <translation type="obsolete">Felhasználó keresés</translation>
-    </message>
-    <message>
-        <source>Continue</source>
-        <translation type="obsolete">Folytat</translation>
-    </message>
-</context>
-<context>
-    <name>design/ezteamroom/lightbox/edit</name>
-    <message>
-        <source>My Lightboxes</source>
-        <translation type="obsolete">Gyűjtődobozaim</translation>
-    </message>
-    <message>
-        <source>You do not have any lightbox yet.</source>
-        <translation type="obsolete">Önnek nincs még gyűjtődoboza.</translation>
-    </message>
-    <message>
-        <source>Assets</source>
-        <translation type="obsolete">elemek</translation>
-    </message>
-    <message>
-        <source>No assets in this lightbox</source>
-        <translation type="obsolete">Nincs elem a gyűjtődobozban.</translation>
-    </message>
-    <message>
-        <source>Edit lightbox &quot;%1&quot;</source>
-        <translation type="obsolete">&quot;%1&quot; gyűjtődoboz törlése</translation>
-    </message>
-    <message>
-        <source>Name</source>
-        <translation type="obsolete">Név</translation>
-    </message>
-    <message>
-        <source>Lightbox users</source>
-        <translation type="obsolete">Gyűjtődoboz felhasználói</translation>
-    </message>
-    <message>
-        <source>Granted</source>
-        <translation type="obsolete">Megosztott</translation>
-    </message>
-    <message>
-        <source>Rights</source>
-        <translation type="obsolete">Jogok</translation>
-    </message>
-    <message>
-        <source>Delete users</source>
-        <translation type="obsolete">Felhasználótörlés</translation>
-    </message>
-    <message>
-        <source>Use this button to delete the selected users from the list of user that are allowed to access your lightbox</source>
-        <translation type="obsolete">Itt törlöheti a gyjtődobozához hozzáférők közül a kijelölt felhasználókat.</translation>
-    </message>
-    <message>
-        <source>Currently no users are allowed to access this lightbox.</source>
-        <translation type="obsolete">Jelenleg nincs felhatalmazva felhasználó a gyűjtődobozhoz hozzáférésre.</translation>
-    </message>
-    <message>
-        <source>Store changes</source>
-        <translation type="obsolete">Mentés</translation>
-    </message>
-    <message>
-        <source>Use this button to save the changes in the lightbox name and user rights</source>
-        <translation type="obsolete">Itt mentheti a gyűjtődoboz nevében és felhasználói jogokban történt változásokat.</translation>
-    </message>
-    <message>
-        <source>Delete lightbox</source>
-        <translation type="obsolete">Gyűjtődoboz törlése</translation>
-    </message>
-    <message>
-        <source>Use this button to delete this lightbox</source>
-        <translation type="obsolete">Itt törölheti ezt a gyűjtődobozt.</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation type="obsolete">Mégsem</translation>
-    </message>
-    <message>
-        <source>Use this button to cancel all changes.</source>
-        <translation type="obsolete">Itt törölheti a változtatásokat.</translation>
-    </message>
-    <message>
-        <source>Go back</source>
-        <translation type="obsolete">Vissza</translation>
-    </message>
-    <message>
-        <source>Use this button to go back.</source>
-        <translation type="obsolete">Itt mehet vissza.</translation>
-    </message>
-    <message>
-        <source>No lightbox selected</source>
-        <translation type="obsolete">Nincs kiválasztott gyűjtődoboz.</translation>
-    </message>
-</context>
-<context>
-    <name>design/ezteamroom/lightbox/send</name>
-    <message>
-        <source>Send lightbox &quot;%1&quot; to %2</source>
-        <translation type="obsolete">&quot;%1&quot; gyűjtődoboz küldése %2 gyűjtődobozba</translation>
-    </message>
-    <message>
-        <source>Send lightbox &quot;%1&quot;</source>
-        <translation type="obsolete">&quot;%1&quot; gyűjtődoboz küldése</translation>
-    </message>
-    <message>
-        <source>Receiver</source>
-        <translation type="obsolete">Címzett</translation>
-    </message>
-    <message>
-        <source>Subject</source>
-        <translation type="obsolete">Tárgy</translation>
-    </message>
-    <message>
-        <source>Body</source>
-        <translation type="obsolete">Törzs</translation>
-    </message>
-    <message>
-        <source>Access</source>
-        <translation type="obsolete">Kapcsolat</translation>
-    </message>
-</context>
-<context>
-    <name>design/ezteamroom/lightbox/view</name>
-    <message>
-        <source>Create new lightbox</source>
-        <translation type="obsolete">Új gyűjtődoboz létrehozása</translation>
-    </message>
-    <message>
-        <source>Lightbox &quot;%1&quot;</source>
-        <translation type="obsolete">&quot;%1&quot; gyűjtődoboz</translation>
-    </message>
-</context>
-<context>
-    <name>design/ezteamroom/lightbox/views</name>
-    <message>
-        <source>Lightbox &quot;%1&quot;</source>
-        <translation type="obsolete">&quot;%1&quot; gyűjtődoboz</translation>
-    </message>
-    <message>
-        <source>Owner</source>
-        <translation type="obsolete">Tulajdonos</translation>
-    </message>
-    <message>
-        <source>This lightbox is empty.</source>
-        <translation type="obsolete">A gyűjtődoboz üres.</translation>
-    </message>
-    <message>
-        <source>My lightboxes</source>
-        <translation type="obsolete">Gyűjtődobozaim</translation>
-    </message>
-    <message>
-        <source>You do not have any lightbox yet.</source>
-        <translation type="obsolete">Önnek nincs még gyűjtődoboza.</translation>
-    </message>
-    <message>
-        <source>Other lightboxes</source>
-        <translation type="obsolete">Más gyűjtődobozok</translation>
-    </message>
-    <message>
-        <source>View this lightbox owned by %1</source>
-        <translation type="obsolete">%1 gyűjtődobozának megtekintése</translation>
-    </message>
-    <message>
-        <source>You do not have any other lightbox yet.</source>
-        <translation type="obsolete">Önnek nincs még másik gyűjtődoboza.</translation>
-    </message>
-    <message>
-        <source>Current lightbox</source>
-        <translation type="obsolete">Alapértelmezett gyűjtődoboz</translation>
-    </message>
-    <message>
-        <source>Granted Users</source>
-        <translation type="obsolete">Megosztott felhasználók</translation>
-    </message>
-    <message>
-        <source>Currently no users are allowed to access this lightbox.</source>
-        <translation type="obsolete">Jelenleg nincs felhatalmazva felhasználó a gyűjtődobozhoz hozzáférésre.</translation>
-    </message>
-    <message>
-        <source>Edit</source>
-        <translation type="obsolete">Szerkeszt</translation>
-    </message>
-    <message>
-        <source>Use this button to edit this lightbox.</source>
-        <translation type="obsolete">Itt szerkesztheti ezt a gyűjtődobozt.</translation>
-    </message>
-    <message>
-        <source>Delete</source>
-        <translation type="obsolete">Töröl</translation>
-    </message>
-    <message>
-        <source>Use this button to delete this lightbox</source>
-        <translation type="obsolete">Itt törölheti ezt a gyűjtődobozt.</translation>
-    </message>
-    <message>
-        <source>Empty</source>
-        <translation type="obsolete">Üres</translation>
-    </message>
-    <message>
-        <source>Use this button to remove all assets from this lightbox</source>
-        <translation type="obsolete">Itt törölheti az összes elemet ebből a gyűjtődobozból.</translation>
-    </message>
-    <message>
-        <source>Send</source>
-        <translation type="obsolete">Küld</translation>
-    </message>
-    <message>
-        <source>Use this button to permit another user to access this lightbox by sending him an email</source>
-        <translation type="obsolete">Itt engedélyezheti e-mailben egy másik felhasználónak a gyűjtődoboz elérését.</translation>
-    </message>
-    <message>
-        <source>No lightbox selected</source>
-        <translation type="obsolete">Nincs kiválasztott gyűjtődoboz.</translation>
-    </message>
-</context>
-<context>
-    <name>design/ezteamroom/node/removeobject</name>
-    <message>
-        <source>Are you sure you want to remove these items?</source>
-        <translation type="obsolete">Biztosan törölni szeretné az elemet?</translation>
-    </message>
-    <message>
-        <source>%nodename and its %childcount children. %additionalwarning</source>
-        <translation type="obsolete">%nodename és a %childcount children. %additionalwarning</translation>
-    </message>
-    <message>
-        <source>%nodename %additionalwarning</source>
-        <translation type="obsolete">%nodename %additionalwarning</translation>
-    </message>
-    <message>
-        <source>Move to trash</source>
-        <translation type="obsolete">Mozgatás a szemétbe</translation>
-    </message>
-    <message>
-        <source>Note</source>
-        <translation type="obsolete">Megjegyzés</translation>
-    </message>
-    <message>
-        <source>If %trashname is checked, removed items can be found in the trash.</source>
-        <translation type="obsolete">Ha a %trashname bejelölt, a törölt elemek megtalálhatók a szemétben.</translation>
-    </message>
-    <message>
-        <source>Confirm</source>
-        <translation type="obsolete">Megerősít</translation>
-    </message>
-    <message>
-        <source>)}&quot; /&gt;
-            &lt;input class=&quot;message-button&quot; type=&quot;image&quot; src={&quot;buttons/cancel_button.jpg&quot;|ezimage()}  name=&quot;CancelButton&quot; value=&quot;{Cancel</source>
-        <translation type="obsolete">)}&quot; /&gt;(new line)
-(sp)(sp)(sp)(sp)(sp)(sp)(sp)(sp)(sp)(sp)(sp)(sp)&lt;input class=&quot;message-button&quot; type=&quot;image&quot; src={&quot;buttons/cancel_button.jpg&quot;|ezimage()}(sp)(sp)name=&quot;CancelButton&quot; value=&quot;{Cancel</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation type="obsolete">Mégsem</translation>
-    </message>
-</context>
-<context>
-    <name>design/ezteamroom/notification/addingresult</name>
-    <message>
-        <source>Add to my notifications</source>
-        <translation type="obsolete">Figyelmeztetésem hozzáadása</translation>
-    </message>
-    <message>
-        <source>Notification for node &lt;%node_name&gt; already exists.</source>
-        <translation type="obsolete">A figyelmeztetés a &lt;%node_name&gt; csomópontról már létezik.</translation>
-    </message>
-    <message>
-        <source>Notification for node &lt;%node_name&gt; was added successfully.</source>
-        <translation type="obsolete">A figyelmeztetést a &lt;%node_name&gt; csomópontról sikeresen hozzáadta.</translation>
-    </message>
-    <message>
-        <source>OK</source>
-        <translation type="obsolete">OK</translation>
-    </message>
-</context>
-<context>
-    <name>design/ezteamroom/notification/handler/ezgeneraldigest/settings/edit</name>
-    <message>
-        <source>Receive all messages combined in one digest</source>
-        <translation type="obsolete">Minden üzenetet egy gyűjteményben küldjön.</translation>
-    </message>
-    <message>
-        <source>Daily, at</source>
-        <translation type="obsolete">Naponta, ekkor</translation>
-    </message>
-    <message>
-        <source>Once per week, on </source>
-        <translation type="obsolete">Egy héten egyszer, ekkor</translation>
-    </message>
-    <message>
-        <source>Once per month, on day number</source>
-        <translation type="obsolete">Egy hónapban egyszer, adott napon</translation>
-    </message>
-    <message>
-        <source>If day number is larger than the number of days within the current month, the last day of the current month will be used.</source>
-        <translation type="obsolete">Ha a napok száma több, mint a hónapé az adott hónapban, akkor a hónap utolsó napját használjuk.</translation>
-    </message>
-</context>
-<context>
-    <name>design/ezteamroom/notification/handler/ezsubtree/settings/edit</name>
-    <message>
-        <source>Item notifications</source>
-        <translation type="obsolete">Elem figyelmeztetések</translation>
-    </message>
-    <message>
-        <source>Name</source>
-        <translation type="obsolete">Név</translation>
-    </message>
-    <message>
-        <source>Class</source>
-        <translation type="obsolete">Osztály</translation>
-    </message>
-    <message>
-        <source>Section</source>
-        <translation type="obsolete">Szakasz</translation>
-    </message>
-</context>
-<context>
-    <name>design/ezteamroom/settings/edit</name>
-    <message>
-        <source>Remove items</source>
-        <translation type="obsolete">Az elem törlése.</translation>
-    </message>
-    <message>
-        <source>Remove selected items from your personal notification list.</source>
-        <translation type="obsolete">Itt törölheti a személyes figyelmeztető listáról a kjelölteket.</translation>
-    </message>
-    <message>
-        <source>Add items</source>
-        <translation type="obsolete">Elem hozzáadása</translation>
-    </message>
-    <message>
-        <source>Add items to your personal notification list.</source>
-        <translation type="obsolete">Elem hozzáadása a személyes figyelmeztető listához.</translation>
-    </message>
-</context>
-<context>
-    <name>design/ezteamroom/upload</name>
-    <message>
-        <source>Multi Upload</source>
-        <translation type="obsolete">Többszörös feltöltés</translation>
-    </message>
-</context>
-<context>
-    <name>design/ezteamroom/user/activate</name>
-    <message>
-        <source>Activate account</source>
-        <translation type="obsolete">Azonostíó aktiválása</translation>
-    </message>
-    <message>
-        <source>Your account is now activated.</source>
-        <translation type="obsolete">Az Ön hozzáférése nem aktív.</translation>
-    </message>
-    <message>
-        <source>Your account is already active.</source>
-        <translation type="obsolete">Az Ön hozzáférése már aktív.</translation>
-    </message>
-    <message>
-        <source>Sorry, the key submitted was not a valid key. Account was not activated.</source>
-        <translation type="obsolete">Bocsánatot kérünk, a megadott kulcs érvénytelen. Hozzáférés nincs aktiválva.</translation>
-    </message>
-    <message>
-        <source>OK</source>
-        <translation type="obsolete">OK</translation>
-    </message>
-</context>
-<context>
-    <name>design/ezteamroom/user/edit</name>
-    <message>
-        <source>User profile</source>
-        <translation type="obsolete">Felhasználó adatai</translation>
-    </message>
-    <message>
-        <source>Email</source>
-        <translation type="obsolete">E-mail</translation>
-    </message>
-    <message>
-        <source>Change password</source>
-        <translation type="obsolete">Jelszó megváltoztatása</translation>
-    </message>
-    <message>
-        <source>Username</source>
-        <translation type="obsolete">Felhasználónév</translation>
-    </message>
-    <message>
-        <source>Name</source>
-        <translation type="obsolete">Név</translation>
-    </message>
-    <message>
-        <source>Back</source>
-        <translation type="obsolete">Vissza</translation>
-    </message>
-    <message>
-        <source>Edit profile</source>
-        <translation type="obsolete">Adatok szerkesztése</translation>
-    </message>
-    <message>
-        <source>My pending items</source>
-        <translation type="obsolete">Függő elemeim</translation>
-    </message>
-    <message>
-        <source>My notification settings</source>
-        <translation type="obsolete">Figyelmeztetéseim beállítása</translation>
-    </message>
-    <message>
-        <source>Collaboration</source>
-        <translation type="obsolete">Közös munka</translation>
-    </message>
-    <message>
-        <source>My Lightboxes</source>
-        <translation type="obsolete">Gyűjtődobozaim</translation>
-    </message>
-    <message>
-        <source>Bookmarks</source>
-        <translation type="obsolete">Könyvjelzők</translation>
-    </message>
-    <message>
-        <source>My drafts</source>
-        <translation type="obsolete">Piszkozataim</translation>
-    </message>
-    <message>
-        <source>My orders</source>
-        <translation type="obsolete">Rendeléseim</translation>
-    </message>
-    <message>
-        <source>My wish list</source>
-        <translation type="obsolete">Kívánságlistám</translation>
-    </message>
-</context>
-<context>
-    <name>design/ezteamroom/user/forgotpassword</name>
-    <message>
-        <source>An email has been sent to the following address: %1. It contains a link you need to click so that we can confirm that the correct user has received the new password.</source>
-        <translation type="obsolete">%1 címre elküldtük az e-mailt, amelyben egy hivatkozást talál, amelyre kattintva megerősítjük, hogy a megfelelő felhasználó kapta az új jelszót.</translation>
-    </message>
-    <message>
-        <source>There is no registered user with that email address.</source>
-        <translation type="obsolete">Nincs regisztrált felhasználó ezen az e-mail címen.</translation>
-    </message>
-    <message>
-        <source>Password was successfully generated and sent to: %1</source>
-        <translation type="obsolete">%1 címre küldtük a sikeresen generált jelszót.</translation>
-    </message>
-    <message>
-        <source>The key is invalid or has been used. </source>
-        <translation type="obsolete">A kulcs érvénytelen.</translation>
-    </message>
-    <message>
-        <source>Have you forgotten your password?</source>
-        <translation type="obsolete">Elfelejtette jelszavát?</translation>
-    </message>
-    <message>
-        <source>If you have forgotten your password, enter your email address and we will create a new password and send it to you.</source>
-        <translation type="obsolete">Ha elfelejtette jelszavát, írja be e-mail címét és új jelszót küldünk Önnek.</translation>
-    </message>
-    <message>
-        <source>Email</source>
-        <translation type="obsolete">E-mail</translation>
-    </message>
-    <message>
-        <source>Generate new password</source>
-        <translation type="obsolete">Új jelszó generálás</translation>
-    </message>
-</context>
-<context>
-    <name>design/ezteamroom/user/login</name>
-    <message>
-        <source>Username</source>
-        <comment>User name</comment>
-        <translation type="obsolete">Felhasználónév</translation>
-    </message>
-    <message>
-        <source>Password</source>
-        <translation type="obsolete">Jelszó</translation>
-    </message>
-    <message>
-        <source>Login</source>
-        <comment>Button</comment>
-        <translation type="obsolete">Bejelentkezés</translation>
-    </message>
-    <message>
-        <source>Sign Up</source>
-        <comment>Button</comment>
-        <translation type="obsolete">Regisztráció</translation>
-    </message>
-    <message>
-        <source>Login</source>
-        <translation type="obsolete">Bejelentkezés</translation>
-    </message>
-    <message>
-        <source>Could not login</source>
-        <translation type="obsolete">Nem tudott bejelentkezni.</translation>
-    </message>
-    <message>
-        <source>A valid username and password is required to login.</source>
-        <translation type="obsolete">Érvényes felhasználónév és jelszó szükséges a bejelentkezéshez.</translation>
-    </message>
-    <message>
-        <source>Access not allowed</source>
-        <translation type="obsolete">Hozzáférés nem engedett.</translation>
-    </message>
-    <message>
-        <source>You are not allowed to access %1.</source>
-        <translation type="obsolete">Nincs engedélye hozzáférni %1 -hez .</translation>
-    </message>
-    <message>
-        <source>Remember me</source>
-        <translation type="obsolete">Jelszó eltárolása</translation>
-    </message>
-    <message>
-        <source>Forgot your password?</source>
-        <translation type="obsolete">Elfelejtette jelszavát?</translation>
-    </message>
-</context>
-<context>
-    <name>design/ezteamroom/user/password</name>
-    <message>
-        <source>Change password for user</source>
-        <translation type="obsolete">Jelszó megváltoztatása</translation>
-    </message>
-    <message>
-        <source>Please retype your old password.</source>
-        <translation type="obsolete">Kérem, ismételje meg régi jelszavát!</translation>
-    </message>
-    <message>
-        <source>Password didn&apos;t match, please retype your new password.</source>
-        <translation type="obsolete">A megadott jelszó nem egyezik, kérem, adja meg újra új jelszavát!</translation>
-    </message>
-    <message>
-        <source>Password successfully updated.</source>
-        <translation type="obsolete">A jelszót sikeresen frissítette.</translation>
-    </message>
-    <message>
-        <source>Old password</source>
-        <translation type="obsolete">Régi jelszó</translation>
-    </message>
-    <message>
-        <source>New password</source>
-        <translation type="obsolete">Új jelszó</translation>
-    </message>
-    <message>
-        <source>Retype password</source>
-        <translation type="obsolete">Jelszó ismétlése</translation>
-    </message>
-    <message>
-        <source>OK</source>
-        <translation type="obsolete">OK</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation type="obsolete">Mégsem</translation>
-    </message>
-</context>
-<context>
-    <name>design/ezteamroom/user/register</name>
-    <message>
-        <source>Register user</source>
-        <translation type="obsolete">Felhasználói regisztráció</translation>
-    </message>
-    <message>
-        <source>Input did not validate</source>
-        <translation type="obsolete">A bevitel nincs jóvágyva.</translation>
-    </message>
-    <message>
-        <source>Input was stored successfully</source>
-        <translation type="obsolete">A bevitelt sikerült elmenteni.</translation>
-    </message>
-    <message>
-        <source>Register</source>
-        <translation type="obsolete">Regisztráció</translation>
-    </message>
-    <message>
-        <source>Discard</source>
-        <translation type="obsolete">Visszavon</translation>
-    </message>
-    <message>
-        <source>Unable to register new user</source>
-        <translation type="obsolete">Új felhasználó nem regisztrálhat.</translation>
-    </message>
-    <message>
-        <source>Back</source>
-        <translation type="obsolete">Vissza</translation>
-    </message>
-</context>
-<context>
-    <name>design/ezteamroom/user/success</name>
-    <message>
-        <source>User registered</source>
-        <translation type="obsolete">A felhasználó regisztrált.</translation>
-    </message>
-    <message>
-        <source>Your account was successfully created. An email will be sent to the specified address. Follow the instructions in that email to activate your account.</source>
-        <translation type="obsolete">Az azonosítója sikeresen létrejött. Az egyedi címre e-mailt küldtünk, amiben útmutatást küldtünk az azonosító aktiválásához.</translation>
-    </message>
-    <message>
-        <source>Continue</source>
-        <translation type="obsolete">Folytat</translation>
-    </message>
-    <message>
-        <source>Use this button to go back.</source>
-        <translation type="obsolete">Itt mehet vissza.</translation>
-    </message>
-    <message>
-        <source>Your account was successfully created.</source>
-        <translation type="obsolete">Az azonosítója sikeresen létrejött.</translation>
-    </message>
-</context>
-<context>
-    <name>design/ezteamroom/view/ezbinaryfile</name>
-    <message>
-        <source>The file could not be found.</source>
-        <translation type="obsolete">A fájl nem található.</translation>
-    </message>
-</context>
-<context>
-    <name>design/ezteamroom/view/sitemap</name>
-    <message>
-        <source>Site map</source>
-        <translation type="obsolete">Oldaltérkép</translation>
-    </message>
-</context>
-<context>
-    <name>design/ezwebin/content/edit</name>
-    <message>
-        <source>Edit %1 - %2</source>
-        <translation type="obsolete">%1 - %2 szerkesztése</translation>
-    </message>
-    <message>
-        <source>Translating content from %from_lang to %to_lang</source>
-        <translation type="obsolete">Tartalom fordítása %from_lang nyelvről %to_lang nyelvre</translation>
-    </message>
-    <message>
-        <source>Content in %language</source>
-        <translation type="obsolete">%language tartalom </translation>
-    </message>
-    <message>
-        <source>Send for publishing</source>
-        <translation type="obsolete">Jóváhagy</translation>
-    </message>
-    <message>
-        <source>Store draft</source>
-        <translation type="obsolete">Piszkozat mentése</translation>
-    </message>
-    <message>
-        <source>Discard draft</source>
-        <translation type="obsolete">Piszkozat elvetése</translation>
-    </message>
-</context>
-<context>
-    <name>design/multiupload</name>
-    <message>
-        <source>Multi Upload</source>
-        <translation type="obsolete">Többszörös feltöltés</translation>
-    </message>
-</context>
-<context>
-    <name>design/standard/collaboration</name>
-    <message>
-        <source>Group list for &apos;%1&apos;</source>
-        <translation type="obsolete">&apos;%1&apos; csoportlista</translation>
-    </message>
-    <message>
-        <source>No items in group.</source>
-        <translation type="obsolete">Nincs elem a csoportban.</translation>
-    </message>
-    <message>
-        <source>Approval</source>
-        <translation type="obsolete">Jóváhagy</translation>
-    </message>
-    <message>
-        <source>Summary</source>
-        <translation type="obsolete">Összegzés</translation>
-    </message>
-    <message>
-        <source>No new items to be handled.</source>
-        <translation type="obsolete">Nincs kezelt elem.</translation>
-    </message>
-</context>
-<context>
-    <name>design/standard/content/datatype</name>
-    <message>
-        <source>No relation</source>
-        <translation type="obsolete">Nincs kapcsolat.</translation>
-    </message>
-    <message>
-        <source>No related documents.</source>
-        <translation type="obsolete">Nincs kapcsolódó dokumentum.</translation>
-    </message>
-    <message>
-        <source>No one defined.</source>
-        <translation type="obsolete">Egyiksem meghatározott.</translation>
-    </message>
-    <message>
-        <source>Parent node</source>
-        <translation type="obsolete">Szülő csomópont</translation>
-    </message>
-    <message>
-        <source>Allowed classes</source>
-        <translation type="obsolete">Elfogadott osztályok</translation>
-    </message>
-    <message>
-        <source>Any</source>
-        <translation type="obsolete">Bármely</translation>
-    </message>
-    <message>
-        <source>There are no objects of allowed classes</source>
-        <translation type="obsolete">Nincs az elfogadott osztályban objektum.</translation>
-    </message>
-    <message>
-        <source>Create new object with name</source>
-        <translation type="obsolete">Új obejktumnév létrehozása.</translation>
-    </message>
-    <message>
-        <source>Invert selection.</source>
-        <translation type="obsolete">Kijelölés megfordítása</translation>
-    </message>
-    <message>
-        <source>Name</source>
-        <translation type="obsolete">Név</translation>
-    </message>
-    <message>
-        <source>Type</source>
-        <translation type="obsolete">Típus</translation>
-    </message>
-    <message>
-        <source>Section</source>
-        <translation type="obsolete">Szakasz</translation>
-    </message>
-    <message>
-        <source>Order</source>
-        <translation type="obsolete">Megrendelés</translation>
-    </message>
-    <message>
-        <source>Edit &lt;%object_name&gt; [%object_class]</source>
-        <translation type="obsolete">&lt;%object_name&gt; [%object_class] szerkesztése</translation>
-    </message>
-    <message>
-        <source>There are no related objects.</source>
-        <translation type="obsolete">Nincs kapcsolódó objektum.</translation>
-    </message>
-    <message>
-        <source>Remove selected</source>
-        <translation type="obsolete">Kijelölés megfordítása</translation>
-    </message>
-    <message>
-        <source>Edit selected</source>
-        <translation type="obsolete">Kijelölt szerkesztése</translation>
-    </message>
-    <message>
-        <source>Add objects</source>
-        <translation type="obsolete">Objektum hozzáadása</translation>
-    </message>
-    <message>
-        <source>Create new object</source>
-        <translation type="obsolete">Új objektum létrehozása</translation>
-    </message>
-    <message>
-        <source>Published</source>
-        <translation type="obsolete">Jóváhagyott</translation>
-    </message>
-    <message>
-        <source>Yes</source>
-        <translation type="obsolete">Igen</translation>
-    </message>
-    <message>
-        <source>No</source>
-        <translation type="obsolete">Nem</translation>
-    </message>
-</context>
-<context>
-    <name>design/standard/content/edit</name>
-    <message>
-        <source>Membership for &apos;%1&apos; has been approved</source>
-        <translation type="obsolete">&apos;%1&apos; tagsága jóváhagyva.</translation>
-    </message>
-    <message>
-        <source>This mail is sent to inform you that your membership to the teamromm &apos;%1&apos; has been approved by the teamroom leader</source>
-        <translation type="obsolete">Ezt a levele azért kapta, mert &apos;%1&apos; csoportszoba tagságát jóváhagyta a csoportvezető.</translation>
-    </message>
-    <message>
-        <source>Membership for &apos;%1&apos; has been lost a member</source>
-        <translation type="obsolete">&apos;%1&apos; tagságát elvesztette egy tag.</translation>
-    </message>
-    <message>
-        <source>This mail is sent to inform you that %1 has been resigned from your teamroom </source>
-        <translation type="obsolete">Ezt a levele azért kapta, mert &apos;%1&apos; csoportszoba tagságát visszavonta a csoportvezető.</translation>
-    </message>
-    <message>
-        <source>Teamroom &apos;%1&apos; successfully created</source>
-        <translation type="obsolete">&apos;%1&apos; csoportszoba sikeresen létrejött.</translation>
-    </message>
-    <message>
-        <source>This mail is sent to inform you that your teamroom &apos;%1&apos; has been successfully created.</source>
-        <translation type="obsolete">Ezt a levele azért kapta, mert &apos;%1&apos; csoportszoba sikeresen létrejött.</translation>
+        <source>Minute</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>design/standard/content/version</name>
     <message>
         <source>Version</source>
-        <translation type="obsolete">Változat</translation>
+        <translation type="unfinished">Változat</translation>
     </message>
     <message>
         <source>Status</source>
-        <translation type="obsolete">Státusz</translation>
+        <translation type="unfinished">Státusz</translation>
     </message>
     <message>
         <source>Creator</source>
-        <translation type="obsolete">Létrehozó</translation>
+        <translation type="unfinished">Létrehozó</translation>
     </message>
     <message>
         <source>Modified</source>
-        <translation type="obsolete">Módosító</translation>
+        <translation type="unfinished">Módosító</translation>
     </message>
     <message>
         <source>Download</source>
-        <translation type="obsolete">Letöltés</translation>
+        <translation type="unfinished">Letöltés</translation>
     </message>
     <message>
         <source>Get version</source>
-        <translation type="obsolete">Új változat</translation>
+        <translation type="unfinished">Új változat</translation>
     </message>
 </context>
 <context>
-    <name>design/standard/content/view</name>
+    <name>ezteamroom/access_type</name>
     <message>
-        <source>My favorites</source>
-        <translation type="obsolete">Kedvenceim</translation>
+        <source>Private</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>These are the objects you have bookmarked. Click on an object to view it or if you have permission you can edit the object by clicking the edit button.
-      If you want to add more objects to this list click the %emphasize_startAdd bookmarks%emphasize_stop button.
-
-      Removing objects will only remove them from this list.</source>
-        <translation type="obsolete">Ezekhez az objektumokhoz könyvjelzőt tett. Kattintson egy objektumra megetkintésükhöz, vagy ha van rá engedélye, szerkesztheti a Szerkeszt gombra kattintva.(new line)Ha szeretne több obejktumot listázni, kattintson a %emphasize_startKönyvjelző hozzáadása%emphasize_stop gombra! Az objektumokat csak ebből a listából törölheti.</translation>
+        <source>Nobody can see that the teamroom exists and users can only become a member of the teamroom if you invited them.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Name</source>
-        <translation type="obsolete">Név</translation>
+        <source>Internal</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Class</source>
-        <translation type="obsolete">Osztály</translation>
+        <source>Only users that belong to the same group as you do can see that the teamroom exists and you will have to approve any requested membership before people can use the teamroom.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Section</source>
-        <translation type="obsolete">Szakasz</translation>
+        <source>Protected</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Edit</source>
-        <translation type="obsolete">Szerkeszt</translation>
+        <source>Anybody can see that the teamroom exists and you will have to approve any requested membership before people can use the teamroom.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Remove</source>
-        <translation type="obsolete">Töröl</translation>
+        <source>Public</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>You have no bookmarks</source>
-        <translation type="obsolete">Nincs könyvjelzője.</translation>
-    </message>
-    <message>
-        <source>Add bookmarks</source>
-        <translation type="obsolete">Könyvjelző hozzáadása</translation>
-    </message>
-    <message>
-        <source>Back</source>
-        <translation type="obsolete">Vissza</translation>
-    </message>
-</context>
-<context>
-    <name>design/standard/content/view/lightbox_line</name>
-    <message>
-        <source>Object ID %1 not available</source>
-        <translation type="obsolete">ID %1 objektum nem elérhető.</translation>
-    </message>
-</context>
-<context>
-    <name>design/standard/navigator</name>
-    <message>
-        <source>You don&apos;t have access to modify this task.</source>
-        <translation type="obsolete">Nincs hozzáférése a feladat módosításához.</translation>
-    </message>
-    <message>
-        <source>An unexpected error occured.</source>
-        <translation type="obsolete">Nem várt hiba történt.</translation>
-    </message>
-</context>
-<context>
-    <name>design/standard/notification</name>
-    <message>
-        <source>Notification settings</source>
-        <translation type="obsolete">Figyelmeztetés beállítása</translation>
-    </message>
-    <message>
-        <source>Store</source>
-        <translation type="obsolete">Mentés</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation type="obsolete">Mégsem</translation>
-    </message>
-    <message>
-        <source>If you do not wish to continue receiving these notifications,
-change your settings at:</source>
-        <translation type="obsolete">Ha nem kíván több figyelmeztetést kapni, változtasson a beállításon:</translation>
-    </message>
-</context>
-<context>
-    <name>design/standard/shop/productsoverview</name>
-    <message>
-        <source>Hide / Unhide description header.</source>
-        <translation type="obsolete">Elrejti / Felfedi a leírómezőt.</translation>
-    </message>
-</context>
-<context>
-    <name>design/standard/user</name>
-    <message>
-        <source>The node (%1) specified in [UserSettings].DefaultUserPlacement setting in site.ini does not exist!</source>
-        <translation type="obsolete">%1 csomópont  meghatározás [UserSettings].DefaultUserPlacement nincs beállítva a site.ini fájlban!</translation>
-    </message>
-</context>
-<context>
-    <name>design/standard/user/invite</name>
-    <message>
-        <source>You have been invited to join %teamroom at %siteurl</source>
-        <translation type="obsolete">Önt meghívták a %teamroom csoportba a %siteurl webcímen.</translation>
-    </message>
-    <message>
-        <source>You have been invited to join the following Teamroom: %teamroom.</source>
-        <translation type="obsolete">Önt meghívták a %teamroom csoportba.</translation>
-    </message>
-    <message>
-        <source>An account was automatically created. If you do not login within the next two weeks your account will be deleted.</source>
-        <translation type="obsolete">Egy automatikus azonosító létrejött. Amennyibena a következő két hétben nem lép be, az azonosító törlődik.</translation>
-    </message>
-    <message>
-        <source>Additional text:</source>
-        <translation type="obsolete">Szöveg:</translation>
-    </message>
-    <message>
-        <source>Account information</source>
-        <translation type="obsolete">Azoanosító adatok</translation>
-    </message>
-    <message>
-        <source>Username</source>
-        <comment>Login name</comment>
-        <translation type="obsolete">Felhasználónév</translation>
-    </message>
-    <message>
-        <source>Email</source>
-        <translation type="obsolete">E-mail</translation>
-    </message>
-</context>
-<context>
-    <name>design/standard/user/register</name>
-    <message>
-        <source>Password</source>
-        <translation type="obsolete">Jelszó</translation>
-    </message>
-    <message>
-        <source>Click the following URL to confirm your account</source>
-        <translation type="obsolete">Kattintson az alábbi webcímre azonosítójának megerősítéséhez!</translation>
-    </message>
-    <message>
-        <source>Link to user information</source>
-        <translation type="obsolete">Hivatkozás a felhasználói adatokhoz</translation>
-    </message>
-</context>
-<context>
-    <name>extension/ezsetsection/eventtypes</name>
-    <message>
-        <source>Set Section of Object</source>
-        <translation type="obsolete">Objektumszakasz beállítása</translation>
-    </message>
-</context>
-<context>
-    <name>extension/ezssp</name>
-    <message>
-        <source>Skeleton node</source>
-        <translation type="obsolete">Üres csomópont</translation>
-    </message>
-    <message>
-        <source>Select skeleton node</source>
-        <translation type="obsolete">Üres csomópont kiválasztása</translation>
-    </message>
-    <message>
-        <source>Subtree-limited role assignments</source>
-        <translation type="obsolete">Alkönyvtár-korlátozó szabályösszefoglaló</translation>
-    </message>
-    <message>
-        <source>Remove selected</source>
-        <translation type="obsolete">Kiválasztott törlése</translation>
-    </message>
-    <message>
-        <source>Add skeleton user groups</source>
-        <translation type="obsolete">Üres felhasználócsoport hozzáadása</translation>
-    </message>
-    <message>
-        <source>Subtree Skeleton Publisher</source>
-        <translation type="obsolete">Üres alkönyvtárak jóváhagyása</translation>
-    </message>
-</context>
-<context>
-    <name>extension/ezteamroom</name>
-    <message>
-        <source>Error loading box</source>
-        <translation type="obsolete">Dobozbetöltési hiba</translation>
-    </message>
-    <message>
-        <source>Access Denied</source>
-        <translation type="obsolete">Hotzzáférés letiltva</translation>
-    </message>
-    <message>
-        <source>You are not logged in or you do not have access.</source>
-        <translation type="obsolete">Nem jeletkezett be vagy nincs hozzáférése.</translation>
-    </message>
-    <message>
-        <source>Please register here</source>
-        <translation type="obsolete">Kérem, itt regisztráljon!</translation>
-    </message>
-    <message>
-        <source>Please register here.</source>
-        <translation type="obsolete">Kérem, itt regisztráljon!</translation>
-    </message>
-    <message>
-        <source>Login here</source>
-        <translation type="obsolete">Bejelentkezés</translation>
-    </message>
-    <message>
-        <source>Login here.</source>
-        <translation type="obsolete">Bejelentkezés</translation>
-    </message>
-    <message>
-        <source>Manage member</source>
-        <translation type="obsolete">Tag kezelése</translation>
-    </message>
-    <message>
-        <source>Invite new member</source>
-        <translation type="obsolete">Új tag meghívása</translation>
-    </message>
-    <message>
-        <source>Browse all</source>
-        <translation type="obsolete">Mind keresése</translation>
-    </message>
-    <message>
-        <source>more...</source>
-        <translation type="obsolete">többet...</translation>
-    </message>
-    <message>
-        <source>There are no blog post.</source>
-        <translation type="obsolete">Itt nincs blogbejegyzés.</translation>
-    </message>
-    <message>
-        <source>Create a new teamroom</source>
-        <translation type="obsolete">Új csoportszoba létrehozása</translation>
-    </message>
-    <message>
-        <source>You are not allowed to create new teamrooms.</source>
-        <translation type="obsolete">Önnek nincs engedélye új csoportszoba létrehozására.</translation>
-    </message>
-    <message>
-        <source>Please get in contact with the system administrator.</source>
-        <translation type="obsolete">Kérem, vegye fel a kapcsolatot a rendszeradminisztrátorral!</translation>
-    </message>
-    <message>
-        <source>You are not able to create new teamrooms.</source>
-        <translation type="obsolete">Önnek nincs engedélye új csoportszoba létrehozására.</translation>
-    </message>
-    <message>
-        <source>System misconfiguration</source>
-        <translation type="obsolete">Rendszer rosszul van beállítva.</translation>
-    </message>
-    <message>
-        <source>The teamromm extension seems to be not configured correctly.</source>
-        <translation type="obsolete">A csoportszoba kiterjesztés nincs jól beállítva.</translation>
-    </message>
-    <message>
-        <source>There are no files.</source>
-        <translation type="obsolete">Itt nincs fájl.</translation>
-    </message>
-    <message>
-        <source>There are no messages.</source>
-        <translation type="obsolete">Itt nincs üzenet.</translation>
-    </message>
-    <message>
-        <source>There are no user.</source>
-        <translation type="obsolete">Itt nincs felhasználó.</translation>
-    </message>
-    <message>
-        <source>You are not logged in.</source>
-        <translation type="obsolete">Ön nem lépett be.</translation>
-    </message>
-    <message>
-        <source>Edit</source>
-        <translation type="obsolete">Szerkeszt</translation>
-    </message>
-    <message>
-        <source>No bookmarks found</source>
-        <translation type="obsolete">Nem talált könyvjelzőt.</translation>
-    </message>
-    <message>
-        <source>Modify teamroom</source>
-        <translation type="obsolete">Csoportszoba módosítása</translation>
-    </message>
-    <message>
-        <source>Resign from this teamroom</source>
-        <translation type="obsolete">Törlés a csoportszobából</translation>
-    </message>
-    <message>
-        <source>You are not assigned to any teamroom.</source>
-        <translation type="obsolete">Nincs bejegyezve egyik csoportszobához sem.</translation>
-    </message>
-    <message>
-        <source>Membership</source>
-        <translation type="obsolete">Tagság</translation>
-    </message>
-    <message>
-        <source>Register</source>
-        <translation type="obsolete">Regisztráció</translation>
-    </message>
-    <message>
-        <source>Users were successfully selected</source>
-        <translation type="obsolete">A felhasnálókat sikeresen kiválasztotta.</translation>
-    </message>
-    <message>
-        <source>User was successfully added: </source>
-        <translation type="obsolete">A falhasználót sikeresen hozzáadta ehhez:</translation>
-    </message>
-    <message>
-        <source>You entered an invalid mail address: </source>
-        <translation type="obsolete">Ön egy érvénytelen e-mail címet vitt be:</translation>
-    </message>
-    <message>
-        <source>Unknown user: </source>
-        <translation type="obsolete">Ismeretlen felhasználó:</translation>
-    </message>
-    <message>
-        <source>New User</source>
-        <translation type="obsolete">Új felhasználó</translation>
-    </message>
-    <message>
-        <source>Sending mail failed.</source>
-        <translation type="obsolete">Levélküldés sikertelen.</translation>
-    </message>
-    <message>
-        <source>$unkownUserMail was successfully invited</source>
-        <translation type="obsolete">$unkownUserMail sikeresen meghívta.</translation>
-    </message>
-    <message>
-        <source>Manage Member</source>
-        <translation type="obsolete">Tag kezelése</translation>
-    </message>
-    <message>
-        <source>Invite</source>
-        <translation type="obsolete">Meghívás</translation>
-    </message>
-    <message>
-        <source>Resign</source>
-        <translation type="obsolete">Kizár</translation>
-    </message>
-</context>
-<context>
-    <name>extension/ezteamroom/collaboration</name>
-    <message>
-        <source>Membership approval</source>
-        <translation type="obsolete">Tagság jóváhagyva</translation>
-    </message>
-</context>
-<context>
-    <name>extension/ezteamroom/eventtypes</name>
-    <message>
-        <source>Approve membership</source>
-        <translation type="obsolete">Tagság jóváhagyása</translation>
-    </message>
-    <message>
-        <source>Set the current Teamroom</source>
-        <translation type="obsolete">Csoportszoba beállítása</translation>
-    </message>
-</context>
-<context>
-    <name>extension/membership</name>
-    <message>
-        <source>Membership</source>
-        <translation type="obsolete">Tagság</translation>
-    </message>
-    <message>
-        <source>Invite member</source>
-        <translation type="obsolete">Tag meghívása</translation>
-    </message>
-    <message>
-        <source>Browse users:</source>
-        <translation type="obsolete">Felhasználó keresése:</translation>
-    </message>
-    <message>
-        <source>Select a user by browsing through all registered users.</source>
-        <translation type="obsolete">Felhasználó keresése az összes regisztrált között.</translation>
-    </message>
-    <message>
-        <source>Browse users</source>
-        <translation type="obsolete">Felhasználó keresése:</translation>
-    </message>
-    <message>
-        <source>Search user by email address:</source>
-        <translation type="obsolete">Felhasználó keresése e-mail cím alapján:</translation>
-    </message>
-    <message>
-        <source>Multiple users can be seperated by a semicolon.</source>
-        <translation type="obsolete">Több felhasználó pontosvesszővel elválasztható.</translation>
-    </message>
-    <message>
-        <source>Search user</source>
-        <translation type="obsolete">Felhasználó keresés</translation>
-    </message>
-    <message>
-        <source>User not found - Send email Invitation</source>
-        <translation type="obsolete">Felhasználó nem található. Küldjön meghívót!</translation>
-    </message>
-    <message>
-        <source>The user was not found. You can invite this user by email. He will automatically be assigned to this teamroom.</source>
-        <translation type="obsolete">A felhasználó nem található. Meghívhatja e-mailben, és automatikusan bejegyzésre kerül a csoportszobához.</translation>
-    </message>
-    <message>
-        <source>The invitation will be send to:</source>
-        <translation type="obsolete">A meghívót neki küldi:</translation>
-    </message>
-    <message>
-        <source>Additional Text:</source>
-        <translation type="obsolete">Szöveg:</translation>
-    </message>
-    <message>
-        <source>Send email invitation</source>
-        <translation type="obsolete">Meghívó küldése</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation type="obsolete">Mégsem</translation>
-    </message>
-    <message>
-        <source>Selected Users:</source>
-        <translation type="obsolete">Kijelölt felhasználók:</translation>
-    </message>
-    <message>
-        <source>Selected User:</source>
-        <translation type="obsolete">Kijelölt felhasználók:</translation>
-    </message>
-    <message>
-        <source>Send invitation</source>
-        <translation type="obsolete">Meghívó küldése</translation>
-    </message>
-    <message>
-        <source>Register for Teamroom &quot;%name&quot;</source>
-        <translation type="obsolete">Regsiztráció a &quot;%name&quot; csoportszobába</translation>
-    </message>
-    <message>
-        <source>Do you want to join this group?</source>
-        <translation type="obsolete">Szeretné látogatni ezt a csoportot?</translation>
-    </message>
-    <message>
-        <source>Yes</source>
-        <translation type="obsolete">Igen</translation>
-    </message>
-    <message>
-        <source>No</source>
-        <translation type="obsolete">Nem</translation>
-    </message>
-    <message>
-        <source>You are already a member of this group.</source>
-        <translation type="obsolete">Ön már tagja ennek a csoportnak.</translation>
-    </message>
-    <message>
-        <source>Your membership registration has been succesfully submitted and is now waiting for approval. You will receive status updates by e-mail.</source>
-        <translation type="obsolete">Az Ön tagregisztrációja sikeresen megtörtént és most vár a jóváhagyásra. Státuszának változásáról e-mailben értesítjük.</translation>
-    </message>
-    <message>
-        <source>Congratulations! You are now member of this group.</source>
-        <translation type="obsolete">Gartulálunk! Ön tagja lett ennek a csoportnak.</translation>
-    </message>
-    <message>
-        <source>Resign from Teamroom &quot;%name&quot;</source>
-        <translation type="obsolete">Törlés a &quot;%name&quot; csoportszobából</translation>
-    </message>
-    <message>
-        <source>Do you really want to leave this team?</source>
-        <translation type="obsolete">Tényleg ki szeretne lépni ebből a csoportból?</translation>
-    </message>
-    <message>
-        <source>Resigned from teamroom &quot;%name&quot;</source>
-        <translation type="obsolete">Kilépett a &quot;%name&quot; csoportszobából.</translation>
-    </message>
-    <message>
-        <source>You are successfully resigned from this teamroom.</source>
-        <translation type="obsolete">Ön sikeresen kilépett ebből a csoportszobából.</translation>
-    </message>
-</context>
-<context>
-    <name>extension/membership/collaboration</name>
-    <message>
-        <source>Membership approval</source>
-        <translation type="obsolete">Tagság jóváhagyva</translation>
-    </message>
-    <message>
-        <source>Your membership request is awaiting approval. If you wish you can add comments for the approver.</source>
-        <translation type="obsolete">Az Ön tagásága jóváhagyásra vár. Ha szeretne, küldhet megjegyzést a jóváhagyónak.</translation>
-    </message>
-    <message>
-        <source>Your membership request has been approved.</source>
-        <translation type="obsolete">Az Ön tagságát jóváhagyták.</translation>
-    </message>
-    <message>
-        <source>Your membership request has been denied.</source>
-        <translation type="obsolete">Az Ön tagságát elutasították.</translation>
-    </message>
-    <message>
-        <source>Comment</source>
-        <translation type="obsolete">Megjegyzés</translation>
-    </message>
-    <message>
-        <source>Add Comment</source>
-        <translation type="obsolete">Megjegyzés hozzáadása</translation>
-    </message>
-    <message>
-        <source>Approve</source>
-        <translation type="obsolete">Jóváhagy</translation>
-    </message>
-    <message>
-        <source>Deny</source>
-        <translation type="obsolete">Elutasít</translation>
-    </message>
-    <message>
-        <source>User info</source>
-        <translation type="obsolete">Felhasználói adatok</translation>
-    </message>
-    <message>
-        <source>Group info</source>
-        <translation type="obsolete">Csoportadatok</translation>
-    </message>
-    <message>
-        <source>Participants</source>
-        <translation type="obsolete">Résztvevők</translation>
-    </message>
-    <message>
-        <source>Messages</source>
-        <translation type="obsolete">Üzenetek</translation>
-    </message>
-    <message>
-        <source>[%sitename] Membership registration for group &quot;%groupname&quot; waits for approval</source>
-        <translation type="obsolete">[%sitename] tagregisztráció a &quot;%groupname&quot; csoportba jóváhagyásra vár.</translation>
-    </message>
-    <message>
-        <source>%authorname has requested to join the group &quot;%groupname&quot; at %sitename.
-You need to approve or deny this request by using the URL below.</source>
-        <translation type="obsolete">%authorname kéri felvételét a &quot;%groupname&quot; csoporba ezen a címen: %sitename.(new line)
-Önnek kell jóváhagynia vagy elutasítania a kérést a fenti webcímen.</translation>
-    </message>
-    <message>
-        <source>%sitename notification system</source>
-        <translation type="obsolete">%sitename figyelmeztető rendszer</translation>
-    </message>
-    <message>
-        <source>[%sitename] Membership registration for group &quot;%groupname&quot; awaits approval</source>
-        <translation type="obsolete">[%sitename] tagregisztráció a &quot;%groupname&quot; csoportba jóváhagyásra vár.</translation>
-    </message>
-    <message>
-        <source>You have requested to join the group &quot;%groupname&quot; at %sitename.
-Your request is waiting for approval. To view the status of your request or to add a comment, visit the URL below.</source>
-        <translation type="obsolete">Ön kérte felvételét a &quot;%groupname&quot; csoportba a %sitename oldalon.(new line)
-Az Ön kérése elbírálás alatt. Megtekintheti kérésenk státuszát vagy tehet megjegyzést a fent webcímen.</translation>
-    </message>
-</context>
-<context>
-    <name>extension/teamroom</name>
-    <message>
-        <source>Manage Member</source>
-        <translation type="obsolete">Tag kezelése</translation>
-    </message>
-</context>
-<context>
-    <name>extensionnsion/membership/collaboration</name>
-    <message>
-        <source>The membership request of %authorname for the &quot;%groupname&quot; group needs your approval.</source>
-        <translation type="obsolete">%authorname tagsági kérelmét a &quot;%groupname&quot; csoportba Önnek kell elbírálnia.</translation>
-    </message>
-    <message>
-        <source>You have approved the membership request of %authorname for the &quot;%groupname&quot; group.</source>
-        <translation type="obsolete">Ön jóváhagyta %authorname tagsági kérelmét a &quot;%groupname&quot; csoportba.</translation>
-    </message>
-    <message>
-        <source>You have denied the membership request of %authorname for the &quot;%groupname&quot; group.</source>
-        <translation type="obsolete">Ön elutasította %authorname tagsági kérelmét a &quot;%groupname&quot; csoportba.</translation>
-    </message>
-</context>
-<context>
-    <name>ezfind</name>
-    <message>
-        <source>Search time: %1 msecs</source>
-        <translation type="obsolete">Keresési idő: %1 ezredmásodperc</translation>
-    </message>
-</context>
-<context>
-    <name>ezmultiupload</name>
-    <message>
-        <source>The Files are uploaded to the Files section of the teamroom:</source>
-        <translation type="obsolete">A fájl feltöltve a csoportszoba fájltárába.</translation>
-    </message>
-    <message>
-        <source>You can upload a maximum filesize of</source>
-        <translation type="obsolete">Az Ön által feltölthető maximális fájlméret:</translation>
-    </message>
-    <message>
-        <source>Select Files</source>
-        <translation type="obsolete">Fájlok kijelölése</translation>
-    </message>
-    <message>
-        <source>Unable to load Flash content. You can download the latest version of Flash Player from the</source>
-        <translation type="obsolete">Nem lehet flash tartalmat feltölteni. Töltse le a legutóbbi változatát a Flash Playernek innen:</translation>
-    </message>
-    <message>
-        <source>Adobe Flash Player Download Center</source>
-        <translation type="obsolete">Adobe Flash Player letöltési központ</translation>
-    </message>
-    <message>
-        <source>All files received.</source>
-        <translation type="obsolete">Minden fájl megérkezett.</translation>
-    </message>
-    <message>
-        <source>Thumbnail Created.</source>
-        <translation type="obsolete">Bélyegkép elkészült.</translation>
-    </message>
-    <message>
-        <source>Starting...</source>
-        <translation type="obsolete">Kezdés...</translation>
-    </message>
-    <message>
-        <source>Muliti Upload</source>
-        <translation type="obsolete">Többszörös feltöltés</translation>
-    </message>
-    <message>
-        <source>The Files are uploaded to</source>
-        <translation type="obsolete">A fájl feltöltve ide:</translation>
-    </message>
-</context>
-<context>
-    <name>ezteamroom</name>
-    <message>
-        <source>Email</source>
-        <translation type="obsolete">E-mail</translation>
-    </message>
-    <message>
-        <source>send message</source>
-        <translation type="obsolete">Üzenetküldés</translation>
-    </message>
-    <message>
-        <source>Author</source>
-        <translation type="obsolete">Szerző</translation>
-    </message>
-    <message>
-        <source>Wiki</source>
-        <translation type="obsolete">Wiki</translation>
-    </message>
-    <message>
-        <source>Legend</source>
-        <translation type="obsolete">Történet</translation>
-    </message>
-    <message>
-        <source>Event</source>
-        <translation type="obsolete">Esemény</translation>
-    </message>
-    <message>
-        <source>Milestone</source>
-        <translation type="obsolete">Mérföldkő</translation>
-    </message>
-    <message>
-        <source>Task</source>
-        <translation type="obsolete">Feladat</translation>
-    </message>
-    <message>
-        <source>Last reply</source>
-        <translation type="obsolete">Utolsó válasz</translation>
+        <source>Anybody can see that the teamroom exists and can join it without asking you for permission.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2479,6 +202,14 @@ Az Ön kérése elbírálás alatt. Megtekintheti kérésenk státuszát vagy te
         <source>Currently there are no new messages.</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Only entries with tag &quot;%1&quot; are shown</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Shown only entries with tag &quot;%1&quot;</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>ezteamroom/bookmark</name>
@@ -2529,10 +260,6 @@ Az Ön kérése elbírálás alatt. Megtekintheti kérésenk státuszát vagy te
         <translation type="unfinished">Egy megjelenített objektum gyermekének kiválasztásához kattintson a szülő objektum nevére, hogy megjelenjen a gyermekek listája.</translation>
     </message>
     <message>
-        <source>Back</source>
-        <translation type="unfinished">Vissza</translation>
-    </message>
-    <message>
         <source>Top level</source>
         <translation type="unfinished">Felső szint</translation>
     </message>
@@ -2555,6 +282,10 @@ Az Ön kérése elbírálás alatt. Megtekintheti kérésenk státuszát vagy te
     <message>
         <source>Type</source>
         <translation type="unfinished">Típus</translation>
+    </message>
+    <message>
+        <source>Up</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2702,10 +433,6 @@ change your settings at:</source>
         <translation type="unfinished">Jóváhagy</translation>
     </message>
     <message>
-        <source>Membership approval</source>
-        <translation type="unfinished">Tagság jóváhagyva</translation>
-    </message>
-    <message>
         <source>Your membership request for the teamroom &quot;%groupname&quot; is awaiting approval. You can use the comment text field and the &quot;Add comment&quot; button to provide further information to the owner of the teamroom.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2760,14 +487,6 @@ change your settings at:</source>
     <message>
         <source>Show detailed information about %user</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Group info</source>
-        <translation type="unfinished">Csoportadatok</translation>
-    </message>
-    <message>
-        <source>Created at</source>
-        <translation type="unfinished">Létrehozott</translation>
     </message>
     <message>
         <source>Navigate to: %node</source>
@@ -2872,14 +591,6 @@ Your request is waiting for approval. To view the status of your request or to a
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>[%sitename] Teamroom membership approved</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Your membership in the teamroom &apos;%1&apos; has been approved by a teamroom moderator.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Use the following link to access the teamroom</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2892,10 +603,6 @@ Your request is waiting for approval. To view the status of your request or to a
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>If you do not have a user account yet, you will receive your account information in a separate email. You will find further information in this email about how to activate your user account to be able to use the teamroom.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>If you do not want to be a member of this teamroom, you can resign using the following link</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2904,15 +611,7 @@ Your request is waiting for approval. To view the status of your request or to a
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>The member &apos;%1&apos; has resigned from the teamroom &apos;%2&apos;.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>[%sitename] Teamroom membership resigned</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>You have successfully resigned from the teamroom &apos;%1&apos;.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2949,6 +648,58 @@ Your request is waiting for approval. To view the status of your request or to a
     </message>
     <message>
         <source>If you have any questions or problems, please send an email to the site administrator %sitenadmin.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Memberregistration approval</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The member &quot;%1&quot; has resigned from the teamroom &quot;%2&quot;.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>You have successfully resigned from the teamroom &quot;%1&quot;.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>[%sitename] Teamroom memberregistration approved</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>You have successfully joined the teamroom &apos;%1&apos;.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Your memberregistration in the teamroom &apos;%1&apos; has been approved by a teamroom moderator.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>If do not want to be a member of this teamroom anymore you can use the following link to resign from the teamroom.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>[%sitename] Teamroom memberregistration denied</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Your memberregistration in the teamroom &apos;%1&apos; has been denied by a teamroom moderator.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>[%sitename] Teamroom invitation reminder</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>If you do not have a user account yet, you received your account information in a separate email. You will find further information in this email about how to activate your user account to be able to use the teamroom.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>If you want to be notified about new members requesting access to your teamroom you can adjust the notification settings using the following link.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Approve teamroom membership</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -3066,10 +817,6 @@ Your request is waiting for approval. To view the status of your request or to a
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Widget Pool</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Latest Files</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3090,295 +837,31 @@ Your request is waiting for approval. To view the status of your request or to a
         <translation type="unfinished">Súgó</translation>
     </message>
     <message>
-        <source>Manage Teamroom</source>
+        <source>Teamroom Moderators</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Teamroom Moderators</source>
+        <source>Moderators</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The following users are currently moderators of this teamroom.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Boxes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This Teamroom</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>ezteamroom/design</name>
     <message>
-        <source>by</source>
-        <translation type="obsolete">általa</translation>
-    </message>
-    <message>
-        <source>No members in this group found.</source>
-        <translation type="obsolete">Nincs tag ebben a csoportban.</translation>
-    </message>
-    <message>
-        <source>No milestones found.</source>
-        <translation type="obsolete">Nincs mérföldkő.</translation>
-    </message>
-    <message>
-        <source>There are no related files.</source>
-        <translation type="obsolete">Itt nincs kapcsolódó fájl.</translation>
-    </message>
-    <message>
-        <source>There are no related tasks.</source>
-        <translation type="obsolete">Itt nincs kapcsolódó feladat.</translation>
-    </message>
-    <message>
-        <source>low</source>
-        <translation type="obsolete">alacsony</translation>
-    </message>
-    <message>
-        <source>tepid</source>
-        <translation type="obsolete">lagymatag</translation>
-    </message>
-    <message>
-        <source>normal</source>
-        <translation type="obsolete">normál</translation>
-    </message>
-    <message>
-        <source>medium</source>
-        <translation type="obsolete">közepes</translation>
-    </message>
-    <message>
-        <source>high</source>
-        <translation type="obsolete">magas</translation>
-    </message>
-    <message>
-        <source>Filename</source>
-        <translation type="obsolete">Fájlnév</translation>
-    </message>
-    <message>
         <source>Owner</source>
         <translation>Tulajdonos</translation>
-    </message>
-    <message>
-        <source>Keywords</source>
-        <translation type="obsolete">Kulcsszavak</translation>
-    </message>
-    <message>
-        <source>Filter</source>
-        <translation type="obsolete">Szűrő</translation>
-    </message>
-    <message>
-        <source>Are you sure you want to remove the file?</source>
-        <translation type="obsolete">Biztosan törölni szeretné ezt a fájlt?</translation>
-    </message>
-    <message>
-        <source>Sort By</source>
-        <translation type="obsolete">Rendezés</translation>
-    </message>
-    <message>
-        <source>Categories</source>
-        <translation type="obsolete">Kategóriák</translation>
-    </message>
-    <message>
-        <source>Navigation</source>
-        <translation type="obsolete">Irányítás</translation>
-    </message>
-    <message>
-        <source>Priority</source>
-        <translation type="obsolete">Sorrend</translation>
-    </message>
-    <message>
-        <source>Title</source>
-        <translation type="obsolete">Cím</translation>
-    </message>
-    <message>
-        <source>Progress</source>
-        <translation type="obsolete">Folyamat</translation>
-    </message>
-    <message>
-        <source>Planned end</source>
-        <translation type="obsolete">Tervezett befejezés</translation>
-    </message>
-    <message>
-        <source>End date</source>
-        <translation type="obsolete">Befejező időpont</translation>
-    </message>
-    <message>
-        <source>Type</source>
-        <translation type="obsolete">Típus</translation>
-    </message>
-    <message>
-        <source>Until</source>
-        <translation type="obsolete">Eddig</translation>
-    </message>
-    <message>
-        <source>Est. time</source>
-        <translation type="obsolete">Becsült időtartam</translation>
-    </message>
-    <message>
-        <source>Edit</source>
-        <translation type="obsolete">Szerkeszt</translation>
-    </message>
-    <message>
-        <source>Del.</source>
-        <translation type="obsolete">Törlés</translation>
-    </message>
-    <message>
-        <source>View finished tasks</source>
-        <translation type="obsolete">Befejezett feladatok megtekintése</translation>
-    </message>
-    <message>
-        <source>View unfinished tasks</source>
-        <translation type="obsolete">Futó feladatok megtekintése</translation>
-    </message>
-    <message>
-        <source>View only unfinished tasks</source>
-        <translation type="obsolete">Csak a futó feladatok megtekintése</translation>
-    </message>
-    <message>
-        <source>Name</source>
-        <translation type="obsolete">Név</translation>
-    </message>
-    <message>
-        <source>Created</source>
-        <translation type="obsolete">Létrehozta</translation>
-    </message>
-    <message>
-        <source>Description</source>
-        <translation type="obsolete">Leírás</translation>
-    </message>
-    <message>
-        <source>private</source>
-        <translation type="obsolete">magán</translation>
-    </message>
-    <message>
-        <source>protected</source>
-        <translation type="obsolete">védett</translation>
-    </message>
-    <message>
-        <source>public</source>
-        <translation type="obsolete">nyilvános</translation>
-    </message>
-    <message>
-        <source>You are not member of this team room, but you can join this team.</source>
-        <translation type="obsolete">Ön nem tagja ennek a csoportnak, de megnézheti a csoportot.</translation>
-    </message>
-    <message>
-        <source>Therefor you need to login or sign up first.</source>
-        <translation type="obsolete">Előbb be kell jelentkezni vagy regisztrálni.</translation>
-    </message>
-    <message>
-        <source>The teamroom has not been setup yet.</source>
-        <translation type="obsolete">A csoportszoba még nincs beállítva.</translation>
-    </message>
-    <message>
-        <source>Please be patient. The teamroom should be ready in a few minutes.</source>
-        <translation type="obsolete">Kérem, legyen türelmes!  A csoportszoba pár percen belül elkészül.</translation>
-    </message>
-    <message>
-        <source>Just press the button.</source>
-        <translation type="obsolete">Csak nyomja meg a gombot.</translation>
-    </message>
-    <message>
-        <source>Members</source>
-        <translation type="obsolete">Tagok</translation>
-    </message>
-    <message>
-        <source>The milestone has been closed.</source>
-        <translation type="obsolete">A mérföldkő lezárult.</translation>
-    </message>
-    <message>
-        <source>Author</source>
-        <translation type="obsolete">Szerző</translation>
-    </message>
-    <message>
-        <source>Teamroom</source>
-        <translation type="obsolete">Csoportszoba</translation>
-    </message>
-    <message>
-        <source>Tags</source>
-        <translation type="obsolete">&quot;Tag&quot;-ek</translation>
-    </message>
-    <message>
-        <source>Milestone</source>
-        <translation type="obsolete">Mérföldkő</translation>
-    </message>
-    <message>
-        <source>Persons in charge</source>
-        <translation type="obsolete">Megbízott személyek</translation>
-    </message>
-    <message>
-        <source>Related documents</source>
-        <translation type="obsolete">Kapcsolódó dokumentumok</translation>
-    </message>
-    <message>
-        <source>Visibility</source>
-        <translation type="obsolete">Láthatóság</translation>
-    </message>
-    <message>
-        <source>Help</source>
-        <translation type="obsolete">Súgó</translation>
-    </message>
-    <message>
-        <source>showing &lt;strong&gt;%1-%2&lt;/strong&gt; of &lt;strong&gt;%3&lt;/strong&gt;</source>
-        <translation type="obsolete">&lt;strong&gt;%3&lt;/strong&gt;-nak &lt;strong&gt;%1-%2&lt;/strong&gt; bemutatása</translation>
-    </message>
-    <message>
-        <source>Show me</source>
-        <translation type="obsolete">Mutasd!</translation>
-    </message>
-    <message>
-        <source>items per page</source>
-        <translation type="obsolete">Elem oldalanként</translation>
-    </message>
-    <message>
-        <source>My teamrooms</source>
-        <translation type="obsolete">Csoportszobáim</translation>
-    </message>
-    <message>
-        <source>My ownerships</source>
-        <translation type="obsolete">Tulajdonaim</translation>
-    </message>
-    <message>
-        <source>My memberships</source>
-        <translation type="obsolete">Tagságom</translation>
-    </message>
-    <message>
-        <source>Go</source>
-        <translation type="obsolete">Indít</translation>
-    </message>
-    <message>
-        <source>My Teamrooms</source>
-        <translation type="obsolete">Csoportszobáim</translation>
-    </message>
-    <message>
-        <source>Version</source>
-        <translation type="obsolete">Változat</translation>
-    </message>
-    <message>
-        <source>Teamroom policy management</source>
-        <translation type="obsolete">Csoportszoba jogekezelése</translation>
-    </message>
-    <message>
-        <source>Group</source>
-        <translation type="obsolete">Csoport</translation>
-    </message>
-    <message>
-        <source>User</source>
-        <translation type="obsolete">Felhasználó</translation>
-    </message>
-    <message>
-        <source>Move to %1</source>
-        <translation type="obsolete">Ide mozgasd: %1</translation>
-    </message>
-    <message>
-        <source>Remove selected</source>
-        <translation type="obsolete">Kijelölt törlése</translation>
-    </message>
-    <message>
-        <source>Store changes</source>
-        <translation type="obsolete">Mentés</translation>
-    </message>
-    <message>
-        <source>Store the changes.</source>
-        <translation type="obsolete">Változások mentése</translation>
-    </message>
-    <message>
-        <source>Invite new member</source>
-        <translation type="obsolete">Új tag meghívása</translation>
-    </message>
-    <message>
-        <source>Invite selected</source>
-        <translation type="obsolete">Kijelölt meghívása</translation>
     </message>
 </context>
 <context>
@@ -3609,16 +1092,8 @@ Felveheti a kapcsolatot vele az egyik piszkoztata szerkesztése miatt vagy létr
         <translation type="unfinished">Kategória</translation>
     </message>
     <message>
-        <source>Edit this event</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Remove this event</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Event this month</source>
-        <translation type="unfinished">Esemény ebben a hónapban</translation>
     </message>
     <message>
         <source>Today&apos;s events</source>
@@ -3627,10 +1102,6 @@ Felveheti a kapcsolatot vele az egyik piszkoztata szerkesztése miatt vagy létr
     <message>
         <source>Events on</source>
         <translation type="unfinished">Esemény ekkor</translation>
-    </message>
-    <message>
-        <source>Events in</source>
-        <translation type="unfinished">Esemény itt</translation>
     </message>
     <message>
         <source>Mon</source>
@@ -3716,6 +1187,86 @@ Felveheti a kapcsolatot vele az egyik piszkoztata szerkesztése miatt vagy létr
         <source>Future events</source>
         <translation type="unfinished">Jövőbeli események</translation>
     </message>
+    <message>
+        <source>Edit complete event</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Edit single event</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>From %1 to %2</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Invalid date</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Weekly on %1 from %2 to %3</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Monthly each %1.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Yearly the %1/%2</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation type="unfinished">Hely</translation>
+    </message>
+    <message>
+        <source>Attendees </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation type="unfinished">Nincs</translation>
+    </message>
+    <message>
+        <source>Attendees</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Events this month</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Events on %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Events in %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No filter</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Only &quot;%1&quot; are shown</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Shown only &quot;%1&quot;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%1 - %2</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No events</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>ezteamroom/files</name>
@@ -3780,16 +1331,8 @@ Felveheti a kapcsolatot vele az egyik piszkoztata szerkesztése miatt vagy létr
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Release</source>
-        <translation type="unfinished">Engedély</translation>
-    </message>
-    <message>
         <source>Lock this file</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Lock</source>
-        <translation type="unfinished">Bezár</translation>
     </message>
     <message>
         <source>Lightbox</source>
@@ -3800,10 +1343,6 @@ Felveheti a kapcsolatot vele az egyik piszkoztata szerkesztése miatt vagy létr
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Add to current Lightbox</source>
-        <translation type="unfinished">Alapértelmezett gyűjtődobozba tesz</translation>
-    </message>
-    <message>
         <source>You can not access the current lightbox.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3812,24 +1351,12 @@ Felveheti a kapcsolatot vele az egyik piszkoztata szerkesztése miatt vagy létr
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Versions</source>
-        <translation type="unfinished">Változatok</translation>
-    </message>
-    <message>
         <source>Edit this file or upload a new version</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Upload new version</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Delete this file</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Delete</source>
-        <translation type="unfinished">Töröl</translation>
     </message>
     <message>
         <source>Version</source>
@@ -3980,14 +1507,6 @@ Felveheti a kapcsolatot vele az egyik piszkoztata szerkesztése miatt vagy létr
         <translation type="unfinished">Kulcsszavak</translation>
     </message>
     <message>
-        <source>Previous image</source>
-        <translation type="unfinished">Előző kép</translation>
-    </message>
-    <message>
-        <source>Next image</source>
-        <translation type="unfinished">Következő kép</translation>
-    </message>
-    <message>
         <source>Browse all</source>
         <translation type="unfinished">Mind keresése</translation>
     </message>
@@ -4034,6 +1553,74 @@ Felveheti a kapcsolatot vele az egyik piszkoztata szerkesztése miatt vagy létr
     <message>
         <source>Starting...</source>
         <translation type="unfinished">Kezdés...</translation>
+    </message>
+    <message>
+        <source>Add this folder to the current lightbox</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Edit this folder or upload a new version</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Delete this folder</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Download this video</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Release this video</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Lock this video</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Show versions of this video</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Edit this video or upload a new version</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Shown only entries with tag &quot;%1&quot;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Are you sure you want to remove the folder?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>One level up</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Create folder</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Create a new folder</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Only files of category &quot;%1&quot; are shown</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Show only files of the category &quot;%1&quot;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Only files with tag &quot;%1&quot; are shown</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Shown only files with tag &quot;%1&quot;</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -4235,6 +1822,560 @@ Felveheti a kapcsolatot vele az egyik piszkoztata szerkesztése miatt vagy létr
     </message>
 </context>
 <context>
+    <name>ezteamroom/install/classes</name>
+    <message>
+        <source>Image</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation type="unfinished">Név</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Tags</source>
+        <translation type="unfinished">&quot;Tag&quot;-ek</translation>
+    </message>
+    <message>
+        <source>Quicktime</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Description</source>
+        <translation type="unfinished">Leírás</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Real video</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Windows media</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation type="unfinished">Felhasználó</translation>
+    </message>
+    <message>
+        <source>First name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Last name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>User account</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Signature</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Teamroom comment</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Subject</source>
+        <translation type="unfinished">Tárgy</translation>
+    </message>
+    <message>
+        <source>Author</source>
+        <translation type="unfinished">Szerző</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation type="unfinished">Üzenet</translation>
+    </message>
+    <message>
+        <source>Teamroom blog</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Teamroom Blog post</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Title</source>
+        <translation type="unfinished">Cím</translation>
+    </message>
+    <message>
+        <source>Body</source>
+        <translation type="unfinished">Törzs</translation>
+    </message>
+    <message>
+        <source>Publication date</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Unpublish date</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Enable comments</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Teamroom frontpage</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Billboard</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Left column</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Center column</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Right column</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Bottom column</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Teamroom documentation page</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Display sub items</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Teamroom info box</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Header</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Box Icon</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Content</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>URL</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Module URL</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Check access</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Relates to</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Teamroom file</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Category</source>
+        <translation type="unfinished">Kategória</translation>
+    </message>
+    <message>
+        <source>Documents</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Lightboxes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Sounds</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Pictures</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Thumbnail</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Teamroom forum</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Teamroom forum topic</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Sticky</source>
+        <translation type="unfinished">Cédula</translation>
+    </message>
+    <message>
+        <source>Notify me about updates</source>
+        <translation type="unfinished">Figyelmeztess a feltöltésekre</translation>
+    </message>
+    <message>
+        <source>Teamroom forum reply</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Teamroom event</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Full title</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Short title</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Text</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation type="unfinished">Hely</translation>
+    </message>
+    <message>
+        <source>Teamroom event calendar</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Full Title</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Short Title</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>View</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Teamroom news folder</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Short name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Folder</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Summary</source>
+        <translation type="unfinished">Összegzés</translation>
+    </message>
+    <message>
+        <source>Publish date</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Teamroom personalized frontpage</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Number of columns</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Allow Minimization</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Default arrangement</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Teamroom room</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Access type</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Feature list</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Teamroom tasks</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Teamroom task</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation type="unfinished">Folyamat</translation>
+    </message>
+    <message>
+        <source>Planned end date</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>End Date</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Estimated Effort (hours)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Estimated Effort (minutes)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Users</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Related documents</source>
+        <translation type="unfinished">Kapcsolódó dokumentumok</translation>
+    </message>
+    <message>
+        <source>Priority</source>
+        <translation type="unfinished">Sorrend</translation>
+    </message>
+    <message>
+        <source>Milestone</source>
+        <translation type="unfinished">Mérföldkő</translation>
+    </message>
+    <message>
+        <source>Teamroom file folder</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Teamroom file subfolder</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Subfolder</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Teamroom infobox folder</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Teamroom milestone</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Closed</source>
+        <translation type="unfinished">Zárt</translation>
+    </message>
+    <message>
+        <source>Teamroom milestone folder</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Teamroom lightbox</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Lightbox</source>
+        <translation type="unfinished">Gyűjtődoboz</translation>
+    </message>
+    <message>
+        <source>Lock</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>ezteamroom/install/roles</name>
+    <message>
+        <source>Use Teamroom</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use Lightbox</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Member</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Moderator</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Read Forum</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use Forum</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Read Blog</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use Blog</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Read Calendar</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use Calendar</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Read Documents</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use Documents</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Read Wiki</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use Wiki</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Read Tasks</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use Tasks</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Read Milestones</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use Milestones</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>ezteamroom/install/sections</name>
+    <message>
+        <source>Private Teamroom</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Public Teamroom</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>ezteamroom/install/sitename</name>
+    <message>
+        <source>eZ Teamroom</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>ezteamroom/install/teamroomcontent</name>
+    <message>
+        <source>Welcome. Success with eZ Teamrooms.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Boxes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Lightbox selection</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>My Teamrooms</source>
+        <translation type="unfinished">Csoportszobáim</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation type="unfinished">Súgó</translation>
+    </message>
+    <message>
+        <source>Some help text</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>All Teamrooms</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Create Teamroom</source>
+        <translation type="unfinished">Létrehoz</translation>
+    </message>
+    <message>
+        <source>Add your teamroom and get all the things to manage your team.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Lightboxes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Latest Messages</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>ezteamroom/install/workflows</name>
+    <message>
+        <source>Create Teamroom</source>
+        <translation type="unfinished">Létrehoz</translation>
+    </message>
+    <message>
+        <source>Approve Member Registration</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Set Teamroom Section</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Set Current Teamroom</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Post Publish Multiplexer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Set Teamroom Membership</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>ezteamroom/keepmeupdated</name>
     <message>
         <source>Keep me updated</source>
@@ -4242,6 +2383,10 @@ Felveheti a kapcsolatot vele az egyik piszkoztata szerkesztése miatt vagy létr
     </message>
     <message>
         <source>Receive an email if anything changes in this area</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Receive an email if new users join this teamroom or modify their profile.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -4607,16 +2752,8 @@ Felveheti a kapcsolatot vele az egyik piszkoztata szerkesztése miatt vagy létr
 <context>
     <name>ezteamroom/membership</name>
     <message>
-        <source>Membership approval</source>
-        <translation type="unfinished">Tagság jóváhagyva</translation>
-    </message>
-    <message>
         <source>Changes have been stored.</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Membership</source>
-        <translation type="unfinished">Tagság</translation>
     </message>
     <message>
         <source>Email</source>
@@ -4667,16 +2804,8 @@ Felveheti a kapcsolatot vele az egyik piszkoztata szerkesztése miatt vagy létr
         <translation type="unfinished">Új tag meghívása</translation>
     </message>
     <message>
-        <source>Sort By</source>
-        <translation type="unfinished">Rendezés</translation>
-    </message>
-    <message>
         <source>Teamroom</source>
         <translation type="unfinished">Csoportszoba</translation>
-    </message>
-    <message>
-        <source>There are no user.</source>
-        <translation type="unfinished">Itt nincs felhasználó.</translation>
     </message>
     <message>
         <source>Username</source>
@@ -4926,43 +3055,7 @@ Felveheti a kapcsolatot vele az egyik piszkoztata szerkesztése miatt vagy létr
         <translation type="unfinished">Felhasználó keresése:</translation>
     </message>
     <message>
-        <source>Select a user by browsing through all registered users.</source>
-        <translation type="unfinished">Felhasználó keresése az összes regisztrált között.</translation>
-    </message>
-    <message>
-        <source>Invite user</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Enter a valid email address. It is also possible to enter several email addresses by separting them with comma.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>User not found - Send email Invitation</source>
-        <translation type="unfinished">Felhasználó nem található. Küldjön meghívót!</translation>
-    </message>
-    <message>
-        <source>The user was not found. You can invite this user by email. He will automatically be assigned to this teamroom.</source>
-        <translation type="unfinished">A felhasználó nem található. Meghívhatja e-mailben, és automatikusan bejegyzésre kerül a csoportszobához.</translation>
-    </message>
-    <message>
-        <source>The invitation will be send to:</source>
-        <translation type="unfinished">A meghívót neki küldi:</translation>
-    </message>
-    <message>
-        <source>Additional Text:</source>
-        <translation type="unfinished">Szöveg:</translation>
-    </message>
-    <message>
-        <source>Send email invitation</source>
-        <translation type="unfinished">Meghívó küldése</translation>
-    </message>
-    <message>
         <source>Selected Users:</source>
-        <translation type="unfinished">Kijelölt felhasználók:</translation>
-    </message>
-    <message>
-        <source>Selected User:</source>
         <translation type="unfinished">Kijelölt felhasználók:</translation>
     </message>
     <message>
@@ -4974,20 +3067,12 @@ Felveheti a kapcsolatot vele az egyik piszkoztata szerkesztése miatt vagy létr
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Are you sure you want to request a membership for the teamroom &quot;%name&quot;?</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Yes</source>
         <translation type="unfinished">Igen</translation>
     </message>
     <message>
         <source>No</source>
         <translation type="unfinished">Nem</translation>
-    </message>
-    <message>
-        <source>You are already a member of this teamroom.</source>
-        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Your request for membership has been succesfully submitted and is now waiting for approval. You will receive status updates by e-mail.</source>
@@ -5039,20 +3124,8 @@ Felveheti a kapcsolatot vele az egyik piszkoztata szerkesztése miatt vagy létr
         <translation type="unfinished">Törlés a &quot;%name&quot; csoportszobából</translation>
     </message>
     <message>
-        <source>Do you really want to leave this team?</source>
-        <translation type="unfinished">Tényleg ki szeretne lépni ebből a csoportból?</translation>
-    </message>
-    <message>
         <source>Resigned from teamroom &quot;%name&quot;</source>
         <translation type="unfinished">Kilépett a &quot;%name&quot; csoportszobából.</translation>
-    </message>
-    <message>
-        <source>You are successfully resigned from this teamroom.</source>
-        <translation type="unfinished">Ön sikeresen kilépett ebből a csoportszobából.</translation>
-    </message>
-    <message>
-        <source>Approve membership</source>
-        <translation type="unfinished">Tagság jóváhagyása</translation>
     </message>
     <message>
         <source>Users were successfully selected</source>
@@ -5067,24 +3140,8 @@ Felveheti a kapcsolatot vele az egyik piszkoztata szerkesztése miatt vagy létr
         <translation type="unfinished">Ön egy érvénytelen e-mail címet vitt be:</translation>
     </message>
     <message>
-        <source>Unknown user: </source>
-        <translation type="unfinished">Ismeretlen felhasználó:</translation>
-    </message>
-    <message>
-        <source>New User</source>
-        <translation type="unfinished">Új felhasználó</translation>
-    </message>
-    <message>
         <source>The node (%1) specified in [UserSettings].DefaultUserPlacement setting in site.ini does not exist!</source>
         <translation type="unfinished">%1 csomópont  meghatározás [UserSettings].DefaultUserPlacement nincs beállítva a site.ini fájlban!</translation>
-    </message>
-    <message>
-        <source>You were invited</source>
-        <translation type="unfinished">Önt meghívták.</translation>
-    </message>
-    <message>
-        <source>$unkownUserMail was successfully invited</source>
-        <translation type="unfinished">$unkownUserMail sikeresen meghívta.</translation>
     </message>
     <message>
         <source>Manage Member</source>
@@ -5105,6 +3162,169 @@ Felveheti a kapcsolatot vele az egyik piszkoztata szerkesztése miatt vagy létr
     <message>
         <source>Resign</source>
         <translation type="unfinished">Kizár</translation>
+    </message>
+    <message>
+        <source>Group</source>
+        <translation type="unfinished">Csoport</translation>
+    </message>
+    <message>
+        <source>Send a remind invitation email to %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Invite again</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>There are no users.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Invite a user</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Enter a valid email address. It is also possible to enter a comma separated list of email addresses. If there does not exist a user with one of the given email addresses in the system yet, new user accounts will be generated for them automatically.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Search user</source>
+        <translation type="unfinished">Felhasználó keresés</translation>
+    </message>
+    <message>
+        <source>Search for existing users or invite new users according to their email addresses</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Select an existing user by browsing through all registered users.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Browse through user groups to find user that already have a user account</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Create new account for:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Automatically create user accounts for new users and send an invitation email to all users displayed in the list above</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Clear list</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Remove all users selected for invitation from the list displayed above</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Send the invitation email to &quot;%1&quot; again</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>You have successfully joined the teamroom &quot;%name&quot; and are now member of this teamroom.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>To the teamroom</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Do you really want to cancel your membership of this teamroom?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Your membership of this teamroom has successfully been canceld.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>To the teamrooms</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>User is already Member: </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>User already selected: </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>There is no registered user with that email address: </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source> A new account will be created.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>New invited user</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>remind of invitation mail send to %1.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Failed to move Member.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>ezteamroom/messagecenter</name>
+    <message>
+        <source>Send message</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>An email has been send using the teamroom &quot;%1&quot;. The message is included below.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use the following link to access the teamroom</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation type="unfinished">Megmutat</translation>
+    </message>
+    <message>
+        <source>Hide</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Member list</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Invert selection</source>
+        <translation type="unfinished">Kijelölés megfordítása</translation>
+    </message>
+    <message>
+        <source>Message form</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Receiver</source>
+        <translation type="unfinished">Címzett</translation>
+    </message>
+    <message>
+        <source>Subject</source>
+        <translation type="unfinished">Tárgy</translation>
+    </message>
+    <message>
+        <source>Body</source>
+        <translation type="unfinished">Törzs</translation>
+    </message>
+    <message>
+        <source>Back</source>
+        <translation type="unfinished">Vissza</translation>
+    </message>
+    <message>
+        <source>Message Center</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -5419,14 +3639,6 @@ Felveheti a kapcsolatot vele az egyik piszkoztata szerkesztése miatt vagy létr
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>End date</source>
-        <translation type="unfinished">Befejező időpont</translation>
-    </message>
-    <message>
-        <source>Type</source>
-        <translation type="unfinished">Típus</translation>
-    </message>
-    <message>
         <source>Effort</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5526,6 +3738,26 @@ Felveheti a kapcsolatot vele az egyik piszkoztata szerkesztése miatt vagy létr
         <source>Browse all</source>
         <translation type="unfinished">Mind keresése</translation>
     </message>
+    <message>
+        <source>Only milestones with tag &quot;%1&quot; are shown</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Shown only milestones with tag &quot;%1&quot;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>View all tasks</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Only tasks with tag &quot;%1&quot; are shown</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Shown only tasks with tag &quot;%1&quot;</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>ezteamroom/teamroom</name>
@@ -5572,18 +3804,6 @@ Felveheti a kapcsolatot vele az egyik piszkoztata szerkesztése miatt vagy létr
     <message>
         <source>Description</source>
         <translation type="unfinished">Leírás</translation>
-    </message>
-    <message>
-        <source>private</source>
-        <translation type="unfinished">magán</translation>
-    </message>
-    <message>
-        <source>protected</source>
-        <translation type="unfinished">védett</translation>
-    </message>
-    <message>
-        <source>public</source>
-        <translation type="unfinished">nyilvános</translation>
     </message>
     <message>
         <source>Username</source>
@@ -5679,10 +3899,6 @@ Felveheti a kapcsolatot vele az egyik piszkoztata szerkesztése miatt vagy létr
     <message>
         <source>Join this teamroom</source>
         <translation type="unfinished">Csoportszoba használata</translation>
-    </message>
-    <message>
-        <source>A membership is required to access this teamroom. If you want to become a member of this teamroom you can use the button on the left to ask a teamroom moderator for access to this teamroom.</source>
-        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>creation in progress</source>
@@ -5789,14 +4005,6 @@ Felveheti a kapcsolatot vele az egyik piszkoztata szerkesztése miatt vagy létr
         <translation type="unfinished">Csoportszobáim</translation>
     </message>
     <message>
-        <source>My ownerships</source>
-        <translation type="unfinished">Tulajdonaim</translation>
-    </message>
-    <message>
-        <source>My memberships</source>
-        <translation type="unfinished">Tagságom</translation>
-    </message>
-    <message>
         <source>Site map</source>
         <translation type="unfinished">Oldaltérkép</translation>
     </message>
@@ -5853,14 +4061,6 @@ Felveheti a kapcsolatot vele az egyik piszkoztata szerkesztése miatt vagy létr
         <translation type="unfinished">Felhasználó</translation>
     </message>
     <message>
-        <source>Status</source>
-        <translation type="unfinished">Státusz</translation>
-    </message>
-    <message>
-        <source>Set status to %1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Invert selection</source>
         <translation type="unfinished">Kijelölés megfordítása</translation>
     </message>
@@ -5879,6 +4079,90 @@ Felveheti a kapcsolatot vele az egyik piszkoztata szerkesztése miatt vagy létr
     <message>
         <source>Invite selected</source>
         <translation type="unfinished">Kijelölt meghívása</translation>
+    </message>
+    <message>
+        <source>Approve teamroom membership</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>approve member registration</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Changes have been stored.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Membership</source>
+        <translation type="unfinished">Tagság</translation>
+    </message>
+    <message>
+        <source>If you disable features in your teamroom this will have no effect on existing contents in that area. Thus, you can also enable a feature later on and you will get the same content.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>To create a new teamroom just enter a title and a short description for it.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The access types can be used for access control to your teamroom as follows</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Only those features that you selected will be visible in your teamroom. It is also possible to de-/activate features after the teamroom has been created.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>A membership is required to access this teamroom. If you want to become a member of this teamroom you can request a membership for this teamroom. After a moderator has approved your membership you will get further access to this teamroom.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Request membership</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Even if this is a public teamroom and you can read most of its content, it is possible to join this teamroom to become a permanent member. This will enable to better participate in teamroom activities. After you have joined this teamroom you will be able to make use of the teamroom.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Teamroom Logo</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Remove this teamroom</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>There are no Teamrooms yet</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Move to group &quot;%1&quot;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Join teamroom &quot;%name&quot;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Teamroom &quot;%name&quot; - Request for membership</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Are you sure you want to join the teamroom &quot;%name&quot;?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Are you sure you want to request a membership for the teamroom &quot;%name&quot;?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Yes</source>
+        <translation type="unfinished">Igen</translation>
+    </message>
+    <message>
+        <source>No</source>
+        <translation type="unfinished">Nem</translation>
     </message>
 </context>
 <context>
@@ -5917,149 +4201,14 @@ Felveheti a kapcsolatot vele az egyik piszkoztata szerkesztése miatt vagy létr
     </message>
 </context>
 <context>
-    <name>ezteamroon/design</name>
+    <name>lightbox/view</name>
     <message>
-        <source>Download</source>
-        <translation type="obsolete">Letöltés</translation>
+        <source>Go back</source>
+        <translation type="unfinished">Vissza</translation>
     </message>
     <message>
-        <source>Release</source>
-        <translation type="obsolete">Engedély</translation>
-    </message>
-    <message>
-        <source>Lock</source>
-        <translation type="obsolete">Bezár</translation>
-    </message>
-    <message>
-        <source>Add to current Lightbox</source>
-        <translation type="obsolete">Alapértelmezett gyűjtődobozba tesz</translation>
-    </message>
-    <message>
-        <source>Versions</source>
-        <translation type="obsolete">Változatok</translation>
-    </message>
-    <message>
-        <source>Upload&lt;br /&gt;new version</source>
-        <translation type="obsolete">Új változat&lt;br /&gt;feltöltése</translation>
-    </message>
-    <message>
-        <source>Delete</source>
-        <translation type="obsolete">Töröl</translation>
-    </message>
-    <message>
-        <source>Edit</source>
-        <translation type="obsolete">Szerkeszt</translation>
-    </message>
-    <message>
-        <source>Closed</source>
-        <translation type="obsolete">Zárt</translation>
-    </message>
-    <message>
-        <source>Close</source>
-        <translation type="obsolete">Bezár</translation>
-    </message>
-    <message>
-        <source>Details</source>
-        <translation type="obsolete">Részletek</translation>
-    </message>
-    <message>
-        <source>Update</source>
-        <translation type="obsolete">Frissítés</translation>
-    </message>
-    <message>
-        <source>Task related to this milestone</source>
-        <translation type="obsolete">A feladat ehhez a mérföldkőhöz kapcsolódik.</translation>
-    </message>
-    <message>
-        <source>Other things related to this milestone</source>
-        <translation type="obsolete">A mérföldkőhöz kapcsolódó dolgok</translation>
-    </message>
-</context>
-<context>
-    <name>eztension/ezteamroom</name>
-    <message>
-        <source>Join this teamroom</source>
-        <translation type="obsolete">Csoportszoba használata</translation>
-    </message>
-</context>
-<context>
-    <name>kernel/user/register</name>
-    <message>
-        <source>You were invited</source>
-        <translation type="obsolete">Önt meghívták.</translation>
-    </message>
-</context>
-<context>
-    <name>mmc/admin</name>
-    <message>
-        <source>not translatable</source>
-        <translation type="obsolete">nem lefordítható</translation>
-    </message>
-    <message>
-        <source>required</source>
-        <translation type="obsolete">szükséges</translation>
-    </message>
-    <message>
-        <source>information collector</source>
-        <translation type="obsolete">Adatgyűjtő</translation>
-    </message>
-    <message>
-        <source>Name</source>
-        <translation type="obsolete">Név</translation>
-    </message>
-    <message>
-        <source>Type</source>
-        <translation type="obsolete">Típus</translation>
-    </message>
-    <message>
-        <source>Section</source>
-        <translation type="obsolete">Szakasz</translation>
-    </message>
-    <message>
-        <source>No relation</source>
-        <translation type="obsolete">Nincs kapcsolat.</translation>
-    </message>
-    <message>
-        <source>Remove object</source>
-        <translation type="obsolete">Objektum törlése</translation>
-    </message>
-    <message>
-        <source>Add object</source>
-        <translation type="obsolete">Objektum hozzáadása</translation>
-    </message>
-</context>
-<context>
-    <name>teamroom</name>
-    <message>
-        <source>low</source>
-        <translation type="obsolete">alacsony</translation>
-    </message>
-    <message>
-        <source>tepid</source>
-        <translation type="obsolete">lagymatag</translation>
-    </message>
-    <message>
-        <source>normal</source>
-        <translation type="obsolete">normál</translation>
-    </message>
-    <message>
-        <source>medium</source>
-        <translation type="obsolete">közepes</translation>
-    </message>
-    <message>
-        <source>high</source>
-        <translation type="obsolete">magas</translation>
-    </message>
-    <message>
-        <source>Priority:</source>
-        <translation type="obsolete">Sorrend:</translation>
-    </message>
-</context>
-<context>
-    <name>teamroom/bookmark</name>
-    <message>
-        <source>Lightbox</source>
-        <translation type="obsolete">Gyűjtődoboz</translation>
+        <source>Use this button to go back to the last page.</source>
+        <translation type="unfinished">Itt mehet vissza a legutóbbi oldalra.</translation>
     </message>
 </context>
 </TS>

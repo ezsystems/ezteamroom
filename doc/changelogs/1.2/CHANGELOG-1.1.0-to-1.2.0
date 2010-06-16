@@ -1,0 +1,8 @@
+Changes from 1.1.0 to 1.2.0
+
+*Bugs*
+
+- Fixed bug #16869: Ezteamroom install in french
+- Fixed bug #16651: The lock feature does not seem to work
+
+*Enhancements*

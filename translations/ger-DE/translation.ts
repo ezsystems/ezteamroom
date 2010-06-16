@@ -1,4 +1,6 @@
-<!DOCTYPE TS><TS>
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.0">
 <context>
     <name>design/ezteamroom</name>
     <message>
@@ -261,10 +263,6 @@ Alle Objekte, die Sie aus dieser Liste entfernen, werden ausschließlich aus &qu
         <translation>Um Objekte auszuwählen, die Kindelemente von hier sichtbaren Objekten sind, klicken Sie bitte das Elternelement um die Kindelemente angezeigt zu bekommen.</translation>
     </message>
     <message>
-        <source>Back</source>
-        <translation type="obsolete">Zurück</translation>
-    </message>
-    <message>
         <source>Top level</source>
         <translation>Oberste Ebene</translation>
     </message>
@@ -348,10 +346,6 @@ Alle Objekte, die Sie aus dieser Liste entfernen, werden ausschließlich aus &qu
         <translation>Freigabe</translation>
     </message>
     <message>
-        <source>Membership approval</source>
-        <translation type="obsolete">Mitgliederfreigabe</translation>
-    </message>
-    <message>
         <source>You have approved the membership request of %authorname for the &quot;%groupname&quot; group.</source>
         <translation>Sie haben der Anfrage auf Mitgliedschaft von %authorname für den Teamroom &quot;%groupname&quot; stattgegeben.</translation>
     </message>
@@ -374,14 +368,6 @@ Alle Objekte, die Sie aus dieser Liste entfernen, werden ausschließlich aus &qu
     <message>
         <source>Registered at</source>
         <translation>Registriert am</translation>
-    </message>
-    <message>
-        <source>Group info</source>
-        <translation type="obsolete">Gruppen Informationen</translation>
-    </message>
-    <message>
-        <source>Created at</source>
-        <translation type="obsolete">Angelegt am</translation>
     </message>
     <message>
         <source>Participants</source>
@@ -504,10 +490,6 @@ Sie müssen noch auf die Freigabe warten. Um den aktuellen Status der Anfrage zu
         <translation>Folgen Sie dem Link um direkt zum Teamroom zu gelangen</translation>
     </message>
     <message>
-        <source>The member &apos;%1&apos; has resigned from the teamroom &apos;%2&apos;.</source>
-        <translation type="obsolete">Das Mitglied &apos;%1&apos; hat seine Mitgliedschaft im Teamroom &apos;%2&apos; beendet.</translation>
-    </message>
-    <message>
         <source>The following features are enabled in your new teamroom</source>
         <translation>Die folgenden Funktionen sind in Ihrem neuen Teamroom aktiviert</translation>
     </message>
@@ -526,10 +508,6 @@ Sie müssen noch auf die Freigabe warten. Um den aktuellen Status der Anfrage zu
     <message>
         <source>If you are thinking this was done by a mistake, please get in contact with the owner &apos;%1&apos; of the teamroom.</source>
         <translation>Wenn Sie der Meinung sind, dass dies aus Versehen passiert ist, melden Sie sich bitte beim Eigentümer &apos;%1&apos; dieses Teamroom.</translation>
-    </message>
-    <message>
-        <source>You have successfully resigned from the teamroom &apos;%1&apos;.</source>
-        <translation type="obsolete">Sie haben Ihre Mitgliedschaft im Teamroom &apos;%1&apos; beendet.</translation>
     </message>
     <message>
         <source>This mail was sent by the notification system on %sitename</source>
@@ -633,14 +611,6 @@ Sie müssen noch auf die Freigabe warten. Um den aktuellen Status der Anfrage zu
         <translation>[%sitename] Teamroom Mitgliedschaft aufgegeben</translation>
     </message>
     <message>
-        <source>[%sitename] Teamroom membership approved</source>
-        <translation type="obsolete">[%sitename] Teamroom Mitgliedschaft bestätigt</translation>
-    </message>
-    <message>
-        <source>Your membership in the teamroom &apos;%1&apos; has been approved by a teamroom moderator.</source>
-        <translation type="obsolete">Ihre Mitgliedschaft im Teamroom &apos;%1&apos; wurde von einem Teamroom Moderator bestätigt.</translation>
-    </message>
-    <message>
         <source>&quot;%name&quot; was updated</source>
         <translation>&quot;%name&quot; wurde aktualisiert</translation>
     </message>
@@ -686,18 +656,6 @@ change your settings at:</source>
         <translation>Ein Teamroom Moderator hat Sie als Mitglied in den Teamroom &apos;%1&apos; eingeladen.</translation>
     </message>
     <message>
-        <source>If you do not have a user account yet, you will receive your account information in a separate email. You will find further information in this email about how to activate your user account to be able to use the teamroom.</source>
-        <translation type="obsolete">Wenn Sie bisher kein Benutzerkonto haben, werden Sie in einer separaten E-Mail Ihre Zugangsdaten erhalten. Sie werden weitere Informationen in dieser E-Mail darüber finden, wie Sie das Benutzerkonto aktivieren, um auf den Teamroom zugreifen zu können.</translation>
-    </message>
-    <message>
-        <source>[%sitename] Teamroom membership denied</source>
-        <translation type="obsolete">[%sitename] Teamroom Mitgliedschaft verweigert</translation>
-    </message>
-    <message>
-        <source>Your membership in the teamroom &apos;%1&apos; has been denied by a teamroom moderator.</source>
-        <translation type="obsolete">Ihre Mitgliedschaft im Teamroom &apos;%1&apos; wurde von einem Teamroom Moderator verweigert.</translation>
-    </message>
-    <message>
         <source>Memberregistration approval</source>
         <translation>Mitgliederregistrierung freischalten</translation>
     </message>
@@ -732,14 +690,6 @@ change your settings at:</source>
     <message>
         <source>Your memberregistration in the teamroom &apos;%1&apos; has been denied by a teamroom moderator.</source>
         <translation>Ihre Mitgliederregistrierung im Teamroom &apos;%1&apos; wurde durch einen Teamroom-Moderator verweigert.</translation>
-    </message>
-    <message>
-        <source>[%sitename] Teamroom invitation/user account</source>
-        <translation type="obsolete">[%sitename] Teamroom Einladung/Benutzer Konto</translation>
-    </message>
-    <message>
-        <source>[%sitename] remind of Teamroom invitation</source>
-        <translation type="obsolete">[%sitename] Erinnerung an eine Teamroom Einladung</translation>
     </message>
     <message>
         <source>If you do not have a user account yet, you received your account information in a separate email. You will find further information in this email about how to activate your user account to be able to use the teamroom.</source>
@@ -840,10 +790,6 @@ change your settings at:</source>
         <translation>Mein erster Blogeintrag</translation>
     </message>
     <message>
-        <source>Widget Pool</source>
-        <translation type="obsolete">Widget Pool</translation>
-    </message>
-    <message>
         <source>Latest Files</source>
         <translation>Neuste Dateien</translation>
     </message>
@@ -862,10 +808,6 @@ change your settings at:</source>
     <message>
         <source>Help</source>
         <translation>Hilfe</translation>
-    </message>
-    <message>
-        <source>Manage Teamroom</source>
-        <translation type="obsolete">Verwaltung</translation>
     </message>
     <message>
         <source>Teamroom Moderators</source>
@@ -1155,20 +1097,12 @@ Sie sollten diese Person kontaktieren oder einen neuen eigenen Entwurf anlegen.<
         <translation>Kategorie</translation>
     </message>
     <message>
-        <source>Event this month</source>
-        <translation type="obsolete">Termine in diesem Monat</translation>
-    </message>
-    <message>
         <source>Today&apos;s events</source>
         <translation>Heutige Termine</translation>
     </message>
     <message>
         <source>Events on</source>
         <translation>Termine am</translation>
-    </message>
-    <message>
-        <source>Events in</source>
-        <translation type="obsolete">Termine in</translation>
     </message>
     <message>
         <source>Mon</source>
@@ -1253,10 +1187,6 @@ Sie sollten diese Person kontaktieren oder einen neuen eigenen Entwurf anlegen.<
     <message>
         <source>Add new event</source>
         <translation>Neuer Termin</translation>
-    </message>
-    <message>
-        <source>Edit this event</source>
-        <translation type="obsolete">Diesen Termin bearbeiten</translation>
     </message>
     <message>
         <source>Remove this event</source>
@@ -1418,14 +1348,6 @@ Sie sollten diese Person kontaktieren oder einen neuen eigenen Entwurf anlegen.<
         <translation>Tags</translation>
     </message>
     <message>
-        <source>Previous image</source>
-        <translation type="obsolete">Vorheriges Bild</translation>
-    </message>
-    <message>
-        <source>Next image</source>
-        <translation type="obsolete">Nächstes Bild</translation>
-    </message>
-    <message>
         <source>Browse all</source>
         <translation>Alle durchsuchen</translation>
     </message>
@@ -1474,28 +1396,8 @@ Sie sollten diese Person kontaktieren oder einen neuen eigenen Entwurf anlegen.<
         <translation>Herunterladen</translation>
     </message>
     <message>
-        <source>Release</source>
-        <translation type="obsolete">Freigeben</translation>
-    </message>
-    <message>
-        <source>Lock</source>
-        <translation type="obsolete">Sperren</translation>
-    </message>
-    <message>
         <source>Lightbox</source>
         <translation>Lightbox</translation>
-    </message>
-    <message>
-        <source>Add to current Lightbox</source>
-        <translation type="obsolete">Zur aktuellen&lt;br /&gt;Lightbox</translation>
-    </message>
-    <message>
-        <source>Versions</source>
-        <translation type="obsolete">Versionen</translation>
-    </message>
-    <message>
-        <source>Delete</source>
-        <translation type="obsolete">Entfernen</translation>
     </message>
     <message>
         <source>Version</source>
@@ -1536,10 +1438,6 @@ Sie sollten diese Person kontaktieren oder einen neuen eigenen Entwurf anlegen.<
     <message>
         <source>Rejected</source>
         <translation>Zurückgewiesen</translation>
-    </message>
-    <message>
-        <source>Upload new version</source>
-        <translation type="obsolete">Neue Version</translation>
     </message>
     <message>
         <source>Upload file</source>
@@ -1947,28 +1845,372 @@ Sie sollten diese Person kontaktieren oder einen neuen eigenen Entwurf anlegen.<
         <translation>Bilder</translation>
     </message>
     <message>
-        <source>Private</source>
-        <translation type="obsolete">Privat</translation>
-    </message>
-    <message>
-        <source>Internal</source>
-        <translation type="obsolete">Intern</translation>
-    </message>
-    <message>
-        <source>Protected</source>
-        <translation type="obsolete">Geschützt</translation>
-    </message>
-    <message>
-        <source>Public</source>
-        <translation type="obsolete">Öffentlich</translation>
-    </message>
-    <message>
         <source>Folder</source>
         <translation>Ordner</translation>
     </message>
     <message>
         <source>Subfolder</source>
         <translation>Unterordner</translation>
+    </message>
+    <message>
+        <source>Image</source>
+        <translation>Bild</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Name</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Überschrift</translation>
+    </message>
+    <message>
+        <source>Tags</source>
+        <translation>Tags</translation>
+    </message>
+    <message>
+        <source>Quicktime</source>
+        <translation>Quicktime</translation>
+    </message>
+    <message>
+        <source>Description</source>
+        <translation>Beschreibung</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>Datei</translation>
+    </message>
+    <message>
+        <source>Real video</source>
+        <translation>Real Video</translation>
+    </message>
+    <message>
+        <source>Windows media</source>
+        <translation>Windows Medien</translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation>Benutzer</translation>
+    </message>
+    <message>
+        <source>First name</source>
+        <translation>Vorname</translation>
+    </message>
+    <message>
+        <source>Last name</source>
+        <translation>Nachname</translation>
+    </message>
+    <message>
+        <source>User account</source>
+        <translation>Zugangsdaten</translation>
+    </message>
+    <message>
+        <source>Signature</source>
+        <translation>Signatur</translation>
+    </message>
+    <message>
+        <source>Teamroom comment</source>
+        <translation>Teamroom Kommentar</translation>
+    </message>
+    <message>
+        <source>Subject</source>
+        <translation>Betreff</translation>
+    </message>
+    <message>
+        <source>Author</source>
+        <translation>Autor</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Nachricht</translation>
+    </message>
+    <message>
+        <source>Teamroom blog</source>
+        <translation>Teamroom Blog</translation>
+    </message>
+    <message>
+        <source>Teamroom Blog post</source>
+        <translation>Teamroom Blog-Eintrag</translation>
+    </message>
+    <message>
+        <source>Title</source>
+        <translation>Titel</translation>
+    </message>
+    <message>
+        <source>Body</source>
+        <translation>Inhalt</translation>
+    </message>
+    <message>
+        <source>Publication date</source>
+        <translation>Publizierungsdatum</translation>
+    </message>
+    <message>
+        <source>Unpublish date</source>
+        <translation>Depublizierungsdatum</translation>
+    </message>
+    <message>
+        <source>Enable comments</source>
+        <translation>Kommentare erlauben</translation>
+    </message>
+    <message>
+        <source>Teamroom frontpage</source>
+        <translation>Teamroom Einstiegsseite</translation>
+    </message>
+    <message>
+        <source>Billboard</source>
+        <translation>Titelbild</translation>
+    </message>
+    <message>
+        <source>Left column</source>
+        <translation>Linke Spalte</translation>
+    </message>
+    <message>
+        <source>Center column</source>
+        <translation>Mittlere Spalte</translation>
+    </message>
+    <message>
+        <source>Right column</source>
+        <translation>Rechte Spalte</translation>
+    </message>
+    <message>
+        <source>Bottom column</source>
+        <translation>Fußzeile</translation>
+    </message>
+    <message>
+        <source>Teamroom documentation page</source>
+        <translation>Teamroom Dokumentationsseite</translation>
+    </message>
+    <message>
+        <source>Display sub items</source>
+        <translation>Zeige Unterelemente</translation>
+    </message>
+    <message>
+        <source>Teamroom info box</source>
+        <translation>Teamroom Informationsbox</translation>
+    </message>
+    <message>
+        <source>Header</source>
+        <translation>Überschrift</translation>
+    </message>
+    <message>
+        <source>Box Icon</source>
+        <translation>Box Icon</translation>
+    </message>
+    <message>
+        <source>Content</source>
+        <translation>Inhalt</translation>
+    </message>
+    <message>
+        <source>URL</source>
+        <translation>URL</translation>
+    </message>
+    <message>
+        <source>Module URL</source>
+        <translation>Modul-URL</translation>
+    </message>
+    <message>
+        <source>Check access</source>
+        <translation>Rechte überprüfen</translation>
+    </message>
+    <message>
+        <source>Relates to</source>
+        <translation>Steht in Beziehung mit</translation>
+    </message>
+    <message>
+        <source>Teamroom file</source>
+        <translation>Teamroom Datei</translation>
+    </message>
+    <message>
+        <source>Category</source>
+        <translation>Kategorie</translation>
+    </message>
+    <message>
+        <source>Thumbnail</source>
+        <translation>Vorschaubild</translation>
+    </message>
+    <message>
+        <source>Teamroom forum</source>
+        <translation>Teamroom Forum</translation>
+    </message>
+    <message>
+        <source>Teamroom forum topic</source>
+        <translation>Teamroom Forum-Thema</translation>
+    </message>
+    <message>
+        <source>Sticky</source>
+        <translation>Sticky</translation>
+    </message>
+    <message>
+        <source>Notify me about updates</source>
+        <translation>Über Änderungen informieren</translation>
+    </message>
+    <message>
+        <source>Teamroom forum reply</source>
+        <translation>Teamroom Forum-Antwort</translation>
+    </message>
+    <message>
+        <source>Teamroom event</source>
+        <translation>Teamroom Termin</translation>
+    </message>
+    <message>
+        <source>Full title</source>
+        <translation>Titel</translation>
+    </message>
+    <message>
+        <source>Short title</source>
+        <translation>Kurzer Titel</translation>
+    </message>
+    <message>
+        <source>Text</source>
+        <translation>Text</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Datum</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Ort</translation>
+    </message>
+    <message>
+        <source>Teamroom event calendar</source>
+        <translation>Teamroom Terminkalender</translation>
+    </message>
+    <message>
+        <source>Full Title</source>
+        <translation>Titel</translation>
+    </message>
+    <message>
+        <source>Short Title</source>
+        <translation>Kurzer Titel</translation>
+    </message>
+    <message>
+        <source>View</source>
+        <translation>Sicht</translation>
+    </message>
+    <message>
+        <source>Teamroom news folder</source>
+        <translation>Teamroom Nachrichten-Ordner</translation>
+    </message>
+    <message>
+        <source>Short name</source>
+        <translation>Kurzer Name</translation>
+    </message>
+    <message>
+        <source>Summary</source>
+        <translation>Zusammenfassung</translation>
+    </message>
+    <message>
+        <source>Publish date</source>
+        <translation>Publizierungsdatum</translation>
+    </message>
+    <message>
+        <source>Teamroom personalized frontpage</source>
+        <translation>Teamroom Individuelle Einstiegsseite</translation>
+    </message>
+    <message>
+        <source>Number of columns</source>
+        <translation>Anzahl der Spalten</translation>
+    </message>
+    <message>
+        <source>Allow Minimization</source>
+        <translation>Minimierung möglich</translation>
+    </message>
+    <message>
+        <source>Default arrangement</source>
+        <translation>Standardanordnung</translation>
+    </message>
+    <message>
+        <source>Teamroom room</source>
+        <translation>Teamroom Raum</translation>
+    </message>
+    <message>
+        <source>Access type</source>
+        <translation>Zugriffsart</translation>
+    </message>
+    <message>
+        <source>Feature list</source>
+        <translation>Funktionen</translation>
+    </message>
+    <message>
+        <source>Teamroom tasks</source>
+        <translation>Teamroom Aufgaben</translation>
+    </message>
+    <message>
+        <source>Teamroom task</source>
+        <translation>Teamroom Aufgabe</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>Fortschritt</translation>
+    </message>
+    <message>
+        <source>Planned end date</source>
+        <translation>Geplantes Ende</translation>
+    </message>
+    <message>
+        <source>End Date</source>
+        <translation>Enddatum</translation>
+    </message>
+    <message>
+        <source>Estimated Effort (hours)</source>
+        <translation>Geplanter Aufwand (Stunden)</translation>
+    </message>
+    <message>
+        <source>Estimated Effort (minutes)</source>
+        <translation>Geplanter Aufwand (Minuten)</translation>
+    </message>
+    <message>
+        <source>Users</source>
+        <translation>Teilnehmer</translation>
+    </message>
+    <message>
+        <source>Related documents</source>
+        <translation>Verknüpfte Dokumente</translation>
+    </message>
+    <message>
+        <source>Priority</source>
+        <translation>Priorität</translation>
+    </message>
+    <message>
+        <source>Milestone</source>
+        <translation>Meilenstein</translation>
+    </message>
+    <message>
+        <source>Teamroom file folder</source>
+        <translation>Teamroom Datei-Ordner</translation>
+    </message>
+    <message>
+        <source>Teamroom file subfolder</source>
+        <translation>Teamroom Datei-Unterordner</translation>
+    </message>
+    <message>
+        <source>Teamroom infobox folder</source>
+        <translation>Teamroom Informationsbox-Ordner</translation>
+    </message>
+    <message>
+        <source>Teamroom milestone</source>
+        <translation>Teamroom Meilenstein</translation>
+    </message>
+    <message>
+        <source>Closed</source>
+        <translation>Abgeschlossen</translation>
+    </message>
+    <message>
+        <source>Teamroom milestone folder</source>
+        <translation>Teamroom Meilenstein-Ordner</translation>
+    </message>
+    <message>
+        <source>Teamroom lightbox</source>
+        <translation>Teamroom Lightbox</translation>
+    </message>
+    <message>
+        <source>Lightbox</source>
+        <translation>Lightbox</translation>
+    </message>
+    <message>
+        <source>Lock</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2069,10 +2311,6 @@ Sie sollten diese Person kontaktieren oder einen neuen eigenen Entwurf anlegen.<
     <message>
         <source>Welcome. Success with eZ Teamrooms.</source>
         <translation>Willkommen. Erfolg durch eZ Teamrooms.</translation>
-    </message>
-    <message>
-        <source>Teamrooms</source>
-        <translation type="obsolete">Teamräume</translation>
     </message>
     <message>
         <source>Boxes</source>
@@ -2519,14 +2757,6 @@ Sie sollten diese Person kontaktieren oder einen neuen eigenen Entwurf anlegen.<
 <context>
     <name>ezteamroom/membership</name>
     <message>
-        <source>Membership approval</source>
-        <translation type="obsolete">Freigabe der Mitgliedschaft</translation>
-    </message>
-    <message>
-        <source>Membership</source>
-        <translation type="obsolete">Mitgliedschaft</translation>
-    </message>
-    <message>
         <source>Email</source>
         <translation>E-Mail</translation>
     </message>
@@ -2571,16 +2801,8 @@ Sie sollten diese Person kontaktieren oder einen neuen eigenen Entwurf anlegen.<
         <translation>Einladen</translation>
     </message>
     <message>
-        <source>Sort By</source>
-        <translation type="obsolete">Sortieren nach</translation>
-    </message>
-    <message>
         <source>Teamroom</source>
         <translation>Teamroom</translation>
-    </message>
-    <message>
-        <source>There are no user.</source>
-        <translation type="obsolete">Keine Benutzer vorhanden.</translation>
     </message>
     <message>
         <source>Username</source>
@@ -2787,40 +3009,12 @@ Sie sollten diese Person kontaktieren oder einen neuen eigenen Entwurf anlegen.<
         <translation>Mitglieder einladen</translation>
     </message>
     <message>
-        <source>Select a user by browsing through all registered users.</source>
-        <translation type="obsolete">Wählen Sie einen Benutzer aus, indem Sie alle registrierten Benutzer durchsuchen.</translation>
-    </message>
-    <message>
         <source>Browse users</source>
         <translation>Benutzer suchen</translation>
     </message>
     <message>
-        <source>User not found - Send email Invitation</source>
-        <translation type="obsolete">Benutzer nicht gefunden - Einladung per E-Mail senden</translation>
-    </message>
-    <message>
-        <source>The user was not found. You can invite this user by email. He will automatically be assigned to this teamroom.</source>
-        <translation type="obsolete">Der Benutzer wurde nicht gefunden. Sie können ihn per E-Mail einladen. Er wird automatisch diesem Teamroom zugewiesen.</translation>
-    </message>
-    <message>
-        <source>The invitation will be send to:</source>
-        <translation type="obsolete">Die Einladung wird versendet an:</translation>
-    </message>
-    <message>
-        <source>Additional Text:</source>
-        <translation type="obsolete">Zusätzlicher Text:</translation>
-    </message>
-    <message>
-        <source>Send email invitation</source>
-        <translation type="obsolete">Einladung versenden</translation>
-    </message>
-    <message>
         <source>Selected Users:</source>
         <translation>Ausgewählte Benutzer:</translation>
-    </message>
-    <message>
-        <source>Selected User:</source>
-        <translation type="obsolete">Ausgewählter Benutzer:</translation>
     </message>
     <message>
         <source>Send invitation</source>
@@ -2835,24 +3029,12 @@ Sie sollten diese Person kontaktieren oder einen neuen eigenen Entwurf anlegen.<
         <translation>Nein</translation>
     </message>
     <message>
-        <source>You are already a member of this teamroom.</source>
-        <translation type="obsolete">Sie sind bereits Mitglied in diesem Teamroom.</translation>
-    </message>
-    <message>
         <source>Resign from Teamroom &quot;%name&quot;</source>
         <translation>Die Mitgliedschaft am Teamroom &quot;%name&quot; beenden</translation>
     </message>
     <message>
-        <source>Do you really want to leave this team?</source>
-        <translation type="obsolete">Wollen Sie die Mitgliedschaft an diesem Teamroom wirklich beenden?</translation>
-    </message>
-    <message>
         <source>Resigned from teamroom &quot;%name&quot;</source>
         <translation>Die Mitgliedschaft am Teamroom &quot;%name&quot; wurde beendet</translation>
-    </message>
-    <message>
-        <source>You are successfully resigned from this teamroom.</source>
-        <translation type="obsolete">Sie haben die Mitgliedschaft an diesem Teamroom erfolgreich beendet.</translation>
     </message>
     <message>
         <source>Additional text:</source>
@@ -2876,10 +3058,6 @@ Sie sollten diese Person kontaktieren oder einen neuen eigenen Entwurf anlegen.<
         <translation>Link auf Benutzerinformationen</translation>
     </message>
     <message>
-        <source>Approve membership</source>
-        <translation type="obsolete">Mitgliedschaft freigeben</translation>
-    </message>
-    <message>
         <source>Users were successfully selected</source>
         <translation>Benutzer wurden ausgewählt</translation>
     </message>
@@ -2892,24 +3070,8 @@ Sie sollten diese Person kontaktieren oder einen neuen eigenen Entwurf anlegen.<
         <translation>Sie haben eine ungültige E-Mail Adresse eingegeben:</translation>
     </message>
     <message>
-        <source>Unknown user: </source>
-        <translation type="obsolete">Unbekannter Benutzer:</translation>
-    </message>
-    <message>
-        <source>New User</source>
-        <translation type="obsolete">Neuer Benutzer</translation>
-    </message>
-    <message>
         <source>The node (%1) specified in [UserSettings].DefaultUserPlacement setting in site.ini does not exist!</source>
         <translation>Der in den Einstellungen definierte Knoten (%1) existiert nicht!</translation>
-    </message>
-    <message>
-        <source>You were invited</source>
-        <translation type="obsolete">Sie wurden eingeladen</translation>
-    </message>
-    <message>
-        <source>$unkownUserMail was successfully invited</source>
-        <translation type="obsolete">$unkownUserMail wurde erfolgreich eingeladen</translation>
     </message>
     <message>
         <source>Manage Member</source>
@@ -2946,10 +3108,6 @@ Sie sollten diese Person kontaktieren oder einen neuen eigenen Entwurf anlegen.<
     <message>
         <source>Teamroom &quot;%name&quot; - Request for membership</source>
         <translation>Teamroom &quot;%name&quot; - Mitgliedschaft beantragen</translation>
-    </message>
-    <message>
-        <source>Are you sure you want to request a membership for the teamroom &quot;%name&quot;?</source>
-        <translation type="obsolete">Möchten Sie die Mitgliedschaft im Teamroom &quot;%name&quot; beantragen?</translation>
     </message>
     <message>
         <source>Your request for membership has been succesfully submitted and is now waiting for approval. You will receive status updates by e-mail.</source>
@@ -2996,14 +3154,6 @@ Sie sollten diese Person kontaktieren oder einen neuen eigenen Entwurf anlegen.<
         <translation>Die Liste mit offenen Anfragen ist leer.</translation>
     </message>
     <message>
-        <source>Invite user</source>
-        <translation type="obsolete">Benutzer einladen</translation>
-    </message>
-    <message>
-        <source>Enter a valid email address. It is also possible to enter several email addresses by separting them with comma.</source>
-        <translation type="obsolete">Bitte geben Sie eine gültige E-Mail Adresse an. Es ist auch möglich mehrere E-Mail Adresse per Komma zu trennen.</translation>
-    </message>
-    <message>
         <source>Send an email to %1</source>
         <translation>Eine E-Mail an %1 schicken</translation>
     </message>
@@ -3018,14 +3168,6 @@ Sie sollten diese Person kontaktieren oder einen neuen eigenen Entwurf anlegen.<
     <message>
         <source>Therefore a user account was automatically created. If you do not login within the next two weeks your account will be deleted.</source>
         <translation>Dafür wurden automatisch Zugsangsdaten für Sie bereitgestellt. Wenn Sie sich nicht innerhalb der nächsten zwei Wochen anmelden, werden die Zugangsdaten wieder gelöscht.</translation>
-    </message>
-    <message>
-        <source>Status</source>
-        <translation type="obsolete">Status</translation>
-    </message>
-    <message>
-        <source>Send an invitation email to %1</source>
-        <translation type="obsolete">Eine Einladung an %1 senden</translation>
     </message>
     <message>
         <source>Invite again</source>
@@ -3487,14 +3629,6 @@ Sie sollten diese Person kontaktieren oder einen neuen eigenen Entwurf anlegen.<
         <translation>Geplantes Ende</translation>
     </message>
     <message>
-        <source>End date</source>
-        <translation type="obsolete">Enddatum</translation>
-    </message>
-    <message>
-        <source>Type</source>
-        <translation type="obsolete">Typ</translation>
-    </message>
-    <message>
         <source>Effort</source>
         <translation>Aufwand</translation>
     </message>
@@ -3670,18 +3804,6 @@ Sie sollten diese Person kontaktieren oder einen neuen eigenen Entwurf anlegen.<
         <translation>Beschreibung</translation>
     </message>
     <message>
-        <source>private</source>
-        <translation type="obsolete">privat</translation>
-    </message>
-    <message>
-        <source>protected</source>
-        <translation type="obsolete">gesichert</translation>
-    </message>
-    <message>
-        <source>public</source>
-        <translation type="obsolete">öffentlich</translation>
-    </message>
-    <message>
         <source>Username</source>
         <comment>User name</comment>
         <translation>Benutzername</translation>
@@ -3836,14 +3958,6 @@ Sie sollten diese Person kontaktieren oder einen neuen eigenen Entwurf anlegen.<
         <translation>Meine Teamrooms</translation>
     </message>
     <message>
-        <source>My ownerships</source>
-        <translation type="obsolete">Meine Teamrooms</translation>
-    </message>
-    <message>
-        <source>My memberships</source>
-        <translation type="obsolete">Meine Mitgliedschaften</translation>
-    </message>
-    <message>
         <source>Site map</source>
         <translation>Übersicht</translation>
     </message>
@@ -3913,10 +4027,6 @@ Sie sollten diese Person kontaktieren oder einen neuen eigenen Entwurf anlegen.<
         <translation>Sie sind Mitglied keines Teamroom.</translation>
     </message>
     <message>
-        <source>A membership is required to access this teamroom. If you want to become a member of this teamroom you can use the button on the left to ask a teamroom moderator for access to this teamroom.</source>
-        <translation type="obsolete">Die Mitgliedschaft in diesem Teamroom ist für den Zugang erforderlich. Wenn Sie Mitglied werden möchten, können Sie den Button auf der linken Seite benutzen um eine Anfrage an einen Moderator dieses Teamroom zu stellen.</translation>
-    </message>
-    <message>
         <source>Membership in progess.</source>
         <translation>Antrag auf Mitgliedschaft wird bearbeitet.</translation>
     </message>
@@ -3943,14 +4053,6 @@ Sie sollten diese Person kontaktieren oder einen neuen eigenen Entwurf anlegen.<
     <message>
         <source>Visibility</source>
         <translation>Zugriffsart</translation>
-    </message>
-    <message>
-        <source>Status</source>
-        <translation type="obsolete">Status</translation>
-    </message>
-    <message>
-        <source>Set status to %1</source>
-        <translation type="obsolete">Status ändern in %1</translation>
     </message>
     <message>
         <source>Invert selection</source>
@@ -3983,10 +4085,6 @@ Sie sollten diese Person kontaktieren oder einen neuen eigenen Entwurf anlegen.<
     <message>
         <source>Sitemap</source>
         <translation>Übersicht</translation>
-    </message>
-    <message>
-        <source>Membership approval</source>
-        <translation type="obsolete">Mitgliederfreigabe</translation>
     </message>
     <message>
         <source>Changes have been stored.</source>
@@ -4109,34 +4207,14 @@ Sie sollten diese Person kontaktieren oder einen neuen eigenen Entwurf anlegen.<
     </message>
 </context>
 <context>
-    <name>ezteamroon/design</name>
+    <name>lightbox/view</name>
     <message>
-        <source>Download</source>
-        <translation type="obsolete">Herunterladen</translation>
+        <source>Go back</source>
+        <translation type="unfinished">Zurück</translation>
     </message>
     <message>
-        <source>Release</source>
-        <translation type="obsolete">Freigeben</translation>
-    </message>
-    <message>
-        <source>Lock</source>
-        <translation type="obsolete">Sperren</translation>
-    </message>
-    <message>
-        <source>Add to current Lightbox</source>
-        <translation type="obsolete">Zur aktuellen&lt;br /&gt;Lightbox</translation>
-    </message>
-    <message>
-        <source>Versions</source>
-        <translation type="obsolete">Versionen</translation>
-    </message>
-    <message>
-        <source>Upload&lt;br /&gt;new version</source>
-        <translation type="obsolete">Neue Version&lt;br /&gt;hochladen</translation>
-    </message>
-    <message>
-        <source>Delete</source>
-        <translation type="obsolete">Entfernen</translation>
+        <source>Use this button to go back to the last page.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>
