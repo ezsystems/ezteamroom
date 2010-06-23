@@ -53,7 +53,7 @@
         {if count($reverse_related_objects)|ne(0)}
             <h5>{'Task related to this milestone'|i18n('ezteamroom/tasks')}</h5>
             {foreach $reverse_related_objects as $related_object}
-                {content_view_gui view=embed content_object=$related_object}
+                <a href={$related_object.main_node.parent.url_alias|ezurl()}>{$related_object.name|wash()}</a>
             {/foreach}
         {else}
             <h5>{'No tasks assigned yet'|i18n('ezteamroom/tasks')}</h5>
