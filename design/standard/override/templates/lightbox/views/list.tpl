@@ -242,6 +242,8 @@
                   object = $content_object
                use_table = false()
                       bg = $bg
+               item_type = $type_id
+                 item_id = $item_id
           can_use_basket = $can_use_basket
             lightboxList = $userLightboxList
                 lightbox = $selectedLightbox}

@@ -18,7 +18,9 @@
   {/if}
   <td style="background-color: rgb( 255, 255, 255 ); padding-top: 0.5em;">
    <form action={'/content/action'|ezurl()} method="post">
-    <input type="hidden" name="ContentObjectID" value="{$object_id}" />
+    <input type="hidden" name="ContentObjectID" value="0" />
+    <input type="hidden" name="ItemID" value="{$item_id}" />
+    <input type="hidden" name="ItemType" value="{$item_type}" />
     <input type="hidden" name="ContentNodeID"   value="{cond( $object, $object.main_node.node_id )}" />
 
 {if $lightbox.can_edit}
