@@ -85,6 +85,7 @@
         {/if}
     </div>
 
+{def $class_identifier_map = ezini( 'TeamroomSettings', 'ClassIdentifiersMap', 'teamroom.ini' )}
                             <div class="attribute-header">
                                 <h1>{attribute_view_gui attribute=$node.object.data_map.title}</h1>
                             </div>
@@ -94,8 +95,7 @@
                             </div>
 
                             {if $node.object.data_map.show_children.data_int}
-                                {def $class_identifier_map = ezini( 'TeamroomSettings', 'ClassIdentifiersMap', 'teamroom.ini' )
-                                     $children_count=fetch_alias( 'children_count', hash( parent_node_id, $node.node_id,
+                                {def $children_count=fetch_alias( 'children_count', hash( parent_node_id, $node.node_id,
                                                                                 class_filter_type, exclude,
                                                                                 class_filter_array, array( $class_identifier_map['infobox'] ) ) )
                                      $children=fetch_alias( 'children', hash( parent_node_id, $node.node_id,

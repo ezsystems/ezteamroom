@@ -129,6 +129,9 @@
                                         </tr>
                                     </thead>
                                     <tbody>
+
+{def $class_identifier_map = ezini( 'TeamroomSettings', 'ClassIdentifiersMap', 'teamroom.ini' )}
+
                                         {if is_set($view_parameters.tag)}
                                             {set $task_count = fetch( 'content', 'keyword_count', hash( 'alphabet', $view_parameters.tag|urldecode,
                                                                                             'include_duplicates', false(),
@@ -143,7 +146,7 @@
                                                 {node_view_gui view='table_line' content_node=$task.link_object style=$style url=$url}
                                             {/foreach}
                                         {else}
-                                            {def $class_identifier_map = ezini( 'TeamroomSettings', 'ClassIdentifiersMap', 'teamroom.ini' )}
+
                                             {set $task_count = fetch( 'content', 'list_count', hash( 'parent_node_id',     $node.node_id,
                                                                                                      'class_filter_type',  'include',
                                                                                                      'class_filter_array', array( $class_identifier_map['task'] ),
