@@ -44,7 +44,7 @@
             {/if}
         </div>
 
-        <h2><a href={$object.main_node.url_alias|ezurl} title="{$object.data_map.title.content|wash}">{$object.data_map.title.content|wash}</a></h2>
+        <h2><a href={$object.main_node.url_alias|ezurl} title="{$object.name|wash()}">{$object.name|wash()}</a></h2>
 
         <h4>
         {switch match = $eventDateContent.event_type}
