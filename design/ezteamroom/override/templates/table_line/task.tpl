@@ -1,10 +1,15 @@
 {def $prio=$node.data_map.priority.data_int
-     $prog = $node.data_map.progress.content}
+     $prog = $node.data_map.progress.content
+     $aliasArray = $node.url_alias|explode( '/' )}
+
 <tr class="{$style} prio{$prio}">
     <td class="prio tight" style="text-align: center;">{attribute_view_gui attribute=$node.data_map.priority}</td>
     <td class="desc">
         <a href="#" onclick="javascript:showhide('ai{$node.node_id}'); return false;"><img src={"task_info.gif"|ezimage()} alt="task_info_icon" /></a>
-        <a href="#" onclick="javascript:showhide('ai{$node.node_id}'); return false;">{$node.name|wash()}</a>
+        <a href="#" onclick="javascript:showhide('ai{$node.node_id}'); return false;" name="{$aliasArray|remove( 0, $aliasArray|count()|dec() )|implode( '/' )}">{$node.name|wash()}</a>
+
+{undef $aliasArray}
+
     </td>
     <td class="prog nowrap tight">
         <div class="progress float-break">
