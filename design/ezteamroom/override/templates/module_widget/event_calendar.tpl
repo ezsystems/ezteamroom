@@ -314,7 +314,7 @@
         {$event.data_map.event_date.content.start_date|l10n( 'shortdatetime' )}
 
       </span>
-      <a href={$event.url_alias|ezurl}>{$event.name|wash}</a>
+      <a href={$event.main_node.parent.url_alias|ezurl()}>{$event.name|wash()}</a>
 
     {/foreach}
 
