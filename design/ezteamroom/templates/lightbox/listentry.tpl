@@ -24,7 +24,7 @@
 {if $lightbox.can_edit}
 
     {* Remove from lightbox *}
-    <input type="image" src={'lightbox/action_lightbox_delete_medium.png'|ezimage()} title="{'Use this button to delete the asset from this lightbox'|i18n( 'ezteamroom/lightbox' )}" name="RemoveFromLightboxAction" alt="{'Remove'|i18n( 'ezteamroom/lightbox' )}" onclick="return confirmRemoveFromLightbox()" />
+    <input type="image" src={'lightbox/action_lightbox_delete_medium.png'|ezimage()} title="{'Use this button to delete the asset from this lightbox'|i18n( 'ezteamroom/lightbox' )}" name="RemoveFromLightboxAction" alt="{'Remove'|i18n( 'ezteamroom/lightbox' )}" onclick="return confirm( '{'Are you sure you want to remove this entry?'|i18n( 'ezteamroom/lightbox' )}' )" />
     <input type="hidden" name="redirectAfterSelectionURI" value="{concat( "lightbox/view/list/", $lightbox.id )}" />
 
     {* Move from one lightbox to another *}

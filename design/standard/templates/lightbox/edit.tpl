@@ -193,7 +193,7 @@
            <div class="lightbox-buttons">
             <input type="submit" name="StoreLightboxButton" value="{'Store changes'|i18n( 'ezteamroom/lightbox' )}" title="{'Use this button to save the changes in the lightbox name and user rights'|i18n( 'ezteamroom/lightbox' )}" class="button" />
 {***
-            <input type="submit" name="DeleteLightboxButton" value="{'Delete lightbox'|i18n( 'ezteamroom/lightbox' )}" title="{'Use this button to delete this lightbox'|i18n( 'ezteamroom/lightbox' )}" class="button" onclick="return confirmDeleteLightbox();" />
+            <input type="submit" name="DeleteLightboxButton" value="{'Delete lightbox'|i18n( 'ezteamroom/lightbox' )}" title="{'Use this button to delete this lightbox'|i18n( 'ezteamroom/lightbox' )}" class="button" onclick="return confirm( '{'Are you sure you want to delete this lightbox?'|i18n( 'ezteamroom/lightbox' )}' );" />
 ***}
     {if and( is_set( $redirectURI ), $redirectURI|ne( '' ) )}
             <input type="hidden" name="redirectURI" value="{$redirectURI}" />

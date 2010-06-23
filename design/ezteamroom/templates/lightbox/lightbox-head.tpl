@@ -72,7 +72,7 @@ var gDebugEnabled = false;
     {if $hasLightboxes}
         {if $current_lightbox.can_edit}
         <input type="image" src={'lightbox/action_lightbox_edit_medium.png'|ezimage()} alt="{'Edit'|i18n( 'ezteamroom/lightbox' )}" title="{'Use this button to edit the current lightbox.'|i18n( 'ezteamroom/lightbox' )}" class="lightbox-action" name="EditLightboxAction" />
-        <input type="image" src={'lightbox/action_lightbox_delete_medium.png'|ezimage()} alt="{'Delete'|i18n( 'ezteamroom/lightbox' )}" title="{'Use this button to delete the current lightbox.'|i18n( 'ezteamroom/lightbox' )}" class="lightbox-action" name="DeleteLightboxAction" onclick="return confirmDeleteLightbox()" />
+        <input type="image" src={'lightbox/action_lightbox_delete_medium.png'|ezimage()} alt="{'Delete'|i18n( 'ezteamroom/lightbox' )}" title="{'Use this button to delete the current lightbox.'|i18n( 'ezteamroom/lightbox' )}" class="lightbox-action" name="DeleteLightboxAction" onclick="return confirm( '{'Are you sure you want to delete this lightbox?'|i18n( 'ezteamroom/lightbox' )}' )" />
         {else}
         <input type="image" src={'lightbox/action_lightbox_edit_medium.png'|ezimage()} alt="{'Edit'|i18n( 'ezteamroom/lightbox' )}" title="{'You are not allowed to edit the current lightbox.'|i18n( 'ezteamroom/lightbox' )}" class="lightbox-action" name="EditLightboxAction" disabled="disabled" />
         <input type="image" src={'lightbox/action_lightbox_delete_medium.png'|ezimage()} alt="{'Delete'|i18n( 'ezteamroom/lightbox' )}" title="{'You are not allowed to delete the current lightbox.'|i18n( 'ezteamroom/lightbox' )}" class="lightbox-action" name="DeleteLightboxAction" disabled="disabled" />

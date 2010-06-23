@@ -259,8 +259,8 @@
 
     {if $selectedLightbox.can_edit}
             <input type="submit" name="EditLightboxAction"   value="{'Edit'|i18n( 'ezteamroom/lightbox' )}" class="button" title="{'Use this button to edit this lightbox.'|i18n( 'ezteamroom/lightbox' )}" />
-            <input type="submit" name="DeleteLightboxAction" value="{'Delete'|i18n( 'ezteamroom/lightbox' )}" class="button" title="{'Use this button to delete this lightbox'|i18n( 'ezteamroom/lightbox' )}" onclick="return confirmDeleteLightbox()" />
-            <input type="submit" name="EmptyLightboxAction" value="{'Empty'|i18n( 'ezteamroom/lightbox' )}" class="button" title="{'Use this button to remove all assets from this lightbox'|i18n( 'ezteamroom/lightbox' )}" onclick="return confirmEmptyLightbox()"/>
+            <input type="submit" name="DeleteLightboxAction" value="{'Delete'|i18n( 'ezteamroom/lightbox' )}" class="button" title="{'Use this button to delete this lightbox'|i18n( 'ezteamroom/lightbox' )}" onclick="return confirm( '{'Are you sure you want to delete this lightbox?'|i18n( 'ezteamroom/lightbox' )}' );" />
+            <input type="submit" name="EmptyLightboxAction" value="{'Empty'|i18n( 'ezteamroom/lightbox' )}" class="button" title="{'Use this button to remove all assets from this lightbox'|i18n( 'ezteamroom/lightbox' )}" onclick="return confirm( '{'Are you sure you want to empty this lightbox?'|i18n( 'ezteamroom/lightbox' )}' )"/>
     {/if}
 
     {if $selectedLightbox.can_send}

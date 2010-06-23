@@ -92,42 +92,6 @@ function addToLightbox( object_id )
   form.submit();
 }
 
-function confirmDeleteLightbox()
-{
-  var confirmation = confirm("Are you sure you want to delete this lightbox?")
-  if(confirmation)
-    return true;
-  else
-    return false;
-}
-
-function confirmEmptyLightbox()
-{
-  var confirmation = confirm("Are you sure you want to empty this lightbox?")
-  if(confirmation)
-    return true;
-  else
-    return false;
-}
-
-function confirmRemoveUser()
-{
-  var confirmation = confirm("Are you sure you want to removes this user?")
-  if(confirmation)
-    return true;
-  else
-    return false;
-}
-
-function confirmRemoveFromLightbox()
-{
-  var confirmation = confirm("Are you sure you want to remove this entry?")
-  if(confirmation)
-    return true;
-  else
-    return false;
-}
-
 function toggleLightboxSettingsEx()
 {
     var lightbox_settings = document.getElementById( 'lightbox-settings' );
