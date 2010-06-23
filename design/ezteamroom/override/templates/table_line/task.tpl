@@ -60,7 +60,7 @@
             <table class="taskdetails" cellspacing="0">
 <tr><td><strong>{'Milestone'|i18n('ezteamroom/tasks')}</strong>:</td><td>{if $node.data_map.milestone.content.relation_list}{attribute_view_gui attribute = $node.data_map.milestone}{else}-{/if}</td></tr>
 <tr><td><strong>{'Tags'|i18n('ezteamroom/tasks')}</strong>:</td><td>{attribute_view_gui attribute = $node.data_map.tags}</td></tr>
-<tr><td><strong>{'Persons in charge'|i18n('ezteamroom/tasks')}</strong>:</td><td>{if $node.data_map.users.content.relation_list}{attribute_view_gui attribute = $node.data_map.users}{else}-{/if}</td></tr>
+<tr><td><strong>{'Persons in charge'|i18n('ezteamroom/tasks')}</strong>:</td><td>{if $node.data_map.users.content.relation_list}{attribute_view_gui attribute = $node.data_map.users teamroom_node_id = $node.parent.parent.main_node_id}{else}-{/if}</td></tr>
 <tr><td><strong>{'Related documents'|i18n('ezteamroom/tasks')}</strong>:</td><td>{if $node.data_map.documents.content.relation_list}{attribute_view_gui attribute = $node.data_map.documents}{else}-{/if}</td></tr>
 </table>
     </td>
