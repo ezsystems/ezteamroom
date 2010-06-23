@@ -25,12 +25,13 @@
 
 {if array( $classIdentifiersMap[forum_reply],
            $classIdentifiersMap[milestone],
-           $classIdentifiersMap[blog_post],
+           $classIdentifiersMap[comment],
            $classIdentifiersMap[file],
            $classIdentifiersMap[image],
            $classIdentifiersMap[quicktime],
            $classIdentifiersMap[real_video],
-           $classIdentifiersMap[windows_media]
+           $classIdentifiersMap[windows_media],
+           $classIdentifiersMap[task]
          )|contains( $object.class_identifier )}
 
     {set $useParent = true()}
