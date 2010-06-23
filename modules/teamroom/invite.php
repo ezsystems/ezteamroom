@@ -185,6 +185,22 @@ elseif ( $actionType == 'ClearInviteList' )
             $inviteUserList = $newInviteUserList;
         }
     }
+    if ( $http->hasPostVariable( 'SelectedInviteUsers' ) )
+    {
+        $selectedInviteUsers = $http->postVariable( 'SelectedInviteUsers' );
+        if ( is_array( $selectedInviteUsers ) && count( $selectedInviteUsers ) > 0 )
+        {
+            $newCreateUserList = array();
+            foreach ( $createUserList as $emailAddress )
+            {
+                if ( !in_array( $emailAddress, $selectedInviteUsers ) )
+                {
+                    $newCreateUserList[] = $emailAddress;
+                }
+            }
+            $createUserList = $newCreateUserList;
+        }
+    }
 }
 
 //invite the selected users
