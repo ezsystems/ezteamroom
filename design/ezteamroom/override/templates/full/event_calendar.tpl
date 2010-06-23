@@ -100,6 +100,8 @@
 
 {if $skip_events|eq( 0 )}
 
+    {* This fetch return content object but not content nodes *}
+
     {set $events = fetch( 'event', 'list', hash( 'year',           $selected_year,
                                                  'month',          $selected_month,
                                                  'parent_node_id', $node.node_id
@@ -444,24 +446,39 @@
 
 {else}
 
+    {def $event_object = false()}
+
     {foreach $merged_calendar as $key => $event max $page_limit offset $view_parameters.offset}
 
-        {set $show_date = true()}
+        {set $show_date = true()
+             $event_object = false()}
+
+        {switch match = $event|get_class()}
+            {case match = 'ezcontentobject'}
+                {set $event_object = $event}
+            {/case}
+            {case match = 'ezcontentobjecttreenode'}
+                {set $event_object = $event.object}
+            {/case}
+            {case}
+                {continue}
+            {/case}
+        {/switch}
 
         {if ne( $view_parameters.day, '' )}
 
             {set $day_current = $view_parameters.day|int()}
 
-            {switch match = $event.object.class_identifier}
+            {switch match = $event_object.class_identifier}
 
                 {case match = $class_identifier_map['event']}
 
                     {* set first day *}
-                    {if and( eq( $view_parameters.month|int(), $event.data_map.event_date.content.current_start.month )|int(),
-                             eq( $view_parameters.year|int(),  $event.data_map.event_date.content.current_start.year|int() )
+                    {if and( eq( $view_parameters.month|int(), $event_object.data_map.event_date.content.current_start.month )|int(),
+                             eq( $view_parameters.year|int(),  $event_object.data_map.event_date.content.current_start.year|int() )
                            )}
 
-                        {set $day_from = $event.data_map.event_date.content.current_start.day|int()}
+                        {set $day_from = $event_object.data_map.event_date.content.current_start.day|int()}
 
                     {else}
 
@@ -470,17 +487,17 @@
                     {/if}
 
                     {* set last day *}
-                    {if $event.data_map.event_date.content.end_date|eq( 0 )}
+                    {if $event_object.data_map.event_date.content.end_date|eq( 0 )}
 
                         {set $day_to = $day_from}
 
                     {else}
 
-                        {if and( eq( $view_parameters.month|int(), $event.data_map.event_date.content.current_end.month|int() ),
-                                 eq( $view_parameters.year|int(),  $event.data_map.event_date.content.current_end.year|int() )
+                        {if and( eq( $view_parameters.month|int(), $event_object.data_map.event_date.content.current_end.month|int() ),
+                                 eq( $view_parameters.year|int(),  $event_object.data_map.event_date.content.current_end.year|int() )
                                )}
 
-                            {set $day_to = $event.data_map.event_date.content.current_end.day|int()}
+                            {set $day_to = $event_object.data_map.event_date.content.current_end.day|int()}
 
                         {else}
 
@@ -501,7 +518,7 @@
 
                 {case match = $class_identifier_map['task']}
 
-                    {if eq( $event.object.data_map.planned_end_date.content.day|int(), $day_current )|not()}
+                    {if eq( $event_object.data_map.planned_end_date.content.day|int(), $day_current )|not()}
 
                         {set    $show_date = false()
                              $count_events = $count_events|dec()}
@@ -521,13 +538,15 @@
         {if $show_date}
 
             {content_view_gui view = 'cal_line'
-                              content_object = $event
+                              content_object = $event_object
                               event_date = $key
                               redirect = $node.url_alias}
 
         {/if}
 
     {/foreach}
+
+    {undef $event_object}
 
 {/if}
 
