@@ -31,7 +31,7 @@
         {/if}*}
     </div>
 
-        <h2><a href={$object.parent.url_alias|ezurl} title="{$object.name|wash}">{$object.name|wash}</a></h2>
+        <h2><a href={$object.main_node.parent.url_alias|ezurl} title="{$object.name|wash}">{$object.name|wash}</a></h2>
 
         <h4>{$object.data_map.date.content.timestamp|l10n(shortdatetime)}</h4>
 
