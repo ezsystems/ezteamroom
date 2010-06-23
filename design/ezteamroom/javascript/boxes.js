@@ -82,9 +82,12 @@ function showAvaibleWidgets()
     /* Close selectColumnPopup if opened */
     if( !toggleById( 'available-widgets-list' ) )
     {
-        gDragingDisabled = false;
         close( $( "selectColumnPopup" ) );
     }
+
+    // ab: Moved out of brackets above, because otherwise dragging is
+    // not possible if the last widget has been added to a column
+    gDragingDisabled = false;
 }
 
 function closeAvaibleWidgets()
