@@ -17,7 +17,7 @@
                     <input type="hidden" name="ContentObjectLanguageCode" value="{ezini( 'RegionalSettings', 'ContentObjectLocale', 'site.ini')}" />
                     <input type="hidden" name="RedirectURIAfterPublish" value="{$redirect}" />
                     <input type="hidden" name="RedirectIfDiscarded" value="{$redirect}" />
-                    <input type="image"  src={'event_edit_all.png'|ezimage} name="EditButton" value="{'Edit complete event'|i18n( 'ezteamroom/events' )}" />
+                    <input type="image"  src={'event_edit_all.png'|ezimage} name="EditButton" value="{'Edit complete event'|i18n( 'ezteamroom/events' )}" title="{'Edit event'|i18n( 'ezteamroom/events' )}" />
                 </form>
             </div>
             {/if}
@@ -28,7 +28,7 @@
                    )}
             <div class="attribute-edit">
                 <a href={concat("/event/split/", $object.id, "/", $event_date, "/", ezini( 'RegionalSettings', 'ContentObjectLocale', 'site.ini'))|ezurl()}>
-                    <img src={'event_edit_single.png'|ezimage} alt="{'Edit single event'|i18n( 'ezteamroom/events' )}" title="{'Edit single event'|i18n( 'ezteamroom/events' )}" />
+                    <img src={'event_edit_single.png'|ezimage} alt="{'Edit single event'|i18n( 'ezteamroom/events' )}" title="{'Edit single date of recurring event'|i18n( 'ezteamroom/events' )}" />
                 </a>
             </div>
             {/if}
