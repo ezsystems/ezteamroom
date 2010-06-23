@@ -119,8 +119,7 @@ elseif ( $actionType == 'SearchMail' && $http->hasPostVariable( 'MailAddressList
         if( $mailAddress ){
             $userList = eZPersistentObject::fetchObjectList( eZUser::definition(),
                                                              null,
-                                                             array( 'LOWER( email )' => strtolower( $mailAddress ) ),
-                                                             $asObject
+                                                             array( 'LOWER( email )' => strtolower( $mailAddress ) )
                                                            );
             if ( count( $userList ) > 0 )
             {
