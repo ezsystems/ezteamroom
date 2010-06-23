@@ -54,7 +54,7 @@
                             {if $moveToGroup.node_id|ne($group.node_id)}
                                 {if $teamroom.object.owner.id|ne($user.contentobject_id)}
                                     <input type="image" name="MoveUser[{$user.node_id}_{$moveToGroup.node_id}]" 
-                                                        title="{'Move to group "%1"'|i18n( 'ezteamroom/teamroom',,hash('%1', $moveToGroup.name ) )}" 
+                                                        title="{"Move to group '%1'"|i18n( 'ezteamroom/teamroom',, array( $moveToGroup.name ) )}"
                                                         src={"move.gif"|ezimage}/>
                                 {/if}
                             {/if}
