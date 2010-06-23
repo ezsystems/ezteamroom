@@ -15,7 +15,7 @@
 
     <div class="edit-attribute block">
        {def $attribute = $object.data_map.subject}
-       <label class="title">{$attribute.contentclass_attribute.name}</label><div class="labelbreak"></div>
+       <label class="title">{$attribute.contentclass_attribute.name}{if $attribute.contentclass_attribute.is_required} *{/if}</label><div class="labelbreak"></div>
        <input type="hidden" name="ContentObjectAttribute_id[]" value="{$attribute.id}" />
        <input class="box" type="text" size="70" name="ContentObjectAttribute_ezstring_data_text_{$attribute.id}" value="{$attribute.content|wash()}" />
     </div>
@@ -26,7 +26,7 @@
         <input type="hidden" name="ContentObjectAttribute_ezstring_data_text_{$attribute.id}" value="{$current_user.contentobject.name|wash()}" />
         {else}
     <div class="edit-attribute block">
-            <label class="title">{$attribute.contentclass_attribute.name}</label><div class="labelbreak"></div>
+            <label class="title">{$attribute.contentclass_attribute.name}{if $attribute.contentclass_attribute.is_required} *{/if}</label><div class="labelbreak"></div>
         <input type="hidden" name="ContentObjectAttribute_id[]" value="{$attribute.id}" />
         <input class="box" type="text" size="70" name="ContentObjectAttribute_ezstring_data_text_{$attribute.id}" value="{$attribute.content|wash()}" />
     </div>
@@ -34,7 +34,7 @@
 
     <div class="edit-attribute block">
        {set $attribute = $object.data_map.message}
-       <label class="title">{$attribute.contentclass_attribute.name}</label><div class="labelbreak"></div>
+       <label class="title">{$attribute.contentclass_attribute.name}{if $attribute.contentclass_attribute.is_required} *{/if}</label><div class="labelbreak"></div>
        <input type="hidden" name="ContentObjectAttribute_id[]" value="{$attribute.id}" />
        <textarea class="box" cols="70" rows="10" name="ContentObjectAttribute_data_text_{$attribute.id}">{$attribute.content|wash()}</textarea>
     </div>

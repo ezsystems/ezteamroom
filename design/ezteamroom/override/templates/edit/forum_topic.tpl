@@ -18,17 +18,17 @@
         <input type="hidden" name="MainNodeID" value="{$main_node_id}" />
 
     <div class="edit-attribute block">
-        <label class="title">{'Subject'|i18n('ezteamroom/forum')}</label><div class="labelbreak"></div>
+        <label class="title">{'Subject'|i18n('ezteamroom/forum')}</label>{if $object.data_map.subject.contentclass_attribute.is_required} *{/if}<div class="labelbreak"></div>
         <input type="hidden" name="ContentObjectAttribute_id[]" value="{$object.data_map.subject.id}" />
         {attribute_edit_gui attribute=$object.data_map.subject attribute_base=$attribute_base view_parameters=$view_parameters}
     </div>
     <div class="edit-attribute block">
-        <label class="title">{'Message'|i18n('ezteamroom/forum')}</label><div class="labelbreak"></div>
+        <label class="title">{'Message'|i18n('ezteamroom/forum')}</label>{if $object.data_map.message.contentclass_attribute.is_required} *{/if}<div class="labelbreak"></div>
         {attribute_edit_gui attribute=$object.data_map.message attribute_base=$attribute_base view_parameters=$view_parameters}
     </div>
 
     <div class="edit-attribute block">
-        <label class="title">{'Notify me about updates'|i18n('ezteamroom/forum')}</label><div class="labelbreak"></div>
+        <label class="title">{'Notify me about updates'|i18n('ezteamroom/forum')}</label>{if $object.data_map.notify_me.contentclass_attribute.is_required} *{/if}<div class="labelbreak"></div>
         {attribute_edit_gui attribute=$object.data_map.notify_me attribute_base=$attribute_base view_parameters=$view_parameters}
     </div>
 
@@ -50,7 +50,7 @@
             {section var=sticky loop=$sticky_groups}
                 {section show=$current_user.groups|contains($sticky)}
             <div class="edit-attribute block">
-                <label class="title">{'Sticky'|i18n('ezteamroom/forum')}</label><div class="labelbreak"></div>
+                <label class="title">{'Sticky'|i18n('ezteamroom/forum')}</label>{if $object.data_map.sticky.contentclass_attribute.is_required} *{/if}<div class="labelbreak"></div>
                 {attribute_edit_gui attribute=$object.data_map.sticky attribute_base=$attribute_base view_parameters=$view_parameters}
             </div>
                 {/section}
