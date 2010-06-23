@@ -5,6 +5,12 @@
     CURSOR: hand;
 }
 
+div#logo
+{
+    float: left;
+    margin: 1em 0 0 -1.3em;
+}
+
 div#searchbox input#searchbutton
 {
     margin-bottom: 3px;
@@ -351,4 +357,9 @@ div.columns-teamroom-line div.right-column
     margin-left: -20px !important;
     margin-right: -20px !important;
     padding-left: 10px !important;
+}
+
+div.content-view-line div.class-comment div.author
+{
+    margin-left: -105px;
 }
