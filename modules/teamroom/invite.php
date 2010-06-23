@@ -117,29 +117,42 @@ elseif ( $actionType == 'SearchMail' && $http->hasPostVariable( 'MailAddressList
         $mailAddress = trim( $mailAddress );
 
         if( $mailAddress ){
-            $user = eZUser::fetchByEmail( $mailAddress );
+            $userList = eZPersistentObject::fetchObjectList( eZUser::definition(),
+                                                             null,
+                                                             array( 'LOWER( email )' => strtolower( $mailAddress ) ),
+                                                             $asObject
+                                                           );
+            if ( count( $userList ) > 0 )
+            {
+                foreach ( $userList as $user )
+                {
+                    $userContentObjectID = $user->ContentObjectID;
+                    $userContentObject = $user->attribute('contentobject') ;
 
-            if( $user ){
-                $userContentObjectID = $user->ContentObjectID;
-                $userContentObject = $user->attribute('contentobject') ;
+                    // check if user is already member
+                    $parentNodeIDArray = eZTeamroom::parentNodeIDArray( $userContentObject );
 
-                // check if user is already member
-                $parentNodeIDArray = eZTeamroom::parentNodeIDArray( $userContentObject );
+                    $isMember = false;
+                    foreach ( $userGroupList as $userGroup )
+                    {
+                        $memberGroupNodeID = $userGroup->attribute( 'node_id' );;
+                        if( in_array( $memberGroupNodeID, $parentNodeIDArray ) )
+                            $isMember = true;
+                    }
 
-                $isMember = false;
-                foreach ($userGroupList as $userGroup){
-                    $memberGroupNodeID = $userGroup->attribute( 'node_id' );;
-                    if( in_array( $memberGroupNodeID, $parentNodeIDArray ) )
-                        $isMember = true;
-                }
-
-                if ( $isMember ){
-                    $errors[] = ezi18n( 'ezteamroom/membership', 'User is already Member: ' ) . $userContentObject->Name.' ('.$mailAddress.')';
-                }elseif ( in_array ($userContentObjectID , $inviteUserList) ){
-                    $messages[] = ezi18n( 'ezteamroom/membership', 'User already selected: ' ) . $userContentObject->Name.' ('.$mailAddress.')';
-                }else{
-                    $inviteUserList[] = $userContentObjectID;
-                    $messages[] = ezi18n( 'ezteamroom/membership', 'User was successfully added: ' ) . $userContentObject->Name.' ('.$mailAddress.')';
+                    if ( $isMember )
+                    {
+                        $errors[] = ezi18n( 'ezteamroom/membership', 'User is already Member: ' ) . $userContentObject->Name.' ('.$mailAddress.')';
+                    }
+                    elseif ( in_array ($userContentObjectID , $inviteUserList) )
+                    {
+                        $messages[] = ezi18n( 'ezteamroom/membership', 'User already selected: ' ) . $userContentObject->Name.' ('.$mailAddress.')';
+                    }
+                    else
+                    {
+                        $inviteUserList[] = $userContentObjectID;
+                        $messages[] = ezi18n( 'ezteamroom/membership', 'User was successfully added: ' ) . $userContentObject->Name.' ('.$mailAddress.')';
+                    }
                 }
             }else{
                 if( !eZMail::validate( $mailAddress ) ){
@@ -154,9 +167,26 @@ elseif ( $actionType == 'SearchMail' && $http->hasPostVariable( 'MailAddressList
     }
 }
 //cancel invitation
-elseif ( $actionType == 'ClearInviteList' ){
-    $inviteUserList = array();
+elseif ( $actionType == 'ClearInviteList' )
+{
+    if ( $http->hasPostVariable( 'SelectedExistingUsers' ) )
+    {
+        $selectedExistingUsers = $http->postVariable( 'SelectedExistingUsers' );
+        if ( is_array( $selectedExistingUsers ) && count( $selectedExistingUsers ) > 0 )
+        {
+            $newInviteUserList = array();
+            foreach ( $inviteUserList as $userID )
+            {
+                if ( !in_array( $userID, $selectedExistingUsers ) )
+                {
+                    $newInviteUserList[] = $userID;
+                }
+            }
+            $inviteUserList = $newInviteUserList;
+        }
+    }
 }
+
 //invite the selected users
 elseif ( $actionType == 'Invite' )
 {
