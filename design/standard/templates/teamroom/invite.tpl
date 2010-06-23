@@ -15,7 +15,7 @@
     </div>
 {/if}
 
-    <form action={$from_page|ezurl} method="post">
+    <form action={$from_page|ezurl} method="post" name="teamroom_invite_users">
     <div class="invite">
         <div class="search-users">
             <h3>{"Invite a user"|i18n("ezteamroom/membership")}:</h3>
@@ -34,10 +34,11 @@
         <h3>{"Selected Users:"|i18n("ezteamroom/membership")}</h3>
         {if $inviteUserList|count()}
         <ul>
+         <li><img onclick="ezteamroom_toggleCheckboxes( document.teamroom_invite_users, 'SelectedExistingUsers', false ); return false;" title="{'Invert selection'|i18n( 'ezteamroom/teamroom' )}" alt="toggle_button" src={"toggle-button-16x16.gif"|ezimage()} /></li>
             {def $user = false()}
             {foreach $inviteUserList as $userId}
                 {set $user = fetch( 'content', 'object', hash( 'object_id', $userId ) )}
-                <li class="selected-user-list">
+                <li class="selected-user-list"><input type="checkbox" name="SelectedExistingUsers[]" value="{$userId}" />
                     <a href={$user.main_node.url_alias|ezurl()}>{$user.name|wash()}</a>
                     (<a href="mailto:{$user.data_map.user_account.content.email}">{$user.data_map.user_account.content.email|wash()}</a>)
                 </li>
@@ -60,7 +61,7 @@
         <br />
         {/if}
         <input type="submit" name="InviteButton" value="{'Send invitation'|i18n('ezteamroom/membership')}" class="defaultbutton" title="{'Automatically create user accounts for new users and send an invitation email to all users displayed in the list above'|i18n( 'ezteamroom/membership' )}" />
-        <input type="submit" name="ClearInviteListButton" value="{'Clear list'|i18n('ezteamroom/membership')}" class="defaultbutton" title="{'Remove all users selected for invitation from the list displayed above'|i18n( 'ezteamroom/membership' )}" />
+        <input type="submit" name="ClearInviteListButton" value="{'Remove'|i18n('ezteamroom/membership')}" class="defaultbutton" title="{'Remove the selected users from the invitation list displayed above'|i18n( 'ezteamroom/membership' )}" />
         <br /><br />
         <div >
             {if ezhttp_hasvariable( 'RedirectIfDiscarded', 'session' )}

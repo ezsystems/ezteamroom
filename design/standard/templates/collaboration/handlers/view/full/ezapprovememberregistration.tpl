@@ -84,7 +84,7 @@
 <table>
     <tr>
     <td colspan="2">
-        <img onclick="ezteamroom_toggleCheckboxes( document.teamroom_manageusers, 'Collaboration_SelectedUserRoleMatrix', {$approval_content.user_id} ); return false;" title="Invert selection" alt="Invert selection" src={"toggle-button-16x16.gif"|ezimage} />
+        <img onclick="ezteamroom_toggleCheckboxes( document.teamroom_manageusers, 'Collaboration_SelectedRoleList', false ); return false;" title="Invert selection" alt="Invert selection" src={"toggle-button-16x16.gif"|ezimage} />
         <strong>{'Select permissions for the user'|i18n('ezteamroom/collaboration')}</strong>
     </td></tr>
     <tr>

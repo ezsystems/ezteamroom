@@ -23,14 +23,18 @@ function ezteamroom_toggleCheckboxes( formname, checkboxname, user_id )
 {
     with( formname )
     {
+        var myre = false;
+        if ( user_id !== null && user_id !== false && user_id !== undefined )
+        {
+            myre = new RegExp( checkboxname + '\\\[' + user_id + '\\\].*', '' );
+        }
         for( var i=0; i<elements.length; i++ )
         {
             var elemname = elements[i].name;
             var elemsubstr = elemname.substring(0, checkboxname.length)
             var tmp = elemname.substring(checkboxname.length+1, elemname.length-1 )
-            var userid = tmp.split( '_' )[0];
 
-            if( elements[i].type == 'checkbox' && elemsubstr == checkboxname && elements[i].disabled == "" && user_id == userid )
+            if( elements[i].type == 'checkbox' && elemsubstr == checkboxname && elements[i].disabled == "" && ( myre === false || myre.exec( elemname ) != null ) )
             {
                 if( elements[i].checked == true )
                 {
