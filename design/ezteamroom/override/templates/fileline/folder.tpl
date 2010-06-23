@@ -32,8 +32,6 @@
                    title="{'Add this folder to the current lightbox'|i18n( 'ezteamroom/files' )}"
                    name="AddToLightboxAction" />
         </form>
-        {else}
-            <p>{'You can not access the current lightbox.'|i18n( 'ezteamroom/files' )}</p>
         {/if}
     </div>
     {/if}
