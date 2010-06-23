@@ -7,7 +7,7 @@
 <form method="post" action={"/user/login/"|ezurl} name="loginform">
 
 <div class="attribute-header">
-	<h1 class="long">{"Login"|i18n("ezteamroom/membership")}</h1>
+    <h1 class="long">{"Login"|i18n("ezteamroom/membership")}</h1>
 </div>
 
 {if $User:warning.bad_login}

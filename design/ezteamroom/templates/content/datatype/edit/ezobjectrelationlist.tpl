@@ -26,7 +26,7 @@
         {switch match=$class_content.selection_type}
 
         {case match=1} {* Dropdown list *}
-	    <div class="buttonblock">
+        <div class="buttonblock">
             <input type="hidden" name="single_select_{$attribute.id}" value="1" />
             {if ne( count( $nodesList ), 0)}
             <select name="{$attribute_base}_data_object_relation_list_{$attribute.id}[]">
@@ -138,7 +138,7 @@
             <div class="templatebasedeor">
             <ul>
                 {section show=$attribute.contentclass_attribute.is_required|not}
-		    <li>
+                    <li>
                          <input value="no_relation" type="radio" name="{$attribute_base}_data_object_relation_list_{$attribute.id}[]" {section show=eq( $attribute.content.relation_list|count, 0 )} checked="checked"{/section}>{'No relation'|i18n( 'ezteamroom/edit' )}<br />
                     </li>
                 {/section}
@@ -199,7 +199,7 @@
 
         {/let}
         {/default}
-{else}	{* Standard mode is browsing *}
+{else}  {* Standard mode is browsing *}
         {if is_set( $attribute.class_content.default_placement.node_id )}
              {set browse_object_start_node=$attribute.class_content.default_placement.node_id}
         {/if}
