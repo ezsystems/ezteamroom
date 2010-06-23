@@ -1,3 +1,5 @@
+{set-block scope=root variable=cache_ttl}0{/set-block}
+
 {def $default_limit = 15}
 
 {if ezpreference( 'teamroom_tasklist_list_limit' )}
