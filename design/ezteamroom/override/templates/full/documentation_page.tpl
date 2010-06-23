@@ -85,7 +85,11 @@
         {/if}
     </div>
 
-{def $class_identifier_map = ezini( 'TeamroomSettings', 'ClassIdentifiersMap', 'teamroom.ini' )}
+{def $class_identifier_map = ezini( 'TeamroomSettings', 'ClassIdentifiersMap', 'teamroom.ini' )
+     $children_count = 0
+     $children = array()
+     $pathStringArray = $node.path_string|explode( '/' )}
+
                             <div class="attribute-header">
                                 <h1>{attribute_view_gui attribute=$node.object.data_map.title}</h1>
                             </div>
@@ -94,8 +98,32 @@
                                 {attribute_view_gui attribute=$node.object.data_map.body}
                             </div>
 
-                            {if $node.object.data_map.show_children.data_int}
-                                {def $children_count=fetch_alias( 'children_count', hash( parent_node_id, $node.node_id,
+                        {if $node.object.data_map.show_children.data_int}
+
+                            {if is_set($view_parameters.tag)}
+
+                                {set $children_count = fetch( 'content', 'keyword_count', hash( 'alphabet', $view_parameters.tag|urldecode(),
+                                                                                                'include_duplicates', false(),
+                                                                                                'parent_node_id', $pathStringArray[5]
+                                                                                              )
+                                                            )
+                                     $children = fetch( 'content', 'keyword', hash( 'alphabet', $view_parameters.tag|urldecode(),
+                                                                                    'include_duplicates', false(),
+                                                                                    'parent_node_id', $pathStringArray[5],
+                                                                                    'offset', $view_parameters.offset,
+                                                                                    'limit', cond( $page_limit|eq( -1 ), $task_count, $page_limit )
+                                                                                  )
+                                                      )}
+
+                                <div class="content-view-children">
+                                    {foreach $children as $child }
+                                        {node_view_gui view='line' content_node=$child.link_object}
+                                    {/foreach}
+                                </div>
+
+                            {else}
+
+                                {set $children_count=fetch_alias( 'children_count', hash( parent_node_id, $node.node_id,
                                                                                 class_filter_type, exclude,
                                                                                 class_filter_array, array( $class_identifier_map['infobox'] ) ) )
                                      $children=fetch_alias( 'children', hash( parent_node_id, $node.node_id,
@@ -111,6 +139,8 @@
                                     {/foreach}
                                 </div>
 
+                            {/if}
+
                                 {include name=navigator
                                         uri='design:navigator/google.tpl'
                                         page_uri=$node.url_alias
@@ -119,7 +149,8 @@
                                         item_limit=$page_limit
                                         preference="teamroom_documents_list_limit"}
 
-                            {/if}
+                        {/if}
+
                         </div>
                     </div>
 
@@ -167,16 +198,12 @@
                 </form>
             </div>
 
-{* Filtering is not supported here so far *}
-
-{*
-
 {if or( $children_count|gt( 0 ), is_set( $view_parameters.tag ) )}
 
             <div class="keywords">
                 <h3>{'Keywords'|i18n('ezteamroom/wiki')}</h3>
 
-                {def $wikiTagList = ezkeywordlist( $class_identifier_map['documentation_page'], $node.parent.node_id )}
+                {def $wikiTagList = ezkeywordlist( $class_identifier_map['documentation_page'], $pathStringArray[5], $node.depth|inc() )}
 
                 <div class="tags">
 
@@ -208,8 +235,6 @@
             </div>
 
 {/if}
-
-*}
 
 {undef $class_identifier_map}
 

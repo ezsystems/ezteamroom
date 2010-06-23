@@ -147,7 +147,6 @@
                                                                                 'offset', $view_parameters.offset,
                                                                                 'sort_by', $sort_by,
                                                                                 'limit', $page_limit ) )}
-
                                 {foreach $children as $child sequence array( 'bgdark', 'bglight' ) as $style}
                                     {node_view_gui view='fileline' content_node=$child.link_object style=$style}
                                 {/foreach}
@@ -387,7 +386,10 @@
                 <h3>{'Keywords'|i18n('ezteamroom/files')}</h3>
 
                 {def     $sorting = cond( $sort_by_field, concat( "/(sortfield)/", $sort_by_field ) )
-                     $fileTagList = ezkeywordlist( $class_identifier_map['file'], $node.node_id )}
+                     $fileTagList = ezkeywordlist( array( $class_identifier_map['file'], $class_identifier_map['file_subfolder'] ),
+                                                   $node.node_id,
+                                                   $node.depth|inc()
+                                                 )}
 
                 <div class="tags">
 
