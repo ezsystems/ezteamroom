@@ -148,10 +148,14 @@ function LoadModule( i, UserParams )
     {
         return;
     }
-    if( gModuleList[i].substr(0, 7) == 'http://' )
+    if ( gModuleList[i].substr(0, 7) == 'http://' || gModuleList[i].substr( 0, 8 ) == 'https://' )
+    {
         var moduleURL = gModuleList[i] + "/(user)/" + gUserID;
+    }
     else
+    {
         var moduleURL = gHostUrl + "/" + gModuleList[i] + "/(user)/" + gUserID;
+    }
 
     if( UserParams !== undefined )
     {
