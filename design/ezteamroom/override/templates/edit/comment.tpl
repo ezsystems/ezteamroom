@@ -44,6 +44,7 @@
         <input class="button" type="submit" name="DiscardButton" value="{'Discard'|i18n('ezteamroom/comment')}" />
         <input type="hidden" name="MainNodeID" value="{$main_node_id }" />
         <input type="hidden" name="DiscardConfirm" value="0" />
+        <input type="hidden" name="RedirectIfDiscarded" value={$object.main_node.parent.url_alias|wash()} />
     </div>
 
     </form>
