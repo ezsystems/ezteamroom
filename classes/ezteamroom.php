@@ -101,7 +101,8 @@ class eZTeamroom
         //get all nodeAssignments
         if ( $removeNode->attribute( 'class_identifier' ) != 'user' )
         {
-            return $Module->handleError( eZError::KERNEL_NOT_AVAILABLE, 'kernel' );
+            eZDebug::writeWarning( 'Member object is not a instance of user class.', __METHOD__ );
+            return;
         }
 
         $userContentObject   = $removeNode->attribute( 'object' );
@@ -119,7 +120,7 @@ class eZTeamroom
         // Therefore we add another location which will be used as the new main node later
         if ( $allNodesCount == 1 )
         {
-            $siteINI              = ezINI::instance( 'site.ini' );
+            $siteINI              = eZINI::instance( 'site.ini' );
             $defaultUserPlacement = (int)$siteINI->variable( "UserSettings", "DefaultUserPlacement" );
             $newMainNode          = eZContentObjectTreeNode::fetch( $defaultUserPlacement );
             if ( $newMainNode instanceof eZContentObjectTreeNode )
@@ -190,7 +191,7 @@ class eZTeamroom
         {
             if ( $role->attribute( 'limit_value' ) == $teamroomPath )
             {
-                $role->removeUserAssignment( $userContentObjectID );
+                $role->removeUserAssignmentByID( $role->attribute('user_role_id') );
             }
         }
 
