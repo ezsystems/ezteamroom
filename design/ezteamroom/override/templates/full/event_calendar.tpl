@@ -446,9 +446,14 @@
 
 {else}
 
-    {def $event_object = false()}
+    {def $event_object = false()
+               $offset = 0}
 
-    {foreach $merged_calendar as $key => $event max $page_limit offset $view_parameters.offset}
+    {if $view_parameters.offset}
+        {set $offset = $view_parameters.offset}
+    {/if}
+
+    {foreach $merged_calendar as $key => $event max $page_limit offset $offset}
 
         {set $show_date = true()
              $event_object = false()}
