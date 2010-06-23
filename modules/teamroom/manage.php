@@ -66,8 +66,15 @@ elseif ( $http->hasPostVariable( 'RememberInviteButton' ) )
     $userContentObjectID = $keys[0];
     $receiverUserObject = eZUser::fetch( $userContentObjectID );
 
-    if ( $receiverUserObject ){
-        eZTeamroom::sendSinlgeEmail( $receiverUserObject->attribute( 'email' ) , $teamroomNode->attribute( 'object' ), 'remind_member_invited' );
+    if ( $receiverUserObject )
+    {
+        $hashKeyArray = eZDB::instance()->arrayQuery( 'SELECT hash_key FROM ezuser_accountkey WHERE user_id=' . $userContentObjectID );
+        $hash = false;
+        if ( is_array( $hashKeyArray ) && count( $hashKeyArray ) == 1 )
+        {
+            $hash = $hashKeyArray[0]['hash_key'];
+        }
+        eZTeamroom::sendSinlgeEmail( $receiverUserObject->attribute( 'email' ) , $teamroomNode->attribute( 'object' ), 'remind_member_invited', false, array( 'hash' => $hash ) );
         $messages[] = ezi18n( 'ezteamroom/membership', 'remind of invitation mail send to %1.', false, array ($receiverUserObject->attribute('email')));
     }
 }
