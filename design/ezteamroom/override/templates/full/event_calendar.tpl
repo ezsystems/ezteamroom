@@ -232,7 +232,7 @@
        <thead>
         <tr class="calendar_heading">
          <th class="calendar_heading_prev first_col" colspan="2">
-          <a href={$url_back|ezurl} title=" Previous month ">
+          <a href={$url_back|ezurl} title=" {'Previous month'|i18n("ezteamroom/events")|wash()} ">
 
 {if $curr_year|ne( $prev_year )}
 
@@ -254,7 +254,7 @@
 
          </th>
          <th class="calendar_heading_next last_col" colspan="2">
-          <a href={$url_forward|ezurl} title=" Next Month ">
+          <a href={$url_forward|ezurl} title=" {'Next Month'|i18n("ezteamroom/events")|wash()} ">
 
 {if $curr_year|ne( $next_year )}
 
