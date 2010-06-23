@@ -130,7 +130,12 @@
                                     </thead>
                                     <tbody>
 
-{def $class_identifier_map = ezini( 'TeamroomSettings', 'ClassIdentifiersMap', 'teamroom.ini' )}
+{def $class_identifier_map = ezini( 'TeamroomSettings', 'ClassIdentifiersMap', 'teamroom.ini' )
+     $total_task_count = fetch( 'content', 'list_count', hash( 'parent_node_id',     $node.node_id,
+                                                               'class_filter_type',  'include',
+                                                               'class_filter_array', array( $class_identifier_map['task'] )
+                                                             )
+                              )}
 
                                         {if is_set($view_parameters.tag)}
                                             {set $task_count = fetch( 'content', 'keyword_count', hash( 'alphabet', $view_parameters.tag|urldecode,
@@ -225,7 +230,7 @@
                 </form>
             </div>
 
-{if or( $task_count|gt( 0 ), is_set( $view_parameters.tag ), is_set( $view_parameters.viewfinished ) )}
+{if or( $total_task_count|gt( 0 ), is_set( $view_parameters.tag ), is_set( $view_parameters.viewfinished ) )}
 
             <div class="sort-by">
                 <h3>{'Filter'|i18n('ezteamroom/tasks')}</h3>
@@ -242,6 +247,8 @@
                         {/if}
                     </ul>
             </div>
+
+    {if $task_count|gt( 0 )}
 
             <div class="sort-by">
                 <h3>{'Sort By'|i18n('ezteamroom/tasks')}</h3>
@@ -300,9 +307,11 @@
                 </div>
             </div>
 
+    {/if}
+
 {/if}
 
-{undef $class_identifier_map}
+{undef $class_identifier_map $total_task_count}
 
                     </div></div></div>
                     <div class="border-bl"><div class="border-br"><div class="border-bc"></div></div></div>
