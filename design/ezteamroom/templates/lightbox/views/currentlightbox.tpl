@@ -35,7 +35,8 @@
         {if $isForeignLightbox}<div class="lightbox-owner">( {$current_lightbox.owner.contentobject.name|wash()} )</div>{/if}
 
         {if $current_lightbox.item_id_list|count()|gt( 0 )}
-            {def $content_object = false()}
+            {def $content_object = false()
+                    $item_object = false()}
             <ul>
             {foreach $current_lightbox.item_id_list as $item_id => $type_id sequence array( 'bglight', 'bgdark' ) as $bg}
                 {if $type_id|eq( 1 )}
@@ -56,6 +57,7 @@
                     </li>
                 {/if}
             {/foreach}
+            {undef $content_object $item_object}
             </ul>
         {else}
             <p>{'This lightbox is empty.'|i18n( 'ezteamroom/lightbox' )}</p>

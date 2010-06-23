@@ -117,18 +117,19 @@
 
         {if $selected_lightbox.item_id_list|count()|gt( 0 )}
 
-            {def $content_object = false()}
+            {def $content_object = false()
+                    $item_object = false()}
 
       <ul>
 
             {foreach $selected_lightbox.item_id_list as $item_id => $type_id sequence array( 'bglight', 'bgdark' ) as $bg}
 
-                {if $type_id|eq( 1 )}
+                {if $type_id|eq( '1' )}
 
                     {set $content_object = fetch( 'content', 'object', hash( 'object_id', $item_id ) )
                          $object_id      = $item_id}
 
-                {elseif $type_id|eq( 2 )}
+                {elseif $type_id|eq( '2' )}
 
                     {set $item_object    = fetch( 'content', 'node', hash( 'node_id', $item_id ) )
                          $content_object = $item_object.object
@@ -146,8 +147,8 @@
 
                 {else}
 
-        <a href={$content_object.main_node.url_alias|ezurl}>{node_view_gui content_node = $content_object.main_node
-                                                                                   view = 'listitem'}</a>
+        <a href={$content_object.main_node.url_alias|ezurl()}>{node_view_gui content_node = $content_object.main_node
+                                                                                     view = 'listitem'}</a>
 
                 {/if}
 
@@ -156,6 +157,9 @@
                 {/if}
 
             {/foreach}
+
+            {undef $content_object $item_object}
+
       </ul>
 
         {else}
