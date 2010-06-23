@@ -1,3 +1,5 @@
+{set-block scope=root variable=cache_ttl}0{/set-block}
+
 {def $frontpagestyle='noleftcolumn rightcolumn'}
 
 <div class="content-view-full">
