@@ -67,8 +67,11 @@
                             {if $sort_by_field}
                                 {set $sort_by = array( 'attribute', $sort_by_direction, $sort_by_field)}
                             {/if}
+                            {def $class_identifier_map = ezini( 'TeamroomSettings', 'ClassIdentifiersMap', 'teamroom.ini' )
+                                       $children_count = 0
+                                       $children = 0}
                             {if is_set($view_parameters.tag)}
-                                {def  $children_count = fetch( 'content', 'keyword_count', hash( 'alphabet', $view_parameters.tag|urldecode,
+                                {set  $children_count = fetch( 'content', 'keyword_count', hash( 'alphabet', $view_parameters.tag|urldecode,
                                                                                 'include_duplicates', false(),
                                                                                 'parent_node_id', $node.node_id ) )
                                       $children = fetch( 'content', 'keyword', hash( 'alphabet', $view_parameters.tag|urldecode,
@@ -91,14 +94,13 @@
                                         item_limit      = $page_limit
                                         preference      = "teamroom_milestone_list_limit"}
                             {else}
-                                {def $class_identifier_map = ezini( 'TeamroomSettings', 'ClassIdentifiersMap', 'teamroom.ini' )
-                                     $task_count = fetch( 'content', 'list_count', hash( 'parent_node_id',     $node.node_id,
+                                {set $children_count = fetch( 'content', 'list_count', hash( 'parent_node_id',     $node.node_id,
                                                                                         'class_filter_type',  'include',
                                                                                         'class_filter_array', array( $class_identifier_map['milestone'] ),
                                                                                         'attribute_filter', array( array( concat( $class_identifier_map['milestone'], '/closed' ), '>=', '0'  ) ) ))
-                                     $tasks = fetch( 'content', 'list', hash( 'parent_node_id',     $node.node_id,
+                                     $children = fetch( 'content', 'list', hash( 'parent_node_id',     $node.node_id,
                                                                                 'offset',             $view_parameters.offset,
-                                                                                'limit',              cond($page_limit|eq(-1), $task_count, $page_limit ),
+                                                                                'limit',              cond($page_limit|eq(-1), $children_count, $page_limit ),
                                                                                 'sort_by',            $sort_by,
                                                                                 'class_filter_type',  'include',
                                                                                 'class_filter_array', array( $class_identifier_map['milestone'] ),
@@ -111,15 +113,15 @@
                                 {/foreach}
 
                                 <div class="content-view-children">
-                                    {foreach $tasks as $task sequence array(bgdark,bglight) as $style}
-                                            {node_view_gui content_node=$task view='line' style=$style url=$url class_identifier_map = $class_identifier_map}
+                                    {foreach $children as $child sequence array(bgdark,bglight) as $style}
+                                            {node_view_gui content_node=$child view='line' style=$style url=$url class_identifier_map = $class_identifier_map}
                                     {/foreach}
                                 </div>
                                 {include name            = navigator
                                         uri             = 'design:navigator/google.tpl'
                                         page_uri        = $node.url_alias
                                         page_uri_suffix = $url_params
-                                        item_count      = $task_count
+                                        item_count      = $children_count
                                         view_parameters = $view_parameters
                                         item_limit      = $page_limit
                                         preference      = "teamroom_milestone_list_limit"}
@@ -174,7 +176,7 @@
                 </form>
             </div>
 
-{if or( and( is_set($children_count),$children_count|gt( 0 )), is_set( $view_parameters.tag ), $sorting|ne( '' ) )}
+{if or( $children_count|gt( 0 ), is_set( $view_parameters.tag ), $sorting|ne( '' ) )}
 
             <div class="sort-by">
                 <h3>{'Sort By'|i18n('ezteamroom/tasks')}</h3>
@@ -191,6 +193,8 @@
                 </div>
 
             </div>
+
+{/if}
 
             <div class="keywords">
                 <h3>{'Keywords'|i18n('ezteamroom/tasks')}</h3>
@@ -223,8 +227,6 @@
                 {/if}
                 </div>
             </div>
-
-{/if}
 
 {undef $class_identifier_map}
 
