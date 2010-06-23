@@ -123,15 +123,15 @@
 
 <div class="message-buttonblock">
 {section show=and($has_own_drafts,$has_other_drafts)}
-    <input class="message-button" type="image" src={"buttons/edit_button.jpg"|ezimage()} name="EditButton" value="{'Edit'|i18n('ezteamroom/edit')}" />
-    <input class="message-button" type="image" src={"buttons/new_draft_button.jpg"|ezimage()} name="NewDraftButton" value="{'New draft'|i18n('ezteamroom/edit')}" />
+    <input class="defaultbutton" type="submit" name="EditButton" value="{'Edit'|i18n( 'ezteamroom/edit' )}" />
+    <input class="button" type="submit" name="NewDraftButton" value="{'New draft'|i18n( 'ezteamroom/edit' )}" />
 {section-else}
     {section show=$has_own_drafts}
-        <input class="message-button" type="image" src={"buttons/edit_button.jpg"|ezimage()} name="EditButton" value="{'Edit'|i18n('ezteamroom/edit')}" />
-        <input class="message-button" type="image" src={"buttons/new_draft_button.jpg"|ezimage()} name="NewDraftButton" value="{'New draft'|i18n('ezteamroom/edit')}" />
+        <input class="defaultbutton" type="submit" name="EditButton" value="{'Edit'|i18n( 'ezteamroom/edit' )}" />
+        <input class="button" type="submit" name="NewDraftButton" value="{'New draft'|i18n( 'ezteamroom/edit' )}" />
     {/section}
     {section show=$has_other_drafts}
-        <input class="message-button" type="image" src={"buttons/new_draft_button.jpg"|ezimage()} name="NewDraftButton" value="{'New draft'|i18n('ezteamroom/edit')}" />
+        <input class="button" type="submit" name="NewDraftButton" value="{'New draft'|i18n( 'ezteamroom/edit' )}" />
     {/section}
 {/section}
 </div>
