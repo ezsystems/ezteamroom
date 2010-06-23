@@ -20,7 +20,7 @@
         <div class="search-users">
             <h3>{"Invite a user"|i18n("ezteamroom/membership")}:</h3>
             <p>{"Enter a valid email address. It is also possible to enter a comma separated list of email addresses. If there does not exist a user with one of the given email addresses in the system yet, new user accounts will be generated for them automatically."|i18n( "ezteamroom/membership" )}</p>
-            <input type="input"  name="MailAddressList"  value="" class="input" />
+            <input type="text"  name="MailAddressList"  value="" class="input" />
             <input type="submit" name="SearchMailButton" value="{'Search user'|i18n('ezteamroom/membership')}" class="defaultbutton" title="{'Search for existing users or invite new users according to their email addresses'|i18n('ezteamroom/membership')}" />
         </div>
         <div class="browse-users">
