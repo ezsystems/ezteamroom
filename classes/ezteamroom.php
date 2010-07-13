@@ -481,6 +481,8 @@ class eZTeamroom
     {
         $permissionsChanged = false;
         $db                 = eZDB::instance();
+        $teamroomPath       = eZContentObjectTreeNode::fetch( $teamroomNodeID )->attribute('path_string');
+        $roleList           = eZUser::fetch( $userID )->attribute( 'roles' );
         foreach ( $oldRoleIdList as $roleID => $wasSet )
         {
             if ( isset( $newRoleIdList[$roleID] ) )
@@ -499,8 +501,13 @@ class eZTeamroom
                 $roleObject = eZRole::fetch( $roleID );
                 if ( is_object( $roleObject ) )
                 {
-                    $roleObject->removeUserAssignment( $userID );
-                    $roleObject->store();
+                    foreach ( $roleList as $role  )
+                    {
+                        if ( $role->attribute( 'limit_value' ) == $teamroomPath && $role->attribute( 'id' ) == $roleID )
+                        {
+                            $role->removeUserAssignmentByID( $role->attribute('user_role_id') );
+                        }
+                    }
                     $db->commit();
                 }
                 else
