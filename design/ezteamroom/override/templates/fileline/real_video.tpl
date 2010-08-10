@@ -5,7 +5,7 @@
      $not_locked = cond($locked,0,1)
      $filelockfeature = ezini( 'TeamroomSettings', 'FileLockFeature', 'teamroom.ini' )
      $lightboxfeature = ezini( 'TeamroomSettings', 'LightboxFeature', 'teamroom.ini' )
-     $download_link    = concat( "content/download/", $attribute.contentobject_id, "/", $attribute.id, "/file/", $attribute.content.original_filename|urlencode() )
+     $download_link    = concat( "content/download/", $attribute.contentobject_id, "/", $attribute.id, "/file/", $attribute.content.original_filename|rawurlencode() )
      $can_use_lightbox = fetch( 'user', 'has_access_to',
                                          hash( 'module',   'lightbox',
                                                'function', 'add'
@@ -114,7 +114,7 @@
             <td class="{$style}">{$version.status|choose("Draft","Published","Pending","Archived","Rejected")}</td>
             <td class="{$style}"><a target="_blank" href={concat("/content/view/full/",$version.creator.main_node_id,"/")|ezurl}>{$version.creator.name|wash}</a></td>
             <td class="{$style}"><span class="small">{$version.modified|l10n(shortdate)}</span></td>
-            <td class="{$style}"><a href={concat("content/download/",$version.data_map.file.contentobject_id,"/",$version.data_map.file.id,"/file/",$version.data_map.file.content.original_filename|urlencode() )|ezurl}> {"Get version"|i18n("design/standard/content/version")}</a></td>
+            <td class="{$style}"><a href={concat("content/download/",$version.data_map.file.contentobject_id,"/",$version.data_map.file.id,"/file/",$version.data_map.file.content.original_filename|rawurlencode() )|ezurl}> {"Get version"|i18n("design/standard/content/version")}</a></td>
         </tr>
         {/foreach}
         </table>

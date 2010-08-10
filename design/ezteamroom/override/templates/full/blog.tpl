@@ -57,9 +57,9 @@
 
                     {if is_set($view_parameters.tag)}
 
-                        {set $blogs_count = fetch( 'content', 'keyword_count', hash( 'alphabet', $view_parameters.tag|urldecode,
+                        {set $blogs_count = fetch( 'content', 'keyword_count', hash( 'alphabet', $view_parameters.tag|rawurldecode,
                                                                         'parent_node_id', $node.node_id ) )
-                             $blogs = fetch( 'content', 'keyword', hash( 'alphabet', $view_parameters.tag|urldecode,
+                             $blogs = fetch( 'content', 'keyword', hash( 'alphabet', $view_parameters.tag|rawurldecode,
                                                                         'parent_node_id', $node.node_id,
                                                                         'offset', $view_parameters.offset,
                                                                         'sort_by', array( 'attribute', false(), concat( $class_identifier_map['blog_post'], '/publication_date' ) ),
@@ -184,7 +184,7 @@
 
                         {else}
 
-                 <a href={concat( $node.url_alias, "/(tag)/", $keyword.keyword|urlencode(), $sorting )|ezurl()} title="{'Shown only entries with tag "%1"'|i18n( 'ezteamroom/blog', , array( $keyword.keyword ) )|wash()}">{$keyword.keyword|wash()}</a>
+                 <a href={concat( $node.url_alias, "/(tag)/", $keyword.keyword|rawurlencode(), $sorting )|ezurl()} title="{'Shown only entries with tag "%1"'|i18n( 'ezteamroom/blog', , array( $keyword.keyword ) )|wash()}">{$keyword.keyword|wash()}</a>
 
                         {/if}
 

@@ -32,7 +32,7 @@
 {if $children|count()}
     <ul>
     {foreach $children as $child}
-        <li><div><a href={concat("content/download/",$child.data_map.file.contentobject_id,"/",$child.data_map.file.id,"/file/",$child.data_map.file.content.original_filename|urlencode() )|ezurl}>{node_view_gui content_node=$child view='listitem'}</a></div></li>
+        <li><div><a href={concat("content/download/",$child.data_map.file.contentobject_id,"/",$child.data_map.file.id,"/file/",$child.data_map.file.content.original_filename|rawurlencode() )|ezurl}>{node_view_gui content_node=$child view='listitem'}</a></div></li>
     {/foreach}
     </ul>
     <div class="infobox-link">

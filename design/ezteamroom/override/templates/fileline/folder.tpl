@@ -2,7 +2,7 @@
      $current_user = fetch( 'user', 'current_user' )
      $filelockfeature  = ezini( 'TeamroomSettings', 'FileLockFeature', 'teamroom.ini' )
      $lightboxfeature  = ezini( 'TeamroomSettings', 'LightboxFeature', 'teamroom.ini' )
-     $download_link    = concat("content/download/",$attribute.contentobject_id,"/",$attribute.id,"/file/",$attribute.content.original_filename|urlencode() )
+     $download_link    = concat("content/download/",$attribute.contentobject_id,"/",$attribute.id,"/file/",$attribute.content.original_filename|rawurlencode() )
      $can_use_lightbox = fetch( 'user', 'has_access_to',
                                          hash( 'module',   'lightbox',
                                                'function', 'add' ) )
@@ -95,7 +95,7 @@
             <td class="{$style}">{$version.status|choose("Draft"|i18n("ezteamroom/files"),"Published"|i18n("ezteamroom/files"),"Pending"|i18n("ezteamroom/files"),"Archived"|i18n("ezteamroom/files"),"Rejected"|i18n("ezteamroom/files"))}</td>
             <td class="{$style}"><a target="_blank" href={concat("/content/view/full/",$version.creator.main_node_id,"/")|ezurl}>{$version.creator.name|wash}</a></td>
             <td class="{$style}"><span class="small">{$version.modified|l10n(shortdate)}</span></td>
-            <td class="{$style}"><a href={concat("content/download/",$version.data_map.file.contentobject_id,"/",$version.data_map.file.id,"/file/",$version.data_map.file.content.original_filename|urlencode() )|ezurl}> {"Get version"|i18n("ezteamroom/files")}</a></td>
+            <td class="{$style}"><a href={concat("content/download/",$version.data_map.file.contentobject_id,"/",$version.data_map.file.id,"/file/",$version.data_map.file.content.original_filename|rawurlencode() )|ezurl}> {"Get version"|i18n("ezteamroom/files")}</a></td>
         </tr>
         {/foreach}
         </table>

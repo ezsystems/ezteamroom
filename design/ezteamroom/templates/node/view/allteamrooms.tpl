@@ -165,7 +165,7 @@
                 {def $sorting=cond($sort_by_field, concat("/(sortfield)/", $sort_by_field))}
                 <div class="tags">
                 {foreach ezkeywordlist( $class_identifier_map['teamroom'], $node.node_id) as $keyword}
-                <a href={concat( $node.url_alias, "/(tag)/", $keyword.keyword|urlencode, $sorting )|ezurl}
+                <a href={concat( $node.url_alias, "/(tag)/", $keyword.keyword|rawurlencode, $sorting )|ezurl}
                    title="{$keyword.keyword}"
                    {if and($view_parameters.tag,$view_parameters.tag|eq($keyword.keyword))}class="selected"{/if}>
                    {$keyword.keyword|wash()}</a>

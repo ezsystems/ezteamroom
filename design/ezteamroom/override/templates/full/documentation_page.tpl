@@ -102,12 +102,12 @@
 
                             {if is_set($view_parameters.tag)}
 
-                                {set $children_count = fetch( 'content', 'keyword_count', hash( 'alphabet', $view_parameters.tag|urldecode(),
+                                {set $children_count = fetch( 'content', 'keyword_count', hash( 'alphabet', $view_parameters.tag|rawurldecode(),
                                                                                                 'include_duplicates', false(),
                                                                                                 'parent_node_id', $pathStringArray[5]
                                                                                               )
                                                             )
-                                     $children = fetch( 'content', 'keyword', hash( 'alphabet', $view_parameters.tag|urldecode(),
+                                     $children = fetch( 'content', 'keyword', hash( 'alphabet', $view_parameters.tag|rawurldecode(),
                                                                                     'include_duplicates', false(),
                                                                                     'parent_node_id', $pathStringArray[5],
                                                                                     'offset', $view_parameters.offset,
@@ -217,7 +217,7 @@
 
                         {else}
 
-                 <a href={concat( $node.url_alias, "/(tag)/", $keyword.keyword|urlencode() )|ezurl()} title="{'Shown only entries with tag "%1"'|i18n( 'ezteamroom/files', , array( $keyword.keyword ) )|wash()}">{$keyword.keyword|wash()}</a>
+                 <a href={concat( $node.url_alias, "/(tag)/", $keyword.keyword|rawurlencode() )|ezurl()} title="{'Shown only entries with tag "%1"'|i18n( 'ezteamroom/files', , array( $keyword.keyword ) )|wash()}">{$keyword.keyword|wash()}</a>
 
                         {/if}
 

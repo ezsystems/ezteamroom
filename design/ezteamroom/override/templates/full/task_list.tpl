@@ -140,10 +140,10 @@
                               )}
 
                                         {if is_set($view_parameters.tag)}
-                                            {set $task_count = fetch( 'content', 'keyword_count', hash( 'alphabet', $view_parameters.tag|urldecode,
+                                            {set $task_count = fetch( 'content', 'keyword_count', hash( 'alphabet', $view_parameters.tag|rawurldecode,
                                                                                             'include_duplicates', false(),
                                                                                             'parent_node_id', $node.node_id ) )
-                                                 $tasks = fetch( 'content', 'keyword', hash( 'alphabet', $view_parameters.tag|urldecode,
+                                                 $tasks = fetch( 'content', 'keyword', hash( 'alphabet', $view_parameters.tag|rawurldecode,
                                                                                             'include_duplicates', false(),
                                                                                             'parent_node_id', $node.node_id,
                                                                                             'offset', $view_parameters.offset,
@@ -293,7 +293,7 @@
 
                         {else}
 
-                 <a href={concat( $node.url_alias, "/(tag)/", $keyword.keyword|urlencode(), $sorting )|ezurl()} title="{'Shown only tasks with tag "%1"'|i18n( 'ezteamroom/tasks', , array( $keyword.keyword ) )|wash()}">{$keyword.keyword|wash()}</a>
+                 <a href={concat( $node.url_alias, "/(tag)/", $keyword.keyword|rawurlencode(), $sorting )|ezurl()} title="{'Shown only tasks with tag "%1"'|i18n( 'ezteamroom/tasks', , array( $keyword.keyword ) )|wash()}">{$keyword.keyword|wash()}</a>
 
                         {/if}
 

@@ -38,7 +38,7 @@
     </div>
     <div class="tags"><strong>{'Tags'|i18n('ezteamroom/blog')}: </strong>
         {foreach $child.data_map.tags.content.keywords as $keyword}
-            <a href={concat( $child.parent.url_alias, "/(id)/", $child.parent.node_id, "/(tag)/", $keyword|urlencode )|ezurl} title="{$keyword}">{$keyword|wash()}</a>
+            <a href={concat( $child.parent.url_alias, "/(id)/", $child.parent.node_id, "/(tag)/", $keyword|rawurlencode )|ezurl} title="{$keyword}">{$keyword|wash()}</a>
             {delimiter}, {/delimiter}
         {/foreach}
     </div>

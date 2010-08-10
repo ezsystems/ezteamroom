@@ -36,7 +36,7 @@
 
                                     <div class="attribute-byline">
                                         <p class="tags"> Tags: {foreach $node.data_map.tags.content.keywords as $keyword}
-                                                                        <a href={concat( $node.parent.url_alias, "/(tag)/", $keyword|urlencode )|ezurl} title="{$keyword}">{$keyword|wash()}</a>
+                                                                        <a href={concat( $node.parent.url_alias, "/(tag)/", $keyword|rawurlencode )|ezurl} title="{$keyword}">{$keyword|wash()}</a>
                                                                         {delimiter}
                                                                             ,
                                                                         {/delimiter}
@@ -119,7 +119,7 @@
                 <h3>{'Keywords'|i18n('ezteamroom/blog')}</h3>
                 {def $sorting=cond($sort_by_field, concat("/(sortfield)/", $sort_by_field))}
                 <div class="tags">
-                {foreach ezkeywordlist( $class_identifier_map['blog_post'], $node.parent.node_id) as $keyword}<a href={concat( $node.parent.url_alias, "/(tag)/", $keyword.keyword|urlencode, $sorting )|ezurl} title="{$keyword.keyword}" {if and($view_parameters.tag,$view_parameters.tag|eq($keyword.keyword))}class="selected"{/if}>{$keyword.keyword|wash()}</a>{delimiter}, {/delimiter}{/foreach}
+                {foreach ezkeywordlist( $class_identifier_map['blog_post'], $node.parent.node_id) as $keyword}<a href={concat( $node.parent.url_alias, "/(tag)/", $keyword.keyword|rawurlencode, $sorting )|ezurl} title="{$keyword.keyword}" {if and($view_parameters.tag,$view_parameters.tag|eq($keyword.keyword))}class="selected"{/if}>{$keyword.keyword|wash()}</a>{delimiter}, {/delimiter}{/foreach}
                 </div>
             </div>
 

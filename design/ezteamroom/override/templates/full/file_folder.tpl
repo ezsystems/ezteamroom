@@ -138,10 +138,10 @@
                     <div class="border-ml"><div class="border-mr"><div class="border-mc float-break">
 
                             {if is_set( $view_parameters.tag )}
-                                {set $children_count = fetch( 'content', 'keyword_count', hash( 'alphabet', $view_parameters.tag|urldecode,
+                                {set $children_count = fetch( 'content', 'keyword_count', hash( 'alphabet', $view_parameters.tag|rawurldecode,
                                                                                 'include_duplicates', false(),
                                                                                 'parent_node_id', $node.node_id ) )
-                                     $children = fetch( 'content', 'keyword', hash( 'alphabet', $view_parameters.tag|urldecode,
+                                     $children = fetch( 'content', 'keyword', hash( 'alphabet', $view_parameters.tag|rawurldecode,
                                                                                 'include_duplicates', false(),
                                                                                 'parent_node_id', $node.node_id,
                                                                                 'offset', $view_parameters.offset,
@@ -403,7 +403,7 @@
 
                         {else}
 
-                    <a href={concat( $node.url_alias, "/(tag)/", $keyword.keyword|urlencode(), $sorting )|ezurl()} title="{'Shown only files with tag "%1"'|i18n( 'ezteamroom/files', , array( $keyword.keyword ) )|wash()}">{$keyword.keyword|wash()}</a>
+                    <a href={concat( $node.url_alias, "/(tag)/", $keyword.keyword|rawurlencode(), $sorting )|ezurl()} title="{'Shown only files with tag "%1"'|i18n( 'ezteamroom/files', , array( $keyword.keyword ) )|wash()}">{$keyword.keyword|wash()}</a>
 
                         {/if}
 

@@ -56,7 +56,7 @@
         {else}
             {'Tags'|i18n( 'ezteamroom/blog' )}:
             {foreach $node.data_map.tags.content.keywords as $keyword}
-                <a href={concat( $node.parent.url_alias, "/(tag)/", $keyword|urlencode )|ezurl} title="{$keyword}">{$keyword|wash()}</a>
+                <a href={concat( $node.parent.url_alias, "/(tag)/", $keyword|rawurlencode )|ezurl} title="{$keyword}">{$keyword|wash()}</a>
                 {delimiter},{/delimiter}
             {/foreach}
         {/if}
