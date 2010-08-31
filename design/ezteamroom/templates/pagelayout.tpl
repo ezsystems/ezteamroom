@@ -28,17 +28,9 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="{$site.http_equiv.Content-language|wash}" lang="{$site.http_equiv.Content-language|wash}">
  <head>
 
-    {ezcss( array( 'yui/fonts/fonts-min.css', 'core.css', 'debug.css', 'teamroom.css', ezini( 'StylesheetSettings', 'CSSFileList', 'design.ini' ) ) ) }
-
-    {include uri = 'design:page_head.tpl'}
-
-  <link rel="stylesheet" type="text/css" href={"stylesheets/print.css"|ezdesign} media="print" />
-  <!-- IE conditional comments; for bug fixes for different IE versions -->
-  <!--[if IE 5]> <style type="text/css"> @import url({"stylesheets/browsers/ie5.css"|ezdesign(no)}); </style> <![endif]-->
-  <!--[if IE 6]> <style type="text/css"> @import url({"stylesheets/browsers/ie6.css"|ezdesign(no)}); </style> <![endif]-->
-  <!--[if IE 7]> <style type="text/css"> @import url({"stylesheets/browsers/ie7.css"|ezdesign(no)}); </style> <![endif]-->
-
-    {ezscript( array( 'yui/utilities/utilities.js', 'yui/slider/slider.js', ezini( 'JavaScriptSettings', 'JavaScriptList', 'design.ini' ) ) )}
+     {include uri = 'design:page_head.tpl'}
+     {include uri='design:page_head_style.tpl'}
+     {include uri='design:page_head_script.tpl'}
 
  </head>
  <body>
