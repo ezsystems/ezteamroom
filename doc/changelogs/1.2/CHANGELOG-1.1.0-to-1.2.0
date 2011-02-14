@@ -8,5 +8,6 @@ Changes from 1.1.0 to 1.2.0
 - Fixed bug #16834: Teamroom: changing policies in one teamroom affects user's policies in other teamroom
 - Fixed bug #16630: ezteamroom: standard tpl operator urlencode is modified
 - Fixed bug #16781: ezteamroom does not use ezjscore (ez*_load()) so jquery++ isn't load
+- Fixed bug #17714: eZTeamroom not working on 4.5.0Alpha1
 
 *Enhancements*

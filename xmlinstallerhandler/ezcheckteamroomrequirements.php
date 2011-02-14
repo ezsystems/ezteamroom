@@ -47,33 +47,14 @@ class eZCheckTeamroomRequirements extends eZXMLInstallerHandler
             }
         }
 
-        // Check database
-        $db = eZDB::instance();
-        $dbOK = $db->Arrayquery( "SELECT value FROM ezsite_data where name='ezpublish-version'" );
-        if ( $dbOK === false )
-        {
+        $isDBConnected = eZDB::instance()->isConnected();
+
+        if ( !$isDBConnected )
             $messages[] = "Database connection could not be etablished.";
-        }
-        else
-        {
-            $validVersions = array( '4.0.0', '4.0.1', '4.0.2', '4.0.3', '4.0.4', '4.0.5', '4.0.6', '4.0.7', '4.1.0', '4.1.1', '4.1.2', '4.1.3', '4.1.4', '4.2.0', '4.3.0', '4.4.0' );
-            $version = substr( $dbOK[0]['value'], 0, 5 );
-            if ( !in_array( $version, $validVersions ) )
-            {
-                $messages[] = "eZ Publish Version '$version' not a valid version.";
-            }
-        }
 
         // Check if ezlightbox is installed correctly
-        if ( $dbOK )
-        {
-            $tableList = $db->eZTableList( );
-            if ( !array_key_exists( 'ezlightbox', $tableList ) )
-            {
-                $messages[] = "ezlightbox is not installed correctly.";
-            }
-        }
-
+        if ( $isDBConnected && !array_key_exists( 'ezlightbox', eZDB::instance()->eZTableList() ) )
+            $messages[] = "ezlightbox is not installed correctly.";
 
         // Check parameter set by user
         $dataSource       = $xmlNode->getAttribute( 'data_source' );
@@ -96,7 +77,7 @@ class eZCheckTeamroomRequirements extends eZXMLInstallerHandler
             $messages[] = "Admin Siteaccess '$adminAccessName' does not exist.";
         }
 
-        if ( $dbOK )
+        if ( $isDBConnected )
         {
             if ( !eZContentObjectTreeNode::fetch( $teamroomRootNode ) )
             {
