@@ -96,7 +96,7 @@ elseif ( $actionType == 'SelectInviteUsers' )
     $eZContentBrowseResult = eZContentBrowse::result( 'SelectInviteUsers' );
     eZDebug::writeDebug($eZContentBrowseResult,  __FILE__.':'.__LINE__ .'($eZContentBrowseResult)');
     $inviteUserList = array_merge( $eZContentBrowseResult, $inviteUserList );
-    $messages[] = ezi18n( 'ezteamroom/membership', 'Users were successfully selected' );
+    $messages[] = ezpI18n::tr( 'ezteamroom/membership', 'Users were successfully selected' );
 }
 elseif ( $actionType == 'SearchMail' && $http->hasPostVariable( 'MailAddressList' ) )
 {
@@ -141,24 +141,24 @@ elseif ( $actionType == 'SearchMail' && $http->hasPostVariable( 'MailAddressList
 
                     if ( $isMember )
                     {
-                        $errors[] = ezi18n( 'ezteamroom/membership', 'User is already Member: ' ) . $userContentObject->Name.' ('.$mailAddress.')';
+                        $errors[] = ezpI18n::tr( 'ezteamroom/membership', 'User is already Member: ' ) . $userContentObject->Name.' ('.$mailAddress.')';
                     }
                     elseif ( in_array ($userContentObjectID , $inviteUserList) )
                     {
-                        $messages[] = ezi18n( 'ezteamroom/membership', 'User already selected: ' ) . $userContentObject->Name.' ('.$mailAddress.')';
+                        $messages[] = ezpI18n::tr( 'ezteamroom/membership', 'User already selected: ' ) . $userContentObject->Name.' ('.$mailAddress.')';
                     }
                     else
                     {
                         $inviteUserList[] = $userContentObjectID;
-                        $messages[] = ezi18n( 'ezteamroom/membership', 'User was successfully added: ' ) . $userContentObject->Name.' ('.$mailAddress.')';
+                        $messages[] = ezpI18n::tr( 'ezteamroom/membership', 'User was successfully added: ' ) . $userContentObject->Name.' ('.$mailAddress.')';
                     }
                 }
             }else{
                 if( !eZMail::validate( $mailAddress ) ){
-                    $errors[] = ezi18n( 'ezteamroom/membership', 'You entered an invalid mail address: ' ) . $mailAddress;
+                    $errors[] = ezpI18n::tr( 'ezteamroom/membership', 'You entered an invalid mail address: ' ) . $mailAddress;
                 }else{
-                    $errors[] = ezi18n( 'ezteamroom/membership', 'There is no registered user with that email address: ' ) . $mailAddress .
-                                ezi18n( 'ezteamroom/membership', ' A new account will be created.' ) ;
+                    $errors[] = ezpI18n::tr( 'ezteamroom/membership', 'There is no registered user with that email address: ' ) . $mailAddress .
+                                ezpI18n::tr( 'ezteamroom/membership', ' A new account will be created.' ) ;
                     $createUserList[] = $mailAddress;
                 }
             }
@@ -214,7 +214,7 @@ elseif ( $actionType == 'Invite' )
         $defaultUserPlacementNodeID = (int)$ini->variable( 'UserSettings', 'DefaultUserPlacement' );
         $defaultUserPlacementNode = eZNodeAssignment::fetchByID( $defaultUserPlacementNodeID );
         if (!$defaultUserPlacementNode){
-            eZDebug::writeError( ezi18n( 'ezteamroom/membership', 'The node (%1) specified in [UserSettings].DefaultUserPlacement setting in site.ini does not exist!', null, array( $defaultUserPlacementNodeID ) ) );
+            eZDebug::writeError( ezpI18n::tr( 'ezteamroom/membership', 'The node (%1) specified in [UserSettings].DefaultUserPlacement setting in site.ini does not exist!', null, array( $defaultUserPlacementNodeID ) ) );
             return $Module->handleError( eZError::KERNEL_NOT_AVAILABLE, 'kernel' );
         }
         // create user accounts
@@ -222,7 +222,7 @@ elseif ( $actionType == 'Invite' )
         foreach ( $createUserList as $mailAddress )
         {
             // generate user data (firstname,lastname,password,username)
-            $firstname      = ezi18n( 'ezteamroom/membership', 'New invited user' );
+            $firstname      = ezpI18n::tr( 'ezteamroom/membership', 'New invited user' );
             $lastname       = '( ' . $mailAddress . ' )';
             $passwordLength = $ini->variable( 'UserSettings', 'GeneratePasswordLength' );
             $password       = eZUser::createPassword( $passwordLength );
@@ -349,7 +349,7 @@ elseif ( $actionType == 'Invite' )
     eZUser::cleanupCache();
 
     eZDebug::writeDebug( 'end inviting' ,  __FILE__.':'.__LINE__ );
-    //$messages[] = ezi18n( 'ezteamroom/membership', 'Users invited.' );
+    //$messages[] = ezpI18n::tr( 'ezteamroom/membership', 'Users invited.' );
     return $Module->redirectTo( $manageUrl );
 
 }
@@ -383,7 +383,7 @@ $Result['content'] = $tpl->fetch( 'design:teamroom/invite.tpl' );
 
 $Result['path'] = array(
     array( 'text' => $teamroomNode->attribute( 'name' ),                    'url' => $teamroomNode->attribute( 'url_alias' ) ),
-    array( 'text' => ezi18n( 'ezteamroom/membership', 'Manage Member' ),    'url' => $manageUrl ),
-    array( 'text' => ezi18n( 'ezteamroom/membership', 'Invite' ),           'url' => $inviteUrl ) );
+    array( 'text' => ezpI18n::tr( 'ezteamroom/membership', 'Manage Member' ),    'url' => $manageUrl ),
+    array( 'text' => ezpI18n::tr( 'ezteamroom/membership', 'Invite' ),           'url' => $inviteUrl ) );
 
 ?>

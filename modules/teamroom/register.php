@@ -153,6 +153,6 @@ if (!$Result){
 
 $Result['path'] = array(
     array( 'text' => $teamroomNode->attribute( 'name') 			, 'url' => $teamroomNode->attribute( 'url_alias') ),
-    array( 'text' => ezi18n( 'ezteamroom/teamroom', 'Register' ), 'url' => 'teamroom/register/' . $teamroomNode->attribute( 'contentobject_id')  ) );
+    array( 'text' => ezpI18n::tr( 'ezteamroom/teamroom', 'Register' ), 'url' => 'teamroom/register/' . $teamroomNode->attribute( 'contentobject_id')  ) );
 
 ?>

@@ -99,6 +99,6 @@ $Result['content'] = $tpl->fetch( 'design:teamroom/'.$tplfile );
 
 $Result['path'] = array(
     array( 'text' => $teamroomNode->attribute( 'name' ),                    'url' => $teamroomNode->attribute( 'url_alias') ),
-    array( 'text' => ezi18n( 'ezteamroom/membership', 'Resign' ),           'url' => 'teamroom/resign/'.$teamroomID  ) );
+    array( 'text' => ezpI18n::tr( 'ezteamroom/membership', 'Resign' ),           'url' => 'teamroom/resign/'.$teamroomID  ) );
 
 ?>

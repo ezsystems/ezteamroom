@@ -27,7 +27,7 @@ class eZSetTeamroomType extends eZWorkflowEventType
 {
     function eZSetTeamroomType()
     {
-        $this->eZWorkflowEventType( 'ezsetteamroom', ezi18n( 'ezteamroom/setteamroom', 'Set the current Teamroom' ) );
+        $this->eZWorkflowEventType( 'ezsetteamroom', ezpI18n::tr( 'ezteamroom/setteamroom', 'Set the current Teamroom' ) );
         $this->setTriggerTypes( array( 'content' => array( 'read' => array( 'before' ) ) ) );
     }
 

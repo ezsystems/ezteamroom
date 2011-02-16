@@ -75,7 +75,7 @@ elseif ( $http->hasPostVariable( 'RememberInviteButton' ) )
             $hash = $hashKeyArray[0]['hash_key'];
         }
         eZTeamroom::sendSinlgeEmail( $receiverUserObject->attribute( 'email' ) , $teamroomNode->attribute( 'object' ), 'remind_member_invited', false, array( 'hash' => $hash ) );
-        $messages[] = ezi18n( 'ezteamroom/membership', 'remind of invitation mail send to %1.', false, array ($receiverUserObject->attribute('email')));
+        $messages[] = ezpI18n::tr( 'ezteamroom/membership', 'remind of invitation mail send to %1.', false, array ($receiverUserObject->attribute('email')));
     }
 }
 elseif ( $http->hasPostVariable( 'StoreRoleChangesButton' ) &&
@@ -99,7 +99,7 @@ elseif ( $http->hasPostVariable( 'StoreRoleChangesButton' ) &&
         eZContentCacheManager::clearContentCacheIfNeeded( $teamroomID );
         eZUser::cleanupCache();
     }
-    $messages[] = ezi18n( 'ezteamroom/membership', 'Changes have been stored.' );
+    $messages[] = ezpI18n::tr( 'ezteamroom/membership', 'Changes have been stored.' );
 }
 
 elseif ( $http->hasPostVariable( 'MoveUser' ) )
@@ -111,16 +111,16 @@ elseif ( $http->hasPostVariable( 'MoveUser' ) )
     $moveToNode   = eZContentObjectTreeNode::fetch( (int)$moveToGroupID );
 
     if ( !$moveUserNode || !$moveToNode ){
-            $errors[] = ezi18n( 'ezteamroom/membership', 'Failed to move Member.' );
+            $errors[] = ezpI18n::tr( 'ezteamroom/membership', 'Failed to move Member.' );
             eZDebug::writeError( "Failed to move node $moveUserID as child of parent node $moveToGroupID",'teamroom/manage' );
     }else{
         //move node
         if ( !eZContentObjectTreeNodeOperations::move( (int)$moveUserID, (int)$moveToGroupID ) )
         {
             eZDebug::writeError( "Failed to move node $moveUserID as child of parent node $moveToGroupID",'teamroom/manage' );
-            $errors[] = ezi18n( 'ezteamroom/membership', 'Failed to move Member.' );
+            $errors[] = ezpI18n::tr( 'ezteamroom/membership', 'Failed to move Member.' );
         }else{
-            $messages[] = ezi18n( 'ezteamroom/membership', 'Selected users have been moved.' );
+            $messages[] = ezpI18n::tr( 'ezteamroom/membership', 'Selected users have been moved.' );
         }
 
     }
@@ -147,7 +147,7 @@ elseif ( $http->hasPostVariable( 'RemoveButton' ) &&
                 eZTeamroom::sendSinlgeEmail( $user->attribute( 'email' ), $teamroomObject, 'member_removed', false, $params );
             }
         }
-        $messages[] = ezi18n( 'ezteamroom/membership', 'Selected users have been removed.' );
+        $messages[] = ezpI18n::tr( 'ezteamroom/membership', 'Selected users have been removed.' );
     }
 }
 
@@ -176,6 +176,6 @@ $Result['content'] = $tpl->fetch( 'design:teamroom/manage.tpl' );
 
 $Result['path'] = array(
     array( 'text' => $teamroomNode->attribute( 'name' ),                    'url' => $teamroomNode->attribute( 'url_alias' ) ),
-    array( 'text' => ezi18n( 'ezteamroom/membership', 'Manage Member' ),    'url' => $manageUrl ) );
+    array( 'text' => ezpI18n::tr( 'ezteamroom/membership', 'Manage Member' ),    'url' => $manageUrl ) );
 
 ?>

@@ -34,7 +34,7 @@ class eZApproveMemberRegistrationType extends eZWorkflowEventType
 
     function eZApproveMemberRegistrationType()
     {
-        $this->eZWorkflowEventType( 'ezapprovememberregistration', ezi18n( 'ezteamroom/collaboration', 'Approve teamroom membership' ) );
+        $this->eZWorkflowEventType( 'ezapprovememberregistration', ezpI18n::tr( 'ezteamroom/collaboration', 'Approve teamroom membership' ) );
         $this->setTriggerTypes( array( 'teamroom' => array( 'register' => array( 'before' ) ) ) );
     }
 

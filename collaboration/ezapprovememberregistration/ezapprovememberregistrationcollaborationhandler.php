@@ -46,7 +46,7 @@ class eZApproveMemberRegistrationCollaborationHandler extends eZCollaborationIte
     function eZApproveMemberRegistrationCollaborationHandler()
     {
         $this->eZCollaborationItemHandler( 'ezapprovememberregistration',
-                                           ezi18n( 'ezteamroom/teamroom', 'Approve teamroom membership' ),
+                                           ezpI18n::tr( 'ezteamroom/teamroom', 'Approve teamroom membership' ),
                                            array( 'use-messages' => true,
                                                   'notification-types' => true,
                                                   'notification-collection-handling' => eZCollaborationItemHandler::NOTIFICATION_COLLECTION_PER_PARTICIPATION_ROLE ) );
@@ -55,7 +55,7 @@ class eZApproveMemberRegistrationCollaborationHandler extends eZCollaborationIte
 
     function title( $collaborationItem )
     {
-        return ezi18n( 'ezteamroom/teamroom', 'approve member registration' );
+        return ezpI18n::tr( 'ezteamroom/teamroom', 'approve member registration' );
     }
 
     function content( $collaborationItem )
@@ -264,7 +264,7 @@ class eZApproveMemberRegistrationCollaborationHandler extends eZCollaborationIte
                 eZContentCacheManager::clearContentCacheIfNeeded ($teamroomID);
                 eZUser::cleanupCache();
 
-                $message = ezi18n( 'ezteamroom/teamroom', 'Changes have been stored.' );
+                $message = ezpI18n::tr( 'ezteamroom/teamroom', 'Changes have been stored.' );
 
                 $status = eZApproveMemberRegistrationCollaborationHandler::STATUS_ACCEPTED;
             }

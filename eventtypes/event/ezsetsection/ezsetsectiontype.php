@@ -27,7 +27,7 @@ class eZSetSectionType extends eZWorkflowEventType
 {
     function eZSetSectionType()
     {
-        $this->eZWorkflowEventType( 'ezsetsection', ezi18n( 'ezteamroom/setsetction', 'Set Section of Object' ) );
+        $this->eZWorkflowEventType( 'ezsetsection', ezpI18n::tr( 'ezteamroom/setsetction', 'Set Section of Object' ) );
         $this->setTriggerTypes( array( 'content' => array( 'publish' => array( 'after' ) ) ) );
     }
 

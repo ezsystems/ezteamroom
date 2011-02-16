@@ -37,7 +37,7 @@ $processName      = '';
 $processID        = -1;
 $showMemberList   = true;
 $url              = '/teamroom/messagecenter';
-$path             = array( array( 'text' => ezi18n( 'ezteamroom/messagecenter', 'Message Center' ),
+$path             = array( array( 'text' => ezpI18n::tr( 'ezteamroom/messagecenter', 'Message Center' ),
                                   'url'  => null
                                 )
                          );
