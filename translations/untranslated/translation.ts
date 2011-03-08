@@ -1264,6 +1264,22 @@ change your settings at:</source>
         <source>No events</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Edit event</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Edit single date of recurring event</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Previous month</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Next Month</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>ezteamroom/files</name>
@@ -2745,6 +2761,18 @@ change your settings at:</source>
         <source>Create new lightbox.</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Are you sure you want to delete this lightbox?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Are you sure you want to remove this entry?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Are you sure you want to empty this lightbox?</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>ezteamroom/membership</name>
@@ -3197,14 +3225,6 @@ change your settings at:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Clear list</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Remove all users selected for invitation from the list displayed above</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>[%siteurl] Teamroom invitation user account</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3266,6 +3286,18 @@ change your settings at:</source>
     </message>
     <message>
         <source>Failed to move Member.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Remove the selected users from the invitation list displayed above</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>If you forgot your password, use the following link to get a new password</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -4134,10 +4166,6 @@ change your settings at:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Move to group &quot;%1&quot;</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Invert selection</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4163,6 +4191,10 @@ change your settings at:</source>
     </message>
     <message>
         <source>No</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Move to group &apos;%1&apos;</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
