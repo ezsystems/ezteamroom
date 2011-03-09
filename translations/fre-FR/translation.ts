@@ -1272,6 +1272,22 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
         <source>No events</source>
         <translation>Pas d&apos;événements</translation>
     </message>
+    <message>
+        <source>Edit event</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Edit single date of recurring event</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Previous month</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Next Month</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>ezteamroom/files</name>
@@ -2753,6 +2769,18 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
         <source>Continue</source>
         <translation>Continuer</translation>
     </message>
+    <message>
+        <source>Are you sure you want to delete this lightbox?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Are you sure you want to remove this entry?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Are you sure you want to empty this lightbox?</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>ezteamroom/membership</name>
@@ -3218,11 +3246,11 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Clear list</source>
-        <translation>Vider la liste</translation>
+        <translation type="obsolete">Vider la liste</translation>
     </message>
     <message>
         <source>Remove all users selected for invitation from the list displayed above</source>
-        <translation>Supprimer tous les utilisateurs selectionnés de la liste ci-dessous</translation>
+        <translation type="obsolete">Supprimer tous les utilisateurs selectionnés de la liste ci-dessous</translation>
     </message>
     <message>
         <source>Send the invitation email to &quot;%1&quot; again</source>
@@ -3275,6 +3303,18 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     <message>
         <source>Failed to move Member.</source>
         <translation>Déplacement d&apos;un membre en erreur.</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation type="unfinished">Supprimer</translation>
+    </message>
+    <message>
+        <source>Remove the selected users from the invitation list displayed above</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>If you forgot your password, use the following link to get a new password</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -4143,7 +4183,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Move to group &quot;%1&quot;</source>
-        <translation>Déplacer vers le groupe &quot;%1&quot;</translation>
+        <translation type="obsolete">Déplacer vers le groupe &quot;%1&quot;</translation>
     </message>
     <message>
         <source>Join teamroom &quot;%name&quot;</source>
@@ -4168,6 +4208,10 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     <message>
         <source>No</source>
         <translation>Non</translation>
+    </message>
+    <message>
+        <source>Move to group &apos;%1&apos;</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
