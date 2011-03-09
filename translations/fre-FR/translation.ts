@@ -78,7 +78,7 @@
     </message>
     <message>
         <source>Only users that belong to the same group as you do can see that the teamroom exists and you will have to approve any requested membership before people can use the teamroom.</source>
-        <translation>Seuls les personnes appartenant au mem egroupe que vous peuvent voir l&apos;espace projet et vous devrez approuver leur demande d&apos;adhesion avant qu&apos;il puisse utiliser l&apos;espace projet.</translation>
+        <translation>Seuls les personnes appartenant au même groupe que vous peuvent voir l&apos;espace projet et vous devrez approuver leur demande d&apos;adhesion avant qu&apos;il puisse utiliser l&apos;espace projet.</translation>
     </message>
     <message>
         <source>Protected</source>
@@ -86,7 +86,7 @@
     </message>
     <message>
         <source>Anybody can see that the teamroom exists and you will have to approve any requested membership before people can use the teamroom.</source>
-        <translation>Toute personne peut voir l&apos;espace projet et par contre, une validation devotre part sera necessaire pour qu&apos;elle puisse y accèder.</translation>
+        <translation>Toute personne peut voir l&apos;espace projet, une validation de votre part sera néanmoins nécessaire pour qu&apos;elle puisse y accéder.</translation>
     </message>
     <message>
         <source>Public</source>
@@ -101,15 +101,15 @@
     <name>ezteamroom/article</name>
     <message>
         <source>Tip a friend</source>
-        <translation>Conseillez à un ami</translation>
+        <translation>Suggérer à un ami</translation>
     </message>
     <message>
         <source>Download PDF</source>
-        <translation>Télécharger en PDF</translation>
+        <translation>Télécharger au format PDF</translation>
     </message>
     <message>
         <source>Download PDF version of this page</source>
-        <translation>Télécharger la version de cette page en PDF</translation>
+        <translation>Télécharger la version PDF de cette page</translation>
     </message>
     <message>
         <source>Comments</source>
@@ -128,7 +128,7 @@
     <name>ezteamroom/blog</name>
     <message>
         <source>Edit description</source>
-        <translation>Editer la description</translation>
+        <translation>Modifier la description</translation>
     </message>
     <message>
         <source>Add new entry</source>
@@ -136,7 +136,7 @@
     </message>
     <message>
         <source>Keywords</source>
-        <translation>Mots-clefs</translation>
+        <translation>Mots clés</translation>
     </message>
     <message>
         <source>Author</source>
@@ -160,11 +160,11 @@
     </message>
     <message>
         <source>Edit</source>
-        <translation>Editer</translation>
+        <translation>Modifier</translation>
     </message>
     <message>
         <source>Edit this post</source>
-        <translation>Editer ce message</translation>
+        <translation>Modifier ce message</translation>
     </message>
     <message>
         <source>Remove</source>
@@ -176,15 +176,15 @@
     </message>
     <message>
         <source>No Tags</source>
-        <translation>Aucun mot-clef</translation>
+        <translation>Aucun mot clé</translation>
     </message>
     <message>
         <source>Tags</source>
-        <translation>Mots-clefs</translation>
+        <translation>Mots-clés</translation>
     </message>
     <message>
         <source>Edit this comment</source>
-        <translation>Editer ce commentaire</translation>
+        <translation>Modifier ce commentaire</translation>
     </message>
     <message>
         <source>Remove this comment</source>
@@ -215,17 +215,17 @@
     <name>ezteamroom/bookmark</name>
     <message>
         <source>My bookmarks</source>
-        <translation>Mes marque-pages</translation>
+        <translation>Mes signets</translation>
     </message>
     <message>
         <source>These are the objects you have bookmarked. Click on an object to view it or if you have permission you can edit the object by clicking the edit button.
       If you want to add more objects to this list click the %emphasize_startAdd bookmarks%emphasize_stop button.
 
       Removing objects will only remove them from this list.</source>
-        <translation>Voici les pages que vous avez sauvegarder dans votre marque-pages. Cliquer sur un signet pour le visualiser ou si vous en avez l&apos;autorisation vous pouvez éditer ce signet en cliquant sur le bouton editer.
-      Si vous voulez ajouter des signets à cette liste cliquer sur le bouton %emphasize_startAjouter au marque-pages%emphasize_stop.
+        <translation>Voici les pages que vous avez ajoutées à vos signets. Cliquez sur un signet pour le visualiser ou si vous en avez l&apos;autorisation vous pouvez modifier ce signet en cliquant sur le bouton modifier.
+      Si vous voulez ajouter des signets à cette liste cliquez sur le bouton %emphasize_startAjouter aux signets%emphasize_stop.
 
-      Supprimer un signet fera seulement disparaitre l&apos;élément de la liste.</translation>
+      Supprimer un signet fera seulement disparaître l&apos;élément de la liste.</translation>
     </message>
     <message>
         <source>Name</source>
@@ -237,7 +237,7 @@
     </message>
     <message>
         <source>You have no bookmarks</source>
-        <translation>Vous n&apos;avez pas de marque-pages</translation>
+        <translation>Vous n&apos;avez pas de signet</translation>
     </message>
     <message>
         <source>Remove</source>
@@ -256,11 +256,11 @@
     </message>
     <message>
         <source>To select objects, choose the appropriate radiobutton or checkbox(es), and click the &quot;Select&quot; button.</source>
-        <translation>Pour sélectionner un object, choisissez le bouton radio ou la case à cocher appropriée, puis cliquer sur le bouton &quot;Sélectionner&quot;.</translation>
+        <translation>Pour sélectionner un object, choisissez le bouton radio ou la case à cocher appropriée, puis cliquez sur le bouton &quot;Sélectionner&quot;.</translation>
     </message>
     <message>
         <source>To select an object that is a child of one of the displayed objects, click the parent object name to display a list of its children.</source>
-        <translation>Pour sélectionner un object fils d&apos;un des objects présentés, cliquer sur le nom de l&apos;object parent pour afficher la liste de ses fils.</translation>
+        <translation>Pour sélectionner un object fils d&apos;un des objects présentés, cliquez sur le nom de l&apos;object parent pour afficher la liste de ses fils.</translation>
     </message>
     <message>
         <source>Top level</source>
@@ -303,11 +303,11 @@
     </message>
     <message>
         <source>Receive all messages combined in one digest</source>
-        <translation>Recevoir tous les messages synthétisés dans un seul</translation>
+        <translation>Recevoir une synthèse des messages en un seul envoi</translation>
     </message>
     <message>
         <source>Daily, at</source>
-        <translation>Journalier, à </translation>
+        <translation>Quotidiennement, à</translation>
     </message>
     <message>
         <source>Once per week, on </source>
@@ -319,11 +319,11 @@
     </message>
     <message>
         <source>If day number is larger than the number of days within the current month, the last day of the current month will be used.</source>
-        <translation>Si le jour du mois est plus grand qye le nombre de jours du mois en court, le dernier jour du mois en court sera utilisé.</translation>
+        <translation>Si le numéro du jour que vous avez choisi est supérieur au nombre de jours dans le mois actuel, le dernier jour du mois actuel sera utilisé.</translation>
     </message>
     <message>
         <source>Item notifications</source>
-        <translation>Notifications d&apos;articles</translation>
+        <translation>Notifications pour les élements</translation>
     </message>
     <message>
         <source>Name</source>
@@ -343,7 +343,7 @@
     </message>
     <message>
         <source>This email is to inform you that an updated item has been published at %sitename.</source>
-        <translation>Ce courriel vous informe de la mise à jour d&apos;un article publié sur le site %sitename.</translation>
+        <translation>Ce courriel vous informe de la mise à jour d&apos;un élément publié sur le site %sitename.</translation>
     </message>
     <message>
         <source>The item can be viewed by using the URL below.</source>
@@ -364,11 +364,12 @@
     <message>
         <source>If you do not want to continue receiving these notifications,
 change your settings at:</source>
-        <translation>Si vous ne voulez plus recevoir ces notifications, modifiez votre profil :</translation>
+        <translation>Si vous ne souhaitez plus recevoir ces notifications,
+changez vos paramètres à l'adresse URL suivante :</translation>
     </message>
     <message>
         <source>%sitename notification system</source>
-        <translation>%sitename système de notification</translation>
+        <translation>Système de notification de "%sitename"</translation>
     </message>
     <message>
         <source>[%siteurl] New user registered</source>
@@ -389,7 +390,7 @@ change your settings at:</source>
     </message>
     <message>
         <source>Email</source>
-        <translation>Email</translation>
+        <translation>Courriel</translation>
     </message>
     <message>
         <source>Link to user information</source>
@@ -437,7 +438,7 @@ change your settings at:</source>
     </message>
     <message>
         <source>Your membership request for the teamroom &quot;%groupname&quot; is awaiting approval. You can use the comment text field and the &quot;Add comment&quot; button to provide further information to the owner of the teamroom.</source>
-        <translation>Votre demande d&apos;adhésion à l&apos;espace projet &quot;%groupname&quot; est en court de validation. Vous pouvez utiliser le champ commentaire et le bouton &quot;Ajouter un commentaire&quot; pour apporter de plus amples informations au propriétaire de cet espace projet.</translation>
+        <translation>Votre demande d&apos;adhésion à l&apos;espace projet &quot;%groupname&quot; est en cours de validation. Vous pouvez utiliser le champ commentaire et le bouton &quot;Ajouter un commentaire&quot; pour apporter de plus amples informations au propriétaire de cet espace projet.</translation>
     </message>
     <message>
         <source>The membership request of %authorname for the teamroom &quot;%groupname&quot; requires your approval. You can use the comment text field and the &quot;Add comment&quot; button to provide additional information to %authorname. Use the &quot;Approve&quot; button to grant the membership and the &quot;Deny&quot; button to reject the membership.</source>
@@ -453,11 +454,11 @@ change your settings at:</source>
     </message>
     <message>
         <source>Your membership request for the teamroom &quot;%groupname&quot; has been denied. Please have a look at the comments on the bottom of this page if the teamroom owner has left a message for you.</source>
-        <translation>Votre demande d&apos;adhésion pour l&apos;espace projet &quot;%groupname&quot; a été rejetée. Regarder le commentaire au bas de cette page, le propriétaire de cet espace projet a peut-être laissé un message pour vous.</translation>
+        <translation>Votre demande d&apos;adhésion pour l&apos;espace projet &quot;%groupname&quot; a été rejetée. Veuillez jeter un œil aux commentaires en bas de cette page, le propriétaire de cet espace projet a peut-être laissé un message pour vous.</translation>
     </message>
     <message>
         <source>You have denied the membership request of %authorname for the teamroom &quot;%groupname&quot;. Please make sure that you left a message for %authorname so that he is informed about the reason for the rejection.</source>
-        <translation>Vous avez rejeté la demande d&apos;adhésion de %authorname pour le groupe %groupename. Assurez-vous de laisser un message à %authorname pour l&apos;informer des raisons de votre refus.</translation>
+        <translation>Vous avez rejeté la demande d&apos;adhésion de %authorname pour le groupe %groupename. Assurez-vous de laisser un message à %authorname pour l&apos;informer de la raison de votre refus.</translation>
     </message>
     <message>
         <source>Comment</source>
@@ -505,11 +506,11 @@ change your settings at:</source>
     </message>
     <message>
         <source>User list</source>
-        <translation>Liste des ustilisateurs</translation>
+        <translation>Liste des utilisateurs</translation>
     </message>
     <message>
         <source>Comments</source>
-        <translation>Commentaire</translation>
+        <translation>Commentaires</translation>
     </message>
     <message>
         <source>Date</source>
@@ -529,7 +530,7 @@ change your settings at:</source>
     </message>
     <message>
         <source>Read</source>
-        <translation>Lire</translation>
+        <translation>Lu</translation>
     </message>
     <message>
         <source>Unread</source>
@@ -553,11 +554,11 @@ change your settings at:</source>
     </message>
     <message>
         <source>Open tasks</source>
-        <translation>Ouvrir tâches</translation>
+        <translation>Tâches ouvertes</translation>
     </message>
     <message>
         <source>No new items to be handled.</source>
-        <translation>Aucun nouvel article à traiter.</translation>
+        <translation>Aucun nouvel élement à traiter.</translation>
     </message>
     <message>
         <source>Collaboration groups</source>
@@ -570,18 +571,18 @@ change your settings at:</source>
     <message>
         <source>%authorname has requested to join the teamroom &quot;%groupname&quot; at %sitename.
 You need to approve or deny this request by using the URL below.</source>
-        <translation>%authorname demande à rejoindre l&apos;espace projet &quot;%groupname&quot; sur %sitename.
-Vous devez approver ou refuser cette demande en vous rendant à l&apos;adresse URL ci-dessous.</translation>
+        <translation>%authorname a demandé l'adhésion à l&apos;espace projet &quot;%groupname&quot; sur %sitename.
+Vous devez approuver ou refuser cette demande en vous rendant à l&apos;adresse URL ci-dessous.</translation>
     </message>
     <message>
         <source>Membership registration for teamroom &quot;%groupname&quot; awaits approval</source>
-        <translation>La demande d&apos;adhésion pour l&apos;espace projet &quot;%groupname&quot; est en attente de validation</translation>
+        <translation>La demande d&apos;adhésion à l&apos;espace projet &quot;%groupname&quot; est en attente de validation</translation>
     </message>
     <message>
         <source>You have requested to join the teamroom &quot;%groupname&quot; at %sitename.
 Your request is waiting for approval. To view the status of your request or to add a comment, visit the URL below.</source>
-        <translation>Vous demandez à rejoindre l&apos;espace projet &quot;%groupname&quot; sur %sitename.
-Votre demande est en attente de validation. L&apos;adresse URL ci-dessous vous premet de visualisé l&apos;état d&apos;avancement de votre demande ou de laisser un commentaire.</translation>
+        <translation>Vous avez demandé l'adhésion à l&apos;espace projet &quot;%groupname&quot; sur %sitename.
+Votre demande est en attente de validation. L&apos;adresse URL ci-dessous vous permet de visualiser l&apos;état d&apos;avancement de votre demande ou de laisser un commentaire.</translation>
     </message>
     <message>
         <source>[%sitename] Teamroom membership terminated</source>
@@ -593,7 +594,7 @@ Votre demande est en attente de validation. L&apos;adresse URL ci-dessous vous p
     </message>
     <message>
         <source>If you are thinking this was done by a mistake, please get in contact with the owner &apos;%1&apos; of the teamroom.</source>
-        <translation>Si vous pensez que c&apos;est une erreur, n&apos;hésitez pas à entrer en contact avec le propriétaire &apos;%1&apos; de cet espace projet.</translation>
+        <translation>Si vous pensez qu'il s'agit d'une erreur, n&apos;hésitez pas à entrer en contact avec le propriétaire &apos;%1&apos; de cet espace projet.</translation>
     </message>
     <message>
         <source>Use the following link to access the teamroom</source>
@@ -637,7 +638,7 @@ Votre demande est en attente de validation. L&apos;adresse URL ci-dessous vous p
     </message>
     <message>
         <source>If an &apos;Access denied&apos; message is displayed you are not logged in yet. The following link can be used to login</source>
-        <translation>Si un message &apos;Accès refusé&apos; vous est présenté, cela signifie que vous n&apos;ètes pas encore identifié. Le lien suivant vous permet de vous connecter</translation>
+        <translation>Si un message &apos;Accès refusé&apos; vous est présenté, cela signifie que vous n&apos;êtes pas encore identifié. Le lien suivant vous permet de vous identifer</translation>
     </message>
     <message>
         <source>This mail was sent by the notification system on %sitename</source>
@@ -645,7 +646,7 @@ Votre demande est en attente de validation. L&apos;adresse URL ci-dessous vous p
     </message>
     <message>
         <source>If you do not wish to continue receiving these notifications, use the following link to change your personal notification settings</source>
-        <translation>Si vous ne voulez pas continuer à recevoir ces alertes, utilisez le lien suivant pour modifier vos paramètres personnel des notifications</translation>
+        <translation>Si vous ne voulez plus recevoir ces notifications, utilisez le lien suivant pour modifier vos paramètres personnels de notification</translation>
     </message>
     <message>
         <source>In order to get access to the system you need to login. This can be done using the following link</source>
@@ -665,11 +666,11 @@ Votre demande est en attente de validation. L&apos;adresse URL ci-dessous vous p
     </message>
     <message>
         <source>You have successfully resigned from the teamroom &quot;%1&quot;.</source>
-        <translation>Vous vous êtes desinscrit de l&apos;espace projet &quot;%1&quot; avec succès.</translation>
+        <translation>Vous vous êtes désinscrit de l&apos;espace projet &quot;%1&quot; avec succès.</translation>
     </message>
     <message>
         <source>[%sitename] Teamroom memberregistration approved</source>
-        <translation>[%sitename] Votre demande d&apos;inscription a été approuvé</translation>
+        <translation>[%sitename] Votre demande d&apos;inscription a été approuvée</translation>
     </message>
     <message>
         <source>You have successfully joined the teamroom &apos;%1&apos;.</source>
@@ -677,31 +678,31 @@ Votre demande est en attente de validation. L&apos;adresse URL ci-dessous vous p
     </message>
     <message>
         <source>Your memberregistration in the teamroom &apos;%1&apos; has been approved by a teamroom moderator.</source>
-        <translation>Votre demande pour accéder à l&apos;espace projet &quot;%1&quot; a été accordé par un des moderateurs du projet.</translation>
+        <translation>Votre demande d'adhésion à l&apos;espace projet &quot;%1&quot; a été approuvée par un des modérateurs du projet.</translation>
     </message>
     <message>
         <source>If do not want to be a member of this teamroom anymore you can use the following link to resign from the teamroom.</source>
-        <translation>Si vous ne voulez plus être membre de ce projet, vous pouvez utilisez le lien ci-après pour se desincrire de ce projet.</translation>
+        <translation>Si vous ne voulez plus être membre de ce projet, vous pouvez utilisez le lien ci-après pour vous désincrire de ce projet.</translation>
     </message>
     <message>
         <source>[%sitename] Teamroom memberregistration denied</source>
-        <translation>[%sitename] Votre demande d&apos;inscription a été rejeté</translation>
+        <translation>[%sitename] Votre demande d&apos;inscription a été rejetée</translation>
     </message>
     <message>
         <source>Your memberregistration in the teamroom &apos;%1&apos; has been denied by a teamroom moderator.</source>
-        <translation>Votre demande pour acceder à l&apos;espace projet &quot;%1&quot; a été refusé par un des moderateurs du projet.</translation>
+        <translation>Votre demande pour accéder à l&apos;espace projet &quot;%1&quot; a été refusée par un des modérateurs du projet.</translation>
     </message>
     <message>
         <source>[%sitename] Teamroom invitation reminder</source>
-        <translation>[%sitename] Rappel de votre inscription à votre projet</translation>
+        <translation>[%sitename] Rappel d'une invitation à un projet</translation>
     </message>
     <message>
         <source>If you do not have a user account yet, you received your account information in a separate email. You will find further information in this email about how to activate your user account to be able to use the teamroom.</source>
-        <translation>Si vous n&apos;avez pas encore de compte, vous recevrez les information de connexion dans un mail separé. Vous trouverz plus loin le mode d&apos;emploi pour activer votre compte utilisateur afin de pouvoir accèder à vos espace projet.</translation>
+        <translation>Si vous n&apos;avez pas encore de compte, vous recevrez les informations de connexion dans un courriel separé. Vous trouverez plus loin le mode d&apos;emploi pour activer votre compte utilisateur afin de pouvoir accéder à vos espace projet.</translation>
     </message>
     <message>
         <source>If you want to be notified about new members requesting access to your teamroom you can adjust the notification settings using the following link.</source>
-        <translation>Si vous voulez etre motifié des demandes d&apos;accès a votre espace projet, vous pouvez changer la configuration dy systeme de notification en utlisant le lien suivant.</translation>
+        <translation>Si vous voulez être notifié des demandes d&apos;accès a votre espace projet, vous pouvez changer la configuration du système de notification en utlisant le lien suivant.</translation>
     </message>
     <message>
         <source>Approve teamroom membership</source>
@@ -712,7 +713,7 @@ Votre demande est en attente de validation. L&apos;adresse URL ci-dessous vous p
     <name>ezteamroom/comment</name>
     <message>
         <source>Edit %1 - %2</source>
-        <translation>Editer %1 - %2</translation>
+        <translation>Modifier %1 - %2</translation>
     </message>
     <message>
         <source>Store Comment</source>
@@ -755,15 +756,15 @@ Votre demande est en attente de validation. L&apos;adresse URL ci-dessous vous p
     </message>
     <message>
         <source>Node ID of the teamroom</source>
-        <translation>Id du noeud de l&apos;espace projet</translation>
+        <translation>Id du nœud de l&apos;espace projet</translation>
     </message>
     <message>
         <source>Which features should be installed</source>
-        <translation>Quelles sont les fonctionnalitées à installer</translation>
+        <translation>Quelles sont les fonctionnalités à installer</translation>
     </message>
     <message>
         <source>ObjectID of the teamroom owner</source>
-        <translation>Id de l&apos;object du propriétaire de l&apos;espace projet</translation>
+        <translation>Id de l&apos;objet du propriétaire de l&apos;espace projet</translation>
     </message>
     <message>
         <source>Team member</source>
@@ -771,7 +772,7 @@ Votre demande est en attente de validation. L&apos;adresse URL ci-dessous vous p
     </message>
     <message>
         <source>The following users are currently members of this teamroom. You can get detailed information about a user within his profile and send an email to each of the users. Using the link in the menu on the right you can invite new users to the teamroom. If you have the required rights you can configure the permissions of the teamroom members by using the link in the menu on the right.</source>
-        <translation>Les utilisateurs suivants sont actuellement les membres de cet espace projet. Vous pouvez obtenir des informations détaillées sur un utilisateur dans son profil et envoyer un courrier électronique à chacun des utilisateurs. En utilisant les liens du menu à droite vous pouvez inviter de nouveaux utilisateurs à l&apos;espace projet. Si vous avez les droits vous pouvez aussi configurer les permissions des membres de l&apos;espace projet.</translation>
+        <translation>Les utilisateurs suivants sont actuellement les membres de cet espace projet. Vous pouvez obtenir des informations détaillées sur un utilisateur dans son profil et envoyer un courrier électronique à chacun des utilisateurs. En utilisant les liens du menu à droite vous pouvez inviter de nouveaux utilisateurs dans l&apos;espace projet. Si vous avez les droits vous pouvez aussi configurer les permissions des membres de l&apos;espace projet.</translation>
     </message>
     <message>
         <source>Moderator</source>
@@ -783,7 +784,7 @@ Votre demande est en attente de validation. L&apos;adresse URL ci-dessous vous p
     </message>
     <message>
         <source>The following list gives an overview over the teamroom related tasks and their status. To create a new task use the &quot;Add new task button&quot;. A click on the info icon of an existing task will show more detailed information about it. A click on the progress meter will change the current progress of the task. Use the edit icon to edit the details of a task and the trash icon to delete it. Using the link shown below &quot;Filter&quot; will toggle between two modes: one mode shows the finished tasks and one mode shows the unfinished tasks. The links shown below &quot;Sort by&quot; can be used to sort the task in different orders. By clicking on the same link two times, the sorting order will be reverted. A click on one of the keywords shown below &quot;Keywords&quot; will filter the displayed tasks and show only those having the selected keyword.</source>
-        <translation>La liste suivante donne une vue d&apos;ensemble sur les tâches liées à l&apos;espace projet et leur statut. Créer une nouvelle tâche en utilisant le bouton &quot;Ajouter une nouvelle tâche&quot;. Un clic sur l&apos;icône info d&apos;une tâche existante montrera les informations plus détaillées. Un clic sur la barre de progression d&apos;une tâche changera l&apos;avancement de la tâche. Utilisez l&apos;icône d&apos;édition pour éditer les détails d&apos;une tâche et l&apos;icône de corbeille pour le supprimer. L&apos;utilisation du lien au-dessous du &quot;Filtre&quot; basculera entre deux modes : un mode montre les tâches achevées et un mode montre les tâches non finies. Les liens affichés sous &quot;Trier par&quot; peuvent être utilisées pour trier les tâches dans des ordres différents. En cliquant sur le même lien une seconde fois, l&apos;ordre de tri sera inversé. Un clic sur un des mots-clés montrés au-dessous &quot;Mots-clefs&quot; filtrera les tâches et affichera uniquement celles ayant le mot-clef choisi.</translation>
+        <translation>La liste suivante donne une vue d&apos;ensemble des tâches liées à l&apos;espace projet et de leur statut. Créer une nouvelle tâche en utilisant le bouton &quot;Ajouter une nouvelle tâche&quot;. Un clic sur l&apos;icône info d&apos;une tâche existante montrera les informations plus détaillées. Un clic sur la barre de progression d&apos;une tâche changera l&apos;avancement de la tâche. Utilisez l&apos;icône de modification pour modifier les détails d&apos;une tâche et l&apos;icône de corbeille pour la supprimer. L&apos;utilisation du lien au-dessous du &quot;Filtre&quot; basculera entre deux modes : un mode montre les tâches achevées et un mode montre les tâches non terminées. Les liens affichés sous &quot;Trier par&quot; peuvent être utilisés pour trier les tâches dans des ordres différents. En cliquant sur le même lien une seconde fois, l&apos;ordre de tri sera inversé. Un clic sur un des mots clés montrés ci-dessous &quot;Mots-clés&quot; filtrera la liste des tâches et affichera uniquement celles ayant le mot clé choisi.</translation>
     </message>
     <message>
         <source>My first task</source>
@@ -803,23 +804,23 @@ Votre demande est en attente de validation. L&apos;adresse URL ci-dessous vous p
     </message>
     <message>
         <source>The following list shows the files related to this teamroom. To upload single files the button &quot;Upload new file&quot; can be used. Furthermore it is possible to upload multiple files at the same time by using the &quot;Multi upload&quot; button. For uploading multiple files at the same time it is required to use the &quot;Ctrl&quot; key when selecting the files. To add an existing lightbox to the list of files the button &quot;Add lightbox&quot; can be used. The links shown below &quot;Sort by&quot; can be used to sort the files in different orders. By clicking on the same link two times, the sorting order will be reverted. The links shown below &quot;Categories&quot; can be used to filter the list of shown files by the categories they belong to. A click on one of the keywords shown below &quot;Keywords&quot; will filter the displayed tasks and show only those having the selected keyword.</source>
-        <translation>La liste suivante donne une vue d&apos;ensemble sur les fichiers liées à l&apos;espace projet. Pour télécharger un seul fichier cliquer sur le bouton &quot;Télécharger un fichier&quot;. Il est possibles de télécharger plusieurs fichiers à la fois en utilisant le bouton &quot;Multi-téléchargement&quot;. Pour télécharger plusieurs fichiers en même temps il est nécessaire d&apos;utiliser la touche &quot;CTRL&quot; de votre clavier en même temps que vous sélectionnez les fichier. Pour ajouter une Lightbox existante à la liste des fichiers, le bouton &quot;Ajouter une lightbox&quot; peut-être utilisé. Les liens affichés sous &quot;Trier par&quot; peuvent être utilisées pour trier les fichiers dans des ordres différents. En cliquant sur le même lien une seconde fois, l&apos;ordre de tri sera inversé. Les liens affichés sous &quot;Categories&quot; peuvent être utilisés pour filtrer les fichiers par categorie et affichera uniquement les fichiers auxquels ils appartiennent. Un clic sur un des mots-clefs montrés au-dessous de &quot;Mots-clefs&quot; filtrera les fichiers et affichera uniquement ceux ayant le mot-clef choisi.</translation>
+        <translation>La liste suivante donne une vue d&apos;ensemble des fichiers liés à l&apos;espace projet. Pour télécharger un seul fichier cliquez sur le bouton &quot;Télécharger un fichier&quot;. Il est possible de télécharger plusieurs fichiers à la fois en utilisant le bouton &quot;Multi-téléchargement&quot;. Pour télécharger plusieurs fichiers en même temps il est nécessaire d&apos;utiliser la touche &quot;CTRL&quot; de votre clavier en même temps que vous sélectionnez les fichiers. Pour ajouter une Lightbox existante à la liste des fichiers, le bouton &quot;Ajouter une lightbox&quot; peut-être utilisé. Les liens affichés sous &quot;Trier par&quot; peuvent être utilisés pour trier les fichiers dans des ordres différents. En cliquant sur le même lien une seconde fois, l&apos;ordre de tri sera inversé. Les liens affichés sous &quot;Catégories&quot; peuvent être utilisés pour filtrer les fichiers par catégorie et affichera uniquement les fichiers auxquels ils appartiennent. Un clic sur un des mots clés affichés ci-dessous de &quot;Mots clés&quot; filtrera les fichiers et affichera uniquement ceux ayant le mot clé choisi.</translation>
     </message>
     <message>
         <source>The following list shows the milestones that have been created within this teamroom. A milestone is a collection of tasks and has a date that indicates when the milestone should be reached. You can use the button &quot;New milestone&quot; to create a new milestone. The links shown below &quot;Sort by&quot; can be used to sort the milestones in different orders. By clicking on the same link two times, the sorting order will be reverted. A click on one of the tags shown below &quot;Tags&quot; will filter the displayed milestones and show only those having the selected tag.</source>
-        <translation>La liste suivante donne une vue des jalons créés dans l&apos;espace projet. Les jalons sont une collection de tâches et leur date indique quand le jalon doit être réalisé. Utilisez le bouton &quot;Nouveau jalon&quot; pour créer un nouveau jalon. Les liens affichés sous &quot;Trier par&quot; peuvent être utilisées pour trier les jalons dans des ordres différents. En cliquant sur le même lien une seconde fois, l&apos;ordre de tri sera inversé. Un clic sur un des mots-clefs montrés au-dessous de &quot;Mots-clefs&quot; filtrera les jalons et affichera uniquement ceux ayant le mot-clef choisi.</translation>
+        <translation>La liste suivante donne une vue des jalons créés dans l&apos;espace projet. Les jalons sont une collection de tâches et leur date indique quand le jalon doit être réalisé. Utilisez le bouton &quot;Nouveau jalon&quot; pour créer un nouveau jalon. Les liens affichés sous &quot;Trier par&quot; peuvent être utilisés pour trier les jalons dans des ordres différents. En cliquant sur le même lien une seconde fois, l&apos;ordre de tri sera inversé. Un clic sur un des mots clés ci-dessous de &quot;Mots-clés&quot; filtrera les jalons et affichera uniquement ceux ayant le mot clé choisi.</translation>
     </message>
     <message>
         <source>This message board can be used for teamroom related discussions. You can add a new post using the button &quot;Add new topic&quot;. If you want to read the content of a topic you can click on the title. This will also enable you to reply to that topic.</source>
-        <translation>La messagerie est utilisée pour les discussions en relation avec cet espace projet. Utilisez le bouton &quot;Ajouter un nouveau message&quot; pour en créer un nouveau. Pour lire le contenu d&apos;un message cliquer sur le titre du message. Cela vous donnera aussi la possibilité de répondre à ce message.</translation>
+        <translation>La messagerie est utilisée pour les discussions en relation avec cet espace projet. Utilisez le bouton &quot;Ajouter un nouveau message&quot; pour en créer un nouveau. Pour lire le contenu d&apos;un message, cliquez sur le titre du message. Cela vous donnera aussi la possibilité de répondre à ce message.</translation>
     </message>
     <message>
         <source>This blog can be used to post teamroom related messages in form of a diary. To create a new blog entry you can use the button &quot;Add new entry&quot;. If you click on the title of an entry the full article will be shown and you are enabled to write a comment to the article.</source>
-        <translation>Le Blog est utilisé pour écrire des billets sous forme de journal de bord en relation avec cet espace projet. Utilisez le bouton &quot;Ajouter un nouvel élément&quot; pour en créer un nouveau billet. En cliquant sur le titre la totalité de l&apos;article sera affiché. Cela vous donnera aussi la possibilité de poster un commentaire.</translation>
+        <translation>Le blog est utilisé pour écrire des billets sous forme de journal de bord en relation avec cet espace projet. Utilisez le bouton &quot;Ajouter un nouvel élément&quot; pour créer un nouveau billet. En cliquant sur le titre la totalité de l&apos;article sera affiché. Cela vous donnera aussi la possibilité de poster un commentaire.</translation>
     </message>
     <message>
         <source>My first blog post</source>
-        <translation>Mon premier message blog</translation>
+        <translation>Mon premier billet</translation>
     </message>
     <message>
         <source>Latest Files</source>
@@ -835,7 +836,7 @@ Votre demande est en attente de validation. L&apos;adresse URL ci-dessous vous p
     </message>
     <message>
         <source>Last Blog Entry</source>
-        <translation>Dernier message de blog</translation>
+        <translation>Dernier billet</translation>
     </message>
     <message>
         <source>Help</source>
@@ -843,7 +844,7 @@ Votre demande est en attente de validation. L&apos;adresse URL ci-dessous vous p
     </message>
     <message>
         <source>Teamroom Moderators</source>
-        <translation>Modérateurs  de l&apos;espace projet</translation>
+        <translation>Modérateurs de l&apos;espace projet</translation>
     </message>
     <message>
         <source>Moderators</source>
@@ -855,7 +856,7 @@ Votre demande est en attente de validation. L&apos;adresse URL ci-dessous vous p
     </message>
     <message>
         <source>Boxes</source>
-        <translation>Boites</translation>
+        <translation>Boîtes</translation>
     </message>
     <message>
         <source>This Teamroom</source>
@@ -889,7 +890,7 @@ Votre demande est en attente de validation. L&apos;adresse URL ci-dessous vous p
     </message>
     <message>
         <source>Parent node</source>
-        <translation>Noeud parent</translation>
+        <translation>Nœud parent</translation>
     </message>
     <message>
         <source>Allowed classes</source>
@@ -901,7 +902,7 @@ Votre demande est en attente de validation. L&apos;adresse URL ci-dessous vous p
     </message>
     <message>
         <source>There are no objects of allowed classes</source>
-        <translation>Il n&apos;y a aucun object des classes autorisées</translation>
+        <translation>Il n&apos;y a aucune instance des classes autorisées</translation>
     </message>
     <message>
         <source>Create new object with name</source>
@@ -925,15 +926,15 @@ Votre demande est en attente de validation. L&apos;adresse URL ci-dessous vous p
     </message>
     <message>
         <source>Order</source>
-        <translation>Ordre</translation>
+        <translation>Tri</translation>
     </message>
     <message>
         <source>Edit &lt;%object_name&gt; [%object_class]</source>
-        <translation>Editer &lt;%object_name&gt; [%object_class]</translation>
+        <translation>Modifier &lt;%object_name&gt; [%object_class]</translation>
     </message>
     <message>
         <source>There are no related objects.</source>
-        <translation>Il n&apos;y a pas de relation d&apos;objet.</translation>
+        <translation>Il n&apos;y a pas d'objet en relation.</translation>
     </message>
     <message>
         <source>Remove selected</source>
@@ -941,7 +942,7 @@ Votre demande est en attente de validation. L&apos;adresse URL ci-dessous vous p
     </message>
     <message>
         <source>Edit selected</source>
-        <translation>Editer la sélection</translation>
+        <translation>Modifier la sélection</translation>
     </message>
     <message>
         <source>Add objects</source>
@@ -969,7 +970,7 @@ Votre demande est en attente de validation. L&apos;adresse URL ci-dessous vous p
     </message>
     <message>
         <source>Edit %1 - %2</source>
-        <translation>Editer %1 - %2</translation>
+        <translation>Modifier %1 - %2</translation>
     </message>
     <message>
         <source>Store</source>
@@ -981,11 +982,11 @@ Votre demande est en attente de validation. L&apos;adresse URL ci-dessous vous p
     </message>
     <message>
         <source>The currently published version is %version and was published at %time.</source>
-        <translation>La version actuelle publiée est la %version et a été publiée à %time.</translation>
+        <translation>La version publiée est la %version, elle a été publiée à %time.</translation>
     </message>
     <message>
         <source>The last modification was done at %modified.</source>
-        <translation>La dernière modification a été effectuée à %modified.</translation>
+        <translation>La dernière modification a été effectuée le %modified.</translation>
     </message>
     <message>
         <source>The object is owned by %owner.</source>
@@ -994,24 +995,24 @@ Votre demande est en attente de validation. L&apos;adresse URL ci-dessous vous p
     <message>
         <source>This object is already being edited by yourself and others.
             You can either continue editing one of your drafts or you can create a new draft.</source>
-        <translation>Cet objet est déjà en court d&apos;édition par vous même ou un autre éditeur.
-Vous pouvez continuer l&apos;édition d&apos;un de vos brouillons ou créer un nouveau brouillon.</translation>
+        <translation>Cet objet est déjà en cours de modification par vous même ou un autre éditeur.
+Vous pouvez continuer la modification d&apos;un de vos brouillons ou créer un nouveau brouillon.</translation>
     </message>
     <message>
         <source>This object is already being edited by you.
                 You can either continue editing one of your drafts or you can create a new draft.</source>
-        <translation>Cet objet est déjà en court d&apos;édition par vous même.
-Vous pouvez continuer l&apos;édition d&apos;un de vos brouillons ou créer un nouveau brouillon.</translation>
+        <translation>Cet objet est déjà en cours d&apos;édition par vous même.
+Vous pouvez continuer la modification d&apos;un de vos brouillons ou créer un nouveau brouillon.</translation>
     </message>
     <message>
         <source>This object is already being edited by someone else.
                 You should either contact the person about their draft or create a new draft for your own use.</source>
-        <translation>Cet objet est déjà en court d&apos;édition par un autre éditeur.
+        <translation>Cet objet est déjà en cours de modification par un autre éditeur.
 Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brouillon pour votre propre usage.</translation>
     </message>
     <message>
         <source>Current drafts</source>
-        <translation>Brouillon en court</translation>
+        <translation>Brouillon en cours</translation>
     </message>
     <message>
         <source>Version</source>
@@ -1031,7 +1032,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Edit</source>
-        <translation>Editer</translation>
+        <translation>Modifier</translation>
     </message>
     <message>
         <source>New draft</source>
@@ -1039,11 +1040,11 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Are you sure you want to remove these items?</source>
-        <translation>Etes-vous sûre de vouloir supprimer ces éléments ?</translation>
+        <translation>Êtes vous sûr de vouloir supprimer ces éléments ?</translation>
     </message>
     <message>
         <source>%nodename and its %childcount children. %additionalwarning</source>
-        <translation>%nodename et ses  %childcount fils. %additionalwarning</translation>
+        <translation>%nodename et ses %childcount enfants. %additionalwarning</translation>
     </message>
     <message>
         <source>%nodename %additionalwarning</source>
@@ -1082,7 +1083,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     <name>ezteamroom/events</name>
     <message>
         <source>Edit</source>
-        <translation>Editer</translation>
+        <translation>Modifier</translation>
     </message>
     <message>
         <source>Remove</source>
@@ -1102,11 +1103,11 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Today&apos;s events</source>
-        <translation>Evénements d&apos;aujourd&apos;hui</translation>
+        <translation>Événements d&apos;aujourd&apos;hui</translation>
     </message>
     <message>
         <source>Events on</source>
-        <translation>Evénements sur</translation>
+        <translation>Événements sur</translation>
     </message>
     <message>
         <source>Mon</source>
@@ -1142,7 +1143,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Event</source>
-        <translation>Evénement</translation>
+        <translation>Événement</translation>
     </message>
     <message>
         <source>Milestone</source>
@@ -1170,7 +1171,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Events</source>
-        <translation>Evénements</translation>
+        <translation>Événements</translation>
     </message>
     <message>
         <source>Tasks</source>
@@ -1186,11 +1187,11 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Past events</source>
-        <translation>Evénements passés</translation>
+        <translation>Événements passés</translation>
     </message>
     <message>
         <source>Future events</source>
-        <translation>Evénements futurs</translation>
+        <translation>Événements futurs</translation>
     </message>
     <message>
         <source>Edit complete event</source>
@@ -1198,7 +1199,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Edit single event</source>
-        <translation>Modifier cet evenement</translation>
+        <translation>Modifier cet événement</translation>
     </message>
     <message>
         <source>From %1 to %2</source>
@@ -1222,7 +1223,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Location</source>
-        <translation>Localisation</translation>
+        <translation>Emplacement</translation>
     </message>
     <message>
         <source>Attendees </source>
@@ -1238,19 +1239,19 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Events this month</source>
-        <translation>Evenements du mois</translation>
+        <translation>Événements du mois</translation>
     </message>
     <message>
         <source>Events on %1</source>
-        <translation>Evenements le %1</translation>
+        <translation>Événements le %1</translation>
     </message>
     <message>
         <source>Events in %1</source>
-        <translation>Evenements en %1</translation>
+        <translation>Événements en %1</translation>
     </message>
     <message>
         <source>Show all</source>
-        <translation>Montrer tout</translation>
+        <translation>Tout afficher</translation>
     </message>
     <message>
         <source>No filter</source>
@@ -1297,7 +1298,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>No members in this group found.</source>
-        <translation>Aucun membre n&apos;est trouvé dans ce groupe.</translation>
+        <translation>Aucun membre n&apos;a été trouvé dans ce groupe.</translation>
     </message>
     <message>
         <source>Filename</source>
@@ -1317,7 +1318,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Edit %1 - %2</source>
-        <translation>Editer %1 - %2</translation>
+        <translation>Modifier %1 - %2</translation>
     </message>
     <message>
         <source>Create new file</source>
@@ -1361,7 +1362,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Add this file to the current lightbox</source>
-        <translation>Ajouter ce fichier à la Lightbox en court</translation>
+        <translation>Ajouter ce fichier à la Lightbox en cours</translation>
     </message>
     <message>
         <source>You can not access the current lightbox.</source>
@@ -1369,11 +1370,11 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Show versions of this file</source>
-        <translation>Afficher les version de ce fichier</translation>
+        <translation>Afficher les versions de ce fichier</translation>
     </message>
     <message>
         <source>Edit this file or upload a new version</source>
-        <translation>Editer ce fichier ou télécharger une nouvelle version</translation>
+        <translation>Modifier ce fichier ou télécharger une nouvelle version</translation>
     </message>
     <message>
         <source>Delete this file</source>
@@ -1417,7 +1418,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Get version</source>
-        <translation>List des version</translation>
+        <translation>List des versions</translation>
     </message>
     <message>
         <source>Download this image</source>
@@ -1433,7 +1434,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Add this image to the current lightbox</source>
-        <translation>Ajouter cette image à la Lightbox en court</translation>
+        <translation>Ajouter cette image à la Lightbox en cours</translation>
     </message>
     <message>
         <source>Show versions of this image</source>
@@ -1441,7 +1442,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Edit this image or upload a new version</source>
-        <translation>Editer cette image ou télécharger une nouvelle version</translation>
+        <translation>Modifier cette image ou télécharger une nouvelle version</translation>
     </message>
     <message>
         <source>Delete this image</source>
@@ -1449,19 +1450,19 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Edit the entry of this lightbox</source>
-        <translation>Editer l&apos;entrée de cette Lightbox</translation>
+        <translation>Modifier l&apos;entrée de cette Lightbox</translation>
     </message>
     <message>
         <source>Edit this lightbox entry</source>
-        <translation>Editer l&apos;entrée de cette Lightbox</translation>
+        <translation>Modifier l&apos;entrée de cette Lightbox</translation>
     </message>
     <message>
         <source>Are you sure you want to remove the file?</source>
-        <translation>Etes-vous sûre de vouloir supprimer ce fichier ?</translation>
+        <translation>Êtes-vous sûr de vouloir supprimer ce fichier ?</translation>
     </message>
     <message>
         <source>Edit description</source>
-        <translation>Editer la description</translation>
+        <translation>Modifier la description</translation>
     </message>
     <message>
         <source>Upload file</source>
@@ -1525,7 +1526,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Keywords</source>
-        <translation>Mots-clefs</translation>
+        <translation>Mots clés</translation>
     </message>
     <message>
         <source>Browse all</source>
@@ -1541,7 +1542,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>The Files are uploaded to the Files section of the teamroom:</source>
-        <translation>Ces fichiers sont téléchargés dans la section Fichier de l&apos;espace projet :</translation>
+        <translation>Les fichiers sont téléchargés dans la section Fichiers de l&apos;espace projet :</translation>
     </message>
     <message>
         <source>You can upload a maximum filesize of</source>
@@ -1549,7 +1550,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Unable to load Flash content. You can download the latest version of Flash Player from the</source>
-        <translation>Impossible de charger le contenu Flash. Vous pouvez télécharger la dernière version du Flash Player depuis le </translation>
+        <translation>Impossible de charger le contenu Flash. Vous pouvez télécharger la dernière version du player Flash depuis le </translation>
     </message>
     <message>
         <source>Adobe Flash Player Download Center</source>
@@ -1577,7 +1578,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Add this folder to the current lightbox</source>
-        <translation>Ajouter ce répertoireà la lightbox courante</translation>
+        <translation>Ajouter ce répertoire à la lightbox courante</translation>
     </message>
     <message>
         <source>Edit this folder or upload a new version</source>
@@ -1597,7 +1598,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Lock this video</source>
-        <translation>Vérrouiller cette vidéo</translation>
+        <translation>Verrouiller cette vidéo</translation>
     </message>
     <message>
         <source>Show versions of this video</source>
@@ -1605,15 +1606,15 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Edit this video or upload a new version</source>
-        <translation>Modifier cette vidéo</translation>
+        <translation>Modifier cette vidéo ou télécharger une nouvelle version</translation>
     </message>
     <message>
         <source>Shown only entries with tag &quot;%1&quot;</source>
-        <translation>Ne montrer que les fichiers avec le mot clef &quot;%1&quot;</translation>
+        <translation>Ne montrer que les fichiers avec le mot clé &quot;%1&quot;</translation>
     </message>
     <message>
         <source>Are you sure you want to remove the folder?</source>
-        <translation>Etes vous sur de vouloir supprimer ce répertoire ?</translation>
+        <translation>Êtes vous sur de vouloir supprimer ce dossier ?</translation>
     </message>
     <message>
         <source>One level up</source>
@@ -1621,11 +1622,11 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Create folder</source>
-        <translation>Créer un repertoire</translation>
+        <translation>Créer un dossier</translation>
     </message>
     <message>
         <source>Create a new folder</source>
-        <translation>Créer un repertoire</translation>
+        <translation>Créer un nouveau dossier</translation>
     </message>
     <message>
         <source>Only files of category &quot;%1&quot; are shown</source>
@@ -1637,22 +1638,22 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Only files with tag &quot;%1&quot; are shown</source>
-        <translation>Seuls les fichiers associé au mot clef &quot;%1&quot; sont affichés</translation>
+        <translation>Seuls les fichiers associé au mot clé &quot;%1&quot; sont affichés</translation>
     </message>
     <message>
         <source>Shown only files with tag &quot;%1&quot;</source>
-        <translation>Ne montrer que les fichiers avec le mot clef &quot;%1&quot;</translation>
+        <translation>Ne montrer que les fichiers avec le mot clé &quot;%1&quot;</translation>
     </message>
 </context>
 <context>
     <name>ezteamroom/forum</name>
     <message>
         <source>Edit %1 - %2</source>
-        <translation>Editer %1 - %2</translation>
+        <translation>Modifier %1 - %2</translation>
     </message>
     <message>
         <source>Edit %1</source>
-        <translation>Editer %1</translation>
+        <translation>Modifier %1</translation>
     </message>
     <message>
         <source>Store</source>
@@ -1680,7 +1681,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Edit description</source>
-        <translation>Editer la description</translation>
+        <translation>Modifier la description</translation>
     </message>
     <message>
         <source>Topic</source>
@@ -1720,11 +1721,11 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Edit</source>
-        <translation>Editer</translation>
+        <translation>Modifier</translation>
     </message>
     <message>
         <source>Edit this entry</source>
-        <translation>Editer cette entrée</translation>
+        <translation>Modifier cette entrée</translation>
     </message>
     <message>
         <source>Remove</source>
@@ -1736,7 +1737,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Edit this reply</source>
-        <translation>Editer cette réponse</translation>
+        <translation>Modifier cette réponse</translation>
     </message>
     <message>
         <source>Remove this item.</source>
@@ -1858,7 +1859,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Tags</source>
-        <translation>Mots-clefs</translation>
+        <translation>Mots-clés</translation>
     </message>
     <message>
         <source>Quicktime</source>
@@ -2058,7 +2059,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Teamroom event</source>
-        <translation>Evenement</translation>
+        <translation>Événement</translation>
     </message>
     <message>
         <source>Full title</source>
@@ -2415,7 +2416,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     <name>ezteamroom/lightbox</name>
     <message>
         <source>Edit</source>
-        <translation>Editer</translation>
+        <translation>Modifier</translation>
     </message>
     <message>
         <source>Delete</source>
@@ -2431,7 +2432,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Edit %1 - %2</source>
-        <translation>Editer %1 - %2</translation>
+        <translation>Modifier %1 - %2</translation>
     </message>
     <message>
         <source>Store</source>
@@ -2515,11 +2516,11 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Change current Lightbox</source>
-        <translation>Modifier la Lightbox en court</translation>
+        <translation>Modifier la Lightbox en cours</translation>
     </message>
     <message>
         <source>Choose current lightbox</source>
-        <translation>Choisir la Lightbox en court</translation>
+        <translation>Choisir la Lightbox en cours</translation>
     </message>
     <message>
         <source>Create</source>
@@ -2535,7 +2536,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Add this page to current Lightbox</source>
-        <translation>Ajouter cette page à la Lightbox en court</translation>
+        <translation>Ajouter cette page à la Lightbox en cours</translation>
     </message>
     <message>
         <source>Content Object has been deleted.</source>
@@ -2691,7 +2692,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Edit lightbox &quot;%1&quot;</source>
-        <translation>Editer la Lightbox &quot;%1&quot;</translation>
+        <translation>Modifier la Lightbox &quot;%1&quot;</translation>
     </message>
     <message>
         <source>Lightbox users</source>
@@ -2822,7 +2823,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Edit description</source>
-        <translation>Editer la description</translation>
+        <translation>Modifier la description</translation>
     </message>
     <message>
         <source>Members</source>
@@ -2898,7 +2899,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Sorry, the key submitted was not a valid key. Account was not activated.</source>
-        <translation>Désolé, la clef envoyée est invalide. Le compte n&apos;a pas été activé.</translation>
+        <translation>Désolé, la clé envoyée est invalide. Le compte n&apos;a pas été activé.</translation>
     </message>
     <message>
         <source>OK</source>
@@ -2906,7 +2907,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Edit profile</source>
-        <translation>Editer profil</translation>
+        <translation>Modifier profil</translation>
     </message>
     <message>
         <source>My pending items</source>
@@ -2942,7 +2943,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>The key is invalid or has been used. </source>
-        <translation>La clef envoyée est invalide ou a déjà été utilisée. </translation>
+        <translation>La clé envoyée est invalide ou a déjà été utilisée. </translation>
     </message>
     <message>
         <source>Have you forgotten your password?</source>
@@ -3174,7 +3175,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>The node (%1) specified in [UserSettings].DefaultUserPlacement setting in site.ini does not exist!</source>
-        <translation>Le noeud (%1) configuré dans le fichier site.ini, [UserSettings].DefaultUserPlacement, n&apos;existe pas !</translation>
+        <translation>Le nœud (%1) configuré dans le fichier site.ini, [UserSettings].DefaultUserPlacement, n&apos;existe pas !</translation>
     </message>
     <message>
         <source>Manage Member</source>
@@ -3380,11 +3381,11 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Notification for node &lt;%node_name&gt; already exists.</source>
-        <translation>Notification pour le noeud &lt;%node_name&gt; déjà existante.</translation>
+        <translation>Notification pour le nœud &lt;%node_name&gt; déjà existante.</translation>
     </message>
     <message>
         <source>Notification for node &lt;%node_name&gt; was added successfully.</source>
-        <translation>Notification pour le noeud &lt;%node_name&gt; créée avec succès.</translation>
+        <translation>Notification pour le nœud &lt;%node_name&gt; créée avec succès.</translation>
     </message>
     <message>
         <source>OK</source>
@@ -3435,19 +3436,19 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Check spelling of keywords.</source>
-        <translation>Vérifier l&apos;orthographe des mots-clefs.</translation>
+        <translation>Vérifier l&apos;orthographe des mots clés.</translation>
     </message>
     <message>
         <source>Try changing some keywords (eg, &quot;car&quot; instead of &quot;cars&quot;).</source>
-        <translation>Essayez en changeant certains mots-clefs (par exemple, &quot;voiture&quot; au lieu de &quot;voitures&quot;).</translation>
+        <translation>Essayez en changeant certains mots clés (par exemple, &quot;voiture&quot; au lieu de &quot;voitures&quot;).</translation>
     </message>
     <message>
         <source>Try searching with less specific keywords.</source>
-        <translation>Essayez de rechercher avec moins de mots-clefs.</translation>
+        <translation>Essayez de rechercher avec moins de mots clés.</translation>
     </message>
     <message>
         <source>Reduce number of keywords to get more results.</source>
-        <translation>Réduisez le nombre de mots-clefs pour avoir plus de résultats.</translation>
+        <translation>Réduisez le nombre de mots clés pour avoir plus de résultats.</translation>
     </message>
     <message>
         <source>Search for &quot;%1&quot; returned %2 matches</source>
@@ -3566,7 +3567,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     <name>ezteamroom/tags</name>
     <message>
         <source>No tags available</source>
-        <translation>Aucun mot-clef disponible</translation>
+        <translation>Aucun mot clé disponible</translation>
     </message>
 </context>
 <context>
@@ -3625,7 +3626,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Edit %1 - %2</source>
-        <translation>Editer %1 - %2</translation>
+        <translation>Modifier %1 - %2</translation>
     </message>
     <message>
         <source>Store</source>
@@ -3637,7 +3638,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Edit description</source>
-        <translation>Editer la description</translation>
+        <translation>Modifier la description</translation>
     </message>
     <message>
         <source>New milestone</source>
@@ -3657,7 +3658,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Keywords</source>
-        <translation>Mots-clefs</translation>
+        <translation>Mots-clés</translation>
     </message>
     <message>
         <source>You don&apos;t have access to modify this task.</source>
@@ -3701,11 +3702,11 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>View unfinished tasks</source>
-        <translation>Visualiser les tâches en court</translation>
+        <translation>Visualiser les tâches en cours</translation>
     </message>
     <message>
         <source>View only unfinished tasks</source>
-        <translation>Visualiser uniquement les tâches en court</translation>
+        <translation>Visualiser uniquement les tâches en cours</translation>
     </message>
     <message>
         <source>The milestone has been closed.</source>
@@ -3725,7 +3726,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Edit</source>
-        <translation>Editer</translation>
+        <translation>Modifier</translation>
     </message>
     <message>
         <source>Task related to this milestone</source>
@@ -3745,7 +3746,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Edit this task</source>
-        <translation>Editer cette tâche</translation>
+        <translation>Modifier cette tâche</translation>
     </message>
     <message>
         <source>Remove</source>
@@ -3757,7 +3758,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Tags</source>
-        <translation>Mots-clefs</translation>
+        <translation>Mots-clés</translation>
     </message>
     <message>
         <source>Persons in charge</source>
@@ -3785,11 +3786,11 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Only milestones with tag &quot;%1&quot; are shown</source>
-        <translation>Seuls les jalons associés au mot clef &quot;%1&quot; sont affichés</translation>
+        <translation>Seuls les jalons associés au mot clé &quot;%1&quot; sont affichés</translation>
     </message>
     <message>
         <source>Shown only milestones with tag &quot;%1&quot;</source>
-        <translation>Ne montrer que les jalons avec le mot clef &quot;%1&quot;</translation>
+        <translation>Ne montrer que les jalons avec le mot clé &quot;%1&quot;</translation>
     </message>
     <message>
         <source>View all tasks</source>
@@ -3797,18 +3798,18 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Only tasks with tag &quot;%1&quot; are shown</source>
-        <translation>Seuls les tâches associées au mot clef &quot;%1&quot; sont affichées</translation>
+        <translation>Seuls les tâches associées au mot clé &quot;%1&quot; sont affichées</translation>
     </message>
     <message>
         <source>Shown only tasks with tag &quot;%1&quot;</source>
-        <translation>Ne montrer que les tâches avec le mot clef &quot;%1&quot;</translation>
+        <translation>Ne montrer que les tâches avec le mot clé &quot;%1&quot;</translation>
     </message>
 </context>
 <context>
     <name>ezteamroom/teamroom</name>
     <message>
         <source>Edit %1 - %2</source>
-        <translation>Editer %1 - %2</translation>
+        <translation>Modifier %1 - %2</translation>
     </message>
     <message>
         <source>Create new teamroom</source>
@@ -4019,7 +4020,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Keywords</source>
-        <translation>Mots-clefs</translation>
+        <translation>Mots-clés</translation>
     </message>
     <message>
         <source>Currently there are no new messages.</source>
@@ -4055,7 +4056,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Edit</source>
-        <translation>Editer</translation>
+        <translation>Modifier</translation>
     </message>
     <message>
         <source>Browse all</source>
@@ -4159,7 +4160,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>A membership is required to access this teamroom. If you want to become a member of this teamroom you can request a membership for this teamroom. After a moderator has approved your membership you will get further access to this teamroom.</source>
-        <translation>pour accèder à cet espace, vous devez en etre membre. If vous le souhaitez, vous pouvez en faire la demande.Après l&apos;accord d&apos;un modérateur, vous pourrez accèder à cet espace projet.</translation>
+        <translation>pour accéder à cet espace, vous devez en etre membre. If vous le souhaitez, vous pouvez en faire la demande. Après l&apos;accord d&apos;un modérateur, vous pourrez accéder à cet espace projet.</translation>
     </message>
     <message>
         <source>Request membership</source>
@@ -4167,7 +4168,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Even if this is a public teamroom and you can read most of its content, it is possible to join this teamroom to become a permanent member. This will enable to better participate in teamroom activities. After you have joined this teamroom you will be able to make use of the teamroom.</source>
-        <translation>Ce projet est public. Meme si son contenu est accessible en lecture, vous pouvez rejoindre ce projet en tant que membre permanent pour y participer complétement.</translation>
+        <translation>Ce projet est public. Même si son contenu est accessible en lecture, vous pouvez rejoindre ce projet en tant que membre permanent pour y participer complétement.</translation>
     </message>
     <message>
         <source>Teamroom Logo</source>
@@ -4195,11 +4196,11 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Are you sure you want to join the teamroom &quot;%name&quot;?</source>
-        <translation>Etes vous sur de vouloir rejoindre le projet &quot;%name&quot;?</translation>
+        <translation>Êtes vous sur de vouloir rejoindre le projet &quot;%name&quot;?</translation>
     </message>
     <message>
         <source>Are you sure you want to request a membership for the teamroom &quot;%name&quot;?</source>
-        <translation>Etes vous certain de vouloir vous inscrire à l&apos;espace projet &quot;%name&quot;?</translation>
+        <translation>Êtes vous certain de vouloir vous inscrire à l&apos;espace projet &quot;%name&quot;?</translation>
     </message>
     <message>
         <source>Yes</source>
@@ -4230,11 +4231,11 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Edit</source>
-        <translation>Editer</translation>
+        <translation>Modifier</translation>
     </message>
     <message>
         <source>Edit this entry</source>
-        <translation>Editer cette entrée</translation>
+        <translation>Modifier cette entrée</translation>
     </message>
     <message>
         <source>Remove</source>
@@ -4246,7 +4247,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Keywords</source>
-        <translation>Mots-clefs</translation>
+        <translation>Mots clés</translation>
     </message>
 </context>
 <context>
@@ -4257,7 +4258,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Use this button to go back to the last page.</source>
-        <translation>Utiliseer ce bouton pour revenit a la page précédente.</translation>
+        <translation>Utiliser ce bouton pour revenir à la page précédente.</translation>
     </message>
 </context>
 </TS>
