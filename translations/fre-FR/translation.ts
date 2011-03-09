@@ -1274,19 +1274,19 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Edit event</source>
-        <translation type="unfinished"></translation>
+        <translation>Modifer l'évènement</translation>
     </message>
     <message>
         <source>Edit single date of recurring event</source>
-        <translation type="unfinished"></translation>
+        <translation>Modifier la date d'un évènement récurrent</translation>
     </message>
     <message>
         <source>Previous month</source>
-        <translation type="unfinished"></translation>
+        <translation>Mois précédent</translation>
     </message>
     <message>
         <source>Next Month</source>
-        <translation type="unfinished"></translation>
+        <translation>Mois suivant</translation>
     </message>
 </context>
 <context>
@@ -2771,15 +2771,15 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Are you sure you want to delete this lightbox?</source>
-        <translation type="unfinished"></translation>
+        <translation>Êtes vous sûr de vouloir supprimer cette lightbox ?</translation>
     </message>
     <message>
         <source>Are you sure you want to remove this entry?</source>
-        <translation type="unfinished"></translation>
+        <translation>Êtes vous sûr de vouloir supprimer cet élément ?</translation>
     </message>
     <message>
         <source>Are you sure you want to empty this lightbox?</source>
-        <translation type="unfinished"></translation>
+        <translation>Êtes vous sûr de vouloir vider cette lightbox ?</translation>
     </message>
 </context>
 <context>
@@ -3306,15 +3306,15 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Remove</source>
-        <translation type="unfinished">Supprimer</translation>
+        <translation>Supprimer</translation>
     </message>
     <message>
         <source>Remove the selected users from the invitation list displayed above</source>
-        <translation type="unfinished"></translation>
+        <translation>Supprimer les utilisateurs sélectionnés de l'invitation affichée ci-dessus ?</translation>
     </message>
     <message>
         <source>If you forgot your password, use the following link to get a new password</source>
-        <translation type="unfinished"></translation>
+        <translation>Si vous avez oublié votre mot de passe, utilisez le lien suivant pour obtenir un nouveau mot de passe</translation>
     </message>
 </context>
 <context>
@@ -4211,7 +4211,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Move to group &apos;%1&apos;</source>
-        <translation type="unfinished"></translation>
+        <translation>Déplacer vers le groupe &apos;%1&apos;</translation>
     </message>
 </context>
 <context>
