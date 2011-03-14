@@ -1630,7 +1630,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Only files of category &quot;%1&quot; are shown</source>
-        <translation>Seuls les fichiers associé à la catégorie &quot;%1&quot; sont affichés</translation>
+        <translation>Seuls les fichiers associés à la catégorie &quot;%1&quot; sont affichés</translation>
     </message>
     <message>
         <source>Show only files of the category &quot;%1&quot;</source>
@@ -1638,7 +1638,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Only files with tag &quot;%1&quot; are shown</source>
-        <translation>Seuls les fichiers associé au mot clé &quot;%1&quot; sont affichés</translation>
+        <translation>Seuls les fichiers associés au mot clé &quot;%1&quot; sont affichés</translation>
     </message>
     <message>
         <source>Shown only files with tag &quot;%1&quot;</source>
@@ -1765,18 +1765,18 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Previous topic</source>
-        <translation>Thème prédécent</translation>
+        <translation>Sujet prédécent</translation>
     </message>
     <message>
         <source>Next topic</source>
-        <translation>Thème suivant</translation>
+        <translation>Sujet suivant</translation>
     </message>
 </context>
 <context>
     <name>ezteamroom/frontpage</name>
     <message>
         <source>Hide / Unhide description header.</source>
-        <translation>Cacher / Montrer entête déscriptive.</translation>
+        <translation>Cacher / montrer entête descriptive.</translation>
     </message>
     <message>
         <source>Hide header</source>
@@ -1836,7 +1836,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>You have to enable JavaScript in your web browser.</source>
-        <translation>Vous devez activer JavaScript dans votre navigateur internet.</translation>
+        <translation>Vous devez activer JavaScript dans votre navigateur.</translation>
     </message>
     <message>
         <source>Loading ...</source>
@@ -1859,7 +1859,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Tags</source>
-        <translation>Mots-clés</translation>
+        <translation>Mots clés</translation>
     </message>
     <message>
         <source>Quicktime</source>
@@ -1887,7 +1887,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>First name</source>
-        <translation>Prenom</translation>
+        <translation>Prénom</translation>
     </message>
     <message>
         <source>Last name</source>
@@ -1939,7 +1939,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Unpublish date</source>
-        <translation>Date de depublication</translation>
+        <translation>Date de dépublication</translation>
     </message>
     <message>
         <source>Enable comments</source>
@@ -1975,7 +1975,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Display sub items</source>
-        <translation>Affucher les sous éléments</translation>
+        <translation>Afficher les sous éléments</translation>
     </message>
     <message>
         <source>Teamroom info box</source>
@@ -1983,11 +1983,11 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Header</source>
-        <translation>Entete</translation>
+        <translation>Entête</translation>
     </message>
     <message>
         <source>Box Icon</source>
-        <translation>Icone de block</translation>
+        <translation>Icône de block</translation>
     </message>
     <message>
         <source>Content</source>
@@ -2003,7 +2003,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Check access</source>
-        <translation>controle acces</translation>
+        <translation>Contrôle d'accès</translation>
     </message>
     <message>
         <source>Relates to</source>
@@ -2051,7 +2051,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Notify me about updates</source>
-        <translation>Alerter moi des mises à jour</translation>
+        <translation>Alertez moi des mises à jour</translation>
     </message>
     <message>
         <source>Teamroom forum reply</source>
@@ -2083,7 +2083,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Teamroom event calendar</source>
-        <translation>Calendrier evenementiel</translation>
+        <translation>Calendrier des événements</translation>
     </message>
     <message>
         <source>Full Title</source>
@@ -2099,7 +2099,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Teamroom news folder</source>
-        <translation>Actualité</translation>
+        <translation>Dossier actualités</translation>
     </message>
     <message>
         <source>Short name</source>
@@ -2107,7 +2107,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Folder</source>
-        <translation>Repertoire</translation>
+        <translation>Dossier</translation>
     </message>
     <message>
         <source>Summary</source>
@@ -2127,7 +2127,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Allow Minimization</source>
-        <translation>Autoriser la mi</translation>
+        <translation>Autoriser la minimisation</translation>
     </message>
     <message>
         <source>Default arrangement</source>
@@ -2147,11 +2147,11 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Teamroom tasks</source>
-        <translation>Taches projet</translation>
+        <translation>Tâches projet</translation>
     </message>
     <message>
         <source>Teamroom task</source>
-        <translation>tache projet</translation>
+        <translation>Tâche projet</translation>
     </message>
     <message>
         <source>Progress</source>
@@ -2191,19 +2191,19 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Teamroom file folder</source>
-        <translation>Répertoire</translation>
+        <translation>Dossier de fichiers</translation>
     </message>
     <message>
         <source>Teamroom file subfolder</source>
-        <translation>Sous répertoire</translation>
+        <translation>Sous dossier de fichiers</translation>
     </message>
     <message>
         <source>Subfolder</source>
-        <translation>Sous répertoire</translation>
+        <translation>Sous dossier</translation>
     </message>
     <message>
         <source>Teamroom infobox folder</source>
-        <translation>Répertoire infobox</translation>
+        <translation>Dossier infobox</translation>
     </message>
     <message>
         <source>Teamroom milestone</source>
@@ -2234,11 +2234,11 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     <name>ezteamroom/install/roles</name>
     <message>
         <source>Use Teamroom</source>
-        <translation>Accede a l&apos;espace projet</translation>
+        <translation>Accéder à l&apos;espace projet</translation>
     </message>
     <message>
         <source>Use Lightbox</source>
-        <translation>Utilise les boites de mise en avant</translation>
+        <translation>Utiliser les boîtes de mise en avant</translation>
     </message>
     <message>
         <source>Member</source>
@@ -2254,7 +2254,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Use Forum</source>
-        <translation>Participe aux forums</translation>
+        <translation>Participer aux forums</translation>
     </message>
     <message>
         <source>Read Blog</source>
@@ -2282,19 +2282,19 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Read Wiki</source>
-        <translation>Lire l&apos;espace wiki</translation>
+        <translation>Lire le wiki</translation>
     </message>
     <message>
         <source>Use Wiki</source>
-        <translation>Utiliser le Wiki</translation>
+        <translation>Utiliser le wiki</translation>
     </message>
     <message>
         <source>Read Tasks</source>
-        <translation>Lire les taches</translation>
+        <translation>Lire les tâches</translation>
     </message>
     <message>
         <source>Use Tasks</source>
-        <translation>Utiliser les taches</translation>
+        <translation>Utiliser les tâches</translation>
     </message>
     <message>
         <source>Read Milestones</source>
@@ -2331,11 +2331,11 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Boxes</source>
-        <translation>Boites</translation>
+        <translation>Boîtes</translation>
     </message>
     <message>
         <source>Lightbox selection</source>
-        <translation>Selection</translation>
+        <translation>Sélection</translation>
     </message>
     <message>
         <source>My Teamrooms</source>
@@ -2382,7 +2382,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Set Teamroom Section</source>
-        <translation>Definir la section Teamroom</translation>
+        <translation>Définir la section Teamroom</translation>
     </message>
     <message>
         <source>Set Current Teamroom</source>
@@ -2394,7 +2394,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Set Teamroom Membership</source>
-        <translation>Definir le mode d&apos;adhésion d&apos;un projet</translation>
+        <translation>Définir le mode d&apos;adhésion d&apos;un projet</translation>
     </message>
 </context>
 <context>
@@ -2409,7 +2409,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Receive an email if new users join this teamroom or modify their profile.</source>
-        <translation>Recevez un courriel si un utilisateur change son profil ou que des nouevaux utlisateurs rejoignent l&apos;espace projet.</translation>
+        <translation>Recevez un courriel si un utilisateur change son profil ou que de nouveaux utlisateurs rejoignent l&apos;espace projet.</translation>
     </message>
 </context>
 <context>
@@ -2540,7 +2540,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Content Object has been deleted.</source>
-        <translation>Object de contenu supprimé.</translation>
+        <translation>L'objet de contenu a été supprimé.</translation>
     </message>
     <message>
         <source>Use this button to delete the asset from this lightbox</source>
@@ -2596,11 +2596,11 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>My lightboxes</source>
-        <translation>Ma Lightbox</translation>
+        <translation>Mes Lightboxes</translation>
     </message>
     <message>
         <source>You do not have any lightbox yet.</source>
-        <translation>Vous ne disposez pas encore de Lightbox.</translation>
+        <translation>Vous n'avez pas pas encore de Lightbox.</translation>
     </message>
     <message>
         <source>Other lightboxes</source>
@@ -2791,7 +2791,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Email</source>
-        <translation>Email</translation>
+        <translation>Courriel</translation>
     </message>
     <message>
         <source>Send an email to %1</source>
@@ -2803,7 +2803,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Edit %1 - %2</source>
-        <translation></translation>
+        <translation>Modifier %1 - %2</translation>
     </message>
     <message>
         <source>Store</source>
@@ -2907,7 +2907,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Edit profile</source>
-        <translation>Modifier profil</translation>
+        <translation>Modifier mon profile</translation>
     </message>
     <message>
         <source>My pending items</source>
@@ -2988,7 +2988,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Remember me</source>
-        <translation>Souvenez-vous de moi</translation>
+        <translation>Se souvenir de moi</translation>
     </message>
     <message>
         <source>Login</source>
@@ -3006,7 +3006,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Please retype your old password.</source>
-        <translation>Saisissez de nouveau votre ancien mot de passe.</translation>
+        <translation>Veuillez saisir à nouveau votre ancien mot de passe.</translation>
     </message>
     <message>
         <source>Password didn&apos;t match, please retype your new password.</source>
@@ -3794,7 +3794,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>View all tasks</source>
-        <translation>Voit toutes les taches</translation>
+        <translation>Voit toutes les tâches</translation>
     </message>
     <message>
         <source>Only tasks with tag &quot;%1&quot; are shown</source>
