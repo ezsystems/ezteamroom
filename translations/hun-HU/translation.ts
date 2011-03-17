@@ -651,7 +651,7 @@ Your request is waiting for approval. To view the status of your request or to a
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Memberregistration approval</source>
+        <source>Member registration approval</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -663,7 +663,7 @@ Your request is waiting for approval. To view the status of your request or to a
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>[%sitename] Teamroom memberregistration approved</source>
+        <source>[%sitename] Teamroom member registration approved</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -671,7 +671,7 @@ Your request is waiting for approval. To view the status of your request or to a
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Your memberregistration in the teamroom &apos;%1&apos; has been approved by a teamroom moderator.</source>
+        <source>Your member registration in the teamroom &apos;%1&apos; has been approved by a teamroom moderator.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -679,11 +679,11 @@ Your request is waiting for approval. To view the status of your request or to a
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>[%sitename] Teamroom memberregistration denied</source>
+        <source>[%sitename] Teamroom member registration denied</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Your memberregistration in the teamroom &apos;%1&apos; has been denied by a teamroom moderator.</source>
+        <source>Your member registration in the teamroom &apos;%1&apos; has been denied by a teamroom moderator.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

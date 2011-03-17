@@ -1,9 +1,9 @@
-{set-block scope=root variable=subject}{"[%sitename] Teamroom memberregistration approved"|i18n("ezteamroom/collaboration",,hash( '%sitename', ezini( "SiteSettings", "SiteName" ) ))}{/set-block}
+{set-block scope=root variable=subject}{"[%sitename] Teamroom member registration approved"|i18n("ezteamroom/collaboration",,hash( '%sitename', ezini( "SiteSettings", "SiteName" ) ))}{/set-block}
 
 {if $teamroom.data_map.access_type.content.0|eq( 'public' )}
 {"You have successfully joined the teamroom '%1'."|i18n( "ezteamroom/collaboration", ,array( $teamroom.name|wash() ) )}
 {else}
-{"Your memberregistration in the teamroom '%1' has been approved by a teamroom moderator."|i18n( "ezteamroom/collaboration",,array( $teamroom.name|wash() ) )}
+{"Your member registration in the teamroom '%1' has been approved by a teamroom moderator."|i18n( "ezteamroom/collaboration",,array( $teamroom.name|wash() ) )}
 {/if}
 
 {"Use the following link to access the teamroom"|i18n("ezteamroom/collaboration")}

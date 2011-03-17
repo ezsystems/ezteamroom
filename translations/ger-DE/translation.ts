@@ -656,7 +656,7 @@ change your settings at:</source>
         <translation>Ein Teamroom Moderator hat Sie als Mitglied in den Teamroom &apos;%1&apos; eingeladen.</translation>
     </message>
     <message>
-        <source>Memberregistration approval</source>
+        <source>Member registration approval</source>
         <translation>Mitgliederregistrierung freischalten</translation>
     </message>
     <message>
@@ -668,7 +668,7 @@ change your settings at:</source>
         <translation>Sie habe Ihre Mitgliedschaft im Teamroom &quot;%1&quot; beendet.</translation>
     </message>
     <message>
-        <source>[%sitename] Teamroom memberregistration approved</source>
+        <source>[%sitename] Teamroom member registration approved</source>
         <translation>[%sitename] Teamroom Mitgliedregistrierung freigegeben</translation>
     </message>
     <message>
@@ -676,7 +676,7 @@ change your settings at:</source>
         <translation>Sie sind dem Teamroom &apos;%1&apos; erfolgreich beigetreten.</translation>
     </message>
     <message>
-        <source>Your memberregistration in the teamroom &apos;%1&apos; has been approved by a teamroom moderator.</source>
+        <source>Your member registration in the teamroom &apos;%1&apos; has been approved by a teamroom moderator.</source>
         <translation>Ihre Mitgliederregistrierung für den Teamroom &apos;%1&apos; wurde von einem Moderator freigegeben.</translation>
     </message>
     <message>
@@ -684,11 +684,11 @@ change your settings at:</source>
         <translation>Möchte sie nicht länger Mitglied dieses Teamrooms sein, können Sie unter folgendem link die Mitgliedschaft beenden.</translation>
     </message>
     <message>
-        <source>[%sitename] Teamroom memberregistration denied</source>
+        <source>[%sitename] Teamroom member registration denied</source>
         <translation>[%sitename] Teamroom Mitgliederregistrierung verweigert</translation>
     </message>
     <message>
-        <source>Your memberregistration in the teamroom &apos;%1&apos; has been denied by a teamroom moderator.</source>
+        <source>Your member registration in the teamroom &apos;%1&apos; has been denied by a teamroom moderator.</source>
         <translation>Ihre Mitgliederregistrierung im Teamroom &apos;%1&apos; wurde durch einen Teamroom-Moderator verweigert.</translation>
     </message>
     <message>

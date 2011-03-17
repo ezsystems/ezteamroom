@@ -16,50 +16,50 @@
     <name>design/ezwebin/content/datatype</name>
     <message>
         <source>Year</source>
-        <translation type="unfinished"></translation>
+        <translation>Année</translation>
     </message>
     <message>
         <source>Month</source>
-        <translation type="unfinished"></translation>
+        <translation>Mois</translation>
     </message>
     <message>
         <source>Day</source>
-        <translation type="unfinished"></translation>
+        <translation>Jour</translation>
     </message>
     <message>
         <source>Hour</source>
-        <translation type="unfinished"></translation>
+        <translation>Heure</translation>
     </message>
     <message>
         <source>Minute</source>
-        <translation type="unfinished"></translation>
+        <translation>Minute</translation>
     </message>
 </context>
 <context>
     <name>design/standard/content/version</name>
     <message>
         <source>Version</source>
-        <translation type="unfinished">Version</translation>
+        <translation>Version</translation>
     </message>
     <message>
         <source>Status</source>
-        <translation type="unfinished">Statut</translation>
+        <translation>Statut</translation>
     </message>
     <message>
         <source>Creator</source>
-        <translation type="unfinished">Créateur</translation>
+        <translation>Créateur</translation>
     </message>
     <message>
         <source>Modified</source>
-        <translation type="unfinished">Modifié</translation>
+        <translation>Modifié</translation>
     </message>
     <message>
         <source>Download</source>
-        <translation type="unfinished">Télécharger</translation>
+        <translation>Télécharger</translation>
     </message>
     <message>
         <source>Get version</source>
-        <translation type="unfinished">List des version</translation>
+        <translation>Télécharger la version</translation>
     </message>
 </context>
 <context>
@@ -637,7 +637,7 @@ Votre demande est en attente de validation. L&apos;adresse URL ci-dessous vous p
     </message>
     <message>
         <source>If an &apos;Access denied&apos; message is displayed you are not logged in yet. The following link can be used to login</source>
-        <translation>Si un message &apos;Accès refusé&apos; vous est présenté, cela signifie que vous n&apos;ètes pas encore identifié. Le lien suivant vous permet de vous connecter.</translation>
+        <translation>Si un message &apos;Accès refusé&apos; vous est présenté, cela signifie que vous n&apos;êtes pas encore identifié. Le lien suivant vous permet de vous connecter.</translation>
     </message>
     <message>
         <source>This mail was sent by the notification system on %sitename</source>
@@ -656,7 +656,7 @@ Votre demande est en attente de validation. L&apos;adresse URL ci-dessous vous p
         <translation>Si vous avez des questions ou des problèmes, n&apos;hésitez pas à contacter l&apos;administrateur du site par courriel %sitenadmin.</translation>
     </message>
     <message>
-        <source>Memberregistration approval</source>
+        <source>Member registration approval</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -668,7 +668,7 @@ Votre demande est en attente de validation. L&apos;adresse URL ci-dessous vous p
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>[%sitename] Teamroom memberregistration approved</source>
+        <source>[%sitename] Teamroom member registration approved</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -676,7 +676,7 @@ Votre demande est en attente de validation. L&apos;adresse URL ci-dessous vous p
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Your memberregistration in the teamroom &apos;%1&apos; has been approved by a teamroom moderator.</source>
+        <source>Your member registration in the teamroom &apos;%1&apos; has been approved by a teamroom moderator.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -684,11 +684,11 @@ Votre demande est en attente de validation. L&apos;adresse URL ci-dessous vous p
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>[%sitename] Teamroom memberregistration denied</source>
+        <source>[%sitename] Teamroom member registration denied</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Your memberregistration in the teamroom &apos;%1&apos; has been denied by a teamroom moderator.</source>
+        <source>Your member registration in the teamroom &apos;%1&apos; has been denied by a teamroom moderator.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1799,7 +1799,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>You are not logged in or you do not have access.</source>
-        <translation>Vous n&apos;ètes pas connecté ou vous n&apos;avez pas les droits d&apos;accès.</translation>
+        <translation>Vous n&apos;êtes pas connecté ou vous n&apos;avez pas les droits d&apos;accès.</translation>
     </message>
     <message>
         <source>Please register here</source>
@@ -1918,7 +1918,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Publication date</source>
-        <translation type="unfinished"></translation>
+        <translation>Date de publication</translation>
     </message>
     <message>
         <source>Unpublish date</source>
@@ -2090,7 +2090,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Répertoire</translation>
     </message>
     <message>
         <source>Summary</source>
@@ -2098,7 +2098,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Publish date</source>
-        <translation type="unfinished"></translation>
+        <translation>Date de publication</translation>
     </message>
     <message>
         <source>Teamroom personalized frontpage</source>
@@ -2106,7 +2106,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Number of columns</source>
-        <translation type="unfinished"></translation>
+        <translation>Nombre de colonnes</translation>
     </message>
     <message>
         <source>Allow Minimization</source>
@@ -2555,7 +2555,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>You are not logged in.</source>
-        <translation>Vous n&apos;ètes pas connecté.</translation>
+        <translation>Vous n&apos;êtes pas connecté.</translation>
     </message>
     <message>
         <source>Please register here</source>
@@ -3089,7 +3089,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Your membership of the teamroom &quot;%name&quot; has been approved. You are now member of this teamroom.</source>
-        <translation>Votre demande d&apos;adhésion à l&apos;espace projet de %name a été approuvé. Vous ètes maintenant membre de cet espace projet.</translation>
+        <translation>Votre demande d&apos;adhésion à l&apos;espace projet de %name a été approuvé. Vous êtes maintenant membre de cet espace projet.</translation>
     </message>
     <message>
         <source>[%siteurl] Teamroom invitation user account</source>
@@ -3130,7 +3130,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Resigned from teamroom &quot;%name&quot;</source>
-        <translation>Vous ètes désinscrit de l&apos;espace projet &quot;%name&quot;</translation>
+        <translation>Vous êtes désinscrit de l&apos;espace projet &quot;%name&quot;</translation>
     </message>
     <message>
         <source>Users were successfully selected</source>
@@ -3352,7 +3352,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>You have not subscribed to receive notifications about any items.</source>
-        <translation>Vous n&apos;ètes pas inscrit pour recevoir des notifications quelque soit l&apos;élément.</translation>
+        <translation>Vous n&apos;êtes pas inscrit pour recevoir des notifications quelque soit l&apos;élément.</translation>
     </message>
     <message>
         <source>Remove items</source>
@@ -3831,7 +3831,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>You are not logged in or you do not have access. Please use your existing user account (login and password combination) and press the &quot;Login&quot; button. If you do not have a user account yet, you can press the &quot;Sign up&quot; button to register yourself.</source>
-        <translation>Vous n&apos;ètes pas connecté ou vous n&apos;avez pas les droits d&apos;accès. Utilisez votre compte utilisateur (nom d&apos;utilisateur et mot de passe) et cliquez sur le bouton &quot;Connexion&quot;. Si vous ne disposez pas d&apos;un compte utilisateur, cliquez sur le bouton &quot;S&apos;enregistrer&quot; pour en créer un.</translation>
+        <translation>Vous n&apos;êtes pas connecté ou vous n&apos;avez pas les droits d&apos;accès. Utilisez votre compte utilisateur (nom d&apos;utilisateur et mot de passe) et cliquez sur le bouton &quot;Connexion&quot;. Si vous ne disposez pas d&apos;un compte utilisateur, cliquez sur le bouton &quot;S&apos;enregistrer&quot; pour en créer un.</translation>
     </message>
     <message>
         <source>Insert into column:</source>
@@ -3863,7 +3863,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>You are not logged in or you do not have access.</source>
-        <translation>Vous n&apos;ètes pas connecté ou vous n&apos;avez pas les droits d&apos;accès.</translation>
+        <translation>Vous n&apos;êtes pas connecté ou vous n&apos;avez pas les droits d&apos;accès.</translation>
     </message>
     <message>
         <source>Please register here</source>
@@ -3923,7 +3923,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>You are logged in yet.</source>
-        <translation>Vous ètes déjà connecté.</translation>
+        <translation>Vous êtes déjà connecté.</translation>
     </message>
     <message>
         <source>System misconfiguration</source>
@@ -4003,7 +4003,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>You are not a member of any teamroom.</source>
-        <translation>Vous n&apos;ètes membre d&apos;aucun espace projet.</translation>
+        <translation>Vous n&apos;êtes membre d&apos;aucun espace projet.</translation>
     </message>
     <message>
         <source>My teamrooms</source>

@@ -435,7 +435,7 @@ cambia tus preferencias en:</translation>
         <translation>Aprobación</translation>
     </message>
     <message>
-        <source>Memberregistration approval</source>
+        <source>Member registration approval</source>
         <translation>Aprobación de registro de usuarios</translation>
     </message>
     <message>
@@ -631,7 +631,7 @@ Tu petición está a la espera de ser aprobada. Para ver el estado de tu petici�
         <translation>Has reasignado con éxito desde la teamroom &quot;%1&quot;.</translation>
     </message>
     <message>
-        <source>[%sitename] Teamroom memberregistration approved</source>
+        <source>[%sitename] Teamroom member registration approved</source>
         <translation>[%sitename] Petición de registro a la teamroom aprobada</translation>
     </message>
     <message>
@@ -639,7 +639,7 @@ Tu petición está a la espera de ser aprobada. Para ver el estado de tu petici�
         <translation>Te has unido con éxito a la teamroom  &apos;%1&apos;.</translation>
     </message>
     <message>
-        <source>Your memberregistration in the teamroom &apos;%1&apos; has been approved by a teamroom moderator.</source>
+        <source>Your member registration in the teamroom &apos;%1&apos; has been approved by a teamroom moderator.</source>
         <translation>Tu petición de registro en la teamroom  &apos;%1&apos;  ha sido aprobada por el moderador de la teamroom.</translation>
     </message>
     <message>
@@ -647,11 +647,11 @@ Tu petición está a la espera de ser aprobada. Para ver el estado de tu petici�
         <translation>Si no quieres ser un miembro de esta teamroom nunca más puedes usar el siguiente enlace para renunciar a la teamroom.</translation>
     </message>
     <message>
-        <source>[%sitename] Teamroom memberregistration denied</source>
+        <source>[%sitename] Teamroom member registration denied</source>
         <translation>[%sitename] Petición de registro a la teamroom denegada</translation>
     </message>
     <message>
-        <source>Your memberregistration in the teamroom &apos;%1&apos; has been denied by a teamroom moderator.</source>
+        <source>Your member registration in the teamroom &apos;%1&apos; has been denied by a teamroom moderator.</source>
         <translation>Tu petición de registro en la teamroom  &apos;%1&apos;  ha sido denegada por el moderador de la teamroom.</translation>
     </message>
     <message>
