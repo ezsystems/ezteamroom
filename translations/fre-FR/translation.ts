@@ -1816,7 +1816,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>You are not logged in or you do not have access.</source>
-        <translation>Vous n&apos;ètes pas connecté ou vous n&apos;avez pas les droits d&apos;accès.</translation>
+        <translation>Vous n&apos;êtes pas connecté ou vous n&apos;avez pas les droits d&apos;accès.</translation>
     </message>
     <message>
         <source>Please register here</source>
@@ -2572,7 +2572,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>You are not logged in.</source>
-        <translation>Vous n&apos;ètes pas connecté.</translation>
+        <translation>Vous n&apos;êtes pas connecté.</translation>
     </message>
     <message>
         <source>Please register here</source>
@@ -3046,7 +3046,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Input was stored successfully</source>
-        <translation>La saisie a été enregistré avec succès</translation>
+        <translation>La saisie a été enregistrée avec succès</translation>
     </message>
     <message>
         <source>Register</source>
@@ -3110,7 +3110,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Your request for membership has been succesfully submitted and is now waiting for approval. You will receive status updates by e-mail.</source>
-        <translation>Votre demande d&apos;adhésion a été envoyée avec succès et sera traitée prochainement. L&apos;état d&apos;avancement de votre demande vous parviendra par courriel. </translation>
+        <translation>Votre demande d&apos;adhésion a été envoyée avec succès et sera traitée prochainement. L&apos;état d&apos;avancement de votre demande vous parviendra par courriel.</translation>
     </message>
     <message>
         <source>Ok</source>
@@ -3118,7 +3118,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Your membership of the teamroom &quot;%name&quot; has been approved. You are now member of this teamroom.</source>
-        <translation>Votre demande d&apos;adhésion à l&apos;espace projet de %name a été approuvé. Vous ètes maintenant membre de cet espace projet.</translation>
+        <translation>Votre demande d&apos;adhésion à l&apos;espace projet de %name a été approuvée. Vous êtes maintenant membre de cet espace projet.</translation>
     </message>
     <message>
         <source>[%siteurl] Teamroom invitation user account</source>
@@ -3147,7 +3147,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Click the following URL to confirm your account</source>
-        <translation>Cliquer l&apos;URL suivante pour confirmer votre enregistrement</translation>
+        <translation>Cliquez l&apos;URL suivante pour confirmer votre compte</translation>
     </message>
     <message>
         <source>Link to user information</source>
@@ -3159,7 +3159,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Resigned from teamroom &quot;%name&quot;</source>
-        <translation>Vous ètes désinscrit de l&apos;espace projet &quot;%name&quot;</translation>
+        <translation>Vous êtes désinscrit de l&apos;espace projet &quot;%name&quot;</translation>
     </message>
     <message>
         <source>Users were successfully selected</source>
@@ -3175,7 +3175,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>The node (%1) specified in [UserSettings].DefaultUserPlacement setting in site.ini does not exist!</source>
-        <translation>Le nœud (%1) configuré dans le fichier site.ini, [UserSettings].DefaultUserPlacement, n&apos;existe pas !</translation>
+        <translation>Le nœud (%1) configuré dans [UserSettings].DefaultUserPlacement du fichier site.ini &apos;existe pas !</translation>
     </message>
     <message>
         <source>Manage Member</source>
@@ -3207,11 +3207,11 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Invite again</source>
-        <translation>Re-inviter</translation>
+        <translation>Relancer l'invitation</translation>
     </message>
     <message>
         <source>There are no users.</source>
-        <translation>Il n&apos;ya pas d&apos;utilisateurs.</translation>
+        <translation>Aucun utilisateur.</translation>
     </message>
     <message>
         <source>Invite a user</source>
@@ -3219,7 +3219,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Enter a valid email address. It is also possible to enter a comma separated list of email addresses. If there does not exist a user with one of the given email addresses in the system yet, new user accounts will be generated for them automatically.</source>
-        <translation>Saisir un email valide. Il est aussi possible de saisir une liste d&apos;email separé par des virgules. Si un mail ne correspond pas a un utilisateur dans le système, des comptes utilisateurs seront créés automatiquement.</translation>
+        <translation>Saisissez une addresse électronique valide. Il est aussi possible de saisir une liste d'adresses separées par des virgules. Si un courriel ne correspond pas à un utilisateur dans le système, des comptes utilisateurs seront créés automatiquement.</translation>
     </message>
     <message>
         <source>Search user</source>
@@ -3227,15 +3227,15 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Search for existing users or invite new users according to their email addresses</source>
-        <translation>Recherche des utilisateurs existants ou invite des nouveaux a partir de leur adresses mail</translation>
+        <translation>Rechercher des utilisateurs existants ou inviter de nouveaux à partir de leur courriel</translation>
     </message>
     <message>
         <source>Select an existing user by browsing through all registered users.</source>
-        <translation>Sélectionne un utilisateur en parcourant tous les comptes existants.</translation>
+        <translation>Sélectionner un utilisateur en parcourant tous les comptes existants.</translation>
     </message>
     <message>
         <source>Browse through user groups to find user that already have a user account</source>
-        <translation>Parcourir les groupes d&apos;utilisateurs pour trouver les utilisateurs qui ont déjà un compte d&apos;accès</translation>
+        <translation>Parcourir les groupes d&apos;utilisateurs pour trouver les utilisateurs existants</translation>
     </message>
     <message>
         <source>Create new account for:</source>
@@ -3243,7 +3243,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Automatically create user accounts for new users and send an invitation email to all users displayed in the list above</source>
-        <translation>Créer autoùmatiquement des comptes pour les nouveaux utilisateurs et envoyer une invitation par email aux utilisateurs listés ci-dessous</translation>
+        <translation>Créer automatiquement des comptes pour les nouveaux utilisateurs et envoyer une invitation par courriel aux utilisateurs listés ci-dessous</translation>
     </message>
     <message>
         <source>Clear list</source>
@@ -3263,7 +3263,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>To the teamroom</source>
-        <translation>vers l&apos;espace projet</translation>
+        <translation>Vers l&apos;espace projet</translation>
     </message>
     <message>
         <source>Do you really want to cancel your membership of this teamroom?</source>
@@ -3275,7 +3275,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>To the teamrooms</source>
-        <translation>vers l&apos;espace projet</translation>
+        <translation>Vers les espaces projet</translation>
     </message>
     <message>
         <source>User is already Member: </source>
@@ -3287,7 +3287,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>There is no registered user with that email address: </source>
-        <translation>Il n&apos;ya pas d&apos;utilisateur enregistré avec cette adresse email : </translation>
+        <translation>Il n&apos;y a pas d&apos;utilisateur enregistré avec ce courriel : </translation>
     </message>
     <message>
         <source> A new account will be created.</source>
@@ -3315,7 +3315,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>If you forgot your password, use the following link to get a new password</source>
-        <translation>Si vous avez oublié votre mot de passe, utilisez le lien suivant pour obtenir un nouveau mot de passe</translation>
+        <translation>Si vous avez oublié votre mot de passe, utilisez le lien suivant pour en obtenir un nouveau</translation>
     </message>
 </context>
 <context>
@@ -3326,7 +3326,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>An email has been send using the teamroom &quot;%1&quot;. The message is included below.</source>
-        <translation>Un message a été envoyé par le projet &quot;%1&quot;. Son contenu est inclu ci-dessous.</translation>
+        <translation>Un message a été envoyé par le projet &quot;%1&quot;. Son contenu est visible ci-dessous.</translation>
     </message>
     <message>
         <source>Use the following link to access the teamroom</source>
@@ -3377,7 +3377,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     <name>ezteamroom/notification</name>
     <message>
         <source>Add to my notifications</source>
-        <translation>Ajouter à mes alèrtes</translation>
+        <translation>Ajouter à mes alertes</translation>
     </message>
     <message>
         <source>Notification for node &lt;%node_name&gt; already exists.</source>
@@ -3393,7 +3393,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>You have not subscribed to receive notifications about any items.</source>
-        <translation>Vous n&apos;ètes pas inscrit pour recevoir des notifications quelque soit l&apos;élément.</translation>
+        <translation>Vous n&apos;avez souscrit à aucune notification.</translation>
     </message>
     <message>
         <source>Remove items</source>
@@ -3417,7 +3417,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Store</source>
-        <translation></translation>
+        <translation>Enregistrer</translation>
     </message>
 </context>
 <context>
@@ -3428,7 +3428,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>No results were found when searching for &quot;%1&quot;.</source>
-        <translation>Aucun résultat ne correspond à la recherche &quot;%1&quot;.</translation>
+        <translation>Aucun résultat ne correspond à la recherche de &quot;%1&quot;.</translation>
     </message>
     <message>
         <source>Search tips</source>
@@ -3452,7 +3452,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Search for &quot;%1&quot; returned %2 matches</source>
-        <translation>La recherche de &quot;%1&quot; retourne %2 résultats</translation>
+        <translation>La recherche de &quot;%1&quot; a retourné %2 résultats</translation>
     </message>
     <message>
         <source>Search time: %1 msecs</source>
@@ -3469,7 +3469,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     <message>
         <source>For more options try the %1Advanced search%2</source>
         <comment>The parameters are link start and end tags.</comment>
-        <translation>Pour plus d&apos;options essayez la %1Advanced search%2</translation>
+        <translation>Pour plus d&apos;options essayez la %1Recherche avancée%2</translation>
     </message>
     <message>
         <source>Advanced search</source>
@@ -3477,7 +3477,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>No results were found when searching for &quot;%1&quot;</source>
-        <translation>Aucun résultat n&apos;a été trouvé avec le motif de recherche &quot;%1&quot;</translation>
+        <translation>Aucun résultat n&apos;a été trouvé avec dans recherche de &quot;%1&quot;</translation>
     </message>
     <message>
         <source>Search all the words</source>
@@ -3493,7 +3493,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Any time</source>
-        <translation>A tout moment</translation>
+        <translation>À tout moment</translation>
     </message>
     <message>
         <source>Last day</source>
@@ -3560,7 +3560,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     <name>ezteamroom/setteamroom</name>
     <message>
         <source>Set the current Teamroom</source>
-        <translation>Définir l&apos;espace projet courante</translation>
+        <translation>Définir l&apos;espace projet courant</translation>
     </message>
 </context>
 <context>
@@ -3606,7 +3606,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>No members in this group found.</source>
-        <translation>Aucun membre ne fait parti de ce groupe. </translation>
+        <translation>Aucun membre ne fait parti de ce groupe.</translation>
     </message>
     <message>
         <source>No related documents.</source>
@@ -3658,11 +3658,11 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Keywords</source>
-        <translation>Mots-clés</translation>
+        <translation>Mots clés</translation>
     </message>
     <message>
         <source>You don&apos;t have access to modify this task.</source>
-        <translation>Vous n&apos;avez pas les droits pour modifier cette tâche.</translation>
+        <translation>Vous n&apos;avez pas le droit de modifier cette tâche.</translation>
     </message>
     <message>
         <source>An unexpected error occured.</source>
@@ -3698,15 +3698,15 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>View finished tasks</source>
-        <translation>Visualiser les tâches terminée</translation>
+        <translation>Voir les tâches terminée</translation>
     </message>
     <message>
         <source>View unfinished tasks</source>
-        <translation>Visualiser les tâches en cours</translation>
+        <translation>Voir les tâches en cours</translation>
     </message>
     <message>
         <source>View only unfinished tasks</source>
-        <translation>Visualiser uniquement les tâches en cours</translation>
+        <translation>Voir uniquement les tâches en cours</translation>
     </message>
     <message>
         <source>The milestone has been closed.</source>
@@ -3758,7 +3758,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Tags</source>
-        <translation>Mots-clés</translation>
+        <translation>Mots clés</translation>
     </message>
     <message>
         <source>Persons in charge</source>
@@ -3794,7 +3794,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>View all tasks</source>
-        <translation>Voit toutes les tâches</translation>
+        <translation>Voir toutes les tâches</translation>
     </message>
     <message>
         <source>Only tasks with tag &quot;%1&quot; are shown</source>
@@ -3817,11 +3817,11 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Keep in mind that it can take several minutes until the modifications to the teamroom take effect.</source>
-        <translation>Gardez à l&apos;esprit qu&apos;il est nécessaire de plusieurs minutes avant que les modifications prennent effet dans l&apos;espace projet.</translation>
+        <translation>Attention : les modifications de l&apos;espace projet peuvent nécessiter plusieurs minutes avant d'être visibles.</translation>
     </message>
     <message>
         <source>Keep in mind that the creation of your new teamroom can take several minutes.</source>
-        <translation>Gardez à l&apos;esprit qu&apos;il est peut-être nécessaire de plusieurs minutes pour créer votre espace projet.</translation>
+        <translation>Attention : la création de votre espace projet peut prendre plusieurs minutes.</translation>
     </message>
     <message>
         <source>Store Teamroom</source>
@@ -3872,7 +3872,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>You are not logged in or you do not have access. Please use your existing user account (login and password combination) and press the &quot;Login&quot; button. If you do not have a user account yet, you can press the &quot;Sign up&quot; button to register yourself.</source>
-        <translation>Vous n&apos;ètes pas connecté ou vous n&apos;avez pas les droits d&apos;accès. Utilisez votre compte utilisateur (nom d&apos;utilisateur et mot de passe) et cliquez sur le bouton &quot;Connexion&quot;. Si vous ne disposez pas d&apos;un compte utilisateur, cliquez sur le bouton &quot;S&apos;enregistrer&quot; pour en créer un.</translation>
+        <translation>Vous n&apos;êtes pas connecté ou vous n&apos;avez pas les droits d&apos;accès. Utilisez votre compte utilisateur (nom d&apos;utilisateur et mot de passe) et cliquez sur le bouton &quot;Connexion&quot;. Si vous ne disposez pas d&apos;un compte utilisateur, cliquez sur le bouton &quot;S&apos;enregistrer&quot; pour en créer un.</translation>
     </message>
     <message>
         <source>Insert into column:</source>
@@ -3896,7 +3896,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Reload</source>
-        <translation>Rafraîchir</translation>
+        <translation>Actualiser</translation>
     </message>
     <message>
         <source>Access Denied</source>
@@ -3904,7 +3904,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>You are not logged in or you do not have access.</source>
-        <translation>Vous n&apos;ètes pas connecté ou vous n&apos;avez pas les droits d&apos;accès.</translation>
+        <translation>Vous n&apos;êtes pas connecté ou vous n&apos;avez pas les droits d&apos;accès.</translation>
     </message>
     <message>
         <source>Please register here</source>
@@ -3924,23 +3924,23 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>You have to enable JavaScript in your web browser.</source>
-        <translation>Vous devez activer JavaScript dans votre navigateur internet.</translation>
+        <translation>Vous devez activer JavaScript dans votre navigateur.</translation>
     </message>
     <message>
         <source>The teamroom has not been setup yet.</source>
-        <translation>Vous n&apos;avez pas configuré de teamroom.</translation>
+        <translation>Vous n&apos;avez pas configuré d'espace projet.</translation>
     </message>
     <message>
         <source>Please be patient. The teamroom should be ready in a few minutes.</source>
-        <translation>Soyez patient. L&apos;espace projet sera accessible dans quelques instants. </translation>
+        <translation>Veuillez patienter. L&apos;espace projet sera accessible dans quelques instants.</translation>
     </message>
     <message>
         <source>Membership in progess.</source>
-        <translation>Approbation en cours.</translation>
+        <translation>Adhésion en cours.</translation>
     </message>
     <message>
         <source>Your membership request is in progress. An Email will send to you when your membership has been approved by a moderator.</source>
-        <translation>Votre demande est en cours de traitement. Vous recevres un email quand votre demande aura été validé par un des responsables de l&apos;espace projet.</translation>
+        <translation>Votre demande est en cours de traitement. Vous recevrez un email quand votre demande aura été validée par un des responsables de l&apos;espace projet.</translation>
     </message>
     <message>
         <source>Join this teamroom</source>
@@ -3956,7 +3956,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>You are not allowed to create new teamrooms.</source>
-        <translation>Vous ne pouvez pas créer un nouvel espace projet.</translation>
+        <translation>Vous ne pouvez pas créer de nouvel espace projet.</translation>
     </message>
     <message>
         <source>Please get in contact with the system administrator.</source>
@@ -3964,7 +3964,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>You are logged in yet.</source>
-        <translation>Vous ètes déjà connecté.</translation>
+        <translation>Vous êtes déjà connecté.</translation>
     </message>
     <message>
         <source>System misconfiguration</source>
@@ -3980,7 +3980,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Skip to main content</source>
-        <translation>Sauter vers le contenu principal</translation>
+        <translation>Aller au contenu principal</translation>
     </message>
     <message>
         <source>showing &lt;strong&gt;%1-%2&lt;/strong&gt; of &lt;strong&gt;%3&lt;/strong&gt;</source>
@@ -4020,7 +4020,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Keywords</source>
-        <translation>Mots-clés</translation>
+        <translation>Mots clés</translation>
     </message>
     <message>
         <source>Currently there are no new messages.</source>
@@ -4044,7 +4044,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>You are not a member of any teamroom.</source>
-        <translation>Vous n&apos;ètes membre d&apos;aucun espace projet.</translation>
+        <translation>Vous n&apos;êtes membre d&apos;aucun espace projet.</translation>
     </message>
     <message>
         <source>My teamrooms</source>
@@ -4064,7 +4064,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>No teamroom has been created yet.</source>
-        <translation>Vous n&apos;avez pas créé d&apos;espace projet pour le moment.</translation>
+        <translation>Vous n&apos;avez pas encore créé d&apos;espace projet.</translation>
     </message>
     <message>
         <source>Logout</source>
@@ -4128,7 +4128,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Approve teamroom membership</source>
-        <translation>Approuver une inscription</translation>
+        <translation>Approuver une adhésion</translation>
     </message>
     <message>
         <source>approve member registration</source>
@@ -4144,23 +4144,23 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>If you disable features in your teamroom this will have no effect on existing contents in that area. Thus, you can also enable a feature later on and you will get the same content.</source>
-        <translation>Si vous désactiver des fonctionnalités dans votre projet, cela n&apos;aura aucun impact sur les contenus existant. Vous pourrez reactiver ces fonctionnalités  plus tard, vous y retrouverez le contenu caché plus tôt.</translation>
+        <translation>Si vous désactivez des fonctionnalités dans votre projet, cela n&apos;aura aucun impact sur les contenus existants. Vous pourrez réactiver ces fonctionnalités plus tard et retrouver vos contenus.</translation>
     </message>
     <message>
         <source>To create a new teamroom just enter a title and a short description for it.</source>
-        <translation>Pour créer un nouveau projet, vous devez juste remplir un titre et une description courte.</translation>
+        <translation>Pour créer un nouveau projet, vous devez juste remplir un titre et une courte description.</translation>
     </message>
     <message>
         <source>The access types can be used for access control to your teamroom as follows</source>
-        <translation>Pour controler l&apos;accès à votre projet, les types d&apos;accès suivants peuvent être utilisés</translation>
+        <translation>Pour contrôler l&apos;accès à votre projet, les types d&apos;accès suivants peuvent être utilisés</translation>
     </message>
     <message>
         <source>Only those features that you selected will be visible in your teamroom. It is also possible to de-/activate features after the teamroom has been created.</source>
-        <translation>seules les fonctionnalités que vous avez selectionné seront visible dans votre espace projet. Il sera aussi possible de reactiver d&apos;utres fonctionnalitées ou de desactivés celles cis apres la création de votre espace projet.</translation>
+        <translation>Seules les fonctionnalités que vous avez selectionnées seront visibles dans votre espace projet. Il sera aussi possible de réactiver d&apos;autres fonctionnalités ou d'en désactiver après la création de votre espace projet.</translation>
     </message>
     <message>
         <source>A membership is required to access this teamroom. If you want to become a member of this teamroom you can request a membership for this teamroom. After a moderator has approved your membership you will get further access to this teamroom.</source>
-        <translation>pour accéder à cet espace, vous devez en etre membre. If vous le souhaitez, vous pouvez en faire la demande. Après l&apos;accord d&apos;un modérateur, vous pourrez accéder à cet espace projet.</translation>
+        <translation>Vous devez en être membre pour accéder à cet espace projet. Si vous le souhaitez, vous pouvez en faire la demande. Après l&apos;accord d&apos;un modérateur, vous pourrez accéder à cet espace projet.</translation>
     </message>
     <message>
         <source>Request membership</source>
@@ -4172,7 +4172,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Teamroom Logo</source>
-        <translation>Logo Espace projet</translation>
+        <translation>Logo de l'espace projet</translation>
     </message>
     <message>
         <source>Remove this teamroom</source>
@@ -4235,7 +4235,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Edit this entry</source>
-        <translation>Modifier cette entrée</translation>
+        <translation>Modifier cet élément</translation>
     </message>
     <message>
         <source>Remove</source>
@@ -4258,7 +4258,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Use this button to go back to the last page.</source>
-        <translation>Utiliser ce bouton pour revenir à la page précédente.</translation>
+        <translation>Utilisez ce bouton pour revenir à la page précédente.</translation>
     </message>
 </context>
 </TS>
