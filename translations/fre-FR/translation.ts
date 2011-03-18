@@ -59,7 +59,7 @@
     </message>
     <message>
         <source>Get version</source>
-        <translation>Liste des versions</translation>
+        <translation>Télécarger la version</translation>
     </message>
 </context>
 <context>
@@ -2123,7 +2123,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Number of columns</source>
-        <translation>Nombre de colonne</translation>
+        <translation>Nombre de colonnes</translation>
     </message>
     <message>
         <source>Allow Minimization</source>
