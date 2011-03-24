@@ -31,7 +31,7 @@ class ezteamroomInfo
                       'Version'           => "//autogentag//",
                       'Copyright'         => "Copyright (C) 2007-2010 eZ Systems",
                       'Info_url'          => "http://ez.no",
-                      'License'           => "//EZP_LICENSE//" );
+                      'License'           => "GNU General Public License v2.0" );
     }
 }
 ?>
