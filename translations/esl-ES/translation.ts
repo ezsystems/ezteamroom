@@ -1,4 +1,6 @@
-<!DOCTYPE TS><TS>
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.0">
 <context>
     <name>design/ezteamroom</name>
     <message>
@@ -1271,6 +1273,22 @@ Tu petición está a la espera de ser aprobada. Para ver el estado de tu petici�
         <source>Future events</source>
         <translation>Eventos futuros</translation>
     </message>
+    <message>
+        <source>Edit event</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Edit single date of recurring event</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Previous month</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Next Month</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>ezteamroom/files</name>
@@ -1851,6 +1869,366 @@ Tu petición está a la espera de ser aprobada. Para ver el estado de tu petici�
         <source>Subfolder</source>
         <translation>Sub-Carpeta</translation>
     </message>
+    <message>
+        <source>Image</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation type="unfinished">Nombre</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Tags</source>
+        <translation type="unfinished">Etiquetas</translation>
+    </message>
+    <message>
+        <source>Quicktime</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Description</source>
+        <translation type="unfinished">Descripción</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Real video</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Lock</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Windows media</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation type="unfinished">Usuario</translation>
+    </message>
+    <message>
+        <source>First name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Last name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>User account</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Signature</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Teamroom comment</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Subject</source>
+        <translation type="unfinished">Asunto</translation>
+    </message>
+    <message>
+        <source>Author</source>
+        <translation type="unfinished">Autor</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation type="unfinished">Mensaje</translation>
+    </message>
+    <message>
+        <source>Teamroom blog</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Teamroom Blog post</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Title</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Body</source>
+        <translation type="unfinished">Cuerpo</translation>
+    </message>
+    <message>
+        <source>Publication date</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Unpublish date</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Enable comments</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Teamroom frontpage</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Billboard</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Left column</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Center column</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Right column</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Bottom column</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Teamroom documentation page</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Display sub items</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Teamroom info box</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Header</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Box Icon</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Content</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>URL</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Module URL</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Check access</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Relates to</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Teamroom file</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Category</source>
+        <translation type="unfinished">Categoría</translation>
+    </message>
+    <message>
+        <source>Thumbnail</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Teamroom forum</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Teamroom forum topic</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Sticky</source>
+        <translation type="unfinished">Sticky</translation>
+    </message>
+    <message>
+        <source>Notify me about updates</source>
+        <translation type="unfinished">Notificame sobre las actualizaciones</translation>
+    </message>
+    <message>
+        <source>Teamroom forum reply</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Teamroom event</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Full title</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Short title</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Text</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation type="unfinished">Fecha</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation type="unfinished">Localización</translation>
+    </message>
+    <message>
+        <source>Teamroom event calendar</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Full Title</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Short Title</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>View</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Teamroom news folder</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Short name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Summary</source>
+        <translation type="unfinished">Resumen</translation>
+    </message>
+    <message>
+        <source>Publish date</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Teamroom personalized frontpage</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Number of columns</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Allow Minimization</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Default arrangement</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Teamroom room</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Access type</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Feature list</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Teamroom tasks</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Teamroom task</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation type="unfinished">Progreso</translation>
+    </message>
+    <message>
+        <source>Planned end date</source>
+        <translation type="unfinished">Día de finalización planeado</translation>
+    </message>
+    <message>
+        <source>End Date</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Estimated Effort (hours)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Estimated Effort (minutes)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Users</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Related documents</source>
+        <translation type="unfinished">Documentos relacionados</translation>
+    </message>
+    <message>
+        <source>Priority</source>
+        <translation type="unfinished">Prioridad</translation>
+    </message>
+    <message>
+        <source>Milestone</source>
+        <translation type="unfinished">Hito</translation>
+    </message>
+    <message>
+        <source>Teamroom file folder</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Teamroom file subfolder</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Teamroom infobox folder</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Teamroom milestone</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Closed</source>
+        <translation type="unfinished">Cerrado</translation>
+    </message>
+    <message>
+        <source>Teamroom milestone folder</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Teamroom lightbox</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Lightbox</source>
+        <translation type="unfinished">Lightbox</translation>
+    </message>
 </context>
 <context>
     <name>ezteamroom/install/roles</name>
@@ -2392,6 +2770,18 @@ Tu petición está a la espera de ser aprobada. Para ver el estado de tu petici�
         <source>Continue</source>
         <translation>Continuar</translation>
     </message>
+    <message>
+        <source>Are you sure you want to delete this lightbox?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Are you sure you want to remove this entry?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Are you sure you want to empty this lightbox?</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>ezteamroom/membership</name>
@@ -2909,11 +3299,23 @@ Tu petición está a la espera de ser aprobada. Para ver el estado de tu petici�
     </message>
     <message>
         <source>Clear list</source>
-        <translation>Limpiar la lista</translation>
+        <translation type="obsolete">Limpiar la lista</translation>
     </message>
     <message>
         <source>Remove all users selected for invitation from the list displayed above</source>
-        <translation>Eliminar todo los usuarios seleccionados para invitar de la lista mostrada a continuación</translation>
+        <translation type="obsolete">Eliminar todo los usuarios seleccionados para invitar de la lista mostrada a continuación</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation type="unfinished">Eliminar</translation>
+    </message>
+    <message>
+        <source>Remove the selected users from the invitation list displayed above</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>If you forgot your password, use the following link to get a new password</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -3806,7 +4208,11 @@ Tu petición está a la espera de ser aprobada. Para ver el estado de tu petici�
     </message>
     <message>
         <source>Move to group &quot;%1&quot;</source>
-        <translation>Mover al grupo &quot;%1&quot;</translation>
+        <translation type="obsolete">Mover al grupo &quot;%1&quot;</translation>
+    </message>
+    <message>
+        <source>Move to group &apos;%1&apos;</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

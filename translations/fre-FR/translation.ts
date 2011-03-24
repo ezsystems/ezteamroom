@@ -365,11 +365,11 @@
         <source>If you do not want to continue receiving these notifications,
 change your settings at:</source>
         <translation>Si vous ne souhaitez plus recevoir ces notifications,
-changez vos paramètres à l'adresse URL suivante :</translation>
+changez vos paramètres à l&apos;adresse URL suivante :</translation>
     </message>
     <message>
         <source>%sitename notification system</source>
-        <translation>Système de notification de "%sitename"</translation>
+        <translation>Système de notification de &quot;%sitename&quot;</translation>
     </message>
     <message>
         <source>[%siteurl] New user registered</source>
@@ -571,7 +571,7 @@ changez vos paramètres à l'adresse URL suivante :</translation>
     <message>
         <source>%authorname has requested to join the teamroom &quot;%groupname&quot; at %sitename.
 You need to approve or deny this request by using the URL below.</source>
-        <translation>%authorname a demandé l'adhésion à l&apos;espace projet &quot;%groupname&quot; sur %sitename.
+        <translation>%authorname a demandé l&apos;adhésion à l&apos;espace projet &quot;%groupname&quot; sur %sitename.
 Vous devez approuver ou refuser cette demande en vous rendant à l&apos;adresse URL ci-dessous.</translation>
     </message>
     <message>
@@ -581,7 +581,7 @@ Vous devez approuver ou refuser cette demande en vous rendant à l&apos;adresse 
     <message>
         <source>You have requested to join the teamroom &quot;%groupname&quot; at %sitename.
 Your request is waiting for approval. To view the status of your request or to add a comment, visit the URL below.</source>
-        <translation>Vous avez demandé l'adhésion à l&apos;espace projet &quot;%groupname&quot; sur %sitename.
+        <translation>Vous avez demandé l&apos;adhésion à l&apos;espace projet &quot;%groupname&quot; sur %sitename.
 Votre demande est en attente de validation. L&apos;adresse URL ci-dessous vous permet de visualiser l&apos;état d&apos;avancement de votre demande ou de laisser un commentaire.</translation>
     </message>
     <message>
@@ -594,7 +594,7 @@ Votre demande est en attente de validation. L&apos;adresse URL ci-dessous vous p
     </message>
     <message>
         <source>If you are thinking this was done by a mistake, please get in contact with the owner &apos;%1&apos; of the teamroom.</source>
-        <translation>Si vous pensez qu'il s'agit d'une erreur, n&apos;hésitez pas à entrer en contact avec le propriétaire &apos;%1&apos; de cet espace projet.</translation>
+        <translation>Si vous pensez qu&apos;il s&apos;agit d&apos;une erreur, n&apos;hésitez pas à entrer en contact avec le propriétaire &apos;%1&apos; de cet espace projet.</translation>
     </message>
     <message>
         <source>Use the following link to access the teamroom</source>
@@ -678,7 +678,7 @@ Votre demande est en attente de validation. L&apos;adresse URL ci-dessous vous p
     </message>
     <message>
         <source>Your memberregistration in the teamroom &apos;%1&apos; has been approved by a teamroom moderator.</source>
-        <translation>Votre demande d'adhésion à l&apos;espace projet &quot;%1&quot; a été approuvée par un des modérateurs du projet.</translation>
+        <translation>Votre demande d&apos;adhésion à l&apos;espace projet &quot;%1&quot; a été approuvée par un des modérateurs du projet.</translation>
     </message>
     <message>
         <source>If do not want to be a member of this teamroom anymore you can use the following link to resign from the teamroom.</source>
@@ -694,7 +694,7 @@ Votre demande est en attente de validation. L&apos;adresse URL ci-dessous vous p
     </message>
     <message>
         <source>[%sitename] Teamroom invitation reminder</source>
-        <translation>[%sitename] Rappel d'une invitation à un projet</translation>
+        <translation>[%sitename] Rappel d&apos;une invitation à un projet</translation>
     </message>
     <message>
         <source>If you do not have a user account yet, you received your account information in a separate email. You will find further information in this email about how to activate your user account to be able to use the teamroom.</source>
@@ -934,7 +934,7 @@ Votre demande est en attente de validation. L&apos;adresse URL ci-dessous vous p
     </message>
     <message>
         <source>There are no related objects.</source>
-        <translation>Il n&apos;y a pas d'objet en relation.</translation>
+        <translation>Il n&apos;y a pas d&apos;objet en relation.</translation>
     </message>
     <message>
         <source>Remove selected</source>
@@ -1275,11 +1275,11 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Edit event</source>
-        <translation>Modifer l'évènement</translation>
+        <translation>Modifer l&apos;évènement</translation>
     </message>
     <message>
         <source>Edit single date of recurring event</source>
-        <translation>Modifier la date d'un évènement récurrent</translation>
+        <translation>Modifier la date d&apos;un évènement récurrent</translation>
     </message>
     <message>
         <source>Previous month</source>
@@ -2003,7 +2003,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Check access</source>
-        <translation>Contrôle d'accès</translation>
+        <translation>Contrôle d&apos;accès</translation>
     </message>
     <message>
         <source>Relates to</source>
@@ -2540,7 +2540,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Content Object has been deleted.</source>
-        <translation>L'objet de contenu a été supprimé.</translation>
+        <translation>L&apos;objet de contenu a été supprimé.</translation>
     </message>
     <message>
         <source>Use this button to delete the asset from this lightbox</source>
@@ -2600,7 +2600,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>You do not have any lightbox yet.</source>
-        <translation>Vous n'avez pas pas encore de Lightbox.</translation>
+        <translation>Vous n&apos;avez pas pas encore de Lightbox.</translation>
     </message>
     <message>
         <source>Other lightboxes</source>
@@ -3207,7 +3207,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Invite again</source>
-        <translation>Relancer l'invitation</translation>
+        <translation>Relancer l&apos;invitation</translation>
     </message>
     <message>
         <source>There are no users.</source>
@@ -3219,7 +3219,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Enter a valid email address. It is also possible to enter a comma separated list of email addresses. If there does not exist a user with one of the given email addresses in the system yet, new user accounts will be generated for them automatically.</source>
-        <translation>Saisissez une addresse électronique valide. Il est aussi possible de saisir une liste d'adresses separées par des virgules. Si un courriel ne correspond pas à un utilisateur dans le système, des comptes utilisateurs seront créés automatiquement.</translation>
+        <translation>Saisissez une addresse électronique valide. Il est aussi possible de saisir une liste d&apos;adresses separées par des virgules. Si un courriel ne correspond pas à un utilisateur dans le système, des comptes utilisateurs seront créés automatiquement.</translation>
     </message>
     <message>
         <source>Search user</source>
@@ -3311,7 +3311,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Remove the selected users from the invitation list displayed above</source>
-        <translation>Supprimer les utilisateurs sélectionnés de l'invitation affichée ci-dessus ?</translation>
+        <translation>Supprimer les utilisateurs sélectionnés de l&apos;invitation affichée ci-dessus ?</translation>
     </message>
     <message>
         <source>If you forgot your password, use the following link to get a new password</source>
@@ -3817,7 +3817,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Keep in mind that it can take several minutes until the modifications to the teamroom take effect.</source>
-        <translation>Attention : les modifications de l&apos;espace projet peuvent nécessiter plusieurs minutes avant d'être visibles.</translation>
+        <translation>Attention : les modifications de l&apos;espace projet peuvent nécessiter plusieurs minutes avant d&apos;être visibles.</translation>
     </message>
     <message>
         <source>Keep in mind that the creation of your new teamroom can take several minutes.</source>
@@ -3928,7 +3928,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>The teamroom has not been setup yet.</source>
-        <translation>Vous n&apos;avez pas configuré d'espace projet.</translation>
+        <translation>Vous n&apos;avez pas configuré d&apos;espace projet.</translation>
     </message>
     <message>
         <source>Please be patient. The teamroom should be ready in a few minutes.</source>
@@ -4156,7 +4156,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Only those features that you selected will be visible in your teamroom. It is also possible to de-/activate features after the teamroom has been created.</source>
-        <translation>Seules les fonctionnalités que vous avez selectionnées seront visibles dans votre espace projet. Il sera aussi possible de réactiver d&apos;autres fonctionnalités ou d'en désactiver après la création de votre espace projet.</translation>
+        <translation>Seules les fonctionnalités que vous avez selectionnées seront visibles dans votre espace projet. Il sera aussi possible de réactiver d&apos;autres fonctionnalités ou d&apos;en désactiver après la création de votre espace projet.</translation>
     </message>
     <message>
         <source>A membership is required to access this teamroom. If you want to become a member of this teamroom you can request a membership for this teamroom. After a moderator has approved your membership you will get further access to this teamroom.</source>
@@ -4172,7 +4172,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Teamroom Logo</source>
-        <translation>Logo de l'espace projet</translation>
+        <translation>Logo de l&apos;espace projet</translation>
     </message>
     <message>
         <source>Remove this teamroom</source>

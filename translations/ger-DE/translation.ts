@@ -1272,6 +1272,22 @@ Sie sollten diese Person kontaktieren oder einen neuen eigenen Entwurf anlegen.<
         <source>Attendees</source>
         <translation>Keine</translation>
     </message>
+    <message>
+        <source>Edit event</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Edit single date of recurring event</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Previous month</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Next Month</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>ezteamroom/files</name>
@@ -2753,6 +2769,18 @@ Sie sollten diese Person kontaktieren oder einen neuen eigenen Entwurf anlegen.<
         <source>Create new lightbox.</source>
         <translation>Lightbox anlegen.</translation>
     </message>
+    <message>
+        <source>Are you sure you want to delete this lightbox?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Are you sure you want to remove this entry?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Are you sure you want to empty this lightbox?</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>ezteamroom/membership</name>
@@ -3187,7 +3215,7 @@ Sie sollten diese Person kontaktieren oder einen neuen eigenen Entwurf anlegen.<
     </message>
     <message>
         <source>Clear list</source>
-        <translation>Liste leeren</translation>
+        <translation type="obsolete">Liste leeren</translation>
     </message>
     <message>
         <source>You have successfully joined the teamroom &quot;%name&quot; and are now member of this teamroom.</source>
@@ -3275,7 +3303,19 @@ Sie sollten diese Person kontaktieren oder einen neuen eigenen Entwurf anlegen.<
     </message>
     <message>
         <source>Remove all users selected for invitation from the list displayed above</source>
-        <translation>Alle für eine Einladung ausgewählten Benutzer aus der oben dargestellten Liste entfernen</translation>
+        <translation type="obsolete">Alle für eine Einladung ausgewählten Benutzer aus der oben dargestellten Liste entfernen</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation type="unfinished">Entfernen</translation>
+    </message>
+    <message>
+        <source>Remove the selected users from the invitation list displayed above</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>If you forgot your password, use the following link to get a new password</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -4152,7 +4192,7 @@ Sie sollten diese Person kontaktieren oder einen neuen eigenen Entwurf anlegen.<
     </message>
     <message>
         <source>Move to group &quot;%1&quot;</source>
-        <translation>In die Gruppe &quot;%1&quot; veschieben</translation>
+        <translation type="obsolete">In die Gruppe &quot;%1&quot; veschieben</translation>
     </message>
     <message>
         <source>If you disable features in your teamroom this will have no effect on existing contents in that area. Thus, you can also enable a feature later on and you will get the same content.</source>
@@ -4169,6 +4209,10 @@ Sie sollten diese Person kontaktieren oder einen neuen eigenen Entwurf anlegen.<
     <message>
         <source>Only those features that you selected will be visible in your teamroom. It is also possible to de-/activate features after the teamroom has been created.</source>
         <translation>Nur die Funktionen die Sie auswählen werden in Ihrem Teamroom sichtbar sein. Es ist auch möglich Funktionen zu de-/aktivieren nachdem der Teamroom bereits angelegt wurde.</translation>
+    </message>
+    <message>
+        <source>Move to group &apos;%1&apos;</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
