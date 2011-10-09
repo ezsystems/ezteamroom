@@ -378,15 +378,15 @@ class eZTeamroom
     public static function addMember( $teamroomID, $userID )
     {
         // get the teamroomObject and main_node
-        $classIdentifierMap = eZTeamroom::getClassIdentifierList();
+        $roomIdentifierMap = eZTeamroom::getRoomIdentifierList();
         $teamroomObject     = eZContentObject::fetch( (int) $teamroomID);
-        if ( !is_object( $teamroomObject ) ||  $teamroomObject->attribute( 'class_identifier' ) != $classIdentifierMap['teamroom'] )
+        if ( !is_object( $teamroomObject ) || !in_array( $teamroomObject->attribute( 'class_identifier' ), $roomIdentifierMap ) )
         {
             eZDebug::writeError( 'Failed to fetch object for $teamroomID ' . $teamroomID, 'ezteamroom::addMember()' );
             return false;
         }
         $teamroomNode = $teamroomObject->attribute('main_node');
-        if ( !is_object( $teamroomNode ) || $teamroomNode->attribute( 'class_identifier' ) != $classIdentifierMap['teamroom'] )
+        if ( !is_object( $teamroomNode ) || !in_array( $teamroomObject->attribute( 'class_identifier' ), $roomIdentifierMap ) )
         {
             eZDebug::writeError( 'Failed to fetch object for $teamroomID ' . $teamroomID, 'ezteamroom::addMember()' );
             return false;
@@ -473,6 +473,25 @@ class eZTeamroom
         else
         {
             eZDebug::writeWarning( 'No setting ClassIdentifiersMap in block TeamroomSettings of teamroom.ini', __METHOD__ );
+        }
+        return array();
+    }
+
+    public static function getRoomIdentifierList()
+    {
+        $teamroomIni = eZINI::instance( 'teamroom.ini' );
+        if ( !is_object( $teamroomIni ) )
+        {
+            eZDebug::writeWarning( 'Failed to get instance for teamroom.ini', __METHOD__ );
+            return array();
+        }
+        if ( $teamroomIni->hasVariable( 'TeamroomSettings', 'RoomIdentifiersList' ) )
+        {
+            return $teamroomIni->variable( 'TeamroomSettings', 'RoomIdentifiersList' );
+        }
+        else
+        {
+            eZDebug::writeWarning( 'No setting RoomIdentifiersList in block TeamroomSettings of teamroom.ini', __METHOD__ );
         }
         return array();
     }
