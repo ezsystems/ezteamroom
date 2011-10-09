@@ -31,14 +31,14 @@ if ( !is_numeric( $teamroomID ) ){
     return $Module->handleError( eZError::KERNEL_NOT_AVAILABLE, 'kernel' );
 }
 
-$classIdentifierMap = eZTeamroom::getClassIdentifierList();
+$roomIdentifierMap = eZTeamroom::getRoomIdentifierList();
 $teamroomObject     = eZContentObject::fetch( (int)$teamroomID );
-if ( !is_object( $teamroomObject ) ||  $teamroomObject->attribute( 'class_identifier' ) != $classIdentifierMap['teamroom'] )
+if ( !is_object( $teamroomObject ) || !in_array( $teamroomObject->attribute( 'class_identifier' ), $roomIdentifierMap ) )
 {
     return $Module->handleError( eZError::KERNEL_NOT_AVAILABLE, 'kernel' );
 }
 $teamroomNode       = $teamroomObject->attribute( 'main_node' );
-if ( !is_object( $teamroomNode ) || $teamroomNode->attribute( 'class_identifier' ) != $classIdentifierMap['teamroom'] )
+if ( !is_object( $teamroomNode ) || !in_array( $teamroomNode->attribute( 'class_identifier' ), $roomIdentifierMap ) )
 {
     return $Module->handleError( eZError::KERNEL_NOT_AVAILABLE, 'kernel' );
 }
