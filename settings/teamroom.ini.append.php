@@ -46,6 +46,8 @@ ClassIdentifiersMap[teamroom]=teamroom_room
 ClassIdentifiersMap[quicktime]=quicktime
 ClassIdentifiersMap[real_video]=real_video
 ClassIdentifiersMap[windows_media]=windows_media
+RoomIdentifiersList[]
+RoomIdentifiersList[]=teamroom_room
 
 # Will be overwritten in settings/override
 VisibilityList[]
