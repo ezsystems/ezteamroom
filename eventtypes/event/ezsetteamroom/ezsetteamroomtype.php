@@ -92,12 +92,12 @@ class eZSetTeamroomType extends eZWorkflowEventType
                 return eZWorkflowType::STATUS_ACCEPTED;
             }
         }
-        $classIdentifierMap = eZTeamroom::getClassIdentifierList();
+        $roomIdentifierMap = eZTeamroom::getRoomIdentifierList();
         // We need to go recursivly through the tree and check if the
         // current node is a teamroom
         do
         {
-            if ( array_key_exists( 'class_identifier', $node ) && $node['class_identifier'] == $classIdentifierMap['teamroom'] )
+            if ( array_key_exists( 'class_identifier', $node ) && !in_array( $node->attribute( 'class_identifier' ), $roomIdentifierMap ) )
             {
                 $http->setSessionVariable( 'CurrentTeamroomPath', $node['path_string'] );
                 $http->setSessionVariable( 'CurrentTeamroom',     $node['node_id'] );
