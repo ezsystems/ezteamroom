@@ -88,8 +88,7 @@ elseif ( $currentAction == 'Resign' )
 //// Template
 
 
-include_once( 'kernel/common/template.php' );
-$tpl = templateInit();
+$tpl = eZTemplate::factory();
 $tpl->setVariable( 'teamroom', $teamroomNode );
 $tpl->setVariable( 'from_page', '/teamroom/resign/'.$teamroomNode->attribute( 'contentobject_id').'/'.$userNode->attribute( 'contentobject_id' ));
 
