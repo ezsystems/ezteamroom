@@ -161,7 +161,7 @@ $userRoleList    = $userInformation['userRoleIDList'];
 //// Template
 
 include_once( 'kernel/common/template.php' );
-$tpl = templateInit();
+$tpl = eZTemplate::factory();
 
 $tpl->setVariable( 'from_page', $manageUrl  );
 $tpl->setVariable( 'messages', $messages );
