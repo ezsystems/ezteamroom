@@ -86,8 +86,11 @@
 
     {** Icon **}
     <div class="file-list-icon">
-    {if $not_locked}
+    {if $node.data_map.thumbnail.has_content}
+        <a href={$download_link|ezurl}>{attribute_view_gui attribute=$node.data_map.thumbnail image_class="fileimageicon"}</a>
+    {elseif $not_locked}
         <a href={$download_link|ezurl}>{$attribute.content.mime_type|mimetype_icon( $icon_size )}</a>
+    
     {else}
         {$attribute.content.mime_type|mimetype_icon( $icon_size )}
     {/if}
@@ -97,8 +100,8 @@
 
     {** Description **}
     <div class="file-list-name"{if eq( $filelockfeature, 'enabled' )}style="width: 208px;"{/if}>
-        <h4 title="{$attribute.content.original_filename|wash()}">{if $not_locked}<a href={$download_link|ezurl}>{/if}{$attribute.content.original_filename|wash()|shorten(30)}{if $not_locked}</a>{/if}</h4>
-        <div class="info">{$node.data_map.text_description.content|shorten(70)}<div class="hiddendescription">{$node.data_map.text_description.content|wash()}</div></div>
+        <h4 title="{$attribute.content.original_filename|wash()}">{if $not_locked}<a href={$download_link|ezurl}>{/if}{$node.data_map.name.content|wash()|shorten(30)}{if $not_locked}</a>{/if}</h4>
+        <div class="info">{$node.data_map.description.content.xml_data|striptags()|shorten(70)}<div class="hiddendescription">{attribute_view_gui attribute=$node.data_map.description}</div></div>
         <span class="date">{$node.object.modified|l10n('shortdate')}</span>|
         <span class="owner"><strong>{'Owner'|i18n('ezteamroom/files')}</strong>&nbsp;{$node.object.owner.name|wash()}</span>
     </div>
