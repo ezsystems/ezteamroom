@@ -18,16 +18,16 @@
     <input class="defaultbutton" type="submit" name="PublishButton" value="{'Store'|i18n( 'ezteamroom/membership' )}" />
     <input class="button" type="submit" name="DiscardButton" value="{'Discard'|i18n( 'ezteamroom/membership' )}" />
     <input type="hidden" name="DiscardConfirm" value="0" />
-        {* if ezhttp_hasvariable( 'RedirectIfDiscarded', 'session' )}
-        <input type="hidden" name="RedirectIfDiscarded" value="{ezhttp( 'RedirectIfDiscarded', 'session' )}" />
+        {if ezhttp_hasvariable( 'RedirectIfDiscarded', 'session' )}
+            <input type="hidden" name="RedirectIfDiscarded" value="{ezhttp( 'RedirectIfDiscarded', 'session' )}" />
         {else}
-        <input type="hidden" name="RedirectIfDiscarded" value="/user/edit/{$object.id}" />
+            <input type="hidden" name="RedirectIfDiscarded" value="/user/edit/{$object.id}" />
         {/if}
         {if ezhttp_hasvariable( 'RedirectURIAfterPublish', 'session' )}
-        <input type="hidden" name="RedirectURIAfterPublish" value="{ezhttp( 'RedirectURIAfterPublish', 'session' )}" />
+            <input type="hidden" name="RedirectURIAfterPublish" value="{ezhttp( 'RedirectURIAfterPublish', 'session' )}" />
         {else}
-        <input type="hidden" name="RedirectURIAfterPublish" value="/user/edit/{$object.id}" />
-        {/if *}
+            <input type="hidden" name="RedirectURIAfterPublish" value="/user/edit/{$object.id}" />
+        {/if}
     </div>
 </div>
 
