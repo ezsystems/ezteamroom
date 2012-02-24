@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0">
+<TS version="2.0" language="de_DE" sourcelanguage="en_GB">
 <context>
     <name>design/ezteamroom</name>
     <message>
@@ -791,7 +791,7 @@ change your settings at:</source>
     </message>
     <message>
         <source>Latest Files</source>
-        <translation>Neuste Dateien</translation>
+        <translation>Neueste Dateien</translation>
     </message>
     <message>
         <source>Current Lightbox</source>
@@ -799,7 +799,7 @@ change your settings at:</source>
     </message>
     <message>
         <source>Latest Member</source>
-        <translation>Neuste Mitglieder</translation>
+        <translation>Neueste Mitglieder</translation>
     </message>
     <message>
         <source>Last Blog Entry</source>
@@ -1274,19 +1274,19 @@ Sie sollten diese Person kontaktieren oder einen neuen eigenen Entwurf anlegen.<
     </message>
     <message>
         <source>Edit event</source>
-        <translation type="unfinished"></translation>
+        <translation>Termin bearbeiten</translation>
     </message>
     <message>
         <source>Edit single date of recurring event</source>
-        <translation type="unfinished"></translation>
+        <translation>Bearbeiten eines Termins des wiederkehrenden Ereignisses</translation>
     </message>
     <message>
         <source>Previous month</source>
-        <translation type="unfinished"></translation>
+        <translation>Vorheriger Monat</translation>
     </message>
     <message>
         <source>Next Month</source>
-        <translation type="unfinished"></translation>
+        <translation>Nächster Monat</translation>
     </message>
 </context>
 <context>
@@ -2226,7 +2226,7 @@ Sie sollten diese Person kontaktieren oder einen neuen eigenen Entwurf anlegen.<
     </message>
     <message>
         <source>Lock</source>
-        <translation type="unfinished"></translation>
+        <translation>Sperren</translation>
     </message>
 </context>
 <context>
@@ -2771,15 +2771,15 @@ Sie sollten diese Person kontaktieren oder einen neuen eigenen Entwurf anlegen.<
     </message>
     <message>
         <source>Are you sure you want to delete this lightbox?</source>
-        <translation type="unfinished"></translation>
+        <translation>Sind Sie sicher, dass Sie diese Lightbox löschen möchten?</translation>
     </message>
     <message>
         <source>Are you sure you want to remove this entry?</source>
-        <translation type="unfinished"></translation>
+        <translation>Sind Sie sicher, dass Sie diesen Eintrag entfernen möchten?</translation>
     </message>
     <message>
         <source>Are you sure you want to empty this lightbox?</source>
-        <translation type="unfinished"></translation>
+        <translation>Sind Sie sicher, dass Sie diese Lightbox leeren möchten?</translation>
     </message>
 </context>
 <context>
@@ -3307,70 +3307,70 @@ Sie sollten diese Person kontaktieren oder einen neuen eigenen Entwurf anlegen.<
     </message>
     <message>
         <source>Remove</source>
-        <translation type="unfinished">Entfernen</translation>
+        <translation>Entfernen</translation>
     </message>
     <message>
         <source>Remove the selected users from the invitation list displayed above</source>
-        <translation type="unfinished"></translation>
+        <translation>Entfernen der ausgwählten Benutzer von der obrigen Einladungsliste</translation>
     </message>
     <message>
         <source>If you forgot your password, use the following link to get a new password</source>
-        <translation type="unfinished"></translation>
+        <translation>Wenn Sie ihr Passwort vergessen haben, benutzen Sie den folgenden Link um ein neues Passwort zu erhalten</translation>
     </message>
 </context>
 <context>
     <name>ezteamroom/messagecenter</name>
     <message>
         <source>Send message</source>
-        <translation type="unfinished"></translation>
+        <translation>Nachricht senden</translation>
     </message>
     <message>
         <source>An email has been send using the teamroom &quot;%1&quot;. The message is included below.</source>
-        <translation type="unfinished"></translation>
+        <translation>Eine E-Mail wurde über den Teamroom &quot;%1&quot; versendet. Die Nachricht wird nachstehend angezeigt.</translation>
     </message>
     <message>
         <source>Use the following link to access the teamroom</source>
-        <translation type="unfinished">Folgen Sie dem Link um direkt zum Teamroom zu gelangen</translation>
+        <translation>Folgen Sie dem Link um direkt zum Teamroom zu gelangen</translation>
     </message>
     <message>
         <source>Show</source>
-        <translation type="unfinished">Anzeigen</translation>
+        <translation>Anzeigen</translation>
     </message>
     <message>
         <source>Hide</source>
-        <translation type="unfinished"></translation>
+        <translation>Verstecken</translation>
     </message>
     <message>
         <source>Member list</source>
-        <translation type="unfinished"></translation>
+        <translation>Mitgliederliste</translation>
     </message>
     <message>
         <source>Invert selection</source>
-        <translation type="unfinished">Auswahl umkehren</translation>
+        <translation>Auswahl umkehren</translation>
     </message>
     <message>
         <source>Message form</source>
-        <translation type="unfinished"></translation>
+        <translation>Nachrichtenformular</translation>
     </message>
     <message>
         <source>Receiver</source>
-        <translation type="unfinished">Empfänger</translation>
+        <translation>Empfänger</translation>
     </message>
     <message>
         <source>Subject</source>
-        <translation type="unfinished">Betreff</translation>
+        <translation>Betreff</translation>
     </message>
     <message>
         <source>Body</source>
-        <translation type="unfinished">Nachricht</translation>
+        <translation>Nachricht</translation>
     </message>
     <message>
         <source>Back</source>
-        <translation type="unfinished">Zurück</translation>
+        <translation>Zurück</translation>
     </message>
     <message>
         <source>Message Center</source>
-        <translation type="unfinished"></translation>
+        <translation>Nachrichtenzentrale</translation>
     </message>
 </context>
 <context>
@@ -4212,7 +4212,7 @@ Sie sollten diese Person kontaktieren oder einen neuen eigenen Entwurf anlegen.<
     </message>
     <message>
         <source>Move to group &apos;%1&apos;</source>
-        <translation type="unfinished"></translation>
+        <translation>In Gruppe &apos;%1&apos; verschieben</translation>
     </message>
 </context>
 <context>
@@ -4254,11 +4254,11 @@ Sie sollten diese Person kontaktieren oder einen neuen eigenen Entwurf anlegen.<
     <name>lightbox/view</name>
     <message>
         <source>Go back</source>
-        <translation type="unfinished">Zurück</translation>
+        <translation>Zurück</translation>
     </message>
     <message>
         <source>Use this button to go back to the last page.</source>
-        <translation type="unfinished"></translation>
+        <translation>Benutzen Sie diesen Button um zur vorherigen Seite zu gelangen.</translation>
     </message>
 </context>
 </TS>
