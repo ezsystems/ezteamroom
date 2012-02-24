@@ -28,7 +28,11 @@
 
                                 <div class="profile-image">
                                     <div>
-                                        {attribute_view_gui attribute=$userAccount.contentobject.data_map.image image_class='profile'}
+                                        {if and( is_set( $userAccount.contentobject.data_map.image ), $userAccount.contentobject.data_map.image.has_content )}
+                                            {attribute_view_gui attribute=$userAccount.contentobject.data_map.image image_class='profile'}
+                                        {else}
+                                            <img src={'user/default_user_image.png'|ezimage()} alt="defaut_user_image"/>
+                                        {/if}
                                     </div>
                                 </div>
 
