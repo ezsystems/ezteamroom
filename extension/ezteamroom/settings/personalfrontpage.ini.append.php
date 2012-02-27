@@ -69,6 +69,7 @@ UseUserTemplate[]=news_folder
 UseUserTemplate[]=event_calendar;calendar
 UseUserTemplate[]=teamroom_event_calendar;calendar
 UseUserTemplate[]=multicalendar;show_attributes
+UseUserTemplate[]=teamroom_task;task
 
 # It is possible to show only one attribute from a content class.
 # The content class and the attribute to show are separated by

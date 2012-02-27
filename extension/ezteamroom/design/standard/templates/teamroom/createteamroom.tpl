@@ -184,6 +184,19 @@
                     <SetReference attribute="object_id" value="LAST_BLOG_BOX_OBJECT_ID" />
                     <SetReference attribute="node_id" value="LAST_BLOG_BOX_NODE_ID" />
                 </ContentObject>
+                <ContentObject owner="{$owner_object_id}" creator="{$owner_object_id}" contentClass="{$class_identifier_map['infobox']}" section="{$publicSectionID}" remoteID="{$main_node_id}_box_folder_mytasks">
+                    <Attributes>
+                        <header>{'My Tasks'|i18n('ezteamroom/creation')}</header>
+                        <box_icon>{ezini( "TeamroomIconSettings", "Icon900", "teamroom.ini" )}</box_icon>
+                        <content></content>
+                        <url></url>
+                        <module_url parseReferences="true">ezjscore/run/content/view/module_widget/[internal:TASK_LIST_NODE_ID]</module_url>
+                        <check_access></check_access>
+                        <relates_to>internal:TASK_LIST_OBJECT_ID</relates_to>
+                    </Attributes>
+                    <SetReference attribute="object_id" value="MY_TASKS_OBJECT_ID" />
+                    <SetReference attribute="node_id" value="MY_TASKS_BOX_NODE_ID" />
+                </ContentObject>
 {*
                 <ContentObject owner="{$owner_object_id}" creator="{$owner_object_id}" contentClass="{$class_identifier_map['infobox']}" section="{$publicSectionID}" remoteID="{$main_node_id}_box_folder_help">
                     <Attributes>

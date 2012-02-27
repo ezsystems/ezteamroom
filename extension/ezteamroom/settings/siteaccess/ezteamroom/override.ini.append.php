@@ -328,6 +328,12 @@ MatchFile=listitem/file.tpl
 Subdir=templates
 Match[class_identifier]=teamroom_file
 
+[listitem_mytask]
+Source=node/view/listitem.tpl
+MatchFile=listitem/mytasks.tpl
+Subdir=templates
+Match[class_identifier]=teamroom_task
+
 [edit_task]
 Source=content/edit.tpl
 MatchFile=edit/task.tpl
@@ -434,6 +440,11 @@ MatchFile=module_widget/user_group.tpl
 Subdir=templates
 Match[class_identifier]=user_group
 
+[module_widget_my_tasks]
+Source=node/view/module_widget.tpl
+MatchFile=module_widget/mytasks.tpl
+Subdir=templates
+Match[class_identifier]=teamroom_task_list
 
 [module_widget_file_folder]
 Source=node/view/module_widget.tpl

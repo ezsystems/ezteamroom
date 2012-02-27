@@ -861,6 +861,10 @@ change your settings at:</source>
         <source>The following users are currently moderators of this teamroom.</source>
         <translation>Die folgenden Benutzer sind momentan Moderatoren dieses Teamrooms.</translation>
     </message>
+    <message>
+        <source>My Tasks</source>
+        <translation>Meine Aufgaben</translation>
+    </message>
 </context>
 <context>
     <name>ezteamroom/design</name>
@@ -2367,6 +2371,10 @@ Sie sollten diese Person kontaktieren oder einen neuen eigenen Entwurf anlegen.<
     <message>
         <source>Latest Messages</source>
         <translation>Letzte Nachrichten</translation>
+    </message>
+    <message>
+        <source>My Tasks</source>
+        <translation>Meine Aufgaben</translation>
     </message>
 </context>
 <context>
@@ -4213,6 +4221,14 @@ Sie sollten diese Person kontaktieren oder einen neuen eigenen Entwurf anlegen.<
     <message>
         <source>Move to group &apos;%1&apos;</source>
         <translation>In Gruppe &apos;%1&apos; verschieben</translation>
+    </message>
+    <message>
+        <source>Currently there are no new tasks.</source>
+        <translation>Momentan sind keine neuen Aufgaben vorhanden.</translation>
+    </message>
+    <message>
+        <source>Planned end:</source>
+        <translation>Geplantes Ende:</translation>
     </message>
 </context>
 <context>

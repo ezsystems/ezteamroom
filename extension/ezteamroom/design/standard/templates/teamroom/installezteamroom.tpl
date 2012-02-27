@@ -1312,6 +1312,13 @@
                     </Attributes>
                     <SetReference attribute="object_id" value="ICON_679" />
                 </ContentObject>
+                <ContentObject contentClass="image" section="3" remoteID="TEAMROOM_ICON_900">
+                    <Attributes>
+                        <name>Icon 17</name>
+                        <image src="icon900.gif" title="Icon" />
+                    </Attributes>
+                    <SetReference attribute="object_id" value="ICON_900" />
+                </ContentObject>
             </Childs>
         </ContentObject>
   </CreateContent>
@@ -1882,13 +1889,24 @@
                             </Attributes>
                             <SetReference attribute="object_id" value="LATESTMESSAGES_BOX_OBJECT" />
                         </ContentObject>
+                        <ContentObject contentClass="teamroom_infobox" section="{$public_section_id}" remoteID="{$teamroom_parent_node}_teamrooms_box_mytasks">
+                            <Attributes>
+                                <header>{'My Tasks'|i18n( 'ezteamroom/install/teamroomcontent' )}</header>
+                                <box_icon>internal:ICON_900</box_icon>
+                                <content></content>
+                                <url></url>
+                                <module_url parseReferences="true">ezjscore/run/content/view/mytasks/[internal:TEAMROOM_ROOT_NODE]</module_url>
+                                <check_access></check_access>
+                            </Attributes>
+                            <SetReference attribute="object_id" value="MYTASKS_BOX_OBJECT" />
+                        </ContentObject>
                     </Childs>
                 </ContentObject>
             </Childs>
         </ContentObject>
         <ContentObject contentClass="teamroom_personal_frontpage" section="{$public_section_id}" remoteID="{$teamroom_parent_node}_teamrooms">
             <Attributes>
-                <default_arrangement parseReferences="true">[[[internal:CREATETEAMROOM_BOX_OBJECT],[internal:LIGHTBOXSELECTION_BOX_OBJECT]],[[internal:ALLTEAMROOMS_BOX_OBJECT]],[[internal:MYTEAMROOMS_BOX_OBJECT]],[[internal:LATESTMESSAGES_BOX_OBJECT]]]</default_arrangement>
+                <default_arrangement parseReferences="true">[[[internal:CREATETEAMROOM_BOX_OBJECT],[internal:LIGHTBOXSELECTION_BOX_OBJECT]],[[internal:ALLTEAMROOMS_BOX_OBJECT]],[[internal:MYTEAMROOMS_BOX_OBJECT]],[[internal:LATESTMESSAGES_BOX_OBJECT]],[[internal:MYTASKS_BOX_OBJECT]]]</default_arrangement>
             </Attributes>
         </ContentObject>
     </CreateContent>
@@ -2058,6 +2076,7 @@
           <Icon677>[internal:ICON_677]</Icon677>
           <Icon678>[internal:ICON_678]</Icon678>
           <Icon679>[internal:ICON_679]</Icon679>
+          <Icon900>[internal:ICON_900]</Icon900>
         </SettingsBlock>
       </SettingsFile>
     </SetSettings>
