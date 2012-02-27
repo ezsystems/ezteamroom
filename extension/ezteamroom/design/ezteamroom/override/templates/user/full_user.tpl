@@ -28,7 +28,11 @@
 
                                 <div style="position:absolute;height:263px;width:186px;background: url({'user/profile_photo_background.jpg'|ezimage(single)});">
                                     <div style="padding:24px;">
-                                        {attribute_view_gui attribute=$node.data_map.image image_class='profile'}
+                                    {if and( is_set( $node.contentobject.data_map.image ), $node.contentobject.data_map.image.has_content )}
+                                        {attribute_view_gui attribute=$node.contentobject.data_map.image image_class='profile'}
+                                    {else}
+                                        <img src={'user/default_user_image.png'|ezimage()} alt="defaut_user_image"/>
+                                    {/if}
                                     </div>
                                 </div>
 
