@@ -122,7 +122,8 @@
 
      <input id="searchtext" name="SearchText" type="text" value="" size="12" />
      <input id="searchbutton" type="submit" value="{'Go'|i18n('ezteamroom/search')}" alt="Submit" />
-     <input type="hidden" name="SubTreeArray" value="{ezini( 'TeamroomSettings', 'TeamroomPoolNodeID', 'teamroom.ini' )}" />
+     {*<input type="hidden" name="SubTreeArray" value="{ezini( 'TeamroomSettings', 'TeamroomPoolNodeID', 'teamroom.ini' )}" />*}
+     <input type="hidden" name="SubTreeArray" value="{$current_node_id}" />
 
         {if eq( $ui_context, 'browse' )}
 
