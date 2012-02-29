@@ -25,6 +25,13 @@ MatchFile=cal_line/milestone.tpl
 Subdir=templates/
 Match[class_identifier]=teamroom_milestone
 
+[edit_milestone_datatype_datetime]
+Source=content/datatype/edit/ezdatetime.tpl
+MatchFile=attributes/edit/ezdatetime.tpl
+Subdir=templates
+Match[attribute_identifier]=date
+Match[class_identifier]=teamroom_milestone
+
 [edit_lightbox]
 Source=content/edit.tpl
 MatchFile=lightbox/edit_lightbox.tpl
