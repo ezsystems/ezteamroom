@@ -45,17 +45,17 @@
         </div>
 
         <h2><a href={$object.main_node.url_alias|ezurl} title="{$object.name|wash()}">{$object.name|wash()}</a></h2>
-        
+
         {def $content=$object.data_map.event_date.content}
         <h4>
         {switch match=$content.event_type}
         {case match=11} {* Normal *}
-            {if $content.start.is_valid}{$content.start.timestamp|l10n(shortdatetime)}{/if}
-            {if $content.end.is_valid} - {$content.end.timestamp|l10n(shortdatetime)}{/if}
+            {if $content.start.is_valid}{$content.start.timestamp|l10n(datetime)}{/if}
+            {if $content.end.is_valid} - {$content.end.timestamp|l10n(datetime)}{/if}
         {/case}
         {case match=12} {* Full day *}
-            {if $content.start.is_valid}{$content.start.timestamp|l10n(shortdate)}{/if}
-            {if $content.end.is_valid} - {$content.end.timestamp|l10n(shortdate)}{/if}
+            {if $content.start.is_valid}{$content.start.timestamp|l10n(date)}{/if}
+            {if $content.end.is_valid} - {$content.end.timestamp|l10n(date)}{/if}
         {/case}
         {case match=15} {* Weekly *}
             {if $content.start.is_valid}Every {$content.start.timestamp|datetime('custom', '%l')} ({$content.start.timestamp|l10n(shortdate)}-{$content.end.timestamp|l10n(shortdate)}){/if}
