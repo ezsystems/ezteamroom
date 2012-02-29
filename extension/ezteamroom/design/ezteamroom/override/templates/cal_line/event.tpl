@@ -45,74 +45,29 @@
         </div>
 
         <h2><a href={$object.main_node.url_alias|ezurl} title="{$object.name|wash()}">{$object.name|wash()}</a></h2>
-
+        
+        {def $content=$object.data_map.event_date.content}
         <h4>
-        {switch match = $eventDateContent.event_type}
+        {switch match=$content.event_type}
         {case match=11} {* Normal *}
-            {if and( $eventDateContent.start.is_valid, $eventDateContent.end.is_valid )}
-
-                {'From %1 to %2'|i18n( 'ezteamroom/events', , array( $eventDateContent.start.timestamp|l10n( 'shortdatetime' ), $eventDateContent.end.timestamp|l10n( 'shortdatetime' ) ) )|wash()}
-
-            {else}
-
-                {'Invalid date'|i18n( 'ezteamroom/events' )|wash()}
-
-            {/if}
+            {if $content.start.is_valid}{$content.start.timestamp|l10n(shortdatetime)}{/if}
+            {if $content.end.is_valid} - {$content.end.timestamp|l10n(shortdatetime)}{/if}
         {/case}
         {case match=12} {* Full day *}
-            {if and( $eventDateContent.start.is_valid, $eventDateContent.end.is_valid )}
-
-                {'From %1 to %2'|i18n( 'ezteamroom/events', , array( $eventDateContent.start.timestamp|l10n( 'shortdate' ), $eventDateContent.end.timestamp|l10n( 'shortdate' ) ) )|wash()}
-
-            {else}
-
-                {'Invalid date'|i18n( 'ezteamroom/events' )|wash()}
-
-            {/if}
+            {if $content.start.is_valid}{$content.start.timestamp|l10n(shortdate)}{/if}
+            {if $content.end.is_valid} - {$content.end.timestamp|l10n(shortdate)}{/if}
         {/case}
         {case match=15} {* Weekly *}
-
-            {if $eventDateContent.start.is_valid}
-
-
-                {'Weekly on %1 from %2 to %3'|i18n( 'ezteamroom/events', , array( $eventDateContent.start.timestamp|datetime( 'custom', '%l' ), $eventDateContent.start.timestamp|l10n( 'shortdate' ), $eventDateContent.end.timestamp|l10n( 'shortdate' ) ) )|wash()}
-
-            {else}
-
-                {'Invalid date'|i18n( 'ezteamroom/events' )|wash()}
-
-            {/if}
-
+            {if $content.start.is_valid}Every {$content.start.timestamp|datetime('custom', '%l')} ({$content.start.timestamp|l10n(shortdate)}-{$content.end.timestamp|l10n(shortdate)}){/if}
         {/case}
         {case match=16} {* Monthly *}
-
-            {if $eventDateContent.start.is_valid}
-
-                {'Monthly each %1.'|i18n( 'ezteamroom/events', , array( $eventDateContent.start.timestamp|datetime( 'custom', '%d' ) ) )|wash()}
-
-            {else}
-
-                {'Invalid date'|i18n( 'ezteamroom/events' )|wash()}
-
-            {/if}
-
+            {if $content.start.is_valid}Every {$content.start.timestamp|datetime('custom', '%d')}. a month.{/if}
         {/case}
         {case match=17} {* Yearly *}
-
-            {if $eventDateContent.start.is_valid}
-
-                {'Yearly the %1/%2'|i18n( 'ezteamroom/events', , array( $eventDateContent.start.day, $eventDateContent.start.month ) )|wash()}
-
-            {else}
-
-                {'Invalid date'|i18n( 'ezteamroom/events' )|wash()}
-
-            {/if}
-
+            {if $content.start.is_valid}{$content.start.day}.{$content.start.month}.{/if}
         {/case}
         {/switch}
         </h4>
-
 
         {if $object.data_map.category.has_content}
            <div class="attribute-short"><h5>{"Category"|i18n('ezteamroom/events')}:{attribute_view_gui attribute=$object.data_map.category}</h5></div>
