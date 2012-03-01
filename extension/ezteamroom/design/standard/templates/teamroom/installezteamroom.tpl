@@ -1173,6 +1173,216 @@
       </Attributes>
     </ContentClass>
   </CreateClass>
+    <ProccessInformation comment="Creating siteaccess" />
+    <SetSettings>
+      <SettingsFile name="site.ini" location="{$site_access_dir}">
+        <SettingsBlock name="ContentSettings">
+            <CachedViewModes>full;sitemap;pdf;module_widget;module_widget_latest;manage;teamrooms</CachedViewModes>
+            <CachedViewPreferences>
+              <value key="full">teamroom_files_list_limit=10;teamroom_folder_list_limit=10;teamroom_milestone_list_limit=10;teamroom_list_limit=10;teamroom_forum_list_limit=10;personalfrontpage_widgetlist_[internal:TEAMROOM_ROOT_NODE]=0;personalfrontpage_displaydescription=2;teamroom_blog_list_limit=10;teamroom_calendar_limit=10;teamroom_documents_list_limit=10;teamroom_tasklist_list_limit=10;teamroom_list_limit;teamroom_member_list_limit=10</value>
+            </CachedViewPreferences>
+        </SettingsBlock>
+        <SettingsBlock name="Session">
+            <RememberMeTimeout>259200</RememberMeTimeout>
+        </SettingsBlock>
+        <SettingsBlock name="SiteSettings">
+            <IndexPage>/content/view/full/[internal:TEAMROOM_ROOT_NODE]</IndexPage>
+            <DefaultPage>/content/view/full/[internal:TEAMROOM_ROOT_NODE]</DefaultPage>
+            <SiteName>{'eZ Teamroom'|i18n( 'ezteamroom/install/sitename' )}</SiteName>
+            <SiteURL>{$host_url}</SiteURL>
+            <LoginPage>embedded</LoginPage>
+        </SettingsBlock>
+        <SettingsBlock name="RegionalSettings">
+            <Locale>{$language}</Locale>
+            <ContentObjectLocale>{$language}</ContentObjectLocale>
+            <ShowUntranslatedObjects>disabled</ShowUntranslatedObjects>
+            <SiteLanguageList>
+              <value></value>
+              <value>{$language}</value>
+            </SiteLanguageList>
+            <TextTranslation>{if $language|eq( 'eng-GB' )}disabled{else}enabled{/if}</TextTranslation>
+        </SettingsBlock>
+        <SettingsBlock name="SiteAccessSettings">
+            <RequireUserLogin>true</RequireUserLogin>
+            <ShowHiddenNodes>false</ShowHiddenNodes>
+            <PathPrefix>Teamrooms</PathPrefix>
+        </SettingsBlock>
+        <SettingsBlock name="UserSettings">
+            <DefaultUserPlacement>{$guest_group_node_id}</DefaultUserPlacement>
+        </SettingsBlock>
+      </SettingsFile>
+      <SettingsFile name="event.ini" location="{$site_access_dir}">
+        <SettingsBlock name="AttendeeSettings">
+          <SearchRootNode>[internal:TEAMROOM_ROOT_NODE]</SearchRootNode>
+          <ClassIdentifierFilter>teamroom_room</ClassIdentifierFilter>
+        </SettingsBlock>
+      </SettingsFile>
+      <SettingsFile name="teamroom.ini" location="{$site_access_dir}">
+        <SettingsBlock name="TeamroomSettings">
+          <TeamroomPoolNodeID>[internal:TEAMROOM_ROOT_NODE]</TeamroomPoolNodeID>
+        </SettingsBlock>
+      </SettingsFile>
+      <SettingsFile name="upload.ini" location="{$site_access_dir}">
+        <SettingsBlock name="CreateSettings">
+            <MimeClassMap>
+              <value></value>
+              <value key="image">image</value>
+              <value key="video/quicktime">quicktime</value>
+              <value key="video/x-msvideo">windows_media</value>
+              <value key="video/vnd.rn-realvideo">real_video</value>
+              <value key="application/vnd.rn-realmedia">real_video</value>
+              <value key="application/x-shockwave-flash">flash</value>
+            </MimeClassMap>
+            <DefaultClass>teamroom_file</DefaultClass>
+        </SettingsBlock>
+        <SettingsBlock name="teamroom_file_ClassSettings">
+            <FileAttribute>file</FileAttribute>
+            <NameAttribute>name</NameAttribute>
+            <NamePattern>&lt;original_filename_base&gt;</NamePattern>
+        </SettingsBlock>
+      </SettingsFile>
+      <SettingsFile name="browse.ini" location="{$site_access_dir}">
+        <SettingsBlock name="SelectLinkNodeID">
+          <StartNode>[internal:TEAMROOM_ROOT_NODE]</StartNode>
+        </SettingsBlock>
+        <SettingsBlock name="SelectLinkObjectID">
+          <StartNode>[internal:TEAMROOM_ROOT_NODE]</StartNode>
+        </SettingsBlock>
+        <SettingsBlock name="AddRelatedObjectToOE">
+          <StartNode>[internal:TEAMROOM_ROOT_NODE]</StartNode>
+        </SettingsBlock>
+      </SettingsFile>
+      <SettingsFile name="teamroom.ini" location="settings/override">
+        <SettingsBlock name="TeamroomSettings">
+          <TeamroomClassID>[internal:CLASS_TEAMROOM]</TeamroomClassID>
+          <PrivateSectionID>[internal:SECTION_TEAMROOM]</PrivateSectionID>
+          <PublicSectionID>[{$public_section_id}]</PublicSectionID>
+          <VisibilityList>
+           <value></value>
+           <value>private</value>
+
+    {if $use_internal|eq( 'yes' )}
+
+           <value>internal</value>
+
+    {/if}
+
+           <value>protected</value>
+           <value>public</value>
+          </VisibilityList>
+        </SettingsBlock>
+        <SettingsBlock name="VisibilitySettings_private">
+          <TeamroomSection>[internal:SECTION_TEAMROOM]</TeamroomSection>
+          <SubTreeSection>[internal:SECTION_TEAMROOM]</SubTreeSection>
+        </SettingsBlock>
+        <SettingsBlock name="VisibilitySettings_public">
+          <TeamroomSection>[{$public_section_id}]</TeamroomSection>
+          <SubTreeSection>[{$public_section_id}]</SubTreeSection>
+        </SettingsBlock>
+
+    {if $use_internal|eq( 'yes' )}
+
+        <SettingsBlock name="VisibilitySettings_internal">
+          <TeamroomSection>[{$public_section_id}]</TeamroomSection>
+          <SubTreeSection>[internal:SECTION_TEAMROOM]</SubTreeSection>
+        </SettingsBlock>
+
+    {/if}
+
+        <SettingsBlock name="VisibilitySettings_protected">
+          <TeamroomSection>[{$public_section_id}]</TeamroomSection>
+          <SubTreeSection>[internal:SECTION_TEAMROOM]</SubTreeSection>
+        </SettingsBlock>
+        <SettingsBlock name="PermissionSettings">
+          <TeamroomRoleList>
+            <value>[internal:ROLE_3]</value>
+            <value>[internal:ROLE_4]</value>
+            <value>[internal:ROLE_5]</value>
+            <value>[internal:ROLE_6]</value>
+            <value>[internal:ROLE_7]</value>
+            <value>[internal:ROLE_8]</value>
+            <value>[internal:ROLE_9]</value>
+            <value>[internal:ROLE_10]</value>
+            <value>[internal:ROLE_11]</value>
+            <value>[internal:ROLE_12]</value>
+            <value>[internal:ROLE_13]</value>
+            <value>[internal:ROLE_14]</value>
+            <value>[internal:ROLE_15]</value>
+            <value>[internal:ROLE_16]</value>
+          </TeamroomRoleList>
+          <TeamroomDefaultRoleList>
+            <value>[internal:ROLE_3]</value>
+            <value>[internal:ROLE_5]</value>
+            <value>[internal:ROLE_7]</value>
+            <value>[internal:ROLE_9]</value>
+            <value>[internal:ROLE_11]</value>
+            <value>[internal:ROLE_13]</value>
+            <value>[internal:ROLE_15]</value>
+          </TeamroomDefaultRoleList>
+          <TeamroomMemberGroupRole>[internal:ROLE_1]</TeamroomMemberGroupRole>
+          <TeamroomLeaderGroupRole>[internal:ROLE_2]</TeamroomLeaderGroupRole>
+        </SettingsBlock>
+        <SettingsBlock name="TeamroomIconSettings">
+          <Icon003>[internal:ICON_003]</Icon003>
+          <Icon168>[internal:ICON_168]</Icon168>
+          <Icon170>[internal:ICON_170]</Icon170>
+          <Icon224>[internal:ICON_224]</Icon224>
+          <Icon226>[internal:ICON_226]</Icon226>
+          <Icon613>[internal:ICON_613]</Icon613>
+          <Icon618>[internal:ICON_618]</Icon618>
+          <Icon619>[internal:ICON_619]</Icon619>
+          <Icon620>[internal:ICON_620]</Icon620>
+          <Icon673>[internal:ICON_673]</Icon673>
+          <Icon674>[internal:ICON_674]</Icon674>
+          <Icon675>[internal:ICON_675]</Icon675>
+          <Icon676>[internal:ICON_676]</Icon676>
+          <Icon677>[internal:ICON_677]</Icon677>
+          <Icon678>[internal:ICON_678]</Icon678>
+          <Icon679>[internal:ICON_679]</Icon679>
+          <Icon900>[internal:ICON_900]</Icon900>
+        </SettingsBlock>
+      </SettingsFile>
+    </SetSettings>
+    <ProccessInformation comment="Activating siteaccess" />
+    <SetSettings>
+      <SettingsFile name="site.ini" location="settings/override">
+        <SettingsBlock name="SiteAccessSettings">
+            <AvailableSiteAccessList>
+              <value>{$site_access_name}</value>
+            </AvailableSiteAccessList>
+            <URIMatchMapItems>
+              <value>{$sa_abbr};{$site_access_name}</value>
+            </URIMatchMapItems>
+        </SettingsBlock>
+        <SettingsBlock name="Session">
+            <SessionNamePerSiteAccess value="enabled" />
+        </SettingsBlock>
+        <SettingsBlock name="SiteSettings">
+            <SiteList>
+              <value>{$site_access_name}</value>
+            </SiteList>
+        </SettingsBlock>
+      </SettingsFile>
+      <SettingsFile name="site.ini" location="{$admin_site_access_dir}">
+        <SettingsBlock name="SiteAccessSettings">
+            <RelatedSiteAccessList>
+              <value>{$site_access_name}</value>
+            </RelatedSiteAccessList>
+        </SettingsBlock>
+      </SettingsFile>
+      <SettingsFile name="contentstructuremenu.ini" location="{$admin_site_access_dir}">
+        <SettingsBlock name="TreeMenu">
+            <ShowClasses>
+              <value>teamroom_personal_frontpage</value>
+              <value>teamroom_room</value>
+              <value>teamroom_blog</value>
+              <value>teamroom_box_folder</value>
+              <value>teamroom_milestone_folder</value>
+              <value>teamroom_task_list</value>
+            </ShowClasses>
+        </SettingsBlock>
+      </SettingsFile>
+    </SetSettings>
   <ProccessInformation comment="Content in media section" />
   <CreateContent parentNode="43">
         <ContentObject contentClass="folder" section="3" remoteID="teamroom_image_pool">
@@ -1910,216 +2120,7 @@
             </Attributes>
         </ContentObject>
     </CreateContent>
-    <ProccessInformation comment="Creating siteaccess" />
-    <SetSettings>
-      <SettingsFile name="site.ini" location="{$site_access_dir}">
-        <SettingsBlock name="ContentSettings">
-            <CachedViewModes>full;sitemap;pdf;module_widget;module_widget_latest;manage;teamrooms</CachedViewModes>
-            <CachedViewPreferences>
-              <value key="full">teamroom_files_list_limit=10;teamroom_folder_list_limit=10;teamroom_milestone_list_limit=10;teamroom_list_limit=10;teamroom_forum_list_limit=10;personalfrontpage_widgetlist_[internal:TEAMROOM_ROOT_NODE]=0;personalfrontpage_displaydescription=2;teamroom_blog_list_limit=10;teamroom_calendar_limit=10;teamroom_documents_list_limit=10;teamroom_tasklist_list_limit=10;teamroom_list_limit;teamroom_member_list_limit=10</value>
-            </CachedViewPreferences>
-        </SettingsBlock>
-        <SettingsBlock name="Session">
-            <RememberMeTimeout>259200</RememberMeTimeout>
-        </SettingsBlock>
-        <SettingsBlock name="SiteSettings">
-            <IndexPage>/content/view/full/[internal:TEAMROOM_ROOT_NODE]</IndexPage>
-            <DefaultPage>/content/view/full/[internal:TEAMROOM_ROOT_NODE]</DefaultPage>
-            <SiteName>{'eZ Teamroom'|i18n( 'ezteamroom/install/sitename' )}</SiteName>
-            <SiteURL>{$host_url}</SiteURL>
-            <LoginPage>embedded</LoginPage>
-        </SettingsBlock>
-        <SettingsBlock name="RegionalSettings">
-            <Locale>{$language}</Locale>
-            <ContentObjectLocale>{$language}</ContentObjectLocale>
-            <ShowUntranslatedObjects>disabled</ShowUntranslatedObjects>
-            <SiteLanguageList>
-              <value></value>
-              <value>{$language}</value>
-            </SiteLanguageList>
-            <TextTranslation>{if $language|eq( 'eng-GB' )}disabled{else}enabled{/if}</TextTranslation>
-        </SettingsBlock>
-        <SettingsBlock name="SiteAccessSettings">
-            <RequireUserLogin>true</RequireUserLogin>
-            <ShowHiddenNodes>false</ShowHiddenNodes>
-            <PathPrefix>Teamrooms</PathPrefix>
-        </SettingsBlock>
-        <SettingsBlock name="UserSettings">
-            <DefaultUserPlacement>{$guest_group_node_id}</DefaultUserPlacement>
-        </SettingsBlock>
-      </SettingsFile>
-      <SettingsFile name="event.ini" location="{$site_access_dir}">
-        <SettingsBlock name="AttendeeSettings">
-          <SearchRootNode>[internal:TEAMROOM_ROOT_NODE]</SearchRootNode>
-          <ClassIdentifierFilter>teamroom_room</ClassIdentifierFilter>
-        </SettingsBlock>
-      </SettingsFile>
-      <SettingsFile name="teamroom.ini" location="{$site_access_dir}">
-        <SettingsBlock name="TeamroomSettings">
-          <TeamroomPoolNodeID>[internal:TEAMROOM_ROOT_NODE]</TeamroomPoolNodeID>
-        </SettingsBlock>
-      </SettingsFile>
-      <SettingsFile name="upload.ini" location="{$site_access_dir}">
-        <SettingsBlock name="CreateSettings">
-            <MimeClassMap>
-              <value></value>
-              <value key="image">image</value>
-              <value key="video/quicktime">quicktime</value>
-              <value key="video/x-msvideo">windows_media</value>
-              <value key="video/vnd.rn-realvideo">real_video</value>
-              <value key="application/vnd.rn-realmedia">real_video</value>
-              <value key="application/x-shockwave-flash">flash</value>
-            </MimeClassMap>
-            <DefaultClass>teamroom_file</DefaultClass>
-        </SettingsBlock>
-        <SettingsBlock name="teamroom_file_ClassSettings">
-            <FileAttribute>file</FileAttribute>
-            <NameAttribute>name</NameAttribute>
-            <NamePattern>&lt;original_filename_base&gt;</NamePattern>
-        </SettingsBlock>
-      </SettingsFile>
-      <SettingsFile name="browse.ini" location="{$site_access_dir}">
-        <SettingsBlock name="SelectLinkNodeID">
-          <StartNode>[internal:TEAMROOM_ROOT_NODE]</StartNode>
-        </SettingsBlock>
-        <SettingsBlock name="SelectLinkObjectID">
-          <StartNode>[internal:TEAMROOM_ROOT_NODE]</StartNode>
-        </SettingsBlock>
-        <SettingsBlock name="AddRelatedObjectToOE">
-          <StartNode>[internal:TEAMROOM_ROOT_NODE]</StartNode>
-        </SettingsBlock>
-      </SettingsFile>
-      <SettingsFile name="teamroom.ini" location="settings/override">
-        <SettingsBlock name="TeamroomSettings">
-          <TeamroomClassID>[internal:CLASS_TEAMROOM]</TeamroomClassID>
-          <PrivateSectionID>[internal:SECTION_TEAMROOM]</PrivateSectionID>
-          <PublicSectionID>[{$public_section_id}]</PublicSectionID>
-          <VisibilityList>
-           <value></value>
-           <value>private</value>
 
-    {if $use_internal|eq( 'yes' )}
-
-           <value>internal</value>
-
-    {/if}
-
-           <value>protected</value>
-           <value>public</value>
-          </VisibilityList>
-        </SettingsBlock>
-        <SettingsBlock name="VisibilitySettings_private">
-          <TeamroomSection>[internal:SECTION_TEAMROOM]</TeamroomSection>
-          <SubTreeSection>[internal:SECTION_TEAMROOM]</SubTreeSection>
-        </SettingsBlock>
-        <SettingsBlock name="VisibilitySettings_public">
-          <TeamroomSection>[{$public_section_id}]</TeamroomSection>
-          <SubTreeSection>[{$public_section_id}]</SubTreeSection>
-        </SettingsBlock>
-
-    {if $use_internal|eq( 'yes' )}
-
-        <SettingsBlock name="VisibilitySettings_internal">
-          <TeamroomSection>[{$public_section_id}]</TeamroomSection>
-          <SubTreeSection>[internal:SECTION_TEAMROOM]</SubTreeSection>
-        </SettingsBlock>
-
-    {/if}
-
-        <SettingsBlock name="VisibilitySettings_protected">
-          <TeamroomSection>[{$public_section_id}]</TeamroomSection>
-          <SubTreeSection>[internal:SECTION_TEAMROOM]</SubTreeSection>
-        </SettingsBlock>
-        <SettingsBlock name="PermissionSettings">
-          <TeamroomRoleList>
-            <value>[internal:ROLE_3]</value>
-            <value>[internal:ROLE_4]</value>
-            <value>[internal:ROLE_5]</value>
-            <value>[internal:ROLE_6]</value>
-            <value>[internal:ROLE_7]</value>
-            <value>[internal:ROLE_8]</value>
-            <value>[internal:ROLE_9]</value>
-            <value>[internal:ROLE_10]</value>
-            <value>[internal:ROLE_11]</value>
-            <value>[internal:ROLE_12]</value>
-            <value>[internal:ROLE_13]</value>
-            <value>[internal:ROLE_14]</value>
-            <value>[internal:ROLE_15]</value>
-            <value>[internal:ROLE_16]</value>
-          </TeamroomRoleList>
-          <TeamroomDefaultRoleList>
-            <value>[internal:ROLE_3]</value>
-            <value>[internal:ROLE_5]</value>
-            <value>[internal:ROLE_7]</value>
-            <value>[internal:ROLE_9]</value>
-            <value>[internal:ROLE_11]</value>
-            <value>[internal:ROLE_13]</value>
-            <value>[internal:ROLE_15]</value>
-          </TeamroomDefaultRoleList>
-          <TeamroomMemberGroupRole>[internal:ROLE_1]</TeamroomMemberGroupRole>
-          <TeamroomLeaderGroupRole>[internal:ROLE_2]</TeamroomLeaderGroupRole>
-        </SettingsBlock>
-        <SettingsBlock name="TeamroomIconSettings">
-          <Icon003>[internal:ICON_003]</Icon003>
-          <Icon168>[internal:ICON_168]</Icon168>
-          <Icon170>[internal:ICON_170]</Icon170>
-          <Icon224>[internal:ICON_224]</Icon224>
-          <Icon226>[internal:ICON_226]</Icon226>
-          <Icon613>[internal:ICON_613]</Icon613>
-          <Icon618>[internal:ICON_618]</Icon618>
-          <Icon619>[internal:ICON_619]</Icon619>
-          <Icon620>[internal:ICON_620]</Icon620>
-          <Icon673>[internal:ICON_673]</Icon673>
-          <Icon674>[internal:ICON_674]</Icon674>
-          <Icon675>[internal:ICON_675]</Icon675>
-          <Icon676>[internal:ICON_676]</Icon676>
-          <Icon677>[internal:ICON_677]</Icon677>
-          <Icon678>[internal:ICON_678]</Icon678>
-          <Icon679>[internal:ICON_679]</Icon679>
-          <Icon900>[internal:ICON_900]</Icon900>
-        </SettingsBlock>
-      </SettingsFile>
-    </SetSettings>
-    <ProccessInformation comment="Activating siteaccess" />
-    <SetSettings>
-      <SettingsFile name="site.ini" location="settings/override">
-        <SettingsBlock name="SiteAccessSettings">
-            <AvailableSiteAccessList>
-              <value>{$site_access_name}</value>
-            </AvailableSiteAccessList>
-            <URIMatchMapItems>
-              <value>{$sa_abbr};{$site_access_name}</value>
-            </URIMatchMapItems>
-        </SettingsBlock>
-        <SettingsBlock name="Session">
-            <SessionNamePerSiteAccess value="enabled" />
-        </SettingsBlock>
-        <SettingsBlock name="SiteSettings">
-            <SiteList>
-              <value>{$site_access_name}</value>
-            </SiteList>
-        </SettingsBlock>
-      </SettingsFile>
-      <SettingsFile name="site.ini" location="{$admin_site_access_dir}">
-        <SettingsBlock name="SiteAccessSettings">
-            <RelatedSiteAccessList>
-              <value>{$site_access_name}</value>
-            </RelatedSiteAccessList>
-        </SettingsBlock>
-      </SettingsFile>
-      <SettingsFile name="contentstructuremenu.ini" location="{$admin_site_access_dir}">
-        <SettingsBlock name="TreeMenu">
-            <ShowClasses>
-              <value>teamroom_personal_frontpage</value>
-              <value>teamroom_room</value>
-              <value>teamroom_blog</value>
-              <value>teamroom_box_folder</value>
-              <value>teamroom_milestone_folder</value>
-              <value>teamroom_task_list</value>
-            </ShowClasses>
-        </SettingsBlock>
-      </SettingsFile>
-    </SetSettings>
     <ProccessInformation comment="Creating workflows" />
     <CreateWorkflow>
       <WorkflowGroup name="Teamroom">
