@@ -1964,7 +1964,11 @@ Felveheti a kapcsolatot vele az egyik piszkoztata szerkesztése miatt vagy létr
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Teamroom documentation page</source>
+        <source>Teamroom wiki</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Teamroom wiki page</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

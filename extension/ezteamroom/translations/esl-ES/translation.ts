@@ -1998,7 +1998,11 @@ Tu petición está a la espera de ser aprobada. Para ver el estado de tu petici�
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Teamroom documentation page</source>
+        <source>Teamroom wiki</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Teamroom wiki page</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
