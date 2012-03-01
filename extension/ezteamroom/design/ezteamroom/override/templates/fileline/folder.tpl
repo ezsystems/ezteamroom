@@ -67,6 +67,7 @@
 
     {** Icon **}
     <div class="file-list-icon">
+        <a href={$node.url_alias|ezurl()}>{$node.class_identifier|class_icon( normal, $node.class_name )}</a>
     </div>
 
     {** Description **}
