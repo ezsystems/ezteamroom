@@ -1652,7 +1652,10 @@
               <value>teamroom_blog</value>
               <value>teamroom_box_folder</value>
               <value>teamroom_milestone_folder</value>
+              <value>teamroom_forum</value>
               <value>teamroom_task_list</value>
+              <value>teamroom_file_folder</value>
+              <value>teamroom_event_calendar</value>
             </ShowClasses>
         </SettingsBlock>
       </SettingsFile>
