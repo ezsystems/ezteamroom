@@ -11,17 +11,21 @@
 
 <p>
 {if $account_activated}
-{'Your account is now activated.'|i18n('ezteamroom/membership')}
+    {if $is_pending}
+        {'Your email address has been confirmed. An email is send to you. Please follow the link to activate your account.'|i18n('ezteamroom/membership')}
+    {else}
+        {'Your account is now activated.'|i18n('ezteamroom/membership')}
+    {/if}
 {elseif $already_active}
-{'Your account is already active.'|i18n('ezteamroom/membership')}
+    {'Your account is already active.'|i18n('ezteamroom/membership')}
 {else}
-{'Sorry, the key submitted was not a valid key. Account was not activated.'|i18n('ezteamroom/membership')}
+    {'Sorry, the key submitted was not a valid key. Account was not activated.'|i18n('ezteamroom/membership')}
 {/if}
 </p>
 
 <div class="buttonblock">
 <form action={"/"|ezurl} method="post">
-    <input class="button" type="submit" value="{'OK'|i18n( 'ezteamroom/membership' )}" />
+    <input class="button" type="submit" value="{'Back'|i18n( 'ezteamroom/membership' )}" />
 </form>
 </div>
 

@@ -2,6 +2,17 @@
 <!DOCTYPE TS>
 <TS version="2.0" language="de_DE" sourcelanguage="en_GB">
 <context>
+    <name>design/ezevent/content/datatype</name>
+    <message>
+        <source>Normal</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Full Day</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>design/ezteamroom</name>
     <message>
         <source>Lightbox</source>
@@ -3324,6 +3335,26 @@ Sie sollten diese Person kontaktieren oder einen neuen eigenen Entwurf anlegen.<
     <message>
         <source>If you forgot your password, use the following link to get a new password</source>
         <translation>Wenn Sie ihr Passwort vergessen haben, benutzen Sie den folgenden Link um ein neues Passwort zu erhalten</translation>
+    </message>
+    <message>
+        <source>Your email address has been confirmed. An email is send to you. Please follow the link to activate your account.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Thank you for registering at %siteurl.</source>
+        <translation type="unfinished">Vielen Dank, dass Sie sich auf %siteurl registriert haben.</translation>
+    </message>
+    <message>
+        <source>Your registration has been approved. You can login with your account %username.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Click the following URL to login:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Click the following URL to verify your email address.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

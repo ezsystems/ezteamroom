@@ -10,7 +10,7 @@
 {'Password'|i18n('ezteamroom/membership')|wash( 'email' )}: {$password|wash( 'email' )}
 {'Email'|i18n('ezteamroom/membership')|wash( 'email' )}: {$receiverUserObject.email|wash( 'email' )}
 
-{'Click the following URL to confirm your account'|i18n('ezteamroom/membership')|wash( 'email' )}
+{'Click the following URL to verify your email address.'|i18n('ezteamroom/membership')|wash( 'email' )}
 
 {concat( 'user/activate/', $hash, '/', $receiverUserObject.contentobject.main_node_id )|ezurl( 'no', 'full' )}
 
