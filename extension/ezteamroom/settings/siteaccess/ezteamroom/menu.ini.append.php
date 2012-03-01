@@ -38,20 +38,12 @@ LeftMenu=flat_left
 
 [MenuContentSettings]
 TopIdentifierList[]
-TopIdentifierList[]=user_group
-TopIdentifierList[]=forum
-TopIdentifierList[]=blog
-TopIdentifierList[]=file_folder
-TopIdentifierList[]=milestone_folder
-TopIdentifierList[]=event_calendar
-TopIdentifierList[]=documentation_page
-TopIdentifierList[]=task_list
 TopIdentifierList[]=teamroom_forum
 TopIdentifierList[]=teamroom_blog
 TopIdentifierList[]=teamroom_file_folder
 TopIdentifierList[]=teamroom_milestone_folder
 TopIdentifierList[]=teamroom_event_calendar
-TopIdentifierList[]=teamroom_documentation_page
+TopIdentifierList[]=teamroom_wiki
 TopIdentifierList[]=teamroom_task_list
 
 

@@ -427,7 +427,7 @@
         </Attribute>
       </Attributes>
     </ContentClass>
-    <ContentClass isContainer="true" identifier="teamroom_documentation_page" remoteID="" objectNamePattern="&lt;title&gt;" urlAliasPattern="" classExistAction="extend" referenceID="CLASS_WIKI">
+    <ContentClass isContainer="true" identifier="teamroom_wiki" remoteID="" objectNamePattern="&lt;title&gt;" urlAliasPattern="" classExistAction="extend" referenceID="CLASS_WIKI">
       <Names {$language}="{"Teamroom documentation page"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
       <Groups>
          <Group name="Teamroom"/> {* If the group does not exist, it will be created automatically *}
@@ -451,10 +451,30 @@
           <DatatypeParameters>
           </DatatypeParameters>
         </Attribute>
-        <Attribute datatype="ezboolean" required="false" searchable="false" informationCollector="false" translatable="true" identifier="show_children" placement="4">
-          <Names {$language}="{"Display sub items"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
+      </Attributes>
+    </ContentClass>
+    <ContentClass isContainer="true" identifier="teamroom_wiki_page" remoteID="" objectNamePattern="&lt;title&gt;" urlAliasPattern="" classExistAction="extend" referenceID="CLASS_WIKI">
+      <Names {$language}="{"Teamroom documentation page"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
+      <Groups>
+         <Group name="Teamroom"/> {* If the group does not exist, it will be created automatically *}
+      </Groups>
+      <Attributes>
+        <Attribute datatype="ezstring" required="true" searchable="true" informationCollector="false" translatable="true" identifier="title" placement="1">
+          <Names {$language}="{"Title"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
           <DatatypeParameters>
-            <default-value/>
+            <max-length>0</max-length>
+            <default-string/>
+          </DatatypeParameters>
+        </Attribute>
+        <Attribute datatype="ezxmltext" required="false" searchable="true" informationCollector="false" translatable="true" identifier="body" placement="2">
+          <Names {$language}="{"Body"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
+          <DatatypeParameters>
+            <text-column-count>20</text-column-count>
+          </DatatypeParameters>
+        </Attribute>
+        <Attribute datatype="ezkeyword" required="false" searchable="true" informationCollector="false" translatable="true" identifier="tags" placement="3">
+          <Names {$language}="{"Tags"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
+          <DatatypeParameters>
           </DatatypeParameters>
         </Attribute>
       </Attributes>
@@ -972,15 +992,16 @@
                         <class-constraint class-identifier="folder"/>
                         <class-constraint class-identifier="teamroom_blog"/>
                         <class-constraint class-identifier="teamroom_blog_post"/>
-                        <class-constraint class-identifier="teamroom_documentation_page"/>
-                        <class-constraint class-identifier="teamroom_file"/>
+                        <class-constraint class-identifier="teamroom_wiki"/>
+                        <class-constraint class-identifier="teamroom_wiki_page"/>
                         <class-constraint class-identifier="teamroom_forum"/>
                         <class-constraint class-identifier="teamroom_forum_topic"/>
-                        <class-constraint class-identifier="teamroom_event"/>
+                        <class-constraint class-identifier="teamroom_file"/>
                         <class-constraint class-identifier="teamroom_file_folder"/>
                         <class-constraint class-identifier="teamroom_file_subfolder"/>
-                        <class-constraint class-identifier="teamroom_milestone"/>
                         <class-constraint class-identifier="teamroom_milestone_folder"/>
+                        <class-constraint class-identifier="teamroom_milestone"/>
+                        <class-constraint class-identifier="teamroom_event"/>
                     </class-constraints>
                 </DatatypeParameters>
             </Attribute>
@@ -1656,6 +1677,7 @@
               <value>teamroom_task_list</value>
               <value>teamroom_file_folder</value>
               <value>teamroom_event_calendar</value>
+              <value>teamroom_wiki</value>
             </ShowClasses>
         </SettingsBlock>
       </SettingsFile>

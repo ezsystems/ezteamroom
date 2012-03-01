@@ -544,17 +544,29 @@ MatchFile=embed/image.tpl
 Subdir=templates
 Match[class_identifier]=image
 
-[full_teamroom_documentation_page]
+[full_teamroom_wiki]
 Source=node/view/full.tpl
-MatchFile=full/documentation_page.tpl
+MatchFile=full/wiki.tpl
 Subdir=templates
-Match[class_identifier]=teamroom_documentation_page
+Match[class_identifier]=teamroom_wiki
 
-[line_teamroom_documentation_page]
+[line_teamroom_wiki]
 Source=node/view/line.tpl
-MatchFile=line/documentation_page.tpl
+MatchFile=line/wiki.tpl
 Subdir=templates
-Match[class_identifier]=teamroom_documentation_page
+Match[class_identifier]=teamroom_wiki
+
+[full_teamroom_wiki_page]
+Source=node/view/full.tpl
+MatchFile=full/wiki_page.tpl
+Subdir=templates
+Match[class_identifier]=teamroom_wiki_page
+
+[line_teamroom_wiki_page]
+Source=node/view/line.tpl
+MatchFile=line/wiki_page.tpl
+Subdir=templates
+Match[class_identifier]=teamroom_wiki_page
 
 [full_teamroom_blog]
 Source=node/view/full.tpl
