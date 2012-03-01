@@ -926,7 +926,8 @@ div.comment_actions
 
 
 div.class-event-calendar div.blog_actions,
-div.class-documentation-page div.blog_actions
+div.class-wiki div.blog_actions,
+div.class-wiki-page div.blog_actions
 {
     float:right;
     margin-top:-32px;
@@ -4171,7 +4172,9 @@ div.related-document-list ul.related-document-tree span.creator{
   font-size: .8em;
 }
 
-div.class-documentation-page li {
+div.class-wiki li,
+div.class-wiki-page li
+{
   list-style-position: outside;
 }
 

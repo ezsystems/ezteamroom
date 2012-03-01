@@ -106,7 +106,6 @@
                 <title>{'Wiki'|i18n('ezteamroom/creation')}</title>
                 <body>&lt;header level=&quot;1&quot;&gt;{'Wiki'|i18n('ezteamroom/creation')}&lt;/header&gt;</body>
                 <tags></tags>
-                <show_children>1</show_children>
             </Attributes>
             <SetReference attribute="object_id" value="WIKI_OBJECT_ID" />
             <SetReference attribute="node_id" value="WIKI_NODE_ID" />

@@ -17,7 +17,7 @@
 {def $frontpagestyle='leftcolumn rightcolumn'}
 
 <div class="content-view-full">
-    <div class="class-documentation_page {$frontpagestyle}">
+    <div class="class-wiki {$frontpagestyle}">
 
     <div class="attribute-header">
         <h1>{'Wiki'|i18n('ezteamroom/wiki')}</h1>
@@ -45,7 +45,7 @@
                     <div class="border-ml"><div class="border-mr"><div class="border-mc float-break">
 
                     <div class="content-view-full">
-                        <div class="class-documentation-page">
+                        <div class="class-wiki">
 
                         <div class="attribute-byline">
                             <span class="date">{$node.object.modified|l10n(shortdatetime)}</span> |
@@ -98,8 +98,6 @@
                                 {attribute_view_gui attribute=$node.object.data_map.body}
                             </div>
 
-                        {if $node.object.data_map.show_children.data_int}
-
                             {if is_set($view_parameters.tag)}
 
                                 {set $children_count = fetch( 'content', 'keyword_count', hash( 'alphabet', $view_parameters.tag|rawurldecode(),
@@ -149,8 +147,6 @@
                                         item_limit=$page_limit
                                         preference="teamroom_documents_list_limit"}
 
-                        {/if}
-
                         </div>
                     </div>
 
@@ -170,11 +166,11 @@
                     <div class="border-tl"><div class="border-tr"><div class="border-tc"></div></div></div>
                     <div class="border-ml"><div class="border-mr"><div class="border-mc float-break">
 
-                {if fetch( 'content', 'access', hash( 'access', 'create', 'contentobject', $node, contentclass_id, $class_identifier_map['documentation_page'] ) )}
+                {if fetch( 'content', 'access', hash( 'access', 'create', 'contentobject', $node, contentclass_id, $class_identifier_map['wiki_page'] ) )}
 
                 <div class="create-task">
                 <form method="post" action={"content/action"|ezurl}>
-                    <input type="hidden" name="ClassIdentifier" value="{$class_identifier_map['documentation_page']}" />
+                    <input type="hidden" name="ClassIdentifier" value="{$class_identifier_map['wiki_page']}" />
                     <input type="hidden" name="NodeID" value="{$node.object.main_node.node_id}" />
                     <input type="hidden" name="ContentLanguageCode" value="{ezini( 'RegionalSettings', 'ContentObjectLocale', 'site.ini')}" />
                             <div class="submitimage">
@@ -203,7 +199,7 @@
             <div class="keywords">
                 <h3>{'Keywords'|i18n('ezteamroom/wiki')}</h3>
 
-                {def $wikiTagList = ezkeywordlist( $class_identifier_map['documentation_page'], $pathStringArray[5], $node.depth|inc() )}
+                {def $wikiTagList = ezkeywordlist( $class_identifier_map['wiki_page'], $pathStringArray[5], $node.depth|inc() )}
 
                 <div class="tags">
 

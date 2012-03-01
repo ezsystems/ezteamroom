@@ -243,7 +243,8 @@ table.forum tr.header td div.manage_forum_reply
     width: 75px;
 }
 
-div.class-documentation-page div.blog_actions
+div.class-wiki div.blog_actions,
+div.class-wiki-page div.blog_actions
 {
     margin-top:-25px;
 }
