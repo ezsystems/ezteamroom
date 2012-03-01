@@ -1173,6 +1173,280 @@
       </Attributes>
     </ContentClass>
   </CreateClass>
+  <ProccessInformation comment="Content in media section" />
+  <CreateContent parentNode="43">
+        <ContentObject contentClass="folder" section="3" remoteID="teamroom_image_pool">
+            <Attributes>
+                <name>Teamroom Image Pool</name>
+                <short_name>Teamroom Image Pool</short_name>
+            </Attributes>
+            <SetReference attribute="object_id" value="FOLDER_IMAGE_POOL" />
+            <SetReference attribute="node_id" value="FOLDER_IMAGE_POOL_NODE" />
+            <Childs>
+                <ContentObject contentClass="image" section="3" remoteID="">
+                    <Attributes>
+                        <name>Title Image</name>
+                        <image src="people.gif" title="Teamroom Group" />
+                    </Attributes>
+                    <SetReference attribute="object_id" value="TEAMROOM_TITLE_IMAGE" />
+                </ContentObject>
+            </Childs>
+        </ContentObject>
+        <ContentObject contentClass="folder" section="3" remoteID="teamroom_box_icons">
+            <Attributes>
+                <name>Teamroom Box Icons</name>
+                <short_name>Teamroom Box Icons</short_name>
+            </Attributes>
+            <SetReference attribute="object_id" value="TEAMROOM_BOXICON_POOL" />
+            <SetReference attribute="node_id" value="TEAMROOM_BOXICON_POOL_NODE" />
+            <Childs>
+                <ContentObject contentClass="image" section="3" remoteID="TEAMROOM_ICON_003">
+                    <Attributes>
+                        <name>Icon 1</name>
+                        <image src="icon003.gif" title="Icon 1" />
+                    </Attributes>
+                    <SetReference attribute="object_id" value="ICON_003" />
+                </ContentObject>
+                <ContentObject contentClass="image" section="3" remoteID="TEAMROOM_ICON_168">
+                    <Attributes>
+                        <name>Icon 2</name>
+                        <image src="icon168.gif" title="Icon" />
+                    </Attributes>
+                    <SetReference attribute="object_id" value="ICON_168" />
+                </ContentObject>
+                <ContentObject contentClass="image" section="3" remoteID="TEAMROOM_ICON_170">
+                    <Attributes>
+                        <name>Icon 3</name>
+                        <image src="icon170.gif" title="Icon" />
+                    </Attributes>
+                    <SetReference attribute="object_id" value="ICON_170" />
+                </ContentObject>
+                <ContentObject contentClass="image" section="3" remoteID="TEAMROOM_ICON_224">
+                    <Attributes>
+                        <name>Icon 4</name>
+                        <image src="icon224.gif" title="Icon" />
+                    </Attributes>
+                    <SetReference attribute="object_id" value="ICON_224" />
+                </ContentObject>
+                <ContentObject contentClass="image" section="3" remoteID="TEAMROOM_ICON_226">
+                    <Attributes>
+                        <name>Icon 5</name>
+                        <image src="icon226.gif" title="Icon" />
+                    </Attributes>
+                    <SetReference attribute="object_id" value="ICON_226" />
+                </ContentObject>
+                <ContentObject contentClass="image" section="3" remoteID="TEAMROOM_ICON_613">
+                    <Attributes>
+                        <name>Icon 6</name>
+                        <image src="icon613.gif" title="Icon" />
+                    </Attributes>
+                    <SetReference attribute="object_id" value="ICON_613" />
+                </ContentObject>
+                <ContentObject contentClass="image" section="3" remoteID="TEAMROOM_ICON_618">
+                    <Attributes>
+                        <name>Icon 7</name>
+                        <image src="icon618.gif" title="Icon" />
+                    </Attributes>
+                    <SetReference attribute="object_id" value="ICON_618" />
+                </ContentObject>
+                <ContentObject contentClass="image" section="3" remoteID="TEAMROOM_ICON_619">
+                    <Attributes>
+                        <name>Icon 8</name>
+                        <image src="icon619.gif" title="Icon" />
+                    </Attributes>
+                    <SetReference attribute="object_id" value="ICON_619" />
+                </ContentObject>
+                <ContentObject contentClass="image" section="3" remoteID="TEAMROOM_ICON_620">
+                    <Attributes>
+                        <name>Icon 9</name>
+                        <image src="icon620.gif" title="Icon" />
+                    </Attributes>
+                    <SetReference attribute="object_id" value="ICON_620" />
+                </ContentObject>
+                <ContentObject contentClass="image" section="3" remoteID="TEAMROOM_ICON_673">
+                    <Attributes>
+                        <name>Icon 10</name>
+                        <image src="icon673.gif" title="Icon" />
+                    </Attributes>
+                    <SetReference attribute="object_id" value="ICON_673" />
+                </ContentObject>
+                <ContentObject contentClass="image" section="3" remoteID="TEAMROOM_ICON_674">
+                    <Attributes>
+                        <name>Icon 11</name>
+                        <image src="icon674.gif" title="Icon" />
+                    </Attributes>
+                    <SetReference attribute="object_id" value="ICON_674" />
+                </ContentObject>
+                <ContentObject contentClass="image" section="3" remoteID="TEAMROOM_ICON_675">
+                    <Attributes>
+                        <name>Icon 12</name>
+                        <image src="icon675.gif" title="Icon" />
+                    </Attributes>
+                    <SetReference attribute="object_id" value="ICON_675" />
+                </ContentObject>
+                <ContentObject contentClass="image" section="3" remoteID="TEAMROOM_ICON_676">
+                    <Attributes>
+                        <name>Icon 13</name>
+                        <image src="icon676.gif" title="Icon" />
+                    </Attributes>
+                    <SetReference attribute="object_id" value="ICON_676" />
+                </ContentObject>
+                <ContentObject contentClass="image" section="3" remoteID="TEAMROOM_ICON_677">
+                    <Attributes>
+                        <name>Icon 14</name>
+                        <image src="icon677.gif" title="Icon" />
+                    </Attributes>
+                    <SetReference attribute="object_id" value="ICON_677" />
+                </ContentObject>
+                <ContentObject contentClass="image" section="3" remoteID="TEAMROOM_ICON_678">
+                    <Attributes>
+                        <name>Icon 15</name>
+                        <image src="icon678.gif" title="Icon" />
+                    </Attributes>
+                    <SetReference attribute="object_id" value="ICON_678" />
+                </ContentObject>
+                <ContentObject contentClass="image" section="3" remoteID="TEAMROOM_ICON_679">
+                    <Attributes>
+                        <name>Icon 16</name>
+                        <image src="icon679.gif" title="Icon" />
+                    </Attributes>
+                    <SetReference attribute="object_id" value="ICON_679" />
+                </ContentObject>
+                <ContentObject contentClass="image" section="3" remoteID="TEAMROOM_ICON_900">
+                    <Attributes>
+                        <name>Icon 17</name>
+                        <image src="icon900.gif" title="Icon" />
+                    </Attributes>
+                    <SetReference attribute="object_id" value="ICON_900" />
+                </ContentObject>
+            </Childs>
+        </ContentObject>
+  </CreateContent>
+
+  <ProccessInformation comment="Create teamroom content" />
+  <CreateContent parentNode="{$teamroom_parent_node}">
+        <ContentObject contentClass="teamroom_personal_frontpage" section="{$public_section_id}" remoteID="{$teamroom_parent_node}_teamrooms">
+            <Attributes>
+                <title>{'Welcome. Success with eZ Teamrooms.'|i18n( 'ezteamroom/install/teamroomcontent' )}</title>
+                <short_title>Teamrooms</short_title> {* This one should NOT be translated, otherwise the PathPrefix will not work!!! *}
+                <description parseReferences="true">&lt;embed size=&quot;large&quot; custom:offset=&quot;0&quot; custom:limit=&quot;5&quot; object_id=&quot;[internal:TEAMROOM_TITLE_IMAGE]&quot; /&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. In tempor. Aenean molestie, mauris ultrices vestibulum luctus, augue risus mattis est, viverra vestibulum diam quam vitae lorem. Nunc lacus tellus, molestie eleifend, dictum quis, fermentum eu, diam. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Curabitur hendrerit lectus non nunc. In vulputate, est sed pellentesque congue, est diam ullamcorper enim, a laoreet magna lorem vitae eros. Cras dignissim dictum risus. Sed lectus. Nullam sem. Mauris ac mauris.</description>
+                <num_of_columns>4</num_of_columns>
+                <allow_minimization>1</allow_minimization>
+                <default_arrangement></default_arrangement>
+            </Attributes>
+            <SetReference attribute="object_id" value="TEAMROOM_ROOT" />
+            <SetReference attribute="node_id" value="TEAMROOM_ROOT_NODE" />
+            <Childs>
+                <ContentObject contentClass="teamroom_box_folder" section="{$public_section_id}" remoteID="{$teamroom_parent_node}_teamrooms_boxes">
+                    <Attributes>
+                        <name>{'Boxes'|i18n( 'ezteamroom/install/teamroomcontent' )}</name>
+                    </Attributes>
+                    <SetReference attribute="object_id" value="TEAMROOM_BOXPOOL" />
+                    <SetReference attribute="node_id" value="TEAMROOM_BOXPOOL_NODE" />
+                    <Childs>
+                        <ContentObject contentClass="teamroom_infobox" section="{$public_section_id}" remoteID="{$teamroom_parent_node}_teamrooms_box_mytlightbox">
+                            <Attributes>
+                                <header>{'Lightbox selection'|i18n( 'ezteamroom/install/teamroomcontent' )}</header>
+                                <box_icon>internal:ICON_619</box_icon>
+                                <content></content>
+                                <url></url>
+                                <module_url>ezjscore/run/lightbox/view/lightboxselection</module_url>
+                                <check_access></check_access>
+                            </Attributes>
+                            <SetReference attribute="object_id" value="LIGHTBOXSELECTION_BOX_OBJECT" />
+                        </ContentObject>
+                        <ContentObject contentClass="teamroom_infobox" section="{$public_section_id}" remoteID="{$teamroom_parent_node}_teamrooms_box_myteamrooms">
+                            <Attributes>
+                                <header>{'My Teamrooms'|i18n( 'ezteamroom/install/teamroomcontent' )}</header>
+                                <box_icon>internal:ICON_613</box_icon>
+                                <content></content>
+                                <url></url>
+                                <check_access></check_access>
+                                <module_url parseReferences="true">ezjscore/run/content/view/myteamrooms/[internal:TEAMROOM_ROOT_NODE]</module_url>
+                            </Attributes>
+                            <SetReference attribute="object_id" value="MYTEAMROOMS_BOX_OBJECT" />
+                        </ContentObject>
+{*
+                        <ContentObject contentClass="teamroom_infobox" section="{$public_section_id}" remoteID="{$teamroom_parent_node}_teamrooms_box_help">
+                            <Attributes>
+                                <header>{'Help'|i18n( 'ezteamroom/install/teamroomcontent' )}</header>
+                                <box_icon>internal:ICON_168</box_icon>
+                                <content>{'Some help text'|i18n( 'ezteamroom/install/teamroomcontent' )}</content>
+                                <url></url>
+                                <module_url></module_url>
+                                <check_access></check_access>
+                            </Attributes>
+                            <SetReference attribute="object_id" value="HELP_BOX_OBJECT" />
+                        </ContentObject>
+*}
+                        <ContentObject contentClass="teamroom_infobox" section="{$public_section_id}" remoteID="{$teamroom_parent_node}_teamrooms_box_allteamrooms">
+                            <Attributes>
+                                <header>{'All Teamrooms'|i18n( 'ezteamroom/install/teamroomcontent' )}</header>
+                                <box_icon>internal:ICON_224</box_icon>
+                                <content>Teamrooms</content>
+                                <url></url>
+                                <module_url parseReferences="true">ezjscore/run/content/view/teamroomlist/[internal:TEAMROOM_ROOT_NODE]</module_url>
+                                <check_access></check_access>
+                            </Attributes>
+                            <SetReference attribute="object_id" value="ALLTEAMROOMS_BOX_OBJECT" />
+                        </ContentObject>
+                        <ContentObject contentClass="teamroom_infobox" section="{$public_section_id}" remoteID="{$teamroom_parent_node}_createteamroom_box">
+                            <Attributes>
+                                <header>{'Create Teamroom'|i18n( 'ezteamroom/install/teamroomcontent' )}</header>
+                                <box_icon>internal:ICON_226</box_icon>
+                                <content>{'Add your teamroom and get all the things to manage your team.'|i18n( 'ezteamroom/install/teamroomcontent' )}</content>
+                                <check_access>teamroom/create</check_access>
+                            </Attributes>
+                            <SetReference attribute="node_id" value="CREATETEAMROOM_BOX_ROOT_NODE" />
+                            <SetReference attribute="object_id" value="CREATETEAMROOM_BOX_OBJECT" />
+                        </ContentObject>
+                        <ContentObject contentClass="teamroom_infobox" section="{$public_section_id}" remoteID="{$teamroom_parent_node}_createteamroom_box">
+                            <Attributes>
+                                <module_url parseReferences="true">ezjscore/run/content/view/createteamroom/[internal:CREATETEAMROOM_BOX_ROOT_NODE]</module_url>
+                            </Attributes>
+                        </ContentObject>
+                        <ContentObject contentClass="teamroom_infobox" section="{$public_section_id}" remoteID="{$teamroom_parent_node}_teamrooms_box_lightboxes">
+                            <Attributes>
+                                <header>{'Lightboxes'|i18n( 'ezteamroom/install/teamroomcontent' )}</header>
+                                <box_icon>internal:ICON_619</box_icon>
+                                <content></content>
+                                <url></url>
+                                <module_url>ezjscore/run/lightbox/view/lightboxlist</module_url>
+                                <check_access></check_access>
+                            </Attributes>
+                        </ContentObject>
+                        <ContentObject contentClass="teamroom_infobox" section="{$public_section_id}" remoteID="{$teamroom_parent_node}_teamrooms_box_latestmessages">
+                            <Attributes>
+                                <header>{'Latest Messages'|i18n( 'ezteamroom/install/teamroomcontent' )}</header>
+                                <box_icon>internal:ICON_620</box_icon>
+                                <content></content>
+                                <url></url>
+                                <module_url parseReferences="true">ezjscore/run/content/view/latestmessages/[internal:TEAMROOM_ROOT_NODE]</module_url>
+                                <check_access></check_access>
+                            </Attributes>
+                            <SetReference attribute="object_id" value="LATESTMESSAGES_BOX_OBJECT" />
+                        </ContentObject>
+                        <ContentObject contentClass="teamroom_infobox" section="{$public_section_id}" remoteID="{$teamroom_parent_node}_teamrooms_box_mytasks">
+                            <Attributes>
+                                <header>{'My Tasks'|i18n( 'ezteamroom/install/teamroomcontent' )}</header>
+                                <box_icon>internal:ICON_900</box_icon>
+                                <content></content>
+                                <url></url>
+                                <module_url parseReferences="true">ezjscore/run/content/view/mytasks/[internal:TEAMROOM_ROOT_NODE]</module_url>
+                                <check_access></check_access>
+                            </Attributes>
+                            <SetReference attribute="object_id" value="MYTASKS_BOX_OBJECT" />
+                        </ContentObject>
+                    </Childs>
+                </ContentObject>
+            </Childs>
+        </ContentObject>
+        <ContentObject contentClass="teamroom_personal_frontpage" section="{$public_section_id}" remoteID="{$teamroom_parent_node}_teamrooms">
+            <Attributes>
+                <default_arrangement parseReferences="true">[[[internal:CREATETEAMROOM_BOX_OBJECT],[internal:LIGHTBOXSELECTION_BOX_OBJECT]],[[internal:ALLTEAMROOMS_BOX_OBJECT]],[[internal:MYTEAMROOMS_BOX_OBJECT]],[[internal:LATESTMESSAGES_BOX_OBJECT]],[[internal:MYTASKS_BOX_OBJECT]]]</default_arrangement>
+            </Attributes>
+        </ContentObject>
+    </CreateContent>
     <ProccessInformation comment="Creating siteaccess" />
     <SetSettings>
       <SettingsFile name="site.ini" location="{$site_access_dir}">
@@ -1383,155 +1657,59 @@
         </SettingsBlock>
       </SettingsFile>
     </SetSettings>
-  <ProccessInformation comment="Content in media section" />
-  <CreateContent parentNode="43">
-        <ContentObject contentClass="folder" section="3" remoteID="teamroom_image_pool">
-            <Attributes>
-                <name>Teamroom Image Pool</name>
-                <short_name>Teamroom Image Pool</short_name>
-            </Attributes>
-            <SetReference attribute="object_id" value="FOLDER_IMAGE_POOL" />
-            <SetReference attribute="node_id" value="FOLDER_IMAGE_POOL_NODE" />
-            <Childs>
-                <ContentObject contentClass="image" section="3" remoteID="">
-                    <Attributes>
-                        <name>Title Image</name>
-                        <image src="people.gif" title="Teamroom Group" />
-                    </Attributes>
-                    <SetReference attribute="object_id" value="TEAMROOM_TITLE_IMAGE" />
-                </ContentObject>
-            </Childs>
-        </ContentObject>
-        <ContentObject contentClass="folder" section="3" remoteID="teamroom_box_icons">
-            <Attributes>
-                <name>Teamroom Box Icons</name>
-                <short_name>Teamroom Box Icons</short_name>
-            </Attributes>
-            <SetReference attribute="object_id" value="TEAMROOM_BOXICON_POOL" />
-            <SetReference attribute="node_id" value="TEAMROOM_BOXICON_POOL_NODE" />
-            <Childs>
-                <ContentObject contentClass="image" section="3" remoteID="TEAMROOM_ICON_003">
-                    <Attributes>
-                        <name>Icon 1</name>
-                        <image src="icon003.gif" title="Icon 1" />
-                    </Attributes>
-                    <SetReference attribute="object_id" value="ICON_003" />
-                </ContentObject>
-                <ContentObject contentClass="image" section="3" remoteID="TEAMROOM_ICON_168">
-                    <Attributes>
-                        <name>Icon 2</name>
-                        <image src="icon168.gif" title="Icon" />
-                    </Attributes>
-                    <SetReference attribute="object_id" value="ICON_168" />
-                </ContentObject>
-                <ContentObject contentClass="image" section="3" remoteID="TEAMROOM_ICON_170">
-                    <Attributes>
-                        <name>Icon 3</name>
-                        <image src="icon170.gif" title="Icon" />
-                    </Attributes>
-                    <SetReference attribute="object_id" value="ICON_170" />
-                </ContentObject>
-                <ContentObject contentClass="image" section="3" remoteID="TEAMROOM_ICON_224">
-                    <Attributes>
-                        <name>Icon 4</name>
-                        <image src="icon224.gif" title="Icon" />
-                    </Attributes>
-                    <SetReference attribute="object_id" value="ICON_224" />
-                </ContentObject>
-                <ContentObject contentClass="image" section="3" remoteID="TEAMROOM_ICON_226">
-                    <Attributes>
-                        <name>Icon 5</name>
-                        <image src="icon226.gif" title="Icon" />
-                    </Attributes>
-                    <SetReference attribute="object_id" value="ICON_226" />
-                </ContentObject>
-                <ContentObject contentClass="image" section="3" remoteID="TEAMROOM_ICON_613">
-                    <Attributes>
-                        <name>Icon 6</name>
-                        <image src="icon613.gif" title="Icon" />
-                    </Attributes>
-                    <SetReference attribute="object_id" value="ICON_613" />
-                </ContentObject>
-                <ContentObject contentClass="image" section="3" remoteID="TEAMROOM_ICON_618">
-                    <Attributes>
-                        <name>Icon 7</name>
-                        <image src="icon618.gif" title="Icon" />
-                    </Attributes>
-                    <SetReference attribute="object_id" value="ICON_618" />
-                </ContentObject>
-                <ContentObject contentClass="image" section="3" remoteID="TEAMROOM_ICON_619">
-                    <Attributes>
-                        <name>Icon 8</name>
-                        <image src="icon619.gif" title="Icon" />
-                    </Attributes>
-                    <SetReference attribute="object_id" value="ICON_619" />
-                </ContentObject>
-                <ContentObject contentClass="image" section="3" remoteID="TEAMROOM_ICON_620">
-                    <Attributes>
-                        <name>Icon 9</name>
-                        <image src="icon620.gif" title="Icon" />
-                    </Attributes>
-                    <SetReference attribute="object_id" value="ICON_620" />
-                </ContentObject>
-                <ContentObject contentClass="image" section="3" remoteID="TEAMROOM_ICON_673">
-                    <Attributes>
-                        <name>Icon 10</name>
-                        <image src="icon673.gif" title="Icon" />
-                    </Attributes>
-                    <SetReference attribute="object_id" value="ICON_673" />
-                </ContentObject>
-                <ContentObject contentClass="image" section="3" remoteID="TEAMROOM_ICON_674">
-                    <Attributes>
-                        <name>Icon 11</name>
-                        <image src="icon674.gif" title="Icon" />
-                    </Attributes>
-                    <SetReference attribute="object_id" value="ICON_674" />
-                </ContentObject>
-                <ContentObject contentClass="image" section="3" remoteID="TEAMROOM_ICON_675">
-                    <Attributes>
-                        <name>Icon 12</name>
-                        <image src="icon675.gif" title="Icon" />
-                    </Attributes>
-                    <SetReference attribute="object_id" value="ICON_675" />
-                </ContentObject>
-                <ContentObject contentClass="image" section="3" remoteID="TEAMROOM_ICON_676">
-                    <Attributes>
-                        <name>Icon 13</name>
-                        <image src="icon676.gif" title="Icon" />
-                    </Attributes>
-                    <SetReference attribute="object_id" value="ICON_676" />
-                </ContentObject>
-                <ContentObject contentClass="image" section="3" remoteID="TEAMROOM_ICON_677">
-                    <Attributes>
-                        <name>Icon 14</name>
-                        <image src="icon677.gif" title="Icon" />
-                    </Attributes>
-                    <SetReference attribute="object_id" value="ICON_677" />
-                </ContentObject>
-                <ContentObject contentClass="image" section="3" remoteID="TEAMROOM_ICON_678">
-                    <Attributes>
-                        <name>Icon 15</name>
-                        <image src="icon678.gif" title="Icon" />
-                    </Attributes>
-                    <SetReference attribute="object_id" value="ICON_678" />
-                </ContentObject>
-                <ContentObject contentClass="image" section="3" remoteID="TEAMROOM_ICON_679">
-                    <Attributes>
-                        <name>Icon 16</name>
-                        <image src="icon679.gif" title="Icon" />
-                    </Attributes>
-                    <SetReference attribute="object_id" value="ICON_679" />
-                </ContentObject>
-                <ContentObject contentClass="image" section="3" remoteID="TEAMROOM_ICON_900">
-                    <Attributes>
-                        <name>Icon 17</name>
-                        <image src="icon900.gif" title="Icon" />
-                    </Attributes>
-                    <SetReference attribute="object_id" value="ICON_900" />
-                </ContentObject>
-            </Childs>
-        </ContentObject>
-  </CreateContent>
+    <ProccessInformation comment="Creating workflows" />
+    <CreateWorkflow>
+      <WorkflowGroup name="Teamroom">
+        <Workflow name="{'Create Teamroom'|i18n( 'ezteamroom/install/workflows' )}" workflowTypeString="group_ezserial" referenceID="WORKFLOW_CREATETEAMROOM">
+          <Event description="Setup structure from XML" placement="1" workflowTypeString="event_ezxmlpublisher">
+            <Data />
+          </Event>
+        </Workflow>
+        <Workflow name="{'Approve Member Registration'|i18n( 'ezteamroom/install/workflows' )}" workflowTypeString="group_ezserial" referenceID="WORKFLOW_APPROVEMEMBERREGISTRATION">
+          <Event description="Approve" placement="1" workflowTypeString="event_ezapprovememberregistration">
+            <Data />
+          </Event>
+        </Workflow>
+        <Workflow name="{'Set Teamroom Section'|i18n( 'ezteamroom/install/workflows' )}" workflowTypeString="group_ezserial" referenceID="WORKFLOW_SETSECTION">
+          <Event description="Set Section" placement="1" workflowTypeString="event_ezsetsection">
+            <Data />
+          </Event>
+        </Workflow>
+        <Workflow name="{'Set Current Teamroom'|i18n( 'ezteamroom/install/workflows' )}" workflowTypeString="group_ezserial" referenceID="WORKFLOW_SETCURRENTTEAMROOM">
+          <Event description="Set Section" placement="1" workflowTypeString="event_ezsetteamroom">
+            <Data />
+          </Event>
+        </Workflow>
+        <Workflow name="{'Post Publish Multiplexer'|i18n( 'ezteamroom/install/workflows' )}" workflowTypeString="group_ezserial" referenceID="WORKFLOW_POSTPUBLISH">
+          <Event description="Class: Teamroom" placement="1" workflowTypeString="event_ezmultiplexer">
+            <Data>
+              <data_int1>[internal:WORKFLOW_CREATETEAMROOM]</data_int1>
+              <data_text1>-1</data_text1>
+              <data_text3>[internal:CLASS_TEAMROOM]</data_text3>
+            </Data>
+          </Event>
+          <Event description="Class: Teamroom" placement="2" workflowTypeString="event_ezmultiplexer">
+            <Data>
+              <data_int1>[internal:WORKFLOW_SETSECTION]</data_int1>
+              <data_text1>-1</data_text1>
+              <data_text3>[internal:CLASS_TEAMROOM]</data_text3>
+            </Data>
+          </Event>
+        </Workflow>
+        <Workflow name="{'Set Teamroom Membership'|i18n( 'ezteamroom/install/workflows' )}" workflowTypeString="group_ezserial" referenceID="WORKFLOW_TEAMROOM">
+          <Event description="Membership" placement="1" workflowTypeString="event_ezmultiplexer">
+            <Data>
+              <data_int1>[internal:WORKFLOW_SETCURRENTTEAMROOM]</data_int1>
+              <data_text1>[internal:SECTION_TEAMROOM],[{$public_section_id}],1</data_text1>
+              <data_text2>12,42</data_text2>
+              <data_text3>-1</data_text3>
+            </Data>
+          </Event>
+        </Workflow>
+      </WorkflowGroup>
+      <Trigger module="content" operation="publish" connectType="after" workflowID="internal:WORKFLOW_POSTPUBLISH" />
+      <Trigger module="teamroom" operation="register" connectType="before" workflowID="internal:WORKFLOW_APPROVEMEMBERREGISTRATION" />
+    </CreateWorkflow>
   <ProccessInformation comment="Creating roles" />
   <CreateRole>
     <Role name="{'Use Teamroom'|i18n( 'ezteamroom/install/roles' )}" createRole="true" referenceID="ROLE_USETEAMROOM">
@@ -1996,184 +2174,6 @@
       </Policy>
     </Role>
   </CreateRole>
-  <ProccessInformation comment="Create teamroom content" />
-  <CreateContent parentNode="{$teamroom_parent_node}">
-        <ContentObject contentClass="teamroom_personal_frontpage" section="{$public_section_id}" remoteID="{$teamroom_parent_node}_teamrooms">
-            <Attributes>
-                <title>{'Welcome. Success with eZ Teamrooms.'|i18n( 'ezteamroom/install/teamroomcontent' )}</title>
-                <short_title>Teamrooms</short_title> {* This one should NOT be translated, otherwise the PathPrefix will not work!!! *}
-                <description parseReferences="true">&lt;embed size=&quot;large&quot; custom:offset=&quot;0&quot; custom:limit=&quot;5&quot; object_id=&quot;[internal:TEAMROOM_TITLE_IMAGE]&quot; /&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. In tempor. Aenean molestie, mauris ultrices vestibulum luctus, augue risus mattis est, viverra vestibulum diam quam vitae lorem. Nunc lacus tellus, molestie eleifend, dictum quis, fermentum eu, diam. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Curabitur hendrerit lectus non nunc. In vulputate, est sed pellentesque congue, est diam ullamcorper enim, a laoreet magna lorem vitae eros. Cras dignissim dictum risus. Sed lectus. Nullam sem. Mauris ac mauris.</description>
-                <num_of_columns>4</num_of_columns>
-                <allow_minimization>1</allow_minimization>
-                <default_arrangement></default_arrangement>
-            </Attributes>
-            <SetReference attribute="object_id" value="TEAMROOM_ROOT" />
-            <SetReference attribute="node_id" value="TEAMROOM_ROOT_NODE" />
-            <Childs>
-                <ContentObject contentClass="teamroom_box_folder" section="{$public_section_id}" remoteID="{$teamroom_parent_node}_teamrooms_boxes">
-                    <Attributes>
-                        <name>{'Boxes'|i18n( 'ezteamroom/install/teamroomcontent' )}</name>
-                    </Attributes>
-                    <SetReference attribute="object_id" value="TEAMROOM_BOXPOOL" />
-                    <SetReference attribute="node_id" value="TEAMROOM_BOXPOOL_NODE" />
-                    <Childs>
-                        <ContentObject contentClass="teamroom_infobox" section="{$public_section_id}" remoteID="{$teamroom_parent_node}_teamrooms_box_mytlightbox">
-                            <Attributes>
-                                <header>{'Lightbox selection'|i18n( 'ezteamroom/install/teamroomcontent' )}</header>
-                                <box_icon>internal:ICON_619</box_icon>
-                                <content></content>
-                                <url></url>
-                                <module_url>ezjscore/run/lightbox/view/lightboxselection</module_url>
-                                <check_access></check_access>
-                            </Attributes>
-                            <SetReference attribute="object_id" value="LIGHTBOXSELECTION_BOX_OBJECT" />
-                        </ContentObject>
-                        <ContentObject contentClass="teamroom_infobox" section="{$public_section_id}" remoteID="{$teamroom_parent_node}_teamrooms_box_myteamrooms">
-                            <Attributes>
-                                <header>{'My Teamrooms'|i18n( 'ezteamroom/install/teamroomcontent' )}</header>
-                                <box_icon>internal:ICON_613</box_icon>
-                                <content></content>
-                                <url></url>
-                                <check_access></check_access>
-                                <module_url parseReferences="true">ezjscore/run/content/view/myteamrooms/[internal:TEAMROOM_ROOT_NODE]</module_url>
-                            </Attributes>
-                            <SetReference attribute="object_id" value="MYTEAMROOMS_BOX_OBJECT" />
-                        </ContentObject>
-{*
-                        <ContentObject contentClass="teamroom_infobox" section="{$public_section_id}" remoteID="{$teamroom_parent_node}_teamrooms_box_help">
-                            <Attributes>
-                                <header>{'Help'|i18n( 'ezteamroom/install/teamroomcontent' )}</header>
-                                <box_icon>internal:ICON_168</box_icon>
-                                <content>{'Some help text'|i18n( 'ezteamroom/install/teamroomcontent' )}</content>
-                                <url></url>
-                                <module_url></module_url>
-                                <check_access></check_access>
-                            </Attributes>
-                            <SetReference attribute="object_id" value="HELP_BOX_OBJECT" />
-                        </ContentObject>
-*}
-                        <ContentObject contentClass="teamroom_infobox" section="{$public_section_id}" remoteID="{$teamroom_parent_node}_teamrooms_box_allteamrooms">
-                            <Attributes>
-                                <header>{'All Teamrooms'|i18n( 'ezteamroom/install/teamroomcontent' )}</header>
-                                <box_icon>internal:ICON_224</box_icon>
-                                <content>Teamrooms</content>
-                                <url></url>
-                                <module_url parseReferences="true">ezjscore/run/content/view/teamroomlist/[internal:TEAMROOM_ROOT_NODE]</module_url>
-                                <check_access></check_access>
-                            </Attributes>
-                            <SetReference attribute="object_id" value="ALLTEAMROOMS_BOX_OBJECT" />
-                        </ContentObject>
-                        <ContentObject contentClass="teamroom_infobox" section="{$public_section_id}" remoteID="{$teamroom_parent_node}_createteamroom_box">
-                            <Attributes>
-                                <header>{'Create Teamroom'|i18n( 'ezteamroom/install/teamroomcontent' )}</header>
-                                <box_icon>internal:ICON_226</box_icon>
-                                <content>{'Add your teamroom and get all the things to manage your team.'|i18n( 'ezteamroom/install/teamroomcontent' )}</content>
-                                <check_access>teamroom/create</check_access>
-                            </Attributes>
-                            <SetReference attribute="node_id" value="CREATETEAMROOM_BOX_ROOT_NODE" />
-                            <SetReference attribute="object_id" value="CREATETEAMROOM_BOX_OBJECT" />
-                        </ContentObject>
-                        <ContentObject contentClass="teamroom_infobox" section="{$public_section_id}" remoteID="{$teamroom_parent_node}_createteamroom_box">
-                            <Attributes>
-                                <module_url parseReferences="true">ezjscore/run/content/view/createteamroom/[internal:CREATETEAMROOM_BOX_ROOT_NODE]</module_url>
-                            </Attributes>
-                        </ContentObject>
-                        <ContentObject contentClass="teamroom_infobox" section="{$public_section_id}" remoteID="{$teamroom_parent_node}_teamrooms_box_lightboxes">
-                            <Attributes>
-                                <header>{'Lightboxes'|i18n( 'ezteamroom/install/teamroomcontent' )}</header>
-                                <box_icon>internal:ICON_619</box_icon>
-                                <content></content>
-                                <url></url>
-                                <module_url>ezjscore/run/lightbox/view/lightboxlist</module_url>
-                                <check_access></check_access>
-                            </Attributes>
-                        </ContentObject>
-                        <ContentObject contentClass="teamroom_infobox" section="{$public_section_id}" remoteID="{$teamroom_parent_node}_teamrooms_box_latestmessages">
-                            <Attributes>
-                                <header>{'Latest Messages'|i18n( 'ezteamroom/install/teamroomcontent' )}</header>
-                                <box_icon>internal:ICON_620</box_icon>
-                                <content></content>
-                                <url></url>
-                                <module_url parseReferences="true">ezjscore/run/content/view/latestmessages/[internal:TEAMROOM_ROOT_NODE]</module_url>
-                                <check_access></check_access>
-                            </Attributes>
-                            <SetReference attribute="object_id" value="LATESTMESSAGES_BOX_OBJECT" />
-                        </ContentObject>
-                        <ContentObject contentClass="teamroom_infobox" section="{$public_section_id}" remoteID="{$teamroom_parent_node}_teamrooms_box_mytasks">
-                            <Attributes>
-                                <header>{'My Tasks'|i18n( 'ezteamroom/install/teamroomcontent' )}</header>
-                                <box_icon>internal:ICON_900</box_icon>
-                                <content></content>
-                                <url></url>
-                                <module_url parseReferences="true">ezjscore/run/content/view/mytasks/[internal:TEAMROOM_ROOT_NODE]</module_url>
-                                <check_access></check_access>
-                            </Attributes>
-                            <SetReference attribute="object_id" value="MYTASKS_BOX_OBJECT" />
-                        </ContentObject>
-                    </Childs>
-                </ContentObject>
-            </Childs>
-        </ContentObject>
-        <ContentObject contentClass="teamroom_personal_frontpage" section="{$public_section_id}" remoteID="{$teamroom_parent_node}_teamrooms">
-            <Attributes>
-                <default_arrangement parseReferences="true">[[[internal:CREATETEAMROOM_BOX_OBJECT],[internal:LIGHTBOXSELECTION_BOX_OBJECT]],[[internal:ALLTEAMROOMS_BOX_OBJECT]],[[internal:MYTEAMROOMS_BOX_OBJECT]],[[internal:LATESTMESSAGES_BOX_OBJECT]],[[internal:MYTASKS_BOX_OBJECT]]]</default_arrangement>
-            </Attributes>
-        </ContentObject>
-    </CreateContent>
-
-    <ProccessInformation comment="Creating workflows" />
-    <CreateWorkflow>
-      <WorkflowGroup name="Teamroom">
-        <Workflow name="{'Create Teamroom'|i18n( 'ezteamroom/install/workflows' )}" workflowTypeString="group_ezserial" referenceID="WORKFLOW_CREATETEAMROOM">
-          <Event description="Setup structure from XML" placement="1" workflowTypeString="event_ezxmlpublisher">
-            <Data />
-          </Event>
-        </Workflow>
-        <Workflow name="{'Approve Member Registration'|i18n( 'ezteamroom/install/workflows' )}" workflowTypeString="group_ezserial" referenceID="WORKFLOW_APPROVEMEMBERREGISTRATION">
-          <Event description="Approve" placement="1" workflowTypeString="event_ezapprovememberregistration">
-            <Data />
-          </Event>
-        </Workflow>
-        <Workflow name="{'Set Teamroom Section'|i18n( 'ezteamroom/install/workflows' )}" workflowTypeString="group_ezserial" referenceID="WORKFLOW_SETSECTION">
-          <Event description="Set Section" placement="1" workflowTypeString="event_ezsetsection">
-            <Data />
-          </Event>
-        </Workflow>
-        <Workflow name="{'Set Current Teamroom'|i18n( 'ezteamroom/install/workflows' )}" workflowTypeString="group_ezserial" referenceID="WORKFLOW_SETCURRENTTEAMROOM">
-          <Event description="Set Section" placement="1" workflowTypeString="event_ezsetteamroom">
-            <Data />
-          </Event>
-        </Workflow>
-        <Workflow name="{'Post Publish Multiplexer'|i18n( 'ezteamroom/install/workflows' )}" workflowTypeString="group_ezserial" referenceID="WORKFLOW_POSTPUBLISH">
-          <Event description="Class: Teamroom" placement="1" workflowTypeString="event_ezmultiplexer">
-            <Data>
-              <data_int1>[internal:WORKFLOW_CREATETEAMROOM]</data_int1>
-              <data_text1>-1</data_text1>
-              <data_text3>[internal:CLASS_TEAMROOM]</data_text3>
-            </Data>
-          </Event>
-          <Event description="Class: Teamroom" placement="2" workflowTypeString="event_ezmultiplexer">
-            <Data>
-              <data_int1>[internal:WORKFLOW_SETSECTION]</data_int1>
-              <data_text1>-1</data_text1>
-              <data_text3>[internal:CLASS_TEAMROOM]</data_text3>
-            </Data>
-          </Event>
-        </Workflow>
-        <Workflow name="{'Set Teamroom Membership'|i18n( 'ezteamroom/install/workflows' )}" workflowTypeString="group_ezserial" referenceID="WORKFLOW_TEAMROOM">
-          <Event description="Membership" placement="1" workflowTypeString="event_ezmultiplexer">
-            <Data>
-              <data_int1>[internal:WORKFLOW_SETCURRENTTEAMROOM]</data_int1>
-              <data_text1>[internal:SECTION_TEAMROOM],[{$public_section_id}],1</data_text1>
-              <data_text2>12,42</data_text2>
-              <data_text3>-1</data_text3>
-            </Data>
-          </Event>
-        </Workflow>
-      </WorkflowGroup>
-      <Trigger module="content" operation="publish" connectType="after" workflowID="internal:WORKFLOW_POSTPUBLISH" />
-      <Trigger module="teamroom" operation="register" connectType="before" workflowID="internal:WORKFLOW_APPROVEMEMBERREGISTRATION" />
-    </CreateWorkflow>
     <ProccessInformation comment="Assigning roles" />
     <AssignRoles>
         <RoleAssignment roleID="internal:ROLE_USETEAMROOM"     assignTo="{$guest_group_id}" />
