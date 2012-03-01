@@ -1690,7 +1690,7 @@ div.content-view-full div.class-event_calendar div.columns-frontpage
 }
 
 
-div.content-view-full div.class-wiki_page div.columns-frontpage
+div.content-view-full div.class-wiki-page div.columns-frontpage
 {
     padding: 0 260px 0 190px;
 }
@@ -1724,7 +1724,7 @@ div.content-view-full div.class-event_calendar div.columns-frontpage  div.left-c
     display: inline;
 }
 
-div.content-view-full div.class-wiki_page div.columns-frontpage div.left-column-position
+div.content-view-full div.class-wiki-page div.columns-frontpage div.left-column-position
 {
     width: 170px;
     margin-left: -190px;
@@ -1786,7 +1786,7 @@ div.content-view-full div.columns-frontpage div.center-column-position
 }
 
 div.content-view-full div.class-blog div.columns-frontpage div.center-column-position,
-div.content-view-full div.class-wiki_page div.columns-frontpage div.center-column-position
+div.content-view-full div.class-wiki-page div.columns-frontpage div.center-column-position
 {
     margin-top:0px;
 }
@@ -3557,8 +3557,8 @@ div.box_background,
 div.content-view-line div.class-blog-post,
 div.content-view-line div.class-event,
 div.content-view-full div.class-blog-post,
-div.content-view-full div.class-wiki_page div.center-column,
-div.content-view-full div.class-wiki_page div.left-column-position
+div.content-view-full div.class-wiki-page div.center-column,
+div.content-view-full div.class-wiki-page div.left-column-position
 {
     background: #fff url( '../images/blog_bg.gif' ) repeat-x top left;
     padding-top: 10px;
@@ -3566,7 +3566,7 @@ div.content-view-full div.class-wiki_page div.left-column-position
     padding-bottom: 20px;
 }
 
-div.content-view-full div.class-wiki_page div.left-column-position
+div.content-view-full div.class-wiki-page div.left-column-position
 {
     border: 1px solid #ccc;
     width: 180px;
