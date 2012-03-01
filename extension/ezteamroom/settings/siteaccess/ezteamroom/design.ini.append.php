@@ -16,6 +16,7 @@ JavaScriptList[]=ezdatepickerex.js
 JavaScriptList[]=yui/build/yahoo-dom-event/yahoo-dom-event.js
 JavaScriptList[]=yui/build/calendar/calendar.js
 JavaScriptList[]=ezevent.js
+JavaScriptList[]=ezdatepicker.js
 
 [StylesheetSettings]
 #CSSFileList[]=lightbox.css
