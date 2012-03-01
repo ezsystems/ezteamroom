@@ -5,11 +5,11 @@
     <name>design/ezevent/content/datatype</name>
     <message>
         <source>Normal</source>
-        <translation type="unfinished"></translation>
+        <translation>Normal</translation>
     </message>
     <message>
         <source>Full Day</source>
-        <translation type="unfinished"></translation>
+        <translation>ganztägig</translation>
     </message>
 </context>
 <context>
@@ -3338,23 +3338,27 @@ Sie sollten diese Person kontaktieren oder einen neuen eigenen Entwurf anlegen.<
     </message>
     <message>
         <source>Your email address has been confirmed. An email is send to you. Please follow the link to activate your account.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ihre E-Mail Adresse wurde bestätigt. In Kürze erhalten Sie eine weitere E-Mail. Bitte folgen Sie den Link um ihr Benutzerkonto zu aktivieren.</translation>
     </message>
     <message>
         <source>Thank you for registering at %siteurl.</source>
-        <translation type="unfinished">Vielen Dank, dass Sie sich auf %siteurl registriert haben.</translation>
+        <translation>Vielen Dank, dass Sie sich auf %siteurl registriert haben.</translation>
     </message>
     <message>
         <source>Your registration has been approved. You can login with your account %username.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ihre Registrierung war erfolgreich. Sie können sich nun mit ihren Benutzernamen (%username) anmelden.</translation>
     </message>
     <message>
         <source>Click the following URL to login:</source>
-        <translation type="unfinished"></translation>
+        <translation>Benutzen Sie den folgenden Link um sich anzumelden.</translation>
     </message>
     <message>
         <source>Click the following URL to verify your email address.</source>
-        <translation type="unfinished"></translation>
+        <translation>Benutzen Sie die folgenden URL um ihre E-Mail Adresse zu bestätigen.</translation>
+    </message>
+    <message>
+        <source> registration approved</source>
+        <translation> Registierung bestätigt</translation>
     </message>
 </context>
 <context>
