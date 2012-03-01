@@ -428,7 +428,7 @@
       </Attributes>
     </ContentClass>
     <ContentClass isContainer="true" identifier="teamroom_wiki" remoteID="" objectNamePattern="&lt;title&gt;" urlAliasPattern="" classExistAction="extend" referenceID="CLASS_WIKI">
-      <Names {$language}="{"Teamroom documentation page"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
+      <Names {$language}="{"Teamroom wiki"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
       <Groups>
          <Group name="Teamroom"/> {* If the group does not exist, it will be created automatically *}
       </Groups>
@@ -454,7 +454,7 @@
       </Attributes>
     </ContentClass>
     <ContentClass isContainer="true" identifier="teamroom_wiki_page" remoteID="" objectNamePattern="&lt;title&gt;" urlAliasPattern="" classExistAction="extend" referenceID="CLASS_WIKI">
-      <Names {$language}="{"Teamroom documentation page"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
+      <Names {$language}="{"Teamroom wiki page"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
       <Groups>
          <Group name="Teamroom"/> {* If the group does not exist, it will be created automatically *}
       </Groups>

@@ -2008,8 +2008,12 @@ Sie sollten diese Person kontaktieren oder einen neuen eigenen Entwurf anlegen.<
         <translation>Fußzeile</translation>
     </message>
     <message>
-        <source>Teamroom documentation page</source>
-        <translation>Teamroom Dokumentationsseite</translation>
+        <source>Teamroom wiki</source>
+        <translation>Teamroom wiki</translation>
+    </message>
+    <message>
+        <source>Teamroom wiki page</source>
+        <translation>Teamroom wiki Seite</translation>
     </message>
     <message>
         <source>Display sub items</source>

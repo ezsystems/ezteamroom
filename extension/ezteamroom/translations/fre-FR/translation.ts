@@ -1970,8 +1970,12 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
         <translation>Zone basse</translation>
     </message>
     <message>
-        <source>Teamroom documentation page</source>
-        <translation>Page</translation>
+        <source>Teamroom wiki</source>
+        <translation>wiki</translation>
+    </message>
+    <message>
+        <source>Teamroom wiki page</source>
+        <translation>wiki Page</translation>
     </message>
     <message>
         <source>Display sub items</source>
