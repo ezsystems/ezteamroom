@@ -39,7 +39,7 @@
                                 <div style="padding-left:190px;">
                                     <div style="background: url({'user/header_orange_background.jpg'|ezimage(single)}) repeat-x top; padding-top: 7px;">
                                      <div style="height: 38px;">
-                                      <span style="font-size:17px;font-weight:bold;color:#fff;">{$node.name|wash} ({$node.data_map.user_account.content.login|wash})</span>
+                                      <span style="font-size:17px;font-weight:bold;color:#fff;">{$node.name|wash}</span>
                                      </div>
                                     </div>
 

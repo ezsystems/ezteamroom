@@ -39,7 +39,7 @@
                                 <div class="profile-content">
                                     <div>
                                         <span class="profile-name">
-                                            {$userAccount.contentobject.name|wash} ({$userAccount.login|wash})
+                                            {$userAccount.contentobject.name|wash}
                                         </span>
                                     </div>
 
