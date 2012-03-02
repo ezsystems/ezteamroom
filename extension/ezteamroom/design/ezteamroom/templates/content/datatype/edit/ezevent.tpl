@@ -5,7 +5,8 @@
 {def
     $related_object_list    = $attribute.content.attendees
     $related_id_list        = array()
-    $event_type             = 11
+    $event_type             = 12
+    $event_mode             = 11
 }
 {if $attribute.content.event_type}
     {set $event_type = $attribute.content.event_type}
@@ -37,13 +38,20 @@
         <p>{'You are editing a single date of the recurent event "%name"<br />(period from %start to %end)'|i18n( 'design/ezteamroom/content/datatype',,hash( '%name', $attribute.content.parent_event.content_object.name|wash() , '%start', $attribute.content.parent_event.start.timestamp|l10n(shortdate), '%end', $attribute.content.parent_event.end.timestamp|l10n(shortdate) ) )}</p>
     {else}
     <div id="ezeventattribute_selection">
-        <label>{'Select type'|i18n( 'design/ezteamroom/content/datatype' )}:</label><br />
-        <input onclick="ezevent_seteditmode(11)" type="radio" name="{$attribute_base}_event_typeofevent_{$attribute.id}" value="11" {if $event_type|eq(11)}checked="checked"{/if} />{'Normal'|i18n( 'design/ezteamroom/content/datatype' )}
-        <input onclick="ezevent_seteditmode(12)" type="radio" name="{$attribute_base}_event_typeofevent_{$attribute.id}" value="12" {if $event_type|eq(12)}checked="checked"{/if} />{'Full Day'|i18n( 'design/ezteamroom/content/datatype' )}
-        <input onclick="ezevent_seteditmode(15)" type="radio" name="{$attribute_base}_event_typeofevent_{$attribute.id}" value="15" {if $event_type|eq(15)}checked="checked"{/if} />{'Weekly'|i18n( 'design/ezteamroom/content/datatype' )}
-        <input onclick="ezevent_seteditmode(16)" type="radio" name="{$attribute_base}_event_typeofevent_{$attribute.id}"  value="16" {if $event_type|eq(16)}checked="checked"{/if} />{'Monthly'|i18n( 'design/ezteamroom/content/datatype' )}
-        <input onclick="ezevent_seteditmode(17)" type="radio" name="{$attribute_base}_event_typeofevent_{$attribute.id}"  value="17" {if $event_type|eq(17)}checked="checked"{/if} />{'Yearly'|i18n( 'design/ezteamroom/content/datatype' )}
+        <label>{'Select type'|i18n( 'design/ezteamroom/content/datatype' )}:</label>
+        <input onclick="ezevent_seteditmode(11)" type="radio" name="{$attribute_base}_event_eventmode_{$attribute.id}" value="11" {if $event_mode|eq(11)}checked="checked"{/if} />{'Normal'|i18n( 'design/ezteamroom/content/datatype' )}
+        <input onclick="ezevent_seteditmode(12)" type="radio" name="{$attribute_base}_event_eventmode_{$attribute.id}" value="12" {if $event_mode|eq(12)}checked="checked"{/if} />{'Full Day'|i18n( 'design/ezteamroom/content/datatype' )}
     </div>
+    <br />
+    <div id="ezeventattribute_selection">
+        <label>{'Select recurrence'|i18n( 'design/ezteamroom/content/datatype' )}:</label>
+        <input type="radio" name="{$attribute_base}_event_typeofevent_{$attribute.id}" value="12" {if $event_type|eq(12)}checked="checked"{/if} />{'Simple'|i18n( 'design/ezteamroom/content/datatype' )}
+        <input  type="radio" name="{$attribute_base}_event_typeofevent_{$attribute.id}" value="15" {if $event_type|eq(15)}checked="checked"{/if} />{'Weekly'|i18n( 'design/ezteamroom/content/datatype' )}
+        <input  type="radio" name="{$attribute_base}_event_typeofevent_{$attribute.id}"  value="16" {if $event_type|eq(16)}checked="checked"{/if} />{'Monthly'|i18n( 'design/ezteamroom/content/datatype' )}
+        <input  type="radio" name="{$attribute_base}_event_typeofevent_{$attribute.id}"  value="17" {if $event_type|eq(17)}checked="checked"{/if} />{'Yearly'|i18n( 'design/ezteamroom/content/datatype' )}
+    </div>
+    <br />
+
     {/if}
     <table border="0" padding="2" id="ezevent_table">
     <tbody>
@@ -194,5 +202,5 @@
 </div>
 
 <script type="text/javascript" language="javascript">
-    ezevent_initWithMode( {$event_type} );
+    ezevent_initWithMode( {$event_mode});
 </script>

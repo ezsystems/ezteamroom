@@ -51,11 +51,11 @@
         {case match=11} {* Normal *}
             {if and( $eventDateContent.start.is_valid, $eventDateContent.end.is_valid )}
 
-                {'From %2 to %3'|i18n( 'ezteamroom/events', , array( $eventDateContent.start.timestamp|datetime( 'custom', '%l' ), $eventDateContent.start.timestamp|l10n( 'shortdatetime' ), $eventDateContent.end.timestamp|l10n( 'shortdatetime' ) ) )|wash()}
+                {'From %2 to %3'|i18n( 'ezteamroom/events', , array( $eventDateContent.start.timestamp|datetime( 'custom', '%l' ), $eventDateContent.start.timestamp|l10n( 'shortdate' ), $eventDateContent.end.timestamp|l10n( 'shortdate' ) ) )|wash()}
 
             {elseif $eventDateContent.start.is_valid}
 
-                {'On %1'|i18n( 'ezteamroom/events', , array( $eventDateContent.start.timestamp|l10n( 'datetime' ) ) )|wash()}
+                {'On %1'|i18n( 'ezteamroom/events', , array( $eventDateContent.start.timestamp|l10n( 'date' ) ) )|wash()}
 
             {else}
 
@@ -66,7 +66,7 @@
         {case match=12} {* Full day *}
             {if and( $eventDateContent.start.is_valid, $eventDateContent.end.is_valid )}
 
-                {'On %1 from %2 to %3'|i18n( 'ezteamroom/events', , array( $eventDateContent.start.timestamp|datetime( 'custom', '%l' ), $eventDateContent.start.timestamp|l10n( 'shortdatetime' ), $eventDateContent.end.timestamp|l10n( 'shortdatetime' ) ) )|wash()}
+                {'On %1 from %2 to %3'|i18n( 'ezteamroom/events', , array( $eventDateContent.start.timestamp|datetime( 'custom', '%l' ), $eventDateContent.start.timestamp|l10n( 'shortdate' ), $eventDateContent.end.timestamp|l10n( 'shortdate' ) ) )|wash()}
 
             {elseif $eventDateContent.start.is_valid}
 
