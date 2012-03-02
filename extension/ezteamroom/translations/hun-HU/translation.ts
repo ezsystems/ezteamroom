@@ -2,6 +2,17 @@
 <!DOCTYPE TS>
 <TS version="2.0">
 <context>
+    <name>design/ezevent/content/datatype</name>
+    <message>
+        <source>Normal</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Full Day</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>design/ezteamroom</name>
     <message>
         <source>Lightbox</source>
@@ -10,6 +21,101 @@
     <message>
         <source>Add this file to the current lightbox.</source>
         <translation type="unfinished">Tedd a fájlt az alapértelmezett gyűjtődobozba!</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezteamroom/content/datatype</name>
+    <message>
+        <source>You are editing a single date of the recurent event &quot;%name&quot;&lt;br /&gt;(period from %start to %end)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Select type</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Full Day</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Select event type</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Simple</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Weekly</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Monthly</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Yearly</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Startdate</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Year</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Month</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Day</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Starttime</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Hour</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Minute</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Enddate</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Endtime</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Hours</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Minutes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Attendees</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Please select more users here</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>other teamrooms</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -856,6 +962,10 @@ Your request is waiting for approval. To view the status of your request or to a
         <source>This Teamroom</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>My Tasks</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>ezteamroom/design</name>
@@ -1281,6 +1391,22 @@ Felveheti a kapcsolatot vele az egyik piszkoztata szerkesztése miatt vagy létr
     </message>
     <message>
         <source>Next Month</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>From %2 to %3</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>On %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>On %1 from %2 to %3</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>At %1</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -2367,6 +2493,10 @@ Felveheti a kapcsolatot vele az egyik piszkoztata szerkesztése miatt vagy létr
         <source>Latest Messages</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>My Tasks</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>ezteamroom/install/workflows</name>
@@ -3307,6 +3437,30 @@ Felveheti a kapcsolatot vele az egyik piszkoztata szerkesztése miatt vagy létr
         <source>If you forgot your password, use the following link to get a new password</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Your email address has been confirmed. An email is send to you. Please follow the link to activate your account.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source> registration approved</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Thank you for registering at %siteurl.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Your registration has been approved. You can login with your account %username.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Click the following URL to login:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Click the following URL to verify your email address.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>ezteamroom/messagecenter</name>
@@ -4198,6 +4352,14 @@ Felveheti a kapcsolatot vele az egyik piszkoztata szerkesztése miatt vagy létr
     </message>
     <message>
         <source>Move to group &apos;%1&apos;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Planned end:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Currently there are no new tasks.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

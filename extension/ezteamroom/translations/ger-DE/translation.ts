@@ -185,6 +185,14 @@
         <source>other teamrooms</source>
         <translation>weitere Teamräume</translation>
     </message>
+    <message>
+        <source>Select event type</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Simple</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>design/ezwebin/content/datatype</name>
