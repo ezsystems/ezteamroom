@@ -934,6 +934,12 @@ div.class-wiki-page div.blog_actions
     text-align:right;
     width:153px;
 }
+div.class-wiki div.blog_actions,
+div.class-wiki-page div.blog_actions
+{
+    width:293px;
+
+}
 div.class-event-calendar div.blog_actions
 {
     margin-top:-10px;
@@ -941,17 +947,25 @@ div.class-event-calendar div.blog_actions
 
 
 div.blog_actions div.attribute-comments,
-div.blog_actions div.attribute-edit
+div.blog_actions div.attribute-edit,
+div.class-wiki-page div.blog_actions div.keep-me-updated
 {
     border-left:1px solid #FFFFFF;
     float:left;
     height:50px;
-    padding-top:10px;
     padding-top:15px;
     text-align:center;
     width:50px;
 }
-
+div.class-wiki-page div.blog_actions div.keep-me-updated 
+{
+    padding-top:4px;
+    padding-left:5px;
+}
+div.class-wiki-page div.attribute-byline 
+{
+    padding-left:5px;
+}
 div.comment_actions div.attribute-comments,
 div.comment_actions div.attribute-edit
 {
@@ -3560,10 +3574,10 @@ div.box_background,
 div.content-view-line div.class-blog-post,
 div.content-view-line div.class-event,
 div.content-view-full div.class-blog-post,
-div.content-view-full div.class-wiki div.center-column,
-div.content-view-full div.class-wiki-page div.center-column,
-div.content-view-full div.class-wiki div.left-column-position,
-div.content-view-full div.class-wiki-page div.left-column-position
+/*div.content-view-full div.class-wiki div.center-column,*/
+/*div.content-view-full div.class-wiki div.left-column-position,*/
+div.content-view-full div.class-wiki-page div.center-column/*,
+div.content-view-full div.class-wiki-page div.left-column-position*/
 {
     background: #fff url( '../images/blog_bg.gif' ) repeat-x top left;
     padding-top: 10px;
@@ -3667,6 +3681,24 @@ div.content-view-line div.class-comment div.message h3
 }
 
 
+div.attribute-toc
+{
+    float: right;
+    margin: 1.5em;
+    padding: 0em 1em 1em 1em;
+
+    border: 1px solid #f06020;
+    border-radius:5px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+
+
+    -moz-box-shadow:5px 5px 5px rgba(240,96,32,0.5); /* Firefox - alte Syntax */
+    -webkit-box-shadow:5px 5px 5px rgba(240,96,32,0.5); /* Safari, Chrome - alte Syntax */
+    box-shadow:5px 5px 5px rgba(240,96,32,0.5); /* alle neuen Browser, W3C Standard */
+}
+}
+
 div.attribute-toc ul
 {
     margin-left: 5px;
@@ -3676,9 +3708,9 @@ div.attribute-toc ul
 
 div.attribute-toc ul.level0
 {
-    background:transparent url( '../images/li_vert.gif' ) no-repeat scroll 4px -5px;
-    margin-left:0px;
-    padding-top:2px;
+/*     background:transparent url( '../images/li_vert.gif' ) no-repeat scroll 4px -5px; */
+    margin-left: 0px;
+    padding: 0;
 }
 
 
