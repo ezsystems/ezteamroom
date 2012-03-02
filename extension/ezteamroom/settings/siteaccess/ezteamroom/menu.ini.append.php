@@ -38,6 +38,7 @@ LeftMenu=flat_left
 
 [MenuContentSettings]
 TopIdentifierList[]
+TopIdentifierList[]=user_group
 TopIdentifierList[]=teamroom_forum
 TopIdentifierList[]=teamroom_blog
 TopIdentifierList[]=teamroom_file_folder
