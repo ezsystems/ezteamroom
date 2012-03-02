@@ -9,7 +9,7 @@
     </message>
     <message>
         <source>Full Day</source>
-        <translation>ganztägig</translation>
+        <translation type="unfinished">Ganztägig</translation>
     </message>
     <message>
         <source>You are editing a single date of the recurent event &quot;%name&quot;&lt;br /&gt;(period from %start to %end)</source>
@@ -107,7 +107,7 @@
     </message>
     <message>
         <source>Select type</source>
-        <translation>Type auswählen</translation>
+        <translation>Typ auswählen</translation>
     </message>
     <message>
         <source>Normal</source>
@@ -187,11 +187,11 @@
     </message>
     <message>
         <source>Select event type</source>
-        <translation type="unfinished"></translation>
+        <translation>Eventtyp auswählen</translation>
     </message>
     <message>
         <source>Simple</source>
-        <translation type="unfinished"></translation>
+        <translation>Einfach</translation>
     </message>
 </context>
 <context>
