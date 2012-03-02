@@ -46,25 +46,77 @@
 
         <h2><a href={$object.main_node.url_alias|ezurl} title="{$object.name|wash()}">{$object.name|wash()}</a></h2>
 
-        {def $content=$object.data_map.event_date.content}
         <h4>
-        {switch match=$content.event_type}
+        {switch match = $eventDateContent.event_type}
         {case match=11} {* Normal *}
-            {if $content.start.is_valid}{$content.start.timestamp|l10n(datetime)}{/if}
-            {if $content.end.is_valid} - {$content.end.timestamp|l10n(datetime)}{/if}
+            {if and( $eventDateContent.start.is_valid, $eventDateContent.end.is_valid )}
+
+                {'From %2 to %3'|i18n( 'ezteamroom/events', , array( $eventDateContent.start.timestamp|datetime( 'custom', '%l' ), $eventDateContent.start.timestamp|l10n( 'shortdatetime' ), $eventDateContent.end.timestamp|l10n( 'shortdatetime' ) ) )|wash()}
+
+            {elseif $eventDateContent.start.is_valid}
+
+                {'On %1'|i18n( 'ezteamroom/events', , array( $eventDateContent.start.timestamp|l10n( 'datetime' ) ) )|wash()}
+
+            {else}
+
+                {'Invalid date'|i18n( 'ezteamroom/events' )|wash()}
+
+            {/if}
         {/case}
         {case match=12} {* Full day *}
-            {if $content.start.is_valid}{$content.start.timestamp|l10n(date)}{/if}
-            {if $content.end.is_valid} - {$content.end.timestamp|l10n(date)}{/if}
+            {if and( $eventDateContent.start.is_valid, $eventDateContent.end.is_valid )}
+
+                {'On %1 from %2 to %3'|i18n( 'ezteamroom/events', , array( $eventDateContent.start.timestamp|datetime( 'custom', '%l' ), $eventDateContent.start.timestamp|l10n( 'shortdatetime' ), $eventDateContent.end.timestamp|l10n( 'shortdatetime' ) ) )|wash()}
+
+            {elseif $eventDateContent.start.is_valid}
+
+                {'On %1'|i18n( 'ezteamroom/events', , array( $eventDateContent.start.timestamp|l10n( 'date' ) ) )|wash()}
+
+            {else}
+
+                {'Invalid date'|i18n( 'ezteamroom/events' )|wash()}
+
+            {/if}
         {/case}
         {case match=15} {* Weekly *}
-            {if $content.start.is_valid}Every {$content.start.timestamp|datetime('custom', '%l')} ({$content.start.timestamp|l10n(shortdate)}-{$content.end.timestamp|l10n(shortdate)}){/if}
+
+            {if $eventDateContent.start.is_valid}
+
+
+                {'Weekly on %1 from %2 to %3'|i18n( 'ezteamroom/events', , array( $eventDateContent.start.timestamp|datetime( 'custom', '%l' ), $eventDateContent.start.timestamp|l10n( 'shortdate' ), $eventDateContent.end.timestamp|l10n( 'shortdate' ) ) )|wash()}
+
+            {else}
+
+                {'Invalid date'|i18n( 'ezteamroom/events' )|wash()}
+
+            {/if}
+
         {/case}
         {case match=16} {* Monthly *}
-            {if $content.start.is_valid}Every {$content.start.timestamp|datetime('custom', '%d')}. a month.{/if}
+
+            {if $eventDateContent.start.is_valid}
+
+                {'Monthly each %1.'|i18n( 'ezteamroom/events', , array( $eventDateContent.start.timestamp|datetime( 'custom', '%d' ) ) )|wash()}
+
+            {else}
+
+                {'Invalid date'|i18n( 'ezteamroom/events' )|wash()}
+
+            {/if}
+
         {/case}
         {case match=17} {* Yearly *}
-            {if $content.start.is_valid}{$content.start.day}.{$content.start.month}.{/if}
+
+            {if $eventDateContent.start.is_valid}
+
+                {'Yearly the %1/%2'|i18n( 'ezteamroom/events', , array( $eventDateContent.start.day, $eventDateContent.start.month ) )|wash()}
+
+            {else}
+
+                {'Invalid date'|i18n( 'ezteamroom/events' )|wash()}
+
+            {/if}
+
         {/case}
         {/switch}
         </h4>

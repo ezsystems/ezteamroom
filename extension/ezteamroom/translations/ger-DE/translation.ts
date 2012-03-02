@@ -11,6 +11,82 @@
         <source>Full Day</source>
         <translation>ganztägig</translation>
     </message>
+    <message>
+        <source>You are editing a single date of the recurent event &quot;%name&quot;&lt;br /&gt;(period from %start to %end)</source>
+        <translation type="obsolete">Sie bearbeiten ein einzelnes Datum des wiederkehrenden Termins &quot;%name&quot;&lt;br /&gt;(Zeitraum von %start bis %end)</translation>
+    </message>
+    <message>
+        <source>Select type</source>
+        <translation type="obsolete">Type auswählen</translation>
+    </message>
+    <message>
+        <source>Weekly</source>
+        <translation type="obsolete">Wöchentlich</translation>
+    </message>
+    <message>
+        <source>Monthly</source>
+        <translation type="obsolete">Monatlich</translation>
+    </message>
+    <message>
+        <source>Yearly</source>
+        <translation type="obsolete">Jährlich</translation>
+    </message>
+    <message>
+        <source>Startdate</source>
+        <translation type="obsolete">Beginn</translation>
+    </message>
+    <message>
+        <source>Year</source>
+        <translation type="obsolete">Jahr</translation>
+    </message>
+    <message>
+        <source>Month</source>
+        <translation type="obsolete">Monat</translation>
+    </message>
+    <message>
+        <source>Day</source>
+        <translation type="obsolete">Tag</translation>
+    </message>
+    <message>
+        <source>Starttime</source>
+        <translation type="obsolete">Uhrzeit</translation>
+    </message>
+    <message>
+        <source>Hour</source>
+        <translation type="obsolete">Stunde</translation>
+    </message>
+    <message>
+        <source>Minute</source>
+        <translation type="obsolete">Minute</translation>
+    </message>
+    <message>
+        <source>Enddate</source>
+        <translation type="obsolete">Ende</translation>
+    </message>
+    <message>
+        <source>Endtime</source>
+        <translation type="obsolete">Uhrzeit</translation>
+    </message>
+    <message>
+        <source>Hours</source>
+        <translation type="obsolete">Stunden</translation>
+    </message>
+    <message>
+        <source>Minutes</source>
+        <translation type="obsolete">Minuten</translation>
+    </message>
+    <message>
+        <source>Attendees</source>
+        <translation type="obsolete">Teilnehmer</translation>
+    </message>
+    <message>
+        <source>Please select more users here</source>
+        <translation type="obsolete">Bitte wählen Sie hier mehr Teilnehmer aus</translation>
+    </message>
+    <message>
+        <source>other teamrooms</source>
+        <translation type="obsolete">weitere Teamräume</translation>
+    </message>
 </context>
 <context>
     <name>design/ezteamroom</name>
@@ -21,6 +97,93 @@
     <message>
         <source>Add this file to the current lightbox.</source>
         <translation>DIesen Eintrag zur aktuellen Lightbox hinzufügen.</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezteamroom/content/datatype</name>
+    <message>
+        <source>You are editing a single date of the recurent event &quot;%name&quot;&lt;br /&gt;(period from %start to %end)</source>
+        <translation>Sie bearbeiten ein einzelnes Datum des wiederkehrenden Termins &quot;%name&quot;&lt;br /&gt;(Zeitraum von %start bis %end)</translation>
+    </message>
+    <message>
+        <source>Select type</source>
+        <translation>Type auswählen</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>Normal</translation>
+    </message>
+    <message>
+        <source>Full Day</source>
+        <translation>Ganztägig</translation>
+    </message>
+    <message>
+        <source>Weekly</source>
+        <translation>Wöchentlich</translation>
+    </message>
+    <message>
+        <source>Monthly</source>
+        <translation>Monatlich</translation>
+    </message>
+    <message>
+        <source>Yearly</source>
+        <translation>Jährlich</translation>
+    </message>
+    <message>
+        <source>Startdate</source>
+        <translation>Beginn</translation>
+    </message>
+    <message>
+        <source>Year</source>
+        <translation>Jahr</translation>
+    </message>
+    <message>
+        <source>Month</source>
+        <translation>Monat</translation>
+    </message>
+    <message>
+        <source>Day</source>
+        <translation>Tag</translation>
+    </message>
+    <message>
+        <source>Starttime</source>
+        <translation>Uhrzeit</translation>
+    </message>
+    <message>
+        <source>Hour</source>
+        <translation>Stunde</translation>
+    </message>
+    <message>
+        <source>Minute</source>
+        <translation>Minute</translation>
+    </message>
+    <message>
+        <source>Enddate</source>
+        <translation>Ende</translation>
+    </message>
+    <message>
+        <source>Endtime</source>
+        <translation>Uhrzeit</translation>
+    </message>
+    <message>
+        <source>Hours</source>
+        <translation>Stunden</translation>
+    </message>
+    <message>
+        <source>Minutes</source>
+        <translation>Minuten</translation>
+    </message>
+    <message>
+        <source>Attendees</source>
+        <translation>Teilnehmer</translation>
+    </message>
+    <message>
+        <source>Please select more users here</source>
+        <translation>Bitte wählen Sie hier mehr Teilnehmer aus</translation>
+    </message>
+    <message>
+        <source>other teamrooms</source>
+        <translation>weitere Teamräume</translation>
     </message>
 </context>
 <context>
@@ -1302,6 +1465,22 @@ Sie sollten diese Person kontaktieren oder einen neuen eigenen Entwurf anlegen.<
     <message>
         <source>Next Month</source>
         <translation>Nächster Monat</translation>
+    </message>
+    <message>
+        <source>On %1 from %2 to %3</source>
+        <translation>Am %1 von %2 bis %3</translation>
+    </message>
+    <message>
+        <source>On %1</source>
+        <translation>Am %1</translation>
+    </message>
+    <message>
+        <source>At %1</source>
+        <translation>Am %1</translation>
+    </message>
+    <message>
+        <source>From %2 to %3</source>
+        <translation>Von %2 bis %3</translation>
     </message>
 </context>
 <context>
