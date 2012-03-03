@@ -1417,10 +1417,14 @@
                                 <box_icon>internal:ICON_226</box_icon>
                                 <content>{'Add your teamroom and get all the things to manage your team.'|i18n( 'ezteamroom/install/teamroomcontent' )}</content>
                                 <check_access>teamroom/create</check_access>
-                                <module_url parseReferences="true">ezjscore/run/content/view/createteamroom/[internal:CREATETEAMROOM_BOX_ROOT_NODE]</module_url>
                             </Attributes>
                             <SetReference attribute="node_id" value="CREATETEAMROOM_BOX_ROOT_NODE" />
                             <SetReference attribute="object_id" value="CREATETEAMROOM_BOX_OBJECT" />
+                        </ContentObject>
+                        <ContentObject contentClass="teamroom_infobox" section="{$public_section_id}" remoteID="{$teamroom_parent_node}_createteamroom_box">
+                            <Attributes>
+                                <module_url parseReferences="true">ezjscore/run/content/view/createteamroom/[internal:CREATETEAMROOM_BOX_ROOT_NODE]</module_url>
+                            </Attributes>
                         </ContentObject>
                         <ContentObject contentClass="teamroom_infobox" section="{$public_section_id}" remoteID="{$teamroom_parent_node}_teamrooms_box_lightboxes">
                             <Attributes>
@@ -1583,35 +1587,6 @@
         <SettingsBlock name="VisibilitySettings_protected">
           <TeamroomSection>[{$public_section_id}]</TeamroomSection>
           <SubTreeSection>[internal:SECTION_TEAMROOM]</SubTreeSection>
-        </SettingsBlock>
-        <SettingsBlock name="PermissionSettings">
-          <TeamroomRoleList>
-            <value>[internal:ROLE_3]</value>
-            <value>[internal:ROLE_4]</value>
-            <value>[internal:ROLE_5]</value>
-            <value>[internal:ROLE_6]</value>
-            <value>[internal:ROLE_7]</value>
-            <value>[internal:ROLE_8]</value>
-            <value>[internal:ROLE_9]</value>
-            <value>[internal:ROLE_10]</value>
-            <value>[internal:ROLE_11]</value>
-            <value>[internal:ROLE_12]</value>
-            <value>[internal:ROLE_13]</value>
-            <value>[internal:ROLE_14]</value>
-            <value>[internal:ROLE_15]</value>
-            <value>[internal:ROLE_16]</value>
-          </TeamroomRoleList>
-          <TeamroomDefaultRoleList>
-            <value>[internal:ROLE_3]</value>
-            <value>[internal:ROLE_5]</value>
-            <value>[internal:ROLE_7]</value>
-            <value>[internal:ROLE_9]</value>
-            <value>[internal:ROLE_11]</value>
-            <value>[internal:ROLE_13]</value>
-            <value>[internal:ROLE_15]</value>
-          </TeamroomDefaultRoleList>
-          <TeamroomMemberGroupRole>[internal:ROLE_1]</TeamroomMemberGroupRole>
-          <TeamroomLeaderGroupRole>[internal:ROLE_2]</TeamroomLeaderGroupRole>
         </SettingsBlock>
         <SettingsBlock name="TeamroomIconSettings">
           <Icon003>[internal:ICON_003]</Icon003>
@@ -2195,6 +2170,40 @@
       </Policy>
     </Role>
   </CreateRole>
+    <ProccessInformation comment="Registering Role IDs" />
+    <SetSettings>
+      <SettingsFile name="teamroom.ini" location="settings/override">
+        <SettingsBlock name="PermissionSettings">
+          <TeamroomRoleList>
+            <value>[internal:ROLE_3]</value>
+            <value>[internal:ROLE_4]</value>
+            <value>[internal:ROLE_5]</value>
+            <value>[internal:ROLE_6]</value>
+            <value>[internal:ROLE_7]</value>
+            <value>[internal:ROLE_8]</value>
+            <value>[internal:ROLE_9]</value>
+            <value>[internal:ROLE_10]</value>
+            <value>[internal:ROLE_11]</value>
+            <value>[internal:ROLE_12]</value>
+            <value>[internal:ROLE_13]</value>
+            <value>[internal:ROLE_14]</value>
+            <value>[internal:ROLE_15]</value>
+            <value>[internal:ROLE_16]</value>
+          </TeamroomRoleList>
+          <TeamroomDefaultRoleList>
+            <value>[internal:ROLE_3]</value>
+            <value>[internal:ROLE_5]</value>
+            <value>[internal:ROLE_7]</value>
+            <value>[internal:ROLE_9]</value>
+            <value>[internal:ROLE_11]</value>
+            <value>[internal:ROLE_13]</value>
+            <value>[internal:ROLE_15]</value>
+          </TeamroomDefaultRoleList>
+          <TeamroomMemberGroupRole>[internal:ROLE_1]</TeamroomMemberGroupRole>
+          <TeamroomLeaderGroupRole>[internal:ROLE_2]</TeamroomLeaderGroupRole>
+        </SettingsBlock>
+      </SettingsFile>
+    </SetSettings>
     <ProccessInformation comment="Assigning roles" />
     <AssignRoles>
         <RoleAssignment roleID="internal:ROLE_USETEAMROOM"     assignTo="{$guest_group_id}" />
