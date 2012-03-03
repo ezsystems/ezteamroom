@@ -5,5 +5,6 @@ ExtensionRepositories[]=ezteamroom
 ModuleList[]=tasklist
 ModuleList[]=teamroom
 ModuleList[]=filelist
+ModuleList[]=wiki
 
 */ ?>
