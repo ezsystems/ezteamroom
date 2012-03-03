@@ -1417,14 +1417,10 @@
                                 <box_icon>internal:ICON_226</box_icon>
                                 <content>{'Add your teamroom and get all the things to manage your team.'|i18n( 'ezteamroom/install/teamroomcontent' )}</content>
                                 <check_access>teamroom/create</check_access>
+                                <module_url parseReferences="true">ezjscore/run/content/view/createteamroom/[internal:CREATETEAMROOM_BOX_ROOT_NODE]</module_url>
                             </Attributes>
                             <SetReference attribute="node_id" value="CREATETEAMROOM_BOX_ROOT_NODE" />
                             <SetReference attribute="object_id" value="CREATETEAMROOM_BOX_OBJECT" />
-                        </ContentObject>
-                        <ContentObject contentClass="teamroom_infobox" section="{$public_section_id}" remoteID="{$teamroom_parent_node}_createteamroom_box">
-                            <Attributes>
-                                <module_url parseReferences="true">ezjscore/run/content/view/createteamroom/[internal:CREATETEAMROOM_BOX_ROOT_NODE]</module_url>
-                            </Attributes>
                         </ContentObject>
                         <ContentObject contentClass="teamroom_infobox" section="{$public_section_id}" remoteID="{$teamroom_parent_node}_teamrooms_box_lightboxes">
                             <Attributes>
