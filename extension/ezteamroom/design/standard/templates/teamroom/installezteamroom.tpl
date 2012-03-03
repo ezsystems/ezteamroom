@@ -453,7 +453,7 @@
         </Attribute>
       </Attributes>
     </ContentClass>
-    <ContentClass isContainer="false" identifier="teamroom_wiki_page" remoteID="" objectNamePattern="&lt;title&gt;" urlAliasPattern="" classExistAction="extend" referenceID="CLASS_WIKI">
+    <ContentClass isContainer="false" identifier="teamroom_wiki_page" remoteID="" objectNamePattern="&lt;title&gt;" urlAliasPattern="" classExistAction="extend" referenceID="CLASS_WIKI_PAGE">
       <Names {$language}="{"Teamroom wiki page"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
       <Groups>
          <Group name="Teamroom"/> {* If the group does not exist, it will be created automatically *}
@@ -2085,26 +2085,27 @@
       <Policy module="content" function="read">
         <Limitations>
           <Class>internal:CLASS_WIKI</Class>
+          <Class>internal:CLASS_WIKI_PAGE</Class>
         </Limitations>
       </Policy>
     </Role>
     <Role name="Teamroom {'Use Wiki'|i18n( 'ezteamroom/install/roles' )}" createRole="true" referenceID="ROLE_12">
       <Policy module="content" function="create">
         <Limitations>
-          <Class>internal:CLASS_WIKI</Class>
+          <Class>internal:CLASS_WIKI_PAGE</Class>
           <ParentClass>internal:CLASS_WIKI</ParentClass>
         </Limitations>
       </Policy>
       <Policy module="content" function="edit">
         <Limitations>
-          <Class>internal:CLASS_WIKI</Class>
+          <Class>internal:CLASS_WIKI_PAGE</Class>
           <Section>internal:SECTION_TEAMROOM</Section>
           <Section>{$public_section_id}</Section>
         </Limitations>
       </Policy>
       <Policy module="content" function="remove">
         <Limitations>
-          <Class>internal:CLASS_WIKI</Class>
+          <Class>internal:CLASS_WIKI_PAGE</Class>
           <Owner>1</Owner>
         </Limitations>
       </Policy>
