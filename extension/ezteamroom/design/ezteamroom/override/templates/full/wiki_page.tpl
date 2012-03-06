@@ -1,11 +1,20 @@
 <div class="content-view-full">
-<div class="class-wiki-page {*leftcolumn *}noleftcolumn norightcolumn">
+<div class="class-wiki-page leftcolumn norightcolumn">
 
     <div class="attribute-header">
         <h1>{'Wiki'|i18n('ezteamroom/wiki')}</h1>
     </div>
 
     <div class="columns-frontpage float-break">
+        <div class="left-column-position">
+            <div class="left-column">
+            <!-- Content: START -->
+
+                {include uri='design:parts/wiki_leftcol.tpl'}
+
+            <!-- Content: END -->
+            </div>
+        </div>
         <div class="center-column-position">
             <div class="center-column float-break">
                 <div class="overflow-fix">
@@ -16,11 +25,6 @@
 
                     <div class="content-view-full">
                         <div class="class-wiki-page">
-
-                            <div class="attribute-byline">
-                                <span class="date">{$node.object.modified|l10n(shortdatetime)}</span> |
-                                <span class="author"><strong>{'Author'|i18n('ezteamroom/wiki')} </strong>{$node.object.owner.name|wash()}</span>
-                            </div>
 
                             <div class="blog_actions float-break">
                                 {if $node.object.can_edit}
@@ -44,7 +48,14 @@
                                 </div>
                                 {/if}
 
+                            </div>
 
+                            <div class="attribute-byline">
+                                <span class="date">{$node.object.modified|l10n(shortdatetime)}</span> |
+                                <span class="author"><strong>{'Author'|i18n('ezteamroom/wiki')} </strong>{$node.object.owner.name|wash()}</span>
+                            </div>
+
+                            <div class="attribute-header">
                                 <div class="keep-me-updated">
                                     <form method="post" action={"content/action/"|ezurl}>
                                         <input type="hidden" name="ContentNodeID" value="{$node.node_id}" />
@@ -55,11 +66,9 @@
                                         </div>
                                     </form>
                                 </div>
-                            </div>
 
-
-                            <div class="attribute-header">
                                 <h1>{attribute_view_gui attribute=$node.object.data_map.title}</h1>
+
                             </div>
 
                             <div class="attribute-body">

@@ -104,7 +104,9 @@
         <ContentObject owner="{$owner_object_id}" creator="{$owner_object_id}" contentClass="{$class_identifier_map['wiki']}" section="{$publicSectionID}" remoteID="{$main_node_id}_wiki">
             <Attributes>
                 <title>{'Wiki'|i18n('ezteamroom/creation')}</title>
-                <body>&lt;header level=&quot;1&quot;&gt;{'Wiki'|i18n('ezteamroom/creation')}&lt;/header&gt;</body>
+                <body>&lt;header level=&quot;1&quot;&gt;Welcome to this teamrooms {'Wiki'|i18n('ezteamroom/creation')}.&lt;/header&gt;
+Use the &lt;custom name=&quot;underline&quot;&gt;&lt;emphasize&gt;wiki search&lt;/emphasize&gt;&lt;/custom&gt; on the &lt;strong&gt;left site menu&lt;/strong&gt; to find your article.
+Read a random wiki page by clicking on the &lt;emphasize&gt;random page&lt;/emphasize&gt; link or browse thru all articles in the alphabetical list &lt;emphasize&gt;A to Z&lt;/emphasize&gt;.</body>
                 <tags></tags>
             </Attributes>
             <SetReference attribute="object_id" value="WIKI_OBJECT_ID" />

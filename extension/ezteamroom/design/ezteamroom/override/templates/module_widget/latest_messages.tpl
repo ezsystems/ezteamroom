@@ -1,4 +1,4 @@
-
+<!--PFBOXCONTENT-->
 <div class="latest-messages itemized_sub_items">
 <div class="content-view-embed">
 

@@ -925,20 +925,12 @@ div.comment_actions
 
 
 
-div.class-event-calendar div.blog_actions,
-div.class-wiki div.blog_actions,
-div.class-wiki-page div.blog_actions
+div.class-event-calendar div.blog_actions
 {
     float:right;
     margin-top:-32px;
     text-align:right;
     width:153px;
-}
-div.class-wiki div.blog_actions,
-div.class-wiki-page div.blog_actions
-{
-    width:293px;
-
 }
 div.class-event-calendar div.blog_actions
 {
@@ -947,20 +939,13 @@ div.class-event-calendar div.blog_actions
 
 
 div.blog_actions div.attribute-comments,
-div.blog_actions div.attribute-edit,
-div.class-wiki-page div.blog_actions div.keep-me-updated
-{
+div.blog_actions div.attribute-edit{
     border-left:1px solid #FFFFFF;
     float:left;
-    height:50px;
+/*     height:50px; */
     padding-top:15px;
     text-align:center;
     width:50px;
-}
-div.class-wiki-page div.blog_actions div.keep-me-updated 
-{
-    padding-top:4px;
-    padding-left:5px;
 }
 div.class-wiki-page div.attribute-byline 
 {
@@ -1296,6 +1281,44 @@ div#searchbox input#searchtext
     margin-bottom: 3px;
     background-color: #FFF;
 }
+
+div#wikisearch
+{
+    margin:0px;
+    text-align:left;
+    width: 120px;
+}
+div#wikisearch label
+{
+    display: inline;
+    font-size: 12px;
+    margin-bottom: 3px;
+    position: relative;
+}
+div#wikisearch input#wikisearchbutton
+{
+    height: 19px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    color: #000;
+    margin: 0px;
+    margin-bottom: 3px;
+    padding: 0px;
+    font-weight: bold;
+    font-size: 11px;
+}
+div#wikisearch input#wikisearchtext
+{
+    border:1px solid #ccc;
+    font-size:12px;
+    height: 15px;
+    margin-bottom: 3px;
+    background-color: #FFF;
+    width: 100px;
+}
+
+
+
 
 div#topmenu
 {
@@ -1707,7 +1730,7 @@ div.content-view-full div.class-event_calendar div.columns-frontpage
 div.content-view-full div.class-wiki div.columns-frontpage,
 div.content-view-full div.class-wiki-page div.columns-frontpage
 {
-    padding: 0 260px 0 190px;
+    padding: 0 260px 0 130px;
 }
 
 div.class-teamroom-header.noleftcolumn div.columns-teamroom-header,
@@ -1742,11 +1765,9 @@ div.content-view-full div.class-event_calendar div.columns-frontpage  div.left-c
 div.content-view-full div.class-wiki div.columns-frontpage div.left-column-position,
 div.content-view-full div.class-wiki-page div.columns-frontpage div.left-column-position
 {
-    width: 170px;
-    margin-left: -190px;
+    width: 130px;
+    margin-left: -130px;
 }
-
-
 
 div.class-teamroom-header.noleftcolumn div.columns-teamroom-header div.left-column-position,
 div.content-view-full div.noleftcolumn div.columns-frontpage div.left-column-position
@@ -1820,7 +1841,7 @@ div.class-teamroom-header.norightcolumn div.columns-teamroom-header div.center-c
 div.content-view-full div.norightcolumn div.columns-frontpage div.center-column-position div.center-column
 {
     margin-right: 0;
-    padding-left: 0;
+    padding-left: 10px;
 }
 
 div.class-teamroom-header div.columns-teamroom-header div.center-column-position div.center-column,
@@ -2065,12 +2086,6 @@ div.right-column div.border-box div.create-task div.submitimage,
 div.right-column div.border-box div.create-file div.submitimage
 {
     padding-top:5px;
-    text-align:center;
-}
-
-div.right-column div.border-box div.create-task div.keepupdated
-{
-    padding-top:9px;
     text-align:center;
 }
 
@@ -3574,10 +3589,10 @@ div.box_background,
 div.content-view-line div.class-blog-post,
 div.content-view-line div.class-event,
 div.content-view-full div.class-blog-post,
-/*div.content-view-full div.class-wiki div.center-column,*/
-/*div.content-view-full div.class-wiki div.left-column-position,*/
-div.content-view-full div.class-wiki-page div.center-column/*,
-div.content-view-full div.class-wiki-page div.left-column-position*/
+div.content-view-full div.class-wiki div.center-column,
+div.content-view-full div.class-wiki div.left-column,
+div.content-view-full div.class-wiki-page div.center-column,
+div.content-view-full div.class-wiki-page div.left-column
 {
     background: #fff url( '../images/blog_bg.gif' ) repeat-x top left;
     padding-top: 10px;
@@ -3592,15 +3607,30 @@ div.content-view-full div.class-wiki-page div.left-column-position
     width: 180px;
 }
 
-div.content-view-full div.class-blog-post
+div.content-view-full div.class-blog-post,
+div.content-view-full div.class-wiki,
+div.content-view-full div.class-wiki-page
 {
     margin-top: 0;
 }
+div.content-view-line div.class-wiki div.attribute-byline span.date,
+div.content-view-full div.class-wiki div.attribute-byline span.date,
+div.content-view-line div.class-wiki-page div.attribute-byline span.date,
+div.content-view-full div.class-wiki-page div.attribute-byline span.date,
 div.content-view-line div.class-blog-post div.attribute-byline span.date,
 div.content-view-full div.class-blog-post div.attribute-byline span.date
 {
     color: #f06020;
 }
+
+div.content-view-line div.class-wiki div.attribute-byline,
+div.content-view-line div.class-wiki div.attribute-byline span.author,
+div.content-view-full div.class-wiki div.attribute-byline,
+div.content-view-full div.class-wiki div.attribute-byline span.author,
+div.content-view-line div.class-wiki-page div.attribute-byline,
+div.content-view-line div.class-wiki-page div.attribute-byline span.author,
+div.content-view-full div.class-wiki-page div.attribute-byline,
+div.content-view-full div.class-wiki-page div.attribute-byline span.author,
 div.content-view-line div.class-blog-post div.attribute-byline,
 div.content-view-line div.class-blog-post div.attribute-byline span.author,
 div.content-view-full div.class-blog-post div.attribute-byline,
@@ -3609,6 +3639,10 @@ div.content-view-full div.class-blog-post div.attribute-byline span.author
     color: #999;
 }
 
+div.content-view-line div.class-wiki div.attribute-byline span.author strong,
+div.content-view-full div.class-wiki div.attribute-byline span.author strong,
+div.content-view-line div.class-wiki-page div.attribute-byline span.author strong,
+div.content-view-full div.class-wiki-page div.attribute-byline span.author strong,
 div.content-view-line div.class-blog-post div.attribute-byline span.author strong,
 div.content-view-full div.class-blog-post div.attribute-byline span.author strong
 {
@@ -3680,7 +3714,17 @@ div.content-view-line div.class-comment div.message h3
     margin-top: 0px;
 }
 
+div.content-view-children-wiki_atoz
+{
+    margin-bottom: 2em;
+}
 
+div.content-view-full div.class-wiki-page div.keep-me-updated
+{
+    float:right;
+    padding: 0em 1em 0em 1em;
+    margin: 0.5em 1.5em 0em 1.5em;
+}
 div.attribute-toc
 {
     float: right;
@@ -3697,7 +3741,8 @@ div.attribute-toc
     -webkit-box-shadow:5px 5px 5px rgba(240,96,32,0.5); /* Safari, Chrome - alte Syntax */
     box-shadow:5px 5px 5px rgba(240,96,32,0.5); /* alle neuen Browser, W3C Standard */
 }
-}
+
+
 
 div.attribute-toc ul
 {
@@ -3750,6 +3795,11 @@ div.attribute-toc ul.level1 li a
     font-weight: normal;
 }
 
+div.attribute-body div.attribute-toc ul,
+div.attribute-body div.attribute-toc ol
+{
+    padding-left: 0.8em;
+}
 
 
 div.cal_entry
