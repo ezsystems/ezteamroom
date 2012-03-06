@@ -187,34 +187,8 @@ class eZTeamroomOperators
             } break;
             case 'eztoc2':
             {
-                $dom = $namedParameters['dom'];
-                $tocText = '';
-                if ( $dom instanceof eZContentObjectAttribute )
-                {
-                    $this->ObjectAttributeId = $dom->attribute( 'id' );
-                    $content = $dom->attribute( 'content' );
-                    $xmlData = $content->attribute( 'xml_data' );
-
-                    $domTree = new DOMDocument( '1.0', 'utf-8' );
-                    $domTree->preserveWhiteSpace = false;
-                    $success = $domTree->loadXML( $xmlData );
-
-                    $tocText = '';
-                    $tocArray = array();
-                    if ( $success )
-                    {
-                        $this->HeaderCounter = array();
-
-                        $rootNode = $domTree->documentElement;
-                        $this->handleSection( $rootNode, $tocArray );
-
-                    }
-                    foreach ( $tocArray as $toc )
-                    {
-                        $tocText .= $this->handleTocElement( $toc );
-                    }
-                }
-                $operatorValue = $tocText;
+                $tocCreator = new eZTeamroomTOC($namedParameters['dom']);
+                $operatorValue = $tocCreator->getHTML();
             } break;
 
             case 'teamroom_version':
@@ -243,96 +217,6 @@ class eZTeamroomOperators
         }
     }
 
-    private function handleSection( $sectionNode, &$tocArray, $level = 0 )
-    {
-        // Reset next level counter
-        $this->HeaderCounter[$level + 1] = 0;
-
-        $currentToc = array();
-        $children = $sectionNode->childNodes;
-        foreach ( $children as $key => $child )
-        {
-            if ( $child->nodeName == 'section' )
-            {
-
-                $childArray = array();
-                $this->handleSection( $child, $childArray, $level + 1 );
-                if ( count($childArray) )
-                {
-                    if ( !array_key_exists( 'children', $currentToc ) )
-                        $currentToc['children'] = array();
-
-                    $currentToc['children'] = array_merge( $currentToc['children'], $childArray );
-                }
-            }
-
-            if ( $child->nodeName == 'header' )
-            {
-                $this->HeaderCounter[$level] += 1;
-                $i = 1;
-                $headerAutoName = "";
-                while ( $i <= $level )
-                {
-                    if ( $i > 1 )
-                        $headerAutoName .= "_";
-
-                    $headerAutoName .= $this->HeaderCounter[$i];
-                    $i++;
-                }
-                $text = '<a href="#eztoc' . $this->ObjectAttributeId . '_' . $headerAutoName . '">' . $child->textContent . '</a>';
-                $currentToc['text'] = $text;
-
-            }
-        }
-        $tocArray[] = $currentToc;
-        return true;
-    }
-
-    private function handleTocElement( $tocArray, $class="", $level = 0 )
-    {
-        $text = '';
-        if ( $level != 0 )
-        {
-            if ( $class != "" )
-            {
-                $text .= "<li class=\"".$class."\">\n";
-            }
-            else
-            {
-                $text .= "<li>\n";
-            }
-        }
-        if ( array_key_exists( 'text', $tocArray )  )
-        {
-            $text .= $tocArray['text'];
-        }
-        elseif ( $level != 0 )
-        {
-            $text .= '<a href="#">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>';
-        }
-        if ( array_key_exists( 'children', $tocArray ) )
-        {
-            $text .= "<ul class=\"level" . $level . "\">\n";
-            $counter = 0;
-            foreach ( $tocArray['children'] as $toc )
-            {
-                $counter++;
-                $class = "";
-                if ( $counter == 1 )
-                {
-                    $class .= ' firstelem';
-                }
-                if ( $counter == count( $tocArray['children'] ) )
-                {
-                    $class .= ' lastelem';
-                }
-                $text .= $this->handleTocElement( $toc, $class, $level + 1 );
-            }
-            $text .= "</ul>\n";
-        }
-        $text .= "</li>\n";
-        return $text;
-    }
     static function joinTeamroomInProgress( $teamroomID, $userID = false )
     {
         $workflowEventList = eZWorkflowEvent::fetchFilteredList( array( 'workflow_type_string' => 'event_ezapprovemembership' ), false );
@@ -359,10 +243,6 @@ class eZTeamroomOperators
         }
         return false;
     }
-
-    public $HeaderCounter = array();
-
-    public $ObjectAttributeId;
 
     // \privatesection
     var $Operators;
