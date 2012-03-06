@@ -1,4 +1,4 @@
-﻿{*
+{*
         'site_access_name',     hash(   'info',     'Name of the new teamroom frontend siteaccess',
                                         'type',     'string',
                                         'default',  'ezteamroom'
@@ -1504,6 +1504,14 @@
         </SettingsBlock>
         <SettingsBlock name="UserSettings">
             <DefaultUserPlacement>{$guest_group_node_id}</DefaultUserPlacement>
+        </SettingsBlock>
+      </SettingsFile>
+      <SettingsFile name="content.ini" location="{$site_access_dir}">
+        <SettingsBlock name="AlphabeticalFilterSettings">
+            <ContentFilterList>
+              <value></value>
+              <value>{$language}</value>
+            </SiteLanguageList>
         </SettingsBlock>
       </SettingsFile>
       <SettingsFile name="event.ini" location="{$site_access_dir}">
