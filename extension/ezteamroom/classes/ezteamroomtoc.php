@@ -90,7 +90,10 @@ class eZTeamroomTOC
     private function handleSection( $sectionNode, &$tocArray, $level = 0 )
     {
         // Reset next level counter
-        $this->HeaderCounter[$level + 1] = 0;
+        if ( !isset( $this->HeaderCounter[$level + 1] ) )
+        {
+            $this->HeaderCounter[$level + 1] = 0;
+        }
 
         $currentToc = array();
         $children = $sectionNode->childNodes;
@@ -112,6 +115,19 @@ class eZTeamroomTOC
             if ( $child->nodeName == 'header' )
             {
                 $this->HeaderCounter[$level] += 1;
+                $i = 1;
+                $headerAutoName = "";
+                while ( $i <= $level )
+                {
+                    if ( $i > 1 )
+                        $headerAutoName .= "_";
+
+                    $headerAutoName .= $this->HeaderCounter[$i];
+                    $i++;
+                }
+                $text = '<a href="#eztoc' . $this->ObjectAttributeId . '_' . $headerAutoName . '">' . $child->textContent . '</a>';
+                $currentToc['anchor'] = $text;
+
                 $currentToc['text'] = $child->textContent;
             }
         }
@@ -136,17 +152,7 @@ class eZTeamroomTOC
         }
         if ( array_key_exists( 'text', $tocArray )  )
         {
-            $i = 1;
-            $headerAutoName = "";
-            while ( $i <= $level )
-            {
-                if ( $i > 1 )
-                    $headerAutoName .= "_";
-
-                $headerAutoName .= $this->HeaderCounter[$i];
-                $i++;
-            }
-            $text .= '<a href="#eztoc' . $this->ObjectAttributeId . '_' . $headerAutoName . '">' . $tocArray['text'] . '</a>';
+            $text .= $tocArray['anchor'];
 
             if ( count( $missing ) )
             {
@@ -177,7 +183,7 @@ class eZTeamroomTOC
                 {
                     $class .= ' lastelem';
                 }
-                $text .= $this->handleTocElement( $toc, $class, $level + 1, $missing );
+                $text .= $this->handleTocElement( $toc, $class, $level + 1, $missing, $counter );
             }
             $text .= "</ul>\n";
         }
@@ -185,27 +191,7 @@ class eZTeamroomTOC
         return $text;
     }
 
-//     private function checkHeaderArray( $tocArray, &$errors = array(), $level = 0,  $missing = array() )
-//     {
-//         if ( !array_key_exists( 'text', $tocArray ) AND $level != 0 )
-//         {
-//             $missing[] = $level;
-//         }
-//         elseif ( count( $missing ) )
-//         {
-//             $errors[] = array( 'headers'  => $missing,
-//                                'headline' => $tocArray['text']);
-//         }
-// 
-// /*        if ( array_key_exists( 'children', $tocArray ) )
-//         {
-//             foreach ( $tocArray['children'] as $toc )
-//             {
-//                 $this->checkHeaderArray( $toc, $errors, $level + 1, $missing );
-//             }
-//         }*/
-//         return $errors;
-//     }
+
 
 
 }
