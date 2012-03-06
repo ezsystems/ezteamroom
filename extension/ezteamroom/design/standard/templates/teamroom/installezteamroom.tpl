@@ -1511,7 +1511,7 @@
             <ContentFilterList>
               <value></value>
               <value>{$language}</value>
-            </SiteLanguageList>
+            </ContentFilterList>
         </SettingsBlock>
       </SettingsFile>
       <SettingsFile name="event.ini" location="{$site_access_dir}">
