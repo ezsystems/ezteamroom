@@ -56,19 +56,7 @@
                             </div>
 
                             <div class="attribute-header">
-                                <div class="keep-me-updated">
-                                    <form method="post" action={"content/action/"|ezurl}>
-                                        <input type="hidden" name="ContentNodeID" value="{$node.node_id}" />
-                                        <div class="keepupdated">
-                                            <div class="arrowWhiteButton">
-                                            <input class="mousePointer arrowWhiteButton" type="submit" name="ActionAddToNotification" value="{'Keep me updated'|i18n( 'ezteamroom/keepmeupdated' )}" title="{'Receive an email if anything changes in this area'|i18n( 'ezteamroom/keepmeupdated' )}" />
-                                            </div>
-                                        </div>
-                                    </form>
-                                </div>
-
                                 <h1>{attribute_view_gui attribute=$node.object.data_map.title}</h1>
-
                             </div>
 
                             <div class="attribute-body">
