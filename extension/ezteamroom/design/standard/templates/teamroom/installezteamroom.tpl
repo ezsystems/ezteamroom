@@ -1666,22 +1666,30 @@
       <WorkflowGroup name="Teamroom">
         <Workflow name="{'Create Teamroom'|i18n( 'ezteamroom/install/workflows' )}" workflowTypeString="group_ezserial" referenceID="WORKFLOW_CREATETEAMROOM">
           <Event description="Setup structure from XML" placement="1" workflowTypeString="event_ezxmlpublisher">
-            <Data />
+            <Data>
+              <description>{'Create Teamroom Features'|i18n( 'ezteamroom/install/workflows' )}</description>
+            </Data>
           </Event>
         </Workflow>
         <Workflow name="{'Approve Member Registration'|i18n( 'ezteamroom/install/workflows' )}" workflowTypeString="group_ezserial" referenceID="WORKFLOW_APPROVEMEMBERREGISTRATION">
           <Event description="Approve" placement="1" workflowTypeString="event_ezapprovememberregistration">
-            <Data />
+            <Data>
+              <description>{'Approve Member Registration'|i18n( 'ezteamroom/install/workflows' )}</description>
+            </Data>
           </Event>
         </Workflow>
         <Workflow name="{'Set Teamroom Section'|i18n( 'ezteamroom/install/workflows' )}" workflowTypeString="group_ezserial" referenceID="WORKFLOW_SETSECTION">
           <Event description="Set Section" placement="1" workflowTypeString="event_ezsetsection">
-            <Data />
+            <Data>
+              <description>{'Set Teamroom Section'|i18n( 'ezteamroom/install/workflows' )}</description>
+            </Data>
           </Event>
         </Workflow>
         <Workflow name="{'Set Current Teamroom'|i18n( 'ezteamroom/install/workflows' )}" workflowTypeString="group_ezserial" referenceID="WORKFLOW_SETCURRENTTEAMROOM">
-          <Event description="Set Section" placement="1" workflowTypeString="event_ezsetteamroom">
-            <Data />
+          <Event description="Set Current Teamroom" placement="1" workflowTypeString="event_ezsetteamroom">
+            <Data>
+              <description>{'Set Current Teamroom'|i18n( 'ezteamroom/install/workflows' )}</description>
+            </Data>
           </Event>
         </Workflow>
         <Workflow name="{'Post Publish Multiplexer'|i18n( 'ezteamroom/install/workflows' )}" workflowTypeString="group_ezserial" referenceID="WORKFLOW_POSTPUBLISH">
@@ -1690,6 +1698,8 @@
               <data_int1>[internal:WORKFLOW_CREATETEAMROOM]</data_int1>
               <data_text1>-1</data_text1>
               <data_text3>[internal:CLASS_TEAMROOM]</data_text3>
+              <data_text5>[internal:CLASS_TEAMROOM]</data_text5>
+              <description>{'Create Teamroom'|i18n( 'ezteamroom/install/workflows' )}</description>
             </Data>
           </Event>
           <Event description="Class: Teamroom" placement="2" workflowTypeString="event_ezmultiplexer">
@@ -1697,6 +1707,8 @@
               <data_int1>[internal:WORKFLOW_SETSECTION]</data_int1>
               <data_text1>-1</data_text1>
               <data_text3>[internal:CLASS_TEAMROOM]</data_text3>
+              <data_text5>[internal:CLASS_TEAMROOM]</data_text5>
+              <description>{'Set Teamroom Section'|i18n( 'ezteamroom/install/workflows' )}</description>
             </Data>
           </Event>
         </Workflow>
@@ -1707,6 +1719,8 @@
               <data_text1>[internal:SECTION_TEAMROOM],[{$public_section_id}],1</data_text1>
               <data_text2>12,42</data_text2>
               <data_text3>-1</data_text3>
+              <data_text5>-1</data_text5>
+              <description>{'Set Teamroom Membership'|i18n( 'ezteamroom/install/workflows' )}</description>
             </Data>
           </Event>
         </Workflow>
