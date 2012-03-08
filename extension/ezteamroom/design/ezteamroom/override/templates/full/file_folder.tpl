@@ -1,6 +1,5 @@
 {def $class_identifier_map = ezini( 'TeamroomSettings', 'ClassIdentifiersMap', 'teamroom.ini' )
-     $frontpagestyle = 'noleftcolumn rightcolumn'
-     $classList      = fetch( 'class', 'list', hash( 'class_filter', array( $class_identifier_map['file'] ) ) )}
+     $frontpagestyle = 'noleftcolumn rightcolumn'}
 
 {def $default_limit = 15}
 
@@ -18,6 +17,8 @@
                           $class_identifier_map['windows_media'],
                           $class_identifier_map['real_video'],
                           $class_identifier_map['file_subfolder'] )
+        $classList = fetch( 'class', 'list', hash( 'class_filter', $classes,
+                                                   'sort_by', array( 'name', true() ) ) )
         $children = array()
         $children_count = ''}
 
@@ -63,10 +64,11 @@
     {set $sort_by = array( $sort_by_field, $sort_by_direction, )}
 {/if}
 
-{def $view_finished='<'}
+{* not used *}
+{*{def $view_finished='<'}
 {if and( is_set($view_parameters.viewfinished), $view_parameters.viewfinished|eq('true'))}
     {set $view_finished='<='}
-{/if}
+{/if}*}
 
 {foreach $view_parameters as $key => $value}
     {if and($value, $key|ne('sortfield'),$key|ne('sortorder'))}
@@ -139,53 +141,36 @@
 
                             {if is_set( $view_parameters.tag )}
                                 {set $children_count = fetch( 'content', 'keyword_count', hash( 'alphabet', $view_parameters.tag|rawurldecode,
-                                                                                'include_duplicates', false(),
-                                                                                'parent_node_id', $node.node_id ) )
+                                                                                                'include_duplicates', false(),
+                                                                                                'parent_node_id', $node.node_id ) )
                                      $children = fetch( 'content', 'keyword', hash( 'alphabet', $view_parameters.tag|rawurldecode,
-                                                                                'include_duplicates', false(),
-                                                                                'parent_node_id', $node.node_id,
-                                                                                'offset', $view_parameters.offset,
-                                                                                'sort_by', $sort_by,
-                                                                                'limit', $page_limit ) )}
+                                                                                    'include_duplicates', false(),
+                                                                                    'parent_node_id', $node.node_id,
+                                                                                    'offset', $view_parameters.offset,
+                                                                                    'sort_by', $sort_by,
+                                                                                    'limit', $page_limit ) )}
                                 {foreach $children as $child sequence array( 'bgdark', 'bglight' ) as $style}
                                     {node_view_gui view='fileline' content_node=$child.link_object style=$style}
                                 {/foreach}
 
                             {else}
-                                {if is_set( $view_parameters.category )}
+                                {def $class_filter = cond( is_set( $view_parameters.class ), array( $view_parameters.class ), $classes )}
                                 {set $children=fetch_alias( 'children', hash( 'parent_node_id', $node.node_id,
-                                                                            'offset', $view_parameters.offset,
-                                                                            'sort_by', $sort_by,
-                                                                            'class_filter_type', 'include',
-                                                                            'class_filter_array', $classes,
-                                                                            'attribute_filter', array( array( 'file/category', '=', $view_parameters.category ) ),
-                                                                            'limit', $page_limit ) )
+                                                                              'offset', $view_parameters.offset,
+                                                                              'sort_by', $sort_by,
+                                                                              'class_filter_type', 'include',
+                                                                              'class_filter_array', $class_filter,
+                                                                              'limit', $page_limit ) )
                                     $children_count=fetch_alias( 'children_count', hash( 'parent_node_id', $node.node_id,
-                                                                                        'class_filter_type', 'include',
-                                                                                        'attribute_filter', array( array( 'file/category', '=', $view_parameters.category ) ),
-                                                                                        'class_filter_array', $classes ) )}
-                                {else}
-                                {set $children=fetch_alias( 'children', hash( 'parent_node_id', $node.node_id,
-                                                                            'offset', $view_parameters.offset,
-                                                                            'sort_by', $sort_by,
-                                                                            'class_filter_type', 'include',
-                                                                            'class_filter_array', $classes,
-                                                                            'limit', $page_limit ) )
-                                    $children_count=fetch_alias( 'children_count', hash( 'parent_node_id', $node.node_id,
-                                                                                        'class_filter_type', 'include',
-                                                                                        'class_filter_array', $classes ) )}
-                                {/if}
+                                                                                         'class_filter_type', 'include',
+                                                                                         'class_filter_array', $class_filter ) )}
+                                {undef $class_filter}
 
                                 <div class="content-view-children">
-
                                     {foreach $children as $child sequence array( 'bgdark', 'bglight' ) as $style}
-
-                                    <a name="Node{$child.main_node_id}"></a>
-
+                                        <a name="Node{$child.main_node_id}"></a>
                                         {node_view_gui view='fileline' content_node=$child style=$style}
-
                                     {/foreach}
-
                                 </div>
                             {/if}
 
@@ -210,9 +195,9 @@
         <div class="right-column-position">
             <div class="right-column">
             <!-- Content: START -->
-                    <div class="border-box">
-                    <div class="border-tl"><div class="border-tr"><div class="border-tc"></div></div></div>
-                    <div class="border-ml"><div class="border-mr"><div class="border-mc float-break">
+                <div class="border-box">
+                <div class="border-tl"><div class="border-tr"><div class="border-tc"></div></div></div>
+                <div class="border-ml"><div class="border-mr"><div class="border-mc float-break">
 
                 {def $can_create = fetch( 'content', 'access', hash( 'access', 'create', 'contentobject', $node, 'contentclass_id', $class_identifier_map['file_subfolder'] ) )}
                 {if $can_create}
@@ -249,34 +234,32 @@
                     </form>
                     </div>
 
-            {def       $activeExtensionsArray = ezini( 'ExtensionSettings', 'ActiveExtensions', 'site.ini' )
-                 $activeAccessExtensionsArray = ezini( 'ExtensionSettings', 'ActiveAccessExtensions', 'site.ini' )}
+                    {def       $activeExtensionsArray = ezini( 'ExtensionSettings', 'ActiveExtensions', 'site.ini' )
+                        $activeAccessExtensionsArray = ezini( 'ExtensionSettings', 'ActiveAccessExtensions', 'site.ini' )}
 
-            {*ezmultifileupload*}
-            {if or( $activeExtensionsArray|contains( 'ezmultiupload' ), $activeAccessExtensionsArray|contains( 'ezmultiupload' ) )}
+                    {*ezmultifileupload*}
+                    {if or( $activeExtensionsArray|contains( 'ezmultiupload' ), $activeAccessExtensionsArray|contains( 'ezmultiupload' ) )}
 
-                {if and( or( ezini( 'MultiUploadSettings', 'AvailableSubtreeNode', 'ezmultiupload.ini' )|contains( $node.node_id ),
-                             ezini( 'MultiUploadSettings', 'AvailableClasses', 'ezmultiupload.ini' )|contains( $node.class_identifier ) ),
-                         and( $node.object.can_create, $node.object.content_class.is_container ),
-                         fetch( 'user', 'has_access_to', hash( 'module', 'ezmultiupload', 'function', 'use' ) ) )}
+                        {if and( or( ezini( 'MultiUploadSettings', 'AvailableSubtreeNode', 'ezmultiupload.ini' )|contains( $node.node_id ),
+                                     ezini( 'MultiUploadSettings', 'AvailableClasses', 'ezmultiupload.ini' )|contains( $node.class_identifier ) ),
+                                and( $node.object.can_create, $node.object.content_class.is_container ),
+                                fetch( 'user', 'has_access_to', hash( 'module', 'ezmultiupload', 'function', 'use' ) ) )}
 
-            <div class="create-file">
-                <form method="post" action={concat("/ezmultiupload/upload/",$node.node_id)|ezurl}>
+                            <div class="create-file">
+                                <form method="post" action={concat("/ezmultiupload/upload/",$node.node_id)|ezurl}>
+                                    <div class="submitimage">
+                                        <div class="emptyButton">
+                                            <input class="mousePointer emptyButton" type="submit" name="NewButton" value="{'Upload multiple files'|i18n( 'ezteamroom/files' )}" title="{'Upload more than one file at the same time'|i18n( 'ezteamroom/files' )}" />
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        {/if}
 
-                            <div class="submitimage">
-                             <div class="emptyButton">
-                              <input class="mousePointer emptyButton" type="submit" name="NewButton" value="{'Upload multiple files'|i18n( 'ezteamroom/files' )}" title="{'Upload more than one file at the same time'|i18n( 'ezteamroom/files' )}" />
-                             </div>
-                </div>
-                </form>
-            </div>
+                    {/if}
 
-                {/if}
-
-            {/if}
-
-            {undef $activeExtensionsArray $activeAccessExtensionsArray}
-            {*ezmultifileupload*}
+                    {undef $activeExtensionsArray $activeAccessExtensionsArray}
+                    {*ezmultifileupload*}
 
                 {/if}
                 {undef $can_create}
@@ -309,22 +292,24 @@
                 {/if}
                 {undef $can_create}
 
-            <div class="create-task">
-                <form method="post" action={"content/action/"|ezurl}>
-                    <input type="hidden" name="ContentNodeID" value="{$node.node_id}" />
-                    <div class="keepupdated">
-                        <div class="arrowWhiteButton">
-                         <input class="mousePointer arrowWhiteButton" type="submit" name="ActionAddToNotification" value="{'Keep me updated'|i18n( 'ezteamroom/keepmeupdated' )}" title="{'Receive an email if anything changes in this area'|i18n( 'ezteamroom/keepmeupdated' )}" />
+                <div class="create-task">
+                    <form method="post" action={"content/action/"|ezurl}>
+                        <input type="hidden" name="ContentNodeID" value="{$node.node_id}" />
+                        <div class="keepupdated">
+                            <div class="arrowWhiteButton">
+                            <input class="mousePointer arrowWhiteButton" type="submit" name="ActionAddToNotification" value="{'Keep me updated'|i18n( 'ezteamroom/keepmeupdated' )}" title="{'Receive an email if anything changes in this area'|i18n( 'ezteamroom/keepmeupdated' )}" />
+                            </div>
                         </div>
-                    </div>
-                </form>
-            </div>
+                    </form>
+                </div>
 
-{if or( $children_count|gt( 0 ), is_set( $view_parameters.category ), is_set( $view_parameters.tag ) )}
+{if or( $children_count|gt( 0 ), is_set( $view_parameters.class ), is_set( $view_parameters.tag ) )}
 
             <div class="sort-by">
                 <h3>{'Sort By'|i18n('ezteamroom/files')}</h3>
-                {def $sorting=hash( 'name' , 'Name'|i18n( 'ezteamroom/files' ), 'published' , 'Date'|i18n( 'ezteamroom/files' ), 'class_identifier' , 'Type'|i18n( 'ezteamroom/files' ) )}
+                {def $sorting = hash( 'name',      'Name'|i18n( 'ezteamroom/files' ), 
+                                      'published', 'Date'|i18n( 'ezteamroom/files' ), 
+                                      'class_identifier' , 'Type'|i18n( 'ezteamroom/files' ) )}
                 <div class="tags">
                     <ul>
                     {foreach $sorting as $key => $keyword}
@@ -338,43 +323,21 @@
             </div>
 
             <div class="categories">
-                <h3>{'Categories'|i18n('ezteamroom/files')}</h3>
-
-                {def $sorting = cond( $sort_by_field, concat( "/(sortfield)/", $sort_by_field ) )
-                     $title   = ''}
-
+                <h3>{'Type'|i18n('ezteamroom/files')}</h3>
                 <div class="tags">
                     <ul>
-
-                    {foreach $classList.0.data_map.category.content.options as $index => $configuration}
-
-                        {* Workaround for ezselection not beeing translatable *}
-
-                        {set $title = $configuration.name}
-
-                        {switch match = $configuration.name}
-                            {case match='Documents'} {set $title = 'Documents'|i18n( 'ezteamroom/files' )}{/case}
-                            {case match='Sounds'}    {set $title = 'Sounds'|i18n( 'ezteamroom/files' )}{/case}
-                            {case match='Pictures'}  {set $title = 'Pictures'|i18n( 'ezteamroom/files' )}{/case}
-                            {case match='Lightboxes'}{set $title = 'Lightboxes'|i18n( 'ezteamroom/files' )}{/case}
-                        {/switch}
-
-                        {if and( is_set( $view_parameters.category ), $view_parameters.category|eq( $configuration.id ))}
-
-                        <li class="selected">
-                         <a href={concat( $node.url_alias, $sorting )|ezurl()} title="{'Only files of category "%1" are shown'|i18n( 'ezteamroom/files', , array( $title ) )|wash()}">{$title|wash()}</a>
-                        </li>
-
+                    {def $sorting = cond( $sort_by_field, concat( "/(sortfield)/", $sort_by_field ) )}
+                    {foreach $classList as $class}
+                        {if and( is_set( $view_parameters.class ), $view_parameters.class|eq( $class.id ))}
+                            <li class="selected">
+                                <a href={concat( $node.url_alias, $sorting )|ezurl()} title="{'Only files of type "%1" are shown'|i18n( 'ezteamroom/files', , array( $class.name ) )|wash()}">{$class.name|wash()}</a>
+                            </li>
                         {else}
-
-                        <li>
-                         <a href={concat( $node.url_alias, "/(category)/", $configuration.id, $sorting )|ezurl()} title="{'Show only files of the category "%1"'|i18n( 'ezteamroom/files', , array( $title ) )|wash()}">{$title|wash()}</a>
-                        </li>
-
+                            <li>
+                                <a href={concat( $node.url_alias, "/(class)/", $class.id, $sorting )|ezurl()} title="{'Show only files of the type "%1"'|i18n( 'ezteamroom/files', , array( $class.name ) )|wash()}">{$class.name|wash()}</a>
+                            </li>
                         {/if}
-
                     {/foreach}
-
                     </ul>
                 </div>
 
