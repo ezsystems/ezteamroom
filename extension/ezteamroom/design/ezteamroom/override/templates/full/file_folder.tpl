@@ -1,36 +1,22 @@
 {def $class_identifier_map = ezini( 'TeamroomSettings', 'ClassIdentifiersMap', 'teamroom.ini' )
-     $frontpagestyle = 'noleftcolumn rightcolumn'}
+     $frontpagestyle = 'noleftcolumn rightcolumn'
 
-{def $default_limit = 15}
-
-{if ezpreference( 'teamroom_files_list_limit' )}
-
-    {set $default_limit = ezpreference( 'teamroom_files_list_limit' )}
-
-{/if}
-
-{def    $page_limit = first_set( $default_limit, 5 )
-        $classes = array( $class_identifier_map['file'],
-                          $class_identifier_map['lightbox'],
-                          $class_identifier_map['image'],
-                          $class_identifier_map['quicktime'],
-                          $class_identifier_map['windows_media'],
-                          $class_identifier_map['real_video'],
-                          $class_identifier_map['file_subfolder'] )
-        $classList = fetch( 'class', 'list', hash( 'class_filter', $classes,
-                                                   'sort_by', array( 'name', true() ) ) )
-        $children = array()
-        $children_count = ''}
-
-{if and(is_set($view_parameters.limit), $view_parameters.limit|gt(0))}
-
-    {set $page_limit = $view_parameters.limit}
-
-{/if}
+     $page_limit = first_set( ezpreference( 'teamroom_files_list_limit' ), 10 )
+     $classes = array( $class_identifier_map['file'],
+                        $class_identifier_map['lightbox'],
+                        $class_identifier_map['image'],
+                        $class_identifier_map['quicktime'],
+                        $class_identifier_map['windows_media'],
+                        $class_identifier_map['real_video'],
+                        $class_identifier_map['file_subfolder'] )
+     $classList = fetch( 'class', 'list', hash( 'class_filter', $classes,
+                                                 'sort_by', array( 'name', true() ) ) )
+     $children = array()
+     $children_count = ''}
 
 {if $page_limit|eq(-1)}
 
-    {set $page_limit = $children_count}
+    {set $page_limit = ''}
 
 {/if}
 
