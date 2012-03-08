@@ -145,7 +145,7 @@
                     <text-column-count>2</text-column-count>
                 </DatatypeParameters>
             </Attribute>
-            <Attribute datatype="ezmedia" required="false" searchable="false" informationCollector="false" translatable="true" identifier="file" placement="3">
+            <Attribute datatype="ezmedia" required="true" searchable="false" informationCollector="false" translatable="true" identifier="file" placement="3">
                 <Names {$language}="{"File"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
                 <DatatypeParameters>
                     <max-size unit-size="mega">0</max-size>
