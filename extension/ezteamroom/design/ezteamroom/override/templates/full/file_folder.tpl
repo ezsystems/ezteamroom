@@ -1,66 +1,60 @@
 {def $class_identifier_map = ezini( 'TeamroomSettings', 'ClassIdentifiersMap', 'teamroom.ini' )
      $frontpagestyle = 'noleftcolumn rightcolumn'
-
-     $page_limit = first_set( ezpreference( 'teamroom_files_list_limit' ), 10 )
-     $classes = array( $class_identifier_map['file'],
-                        $class_identifier_map['lightbox'],
-                        $class_identifier_map['image'],
-                        $class_identifier_map['quicktime'],
-                        $class_identifier_map['windows_media'],
-                        $class_identifier_map['real_video'],
-                        $class_identifier_map['file_subfolder'] )
-     $classList = fetch( 'class', 'list', hash( 'class_filter', $classes,
+     $valid_classes_identifiers = array( $class_identifier_map['file'],
+                                         $class_identifier_map['lightbox'],
+                                         $class_identifier_map['image'],
+                                         $class_identifier_map['quicktime'],
+                                         $class_identifier_map['windows_media'],
+                                         $class_identifier_map['real_video'],
+                                         $class_identifier_map['file_subfolder'] )
+     $valid_class_ids = array()
+     $valid_class_list = fetch( 'class', 'list', hash( 'class_filter', $valid_classes_identifiers,
                                                  'sort_by', array( 'name', true() ) ) )
+     $page_limit = first_set( ezpreference( 'teamroom_files_list_limit' ), 10 )
      $children = array()
      $children_count = ''}
 
+{foreach $valid_class_list as $valid_class}
+    {set $valid_class_ids = $valid_class_ids|append($valid_class.id)}
+{/foreach}
+
 {if $page_limit|eq(-1)}
-
     {set $page_limit = ''}
-
 {/if}
 
-{def $url = concat('/', $node.url_alias)}
+{* sorting *}
+{def $available_sortings = hash( 'published',        array( false(), 'Date'|i18n( 'ezteamroom/files' ) ),
+                                 'name',             array( true(), 'Name'|i18n( 'ezteamroom/files' ) ),
+                                 'class_identifier', array( true(), 'Type'|i18n( 'ezteamroom/files' ) ) )}
 
-{foreach $view_parameters as $key => $value}
+{if and( is_set($view_parameters.sortfield), $view_parameters.sortfield, is_set($available_sortings[$view_parameters.sortfield]))}
+    {def $sort_by = array( $view_parameters.sortfield, $available_sortings[$view_parameters.sortfield].0 )
+         $url_sort = concat( "/(sortfield)/", $view_parameters.sortfield, )}
+{else}
+    {def $sort_by = array( 'published', false() )
+         $url_sort = ''}
+{/if}
 
-    {if $value}
-
-        {set $url=concat($url,'/(',$key,')/',$value)}
-
+{* classfilter *}
+{def $class_filter = array()}
+{if and( is_set($view_parameters.class), $view_parameters.class )}
+    {def $tmpclass_filter = $view_parameters.class|explode('_')}
+    {if count($tmpclass_filter)}
+        {foreach $tmpclass_filter as $class_id}
+            {if $valid_class_ids|contains($class_id)}
+                {set $class_filter = $class_filter|append($class_id)}
+            {/if}
+        {/foreach}
     {/if}
-
-{/foreach}
-
-{def $sort_field_list     = array( 'published', 'name', 'owner', 'class_identifier' )
-     $sort_field_name     = 'published'
-     $sort_by_field       = false()
-     $sort_by_direction   = true()
-     $sort_by             = false()
-     $view_parameter_text = false()}
-
-
-{if and( is_set($view_parameters.sortfield), $view_parameters.sortfield, $sort_field_list|contains($view_parameters.sortfield) )}
-    {set $sort_by_field = $view_parameters.sortfield}
+    {undef $tmpclass_filter}
 {/if}
-{if and( is_set($view_parameters.sortorder), $view_parameters.sortorder, $view_parameters.sortorder|eq( 'desc' ) )}
-    {set $sort_by_direction = false()}
+{if count( $class_filter )}
+    {set $class_filter = $class_filter|unique()|array_sort()}
+    {def $url_class = concat( "/(class)/", $class_filter|implode( '_' ) )}
+{else}
+    {set $class_filter = $valid_class_ids|array_sort()}
+    {def $url_class = ''}
 {/if}
-{if $sort_by_field}
-    {set $sort_by = array( $sort_by_field, $sort_by_direction, )}
-{/if}
-
-{* not used *}
-{*{def $view_finished='<'}
-{if and( is_set($view_parameters.viewfinished), $view_parameters.viewfinished|eq('true'))}
-    {set $view_finished='<='}
-{/if}*}
-
-{foreach $view_parameters as $key => $value}
-    {if and($value, $key|ne('sortfield'),$key|ne('sortorder'))}
-        {set $view_parameter_text=concat($view_parameter_text,'/(',$key,')/',$value)}
-    {/if}
-{/foreach}
 
 {* Used in line views of files *}
 {literal}
@@ -140,17 +134,15 @@
                                 {/foreach}
 
                             {else}
-                                {def $class_filter = cond( is_set( $view_parameters.class ), array( $view_parameters.class ), $classes )}
-                                {set $children=fetch_alias( 'children', hash( 'parent_node_id', $node.node_id,
+                                {set $children=fetch( 'content', 'list', hash( 'parent_node_id', $node.node_id,
                                                                               'offset', $view_parameters.offset,
                                                                               'sort_by', $sort_by,
                                                                               'class_filter_type', 'include',
                                                                               'class_filter_array', $class_filter,
                                                                               'limit', $page_limit ) )
-                                    $children_count=fetch_alias( 'children_count', hash( 'parent_node_id', $node.node_id,
+                                    $children_count=fetch( 'content', 'list_count', hash( 'parent_node_id', $node.node_id,
                                                                                          'class_filter_type', 'include',
                                                                                          'class_filter_array', $class_filter ) )}
-                                {undef $class_filter}
 
                                 <div class="content-view-children">
                                     {foreach $children as $child sequence array( 'bgdark', 'bglight' ) as $style}
@@ -293,52 +285,65 @@
 
             <div class="sort-by">
                 <h3>{'Sort By'|i18n('ezteamroom/files')}</h3>
-                {def $sorting = hash( 'name',      'Name'|i18n( 'ezteamroom/files' ), 
-                                      'published', 'Date'|i18n( 'ezteamroom/files' ), 
-                                      'class_identifier' , 'Type'|i18n( 'ezteamroom/files' ) )}
                 <div class="tags">
                     <ul>
-                    {foreach $sorting as $key => $keyword}
-                        <li {if $sort_by_field|eq($key)}class="selected"{/if}>
-                            <a href={concat( $node.url_alias, "/(sortfield)/", $key)|ezurl} title="{$keyword}">{$keyword|wash()}</a>
+                    {foreach $available_sortings as $sortfield => $sortinfo}
+                        <li {if $sort_by.0|eq($sortfield)}class="selected"{/if}>
+                            <a href={concat( $node.url_alias, $url_class, "/(sortfield)/", $sortfield)|ezurl} title="{$sortinfo.1|wash()}">{$sortinfo.1|wash()}</a>
                         </li>
                     {/foreach}
                     </ul>
                 </div>
-                {undef $sorting}
             </div>
 
             <div class="categories">
                 <h3>{'Type'|i18n('ezteamroom/files')}</h3>
                 <div class="tags">
                     <ul>
-                    {def $sorting = cond( $sort_by_field, concat( "/(sortfield)/", $sort_by_field ) )}
-                    {foreach $classList as $class}
-                        {if and( is_set( $view_parameters.class ), $view_parameters.class|eq( $class.id ))}
-                            <li class="selected">
-                                <a href={concat( $node.url_alias, $sorting )|ezurl()} title="{'Only files of type "%1" are shown'|i18n( 'ezteamroom/files', , array( $class.name ) )|wash()}">{$class.name|wash()}</a>
-                            </li>
-                        {else}
-                            <li>
-                                <a href={concat( $node.url_alias, "/(class)/", $class.id, $sorting )|ezurl()} title="{'Show only files of the type "%1"'|i18n( 'ezteamroom/files', , array( $class.name ) )|wash()}">{$class.name|wash()}</a>
-                            </li>
-                        {/if}
-                    {/foreach}
+                        {def $is_classfilter = $url_class|ne('')}
+                        <li {if $is_classfilter|not()}class="selected"{/if}>
+                            <a href={concat( $node.url_alias, $url_sort )|ezurl()} title="{'Files of all types are shown'|i18n( 'ezteamroom/files' )|wash()}">{'All'|i18n( 'ezteamroom/files' )|wash()}</a>
+                        </li>
+
+                        {def $new_class_filter = null
+                             $new_url_class = null
+                             $is_activefilter = false()}
+                        {foreach $valid_class_list as $class}
+                            {set $is_activefilter = and( $is_classfilter, $class_filter|contains( $class.id ))}
+                            {if $is_activefilter}
+                                {set $new_class_filter = array()}
+                                {foreach $class_filter as $class_id}
+                                    {if $class_id|ne( $class.id )}
+                                        {set $new_class_filter = $new_class_filter|append($class_id)}
+                                    {/if}
+                                {/foreach}
+                                {set $new_url_class = cond( count($new_class_filter)|eq(0), '' ,concat( '/(class)/', $new_class_filter|implode( '_' ) ) )}
+                                <li class="selected">
+                                    <a href={concat( $node.url_alias, $new_url_class, $url_sort )|ezurl()} title="{'Do not show files of type "%1"'|i18n( 'ezteamroom/files', , array( $class.name ) )|wash()}">{$class.name|wash()}</a>
+                                </li>
+                            {else}
+                                {if $is_classfilter}
+                                    {set $new_class_filter = $class_filter|append( $class.id )|unique()|array_sort()}
+                                    {set $new_url_class = cond( count($new_class_filter)|eq(count($valid_class_list)), '' ,concat( '/(class)/', $new_class_filter|implode( '_' ) ) )}
+                                {else}
+                                    {set $new_url_class = concat( '/(class)/', $class.id )}
+                                {/if}
+                                <li>
+                                    <a href={concat( $node.url_alias, $new_url_class, $url_sort )|ezurl()} title="{'Show only files of the type "%1"'|i18n( 'ezteamroom/files', , array( $class.name ) )|wash()}">{$class.name|wash()}</a>
+                                </li>
+                            {/if}
+                        {/foreach}
+                        {undef $is_classfilter $new_class_filter $new_url_class $is_activefilter}
                     </ul>
                 </div>
-
-                {undef $selection $sorting}
-
             </div>
 
             <div class="keywords">
                 <h3>{'Keywords'|i18n('ezteamroom/files')}</h3>
 
-                {def     $sorting = cond( $sort_by_field, concat( "/(sortfield)/", $sort_by_field ) )
-                     $fileTagList = ezkeywordlist( array( $class_identifier_map['file'], $class_identifier_map['file_subfolder'] ),
+                {def $fileTagList = ezkeywordlist( array( $class_identifier_map['file'], $class_identifier_map['file_subfolder'] ),
                                                    $node.node_id,
-                                                   $node.depth|inc()
-                                                 )}
+                                                   $node.depth|inc())}
 
                 <div class="tags">
 
