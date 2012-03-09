@@ -29,7 +29,7 @@ $eZTemplateOperatorArray[] = array( 'script' => eZExtension::baseDirectory() . '
                                     'class' => 'eZTeamroomOperators',
                                     'operator_names' => array( 'mytime', 'eztoc2', 'merge_events',
                                                                'teamroom_version',
-                                                               'join_teamroom_in_progress', 'str_replace' ) );
+                                                               'join_teamroom_in_progress', 'str_replace', 'array_sort' ) );
 
 /*$eZTemplateOperatorArray[] = array( 'script' => 'extension/ezteamroom/autoloads/ezkeywordlist.php',
                                     'class' => 'eZKeywordList',

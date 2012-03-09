@@ -30,7 +30,7 @@ class eZTeamroomOperators
     */
     function eZTeamroomOperators()
     {
-        $this->Operators = array( 'mytime', 'eztoc2', 'index_by_day', 'merge_events', 'teamroom_version', 'join_teamroom_in_progress', 'str_replace' );
+        $this->Operators = array( 'mytime', 'eztoc2', 'index_by_day', 'merge_events', 'teamroom_version', 'join_teamroom_in_progress', 'str_replace', 'array_sort' );
     }
 
     /*!
@@ -74,7 +74,8 @@ class eZTeamroomOperators
                                                                                 'default' => '' ),
                                                'subject' => array( 'type' => 'string',
                                                                                 'required' => true,
-                                                                                'default' => '' ) ) );
+                                                                                'default' => '' ) ),
+                      'array_sort' => array() );
     }
 
     function namedParameterPerOperator()
@@ -212,6 +213,11 @@ class eZTeamroomOperators
             case 'str_replace':
             {
                 $operatorValue = str_replace( $namedParameters['search'], $namedParameters['replace'], $namedParameters['subject'] );
+            } break;
+
+            case 'array_sort':
+            {
+                sort($operatorValue);
             } break;
 
         }
