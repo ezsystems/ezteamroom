@@ -56,6 +56,13 @@
     {def $url_class = ''}
 {/if}
 
+{* tag filter *}
+{if and( is_set( $view_parameters.tag ), $view_parameters.tag )}
+    {def $url_tag = concat( '/(tag)/', $view_parameters.tag )}
+{else}
+    {def $url_tag = ''}
+{/if}
+
 {* Used in line views of files *}
 {literal}
 <script language="JavaScript" type="text/javascript">
@@ -120,29 +127,31 @@
                     <div class="border-ml"><div class="border-mr"><div class="border-mc float-break">
 
                             {if is_set( $view_parameters.tag )}
-                                {set $children_count = fetch( 'content', 'keyword_count', hash( 'alphabet', $view_parameters.tag|rawurldecode,
-                                                                                                'include_duplicates', false(),
-                                                                                                'parent_node_id', $node.node_id ) )
-                                     $children = fetch( 'content', 'keyword', hash( 'alphabet', $view_parameters.tag|rawurldecode,
-                                                                                    'include_duplicates', false(),
-                                                                                    'parent_node_id', $node.node_id,
-                                                                                    'offset', $view_parameters.offset,
-                                                                                    'sort_by', $sort_by,
-                                                                                    'limit', $page_limit ) )}
+                                {set $children_count = fetch( 'content', 'keyword_count', hash( 'alphabet',             $view_parameters.tag|rawurldecode,
+                                                                                                'include_duplicates',   false(),
+                                                                                                'parent_node_id',       $node.node_id,
+                                                                                                'classid',              $class_filter ) )
+                                     $children = fetch( 'content', 'keyword', hash( 'alphabet',             $view_parameters.tag|rawurldecode,
+                                                                                    'include_duplicates',   false(),
+                                                                                    'parent_node_id',       $node.node_id,
+                                                                                    'classid',              $class_filter,
+                                                                                    'sort_by',              $sort_by,
+                                                                                    'offset',               $view_parameters.offset,
+                                                                                    'limit',                $page_limit ) )}
                                 {foreach $children as $child sequence array( 'bgdark', 'bglight' ) as $style}
                                     {node_view_gui view='fileline' content_node=$child.link_object style=$style}
                                 {/foreach}
 
                             {else}
-                                {set $children=fetch( 'content', 'list', hash( 'parent_node_id', $node.node_id,
-                                                                              'offset', $view_parameters.offset,
-                                                                              'sort_by', $sort_by,
-                                                                              'class_filter_type', 'include',
+                                {set $children_count=fetch( 'content', 'list_count', hash( 'parent_node_id',        $node.node_id,
+                                                                                           'class_filter_type',     'include',
+                                                                                           'class_filter_array',    $class_filter ) )
+                                    $children=fetch( 'content', 'list', hash( 'parent_node_id',     $node.node_id,
+                                                                              'class_filter_type',  'include',
                                                                               'class_filter_array', $class_filter,
-                                                                              'limit', $page_limit ) )
-                                    $children_count=fetch( 'content', 'list_count', hash( 'parent_node_id', $node.node_id,
-                                                                                         'class_filter_type', 'include',
-                                                                                         'class_filter_array', $class_filter ) )}
+                                                                              'sort_by',            $sort_by,
+                                                                              'offset',             $view_parameters.offset,
+                                                                              'limit',              $page_limit ) )}
 
                                 <div class="content-view-children">
                                     {foreach $children as $child sequence array( 'bgdark', 'bglight' ) as $style}
@@ -289,7 +298,7 @@
                     <ul>
                     {foreach $available_sortings as $sortfield => $sortinfo}
                         <li {if $sort_by.0|eq($sortfield)}class="selected"{/if}>
-                            <a href={concat( $node.url_alias, $url_class, "/(sortfield)/", $sortfield)|ezurl} title="{$sortinfo.1|wash()}">{$sortinfo.1|wash()}</a>
+                            <a href={concat( $node.url_alias, $url_class, "/(sortfield)/", $sortfield, $url_tag)|ezurl} title="{$sortinfo.1|wash()}">{$sortinfo.1|wash()}</a>
                         </li>
                     {/foreach}
                     </ul>
@@ -302,7 +311,7 @@
                     <ul>
                         {def $is_classfilter = $url_class|ne('')}
                         <li {if $is_classfilter|not()}class="selected"{/if}>
-                            <a href={concat( $node.url_alias, $url_sort )|ezurl()} title="{'Files of all types are shown'|i18n( 'ezteamroom/files' )|wash()}">{'All'|i18n( 'ezteamroom/files' )|wash()}</a>
+                            <a href={concat( $node.url_alias, $url_sort, $url_tag )|ezurl()} title="{'Files of all types are shown'|i18n( 'ezteamroom/files' )|wash()}">{'All'|i18n( 'ezteamroom/files' )|wash()}</a>
                         </li>
 
                         {def $new_class_filter = null
@@ -319,7 +328,7 @@
                                 {/foreach}
                                 {set $new_url_class = cond( count($new_class_filter)|eq(0), '' ,concat( '/(class)/', $new_class_filter|implode( '_' ) ) )}
                                 <li class="selected">
-                                    <a href={concat( $node.url_alias, $new_url_class, $url_sort )|ezurl()} title="{'Do not show files of type "%1"'|i18n( 'ezteamroom/files', , array( $class.name ) )|wash()}">{$class.name|wash()}</a>
+                                    <a href={concat( $node.url_alias, $new_url_class, $url_sort, $url_tag )|ezurl()} title="{'Do not show files of type "%1"'|i18n( 'ezteamroom/files', , array( $class.name ) )|wash()}">{$class.name|wash()}</a>
                                 </li>
                             {else}
                                 {if $is_classfilter}
@@ -329,7 +338,7 @@
                                     {set $new_url_class = concat( '/(class)/', $class.id )}
                                 {/if}
                                 <li>
-                                    <a href={concat( $node.url_alias, $new_url_class, $url_sort )|ezurl()} title="{'Show only files of the type "%1"'|i18n( 'ezteamroom/files', , array( $class.name ) )|wash()}">{$class.name|wash()}</a>
+                                    <a href={concat( $node.url_alias, $new_url_class, $url_sort, $url_tag )|ezurl()} title="{'Show only files of the type "%1"'|i18n( 'ezteamroom/files', , array( $class.name ) )|wash()}">{$class.name|wash()}</a>
                                 </li>
                             {/if}
                         {/foreach}
@@ -341,23 +350,23 @@
             <div class="keywords">
                 <h3>{'Keywords'|i18n('ezteamroom/files')}</h3>
 
-                {def $fileTagList = ezkeywordlist( array( $class_identifier_map['file'], $class_identifier_map['file_subfolder'] ),
+                {def $fileTagList = ezkeywordlist( $class_filter,
                                                    $node.node_id,
                                                    $node.depth|inc())}
 
                 <div class="tags">
 
+                {def $enc_keyword = null}
                 {if $fileTagList|count()|gt( 0 )}
-
                     {foreach $fileTagList as $keyword}
+                        {set $enc_keyword = $keyword.keyword|rawurlencode()}
+                        {if and( is_set( $view_parameters.tag ), $view_parameters.tag|eq( $enc_keyword ) )}
 
-                        {if and( is_set( $view_parameters.tag ), $view_parameters.tag|eq( $keyword.keyword ) )}
-
-                    <a href={concat( $node.url_alias, $sorting )|ezurl()} title="{'Only files with tag "%1" are shown'|i18n( 'ezteamroom/files', , array( $keyword.keyword ) )|wash()}" class="selected">{$keyword.keyword|wash()}</a>
+                            <a href={concat( $node.url_alias, $url_class, $url_sort )|ezurl()} title="{'Only files with tag "%1" are shown'|i18n( 'ezteamroom/files', , array( $keyword.keyword ) )|wash()}" class="selected">{$keyword.keyword|wash()}</a>
 
                         {else}
 
-                    <a href={concat( $node.url_alias, "/(tag)/", $keyword.keyword|rawurlencode(), $sorting )|ezurl()} title="{'Shown only files with tag "%1"'|i18n( 'ezteamroom/files', , array( $keyword.keyword ) )|wash()}">{$keyword.keyword|wash()}</a>
+                            <a href={concat( $node.url_alias, $url_class, $url_sort, "/(tag)/", $enc_keyword )|ezurl()} title="{'Shown only files with tag "%1"'|i18n( 'ezteamroom/files', , array( $keyword.keyword ) )|wash()}">{$keyword.keyword|wash()}</a>
 
                         {/if}
 
@@ -373,7 +382,7 @@
 
                 </div>
 
-                {undef $sorting}
+                {undef $enc_keyword}
 
             </div>
 
