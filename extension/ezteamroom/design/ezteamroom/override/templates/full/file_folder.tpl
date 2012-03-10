@@ -35,7 +35,7 @@
         {def $sort_direction = $available_sortings[$view_parameters.sortfield].0}
     {/if}
     {def $sort_by = array( $view_parameters.sortfield, $sort_direction )
-         $url_sort = concat( "/(sortfield)/", $view_parameters.sortfield, cond( $sort_by.1, 'asc', 'desc' ))}
+         $url_sort = concat( "/(sortfield)/", $view_parameters.sortfield, "/(sortorder)/", cond( $sort_by.1, 'asc', 'desc' ))}
     {undef $sort_direction}
 {else}
     {def $sort_by = array( 'published', false() )
@@ -58,10 +58,12 @@
 {/if}
 {if count( $class_filter )}
     {set $class_filter = $class_filter|unique()|array_sort()}
-    {def $url_class = concat( "/(class)/", $class_filter|implode( '_' ) )}
+    {def $url_class = concat( "/(class)/", $class_filter|implode( '_' ) )
+         $is_classfilter = true()}
 {else}
     {set $class_filter = $valid_class_ids|array_sort()}
-    {def $url_class = ''}
+    {def $url_class = ''
+         $is_classfilter = false()}
 {/if}
 
 {* tag filter *}
@@ -121,9 +123,33 @@
         </div>
     {/if}
 
-    <br />
-    <br />
+    <h3>
+        {def $tag_str = ''}
+        {if $view_parameters.tag}
+            {set $tag_str = ' with tag %1'|i18n( 'ezteamroom/files', , array( $view_parameters.tag|rawurldecode ) )}
+        {/if}
 
+        {def $asc_str  = 'ascending'|i18n( 'ezteamroom/files' )|wash()
+             $desc_str = 'descending'|i18n( 'ezteamroom/files' )|wash()}
+        {if $is_classfilter|not()}
+            {'Files of all types%1 are shown sorted by %2 (%3)'|i18n( 'ezteamroom/files', , array( $tag_str,
+                                                                                                   $available_sortings[$sort_by.0].1,
+                                                                                                   cond( $sort_by.1, $asc_str, $desc_str ) ) )|wash()}
+        {else}
+            {def $class_filter_str = array()}
+            {foreach $valid_class_list as $class}
+                {if $class_filter|contains( $class.id )}
+                    {set $class_filter_str = $class_filter_str|append($class.name)}
+                {/if}
+            {/foreach}
+            {'Files of type %1%2 are shown sorted by %3 (%4)'|i18n( 'ezteamroom/files', , array( $class_filter_str|implode( ', ' ),
+                                                                                                 $tag_str,
+                                                                                                 $available_sortings[$sort_by.0].1,
+                                                                                                 cond( $sort_by.1, $asc_str, $desc_str ) ) )|wash()}
+        {/if}
+
+        {undef $asc_str $desc_str $tag_str}
+    </h3>
     <div class="columns-frontpage float-break">
 
         <div class="center-column-position">
@@ -304,7 +330,6 @@
                 <h3>{'Sort By'|i18n('ezteamroom/files')}</h3>
                 <div class="tags">
                     <ul>
-{$sort_by|attribute(show,2)}
                     {foreach $available_sortings as $sortfield => $sortinfo}
                         {def $new_url_sort = null}
                         {if $sort_by.0|eq($sortfield)}
@@ -324,7 +349,6 @@
                 <h3>{'Type'|i18n('ezteamroom/files')}</h3>
                 <div class="tags">
                     <ul>
-                        {def $is_classfilter = $url_class|ne('')}
                         <li {if $is_classfilter|not()}class="selected"{/if}>
                             <a href={concat( $node.url_alias, $url_sort, $url_tag )|ezurl()} title="{'Files of all types are shown'|i18n( 'ezteamroom/files' )|wash()}">{'All'|i18n( 'ezteamroom/files' )|wash()}</a>
                         </li>
@@ -353,7 +377,7 @@
                                     {set $new_url_class = concat( '/(class)/', $class.id )}
                                 {/if}
                                 <li>
-                                    <a href={concat( $node.url_alias, $new_url_class, $url_sort, $url_tag )|ezurl()} title="{'Show only files of the type "%1"'|i18n( 'ezteamroom/files', , array( $class.name ) )|wash()}">{$class.name|wash()}</a>
+                                    <a href={concat( $node.url_alias, $new_url_class, $url_sort, $url_tag )|ezurl()} title="{'Show files of the type "%1"'|i18n( 'ezteamroom/files', , array( $class.name ) )|wash()}">{$class.name|wash()}</a>
                                 </li>
                             {/if}
                         {/foreach}
