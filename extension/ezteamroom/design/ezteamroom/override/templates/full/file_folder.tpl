@@ -28,12 +28,20 @@
                                  'class_identifier', array( true(), 'Type'|i18n( 'ezteamroom/files' ) ) )}
 
 {if and( is_set($view_parameters.sortfield), $view_parameters.sortfield, is_set($available_sortings[$view_parameters.sortfield]))}
-    {def $sort_by = array( $view_parameters.sortfield, $available_sortings[$view_parameters.sortfield].0 )
-         $url_sort = concat( "/(sortfield)/", $view_parameters.sortfield, )}
+
+    {if and( is_set($view_parameters.sortorder) )}
+        {def $sort_direction = cond( $view_parameters.sortorder|eq( 'desc' ), false(), true() )}
+    {else}
+        {def $sort_direction = $available_sortings[$view_parameters.sortfield].0}
+    {/if}
+    {def $sort_by = array( $view_parameters.sortfield, $sort_direction )
+         $url_sort = concat( "/(sortfield)/", $view_parameters.sortfield, cond( $sort_by.1, 'asc', 'desc' ))}
+    {undef $sort_direction}
 {else}
     {def $sort_by = array( 'published', false() )
          $url_sort = ''}
 {/if}
+
 
 {* classfilter *}
 {def $class_filter = array()}
@@ -296,9 +304,16 @@
                 <h3>{'Sort By'|i18n('ezteamroom/files')}</h3>
                 <div class="tags">
                     <ul>
+{$sort_by|attribute(show,2)}
                     {foreach $available_sortings as $sortfield => $sortinfo}
+                        {def $new_url_sort = null}
+                        {if $sort_by.0|eq($sortfield)}
+                            {set $new_url_sort = concat( "/(sortfield)/", $sortfield, "/(sortorder)/", cond( $sort_by.1, 'desc', 'asc' ) )}
+                        {else}
+                            {set $new_url_sort = concat( "/(sortfield)/", $sortfield, "/(sortorder)/", cond( $sortinfo.1, 'asc', 'desc' ) )}
+                        {/if}
                         <li {if $sort_by.0|eq($sortfield)}class="selected"{/if}>
-                            <a href={concat( $node.url_alias, $url_class, "/(sortfield)/", $sortfield, $url_tag)|ezurl} title="{$sortinfo.1|wash()}">{$sortinfo.1|wash()}</a>
+                            <a href={concat( $node.url_alias, $url_class, $new_url_sort, $url_tag)|ezurl} title="{$sortinfo.1|wash()}">{$sortinfo.1|wash()}</a>
                         </li>
                     {/foreach}
                     </ul>
