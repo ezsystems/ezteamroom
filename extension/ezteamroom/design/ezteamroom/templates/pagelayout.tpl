@@ -154,7 +154,7 @@
     {undef $pagerootdepth $class_identifier_map $nodeDepth}
 
 {/cache-block}
-
+{include uri="design:page_warning.tpl"}
 {$module_result.content}
 
 {cache-block ignore_content_expiry
