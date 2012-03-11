@@ -119,15 +119,34 @@
      <input id="searchbutton" class="button-disabled" type="submit" value="{'Go'|i18n('ezteamroom/search')}" alt="Submit" disabled="disabled" />
 
     {else}
+        {* get the current teamroom node id *}
+        {def $teamroom_node_id = ezini( 'TeamroomSettings', 'TeamroomPoolNodeID', 'teamroom.ini' )
+             $current_node = fetch( 'content', 'node', hash( 'node_id', $current_node_id ) )}
+        {if $current_node.path|count}
+            {foreach $current_node.path as $path_node}
+                {if $path_node.class_identifier|eq( $class_identifier_map['teamroom'] )}
+                    {set $teamroom_node_id=$path_node.node_id}
+                    {break}
+                {/if}
+                {undef $path_node}
+            {/foreach}
+        {else}
+            {foreach $current_node.parent_node_obj.path as $path_node}
+                {if $path_node.class_identifier|eq( $class_identifier_map['teamroom'] )}
+                    {set $teamroom_node_id=$path_node.node_id}
+                    {break}
+                {/if}
+                {undef $path_node}
+            {/foreach}
+        {/if}
 
-     <input id="searchtext" name="SearchText" type="text" value="" size="12" />
-     <input id="searchbutton" type="submit" value="{'Go'|i18n('ezteamroom/search')}" alt="Submit" />
-     {*<input type="hidden" name="SubTreeArray" value="{ezini( 'TeamroomSettings', 'TeamroomPoolNodeID', 'teamroom.ini' )}" />*}
-     <input type="hidden" name="SubTreeArray" value="{$current_node_id}" />
+            <input id="searchtext" name="SearchText" type="text" value="" size="12" />
+            <input id="searchbutton" type="submit" value="{'Go'|i18n('ezteamroom/search')}" alt="Submit" />
+            <input type="hidden" name="SubTreeArray" value="{$teamroom_node_id}" />
 
         {if eq( $ui_context, 'browse' )}
 
-     <input name="Mode" type="hidden" value="browse" />
+             <input name="Mode" type="hidden" value="browse" />
 
         {/if}
 
