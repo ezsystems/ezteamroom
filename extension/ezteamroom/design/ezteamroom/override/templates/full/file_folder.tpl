@@ -330,8 +330,8 @@
                 <h3>{'Sort By'|i18n('ezteamroom/files')}</h3>
                 <div class="tags">
                     <ul>
+                    {def $new_url_sort = null}
                     {foreach $available_sortings as $sortfield => $sortinfo}
-                        {def $new_url_sort = null}
                         {if $sort_by.0|eq($sortfield)}
                             {set $new_url_sort = concat( "/(sortfield)/", $sortfield, "/(sortorder)/", cond( $sort_by.1, 'desc', 'asc' ) )}
                         {else}
