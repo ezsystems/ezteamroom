@@ -990,18 +990,18 @@
                     <selection-type>4</selection-type>
                     <class-constraints>
                         <class-constraint class-identifier="folder"/>
-                        <class-constraint class-identifier="teamroom_blog"/>
-                        <class-constraint class-identifier="teamroom_blog_post"/>
                         <class-constraint class-identifier="teamroom_wiki"/>
                         <class-constraint class-identifier="teamroom_wiki_page"/>
                         <class-constraint class-identifier="teamroom_forum"/>
                         <class-constraint class-identifier="teamroom_forum_topic"/>
-                        <class-constraint class-identifier="teamroom_file"/>
                         <class-constraint class-identifier="teamroom_file_folder"/>
                         <class-constraint class-identifier="teamroom_file_subfolder"/>
-                        <class-constraint class-identifier="teamroom_milestone_folder"/>
-                        <class-constraint class-identifier="teamroom_milestone"/>
-                        <class-constraint class-identifier="teamroom_event"/>
+                        <class-constraint class-identifier="teamroom_file"/>
+                        <class-constraint class-identifier="flash"/>
+                        <class-constraint class-identifier="quicktime"/>
+                        <class-constraint class-identifier="real_video"/>
+                        <class-constraint class-identifier="flash_player"/>
+                        <class-constraint class-identifier="windows_media"/>
                     </class-constraints>
                 </DatatypeParameters>
             </Attribute>
