@@ -30,7 +30,7 @@ class eZTeamroomOperators
     */
     function eZTeamroomOperators()
     {
-        $this->Operators = array( 'mytime', 'eztoc2', 'index_by_day', 'merge_events', 'teamroom_version', 'join_teamroom_in_progress', 'str_replace', 'array_sort' );
+        $this->Operators = array( 'mytime', 'eztoc2', 'index_by_day', 'merge_events', 'teamroom_version', 'join_teamroom_in_progress', 'str_replace', 'shorten_xml', 'array_sort' );
     }
 
     /*!
@@ -75,6 +75,15 @@ class eZTeamroomOperators
                                                'subject' => array( 'type' => 'string',
                                                                                 'required' => true,
                                                                                 'default' => '' ) ),
+                      'shorten_xml' => array( 'chars_to_keep' => array( "type" => "integer",
+                                                                             "required" => false,
+                                                                             "default" => 80 ),
+                                                   'str_to_append' => array( "type" => "string",
+                                                                             "required" => false,
+                                                                             "default" => "..." ),
+                                                   'trim_type'     => array( "type" => "string",
+                                                                             "required" => false,
+                                                                             "default" => "right" ) ),
                       'array_sort' => array() );
     }
 
@@ -218,6 +227,48 @@ class eZTeamroomOperators
             case 'array_sort':
             {
                 sort($operatorValue);
+            } break;
+
+            case 'shorten_xml':
+            {
+                /* $operatorValue = preg_replace( "/<p.*?>/", "", $operatorValue); */
+                $operatorValue = str_replace( "</p>", " ", $operatorValue);
+                $operatorValue = strip_tags( $operatorValue );
+
+                $strlenFunc = function_exists( 'mb_strlen' ) ? 'mb_strlen' : 'strlen';
+                $substrFunc = function_exists( 'mb_substr' ) ? 'mb_substr' : 'substr';
+                if ( $strlenFunc( $operatorValue ) > $namedParameters['chars_to_keep'] )
+                {
+                    $operatorLength = $strlenFunc( $operatorValue );
+
+                    if ( $namedParameters['trim_type'] === 'middle' )
+                    {
+                        $appendedStrLen = $strlenFunc( $namedParameters['str_to_append'] );
+
+                        if ( $namedParameters['chars_to_keep'] > $appendedStrLen )
+                        {
+                            $chop = $namedParameters['chars_to_keep'] - $appendedStrLen;
+
+                            $middlePos = (int)($chop / 2);
+                            $leftPartLength = $middlePos;
+                            $rightPartLength = $chop - $middlePos;
+
+                            $operatorValue = trim( $substrFunc( $operatorValue, 0, $leftPartLength ) . $namedParameters['str_to_append'] . $substrFunc( $operatorValue, $operatorLength - $rightPartLength, $rightPartLength ) );
+                        }
+                        else
+                        {
+                            $operatorValue = $namedParameters['str_to_append'];
+                        }
+                    }
+                    else // default: trim_type === 'right'
+                    {
+                        $chop = $namedParameters['chars_to_keep'] - $strlenFunc( $namedParameters['str_to_append'] );
+                        $operatorValue = $substrFunc( $operatorValue, 0, $chop );
+                        $operatorValue = trim( $operatorValue );
+                        if ( $operatorLength > $chop )
+                            $operatorValue = $operatorValue.$namedParameters['str_to_append'];
+                    }
+                }
             } break;
 
         }

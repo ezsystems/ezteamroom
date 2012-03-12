@@ -101,7 +101,7 @@
     {** Description **}
     <div class="file-list-name"{if eq( $filelockfeature, 'enabled' )}style="width: 208px;"{/if}>
         <h4 title="{$attribute.content.original_filename|wash()}">{if $not_locked}<a href={$download_link|ezurl}>{/if}{$node.data_map.name.content|wash()|shorten(30)}{if $not_locked}</a>{/if}</h4>
-        <div class="info">{$node.data_map.description.content.output.output_text|striptags|shorten(70)}<div class="hiddendescription">{attribute_view_gui attribute=$node.data_map.description}</div></div>
+        <div class="info">{$node.data_map.description.content.output.output_text|shorten_xml(70)}<div class="hiddendescription">{attribute_view_gui attribute=$node.data_map.description}</div></div>
         <span class="date">{$node.object.modified|l10n('shortdate')}</span>|
         <span class="owner"><strong>{'Owner'|i18n('ezteamroom/files')}</strong>&nbsp;{$node.object.owner.name|wash()}</span>
     </div>

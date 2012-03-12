@@ -163,7 +163,7 @@
             </div>
 
         {if $object.data_map.text.has_content}
-            <div class="attribute-short">{$object.data_map.text.content.output.output_text|striptags|shorten(180)|wash()}</div>
+            <div class="attribute-short">{$object.data_map.text.content.output.output_text|shorten_xml(180)|wash()}</div>
         {/if}
 
 

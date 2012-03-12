@@ -12,7 +12,7 @@
                 <div class="overflow-fix">
                 <!-- Content: START -->
                     <h3><a href="{$node.url_alias|ezurl('no')}" title="{$node.name|wash()}">{$node.name|wash()}</a></h3>
-                    <div class="content">{$node.data_map.description.content.output.output_text|striptags|shorten(180)|wash()}</div>
+                    <div class="content">{$node.data_map.description.content.output.output_text|shorten_xml(180)|wash()}</div>
                     <span class="date">{$node.object.published|l10n('shortdate')}</span>|
                     <span class="owner"><strong>{'Owner'|i18n('ezteamroom/teamroom')}</strong>&nbsp;{$node.object.owner.name|wash()}</span>
               <!-- Content: END -->

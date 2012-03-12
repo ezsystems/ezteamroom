@@ -45,7 +45,7 @@
     </div>
     <div class="content">
         <div class="title">{attribute_view_gui attribute=$child.data_map.title}</div>
-        <span class="message">{$child.data_map.body.content.output.output_text|striptags|shorten(180)}</span>
+        <span class="message">{$child.data_map.body.content.output.output_text|shorten_xml(180)}</span>
         <span class="more"><a href={$child.url_alias|ezurl}>{"more..."|i18n("ezteamroom/blog")}</span>
     </div>
 </div>

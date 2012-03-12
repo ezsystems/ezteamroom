@@ -36,7 +36,7 @@
         <h4>{$object.data_map.date.content.timestamp|l10n(date)}</h4>
 
         {if $object.data_map.description.has_content}
-            <div class="attribute-short">{$object.data_map.description.content.output.output_text|striptags|shorten(180)|wash()}</div>
+            <div class="attribute-short">{$object.data_map.description.content.output.output_text|shorten_xml(180)|wash()}</div>
         {/if}
 
 
