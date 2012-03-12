@@ -148,34 +148,43 @@
         </div>
     </div>
 </td><td>
+
+    {def $current_teamroom_id = $assigned_node_array.0.parent_node_obj.parent.node_id}
+
     <div id="ezeventattribute_attendees">
         <label>{'Attendees'|i18n( 'design/ezteamroom/content/datatype' )}:</label>
 
         <div class="block float-break">
             <div class="element">
                 <ul id="list_of_users">
+                {def $user_obj = null}
                 {foreach $related_object_list as $user}
+                    {set $user_obj = fetch( 'content', 'object', hash( 'object_id', $user.contentobject_id ) )}
                     <li id="list_of_users_entry_{$user.contentobject_id}">
                             <input type="hidden" name="{$attribute_base}_event_attendees_{$attribute.id}[]" value="{$user.contentobject_id}">
-                        {fetch( 'content', 'object', hash( 'object_id', $user.contentobject_id ) ).name|wash()}
-                        <a href="#" onclick="return ezevent_removeUserListEntry('list_of_users_entry_{$user.contentobject_id}')"><img src={"remove.png"|ezimage} /></a>
+                        {$user_obj.name|wash()}
+                        <a href="#" onclick="return ezevent_removeUserListEntry( '{$user.contentobject_id}', '{$user_obj.name}' )"><img src={"remove.png"|ezimage} /></a>
                     </li>
                 {/foreach}
                 </ul>
             </div>
         </div>
 
-        {def $current_teamroom_id = $assigned_node_array.0.parent_node_obj.parent.node_id}
         <div id="ajaxsearchbox" class="tab-container">
             {'Please select more users here'|i18n( 'design/ezteamroom/content/datatype' )}
             <div class="block search-results">
-                <div id="ajaxinitsearchresult" style="overflow: hidden"></div>
+                <div id="ajaxinitsearchresult" style="overflow: hidden">
+                    <div id="result_{$current_teamroom_id}"></div>
+                </div>
             </div>
+
+{*
             <br />
-            <a href="#" onclick="ezajaxSearchLink( {"ezajax/subtree/2/teamroom/0/0"|ezurl('single')}, 'ajaxsearchresult' );toggleSubElements( this, 'ajaxsearchresult' );return false;">{"other teamrooms"|i18n('design/ezteamroom/content/datatype')}</a>
+            <a href="#" onclick="ezajaxSearchLink( {"ezajax/subtree/2/teamroom/0/30"|ezurl('single')}, 'ajaxsearchresult' );toggleSubElements( this, 'ajaxsearchresult' );return false;">{"other teamrooms"|i18n('design/ezteamroom/content/datatype')}</a>
             <div class="block search-results">
                 <div id="ajaxsearchresult" style="overflow: hidden">
             </div>
+*}
         </div>
 
         <script type="text/javascript">
@@ -192,15 +201,18 @@
             var baseURL = {"ezajax/subtree"|ezurl};
             var selectID = "{$attribute_base}_event_attendees_{$attribute.id}[]";
             var removeIconSrc = {"remove.png"|ezimage};
-            {*var searchTeamroomLink = {"ezajax/subtree/2/teamroom/0/10"|ezurl('single')};*}
-            var searchTeamroomLink = {concat("ezajax/node/",$current_teamroom_id)|ezurl('single')};
+            var searchTeamroomLink = {concat("ezajax/subtree/",$current_teamroom_id,'/user/0/50')|ezurl('single')};
         -->
         </script>
-        {undef $current_teamroom_id}
     </a>
 </td></tr></table>
 </div>
 
 <script type="text/javascript" language="javascript">
-    ezevent_initWithMode( {$event_mode});
+    ezevent_seteditmode( {$event_mode} );
+    var tr_users = document.getElementById('result_{$current_teamroom_id}');
+    ezajaxSearchLink( '/ezteamroom/ezajax/subtree/{$current_teamroom_id}/user/0/50', 'result_{$current_teamroom_id}' );
+
+{*     ezevent_initWithMode( {$event_mode}); *}
 </script>
+{undef $current_teamroom_id}
