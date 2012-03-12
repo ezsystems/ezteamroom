@@ -16,10 +16,18 @@
 {/switch}
 
 <div id="ezeventattribute" class="block">
-    <div id="ezeventattribute_selection">
-        <input onclick="ezevent_seteditmode(11)" type="radio" name="{$attribute_base} _datetime_typeofevent_{$attribute.id}" value="11" {if $event_type|eq(11)}checked="checked"{/if} />{'Normal'|i18n( 'design/ezevent/content/datatype' )}
-        <input onclick="ezevent_seteditmode(12)" type="radio" name="{$attribute_base} _datetime_typeofevent_{$attribute.id}" value="12" {if $event_type|eq(12)}checked="checked"{/if} />{'Full Day'|i18n( 'design/ezevent/content/datatype' )}
+    <div id="ezeventattribute_selection" class="float-break">
+        <label>{'Select type'|i18n( 'design/ezteamroom/content/datatype' )}:</label>
+        <ul>
+            <li>
+                <input onclick="ezevent_seteditmode(11)" type="radio" name="{$attribute_base} _datetime_typeofevent_{$attribute.id}" value="11" {if $event_type|eq(11)}checked="checked"{/if} />{'Normal'|i18n( 'design/ezevent/content/datatype' )}
+            </li>
+            <li>
+                <input onclick="ezevent_seteditmode(12)" type="radio" name="{$attribute_base} _datetime_typeofevent_{$attribute.id}" value="12" {if $event_type|eq(12)}checked="checked"{/if} />{'Full Day'|i18n( 'design/ezevent/content/datatype' )}
+            </li>
+        </ul>
     </div>
+    <br />
 
     <div id="ezeventattribute_date">
         <div class="element">
