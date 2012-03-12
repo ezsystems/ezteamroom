@@ -997,6 +997,7 @@
                         <class-constraint class-identifier="teamroom_file_folder"/>
                         <class-constraint class-identifier="teamroom_file_subfolder"/>
                         <class-constraint class-identifier="teamroom_file"/>
+                        <class-constraint class-identifier="image"/>
                         <class-constraint class-identifier="flash"/>
                         <class-constraint class-identifier="quicktime"/>
                         <class-constraint class-identifier="real_video"/>
