@@ -143,7 +143,7 @@
             <input id="searchtext" name="SearchText" type="text" value="" size="12" />
             <input id="searchbutton" type="submit" value="{'Go'|i18n('ezteamroom/search')}" alt="Submit" />
             <input type="hidden" name="SubTreeArray" value="{$teamroom_node_id}" />
-
+        {undef $path_node $teamroom_node_id $current_node}
         {if eq( $ui_context, 'browse' )}
 
              <input name="Mode" type="hidden" value="browse" />

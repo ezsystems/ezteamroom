@@ -1,8 +1,10 @@
 {* set-block scope=root variable=cache_ttl}0{/set-block *} {* ab: Commented out to find a better way if possible *}
 
 {def $teamroom_node_id = false()
-     $teamroom_node    = false()
-            $path_node = false()}
+     $teamroom_node    = false()}
+{if is_unset($path_node)}
+    {def $path_node = false()}
+{/if}
 
 {if and( ezhttp_hasvariable( 'CurrentTeamroom', 'session' ), or( $nodeDepth|gt( 2 ), $nodeDepth|not() ) )}
 
