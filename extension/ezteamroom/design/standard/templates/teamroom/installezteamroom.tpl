@@ -291,20 +291,13 @@
                         <default-string/>
                     </DatatypeParameters>
                 </Attribute>
-                <Attribute datatype="ezstring" required="true" searchable="true" informationCollector="false" translatable="true" identifier="author" placement="2">
-                    <Names {$language}="{"Author"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}" />
+                <Attribute datatype="eztext" required="true" searchable="true" informationCollector="false" translatable="true" identifier="message" placement="3">
+                    <Names {$language}="{"Message"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}" />
                     <DatatypeParameters>
-                        <max-length>0</max-length>
-                        <default-string/>
-                </DatatypeParameters>
-            </Attribute>
-            <Attribute datatype="eztext" required="true" searchable="true" informationCollector="false" translatable="true" identifier="message" placement="3">
-                <Names {$language}="{"Message"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}" />
-                <DatatypeParameters>
-                    <text-column-count>20</text-column-count>
-                </DatatypeParameters>
-            </Attribute>
-        </Attributes>
+                        <text-column-count>20</text-column-count>
+                    </DatatypeParameters>
+                </Attribute>
+            </Attributes>
     </ContentClass>
     <ContentClass isContainer="true" identifier="teamroom_blog" remoteID="" objectNamePattern="&lt;name&gt;" urlAliasPattern="" classExistAction="extend" referenceID="CLASS_BLOG">
       <Names {$language}="{"Teamroom blog"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
