@@ -4274,3 +4274,8 @@ a#addNewWidgetButton.add_widgets_disabled
 {
     visibility: hidden;
 }
+div.pfboxcontenthide
+{
+    visibility: hidden;
+    display: none;
+}

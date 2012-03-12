@@ -1,4 +1,5 @@
 <!--PFBOXCONTENT-->
+<div class="pfboxcontenthide"></div>
 <div class="pf_box">
 {$module_result.content}
 <!--[if ie]><br /><![endif]--> {*IE7 Bugfix *}

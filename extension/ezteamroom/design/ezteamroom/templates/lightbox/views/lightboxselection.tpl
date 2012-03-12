@@ -7,6 +7,7 @@
         {set $hasPFBox = true()}
 
 <!--PFBOXCONTENT-->
+<div class="pfboxcontenthide"></div>
 <div class="pf_box">
 
     {/if}
