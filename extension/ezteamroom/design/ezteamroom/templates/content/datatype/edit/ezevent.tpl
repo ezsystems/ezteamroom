@@ -211,7 +211,7 @@
 <script type="text/javascript" language="javascript">
     ezevent_seteditmode( {$event_mode} );
     var tr_users = document.getElementById('result_{$current_teamroom_id}');
-    ezajaxSearchLink( '/ezteamroom/ezajax/subtree/{$current_teamroom_id}/user/0/50', 'result_{$current_teamroom_id}' );
+    ezajaxSearchLink( {concat('/ezajax/subtree/', $current_teamroom_id, '/user/0/50')|ezurl('single')}, 'result_{$current_teamroom_id}' );
 
 {*     ezevent_initWithMode( {$event_mode}); *}
 </script>
