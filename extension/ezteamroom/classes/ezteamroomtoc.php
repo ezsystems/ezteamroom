@@ -187,7 +187,11 @@ class eZTeamroomTOC
             }
             $text .= "</ul>\n";
         }
-        $text .= "</li>\n";
+
+        if ( $level != 0 )
+        {
+            $text .= "</li>\n";
+        }
         return $text;
     }
 
