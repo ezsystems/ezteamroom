@@ -915,6 +915,12 @@ Votre demande est en attente de validation. L&apos;adresse URL ci-dessous vous p
         <source>My Tasks</source>
         <translation type="unfinished">Mes tâches</translation>
     </message>
+    <message>
+        <source>&amp;lt;header level=&amp;quot;1&amp;quot;&amp;gt;Welcome to this teamrooms wiki.&amp;lt;/header&amp;gt;
+Use the &amp;lt;custom name=&amp;quot;underline&amp;quot;&amp;gt;&amp;lt;emphasize&amp;gt;wiki search&amp;lt;/emphasize&amp;gt;&amp;lt;/custom&amp;gt; on the &amp;lt;strong&amp;gt;left site menu&amp;lt;/strong&amp;gt; to find your article.
+Read a random wiki page by clicking on the &amp;lt;emphasize&amp;gt;random page&amp;lt;/emphasize&amp;gt; link or browse thru all articles in the alphabetical list &amp;lt;emphasize&amp;gt;A to Z&amp;lt;/emphasize&amp;gt;.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>ezteamroom/design</name>

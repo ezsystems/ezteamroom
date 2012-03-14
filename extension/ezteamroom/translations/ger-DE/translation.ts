@@ -252,7 +252,7 @@
     <name>design/standard/ezoe</name>
     <message>
         <source>Heading </source>
-        <translation type="unfinished"></translation>
+        <translation>Überschrift </translation>
     </message>
 </context>
 <context>
@@ -704,7 +704,7 @@ Sie müssen noch auf die Freigabe warten. Um den aktuellen Status der Anfrage zu
     </message>
     <message>
         <source>This mail was sent by the notification system on %sitename</source>
-        <translation>Diese E-Mail wurde vom Benachrichtigungssystem auf %sitename versandt.</translation>
+        <translation type="unfinished">Diese E-Mail wurde vom Benachrichtigungssystem auf %sitename versandt.</translation>
     </message>
     <message>
         <source>[%sitename] Membership registration for teamroom &quot;%groupname&quot; waits for approval</source>
@@ -724,7 +724,7 @@ Sie müssen noch auf die Freigabe warten. Um den aktuellen Status der Anfrage zu
     </message>
     <message>
         <source>Account information.</source>
-        <translation>Benutzerkonto Informationen</translation>
+        <translation>Benutzerkonto Informationen.</translation>
     </message>
     <message>
         <source>Username</source>
@@ -972,7 +972,7 @@ change your settings at:</source>
     </message>
     <message>
         <source>The following list shows the files related to this teamroom. To upload single files the button &quot;Upload new file&quot; can be used. Furthermore it is possible to upload multiple files at the same time by using the &quot;Multi upload&quot; button. For uploading multiple files at the same time it is required to use the &quot;Ctrl&quot; key when selecting the files. To add an existing lightbox to the list of files the button &quot;Add lightbox&quot; can be used. The links shown below &quot;Sort by&quot; can be used to sort the files in different orders. By clicking on the same link two times, the sorting order will be reverted. The links shown below &quot;Categories&quot; can be used to filter the list of shown files by the categories they belong to. A click on one of the keywords shown below &quot;Keywords&quot; will filter the displayed tasks and show only those having the selected keyword.</source>
-        <translation>Diese Liste zeigt eine Übersicht aller Dateien dieses Teamrooms an. Um eine neue Datei hochzuladen klicken Sie auf &quot;Datei hochladen&quot;. Sie haben zudem die Möglichkeit mehrere Dateien in einem Schritt hochzuladen, indem Sie auf &quot;Dateien hinzufügen klicken&quot;. Um mehrere Dateien gleichzeitig hochladen zu können, müssen Sie bei der Auswahl der Dateien die &quot;Strg&quot;-Taste gedrückt halten. Klicken Sie auf &quot;Lightbox hinzufügen&quot;, um eine Lightbox in die Dateiliste aufzunehmen. Die Verweise unterhalb von &quot;Sortieren nach&quot; können zur Sortierung der Dateien nach unterschiedlichen Kriterien verwendet werden. Ein erneuter Klick auf einen Link ändert kehrt die Sortreihenfolge um. Durch anklicken einer der unter &quot;Kategorien&quot; angezeigten Kategorie wird die Dateiliste gefilter und zeigt nur Dateien mit dem entsprechenden Schlüßelwort an. Durch Anklicken eines der unter &quot;Tags&quot; angezeigten Wörter wird die Dateiliste gefiltert und nur Dateien mit dem entsprechenden Schlüßelwort angezeigt.</translation>
+        <translation>Diese Liste zeigt eine Übersicht aller Dateien dieses Teamrooms an. Um eine neue Datei hochzuladen klicken Sie auf &quot;Datei hochladen&quot;. Sie haben zudem die Möglichkeit mehrere Dateien in einem Schritt hochzuladen, indem Sie auf &quot;Dateien hinzufügen klicken&quot;. Um mehrere Dateien gleichzeitig hochladen zu können, müssen Sie bei der Auswahl der Dateien die &quot;Strg&quot;-Taste gedrückt halten. Klicken Sie auf &quot;Lightbox hinzufügen&quot;, um eine Lightbox in die Dateiliste aufzunehmen. Die Verweise unterhalb von &quot;Sortieren nach&quot; können zur Sortierung der Dateien nach unterschiedlichen Kriterien verwendet werden. Ein erneuter Klick auf einen Link kehrt die Sortier-Reihenfolge um. Durch anklicken einer der unter &quot;Kategorien&quot; angezeigten Kategorie wird die Dateiliste gefiltert und zeigt nur Dateien mit dem entsprechenden Schlüsselwort an. Durch Anklicken eines der unter &quot;Tags&quot; angezeigten Wörter wird die Dateiliste gefiltert und nur Dateien mit dem entsprechenden Schlüsselwort angezeigt.</translation>
     </message>
     <message>
         <source>Milestones</source>
@@ -1057,6 +1057,14 @@ change your settings at:</source>
     <message>
         <source>My Tasks</source>
         <translation>Meine Aufgaben</translation>
+    </message>
+    <message>
+        <source>&amp;lt;header level=&amp;quot;1&amp;quot;&amp;gt;Welcome to this teamrooms wiki.&amp;lt;/header&amp;gt;
+Use the &amp;lt;custom name=&amp;quot;underline&amp;quot;&amp;gt;&amp;lt;emphasize&amp;gt;wiki search&amp;lt;/emphasize&amp;gt;&amp;lt;/custom&amp;gt; on the &amp;lt;strong&amp;gt;left site menu&amp;lt;/strong&amp;gt; to find your article.
+Read a random wiki page by clicking on the &amp;lt;emphasize&amp;gt;random page&amp;lt;/emphasize&amp;gt; link or browse thru all articles in the alphabetical list &amp;lt;emphasize&amp;gt;A to Z&amp;lt;/emphasize&amp;gt;.</source>
+        <translation>&amp;lt;header level=&amp;quot;1&amp;quot;&amp;gt;Willkommen im Wiki des Teamroom.&amp;lt;/header&amp;gt;
+Benutzen Sie &amp;lt;custom name=&amp;quot;underline&amp;quot;&amp;gt;&amp;lt;emphasize&amp;gt;Wiki Suche&amp;lt;/emphasize&amp;gt;&amp;lt;/custom&amp;gt; im &amp;lt;strong&amp;gt;Menü auf der linken Seite&amp;lt;/strong&amp;gt; um nach Wiki Beiträgen zu suchen.
+Oder Lesen Sie einen zufälligen Artikel cdurch einen klick auf &amp;lt;emphasize&amp;gt;Zufälliger Artikel&amp;lt;/emphasize&amp;gt; oder wählen Sie einen Artikel aus der alphabetisch geordneten Liste &amp;lt;emphasize&amp;gt;A bis Z&amp;lt;/emphasize&amp;gt;.</translation>
     </message>
 </context>
 <context>
@@ -1419,7 +1427,7 @@ Sie sollten diese Person kontaktieren oder einen neuen eigenen Entwurf anlegen.<
     </message>
     <message>
         <source>Events in %1</source>
-        <translation>Termine im</translation>
+        <translation>Termine im %1</translation>
     </message>
     <message>
         <source>%1 - %2</source>
@@ -1858,39 +1866,39 @@ Sie sollten diese Person kontaktieren oder einen neuen eigenen Entwurf anlegen.<
     </message>
     <message>
         <source> with tag %1</source>
-        <translation type="unfinished"></translation>
+        <translation> mit tag %1</translation>
     </message>
     <message>
         <source>ascending</source>
-        <translation type="unfinished"></translation>
+        <translation>aufsteigend</translation>
     </message>
     <message>
         <source>descending</source>
-        <translation type="unfinished"></translation>
+        <translation>absteigend</translation>
     </message>
     <message>
         <source>Files of all types%1 are shown sorted by %2 (%3)</source>
-        <translation type="unfinished"></translation>
+        <translation>Dateien jeden Typs%1 werden angezeigt und nach %2 (%3) sortiert</translation>
     </message>
     <message>
         <source>Files of type %1%2 are shown sorted by %3 (%4)</source>
-        <translation type="unfinished"></translation>
+        <translation>Dateien des Typs %1%2 werden angezeigt und nach %3 (%4) sortiert</translation>
     </message>
     <message>
         <source>Files of all types are shown</source>
-        <translation type="unfinished"></translation>
+        <translation>Dateien jeden Typs werden angezeigt</translation>
     </message>
     <message>
         <source>All</source>
-        <translation type="unfinished"></translation>
+        <translation>Alle</translation>
     </message>
     <message>
         <source>Do not show files of type &quot;%1&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>Zeige keine Dateien des Typs &quot;%1&quot;</translation>
     </message>
     <message>
         <source>Show files of the type &quot;%1&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>Zeige Dateien des Typs &quot;%1&quot;</translation>
     </message>
 </context>
 <context>
@@ -2654,7 +2662,7 @@ Sie sollten diese Person kontaktieren oder einen neuen eigenen Entwurf anlegen.<
     </message>
     <message>
         <source>Create Teamroom Features</source>
-        <translation type="unfinished"></translation>
+        <translation>Erstelle Teamroom Eigenschaften</translation>
     </message>
 </context>
 <context>
@@ -3592,7 +3600,7 @@ Sie sollten diese Person kontaktieren oder einen neuen eigenen Entwurf anlegen.<
     </message>
     <message>
         <source>Click the following URL to login:</source>
-        <translation>Benutzen Sie den folgenden Link um sich anzumelden.</translation>
+        <translation>Benutzen Sie den folgenden Link um sich anzumelden:</translation>
     </message>
     <message>
         <source>Click the following URL to verify your email address.</source>
@@ -4544,27 +4552,27 @@ Sie sollten diese Person kontaktieren oder einen neuen eigenen Entwurf anlegen.<
     </message>
     <message>
         <source>Missing previous headings ( %missing_headings ) for heading &quot;%headline&quot; ( %heading ).</source>
-        <translation type="unfinished"></translation>
+        <translation>Die vorige überschrift ( %missing_headings ) für die Überschrift &quot;%headline&quot; ( %heading ) fehlt.</translation>
     </message>
     <message>
         <source>From A to Z</source>
-        <translation type="unfinished"></translation>
+        <translation>Von A bis Z</translation>
     </message>
     <message>
         <source>Navigation</source>
-        <translation type="unfinished">Navigation</translation>
+        <translation>Navigation</translation>
     </message>
     <message>
         <source>Wiki home</source>
-        <translation type="unfinished"></translation>
+        <translation>Hauptseite</translation>
     </message>
     <message>
         <source>Random page</source>
-        <translation type="unfinished"></translation>
+        <translation>Zufälliger Artikel</translation>
     </message>
     <message>
         <source>Wiki articles:</source>
-        <translation type="unfinished"></translation>
+        <translation>Wiki Einträge:</translation>
     </message>
 </context>
 <context>
