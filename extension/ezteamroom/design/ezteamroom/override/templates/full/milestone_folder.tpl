@@ -182,7 +182,7 @@
 
             <div class="sort-by">
                 <h3>{'Sort By'|i18n('ezteamroom/tasks')}</h3>
-                {def $sort=hash( 'title' , 'Milestone'|i18n( 'ezteamroom/tasks' ), 'date' , 'Date'|i18n( 'ezteamroom/tasks' ) )
+                {def $sort=hash( 'title' , 'Name'|i18n( 'ezteamroom/tasks' ), 'date' , 'Date'|i18n( 'ezteamroom/tasks' ) )
                      $order = cond($sort_by_direction|eq(true()), 'desc', 'asc' )}
                 <div class="tags">
                     <ul>
