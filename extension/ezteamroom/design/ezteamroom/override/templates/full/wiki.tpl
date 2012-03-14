@@ -53,7 +53,7 @@
                                 </div>
                                 {/if}
 
-                                {if $node.object.can_remove}
+                                {*if $node.object.can_remove}
                                 <div class="attribute-edit">
                                     <form method="post" action={"content/action/"|ezurl}>
                                         <input type="hidden" name="ContentObjectID" value="{$node.object.id}" />
@@ -61,7 +61,7 @@
                                         <input class="" type="image" src={'task_delete.gif'|ezimage} name="ActionRemove" value="{'Remove'|i18n( 'ezteamroom/wiki' )}" title="{'Remove this entry'|i18n( 'ezteamroom/wiki' )}" />
                                     </form>
                                 </div>
-                                {/if}
+                                {/if*}
                             </div>
 
                             <div class="attribute-byline">
