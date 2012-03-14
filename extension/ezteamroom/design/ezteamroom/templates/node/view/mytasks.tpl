@@ -27,7 +27,8 @@
                                                  'limit',              $max_items_to_show,
                                                  'class_filter_type',  'include',
                                                  'class_filter_array', array( $class_identifier_map['task'] ),
-                                                 'sort_by',            array( 'published', false() ),
+                                                 'attribute_filter',   array( array( concat( $class_identifier_map['task'], '/progress' ), '<', 100 ) ) ,
+                                                 'sort_by',            array( 'attribute', true(), concat( $class_identifier_map['task'], '/planned_end_date' ) ),
                                                 ) )
     $current_user = fetch( 'user', 'current_user' )
     $related_user_list = array()}
