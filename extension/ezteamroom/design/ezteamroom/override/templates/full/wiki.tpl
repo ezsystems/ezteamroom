@@ -33,11 +33,6 @@
                     <div class="content-view-full">
                         <div class="class-wiki">
 
-                            <div class="attribute-byline">
-                                <span class="date">{$node.object.modified|l10n(shortdatetime)}</span> |
-                                <span class="author"><strong>{'Author'|i18n('ezteamroom/wiki')} </strong>{$node.object.owner.name|wash()}</span>
-                            </div>
-
                             <div class="blog_actions float-break">
                                 {if and(is_set($node.data_map.enable_comments), $node.data_map.enable_comments.data_int)}
                                 <div class="attribute-comments">
@@ -68,6 +63,12 @@
                                 </div>
                                 {/if}
                             </div>
+
+                            <div class="attribute-byline">
+                                <span class="date">{$node.object.modified|l10n(shortdatetime)}</span> |
+                                <span class="author"><strong>{'Author'|i18n('ezteamroom/wiki')} </strong>{$node.object.owner.name|wash()}</span>
+                            </div>
+
 
                             <div class="attribute-header">
                                 <h1>{attribute_view_gui attribute=$node.object.data_map.title}</h1>
