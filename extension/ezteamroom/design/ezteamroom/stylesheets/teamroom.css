@@ -4269,26 +4269,6 @@ div#full_article div.message-textcontent {
   width: 81%;
 }
 
-div#ezeventattribute div.ezeventattribute-left
-{
-    float: left;
-}
-div#ezeventattribute div.ezeventattribute-right
-{
-    float: right;
-    margin-right: 10px;
-    white-space: nowrap;
-    padding: 10px;
-}
-
-div#ezeventattribute_selection ul li
-{
-    float: left;
-    list-style-image: none;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
 
 a#addNewWidgetButton.add_widgets_disabled
 {
