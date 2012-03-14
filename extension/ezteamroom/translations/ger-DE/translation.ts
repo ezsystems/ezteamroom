@@ -103,7 +103,7 @@
     <name>design/ezteamroom/content/datatype</name>
     <message>
         <source>You are editing a single date of the recurent event &quot;%name&quot;&lt;br /&gt;(period from %start to %end)</source>
-        <translation>Sie bearbeiten ein einzelnes Datum des wiederkehrenden Termins &quot;%name&quot;&lt;br /&gt;(Zeitraum von %start bis %end)</translation>
+        <translation type="obsolete">Sie bearbeiten ein einzelnes Datum des wiederkehrenden Termins &quot;%name&quot;&lt;br /&gt;(Zeitraum von %start bis %end)</translation>
     </message>
     <message>
         <source>Select type</source>
@@ -111,79 +111,79 @@
     </message>
     <message>
         <source>Normal</source>
-        <translation>Normal</translation>
+        <translation type="obsolete">Normal</translation>
     </message>
     <message>
         <source>Full Day</source>
-        <translation>Ganztägig</translation>
+        <translation type="obsolete">Ganztägig</translation>
     </message>
     <message>
         <source>Weekly</source>
-        <translation>Wöchentlich</translation>
+        <translation type="obsolete">Wöchentlich</translation>
     </message>
     <message>
         <source>Monthly</source>
-        <translation>Monatlich</translation>
+        <translation type="obsolete">Monatlich</translation>
     </message>
     <message>
         <source>Yearly</source>
-        <translation>Jährlich</translation>
+        <translation type="obsolete">Jährlich</translation>
     </message>
     <message>
         <source>Startdate</source>
-        <translation>Beginn</translation>
+        <translation type="obsolete">Beginn</translation>
     </message>
     <message>
         <source>Year</source>
-        <translation>Jahr</translation>
+        <translation type="obsolete">Jahr</translation>
     </message>
     <message>
         <source>Month</source>
-        <translation>Monat</translation>
+        <translation type="obsolete">Monat</translation>
     </message>
     <message>
         <source>Day</source>
-        <translation>Tag</translation>
+        <translation type="obsolete">Tag</translation>
     </message>
     <message>
         <source>Starttime</source>
-        <translation>Uhrzeit</translation>
+        <translation type="obsolete">Uhrzeit</translation>
     </message>
     <message>
         <source>Hour</source>
-        <translation>Stunde</translation>
+        <translation type="obsolete">Stunde</translation>
     </message>
     <message>
         <source>Minute</source>
-        <translation>Minute</translation>
+        <translation type="obsolete">Minute</translation>
     </message>
     <message>
         <source>Enddate</source>
-        <translation>Ende</translation>
+        <translation type="obsolete">Ende</translation>
     </message>
     <message>
         <source>Endtime</source>
-        <translation>Uhrzeit</translation>
+        <translation type="obsolete">Uhrzeit</translation>
     </message>
     <message>
         <source>Hours</source>
-        <translation>Stunden</translation>
+        <translation type="obsolete">Stunden</translation>
     </message>
     <message>
         <source>Minutes</source>
-        <translation>Minuten</translation>
+        <translation type="obsolete">Minuten</translation>
     </message>
     <message>
         <source>Attendees</source>
-        <translation>Teilnehmer</translation>
+        <translation type="obsolete">Teilnehmer</translation>
     </message>
     <message>
         <source>Please select more users here</source>
-        <translation>Bitte wählen Sie hier mehr Teilnehmer aus</translation>
+        <translation type="obsolete">Bitte wählen Sie hier mehr Teilnehmer aus</translation>
     </message>
     <message>
         <source>other teamrooms</source>
-        <translation>weitere Teamräume</translation>
+        <translation type="obsolete">weitere Teamräume</translation>
     </message>
     <message>
         <source>Select event type</source>
@@ -191,11 +191,11 @@
     </message>
     <message>
         <source>Simple</source>
-        <translation>Einfach</translation>
+        <translation type="obsolete">Einfach</translation>
     </message>
     <message>
         <source>Select recurrence</source>
-        <translation>Wiederholung auswählen</translation>
+        <translation type="obsolete">Wiederholung auswählen</translation>
     </message>
 </context>
 <context>
@@ -246,6 +246,13 @@
     <message>
         <source>Get version</source>
         <translation>Version herunterladen</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/ezoe</name>
+    <message>
+        <source>Heading </source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1563,7 +1570,7 @@ Sie sollten diese Person kontaktieren oder einen neuen eigenen Entwurf anlegen.<
     </message>
     <message>
         <source>Categories</source>
-        <translation>Kategorien</translation>
+        <translation type="obsolete">Kategorien</translation>
     </message>
     <message>
         <source>Keywords</source>
@@ -1699,19 +1706,19 @@ Sie sollten diese Person kontaktieren oder einen neuen eigenen Entwurf anlegen.<
     </message>
     <message>
         <source>Documents</source>
-        <translation>Dokumente</translation>
+        <translation type="obsolete">Dokumente</translation>
     </message>
     <message>
         <source>Sounds</source>
-        <translation>Audio</translation>
+        <translation type="obsolete">Audio</translation>
     </message>
     <message>
         <source>Pictures</source>
-        <translation>Bilder</translation>
+        <translation type="obsolete">Bilder</translation>
     </message>
     <message>
         <source>Lightboxes</source>
-        <translation>Lightboxen</translation>
+        <translation type="obsolete">Lightboxen</translation>
     </message>
     <message>
         <source>Download this file</source>
@@ -1787,11 +1794,11 @@ Sie sollten diese Person kontaktieren oder einen neuen eigenen Entwurf anlegen.<
     </message>
     <message>
         <source>Only files of category &quot;%1&quot; are shown</source>
-        <translation>Nur Einträge derr Kategorie &quot;%1&quot; werden anzeigt</translation>
+        <translation type="obsolete">Nur Einträge derr Kategorie &quot;%1&quot; werden anzeigt</translation>
     </message>
     <message>
         <source>Show only files of the category &quot;%1&quot;</source>
-        <translation>Nur Einträge derr Kategorie &quot;%1&quot; anzeigen</translation>
+        <translation type="obsolete">Nur Einträge derr Kategorie &quot;%1&quot; anzeigen</translation>
     </message>
     <message>
         <source>Only files with tag &quot;%1&quot; are shown</source>
@@ -1848,6 +1855,42 @@ Sie sollten diese Person kontaktieren oder einen neuen eigenen Entwurf anlegen.<
     <message>
         <source>Are you sure you want to remove the folder?</source>
         <translation>Sind Sie sicher, dass Sie diesen Ordner entfernen möchten?</translation>
+    </message>
+    <message>
+        <source> with tag %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>ascending</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>descending</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Files of all types%1 are shown sorted by %2 (%3)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Files of type %1%2 are shown sorted by %3 (%4)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Files of all types are shown</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Do not show files of type &quot;%1&quot;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Show files of the type &quot;%1&quot;</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2140,7 +2183,7 @@ Sie sollten diese Person kontaktieren oder einen neuen eigenen Entwurf anlegen.<
     </message>
     <message>
         <source>Author</source>
-        <translation>Autor</translation>
+        <translation type="obsolete">Autor</translation>
     </message>
     <message>
         <source>Message</source>
@@ -2608,6 +2651,10 @@ Sie sollten diese Person kontaktieren oder einen neuen eigenen Entwurf anlegen.<
     <message>
         <source>Set Teamroom Membership</source>
         <translation>Teamroom Mitgliedschaft setzen</translation>
+    </message>
+    <message>
+        <source>Create Teamroom Features</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -4494,6 +4541,30 @@ Sie sollten diese Person kontaktieren oder einen neuen eigenen Entwurf anlegen.<
     <message>
         <source>Remove this entry</source>
         <translation>Diesen Beitrag entfernen</translation>
+    </message>
+    <message>
+        <source>Missing previous headings ( %missing_headings ) for heading &quot;%headline&quot; ( %heading ).</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>From A to Z</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Navigation</source>
+        <translation type="unfinished">Navigation</translation>
+    </message>
+    <message>
+        <source>Wiki home</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Random page</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Wiki articles:</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

@@ -26,95 +26,7 @@
 <context>
     <name>design/ezteamroom/content/datatype</name>
     <message>
-        <source>You are editing a single date of the recurent event &quot;%name&quot;&lt;br /&gt;(period from %start to %end)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Select type</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Normal</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Full Day</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Select event type</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Simple</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Weekly</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Monthly</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Yearly</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Startdate</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Year</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Month</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Day</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Starttime</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Hour</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Minute</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Enddate</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Endtime</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Hours</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Minutes</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Attendees</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Please select more users here</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>other teamrooms</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -165,6 +77,13 @@
     </message>
     <message>
         <source>Get version</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/ezoe</name>
+    <message>
+        <source>Heading </source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1622,26 +1541,6 @@ Your request is waiting for approval. To view the status of your request or to a
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Categories</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Documents</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Sounds</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Pictures</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Lightboxes</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Keywords</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1746,19 +1645,47 @@ Your request is waiting for approval. To view the status of your request or to a
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Only files of category &quot;%1&quot; are shown</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Show only files of the category &quot;%1&quot;</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Only files with tag &quot;%1&quot; are shown</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Shown only files with tag &quot;%1&quot;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source> with tag %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>ascending</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>descending</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Files of all types%1 are shown sorted by %2 (%3)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Files of type %1%2 are shown sorted by %3 (%4)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Files of all types are shown</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Do not show files of type &quot;%1&quot;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Show files of the type &quot;%1&quot;</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -2024,10 +1951,6 @@ Your request is waiting for approval. To view the status of your request or to a
     </message>
     <message>
         <source>Subject</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Author</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2519,6 +2442,10 @@ Your request is waiting for approval. To view the status of your request or to a
     </message>
     <message>
         <source>Set Teamroom Membership</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Create Teamroom Features</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -4392,6 +4319,30 @@ Your request is waiting for approval. To view the status of your request or to a
     </message>
     <message>
         <source>Keywords</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Missing previous headings ( %missing_headings ) for heading &quot;%headline&quot; ( %heading ).</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>From A to Z</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Navigation</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Wiki home</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Random page</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Wiki articles:</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

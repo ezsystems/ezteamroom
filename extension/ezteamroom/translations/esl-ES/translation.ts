@@ -26,96 +26,32 @@
 <context>
     <name>design/ezteamroom/content/datatype</name>
     <message>
-        <source>You are editing a single date of the recurent event &quot;%name&quot;&lt;br /&gt;(period from %start to %end)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Select type</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Normal</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Full Day</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Select event type</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Simple</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Weekly</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Monthly</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Yearly</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Startdate</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Year</source>
-        <translation type="unfinished">Año</translation>
+        <translation type="obsolete">Año</translation>
     </message>
     <message>
         <source>Month</source>
-        <translation type="unfinished">Mes</translation>
+        <translation type="obsolete">Mes</translation>
     </message>
     <message>
         <source>Day</source>
-        <translation type="unfinished">Día</translation>
-    </message>
-    <message>
-        <source>Starttime</source>
-        <translation type="unfinished"></translation>
+        <translation type="obsolete">Día</translation>
     </message>
     <message>
         <source>Hour</source>
-        <translation type="unfinished">Hora</translation>
+        <translation type="obsolete">Hora</translation>
     </message>
     <message>
         <source>Minute</source>
-        <translation type="unfinished">Minuto</translation>
-    </message>
-    <message>
-        <source>Enddate</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Endtime</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Hours</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Minutes</source>
-        <translation type="unfinished"></translation>
+        <translation type="obsolete">Minuto</translation>
     </message>
     <message>
         <source>Attendees</source>
-        <translation type="unfinished">Asistentes</translation>
-    </message>
-    <message>
-        <source>Please select more users here</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>other teamrooms</source>
-        <translation type="unfinished"></translation>
+        <translation type="obsolete">Asistentes</translation>
     </message>
 </context>
 <context>
@@ -166,6 +102,13 @@
     <message>
         <source>Get version</source>
         <translation>Obtener versión</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/ezoe</name>
+    <message>
+        <source>Heading </source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1684,31 +1627,31 @@ Tu petición está a la espera de ser aprobada. Para ver el estado de tu petici�
     </message>
     <message>
         <source>Categories</source>
-        <translation>Categorias</translation>
+        <translation type="obsolete">Categorias</translation>
     </message>
     <message>
         <source>Documents</source>
-        <translation>Documentos</translation>
+        <translation type="obsolete">Documentos</translation>
     </message>
     <message>
         <source>Sounds</source>
-        <translation>Sonidos</translation>
+        <translation type="obsolete">Sonidos</translation>
     </message>
     <message>
         <source>Pictures</source>
-        <translation>Dibujos</translation>
+        <translation type="obsolete">Dibujos</translation>
     </message>
     <message>
         <source>Lightboxes</source>
-        <translation>Lightboxes</translation>
+        <translation type="obsolete">Lightboxes</translation>
     </message>
     <message>
         <source>Only files of category &quot;%1&quot; are shown</source>
-        <translation>Solo se muestran los archivos de la categoría  &quot;%1&quot;</translation>
+        <translation type="obsolete">Solo se muestran los archivos de la categoría  &quot;%1&quot;</translation>
     </message>
     <message>
         <source>Show only files of the category &quot;%1&quot;</source>
-        <translation>Solo se muestran los archivos de la categoría  &quot;%1&quot;</translation>
+        <translation type="obsolete">Solo se muestran los archivos de la categoría  &quot;%1&quot;</translation>
     </message>
     <message>
         <source>Keywords</source>
@@ -1769,6 +1712,42 @@ Tu petición está a la espera de ser aprobada. Para ver el estado de tu petici�
     <message>
         <source>Starting...</source>
         <translation>Empezando....</translation>
+    </message>
+    <message>
+        <source> with tag %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>ascending</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>descending</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Files of all types%1 are shown sorted by %2 (%3)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Files of type %1%2 are shown sorted by %3 (%4)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Files of all types are shown</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Do not show files of type &quot;%1&quot;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Show files of the type &quot;%1&quot;</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2065,7 +2044,7 @@ Tu petición está a la espera de ser aprobada. Para ver el estado de tu petici�
     </message>
     <message>
         <source>Author</source>
-        <translation type="unfinished">Autor</translation>
+        <translation type="obsolete">Autor</translation>
     </message>
     <message>
         <source>Message</source>
@@ -2529,6 +2508,10 @@ Tu petición está a la espera de ser aprobada. Para ver el estado de tu petici�
     <message>
         <source>Set Teamroom Membership</source>
         <translation>Establecer afiliación a la Teamroom</translation>
+    </message>
+    <message>
+        <source>Create Teamroom Features</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -4414,6 +4397,30 @@ Tu petición está a la espera de ser aprobada. Para ver el estado de tu petici�
     <message>
         <source>Keywords</source>
         <translation>Palabras clave</translation>
+    </message>
+    <message>
+        <source>Missing previous headings ( %missing_headings ) for heading &quot;%headline&quot; ( %heading ).</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>From A to Z</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Navigation</source>
+        <translation type="unfinished">Navegación</translation>
+    </message>
+    <message>
+        <source>Wiki home</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Random page</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Wiki articles:</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
