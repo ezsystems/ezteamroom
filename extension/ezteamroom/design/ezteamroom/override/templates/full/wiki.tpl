@@ -1,13 +1,3 @@
-{def $default_limit = 10}
-{if ezpreference( 'teamroom_wiki_list_limit' )}
-    {set $default_limit = ezpreference( 'teamroom_wiki_list_limit' )}
-{/if}
-
-{def $page_limit = first_set( $default_limit, 5 )}
-{if and(is_set($view_parameters.limit),$view_parameters.limit|gt(0))}
-    {set $page_limit = $view_parameters.limit}
-{/if}
-
 {def $class_identifier_map = ezini( 'TeamroomSettings', 'ClassIdentifiersMap', 'teamroom.ini' )}
 
 <div class="content-view-full">

@@ -7,6 +7,10 @@
     {set $page_limit = $view_parameters.limit}
 {/if}
 
+{if $page_limit|eq(-1)}
+    {set $page_limit = ''}
+{/if}
+
 {def $class_identifier_map = ezini( 'TeamroomSettings', 'ClassIdentifiersMap', 'teamroom.ini' )}
 
 <div class="content-view-full">
