@@ -41,11 +41,11 @@
                             </div>
 
                             <div class="attribute-header">
-                                <h1>{attribute_view_gui attribute=$node.object.data_map.title} Tag {$keyword.keyword}</h1>
+                                <h1>{'Wiki'|i18n('ezteamroom/wiki')} Tag {$view_parameters.tag|wash()}</h1>
                             </div>
 
                             <div class="attribute-body">
-                                {'Only entries with tag "%1" are shown'|i18n( 'ezteamroom/blog', , array( $keyword.keyword ) )|wash()}
+                                {'Only entries with tag "%1" are shown'|i18n( 'ezteamroom/blog', , array( $view_parameters.tag ) )|wash()}
                             </div>
 
                             {def $children_count = fetch( 'content', 'keyword_count', hash( 'alphabet', $view_parameters.tag|rawurldecode(),
