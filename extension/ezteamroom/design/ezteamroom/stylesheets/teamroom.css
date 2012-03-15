@@ -3445,8 +3445,12 @@ div.edit-attribute input
 {
     border:1px solid #A5ACB2;
     font-size:1em;
+}
+div.edit-attribute input[type=text]
+{
     width:50%;
 }
+
 
 div.edit-attribute input.checkbox,
 div.edit-attribute input.button
