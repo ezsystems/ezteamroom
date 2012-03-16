@@ -214,14 +214,14 @@
    </div>
   </div>
 
-{if and( is_set( $node.object.data_map.description ), $node.object.data_map.description.has_content )}
-
+{if is_set( $node.object.data_map.description )}
+{if $node.object.data_map.description.has_content}
   <div class="attribute-long">
 
     {attribute_view_gui attribute = $node.data_map.description}
 
   </div>
-
+{/if}
 {/if}
 
   <div class="columns-frontpage float-break">

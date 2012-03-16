@@ -3,4 +3,7 @@
 [ActionSettings]
 ExtensionDirectories[]=ezteamroom
 
+[EditSettings]
+ExtensionDirectories[]=ezteamroom
+
 */ ?>

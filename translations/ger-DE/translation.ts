@@ -1,6 +1,93 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0">
+<TS version="2.0" language="de_DE" sourcelanguage="en_GB">
+<context>
+    <name>design/ezevent/content/datatype</name>
+    <message>
+        <source>Normal</source>
+        <translation>Normal</translation>
+    </message>
+    <message>
+        <source>Full Day</source>
+        <translation>Ganztägig</translation>
+    </message>
+    <message>
+        <source>You are editing a single date of the recurent event &quot;%name&quot;&lt;br /&gt;(period from %start to %end)</source>
+        <translation type="obsolete">Sie bearbeiten ein einzelnes Datum des wiederkehrenden Termins &quot;%name&quot;&lt;br /&gt;(Zeitraum von %start bis %end)</translation>
+    </message>
+    <message>
+        <source>Select type</source>
+        <translation type="obsolete">Type auswählen</translation>
+    </message>
+    <message>
+        <source>Weekly</source>
+        <translation type="obsolete">Wöchentlich</translation>
+    </message>
+    <message>
+        <source>Monthly</source>
+        <translation type="obsolete">Monatlich</translation>
+    </message>
+    <message>
+        <source>Yearly</source>
+        <translation type="obsolete">Jährlich</translation>
+    </message>
+    <message>
+        <source>Startdate</source>
+        <translation type="obsolete">Beginn</translation>
+    </message>
+    <message>
+        <source>Year</source>
+        <translation type="obsolete">Jahr</translation>
+    </message>
+    <message>
+        <source>Month</source>
+        <translation type="obsolete">Monat</translation>
+    </message>
+    <message>
+        <source>Day</source>
+        <translation type="obsolete">Tag</translation>
+    </message>
+    <message>
+        <source>Starttime</source>
+        <translation type="obsolete">Uhrzeit</translation>
+    </message>
+    <message>
+        <source>Hour</source>
+        <translation type="obsolete">Stunde</translation>
+    </message>
+    <message>
+        <source>Minute</source>
+        <translation type="obsolete">Minute</translation>
+    </message>
+    <message>
+        <source>Enddate</source>
+        <translation type="obsolete">Ende</translation>
+    </message>
+    <message>
+        <source>Endtime</source>
+        <translation type="obsolete">Uhrzeit</translation>
+    </message>
+    <message>
+        <source>Hours</source>
+        <translation type="obsolete">Stunden</translation>
+    </message>
+    <message>
+        <source>Minutes</source>
+        <translation type="obsolete">Minuten</translation>
+    </message>
+    <message>
+        <source>Attendees</source>
+        <translation type="obsolete">Teilnehmer</translation>
+    </message>
+    <message>
+        <source>Please select more users here</source>
+        <translation type="obsolete">Bitte wählen Sie hier mehr Teilnehmer aus</translation>
+    </message>
+    <message>
+        <source>other teamrooms</source>
+        <translation type="obsolete">weitere Teamräume</translation>
+    </message>
+</context>
 <context>
     <name>design/ezteamroom</name>
     <message>
@@ -10,6 +97,105 @@
     <message>
         <source>Add this file to the current lightbox.</source>
         <translation>DIesen Eintrag zur aktuellen Lightbox hinzufügen.</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezteamroom/content/datatype</name>
+    <message>
+        <source>You are editing a single date of the recurent event &quot;%name&quot;&lt;br /&gt;(period from %start to %end)</source>
+        <translation type="obsolete">Sie bearbeiten ein einzelnes Datum des wiederkehrenden Termins &quot;%name&quot;&lt;br /&gt;(Zeitraum von %start bis %end)</translation>
+    </message>
+    <message>
+        <source>Select type</source>
+        <translation>Typ auswählen</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation type="obsolete">Normal</translation>
+    </message>
+    <message>
+        <source>Full Day</source>
+        <translation type="obsolete">Ganztägig</translation>
+    </message>
+    <message>
+        <source>Weekly</source>
+        <translation type="obsolete">Wöchentlich</translation>
+    </message>
+    <message>
+        <source>Monthly</source>
+        <translation type="obsolete">Monatlich</translation>
+    </message>
+    <message>
+        <source>Yearly</source>
+        <translation type="obsolete">Jährlich</translation>
+    </message>
+    <message>
+        <source>Startdate</source>
+        <translation type="obsolete">Beginn</translation>
+    </message>
+    <message>
+        <source>Year</source>
+        <translation type="obsolete">Jahr</translation>
+    </message>
+    <message>
+        <source>Month</source>
+        <translation type="obsolete">Monat</translation>
+    </message>
+    <message>
+        <source>Day</source>
+        <translation type="obsolete">Tag</translation>
+    </message>
+    <message>
+        <source>Starttime</source>
+        <translation type="obsolete">Uhrzeit</translation>
+    </message>
+    <message>
+        <source>Hour</source>
+        <translation type="obsolete">Stunde</translation>
+    </message>
+    <message>
+        <source>Minute</source>
+        <translation type="obsolete">Minute</translation>
+    </message>
+    <message>
+        <source>Enddate</source>
+        <translation type="obsolete">Ende</translation>
+    </message>
+    <message>
+        <source>Endtime</source>
+        <translation type="obsolete">Uhrzeit</translation>
+    </message>
+    <message>
+        <source>Hours</source>
+        <translation type="obsolete">Stunden</translation>
+    </message>
+    <message>
+        <source>Minutes</source>
+        <translation type="obsolete">Minuten</translation>
+    </message>
+    <message>
+        <source>Attendees</source>
+        <translation type="obsolete">Teilnehmer</translation>
+    </message>
+    <message>
+        <source>Please select more users here</source>
+        <translation type="obsolete">Bitte wählen Sie hier mehr Teilnehmer aus</translation>
+    </message>
+    <message>
+        <source>other teamrooms</source>
+        <translation type="obsolete">weitere Teamräume</translation>
+    </message>
+    <message>
+        <source>Select event type</source>
+        <translation type="obsolete">Eventtyp auswählen</translation>
+    </message>
+    <message>
+        <source>Simple</source>
+        <translation type="obsolete">Einfach</translation>
+    </message>
+    <message>
+        <source>Select recurrence</source>
+        <translation type="obsolete">Wiederholung auswählen</translation>
     </message>
 </context>
 <context>
@@ -60,6 +246,13 @@
     <message>
         <source>Get version</source>
         <translation>Version herunterladen</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/ezoe</name>
+    <message>
+        <source>Heading </source>
+        <translation>Überschrift </translation>
     </message>
 </context>
 <context>
@@ -511,7 +704,7 @@ Sie müssen noch auf die Freigabe warten. Um den aktuellen Status der Anfrage zu
     </message>
     <message>
         <source>This mail was sent by the notification system on %sitename</source>
-        <translation>Diese E-Mail wurde vom Benachrichtigungssystem auf %sitename versandt.</translation>
+        <translation type="unfinished">Diese E-Mail wurde vom Benachrichtigungssystem auf %sitename versandt.</translation>
     </message>
     <message>
         <source>[%sitename] Membership registration for teamroom &quot;%groupname&quot; waits for approval</source>
@@ -531,7 +724,7 @@ Sie müssen noch auf die Freigabe warten. Um den aktuellen Status der Anfrage zu
     </message>
     <message>
         <source>Account information.</source>
-        <translation>Benutzerkonto Informationen</translation>
+        <translation>Benutzerkonto Informationen.</translation>
     </message>
     <message>
         <source>Username</source>
@@ -779,7 +972,7 @@ change your settings at:</source>
     </message>
     <message>
         <source>The following list shows the files related to this teamroom. To upload single files the button &quot;Upload new file&quot; can be used. Furthermore it is possible to upload multiple files at the same time by using the &quot;Multi upload&quot; button. For uploading multiple files at the same time it is required to use the &quot;Ctrl&quot; key when selecting the files. To add an existing lightbox to the list of files the button &quot;Add lightbox&quot; can be used. The links shown below &quot;Sort by&quot; can be used to sort the files in different orders. By clicking on the same link two times, the sorting order will be reverted. The links shown below &quot;Categories&quot; can be used to filter the list of shown files by the categories they belong to. A click on one of the keywords shown below &quot;Keywords&quot; will filter the displayed tasks and show only those having the selected keyword.</source>
-        <translation>Diese Liste zeigt eine Übersicht aller Dateien dieses Teamrooms an. Um eine neue Datei hochzuladen klicken Sie auf &quot;Datei hochladen&quot;. Sie haben zudem die Möglichkeit mehrere Dateien in einem Schritt hochzuladen, indem Sie auf &quot;Dateien hinzufügen klicken&quot;. Um mehrere Dateien gleichzeitig hochladen zu können, müssen Sie bei der Auswahl der Dateien die &quot;Strg&quot;-Taste gedrückt halten. Klicken Sie auf &quot;Lightbox hinzufügen&quot;, um eine Lightbox in die Dateiliste aufzunehmen. Die Verweise unterhalb von &quot;Sortieren nach&quot; können zur Sortierung der Dateien nach unterschiedlichen Kriterien verwendet werden. Ein erneuter Klick auf einen Link ändert kehrt die Sortreihenfolge um. Durch anklicken einer der unter &quot;Kategorien&quot; angezeigten Kategorie wird die Dateiliste gefilter und zeigt nur Dateien mit dem entsprechenden Schlüßelwort an. Durch Anklicken eines der unter &quot;Tags&quot; angezeigten Wörter wird die Dateiliste gefiltert und nur Dateien mit dem entsprechenden Schlüßelwort angezeigt.</translation>
+        <translation>Diese Liste zeigt eine Übersicht aller Dateien dieses Teamrooms an. Um eine neue Datei hochzuladen klicken Sie auf &quot;Datei hochladen&quot;. Sie haben zudem die Möglichkeit mehrere Dateien in einem Schritt hochzuladen, indem Sie auf &quot;Dateien hinzufügen klicken&quot;. Um mehrere Dateien gleichzeitig hochladen zu können, müssen Sie bei der Auswahl der Dateien die &quot;Strg&quot;-Taste gedrückt halten. Klicken Sie auf &quot;Lightbox hinzufügen&quot;, um eine Lightbox in die Dateiliste aufzunehmen. Die Verweise unterhalb von &quot;Sortieren nach&quot; können zur Sortierung der Dateien nach unterschiedlichen Kriterien verwendet werden. Ein erneuter Klick auf einen Link kehrt die Sortier-Reihenfolge um. Durch anklicken einer der unter &quot;Kategorien&quot; angezeigten Kategorie wird die Dateiliste gefiltert und zeigt nur Dateien mit dem entsprechenden Schlüsselwort an. Durch Anklicken eines der unter &quot;Tags&quot; angezeigten Wörter wird die Dateiliste gefiltert und nur Dateien mit dem entsprechenden Schlüsselwort angezeigt.</translation>
     </message>
     <message>
         <source>Milestones</source>
@@ -791,7 +984,7 @@ change your settings at:</source>
     </message>
     <message>
         <source>Latest Files</source>
-        <translation>Neuste Dateien</translation>
+        <translation>Neueste Dateien</translation>
     </message>
     <message>
         <source>Current Lightbox</source>
@@ -799,7 +992,7 @@ change your settings at:</source>
     </message>
     <message>
         <source>Latest Member</source>
-        <translation>Neuste Mitglieder</translation>
+        <translation>Neueste Mitglieder</translation>
     </message>
     <message>
         <source>Last Blog Entry</source>
@@ -860,6 +1053,18 @@ change your settings at:</source>
     <message>
         <source>The following users are currently moderators of this teamroom.</source>
         <translation>Die folgenden Benutzer sind momentan Moderatoren dieses Teamrooms.</translation>
+    </message>
+    <message>
+        <source>My Tasks</source>
+        <translation>Meine Aufgaben</translation>
+    </message>
+    <message>
+        <source>&amp;lt;header level=&amp;quot;1&amp;quot;&amp;gt;Welcome to this teamrooms wiki.&amp;lt;/header&amp;gt;
+Use the &amp;lt;custom name=&amp;quot;underline&amp;quot;&amp;gt;&amp;lt;emphasize&amp;gt;wiki search&amp;lt;/emphasize&amp;gt;&amp;lt;/custom&amp;gt; on the &amp;lt;strong&amp;gt;left site menu&amp;lt;/strong&amp;gt; to find your article.
+Read a random wiki page by clicking on the &amp;lt;emphasize&amp;gt;random page&amp;lt;/emphasize&amp;gt; link or browse thru all articles in the alphabetical list &amp;lt;emphasize&amp;gt;A to Z&amp;lt;/emphasize&amp;gt;.</source>
+        <translation>&amp;lt;header level=&amp;quot;1&amp;quot;&amp;gt;Willkommen im Wiki des Teamroom.&amp;lt;/header&amp;gt;
+Benutzen Sie &amp;lt;custom name=&amp;quot;underline&amp;quot;&amp;gt;&amp;lt;emphasize&amp;gt;Wiki Suche&amp;lt;/emphasize&amp;gt;&amp;lt;/custom&amp;gt; im &amp;lt;strong&amp;gt;Menü auf der linken Seite&amp;lt;/strong&amp;gt; um nach Wiki Beiträgen zu suchen.
+Oder Lesen Sie einen zufälligen Artikel cdurch einen klick auf &amp;lt;emphasize&amp;gt;Zufälliger Artikel&amp;lt;/emphasize&amp;gt; oder wählen Sie einen Artikel aus der alphabetisch geordneten Liste &amp;lt;emphasize&amp;gt;A bis Z&amp;lt;/emphasize&amp;gt;.</translation>
     </message>
 </context>
 <context>
@@ -1222,7 +1427,7 @@ Sie sollten diese Person kontaktieren oder einen neuen eigenen Entwurf anlegen.<
     </message>
     <message>
         <source>Events in %1</source>
-        <translation>Termine im</translation>
+        <translation>Termine im %1</translation>
     </message>
     <message>
         <source>%1 - %2</source>
@@ -1274,19 +1479,35 @@ Sie sollten diese Person kontaktieren oder einen neuen eigenen Entwurf anlegen.<
     </message>
     <message>
         <source>Edit event</source>
-        <translation type="unfinished"></translation>
+        <translation>Termin bearbeiten</translation>
     </message>
     <message>
         <source>Edit single date of recurring event</source>
-        <translation type="unfinished"></translation>
+        <translation>Bearbeiten eines Termins des wiederkehrenden Ereignisses</translation>
     </message>
     <message>
         <source>Previous month</source>
-        <translation type="unfinished"></translation>
+        <translation>Vorheriger Monat</translation>
     </message>
     <message>
         <source>Next Month</source>
-        <translation type="unfinished"></translation>
+        <translation>Nächster Monat</translation>
+    </message>
+    <message>
+        <source>On %1 from %2 to %3</source>
+        <translation>Am %1 von %2 bis %3</translation>
+    </message>
+    <message>
+        <source>On %1</source>
+        <translation>Am %1</translation>
+    </message>
+    <message>
+        <source>At %1</source>
+        <translation>Am %1</translation>
+    </message>
+    <message>
+        <source>From %2 to %3</source>
+        <translation>Von %2 bis %3</translation>
     </message>
 </context>
 <context>
@@ -1357,7 +1578,7 @@ Sie sollten diese Person kontaktieren oder einen neuen eigenen Entwurf anlegen.<
     </message>
     <message>
         <source>Categories</source>
-        <translation>Kategorien</translation>
+        <translation type="obsolete">Kategorien</translation>
     </message>
     <message>
         <source>Keywords</source>
@@ -1493,19 +1714,19 @@ Sie sollten diese Person kontaktieren oder einen neuen eigenen Entwurf anlegen.<
     </message>
     <message>
         <source>Documents</source>
-        <translation>Dokumente</translation>
+        <translation type="obsolete">Dokumente</translation>
     </message>
     <message>
         <source>Sounds</source>
-        <translation>Audio</translation>
+        <translation type="obsolete">Audio</translation>
     </message>
     <message>
         <source>Pictures</source>
-        <translation>Bilder</translation>
+        <translation type="obsolete">Bilder</translation>
     </message>
     <message>
         <source>Lightboxes</source>
-        <translation>Lightboxen</translation>
+        <translation type="obsolete">Lightboxen</translation>
     </message>
     <message>
         <source>Download this file</source>
@@ -1581,11 +1802,11 @@ Sie sollten diese Person kontaktieren oder einen neuen eigenen Entwurf anlegen.<
     </message>
     <message>
         <source>Only files of category &quot;%1&quot; are shown</source>
-        <translation>Nur Einträge derr Kategorie &quot;%1&quot; werden anzeigt</translation>
+        <translation type="obsolete">Nur Einträge derr Kategorie &quot;%1&quot; werden anzeigt</translation>
     </message>
     <message>
         <source>Show only files of the category &quot;%1&quot;</source>
-        <translation>Nur Einträge derr Kategorie &quot;%1&quot; anzeigen</translation>
+        <translation type="obsolete">Nur Einträge derr Kategorie &quot;%1&quot; anzeigen</translation>
     </message>
     <message>
         <source>Only files with tag &quot;%1&quot; are shown</source>
@@ -1642,6 +1863,42 @@ Sie sollten diese Person kontaktieren oder einen neuen eigenen Entwurf anlegen.<
     <message>
         <source>Are you sure you want to remove the folder?</source>
         <translation>Sind Sie sicher, dass Sie diesen Ordner entfernen möchten?</translation>
+    </message>
+    <message>
+        <source> with tag %1</source>
+        <translation> mit tag %1</translation>
+    </message>
+    <message>
+        <source>ascending</source>
+        <translation>aufsteigend</translation>
+    </message>
+    <message>
+        <source>descending</source>
+        <translation>absteigend</translation>
+    </message>
+    <message>
+        <source>Files of all types%1 are shown sorted by %2 (%3)</source>
+        <translation>Dateien jeden Typs%1 werden angezeigt und nach %2 (%3) sortiert</translation>
+    </message>
+    <message>
+        <source>Files of type %1%2 are shown sorted by %3 (%4)</source>
+        <translation>Dateien des Typs %1%2 werden angezeigt und nach %3 (%4) sortiert</translation>
+    </message>
+    <message>
+        <source>Files of all types are shown</source>
+        <translation>Dateien jeden Typs werden angezeigt</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Alle</translation>
+    </message>
+    <message>
+        <source>Do not show files of type &quot;%1&quot;</source>
+        <translation>Zeige keine Dateien des Typs &quot;%1&quot;</translation>
+    </message>
+    <message>
+        <source>Show files of the type &quot;%1&quot;</source>
+        <translation>Zeige Dateien des Typs &quot;%1&quot;</translation>
     </message>
 </context>
 <context>
@@ -1934,7 +2191,7 @@ Sie sollten diese Person kontaktieren oder einen neuen eigenen Entwurf anlegen.<
     </message>
     <message>
         <source>Author</source>
-        <translation>Autor</translation>
+        <translation type="obsolete">Autor</translation>
     </message>
     <message>
         <source>Message</source>
@@ -1993,8 +2250,12 @@ Sie sollten diese Person kontaktieren oder einen neuen eigenen Entwurf anlegen.<
         <translation>Fußzeile</translation>
     </message>
     <message>
-        <source>Teamroom documentation page</source>
-        <translation>Teamroom Dokumentationsseite</translation>
+        <source>Teamroom wiki</source>
+        <translation>Teamroom wiki</translation>
+    </message>
+    <message>
+        <source>Teamroom wiki page</source>
+        <translation>Teamroom wiki Seite</translation>
     </message>
     <message>
         <source>Display sub items</source>
@@ -2226,7 +2487,7 @@ Sie sollten diese Person kontaktieren oder einen neuen eigenen Entwurf anlegen.<
     </message>
     <message>
         <source>Lock</source>
-        <translation type="unfinished"></translation>
+        <translation>Sperren</translation>
     </message>
 </context>
 <context>
@@ -2368,6 +2629,10 @@ Sie sollten diese Person kontaktieren oder einen neuen eigenen Entwurf anlegen.<
         <source>Latest Messages</source>
         <translation>Letzte Nachrichten</translation>
     </message>
+    <message>
+        <source>My Tasks</source>
+        <translation>Meine Aufgaben</translation>
+    </message>
 </context>
 <context>
     <name>ezteamroom/install/workflows</name>
@@ -2394,6 +2659,10 @@ Sie sollten diese Person kontaktieren oder einen neuen eigenen Entwurf anlegen.<
     <message>
         <source>Set Teamroom Membership</source>
         <translation>Teamroom Mitgliedschaft setzen</translation>
+    </message>
+    <message>
+        <source>Create Teamroom Features</source>
+        <translation>Erstelle Teamroom Eigenschaften</translation>
     </message>
 </context>
 <context>
@@ -2771,15 +3040,15 @@ Sie sollten diese Person kontaktieren oder einen neuen eigenen Entwurf anlegen.<
     </message>
     <message>
         <source>Are you sure you want to delete this lightbox?</source>
-        <translation type="unfinished"></translation>
+        <translation>Sind Sie sicher, dass Sie diese Lightbox löschen möchten?</translation>
     </message>
     <message>
         <source>Are you sure you want to remove this entry?</source>
-        <translation type="unfinished"></translation>
+        <translation>Sind Sie sicher, dass Sie diesen Eintrag entfernen möchten?</translation>
     </message>
     <message>
         <source>Are you sure you want to empty this lightbox?</source>
-        <translation type="unfinished"></translation>
+        <translation>Sind Sie sicher, dass Sie diese Lightbox leeren möchten?</translation>
     </message>
 </context>
 <context>
@@ -3307,70 +3576,94 @@ Sie sollten diese Person kontaktieren oder einen neuen eigenen Entwurf anlegen.<
     </message>
     <message>
         <source>Remove</source>
-        <translation type="unfinished">Entfernen</translation>
+        <translation>Entfernen</translation>
     </message>
     <message>
         <source>Remove the selected users from the invitation list displayed above</source>
-        <translation type="unfinished"></translation>
+        <translation>Entfernen der ausgwählten Benutzer von der obrigen Einladungsliste</translation>
     </message>
     <message>
         <source>If you forgot your password, use the following link to get a new password</source>
-        <translation type="unfinished"></translation>
+        <translation>Wenn Sie ihr Passwort vergessen haben, benutzen Sie den folgenden Link um ein neues Passwort zu erhalten</translation>
+    </message>
+    <message>
+        <source>Your email address has been confirmed. An email is send to you. Please follow the link to activate your account.</source>
+        <translation>Ihre E-Mail Adresse wurde bestätigt. In Kürze erhalten Sie eine weitere E-Mail. Bitte folgen Sie den Link um ihr Benutzerkonto zu aktivieren.</translation>
+    </message>
+    <message>
+        <source>Thank you for registering at %siteurl.</source>
+        <translation>Vielen Dank, dass Sie sich auf %siteurl registriert haben.</translation>
+    </message>
+    <message>
+        <source>Your registration has been approved. You can login with your account %username.</source>
+        <translation>Ihre Registrierung war erfolgreich. Sie können sich nun mit ihren Benutzernamen (%username) anmelden.</translation>
+    </message>
+    <message>
+        <source>Click the following URL to login:</source>
+        <translation>Benutzen Sie den folgenden Link um sich anzumelden:</translation>
+    </message>
+    <message>
+        <source>Click the following URL to verify your email address.</source>
+        <translation>Benutzen Sie die folgenden URL um ihre E-Mail Adresse zu bestätigen.</translation>
+    </message>
+    <message>
+        <source> registration approved</source>
+        <translation> Registierung bestätigt</translation>
     </message>
 </context>
 <context>
     <name>ezteamroom/messagecenter</name>
     <message>
         <source>Send message</source>
-        <translation type="unfinished"></translation>
+        <translation>Nachricht senden</translation>
     </message>
     <message>
         <source>An email has been send using the teamroom &quot;%1&quot;. The message is included below.</source>
-        <translation type="unfinished"></translation>
+        <translation>Eine E-Mail wurde über den Teamroom &quot;%1&quot; versendet. Die Nachricht wird nachstehend angezeigt.</translation>
     </message>
     <message>
         <source>Use the following link to access the teamroom</source>
-        <translation type="unfinished">Folgen Sie dem Link um direkt zum Teamroom zu gelangen</translation>
+        <translation>Folgen Sie dem Link um direkt zum Teamroom zu gelangen</translation>
     </message>
     <message>
         <source>Show</source>
-        <translation type="unfinished">Anzeigen</translation>
+        <translation>Anzeigen</translation>
     </message>
     <message>
         <source>Hide</source>
-        <translation type="unfinished"></translation>
+        <translation>Verstecken</translation>
     </message>
     <message>
         <source>Member list</source>
-        <translation type="unfinished"></translation>
+        <translation>Mitgliederliste</translation>
     </message>
     <message>
         <source>Invert selection</source>
-        <translation type="unfinished">Auswahl umkehren</translation>
+        <translation>Auswahl umkehren</translation>
     </message>
     <message>
         <source>Message form</source>
-        <translation type="unfinished"></translation>
+        <translation>Nachrichtenformular</translation>
     </message>
     <message>
         <source>Receiver</source>
-        <translation type="unfinished">Empfänger</translation>
+        <translation>Empfänger</translation>
     </message>
     <message>
         <source>Subject</source>
-        <translation type="unfinished">Betreff</translation>
+        <translation>Betreff</translation>
     </message>
     <message>
         <source>Body</source>
-        <translation type="unfinished">Nachricht</translation>
+        <translation>Nachricht</translation>
     </message>
     <message>
         <source>Back</source>
-        <translation type="unfinished">Zurück</translation>
+        <translation>Zurück</translation>
     </message>
     <message>
         <source>Message Center</source>
-        <translation type="unfinished"></translation>
+        <translation>Nachrichtenzentrale</translation>
     </message>
 </context>
 <context>
@@ -4212,7 +4505,15 @@ Sie sollten diese Person kontaktieren oder einen neuen eigenen Entwurf anlegen.<
     </message>
     <message>
         <source>Move to group &apos;%1&apos;</source>
-        <translation type="unfinished"></translation>
+        <translation>In Gruppe &apos;%1&apos; verschieben</translation>
+    </message>
+    <message>
+        <source>Currently there are no new tasks.</source>
+        <translation>Momentan sind keine neuen Aufgaben vorhanden.</translation>
+    </message>
+    <message>
+        <source>Planned end:</source>
+        <translation>Geplantes Ende:</translation>
     </message>
 </context>
 <context>
@@ -4249,16 +4550,40 @@ Sie sollten diese Person kontaktieren oder einen neuen eigenen Entwurf anlegen.<
         <source>Remove this entry</source>
         <translation>Diesen Beitrag entfernen</translation>
     </message>
+    <message>
+        <source>Missing previous headings ( %missing_headings ) for heading &quot;%headline&quot; ( %heading ).</source>
+        <translation>Die vorige überschrift ( %missing_headings ) für die Überschrift &quot;%headline&quot; ( %heading ) fehlt.</translation>
+    </message>
+    <message>
+        <source>From A to Z</source>
+        <translation>Von A bis Z</translation>
+    </message>
+    <message>
+        <source>Navigation</source>
+        <translation>Navigation</translation>
+    </message>
+    <message>
+        <source>Wiki home</source>
+        <translation>Hauptseite</translation>
+    </message>
+    <message>
+        <source>Random page</source>
+        <translation>Zufälliger Artikel</translation>
+    </message>
+    <message>
+        <source>Wiki articles:</source>
+        <translation>Wiki Einträge:</translation>
+    </message>
 </context>
 <context>
     <name>lightbox/view</name>
     <message>
         <source>Go back</source>
-        <translation type="unfinished">Zurück</translation>
+        <translation>Zurück</translation>
     </message>
     <message>
         <source>Use this button to go back to the last page.</source>
-        <translation type="unfinished"></translation>
+        <translation>Benutzen Sie diesen Button um zur vorherigen Seite zu gelangen.</translation>
     </message>
 </context>
 </TS>

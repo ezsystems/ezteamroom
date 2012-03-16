@@ -67,6 +67,8 @@
 
     {** Icon **}
     <div class="file-list-icon">
+{*        <a href={$node.url_alias|ezurl()}>{$node.class_identifier|class_icon( normal, $node.class_name )}</a>*}
+        <a href={$node.url_alias|ezurl()}><img width="32" height="32" title="{$node.class_name}" alt="{$node.class_name}" src={'files_icons/folder_icon.gif'|ezimage()} /></a>
     </div>
 
     {** Description **}

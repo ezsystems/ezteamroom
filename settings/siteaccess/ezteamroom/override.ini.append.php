@@ -25,6 +25,13 @@ MatchFile=cal_line/milestone.tpl
 Subdir=templates/
 Match[class_identifier]=teamroom_milestone
 
+[edit_milestone_datatype_datetime]
+Source=content/datatype/edit/ezdatetime.tpl
+MatchFile=attributes/edit/ezdatetime.tpl
+Subdir=templates
+Match[attribute_identifier]=date
+Match[class_identifier]=teamroom_milestone
+
 [edit_lightbox]
 Source=content/edit.tpl
 MatchFile=lightbox/edit_lightbox.tpl
@@ -328,6 +335,12 @@ MatchFile=listitem/file.tpl
 Subdir=templates
 Match[class_identifier]=teamroom_file
 
+[listitem_mytask]
+Source=node/view/listitem.tpl
+MatchFile=listitem/mytasks.tpl
+Subdir=templates
+Match[class_identifier]=teamroom_task
+
 [edit_task]
 Source=content/edit.tpl
 MatchFile=edit/task.tpl
@@ -434,6 +447,11 @@ MatchFile=module_widget/user_group.tpl
 Subdir=templates
 Match[class_identifier]=user_group
 
+[module_widget_my_tasks]
+Source=node/view/module_widget.tpl
+MatchFile=module_widget/mytasks.tpl
+Subdir=templates
+Match[class_identifier]=teamroom_task_list
 
 [module_widget_file_folder]
 Source=node/view/module_widget.tpl
@@ -526,17 +544,29 @@ MatchFile=embed/image.tpl
 Subdir=templates
 Match[class_identifier]=image
 
-[full_teamroom_documentation_page]
+[full_teamroom_wiki]
 Source=node/view/full.tpl
-MatchFile=full/documentation_page.tpl
+MatchFile=full/wiki.tpl
 Subdir=templates
-Match[class_identifier]=teamroom_documentation_page
+Match[class_identifier]=teamroom_wiki
 
-[line_teamroom_documentation_page]
+[line_teamroom_wiki]
 Source=node/view/line.tpl
-MatchFile=line/documentation_page.tpl
+MatchFile=line/wiki.tpl
 Subdir=templates
-Match[class_identifier]=teamroom_documentation_page
+Match[class_identifier]=teamroom_wiki
+
+[full_teamroom_wiki_page]
+Source=node/view/full.tpl
+MatchFile=full/wiki_page.tpl
+Subdir=templates
+Match[class_identifier]=teamroom_wiki_page
+
+[line_teamroom_wiki_page]
+Source=node/view/line.tpl
+MatchFile=line/wiki_page.tpl
+Subdir=templates
+Match[class_identifier]=teamroom_wiki_page
 
 [full_teamroom_blog]
 Source=node/view/full.tpl

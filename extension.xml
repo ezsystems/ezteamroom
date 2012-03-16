@@ -2,9 +2,9 @@
 <software>
     <metadata>
         <name>eZ Publish eZ Teamroom Solution</name>
-        <version>//autogentag//</version>
+        <version>1.4.0</version>
         <copyright>Copyright (C) 1999-2011 eZ Systems AS</copyright>
-        <license>//EZP_LICENSE//</license>
+        <license>eZ Business Use License Agreement Version 2.0</license>
         <info_url>http://projects.ez.no/ezteamroom</info_url>
     </metadata>
 </software>

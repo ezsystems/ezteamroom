@@ -11,10 +11,12 @@ JavaScriptList[]=personal_frontpage_helper.js
 JavaScriptList[]=drag_drop.js
 JavaScriptList[]=boxes.js
 JavaScriptList[]=teamroom.js
-#JavaScriptList[]=lightbox.js
+JavaScriptList[]=lightbox.js
 JavaScriptList[]=ezdatepickerex.js
 JavaScriptList[]=yui/build/yahoo-dom-event/yahoo-dom-event.js
 JavaScriptList[]=yui/build/calendar/calendar.js
+JavaScriptList[]=ezevent.js
+JavaScriptList[]=ezdatepicker.js
 
 [StylesheetSettings]
 #CSSFileList[]=lightbox.css

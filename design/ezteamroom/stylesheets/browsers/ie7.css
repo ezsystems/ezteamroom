@@ -267,7 +267,8 @@ div.user-login div.block input.checkbox {
     border: none;
 }
 
-div.class-documentation-page div.blog_actions
+div.class-wiki div.blog_actions,
+div.class-wiki-page div.blog_actions
 {
     margin-top:-25px;
 }

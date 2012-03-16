@@ -90,7 +90,7 @@
     {** Description **}
     <div class="file-list-name"{if eq( $filelockfeature, 'enabled' )}style="width: 208px;"{/if}>
         <h4 title="{$attribute.content.original_filename|wash()}">{if $not_locked}<a href={$node.url_alias|ezurl()}>{/if}{$attribute.content.original_filename|wash()|shorten(30)}{if $not_locked}</a>{/if}</h4>
-        <p class="info">{if is_set( $node.data_map.text_description )}{attribute_view_gui attribute=$node.data_map.text_description}{else}{attribute_view_gui attribute=$node.data_map.description}{/if}</p>
+        <div class="info">{$node.data_map.description.content.output.output_text|shorten_xml(70)}<div class="hiddendescription">{attribute_view_gui attribute=$node.data_map.description}</div></div>
         <span class="date">{$node.object.published|l10n('shortdate')}</span>|
         <span class="owner"><strong>{'Owner'|i18n('ezteamroom/design')}</strong>&nbsp;{$node.object.owner.name|wash()}</span>
     </div>

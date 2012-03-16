@@ -1,0 +1,10 @@
+for upgrading from Teamroom Version 1.4 to 1.5 you have to migrate the wiki.
+
+Just run fron ezpublish root directory:
+
+  php extension/ezteamroom/update/1.4to1.5/migrate_wiki.php  -s ezteamroom
+
+The script will 
+- add two new wiki classes
+- migrate old wiki objects to objects of the new wiki classes
+- update wiki roles for handle new classes

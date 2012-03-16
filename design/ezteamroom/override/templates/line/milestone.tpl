@@ -42,7 +42,7 @@
     </div>
     <div class="file-list-name">
         <h4>{$node.name|wash()}</h4>
-        <div class="info">{$node.data_map.description.content.output.output_text|striptags|shorten(70)}<div class="hiddendescription">{attribute_view_gui attribute=$node.data_map.description}</div></div>
+        <div class="info">{$node.data_map.description.content.output.output_text|shorten_xml(70)}<div class="hiddendescription">{attribute_view_gui attribute=$node.data_map.description}</div></div>
     </div>
 </div>
 <div id="ai{$node.node_id}" style="display:none;" class="{$style} milestone-infobox float-break">

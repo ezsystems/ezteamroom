@@ -64,7 +64,7 @@
                                 {if $view_parameters.offset|lt( 1 )}
                                 <tr class="header">
                                     <td colspan="2">
-                                        {$node.object.published|l10n(datetime)}
+                                        <div class="date">{$node.object.published|l10n(datetime)}</div>    
                                         <div class="manage_forum_reply float-break">
                                         {if $node.object.can_edit}
                                             <form method="post" action={"content/action/"|ezurl}>

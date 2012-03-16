@@ -13,6 +13,8 @@
         {/if}
     {/foreach}
 {/if}
+<!--PFBOXCONTENT-->
+<div class="pfboxcontenthide"></div>
 <div class="create_new_teamroom content-view-embed">
     <div class="border-box">
     <div class="border-tl"><div class="border-tr"><div class="border-tc"></div></div></div>

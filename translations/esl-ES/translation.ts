@@ -2,6 +2,17 @@
 <!DOCTYPE TS>
 <TS version="2.0">
 <context>
+    <name>design/ezevent/content/datatype</name>
+    <message>
+        <source>Normal</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Full Day</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>design/ezteamroom</name>
     <message>
         <source>Lightbox</source>
@@ -10,6 +21,37 @@
     <message>
         <source>Add this file to the current lightbox.</source>
         <translation>Añadir este archivo a la actual Lightbox.</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezteamroom/content/datatype</name>
+    <message>
+        <source>Select type</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Year</source>
+        <translation type="obsolete">Año</translation>
+    </message>
+    <message>
+        <source>Month</source>
+        <translation type="obsolete">Mes</translation>
+    </message>
+    <message>
+        <source>Day</source>
+        <translation type="obsolete">Día</translation>
+    </message>
+    <message>
+        <source>Hour</source>
+        <translation type="obsolete">Hora</translation>
+    </message>
+    <message>
+        <source>Minute</source>
+        <translation type="obsolete">Minuto</translation>
+    </message>
+    <message>
+        <source>Attendees</source>
+        <translation type="obsolete">Asistentes</translation>
     </message>
 </context>
 <context>
@@ -60,6 +102,13 @@
     <message>
         <source>Get version</source>
         <translation>Obtener versión</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/ezoe</name>
+    <message>
+        <source>Heading </source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -862,6 +911,16 @@ Tu petición está a la espera de ser aprobada. Para ver el estado de tu petici�
         <source>My first blog post</source>
         <translation>Mi primer post en el blog</translation>
     </message>
+    <message>
+        <source>My Tasks</source>
+        <translation type="unfinished">Mis tareas</translation>
+    </message>
+    <message>
+        <source>&amp;lt;header level=&amp;quot;1&amp;quot;&amp;gt;Welcome to this teamrooms wiki.&amp;lt;/header&amp;gt;
+Use the &amp;lt;custom name=&amp;quot;underline&amp;quot;&amp;gt;&amp;lt;emphasize&amp;gt;wiki search&amp;lt;/emphasize&amp;gt;&amp;lt;/custom&amp;gt; on the &amp;lt;strong&amp;gt;left site menu&amp;lt;/strong&amp;gt; to find your article.
+Read a random wiki page by clicking on the &amp;lt;emphasize&amp;gt;random page&amp;lt;/emphasize&amp;gt; link or browse thru all articles in the alphabetical list &amp;lt;emphasize&amp;gt;A to Z&amp;lt;/emphasize&amp;gt;.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>ezteamroom/design</name>
@@ -1289,6 +1348,22 @@ Tu petición está a la espera de ser aprobada. Para ver el estado de tu petici�
         <source>Next Month</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>From %2 to %3</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>On %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>On %1 from %2 to %3</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>At %1</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>ezteamroom/files</name>
@@ -1558,31 +1633,31 @@ Tu petición está a la espera de ser aprobada. Para ver el estado de tu petici�
     </message>
     <message>
         <source>Categories</source>
-        <translation>Categorias</translation>
+        <translation type="obsolete">Categorias</translation>
     </message>
     <message>
         <source>Documents</source>
-        <translation>Documentos</translation>
+        <translation type="obsolete">Documentos</translation>
     </message>
     <message>
         <source>Sounds</source>
-        <translation>Sonidos</translation>
+        <translation type="obsolete">Sonidos</translation>
     </message>
     <message>
         <source>Pictures</source>
-        <translation>Dibujos</translation>
+        <translation type="obsolete">Dibujos</translation>
     </message>
     <message>
         <source>Lightboxes</source>
-        <translation>Lightboxes</translation>
+        <translation type="obsolete">Lightboxes</translation>
     </message>
     <message>
         <source>Only files of category &quot;%1&quot; are shown</source>
-        <translation>Solo se muestran los archivos de la categoría  &quot;%1&quot;</translation>
+        <translation type="obsolete">Solo se muestran los archivos de la categoría  &quot;%1&quot;</translation>
     </message>
     <message>
         <source>Show only files of the category &quot;%1&quot;</source>
-        <translation>Solo se muestran los archivos de la categoría  &quot;%1&quot;</translation>
+        <translation type="obsolete">Solo se muestran los archivos de la categoría  &quot;%1&quot;</translation>
     </message>
     <message>
         <source>Keywords</source>
@@ -1643,6 +1718,42 @@ Tu petición está a la espera de ser aprobada. Para ver el estado de tu petici�
     <message>
         <source>Starting...</source>
         <translation>Empezando....</translation>
+    </message>
+    <message>
+        <source> with tag %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>ascending</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>descending</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Files of all types%1 are shown sorted by %2 (%3)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Files of type %1%2 are shown sorted by %3 (%4)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Files of all types are shown</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Do not show files of type &quot;%1&quot;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Show files of the type &quot;%1&quot;</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1939,7 +2050,7 @@ Tu petición está a la espera de ser aprobada. Para ver el estado de tu petici�
     </message>
     <message>
         <source>Author</source>
-        <translation type="unfinished">Autor</translation>
+        <translation type="obsolete">Autor</translation>
     </message>
     <message>
         <source>Message</source>
@@ -1998,7 +2109,11 @@ Tu petición está a la espera de ser aprobada. Para ver el estado de tu petici�
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Teamroom documentation page</source>
+        <source>Teamroom wiki</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Teamroom wiki page</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2369,6 +2484,10 @@ Tu petición está a la espera de ser aprobada. Para ver el estado de tu petici�
         <source>Latest Messages</source>
         <translation>Últimos mensajes</translation>
     </message>
+    <message>
+        <source>My Tasks</source>
+        <translation type="unfinished">Mis tareas</translation>
+    </message>
 </context>
 <context>
     <name>ezteamroom/install/workflows</name>
@@ -2395,6 +2514,10 @@ Tu petición está a la espera de ser aprobada. Para ver el estado de tu petici�
     <message>
         <source>Set Teamroom Membership</source>
         <translation>Establecer afiliación a la Teamroom</translation>
+    </message>
+    <message>
+        <source>Create Teamroom Features</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -3317,6 +3440,30 @@ Tu petición está a la espera de ser aprobada. Para ver el estado de tu petici�
         <source>If you forgot your password, use the following link to get a new password</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Your email address has been confirmed. An email is send to you. Please follow the link to activate your account.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source> registration approved</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Thank you for registering at %siteurl.</source>
+        <translation type="unfinished">Gracias por registrarte en %siteurl.</translation>
+    </message>
+    <message>
+        <source>Your registration has been approved. You can login with your account %username.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Click the following URL to login:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Click the following URL to verify your email address.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>ezteamroom/messagecenter</name>
@@ -4214,6 +4361,14 @@ Tu petición está a la espera de ser aprobada. Para ver el estado de tu petici�
         <source>Move to group &apos;%1&apos;</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Planned end:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Currently there are no new tasks.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>ezteamroom/wiki</name>
@@ -4248,6 +4403,30 @@ Tu petición está a la espera de ser aprobada. Para ver el estado de tu petici�
     <message>
         <source>Keywords</source>
         <translation>Palabras clave</translation>
+    </message>
+    <message>
+        <source>Missing previous headings ( %missing_headings ) for heading &quot;%headline&quot; ( %heading ).</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>From A to Z</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Navigation</source>
+        <translation type="unfinished">Navegación</translation>
+    </message>
+    <message>
+        <source>Wiki home</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Random page</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Wiki articles:</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

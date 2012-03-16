@@ -184,6 +184,7 @@ function LoadModule( i, UserParams )
 function moduleWidgetResponseHandler( result, target )
 {
     var pfBoxContentString = "<!--PFBOXCONTENT-->";
+    var pfBoxContentString_alternative = '<div class="pfboxcontenthide"></div>'; // FIX for t-mobile UMTS (strips HTML-Comments)
     var cutOffString = "<!--CUT-OFF-->";
     var accessDeniedString = "<title>kernel \\(1\\)";
     var targetIDArray = target.getAttribute( "id" ).split( '_' );
@@ -201,7 +202,9 @@ function moduleWidgetResponseHandler( result, target )
         return;
     }
 
-    if( result.search( pfBoxContentString ) == -1 )
+    if( ( result.search( pfBoxContentString ) == -1 ) &&
+        ( result.search( pfBoxContentString_alternative ) == -1 ) )
+//    if( result.search( pfBoxContentString ) == -1 )
     {
         target.innerHTML = $( "PFLoadingError" ).innerHTML.replace( /#ID#/g, targetid );
         return;

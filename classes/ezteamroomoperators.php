@@ -3,9 +3,9 @@
 // Created on: <2007-11-28 12:49:09 dis>
 //
 // SOFTWARE NAME: eZ Teamroom extension for eZ Publish
-// SOFTWARE RELEASE: 0.x
-// COPYRIGHT NOTICE: Copyright (C) 1999-2010 eZ Systems AS
-// SOFTWARE LICENSE: GNU General Public License v2.0
+// SOFTWARE RELEASE: 1.4.0
+// COPYRIGHT NOTICE: Copyright (C) 1999-2011 eZ Systems AS
+// SOFTWARE LICENSE: eZ Business Use License Agreement Version 2.0
 // NOTICE: >
 //   This program is free software; you can redistribute it and/or
 //   modify it under the terms of version 2.0  of the GNU General
@@ -30,7 +30,7 @@ class eZTeamroomOperators
     */
     function eZTeamroomOperators()
     {
-        $this->Operators = array( 'mytime', 'eztoc2', 'index_by_day', 'merge_events', 'teamroom_version', 'join_teamroom_in_progress', 'str_replace' );
+        $this->Operators = array( 'mytime', 'eztoc2', 'index_by_day', 'merge_events', 'teamroom_version', 'join_teamroom_in_progress', 'str_replace', 'shorten_xml', 'array_sort' );
     }
 
     /*!
@@ -74,7 +74,17 @@ class eZTeamroomOperators
                                                                                 'default' => '' ),
                                                'subject' => array( 'type' => 'string',
                                                                                 'required' => true,
-                                                                                'default' => '' ) ) );
+                                                                                'default' => '' ) ),
+                      'shorten_xml' => array( 'chars_to_keep' => array( "type" => "integer",
+                                                                             "required" => false,
+                                                                             "default" => 80 ),
+                                                   'str_to_append' => array( "type" => "string",
+                                                                             "required" => false,
+                                                                             "default" => "..." ),
+                                                   'trim_type'     => array( "type" => "string",
+                                                                             "required" => false,
+                                                                             "default" => "right" ) ),
+                      'array_sort' => array() );
     }
 
     function namedParameterPerOperator()
@@ -187,34 +197,8 @@ class eZTeamroomOperators
             } break;
             case 'eztoc2':
             {
-                $dom = $namedParameters['dom'];
-                $tocText = '';
-                if ( $dom instanceof eZContentObjectAttribute )
-                {
-                    $this->ObjectAttributeId = $dom->attribute( 'id' );
-                    $content = $dom->attribute( 'content' );
-                    $xmlData = $content->attribute( 'xml_data' );
-
-                    $domTree = new DOMDocument( '1.0', 'utf-8' );
-                    $domTree->preserveWhiteSpace = false;
-                    $success = $domTree->loadXML( $xmlData );
-
-                    $tocText = '';
-                    $tocArray = array();
-                    if ( $success )
-                    {
-                        $this->HeaderCounter = array();
-
-                        $rootNode = $domTree->documentElement;
-                        $this->handleSection( $rootNode, $tocArray );
-
-                    }
-                    foreach ( $tocArray as $toc )
-                    {
-                        $tocText .= $this->handleTocElement( $toc );
-                    }
-                }
-                $operatorValue = $tocText;
+                $tocCreator = new eZTeamroomTOC($namedParameters['dom']);
+                $operatorValue = $tocCreator->getHTML();
             } break;
 
             case 'teamroom_version':
@@ -240,99 +224,56 @@ class eZTeamroomOperators
                 $operatorValue = str_replace( $namedParameters['search'], $namedParameters['replace'], $namedParameters['subject'] );
             } break;
 
+            case 'array_sort':
+            {
+                sort($operatorValue);
+            } break;
+
+            case 'shorten_xml':
+            {
+                /* $operatorValue = preg_replace( "/<p.*?>/", "", $operatorValue); */
+                $operatorValue = str_replace( "</p>", " ", $operatorValue);
+                $operatorValue = strip_tags( $operatorValue );
+
+                $strlenFunc = function_exists( 'mb_strlen' ) ? 'mb_strlen' : 'strlen';
+                $substrFunc = function_exists( 'mb_substr' ) ? 'mb_substr' : 'substr';
+                if ( $strlenFunc( $operatorValue ) > $namedParameters['chars_to_keep'] )
+                {
+                    $operatorLength = $strlenFunc( $operatorValue );
+
+                    if ( $namedParameters['trim_type'] === 'middle' )
+                    {
+                        $appendedStrLen = $strlenFunc( $namedParameters['str_to_append'] );
+
+                        if ( $namedParameters['chars_to_keep'] > $appendedStrLen )
+                        {
+                            $chop = $namedParameters['chars_to_keep'] - $appendedStrLen;
+
+                            $middlePos = (int)($chop / 2);
+                            $leftPartLength = $middlePos;
+                            $rightPartLength = $chop - $middlePos;
+
+                            $operatorValue = trim( $substrFunc( $operatorValue, 0, $leftPartLength ) . $namedParameters['str_to_append'] . $substrFunc( $operatorValue, $operatorLength - $rightPartLength, $rightPartLength ) );
+                        }
+                        else
+                        {
+                            $operatorValue = $namedParameters['str_to_append'];
+                        }
+                    }
+                    else // default: trim_type === 'right'
+                    {
+                        $chop = $namedParameters['chars_to_keep'] - $strlenFunc( $namedParameters['str_to_append'] );
+                        $operatorValue = $substrFunc( $operatorValue, 0, $chop );
+                        $operatorValue = trim( $operatorValue );
+                        if ( $operatorLength > $chop )
+                            $operatorValue = $operatorValue.$namedParameters['str_to_append'];
+                    }
+                }
+            } break;
+
         }
     }
 
-    private function handleSection( $sectionNode, &$tocArray, $level = 0 )
-    {
-        // Reset next level counter
-        $this->HeaderCounter[$level + 1] = 0;
-
-        $currentToc = array();
-        $children = $sectionNode->childNodes;
-        foreach ( $children as $key => $child )
-        {
-            if ( $child->nodeName == 'section' )
-            {
-
-                $childArray = array();
-                $this->handleSection( $child, $childArray, $level + 1 );
-                if ( count($childArray) )
-                {
-                    if ( !array_key_exists( 'children', $currentToc ) )
-                        $currentToc['children'] = array();
-
-                    $currentToc['children'] = array_merge( $currentToc['children'], $childArray );
-                }
-            }
-
-            if ( $child->nodeName == 'header' )
-            {
-                $this->HeaderCounter[$level] += 1;
-                $i = 1;
-                $headerAutoName = "";
-                while ( $i <= $level )
-                {
-                    if ( $i > 1 )
-                        $headerAutoName .= "_";
-
-                    $headerAutoName .= $this->HeaderCounter[$i];
-                    $i++;
-                }
-                $text = '<a href="#eztoc' . $this->ObjectAttributeId . '_' . $headerAutoName . '">' . $child->textContent . '</a>';
-                $currentToc['text'] = $text;
-
-            }
-        }
-        $tocArray[] = $currentToc;
-        return true;
-    }
-
-    private function handleTocElement( $tocArray, $class="", $level = 0 )
-    {
-        $text = '';
-        if ( $level != 0 )
-        {
-            if ( $class != "" )
-            {
-                $text .= "<li class=\"".$class."\">\n";
-            }
-            else
-            {
-                $text .= "<li>\n";
-            }
-        }
-        if ( array_key_exists( 'text', $tocArray )  )
-        {
-            $text .= $tocArray['text'];
-        }
-        elseif ( $level != 0 )
-        {
-            $text .= '<a href="#">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>';
-        }
-        if ( array_key_exists( 'children', $tocArray ) )
-        {
-            $text .= "<ul class=\"level" . $level . "\">\n";
-            $counter = 0;
-            foreach ( $tocArray['children'] as $toc )
-            {
-                $counter++;
-                $class = "";
-                if ( $counter == 1 )
-                {
-                    $class .= ' firstelem';
-                }
-                if ( $counter == count( $tocArray['children'] ) )
-                {
-                    $class .= ' lastelem';
-                }
-                $text .= $this->handleTocElement( $toc, $class, $level + 1 );
-            }
-            $text .= "</ul>\n";
-        }
-        $text .= "</li>\n";
-        return $text;
-    }
     static function joinTeamroomInProgress( $teamroomID, $userID = false )
     {
         $workflowEventList = eZWorkflowEvent::fetchFilteredList( array( 'workflow_type_string' => 'event_ezapprovemembership' ), false );
@@ -359,10 +300,6 @@ class eZTeamroomOperators
         }
         return false;
     }
-
-    public $HeaderCounter = array();
-
-    public $ObjectAttributeId;
 
     // \privatesection
     var $Operators;

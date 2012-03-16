@@ -51,7 +51,11 @@
         {case match=11} {* Normal *}
             {if and( $eventDateContent.start.is_valid, $eventDateContent.end.is_valid )}
 
-                {'From %1 to %2'|i18n( 'ezteamroom/events', , array( $eventDateContent.start.timestamp|l10n( 'shortdatetime' ), $eventDateContent.end.timestamp|l10n( 'shortdatetime' ) ) )|wash()}
+                {'From %2 to %3'|i18n( 'ezteamroom/events', , array( $eventDateContent.start.timestamp|datetime( 'custom', '%l' ), $eventDateContent.start.timestamp|l10n( 'shortdate' ), $eventDateContent.end.timestamp|l10n( 'shortdate' ) ) )|wash()}
+
+            {elseif $eventDateContent.start.is_valid}
+
+                {'On %1'|i18n( 'ezteamroom/events', , array( $eventDateContent.start.timestamp|l10n( 'date' ) ) )|wash()}
 
             {else}
 
@@ -62,7 +66,11 @@
         {case match=12} {* Full day *}
             {if and( $eventDateContent.start.is_valid, $eventDateContent.end.is_valid )}
 
-                {'From %1 to %2'|i18n( 'ezteamroom/events', , array( $eventDateContent.start.timestamp|l10n( 'shortdate' ), $eventDateContent.end.timestamp|l10n( 'shortdate' ) ) )|wash()}
+                {'On %1 from %2 to %3'|i18n( 'ezteamroom/events', , array( $eventDateContent.start.timestamp|datetime( 'custom', '%l' ), $eventDateContent.start.timestamp|l10n( 'shortdate' ), $eventDateContent.end.timestamp|l10n( 'shortdate' ) ) )|wash()}
+
+            {elseif $eventDateContent.start.is_valid}
+
+                {'On %1'|i18n( 'ezteamroom/events', , array( $eventDateContent.start.timestamp|l10n( 'date' ) ) )|wash()}
 
             {else}
 
@@ -113,7 +121,6 @@
         {/switch}
         </h4>
 
-
         {if $object.data_map.category.has_content}
            <div class="attribute-short"><h5>{"Category"|i18n('ezteamroom/events')}:{attribute_view_gui attribute=$object.data_map.category}</h5></div>
         {/if}
@@ -156,7 +163,7 @@
             </div>
 
         {if $object.data_map.text.has_content}
-            <div class="attribute-short">{$object.data_map.text.content.output.output_text|striptags|shorten(180)|wash()}</div>
+            <div class="attribute-short">{$object.data_map.text.content.output.output_text|shorten_xml(180)|wash()}</div>
         {/if}
 
 

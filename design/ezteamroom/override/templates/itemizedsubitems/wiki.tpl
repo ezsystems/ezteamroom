@@ -1,5 +1,5 @@
 <div class="content-view-embed">
-    <div class="class-documentation-page">
+    <div class="class-wiki">
 
     <h2><a href={$object.main_node.url_alias|ezurl}>{$object.name|wash()}</a></h2>
 

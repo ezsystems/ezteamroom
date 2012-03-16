@@ -7,6 +7,7 @@
         {set $hasPFBox = true()}
 
 <!--PFBOXCONTENT-->
+<div class="pfboxcontenthide"></div>
 <div class="pf_box">
 
     {/if}
@@ -24,10 +25,11 @@
     {if $node.can_remove}
 
     <form action={'/content/action'|ezurl()} id="manage_teamroom_remove_node" method="post">
-     <input type="hidden" name="RemoveButton" value="1" />
+     <input type="hidden" name="ActionRemove" value="1" />
      <input type="hidden" name="ContentNodeID" value="{$node.node_id}" />
      <input type="hidden" name="ContentObjectID" value="{$node.contentobject_id}" />
      <input type="hidden" name="DeleteIDArray[]" value="{$node.node_id}" />
+     <input type="hidden" name="RedirectURIAfterRemove" value={'/'|ezurl} />
     </form>
 
     {/if}

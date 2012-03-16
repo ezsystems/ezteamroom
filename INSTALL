@@ -19,16 +19,8 @@ Step 1: Requirements
 Step 2: Download
 -----------------
 
-If you didn't get any packages get the latest versions from
-the following subversion repositories:
+Get the latest Teamroom version from ez.no
 
-- eZ Publish 4.x / PHP5
-  http://svn.projects.ez.no/ezteamroom/trunk
-  http://svn.projects.ez.no/ezlightbox/releases/0.7.4/
-  http://svn.projects.ez.no/ezxmlinstaller/trunk
-  http://svn.projects.ez.no/ezevent/trunk
-  http://svn.projects.ez.no/ezjscore/trunk
-  http://svn.projects.ez.no/ezmultiupload/release/1.0.0/ (eZ 4.1.x)
 - After unpacking the extensions and making them available in the
   extension directory, make sure the ownership of the files is
   correct
@@ -157,12 +149,12 @@ Step 4: Prepare eZ Publish
   is named 'ezteamroom'
 
 - Don't forget to import ezlightbox databases tables
-  (you will find them in extension/ezlightbox/sql/<DATABASE_HANDLER>/
+  (you will find them in extension/ezlightbox/sql/<DATABASE_HANDLER>/schema.sql
    where the placeholder <DATABASE_HANDLER> has to be replaced with the name
    of the database interface you are currently using)
 
 - Don't forget to import ezevent databases tables
-  (you will find them in extension/ezevent/sql/<DATABASE_HANDLER>/ezevent.sql
+  (you will find them in extension/ezevent/sql/<DATABASE_HANDLER>/schema.sql
    where the placeholder <DATABASE_HANDLER> has to be replaced with the name
    of the database interface you are currently using)
 
@@ -207,9 +199,9 @@ The following things should be done after the installation has finished:
   (Host-Match or URI Match things)
 - Configure the database settings in the ezteamroom siteaccess (if it is not
   set globally)
-- Remove the PathPrefix setting from settings/siteaccess/ezteamroom/site.ini.append.php
-  and extension/ezteamroom/settings/siteaccess/ezteamroom/site.ini.append.php if you use
-  host based access method
+- If you are using the host match access method:
+  Remove the PathPrefix setting from settings/siteaccess/ezteamroom/site.ini.append.php
+  and extension/ezteamroom/settings/siteaccess/ezteamroom/site.ini.append.php 
   IMPORTANT: If you want to rename the 'Teamrooms' node, you also need to ensure that
   the PathPrefix settings is changed in settings/siteaccess/ezteamroom/site.ini.append.php
   and in extension/ezteamroom/settings/siteaccess/ezteamroom/site.ini.append.php
@@ -221,7 +213,7 @@ The following things should be done after the installation has finished:
   If you would like anonymous users to access the teamrooms, just set RequireUserLogin=false
   in settings/siteaccess/ezteamroom/site.ini.append.php and add a policy to the anonymous user
   role that grants access to user/login for the ezteamroom siteaccess.
-- Optional:
+- Optional (is done during automatically the installation process):
   Assign the role "Anonymous" (or perhaps also other existing roles) to the group used
   by the teamroom (e.g. Members) and add [UserSettings] DefaultUserPlacement=<NODEID> to the
   site.ini if you want newly registered users to be placed in this group by default
@@ -230,9 +222,6 @@ The following things should be done after the installation has finished:
 
   php runcronjobs.php -s ezteamroom frequent
 
-  If you are not able to use the ezteamroom siteaccesss for some reason, you should adjust the
-  email templates in extension/ezteamroom/design/standard/templates/teamroom/mail/ and change
-  the path to the teamrooms.
 - Clear the cache
 
 Step 7: Create a first teamroom

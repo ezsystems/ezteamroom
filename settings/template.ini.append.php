@@ -8,4 +8,7 @@ PHPOperatorList[rawurlencode]=rawurlencode
 PHPOperatorList[rawurldecode]=rawurldecode
 PHPOperatorList[array_flip]=array_flip
 
+[WashSettings]
+EmailAtText=@
+
 */ ?>

@@ -1,4 +1,5 @@
-
+<!--PFBOXCONTENT-->
+<div class="pfboxcontenthide"></div>
 <div class="latest-messages itemized_sub_items">
 <div class="content-view-embed">
 

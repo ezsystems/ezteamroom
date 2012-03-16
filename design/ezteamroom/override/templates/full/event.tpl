@@ -34,6 +34,10 @@
 
                 {'From %1 to %2'|i18n( 'ezteamroom/events', , array( $eventDateContent.start.timestamp|l10n( 'shortdatetime' ), $eventDateContent.end.timestamp|l10n( 'shortdatetime' ) ) )|wash()}
 
+            {elseif $eventDateContent.start.is_valid}
+
+                {'At %1'|i18n( 'ezteamroom/events', , array( $eventDateContent.start.timestamp|l10n( 'datetime' ) ) )|wash()}
+
             {else}
 
                 {'Invalid date'|i18n( 'ezteamroom/events' )|wash()}
@@ -44,6 +48,10 @@
             {if and( $eventDateContent.start.is_valid, $eventDateContent.end.is_valid )}
 
                 {'From %1 to %2'|i18n( 'ezteamroom/events', , array( $eventDateContent.start.timestamp|l10n( 'shortdate' ), $eventDateContent.end.timestamp|l10n( 'shortdate' ) ) )|wash()}
+
+            {elseif $eventDateContent.start.is_valid}
+
+                {'At %1'|i18n( 'ezteamroom/events', , array( $eventDateContent.start.timestamp|l10n( 'date' ) ) )|wash()}
 
             {else}
 

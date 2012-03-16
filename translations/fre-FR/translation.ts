@@ -2,6 +2,17 @@
 <!DOCTYPE TS>
 <TS version="2.0" language="fr_FR">
 <context>
+    <name>design/ezevent/content/datatype</name>
+    <message>
+        <source>Normal</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Full Day</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>design/ezteamroom</name>
     <message>
         <source>Lightbox</source>
@@ -10,6 +21,37 @@
     <message>
         <source>Add this file to the current lightbox.</source>
         <translation>Ajouter ce fichier à la lightbox courante.</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezteamroom/content/datatype</name>
+    <message>
+        <source>Select type</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Year</source>
+        <translation type="obsolete">Année</translation>
+    </message>
+    <message>
+        <source>Month</source>
+        <translation type="obsolete">Mois</translation>
+    </message>
+    <message>
+        <source>Day</source>
+        <translation type="obsolete">Jour</translation>
+    </message>
+    <message>
+        <source>Hour</source>
+        <translation type="obsolete">Heure</translation>
+    </message>
+    <message>
+        <source>Minute</source>
+        <translation type="obsolete">Minute</translation>
+    </message>
+    <message>
+        <source>Attendees</source>
+        <translation type="obsolete">Participants</translation>
     </message>
 </context>
 <context>
@@ -60,6 +102,13 @@
     <message>
         <source>Get version</source>
         <translation>Télécarger la version</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/ezoe</name>
+    <message>
+        <source>Heading </source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -862,6 +911,16 @@ Votre demande est en attente de validation. L&apos;adresse URL ci-dessous vous p
         <source>This Teamroom</source>
         <translation>Ce projet</translation>
     </message>
+    <message>
+        <source>My Tasks</source>
+        <translation type="unfinished">Mes tâches</translation>
+    </message>
+    <message>
+        <source>&amp;lt;header level=&amp;quot;1&amp;quot;&amp;gt;Welcome to this teamrooms wiki.&amp;lt;/header&amp;gt;
+Use the &amp;lt;custom name=&amp;quot;underline&amp;quot;&amp;gt;&amp;lt;emphasize&amp;gt;wiki search&amp;lt;/emphasize&amp;gt;&amp;lt;/custom&amp;gt; on the &amp;lt;strong&amp;gt;left site menu&amp;lt;/strong&amp;gt; to find your article.
+Read a random wiki page by clicking on the &amp;lt;emphasize&amp;gt;random page&amp;lt;/emphasize&amp;gt; link or browse thru all articles in the alphabetical list &amp;lt;emphasize&amp;gt;A to Z&amp;lt;/emphasize&amp;gt;.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>ezteamroom/design</name>
@@ -1289,6 +1348,22 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
         <source>Next Month</source>
         <translation>Mois suivant</translation>
     </message>
+    <message>
+        <source>From %2 to %3</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>On %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>On %1 from %2 to %3</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>At %1</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>ezteamroom/files</name>
@@ -1506,23 +1581,23 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Categories</source>
-        <translation>Catégories</translation>
+        <translation type="obsolete">Catégories</translation>
     </message>
     <message>
         <source>Documents</source>
-        <translation>Documents</translation>
+        <translation type="obsolete">Documents</translation>
     </message>
     <message>
         <source>Sounds</source>
-        <translation>Sons</translation>
+        <translation type="obsolete">Sons</translation>
     </message>
     <message>
         <source>Pictures</source>
-        <translation>Images</translation>
+        <translation type="obsolete">Images</translation>
     </message>
     <message>
         <source>Lightboxes</source>
-        <translation>Lightboxes</translation>
+        <translation type="obsolete">Lightboxes</translation>
     </message>
     <message>
         <source>Keywords</source>
@@ -1630,11 +1705,11 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Only files of category &quot;%1&quot; are shown</source>
-        <translation>Seuls les fichiers associés à la catégorie &quot;%1&quot; sont affichés</translation>
+        <translation type="obsolete">Seuls les fichiers associés à la catégorie &quot;%1&quot; sont affichés</translation>
     </message>
     <message>
         <source>Show only files of the category &quot;%1&quot;</source>
-        <translation>Ne montrer que les fichiers de la catégorie &quot;%1&quot;</translation>
+        <translation type="obsolete">Ne montrer que les fichiers de la catégorie &quot;%1&quot;</translation>
     </message>
     <message>
         <source>Only files with tag &quot;%1&quot; are shown</source>
@@ -1643,6 +1718,42 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     <message>
         <source>Shown only files with tag &quot;%1&quot;</source>
         <translation>Ne montrer que les fichiers avec le mot clé &quot;%1&quot;</translation>
+    </message>
+    <message>
+        <source> with tag %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>ascending</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>descending</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Files of all types%1 are shown sorted by %2 (%3)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Files of type %1%2 are shown sorted by %3 (%4)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Files of all types are shown</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Do not show files of type &quot;%1&quot;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Show files of the type &quot;%1&quot;</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1911,7 +2022,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Author</source>
-        <translation>Auteur</translation>
+        <translation type="obsolete">Auteur</translation>
     </message>
     <message>
         <source>Message</source>
@@ -1970,8 +2081,12 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
         <translation>Zone basse</translation>
     </message>
     <message>
-        <source>Teamroom documentation page</source>
-        <translation>Page</translation>
+        <source>Teamroom wiki</source>
+        <translation>wiki</translation>
+    </message>
+    <message>
+        <source>Teamroom wiki page</source>
+        <translation>wiki Page</translation>
     </message>
     <message>
         <source>Display sub items</source>
@@ -2369,6 +2484,10 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
         <source>Latest Messages</source>
         <translation>Derniers messages</translation>
     </message>
+    <message>
+        <source>My Tasks</source>
+        <translation type="unfinished">Mes tâches</translation>
+    </message>
 </context>
 <context>
     <name>ezteamroom/install/workflows</name>
@@ -2395,6 +2514,10 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     <message>
         <source>Set Teamroom Membership</source>
         <translation>Définir le mode d&apos;adhésion d&apos;un projet</translation>
+    </message>
+    <message>
+        <source>Create Teamroom Features</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -3317,6 +3440,30 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
         <source>If you forgot your password, use the following link to get a new password</source>
         <translation>Si vous avez oublié votre mot de passe, utilisez le lien suivant pour en obtenir un nouveau</translation>
     </message>
+    <message>
+        <source>Your email address has been confirmed. An email is send to you. Please follow the link to activate your account.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source> registration approved</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Thank you for registering at %siteurl.</source>
+        <translation type="unfinished">Merci de vous inscription à %siteurl.</translation>
+    </message>
+    <message>
+        <source>Your registration has been approved. You can login with your account %username.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Click the following URL to login:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Click the following URL to verify your email address.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>ezteamroom/messagecenter</name>
@@ -4214,6 +4361,14 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
         <source>Move to group &apos;%1&apos;</source>
         <translation>Déplacer vers le groupe &apos;%1&apos;</translation>
     </message>
+    <message>
+        <source>Planned end:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Currently there are no new tasks.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>ezteamroom/wiki</name>
@@ -4248,6 +4403,30 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     <message>
         <source>Keywords</source>
         <translation>Mots clés</translation>
+    </message>
+    <message>
+        <source>Missing previous headings ( %missing_headings ) for heading &quot;%headline&quot; ( %heading ).</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>From A to Z</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Navigation</source>
+        <translation type="unfinished">Navigation</translation>
+    </message>
+    <message>
+        <source>Wiki home</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Random page</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Wiki articles:</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

@@ -33,7 +33,7 @@
 
         <h2><a href={$object.main_node.parent.url_alias|ezurl} title="{$object.data_map.title.content|wash}">{$object.data_map.title.content|wash}</a></h2>
 
-        <h4>{$object.data_map.planned_end_date.content.timestamp|l10n(shortdatetime)}</h4>
+        <h4>{$object.data_map.planned_end_date.content.timestamp|l10n(date)}</h4>
 
         {if $object.data_map.description.has_content}
             <div class="attribute-short">{$object.data_map.description.content|striptags()|shorten(180)|wash()}</div>

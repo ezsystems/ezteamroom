@@ -2,25 +2,23 @@
 //
 // ## BEGIN COPYRIGHT, LICENSE AND WARRANTY NOTICE ##
 // SOFTWARE NAME: eZ XMP
-// SOFTWARE RELEASE: 0.5.0
-// COPYRIGHT NOTICE: Copyright (C) 1999-2010 eZ Systems AS.
-// SOFTWARE LICENSE: GNU General Public License v2.0
+// SOFTWARE RELEASE: 1.4.0
+// COPYRIGHT NOTICE: Copyright (C) 1999-2011 eZ Systems AS.
+// SOFTWARE LICENSE: eZ Business Use License Agreement Version 2.0
 // NOTICE: >
-//   This program is free software; you can redistribute it and/or
-//   modify it under the terms of version 2.0  of the GNU General
-//   Public License as published by the Free Software Foundation.
+//  This source file is part of the eZ Publish CMS and is
+//  licensed under the terms and conditions of the eZ Business User
+//  License v2.0 (eZ BUL).
 //
-//   This program is distributed in the hope that it will be useful,
-//   but WITHOUT ANY WARRANTY; without even the implied warranty of
-//   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-//   GNU General Public License for more details.
+//  A copy of the eZ BUL was included with the software. If the
+//  license is missing, request a copy of the license via email
+//  at license@ez.no or via postal mail at
+// 	Attn: Licensing Dept. eZ Systems AS, Klostergata 30, N-3732 Skien, Norway
 //
-//   You should have received a copy of version 2.0 of the GNU General
-//   Public License along with this program; if not, write to the Free
-//   Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
-//   MA 02110-1301, USA.
-//
-//
+//  IMPORTANT: THE SOFTWARE IS LICENSED, NOT SOLD. ADDITIONALLY, THE
+//  SOFTWARE IS LICENSED "AS IS," WITHOUT ANY WARRANTIES WHATSOEVER.
+//  READ THE eZ BUL BEFORE USING, INSTALLING OR MODIFYING THE SOFTWARE.
+
 // ## END COPYRIGHT, LICENSE AND WARRANTY NOTICE ##
 //
 

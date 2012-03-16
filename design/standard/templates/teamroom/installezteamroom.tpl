@@ -1,4 +1,4 @@
-﻿{*
+{*
         'site_access_name',     hash(   'info',     'Name of the new teamroom frontend siteaccess',
                                         'type',     'string',
                                         'default',  'ezteamroom'
@@ -145,7 +145,7 @@
                     <text-column-count>2</text-column-count>
                 </DatatypeParameters>
             </Attribute>
-            <Attribute datatype="ezmedia" required="false" searchable="false" informationCollector="false" translatable="true" identifier="file" placement="3">
+            <Attribute datatype="ezmedia" required="true" searchable="false" informationCollector="false" translatable="true" identifier="file" placement="3">
                 <Names {$language}="{"File"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
                 <DatatypeParameters>
                     <max-size unit-size="mega">0</max-size>
@@ -291,20 +291,13 @@
                         <default-string/>
                     </DatatypeParameters>
                 </Attribute>
-                <Attribute datatype="ezstring" required="true" searchable="true" informationCollector="false" translatable="true" identifier="author" placement="2">
-                    <Names {$language}="{"Author"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}" />
+                <Attribute datatype="eztext" required="true" searchable="true" informationCollector="false" translatable="true" identifier="message" placement="3">
+                    <Names {$language}="{"Message"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}" />
                     <DatatypeParameters>
-                        <max-length>0</max-length>
-                        <default-string/>
-                </DatatypeParameters>
-            </Attribute>
-            <Attribute datatype="eztext" required="true" searchable="true" informationCollector="false" translatable="true" identifier="message" placement="3">
-                <Names {$language}="{"Message"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}" />
-                <DatatypeParameters>
-                    <text-column-count>20</text-column-count>
-                </DatatypeParameters>
-            </Attribute>
-        </Attributes>
+                        <text-column-count>20</text-column-count>
+                    </DatatypeParameters>
+                </Attribute>
+            </Attributes>
     </ContentClass>
     <ContentClass isContainer="true" identifier="teamroom_blog" remoteID="" objectNamePattern="&lt;name&gt;" urlAliasPattern="" classExistAction="extend" referenceID="CLASS_BLOG">
       <Names {$language}="{"Teamroom blog"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
@@ -427,8 +420,8 @@
         </Attribute>
       </Attributes>
     </ContentClass>
-    <ContentClass isContainer="true" identifier="teamroom_documentation_page" remoteID="" objectNamePattern="&lt;title&gt;" urlAliasPattern="" classExistAction="extend" referenceID="CLASS_WIKI">
-      <Names {$language}="{"Teamroom documentation page"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
+    <ContentClass isContainer="true" identifier="teamroom_wiki" remoteID="" objectNamePattern="&lt;title&gt;" urlAliasPattern="" classExistAction="extend" referenceID="CLASS_WIKI">
+      <Names {$language}="{"Teamroom wiki"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
       <Groups>
          <Group name="Teamroom"/> {* If the group does not exist, it will be created automatically *}
       </Groups>
@@ -451,10 +444,30 @@
           <DatatypeParameters>
           </DatatypeParameters>
         </Attribute>
-        <Attribute datatype="ezboolean" required="false" searchable="false" informationCollector="false" translatable="true" identifier="show_children" placement="4">
-          <Names {$language}="{"Display sub items"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
+      </Attributes>
+    </ContentClass>
+    <ContentClass isContainer="false" identifier="teamroom_wiki_page" remoteID="" objectNamePattern="&lt;title&gt;" urlAliasPattern="" classExistAction="extend" referenceID="CLASS_WIKI_PAGE">
+      <Names {$language}="{"Teamroom wiki page"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
+      <Groups>
+         <Group name="Teamroom"/> {* If the group does not exist, it will be created automatically *}
+      </Groups>
+      <Attributes>
+        <Attribute datatype="ezstring" required="true" searchable="true" informationCollector="false" translatable="true" identifier="title" placement="1">
+          <Names {$language}="{"Title"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
           <DatatypeParameters>
-            <default-value/>
+            <max-length>0</max-length>
+            <default-string/>
+          </DatatypeParameters>
+        </Attribute>
+        <Attribute datatype="ezxmltext" required="false" searchable="true" informationCollector="false" translatable="true" identifier="body" placement="2">
+          <Names {$language}="{"Body"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
+          <DatatypeParameters>
+            <text-column-count>20</text-column-count>
+          </DatatypeParameters>
+        </Attribute>
+        <Attribute datatype="ezkeyword" required="false" searchable="true" informationCollector="false" translatable="true" identifier="tags" placement="3">
+          <Names {$language}="{"Tags"|i18n( 'ezteamroom/install/classes' )}" always-available="{$language}"/>
+          <DatatypeParameters>
           </DatatypeParameters>
         </Attribute>
       </Attributes>
@@ -970,17 +983,19 @@
                     <selection-type>4</selection-type>
                     <class-constraints>
                         <class-constraint class-identifier="folder"/>
-                        <class-constraint class-identifier="teamroom_blog"/>
-                        <class-constraint class-identifier="teamroom_blog_post"/>
-                        <class-constraint class-identifier="teamroom_documentation_page"/>
-                        <class-constraint class-identifier="teamroom_file"/>
+                        <class-constraint class-identifier="teamroom_wiki"/>
+                        <class-constraint class-identifier="teamroom_wiki_page"/>
                         <class-constraint class-identifier="teamroom_forum"/>
                         <class-constraint class-identifier="teamroom_forum_topic"/>
-                        <class-constraint class-identifier="teamroom_event"/>
                         <class-constraint class-identifier="teamroom_file_folder"/>
                         <class-constraint class-identifier="teamroom_file_subfolder"/>
-                        <class-constraint class-identifier="teamroom_milestone"/>
-                        <class-constraint class-identifier="teamroom_milestone_folder"/>
+                        <class-constraint class-identifier="teamroom_file"/>
+                        <class-constraint class-identifier="image"/>
+                        <class-constraint class-identifier="flash"/>
+                        <class-constraint class-identifier="quicktime"/>
+                        <class-constraint class-identifier="real_video"/>
+                        <class-constraint class-identifier="flash_player"/>
+                        <class-constraint class-identifier="windows_media"/>
                     </class-constraints>
                 </DatatypeParameters>
             </Attribute>
@@ -1312,9 +1327,401 @@
                     </Attributes>
                     <SetReference attribute="object_id" value="ICON_679" />
                 </ContentObject>
+                <ContentObject contentClass="image" section="3" remoteID="TEAMROOM_ICON_900">
+                    <Attributes>
+                        <name>Icon 17</name>
+                        <image src="icon900.gif" title="Icon" />
+                    </Attributes>
+                    <SetReference attribute="object_id" value="ICON_900" />
+                </ContentObject>
             </Childs>
         </ContentObject>
   </CreateContent>
+
+  <ProccessInformation comment="Create teamroom content" />
+  <CreateContent parentNode="{$teamroom_parent_node}">
+        <ContentObject contentClass="teamroom_personal_frontpage" section="{$public_section_id}" remoteID="{$teamroom_parent_node}_teamrooms">
+            <Attributes>
+                <title>{'Welcome. Success with eZ Teamrooms.'|i18n( 'ezteamroom/install/teamroomcontent' )}</title>
+                <short_title>Teamrooms</short_title> {* This one should NOT be translated, otherwise the PathPrefix will not work!!! *}
+                <description parseReferences="true">&lt;embed size=&quot;large&quot; custom:offset=&quot;0&quot; custom:limit=&quot;5&quot; object_id=&quot;[internal:TEAMROOM_TITLE_IMAGE]&quot; /&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. In tempor. Aenean molestie, mauris ultrices vestibulum luctus, augue risus mattis est, viverra vestibulum diam quam vitae lorem. Nunc lacus tellus, molestie eleifend, dictum quis, fermentum eu, diam. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Curabitur hendrerit lectus non nunc. In vulputate, est sed pellentesque congue, est diam ullamcorper enim, a laoreet magna lorem vitae eros. Cras dignissim dictum risus. Sed lectus. Nullam sem. Mauris ac mauris.</description>
+                <num_of_columns>4</num_of_columns>
+                <allow_minimization>1</allow_minimization>
+                <default_arrangement></default_arrangement>
+            </Attributes>
+            <SetReference attribute="object_id" value="TEAMROOM_ROOT" />
+            <SetReference attribute="node_id" value="TEAMROOM_ROOT_NODE" />
+            <Childs>
+                <ContentObject contentClass="teamroom_box_folder" section="{$public_section_id}" remoteID="{$teamroom_parent_node}_teamrooms_boxes">
+                    <Attributes>
+                        <name>{'Boxes'|i18n( 'ezteamroom/install/teamroomcontent' )}</name>
+                    </Attributes>
+                    <SetReference attribute="object_id" value="TEAMROOM_BOXPOOL" />
+                    <SetReference attribute="node_id" value="TEAMROOM_BOXPOOL_NODE" />
+                    <Childs>
+                        <ContentObject contentClass="teamroom_infobox" section="{$public_section_id}" remoteID="{$teamroom_parent_node}_teamrooms_box_mytlightbox">
+                            <Attributes>
+                                <header>{'Lightbox selection'|i18n( 'ezteamroom/install/teamroomcontent' )}</header>
+                                <box_icon>internal:ICON_619</box_icon>
+                                <content></content>
+                                <url></url>
+                                <module_url>ezjscore/run/lightbox/view/lightboxselection</module_url>
+                                <check_access></check_access>
+                            </Attributes>
+                            <SetReference attribute="object_id" value="LIGHTBOXSELECTION_BOX_OBJECT" />
+                        </ContentObject>
+                        <ContentObject contentClass="teamroom_infobox" section="{$public_section_id}" remoteID="{$teamroom_parent_node}_teamrooms_box_myteamrooms">
+                            <Attributes>
+                                <header>{'My Teamrooms'|i18n( 'ezteamroom/install/teamroomcontent' )}</header>
+                                <box_icon>internal:ICON_613</box_icon>
+                                <content></content>
+                                <url></url>
+                                <check_access></check_access>
+                                <module_url parseReferences="true">ezjscore/run/content/view/myteamrooms/[internal:TEAMROOM_ROOT_NODE]</module_url>
+                            </Attributes>
+                            <SetReference attribute="object_id" value="MYTEAMROOMS_BOX_OBJECT" />
+                        </ContentObject>
+{*
+                        <ContentObject contentClass="teamroom_infobox" section="{$public_section_id}" remoteID="{$teamroom_parent_node}_teamrooms_box_help">
+                            <Attributes>
+                                <header>{'Help'|i18n( 'ezteamroom/install/teamroomcontent' )}</header>
+                                <box_icon>internal:ICON_168</box_icon>
+                                <content>{'Some help text'|i18n( 'ezteamroom/install/teamroomcontent' )}</content>
+                                <url></url>
+                                <module_url></module_url>
+                                <check_access></check_access>
+                            </Attributes>
+                            <SetReference attribute="object_id" value="HELP_BOX_OBJECT" />
+                        </ContentObject>
+*}
+                        <ContentObject contentClass="teamroom_infobox" section="{$public_section_id}" remoteID="{$teamroom_parent_node}_teamrooms_box_allteamrooms">
+                            <Attributes>
+                                <header>{'All Teamrooms'|i18n( 'ezteamroom/install/teamroomcontent' )}</header>
+                                <box_icon>internal:ICON_224</box_icon>
+                                <content>Teamrooms</content>
+                                <url></url>
+                                <module_url parseReferences="true">ezjscore/run/content/view/teamroomlist/[internal:TEAMROOM_ROOT_NODE]</module_url>
+                                <check_access></check_access>
+                            </Attributes>
+                            <SetReference attribute="object_id" value="ALLTEAMROOMS_BOX_OBJECT" />
+                        </ContentObject>
+                        <ContentObject contentClass="teamroom_infobox" section="{$public_section_id}" remoteID="{$teamroom_parent_node}_createteamroom_box">
+                            <Attributes>
+                                <header>{'Create Teamroom'|i18n( 'ezteamroom/install/teamroomcontent' )}</header>
+                                <box_icon>internal:ICON_226</box_icon>
+                                <content>{'Add your teamroom and get all the things to manage your team.'|i18n( 'ezteamroom/install/teamroomcontent' )}</content>
+                                <check_access>teamroom/create</check_access>
+                            </Attributes>
+                            <SetReference attribute="node_id" value="CREATETEAMROOM_BOX_ROOT_NODE" />
+                            <SetReference attribute="object_id" value="CREATETEAMROOM_BOX_OBJECT" />
+                        </ContentObject>
+                        <ContentObject contentClass="teamroom_infobox" section="{$public_section_id}" remoteID="{$teamroom_parent_node}_createteamroom_box">
+                            <Attributes>
+                                <module_url parseReferences="true">ezjscore/run/content/view/createteamroom/[internal:CREATETEAMROOM_BOX_ROOT_NODE]</module_url>
+                            </Attributes>
+                        </ContentObject>
+                        <ContentObject contentClass="teamroom_infobox" section="{$public_section_id}" remoteID="{$teamroom_parent_node}_teamrooms_box_lightboxes">
+                            <Attributes>
+                                <header>{'Lightboxes'|i18n( 'ezteamroom/install/teamroomcontent' )}</header>
+                                <box_icon>internal:ICON_619</box_icon>
+                                <content></content>
+                                <url></url>
+                                <module_url>ezjscore/run/lightbox/view/lightboxlist</module_url>
+                                <check_access></check_access>
+                            </Attributes>
+                        </ContentObject>
+                        <ContentObject contentClass="teamroom_infobox" section="{$public_section_id}" remoteID="{$teamroom_parent_node}_teamrooms_box_latestmessages">
+                            <Attributes>
+                                <header>{'Latest Messages'|i18n( 'ezteamroom/install/teamroomcontent' )}</header>
+                                <box_icon>internal:ICON_620</box_icon>
+                                <content></content>
+                                <url></url>
+                                <module_url parseReferences="true">ezjscore/run/content/view/latestmessages/[internal:TEAMROOM_ROOT_NODE]</module_url>
+                                <check_access></check_access>
+                            </Attributes>
+                            <SetReference attribute="object_id" value="LATESTMESSAGES_BOX_OBJECT" />
+                        </ContentObject>
+                        <ContentObject contentClass="teamroom_infobox" section="{$public_section_id}" remoteID="{$teamroom_parent_node}_teamrooms_box_mytasks">
+                            <Attributes>
+                                <header>{'My Tasks'|i18n( 'ezteamroom/install/teamroomcontent' )}</header>
+                                <box_icon>internal:ICON_900</box_icon>
+                                <content></content>
+                                <url></url>
+                                <module_url parseReferences="true">ezjscore/run/content/view/mytasks/[internal:TEAMROOM_ROOT_NODE]</module_url>
+                                <check_access></check_access>
+                            </Attributes>
+                            <SetReference attribute="object_id" value="MYTASKS_BOX_OBJECT" />
+                        </ContentObject>
+                    </Childs>
+                </ContentObject>
+            </Childs>
+        </ContentObject>
+        <ContentObject contentClass="teamroom_personal_frontpage" section="{$public_section_id}" remoteID="{$teamroom_parent_node}_teamrooms">
+            <Attributes>
+                <default_arrangement parseReferences="true">[[[internal:CREATETEAMROOM_BOX_OBJECT],[internal:LIGHTBOXSELECTION_BOX_OBJECT]],[[internal:ALLTEAMROOMS_BOX_OBJECT]],[[internal:MYTEAMROOMS_BOX_OBJECT]],[[internal:LATESTMESSAGES_BOX_OBJECT]],[[internal:MYTASKS_BOX_OBJECT]]]</default_arrangement>
+            </Attributes>
+        </ContentObject>
+    </CreateContent>
+    <ProccessInformation comment="Creating siteaccess" />
+    <SetSettings>
+      <SettingsFile name="site.ini" location="{$site_access_dir}">
+        <SettingsBlock name="ContentSettings">
+            <CachedViewModes>full;sitemap;pdf;module_widget;module_widget_latest;manage;teamrooms</CachedViewModes>
+            <CachedViewPreferences>
+              <value key="full">teamroom_files_list_limit=10;teamroom_folder_list_limit=10;teamroom_milestone_list_limit=10;teamroom_list_limit=10;teamroom_forum_list_limit=10;personalfrontpage_widgetlist_[internal:TEAMROOM_ROOT_NODE]=0;personalfrontpage_displaydescription=2;teamroom_blog_list_limit=10;teamroom_calendar_limit=10;teamroom_wiki_list_limit=10;teamroom_tasklist_list_limit=10;teamroom_list_limit;teamroom_member_list_limit=10</value>
+            </CachedViewPreferences>
+        </SettingsBlock>
+        <SettingsBlock name="Session">
+            <RememberMeTimeout>259200</RememberMeTimeout>
+        </SettingsBlock>
+        <SettingsBlock name="SiteSettings">
+            <IndexPage>/content/view/full/[internal:TEAMROOM_ROOT_NODE]</IndexPage>
+            <DefaultPage>/content/view/full/[internal:TEAMROOM_ROOT_NODE]</DefaultPage>
+            <SiteName>{'eZ Teamroom'|i18n( 'ezteamroom/install/sitename' )}</SiteName>
+            <SiteURL>{$host_url}</SiteURL>
+            <LoginPage>embedded</LoginPage>
+        </SettingsBlock>
+        <SettingsBlock name="RegionalSettings">
+            <Locale>{$language}</Locale>
+            <ContentObjectLocale>{$language}</ContentObjectLocale>
+            <ShowUntranslatedObjects>disabled</ShowUntranslatedObjects>
+            <SiteLanguageList>
+              <value></value>
+              <value>{$language}</value>
+            </SiteLanguageList>
+            <TextTranslation>{if $language|eq( 'eng-GB' )}disabled{else}enabled{/if}</TextTranslation>
+        </SettingsBlock>
+        <SettingsBlock name="SiteAccessSettings">
+            <RequireUserLogin>true</RequireUserLogin>
+            <ShowHiddenNodes>false</ShowHiddenNodes>
+            <PathPrefix>Teamrooms</PathPrefix>
+        </SettingsBlock>
+        <SettingsBlock name="UserSettings">
+            <DefaultUserPlacement>{$guest_group_node_id}</DefaultUserPlacement>
+        </SettingsBlock>
+      </SettingsFile>
+      <SettingsFile name="content.ini" location="{$site_access_dir}">
+        <SettingsBlock name="AlphabeticalFilterSettings">
+            <ContentFilterList>
+              <value></value>
+              <value>{$language}</value>
+            </ContentFilterList>
+        </SettingsBlock>
+      </SettingsFile>
+      <SettingsFile name="event.ini" location="{$site_access_dir}">
+        <SettingsBlock name="AttendeeSettings">
+          <SearchRootNode>[internal:TEAMROOM_ROOT_NODE]</SearchRootNode>
+          <ClassIdentifierFilter>teamroom_room</ClassIdentifierFilter>
+        </SettingsBlock>
+      </SettingsFile>
+      <SettingsFile name="teamroom.ini" location="{$site_access_dir}">
+        <SettingsBlock name="TeamroomSettings">
+          <TeamroomPoolNodeID>[internal:TEAMROOM_ROOT_NODE]</TeamroomPoolNodeID>
+        </SettingsBlock>
+      </SettingsFile>
+      <SettingsFile name="upload.ini" location="{$site_access_dir}">
+        <SettingsBlock name="CreateSettings">
+            <MimeClassMap>
+              <value></value>
+              <value key="image">image</value>
+              <value key="video/quicktime">quicktime</value>
+              <value key="video/x-msvideo">windows_media</value>
+              <value key="video/vnd.rn-realvideo">real_video</value>
+              <value key="application/vnd.rn-realmedia">real_video</value>
+              <value key="application/x-shockwave-flash">flash</value>
+            </MimeClassMap>
+            <DefaultClass>teamroom_file</DefaultClass>
+        </SettingsBlock>
+        <SettingsBlock name="teamroom_file_ClassSettings">
+            <FileAttribute>file</FileAttribute>
+            <NameAttribute>name</NameAttribute>
+            <NamePattern>&lt;original_filename_base&gt;</NamePattern>
+        </SettingsBlock>
+      </SettingsFile>
+      <SettingsFile name="browse.ini" location="{$site_access_dir}">
+        <SettingsBlock name="SelectLinkNodeID">
+          <StartNode>[internal:TEAMROOM_ROOT_NODE]</StartNode>
+        </SettingsBlock>
+        <SettingsBlock name="SelectLinkObjectID">
+          <StartNode>[internal:TEAMROOM_ROOT_NODE]</StartNode>
+        </SettingsBlock>
+        <SettingsBlock name="AddRelatedObjectToOE">
+          <StartNode>[internal:TEAMROOM_ROOT_NODE]</StartNode>
+        </SettingsBlock>
+      </SettingsFile>
+      <SettingsFile name="teamroom.ini" location="settings/override">
+        <SettingsBlock name="TeamroomSettings">
+          <TeamroomClassID>[internal:CLASS_TEAMROOM]</TeamroomClassID>
+          <PrivateSectionID>[internal:SECTION_TEAMROOM]</PrivateSectionID>
+          <PublicSectionID>[{$public_section_id}]</PublicSectionID>
+          <VisibilityList>
+           <value></value>
+           <value>private</value>
+
+    {if $use_internal|eq( 'yes' )}
+
+           <value>internal</value>
+
+    {/if}
+
+           <value>protected</value>
+           <value>public</value>
+          </VisibilityList>
+        </SettingsBlock>
+        <SettingsBlock name="VisibilitySettings_private">
+          <TeamroomSection>[internal:SECTION_TEAMROOM]</TeamroomSection>
+          <SubTreeSection>[internal:SECTION_TEAMROOM]</SubTreeSection>
+        </SettingsBlock>
+        <SettingsBlock name="VisibilitySettings_public">
+          <TeamroomSection>[{$public_section_id}]</TeamroomSection>
+          <SubTreeSection>[{$public_section_id}]</SubTreeSection>
+        </SettingsBlock>
+
+    {if $use_internal|eq( 'yes' )}
+
+        <SettingsBlock name="VisibilitySettings_internal">
+          <TeamroomSection>[{$public_section_id}]</TeamroomSection>
+          <SubTreeSection>[internal:SECTION_TEAMROOM]</SubTreeSection>
+        </SettingsBlock>
+
+    {/if}
+
+        <SettingsBlock name="VisibilitySettings_protected">
+          <TeamroomSection>[{$public_section_id}]</TeamroomSection>
+          <SubTreeSection>[internal:SECTION_TEAMROOM]</SubTreeSection>
+        </SettingsBlock>
+        <SettingsBlock name="TeamroomIconSettings">
+          <Icon003>[internal:ICON_003]</Icon003>
+          <Icon168>[internal:ICON_168]</Icon168>
+          <Icon170>[internal:ICON_170]</Icon170>
+          <Icon224>[internal:ICON_224]</Icon224>
+          <Icon226>[internal:ICON_226]</Icon226>
+          <Icon613>[internal:ICON_613]</Icon613>
+          <Icon618>[internal:ICON_618]</Icon618>
+          <Icon619>[internal:ICON_619]</Icon619>
+          <Icon620>[internal:ICON_620]</Icon620>
+          <Icon673>[internal:ICON_673]</Icon673>
+          <Icon674>[internal:ICON_674]</Icon674>
+          <Icon675>[internal:ICON_675]</Icon675>
+          <Icon676>[internal:ICON_676]</Icon676>
+          <Icon677>[internal:ICON_677]</Icon677>
+          <Icon678>[internal:ICON_678]</Icon678>
+          <Icon679>[internal:ICON_679]</Icon679>
+          <Icon900>[internal:ICON_900]</Icon900>
+        </SettingsBlock>
+      </SettingsFile>
+    </SetSettings>
+    <ProccessInformation comment="Activating siteaccess" />
+    <SetSettings>
+      <SettingsFile name="site.ini" location="settings/override">
+        <SettingsBlock name="SiteAccessSettings">
+            <AvailableSiteAccessList>
+              <value>{$site_access_name}</value>
+            </AvailableSiteAccessList>
+            <URIMatchMapItems>
+              <value>{$sa_abbr};{$site_access_name}</value>
+            </URIMatchMapItems>
+        </SettingsBlock>
+        <SettingsBlock name="Session">
+            <SessionNamePerSiteAccess value="enabled" />
+        </SettingsBlock>
+        <SettingsBlock name="SiteSettings">
+            <SiteList>
+              <value>{$site_access_name}</value>
+            </SiteList>
+        </SettingsBlock>
+      </SettingsFile>
+      <SettingsFile name="site.ini" location="{$admin_site_access_dir}">
+        <SettingsBlock name="SiteAccessSettings">
+            <RelatedSiteAccessList>
+              <value>{$site_access_name}</value>
+            </RelatedSiteAccessList>
+        </SettingsBlock>
+      </SettingsFile>
+      <SettingsFile name="contentstructuremenu.ini" location="{$admin_site_access_dir}">
+        <SettingsBlock name="TreeMenu">
+            <ShowClasses>
+              <value>teamroom_personal_frontpage</value>
+              <value>teamroom_room</value>
+              <value>teamroom_blog</value>
+              <value>teamroom_box_folder</value>
+              <value>teamroom_milestone_folder</value>
+              <value>teamroom_forum</value>
+              <value>teamroom_task_list</value>
+              <value>teamroom_file_folder</value>
+              <value>teamroom_event_calendar</value>
+              <value>teamroom_wiki</value>
+            </ShowClasses>
+        </SettingsBlock>
+      </SettingsFile>
+    </SetSettings>
+    <ProccessInformation comment="Creating workflows" />
+    <CreateWorkflow>
+      <WorkflowGroup name="Teamroom">
+        <Workflow name="{'Create Teamroom'|i18n( 'ezteamroom/install/workflows' )}" workflowTypeString="group_ezserial" referenceID="WORKFLOW_CREATETEAMROOM">
+          <Event description="Setup structure from XML" placement="1" workflowTypeString="event_ezxmlpublisher">
+            <Data>
+              <description>{'Create Teamroom Features'|i18n( 'ezteamroom/install/workflows' )}</description>
+            </Data>
+          </Event>
+        </Workflow>
+        <Workflow name="{'Approve Member Registration'|i18n( 'ezteamroom/install/workflows' )}" workflowTypeString="group_ezserial" referenceID="WORKFLOW_APPROVEMEMBERREGISTRATION">
+          <Event description="Approve" placement="1" workflowTypeString="event_ezapprovememberregistration">
+            <Data>
+              <description>{'Approve Member Registration'|i18n( 'ezteamroom/install/workflows' )}</description>
+            </Data>
+          </Event>
+        </Workflow>
+        <Workflow name="{'Set Teamroom Section'|i18n( 'ezteamroom/install/workflows' )}" workflowTypeString="group_ezserial" referenceID="WORKFLOW_SETSECTION">
+          <Event description="Set Section" placement="1" workflowTypeString="event_ezsetsection">
+            <Data>
+              <description>{'Set Teamroom Section'|i18n( 'ezteamroom/install/workflows' )}</description>
+            </Data>
+          </Event>
+        </Workflow>
+        <Workflow name="{'Set Current Teamroom'|i18n( 'ezteamroom/install/workflows' )}" workflowTypeString="group_ezserial" referenceID="WORKFLOW_SETCURRENTTEAMROOM">
+          <Event description="Set Current Teamroom" placement="1" workflowTypeString="event_ezsetteamroom">
+            <Data>
+              <description>{'Set Current Teamroom'|i18n( 'ezteamroom/install/workflows' )}</description>
+            </Data>
+          </Event>
+        </Workflow>
+        <Workflow name="{'Post Publish Multiplexer'|i18n( 'ezteamroom/install/workflows' )}" workflowTypeString="group_ezserial" referenceID="WORKFLOW_POSTPUBLISH">
+          <Event description="Class: Teamroom" placement="1" workflowTypeString="event_ezmultiplexer">
+            <Data>
+              <data_int1>[internal:WORKFLOW_CREATETEAMROOM]</data_int1>
+              <data_text1>-1</data_text1>
+              <data_text3>[internal:CLASS_TEAMROOM]</data_text3>
+              <data_text5>[internal:CLASS_TEAMROOM]</data_text5>
+              <description>{'Create Teamroom'|i18n( 'ezteamroom/install/workflows' )}</description>
+            </Data>
+          </Event>
+          <Event description="Class: Teamroom" placement="2" workflowTypeString="event_ezmultiplexer">
+            <Data>
+              <data_int1>[internal:WORKFLOW_SETSECTION]</data_int1>
+              <data_text1>-1</data_text1>
+              <data_text3>[internal:CLASS_TEAMROOM]</data_text3>
+              <data_text5>[internal:CLASS_TEAMROOM]</data_text5>
+              <description>{'Set Teamroom Section'|i18n( 'ezteamroom/install/workflows' )}</description>
+            </Data>
+          </Event>
+        </Workflow>
+        <Workflow name="{'Set Teamroom Membership'|i18n( 'ezteamroom/install/workflows' )}" workflowTypeString="group_ezserial" referenceID="WORKFLOW_TEAMROOM">
+          <Event description="Membership" placement="1" workflowTypeString="event_ezmultiplexer">
+            <Data>
+              <data_int1>[internal:WORKFLOW_SETCURRENTTEAMROOM]</data_int1>
+              <data_text1>[internal:SECTION_TEAMROOM],[{$public_section_id}],1</data_text1>
+              <data_text2>12,42</data_text2>
+              <data_text3>-1</data_text3>
+              <data_text5>-1</data_text5>
+              <description>{'Set Teamroom Membership'|i18n( 'ezteamroom/install/workflows' )}</description>
+            </Data>
+          </Event>
+        </Workflow>
+      </WorkflowGroup>
+      <Trigger module="content" operation="publish" connectType="after" workflowID="internal:WORKFLOW_POSTPUBLISH" />
+      <Trigger module="teamroom" operation="register" connectType="before" workflowID="internal:WORKFLOW_APPROVEMEMBERREGISTRATION" />
+    </CreateWorkflow>
   <ProccessInformation comment="Creating roles" />
   <CreateRole>
     <Role name="{'Use Teamroom'|i18n( 'ezteamroom/install/roles' )}" createRole="true" referenceID="ROLE_USETEAMROOM">
@@ -1694,26 +2101,27 @@
       <Policy module="content" function="read">
         <Limitations>
           <Class>internal:CLASS_WIKI</Class>
+          <Class>internal:CLASS_WIKI_PAGE</Class>
         </Limitations>
       </Policy>
     </Role>
     <Role name="Teamroom {'Use Wiki'|i18n( 'ezteamroom/install/roles' )}" createRole="true" referenceID="ROLE_12">
       <Policy module="content" function="create">
         <Limitations>
-          <Class>internal:CLASS_WIKI</Class>
+          <Class>internal:CLASS_WIKI_PAGE</Class>
           <ParentClass>internal:CLASS_WIKI</ParentClass>
         </Limitations>
       </Policy>
       <Policy module="content" function="edit">
         <Limitations>
-          <Class>internal:CLASS_WIKI</Class>
+          <Class>internal:CLASS_WIKI_PAGE</Class>
           <Section>internal:SECTION_TEAMROOM</Section>
           <Section>{$public_section_id}</Section>
         </Limitations>
       </Policy>
       <Policy module="content" function="remove">
         <Limitations>
-          <Class>internal:CLASS_WIKI</Class>
+          <Class>internal:CLASS_WIKI_PAGE</Class>
           <Owner>1</Owner>
         </Limitations>
       </Policy>
@@ -1779,239 +2187,9 @@
       </Policy>
     </Role>
   </CreateRole>
-  <ProccessInformation comment="Create teamroom content" />
-  <CreateContent parentNode="{$teamroom_parent_node}">
-        <ContentObject contentClass="teamroom_personal_frontpage" section="{$public_section_id}" remoteID="{$teamroom_parent_node}_teamrooms">
-            <Attributes>
-                <title>{'Welcome. Success with eZ Teamrooms.'|i18n( 'ezteamroom/install/teamroomcontent' )}</title>
-                <short_title>Teamrooms</short_title> {* This one should NOT be translated, otherwise the PathPrefix will not work!!! *}
-                <description parseReferences="true">&lt;embed size=&quot;large&quot; custom:offset=&quot;0&quot; custom:limit=&quot;5&quot; object_id=&quot;[internal:TEAMROOM_TITLE_IMAGE]&quot; /&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. In tempor. Aenean molestie, mauris ultrices vestibulum luctus, augue risus mattis est, viverra vestibulum diam quam vitae lorem. Nunc lacus tellus, molestie eleifend, dictum quis, fermentum eu, diam. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Curabitur hendrerit lectus non nunc. In vulputate, est sed pellentesque congue, est diam ullamcorper enim, a laoreet magna lorem vitae eros. Cras dignissim dictum risus. Sed lectus. Nullam sem. Mauris ac mauris.</description>
-                <num_of_columns>4</num_of_columns>
-                <allow_minimization>1</allow_minimization>
-                <default_arrangement></default_arrangement>
-            </Attributes>
-            <SetReference attribute="object_id" value="TEAMROOM_ROOT" />
-            <SetReference attribute="node_id" value="TEAMROOM_ROOT_NODE" />
-            <Childs>
-                <ContentObject contentClass="teamroom_box_folder" section="{$public_section_id}" remoteID="{$teamroom_parent_node}_teamrooms_boxes">
-                    <Attributes>
-                        <name>{'Boxes'|i18n( 'ezteamroom/install/teamroomcontent' )}</name>
-                    </Attributes>
-                    <SetReference attribute="object_id" value="TEAMROOM_BOXPOOL" />
-                    <SetReference attribute="node_id" value="TEAMROOM_BOXPOOL_NODE" />
-                    <Childs>
-                        <ContentObject contentClass="teamroom_infobox" section="{$public_section_id}" remoteID="{$teamroom_parent_node}_teamrooms_box_mytlightbox">
-                            <Attributes>
-                                <header>{'Lightbox selection'|i18n( 'ezteamroom/install/teamroomcontent' )}</header>
-                                <box_icon>internal:ICON_619</box_icon>
-                                <content></content>
-                                <url></url>
-                                <module_url>ezjscore/run/lightbox/view/lightboxselection</module_url>
-                                <check_access></check_access>
-                            </Attributes>
-                            <SetReference attribute="object_id" value="LIGHTBOXSELECTION_BOX_OBJECT" />
-                        </ContentObject>
-                        <ContentObject contentClass="teamroom_infobox" section="{$public_section_id}" remoteID="{$teamroom_parent_node}_teamrooms_box_myteamrooms">
-                            <Attributes>
-                                <header>{'My Teamrooms'|i18n( 'ezteamroom/install/teamroomcontent' )}</header>
-                                <box_icon>internal:ICON_613</box_icon>
-                                <content></content>
-                                <url></url>
-                                <check_access></check_access>
-                                <module_url parseReferences="true">ezjscore/run/content/view/myteamrooms/[internal:TEAMROOM_ROOT_NODE]</module_url>
-                            </Attributes>
-                            <SetReference attribute="object_id" value="MYTEAMROOMS_BOX_OBJECT" />
-                        </ContentObject>
-{*
-                        <ContentObject contentClass="teamroom_infobox" section="{$public_section_id}" remoteID="{$teamroom_parent_node}_teamrooms_box_help">
-                            <Attributes>
-                                <header>{'Help'|i18n( 'ezteamroom/install/teamroomcontent' )}</header>
-                                <box_icon>internal:ICON_168</box_icon>
-                                <content>{'Some help text'|i18n( 'ezteamroom/install/teamroomcontent' )}</content>
-                                <url></url>
-                                <module_url></module_url>
-                                <check_access></check_access>
-                            </Attributes>
-                            <SetReference attribute="object_id" value="HELP_BOX_OBJECT" />
-                        </ContentObject>
-*}
-                        <ContentObject contentClass="teamroom_infobox" section="{$public_section_id}" remoteID="{$teamroom_parent_node}_teamrooms_box_allteamrooms">
-                            <Attributes>
-                                <header>{'All Teamrooms'|i18n( 'ezteamroom/install/teamroomcontent' )}</header>
-                                <box_icon>internal:ICON_224</box_icon>
-                                <content>Teamrooms</content>
-                                <url></url>
-                                <module_url parseReferences="true">ezjscore/run/content/view/teamroomlist/[internal:TEAMROOM_ROOT_NODE]</module_url>
-                                <check_access></check_access>
-                            </Attributes>
-                            <SetReference attribute="object_id" value="ALLTEAMROOMS_BOX_OBJECT" />
-                        </ContentObject>
-                        <ContentObject contentClass="teamroom_infobox" section="{$public_section_id}" remoteID="{$teamroom_parent_node}_createteamroom_box">
-                            <Attributes>
-                                <header>{'Create Teamroom'|i18n( 'ezteamroom/install/teamroomcontent' )}</header>
-                                <box_icon>internal:ICON_226</box_icon>
-                                <content>{'Add your teamroom and get all the things to manage your team.'|i18n( 'ezteamroom/install/teamroomcontent' )}</content>
-                                <check_access>teamroom/create</check_access>
-                            </Attributes>
-                            <SetReference attribute="node_id" value="CREATETEAMROOM_BOX_ROOT_NODE" />
-                            <SetReference attribute="object_id" value="CREATETEAMROOM_BOX_OBJECT" />
-                        </ContentObject>
-                        <ContentObject contentClass="teamroom_infobox" section="{$public_section_id}" remoteID="{$teamroom_parent_node}_createteamroom_box">
-                            <Attributes>
-                                <module_url parseReferences="true">ezjscore/run/content/view/createteamroom/[internal:CREATETEAMROOM_BOX_ROOT_NODE]</module_url>
-                            </Attributes>
-                        </ContentObject>
-                        <ContentObject contentClass="teamroom_infobox" section="{$public_section_id}" remoteID="{$teamroom_parent_node}_teamrooms_box_lightboxes">
-                            <Attributes>
-                                <header>{'Lightboxes'|i18n( 'ezteamroom/install/teamroomcontent' )}</header>
-                                <box_icon>internal:ICON_619</box_icon>
-                                <content></content>
-                                <url></url>
-                                <module_url>ezjscore/run/lightbox/view/lightboxlist</module_url>
-                                <check_access></check_access>
-                            </Attributes>
-                        </ContentObject>
-                        <ContentObject contentClass="teamroom_infobox" section="{$public_section_id}" remoteID="{$teamroom_parent_node}_teamrooms_box_latestmessages">
-                            <Attributes>
-                                <header>{'Latest Messages'|i18n( 'ezteamroom/install/teamroomcontent' )}</header>
-                                <box_icon>internal:ICON_620</box_icon>
-                                <content></content>
-                                <url></url>
-                                <module_url parseReferences="true">ezjscore/run/content/view/latestmessages/[internal:TEAMROOM_ROOT_NODE]</module_url>
-                                <check_access></check_access>
-                            </Attributes>
-                            <SetReference attribute="object_id" value="LATESTMESSAGES_BOX_OBJECT" />
-                        </ContentObject>
-                    </Childs>
-                </ContentObject>
-            </Childs>
-        </ContentObject>
-        <ContentObject contentClass="teamroom_personal_frontpage" section="{$public_section_id}" remoteID="{$teamroom_parent_node}_teamrooms">
-            <Attributes>
-                <default_arrangement parseReferences="true">[[[internal:CREATETEAMROOM_BOX_OBJECT],[internal:LIGHTBOXSELECTION_BOX_OBJECT]],[[internal:ALLTEAMROOMS_BOX_OBJECT]],[[internal:MYTEAMROOMS_BOX_OBJECT]],[[internal:LATESTMESSAGES_BOX_OBJECT]]]</default_arrangement>
-            </Attributes>
-        </ContentObject>
-    </CreateContent>
-    <ProccessInformation comment="Creating siteaccess" />
+    <ProccessInformation comment="Registering Role IDs" />
     <SetSettings>
-      <SettingsFile name="site.ini" location="{$site_access_dir}">
-        <SettingsBlock name="ContentSettings">
-            <CachedViewModes>full;sitemap;pdf;module_widget;module_widget_latest;manage;teamrooms</CachedViewModes>
-            <CachedViewPreferences>
-              <value key="full">teamroom_files_list_limit=10;teamroom_folder_list_limit=10;teamroom_milestone_list_limit=10;teamroom_list_limit=10;teamroom_forum_list_limit=10;personalfrontpage_widgetlist_[internal:TEAMROOM_ROOT_NODE]=0;personalfrontpage_displaydescription=2;teamroom_blog_list_limit=10;teamroom_calendar_limit=10;teamroom_documents_list_limit=10;teamroom_tasklist_list_limit=10;teamroom_list_limit;teamroom_member_list_limit=10</value>
-            </CachedViewPreferences>
-        </SettingsBlock>
-        <SettingsBlock name="Session">
-            <RememberMeTimeout>259200</RememberMeTimeout>
-        </SettingsBlock>
-        <SettingsBlock name="SiteSettings">
-            <IndexPage>/content/view/full/[internal:TEAMROOM_ROOT_NODE]</IndexPage>
-            <DefaultPage>/content/view/full/[internal:TEAMROOM_ROOT_NODE]</DefaultPage>
-            <SiteName>{'eZ Teamroom'|i18n( 'ezteamroom/install/sitename' )}</SiteName>
-            <SiteURL>{$host_url}</SiteURL>
-            <LoginPage>embedded</LoginPage>
-        </SettingsBlock>
-        <SettingsBlock name="RegionalSettings">
-            <Locale>{$language}</Locale>
-            <ContentObjectLocale>{$language}</ContentObjectLocale>
-            <ShowUntranslatedObjects>disabled</ShowUntranslatedObjects>
-            <SiteLanguageList>
-              <value></value>
-              <value>{$language}</value>
-            </SiteLanguageList>
-            <TextTranslation>{if $language|eq( 'eng-GB' )}disabled{else}enabled{/if}</TextTranslation>
-        </SettingsBlock>
-        <SettingsBlock name="SiteAccessSettings">
-            <RequireUserLogin>true</RequireUserLogin>
-            <ShowHiddenNodes>false</ShowHiddenNodes>
-            <PathPrefix>Teamrooms</PathPrefix>
-        </SettingsBlock>
-        <SettingsBlock name="UserSettings">
-            <DefaultUserPlacement>{$guest_group_node_id}</DefaultUserPlacement>
-        </SettingsBlock>
-      </SettingsFile>
-      <SettingsFile name="event.ini" location="{$site_access_dir}">
-        <SettingsBlock name="AttendeeSettings">
-          <SearchRootNode>[internal:TEAMROOM_ROOT_NODE]</SearchRootNode>
-          <ClassIdentifierFilter>teamroom_room</ClassIdentifierFilter>
-        </SettingsBlock>
-      </SettingsFile>
-      <SettingsFile name="teamroom.ini" location="{$site_access_dir}">
-        <SettingsBlock name="TeamroomSettings">
-          <TeamroomPoolNodeID>[internal:TEAMROOM_ROOT_NODE]</TeamroomPoolNodeID>
-        </SettingsBlock>
-      </SettingsFile>
-      <SettingsFile name="upload.ini" location="{$site_access_dir}">
-        <SettingsBlock name="CreateSettings">
-            <MimeClassMap>
-              <value></value>
-              <value key="image">image</value>
-              <value key="video/quicktime">quicktime</value>
-              <value key="video/x-msvideo">windows_media</value>
-              <value key="video/vnd.rn-realvideo">real_video</value>
-              <value key="application/vnd.rn-realmedia">real_video</value>
-              <value key="application/x-shockwave-flash">flash</value>
-            </MimeClassMap>
-            <DefaultClass>teamroom_file</DefaultClass>
-        </SettingsBlock>
-        <SettingsBlock name="teamroom_file_ClassSettings">
-            <FileAttribute>file</FileAttribute>
-            <NameAttribute>name</NameAttribute>
-            <NamePattern>&lt;original_filename_base&gt;</NamePattern>
-        </SettingsBlock>
-      </SettingsFile>
-      <SettingsFile name="browse.ini" location="{$site_access_dir}">
-        <SettingsBlock name="SelectLinkNodeID">
-          <StartNode>[internal:TEAMROOM_ROOT_NODE]</StartNode>
-        </SettingsBlock>
-        <SettingsBlock name="SelectLinkObjectID">
-          <StartNode>[internal:TEAMROOM_ROOT_NODE]</StartNode>
-        </SettingsBlock>
-        <SettingsBlock name="AddRelatedObjectToOE">
-          <StartNode>[internal:TEAMROOM_ROOT_NODE]</StartNode>
-        </SettingsBlock>
-      </SettingsFile>
       <SettingsFile name="teamroom.ini" location="settings/override">
-        <SettingsBlock name="TeamroomSettings">
-          <TeamroomClassID>[internal:CLASS_TEAMROOM]</TeamroomClassID>
-          <PrivateSectionID>[internal:SECTION_TEAMROOM]</PrivateSectionID>
-          <PublicSectionID>[{$public_section_id}]</PublicSectionID>
-          <VisibilityList>
-           <value></value>
-           <value>private</value>
-
-    {if $use_internal|eq( 'yes' )}
-
-           <value>internal</value>
-
-    {/if}
-
-           <value>protected</value>
-           <value>public</value>
-          </VisibilityList>
-        </SettingsBlock>
-        <SettingsBlock name="VisibilitySettings_private">
-          <TeamroomSection>[internal:SECTION_TEAMROOM]</TeamroomSection>
-          <SubTreeSection>[internal:SECTION_TEAMROOM]</SubTreeSection>
-        </SettingsBlock>
-        <SettingsBlock name="VisibilitySettings_public">
-          <TeamroomSection>[{$public_section_id}]</TeamroomSection>
-          <SubTreeSection>[{$public_section_id}]</SubTreeSection>
-        </SettingsBlock>
-
-    {if $use_internal|eq( 'yes' )}
-
-        <SettingsBlock name="VisibilitySettings_internal">
-          <TeamroomSection>[{$public_section_id}]</TeamroomSection>
-          <SubTreeSection>[internal:SECTION_TEAMROOM]</SubTreeSection>
-        </SettingsBlock>
-
-    {/if}
-
-        <SettingsBlock name="VisibilitySettings_protected">
-          <TeamroomSection>[{$public_section_id}]</TeamroomSection>
-          <SubTreeSection>[internal:SECTION_TEAMROOM]</SubTreeSection>
-        </SettingsBlock>
         <SettingsBlock name="PermissionSettings">
           <TeamroomRoleList>
             <value>[internal:ROLE_3]</value>
@@ -2041,119 +2219,8 @@
           <TeamroomMemberGroupRole>[internal:ROLE_1]</TeamroomMemberGroupRole>
           <TeamroomLeaderGroupRole>[internal:ROLE_2]</TeamroomLeaderGroupRole>
         </SettingsBlock>
-        <SettingsBlock name="TeamroomIconSettings">
-          <Icon003>[internal:ICON_003]</Icon003>
-          <Icon168>[internal:ICON_168]</Icon168>
-          <Icon170>[internal:ICON_170]</Icon170>
-          <Icon224>[internal:ICON_224]</Icon224>
-          <Icon226>[internal:ICON_226]</Icon226>
-          <Icon613>[internal:ICON_613]</Icon613>
-          <Icon618>[internal:ICON_618]</Icon618>
-          <Icon619>[internal:ICON_619]</Icon619>
-          <Icon620>[internal:ICON_620]</Icon620>
-          <Icon673>[internal:ICON_673]</Icon673>
-          <Icon674>[internal:ICON_674]</Icon674>
-          <Icon675>[internal:ICON_675]</Icon675>
-          <Icon676>[internal:ICON_676]</Icon676>
-          <Icon677>[internal:ICON_677]</Icon677>
-          <Icon678>[internal:ICON_678]</Icon678>
-          <Icon679>[internal:ICON_679]</Icon679>
-        </SettingsBlock>
       </SettingsFile>
     </SetSettings>
-    <ProccessInformation comment="Activating siteaccess" />
-    <SetSettings>
-      <SettingsFile name="site.ini" location="settings/override">
-        <SettingsBlock name="SiteAccessSettings">
-            <AvailableSiteAccessList>
-              <value>{$site_access_name}</value>
-            </AvailableSiteAccessList>
-            <URIMatchMapItems>
-              <value>{$sa_abbr};{$site_access_name}</value>
-            </URIMatchMapItems>
-        </SettingsBlock>
-        <SettingsBlock name="Session">
-            <SessionNamePerSiteAccess value="enabled" />
-        </SettingsBlock>
-        <SettingsBlock name="SiteSettings">
-            <SiteList>
-              <value>{$site_access_name}</value>
-            </SiteList>
-        </SettingsBlock>
-      </SettingsFile>
-      <SettingsFile name="site.ini" location="{$admin_site_access_dir}">
-        <SettingsBlock name="SiteAccessSettings">
-            <RelatedSiteAccessList>
-              <value>{$site_access_name}</value>
-            </RelatedSiteAccessList>
-        </SettingsBlock>
-      </SettingsFile>
-      <SettingsFile name="contentstructuremenu.ini" location="{$admin_site_access_dir}">
-        <SettingsBlock name="TreeMenu">
-            <ShowClasses>
-              <value>teamroom_personal_frontpage</value>
-              <value>teamroom_room</value>
-              <value>teamroom_blog</value>
-              <value>teamroom_box_folder</value>
-              <value>teamroom_milestone_folder</value>
-              <value>teamroom_task_list</value>
-            </ShowClasses>
-        </SettingsBlock>
-      </SettingsFile>
-    </SetSettings>
-    <ProccessInformation comment="Creating workflows" />
-    <CreateWorkflow>
-      <WorkflowGroup name="Teamroom">
-        <Workflow name="{'Create Teamroom'|i18n( 'ezteamroom/install/workflows' )}" workflowTypeString="group_ezserial" referenceID="WORKFLOW_CREATETEAMROOM">
-          <Event description="Setup structure from XML" placement="1" workflowTypeString="event_ezxmlpublisher">
-            <Data />
-          </Event>
-        </Workflow>
-        <Workflow name="{'Approve Member Registration'|i18n( 'ezteamroom/install/workflows' )}" workflowTypeString="group_ezserial" referenceID="WORKFLOW_APPROVEMEMBERREGISTRATION">
-          <Event description="Approve" placement="1" workflowTypeString="event_ezapprovememberregistration">
-            <Data />
-          </Event>
-        </Workflow>
-        <Workflow name="{'Set Teamroom Section'|i18n( 'ezteamroom/install/workflows' )}" workflowTypeString="group_ezserial" referenceID="WORKFLOW_SETSECTION">
-          <Event description="Set Section" placement="1" workflowTypeString="event_ezsetsection">
-            <Data />
-          </Event>
-        </Workflow>
-        <Workflow name="{'Set Current Teamroom'|i18n( 'ezteamroom/install/workflows' )}" workflowTypeString="group_ezserial" referenceID="WORKFLOW_SETCURRENTTEAMROOM">
-          <Event description="Set Section" placement="1" workflowTypeString="event_ezsetteamroom">
-            <Data />
-          </Event>
-        </Workflow>
-        <Workflow name="{'Post Publish Multiplexer'|i18n( 'ezteamroom/install/workflows' )}" workflowTypeString="group_ezserial" referenceID="WORKFLOW_POSTPUBLISH">
-          <Event description="Class: Teamroom" placement="1" workflowTypeString="event_ezmultiplexer">
-            <Data>
-              <data_int1>[internal:WORKFLOW_CREATETEAMROOM]</data_int1>
-              <data_text1>-1</data_text1>
-              <data_text3>[internal:CLASS_TEAMROOM]</data_text3>
-            </Data>
-          </Event>
-          <Event description="Class: Teamroom" placement="2" workflowTypeString="event_ezmultiplexer">
-            <Data>
-              <data_int1>[internal:WORKFLOW_SETSECTION]</data_int1>
-              <data_text1>-1</data_text1>
-              <data_text3>[internal:CLASS_TEAMROOM]</data_text3>
-            </Data>
-          </Event>
-        </Workflow>
-        <Workflow name="{'Set Teamroom Membership'|i18n( 'ezteamroom/install/workflows' )}" workflowTypeString="group_ezserial" referenceID="WORKFLOW_TEAMROOM">
-          <Event description="Membership" placement="1" workflowTypeString="event_ezmultiplexer">
-            <Data>
-              <data_int1>[internal:WORKFLOW_SETCURRENTTEAMROOM]</data_int1>
-              <data_text1>[internal:SECTION_TEAMROOM],[{$public_section_id}],1</data_text1>
-              <data_text2>12,42</data_text2>
-              <data_text3>-1</data_text3>
-            </Data>
-          </Event>
-        </Workflow>
-      </WorkflowGroup>
-      <Trigger module="content" operation="publish" connectType="after" workflowID="internal:WORKFLOW_POSTPUBLISH" />
-      <Trigger module="teamroom" operation="register" connectType="before" workflowID="internal:WORKFLOW_APPROVEMEMBERREGISTRATION" />
-    </CreateWorkflow>
     <ProccessInformation comment="Assigning roles" />
     <AssignRoles>
         <RoleAssignment roleID="internal:ROLE_USETEAMROOM"     assignTo="{$guest_group_id}" />

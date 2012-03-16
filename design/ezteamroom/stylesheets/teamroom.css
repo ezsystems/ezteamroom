@@ -925,8 +925,7 @@ div.comment_actions
 
 
 
-div.class-event-calendar div.blog_actions,
-div.class-documentation-page div.blog_actions
+div.class-event-calendar div.blog_actions
 {
     float:right;
     margin-top:-32px;
@@ -940,17 +939,18 @@ div.class-event-calendar div.blog_actions
 
 
 div.blog_actions div.attribute-comments,
-div.blog_actions div.attribute-edit
-{
+div.blog_actions div.attribute-edit{
     border-left:1px solid #FFFFFF;
     float:left;
-    height:50px;
-    padding-top:10px;
+/*     height:50px; */
     padding-top:15px;
     text-align:center;
     width:50px;
 }
-
+div.class-wiki-page div.attribute-byline 
+{
+    padding-left:5px;
+}
 div.comment_actions div.attribute-comments,
 div.comment_actions div.attribute-edit
 {
@@ -1281,6 +1281,44 @@ div#searchbox input#searchtext
     margin-bottom: 3px;
     background-color: #FFF;
 }
+
+div#wikisearch
+{
+    margin:0px;
+    text-align:left;
+    width: 120px;
+}
+div#wikisearch label
+{
+    display: inline;
+    font-size: 12px;
+    margin-bottom: 3px;
+    position: relative;
+}
+div#wikisearch input#wikisearchbutton
+{
+    height: 19px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    color: #000;
+    margin: 0px;
+    margin-bottom: 3px;
+    padding: 0px;
+    font-weight: bold;
+    font-size: 11px;
+}
+div#wikisearch input#wikisearchtext
+{
+    border:1px solid #ccc;
+    font-size:12px;
+    height: 15px;
+    margin-bottom: 3px;
+    background-color: #FFF;
+    width: 100px;
+}
+
+
+
 
 div#topmenu
 {
@@ -1689,9 +1727,10 @@ div.content-view-full div.class-event_calendar div.columns-frontpage
 }
 
 
-div.content-view-full div.class-documentation_page div.columns-frontpage
+div.content-view-full div.class-wiki div.columns-frontpage,
+div.content-view-full div.class-wiki-page div.columns-frontpage
 {
-    padding: 0 260px 0 190px;
+    padding: 0 260px 0 130px;
 }
 
 div.class-teamroom-header.noleftcolumn div.columns-teamroom-header,
@@ -1723,13 +1762,12 @@ div.content-view-full div.class-event_calendar div.columns-frontpage  div.left-c
     display: inline;
 }
 
-div.content-view-full div.class-documentation_page div.columns-frontpage div.left-column-position
+div.content-view-full div.class-wiki div.columns-frontpage div.left-column-position,
+div.content-view-full div.class-wiki-page div.columns-frontpage div.left-column-position
 {
-    width: 170px;
-    margin-left: -190px;
+    width: 130px;
+    margin-left: -130px;
 }
-
-
 
 div.class-teamroom-header.noleftcolumn div.columns-teamroom-header div.left-column-position,
 div.content-view-full div.noleftcolumn div.columns-frontpage div.left-column-position
@@ -1785,7 +1823,8 @@ div.content-view-full div.columns-frontpage div.center-column-position
 }
 
 div.content-view-full div.class-blog div.columns-frontpage div.center-column-position,
-div.content-view-full div.class-documentation_page div.columns-frontpage div.center-column-position
+div.content-view-full div.class-wiki div.columns-frontpage div.center-column-position,
+div.content-view-full div.class-wiki-page div.columns-frontpage div.center-column-position
 {
     margin-top:0px;
 }
@@ -1802,7 +1841,7 @@ div.class-teamroom-header.norightcolumn div.columns-teamroom-header div.center-c
 div.content-view-full div.norightcolumn div.columns-frontpage div.center-column-position div.center-column
 {
     margin-right: 0;
-    padding-left: 0;
+    padding-left: 10px;
 }
 
 div.class-teamroom-header div.columns-teamroom-header div.center-column-position div.center-column,
@@ -2047,12 +2086,6 @@ div.right-column div.border-box div.create-task div.submitimage,
 div.right-column div.border-box div.create-file div.submitimage
 {
     padding-top:5px;
-    text-align:center;
-}
-
-div.right-column div.border-box div.create-task div.keepupdated
-{
-    padding-top:9px;
     text-align:center;
 }
 
@@ -2352,10 +2385,12 @@ p.info:hover div.hiddendescription,
 div.info:hover div.hiddendescription
 {
     display:block;
+    margin-left: -50px;
     position:absolute;
     top:2em;
     left:2em;
-    width:270px;
+    min-width:270px;
+    white-space: nowrap;
     border:1px solid #999;
     background-color:#ddd;
     padding: 3px;
@@ -3410,8 +3445,12 @@ div.edit-attribute input
 {
     border:1px solid #A5ACB2;
     font-size:1em;
+}
+div.edit-attribute input[type=text]
+{
     width:50%;
 }
+
 
 div.edit-attribute input.checkbox,
 div.edit-attribute input.button
@@ -3556,8 +3595,10 @@ div.box_background,
 div.content-view-line div.class-blog-post,
 div.content-view-line div.class-event,
 div.content-view-full div.class-blog-post,
-div.content-view-full div.class-documentation_page div.center-column,
-div.content-view-full div.class-documentation_page div.left-column-position
+div.content-view-full div.class-wiki div.center-column,
+div.content-view-full div.class-wiki div.left-column,
+div.content-view-full div.class-wiki-page div.center-column,
+div.content-view-full div.class-wiki-page div.left-column
 {
     background: #fff url( '../images/blog_bg.gif' ) repeat-x top left;
     padding-top: 10px;
@@ -3565,21 +3606,37 @@ div.content-view-full div.class-documentation_page div.left-column-position
     padding-bottom: 20px;
 }
 
-div.content-view-full div.class-documentation_page div.left-column-position
+div.content-view-full div.class-wiki div.left-column-position
+div.content-view-full div.class-wiki-page div.left-column-position
 {
     border: 1px solid #ccc;
     width: 180px;
 }
 
-div.content-view-full div.class-blog-post
+div.content-view-full div.class-blog-post,
+div.content-view-full div.class-wiki,
+div.content-view-full div.class-wiki-page
 {
     margin-top: 0;
 }
+div.content-view-line div.class-wiki div.attribute-byline span.date,
+div.content-view-full div.class-wiki div.attribute-byline span.date,
+div.content-view-line div.class-wiki-page div.attribute-byline span.date,
+div.content-view-full div.class-wiki-page div.attribute-byline span.date,
 div.content-view-line div.class-blog-post div.attribute-byline span.date,
 div.content-view-full div.class-blog-post div.attribute-byline span.date
 {
     color: #f06020;
 }
+
+div.content-view-line div.class-wiki div.attribute-byline,
+div.content-view-line div.class-wiki div.attribute-byline span.author,
+div.content-view-full div.class-wiki div.attribute-byline,
+div.content-view-full div.class-wiki div.attribute-byline span.author,
+div.content-view-line div.class-wiki-page div.attribute-byline,
+div.content-view-line div.class-wiki-page div.attribute-byline span.author,
+div.content-view-full div.class-wiki-page div.attribute-byline,
+div.content-view-full div.class-wiki-page div.attribute-byline span.author,
 div.content-view-line div.class-blog-post div.attribute-byline,
 div.content-view-line div.class-blog-post div.attribute-byline span.author,
 div.content-view-full div.class-blog-post div.attribute-byline,
@@ -3588,6 +3645,10 @@ div.content-view-full div.class-blog-post div.attribute-byline span.author
     color: #999;
 }
 
+div.content-view-line div.class-wiki div.attribute-byline span.author strong,
+div.content-view-full div.class-wiki div.attribute-byline span.author strong,
+div.content-view-line div.class-wiki-page div.attribute-byline span.author strong,
+div.content-view-full div.class-wiki-page div.attribute-byline span.author strong,
 div.content-view-line div.class-blog-post div.attribute-byline span.author strong,
 div.content-view-full div.class-blog-post div.attribute-byline span.author strong
 {
@@ -3659,6 +3720,29 @@ div.content-view-line div.class-comment div.message h3
     margin-top: 0px;
 }
 
+div.content-view-children-wiki_atoz
+{
+    margin-bottom: 2em;
+}
+
+div.attribute-toc
+{
+    float: right;
+    margin: 1.5em;
+    padding: 0em 1em 1em 1em;
+
+    border: 1px solid #f06020;
+    border-radius:5px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+
+
+    -moz-box-shadow:5px 5px 5px rgba(240,96,32,0.5); /* Firefox - alte Syntax */
+    -webkit-box-shadow:5px 5px 5px rgba(240,96,32,0.5); /* Safari, Chrome - alte Syntax */
+    box-shadow:5px 5px 5px rgba(240,96,32,0.5); /* alle neuen Browser, W3C Standard */
+}
+
+
 
 div.attribute-toc ul
 {
@@ -3669,9 +3753,9 @@ div.attribute-toc ul
 
 div.attribute-toc ul.level0
 {
-    background:transparent url( '../images/li_vert.gif' ) no-repeat scroll 4px -5px;
-    margin-left:0px;
-    padding-top:2px;
+/*     background:transparent url( '../images/li_vert.gif' ) no-repeat scroll 4px -5px; */
+    margin-left: 0px;
+    padding: 0;
 }
 
 
@@ -3711,6 +3795,11 @@ div.attribute-toc ul.level1 li a
     font-weight: normal;
 }
 
+div.attribute-body div.attribute-toc ul,
+div.attribute-body div.attribute-toc ol
+{
+    padding-left: 0.8em;
+}
 
 
 div.cal_entry
@@ -4171,7 +4260,9 @@ div.related-document-list ul.related-document-tree span.creator{
   font-size: .8em;
 }
 
-div.class-documentation-page li {
+div.class-wiki li,
+div.class-wiki-page li
+{
   list-style-position: outside;
 }
 
@@ -4186,4 +4277,9 @@ div#full_article div.message-textcontent {
 a#addNewWidgetButton.add_widgets_disabled
 {
     visibility: hidden;
+}
+div.pfboxcontenthide
+{
+    visibility: hidden;
+    display: none;
 }

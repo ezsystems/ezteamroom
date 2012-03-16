@@ -163,12 +163,11 @@
             <SetReference attribute="object_id" value="EVENT_CALENDAR" />
             <SetReference attribute="node_id" value="EVENT_CALENDAR_NODE" />
         </ContentObject>
-        <ContentObject owner="{$owner_object_id}" creator="{$owner_object_id}" contentClass="documentation_page" section="{$publicSectionID}" remoteID="{$teamroom_node_id}_wiki">
+        <ContentObject owner="{$owner_object_id}" creator="{$owner_object_id}" contentClass="wiki" section="{$publicSectionID}" remoteID="{$teamroom_node_id}_wiki">
             <Attributes>
                 <title>{'Wiki'|i18n('ezteamroom/creation')}</title>
                 <body>{'Wiki'|i18n('ezteamroom/creation')}</body>
                 <tags></tags>
-                <show_children>1</show_children>
             </Attributes>
             <SetReference attribute="object_id" value="WIKI" />
             <SetReference attribute="node_id" value="WIKI_NODE" />

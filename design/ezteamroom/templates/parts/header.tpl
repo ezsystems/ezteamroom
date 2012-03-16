@@ -26,12 +26,12 @@
                     <a href={concat("content/view/teamrooms/",ezini( "TeamroomSettings", "TeamroomPoolNodeID", "teamroom.ini" ))|ezurl} title="{'My Teamrooms'|i18n('ezteamroom/teamroom')} ({$currentUserName|wash()})">{'My Teamrooms'|i18n('ezteamroom/teamroom')}</a>
                 </div>
             </div></li>
-            <li><div class="links_li">
+{*            <li><div class="links_li">
                 <a id="links_sitemap_a" href={concat("/content/view/sitemap/", ezini( 'TeamroomSettings', 'TeamroomPoolNodeID', 'teamroom.ini' ) )|ezurl()} title="{'Sitemap'|i18n('ezteamroom/teamroom')}"></a>
                 <div class="link-text">
                     <a href={concat("/content/view/sitemap/", ezini( 'TeamroomSettings', 'TeamroomPoolNodeID', 'teamroom.ini' ) )|ezurl()} title="{'Sitemap'|i18n('ezteamroom/teamroom')}">{'Sitemap'|i18n('ezteamroom/teamroom')}</a>
                 </div>
-            </div></li>
+            </div></li>*}
 
     {undef $currentUserName}
 
