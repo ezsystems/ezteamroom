@@ -4,7 +4,7 @@
      $not_locked       = cond($locked,0,1)
      $filelockfeature  = ezini( 'TeamroomSettings', 'FileLockFeature', 'teamroom.ini' )
      $lightboxfeature  = ezini( 'TeamroomSettings', 'LightboxFeature', 'teamroom.ini' )
-     $download_link    = concat( "content/download/", $attribute.contentobject_id, "/", $attribute.id )
+     $download_link    = concat( "content/download/", $attribute.contentobject_id, "/", $attribute.id, "/file/", $attribute.content.original_filename|rawurlencode() )
      $can_use_lightbox = fetch( 'user', 'has_access_to',
                                          hash( 'module',   'lightbox',
                                                'function', 'add'
@@ -16,7 +16,7 @@
     {** Download button **}
     <div class="file-list-download">
         {if $not_locked}
-        <a href="{$download_link|ezurl()}"><img src={'file/download.gif'|ezimage} alt="download_icon" title="{'Download this image'|i18n('ezteamroom/files')}" /></a>
+        <a href={$download_link|ezurl()}><img src={'file/download.gif'|ezimage} alt="download_icon" title="{'Download this image'|i18n('ezteamroom/files')}" /></a>
         {/if}
     </div>
 
