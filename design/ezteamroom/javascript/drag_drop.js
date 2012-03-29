@@ -4,7 +4,7 @@
 //
 // Created on: <25.05.2007 10:40:04 tw>
 //
-// Copyright (C) 1999-2010 eZ Systems as. All rights reserved.
+// Copyright (C) 1999-2012 eZ Systems as. All rights reserved.
 //
 
 
