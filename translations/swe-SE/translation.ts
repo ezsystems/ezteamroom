@@ -55,7 +55,7 @@
     </message>
     <message>
         <source>Download</source>
-        <translation>Ladda ner</translation>
+        <translation>Hämta</translation>
     </message>
     <message>
         <source>Get version</source>
@@ -601,7 +601,7 @@ Din begäran väntar på behandling. För att se status för din begäran eller 
     <message>
         <source>If you do not want to continue receiving these notifications,
 change your settings at:</source>
-        <translation type="unfinished"></translation>
+        <translation>Om du inte vill fortsätta få blänkare så ändra dina inställningar:</translation>
     </message>
     <message>
         <source>%sitename notification system</source>
@@ -617,67 +617,67 @@ change your settings at:</source>
     </message>
     <message>
         <source>A teamroom moderator has invited you to be a member of the teamroom &apos;%1&apos;.</source>
-        <translation type="unfinished"></translation>
+        <translation>En grupprumsmoderator har bjudit in dej till grupprum &apos;%1&apos;.</translation>
     </message>
     <message>
         <source>If you do not want to be a member of this teamroom, you can resign using the following link</source>
-        <translation type="unfinished"></translation>
+        <translation>Om du inte vill vara med i grupprummet så kan du utträda genom att följa länken</translation>
     </message>
     <message>
         <source>[%sitename] Teamroom membership terminated</source>
-        <translation type="unfinished"></translation>
+        <translation>[%sitename] grupprumsmedlemskapet avslutat</translation>
     </message>
     <message>
         <source>Your membership of the teamroom &apos;%1&apos; has been terminated by a teamroom moderator.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ditt medlemskap i grupprummet &apos;%1&apos; har avslutats av en moderator.</translation>
     </message>
     <message>
         <source>[%sitename] Member has resigned from teamroom</source>
-        <translation type="unfinished"></translation>
+        <translation>[%sitename] medlem har utträtt från grupprummet</translation>
     </message>
     <message>
         <source>The member &quot;%1&quot; has resigned from the teamroom &quot;%2&quot;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Medlem &quot;%1&quot; har utträtt från grupprum &quot;%2&quot;.</translation>
     </message>
     <message>
         <source>[%sitename] Teamroom membership resigned</source>
-        <translation type="unfinished"></translation>
+        <translation>[%sitename] grupprumsmedlemskap avslutat</translation>
     </message>
     <message>
         <source>You have successfully resigned from the teamroom &quot;%1&quot;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Du har utträtt från grupprummet &quot;%1&quot;.</translation>
     </message>
     <message>
         <source>[%sitename] Teamroom memberregistration approved</source>
-        <translation type="unfinished"></translation>
+        <translation>[%sitename] grupprumsmedlemskap accepterat</translation>
     </message>
     <message>
         <source>You have successfully joined the teamroom &apos;%1&apos;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Du är nu med i grupprum &apos;%1&apos;.</translation>
     </message>
     <message>
         <source>Your memberregistration in the teamroom &apos;%1&apos; has been approved by a teamroom moderator.</source>
-        <translation type="unfinished"></translation>
+        <translation>Din grupprumsanmälan till rum &apos;%1&apos; har accepterats av en grupprumsmoderator.</translation>
     </message>
     <message>
         <source>If do not want to be a member of this teamroom anymore you can use the following link to resign from the teamroom.</source>
-        <translation type="unfinished"></translation>
+        <translation>Om du inte vill vara med i grupprummet längre så kan du utträda genom att följa länken.</translation>
     </message>
     <message>
         <source>[%sitename] Teamroom memberregistration denied</source>
-        <translation type="unfinished"></translation>
+        <translation>[%sitename] grupprumsmedlemskap avböjt</translation>
     </message>
     <message>
         <source>Your memberregistration in the teamroom &apos;%1&apos; has been denied by a teamroom moderator.</source>
-        <translation type="unfinished"></translation>
+        <translation>Din grupprumsanmälan till rum &apos;%1&apos; har avböjts av en grupprumsmoderator.</translation>
     </message>
     <message>
         <source>[%sitename] Teamroom invitation reminder</source>
-        <translation type="unfinished"></translation>
+        <translation>[%sitename] Påminnelse om grupprumsinbjudan</translation>
     </message>
     <message>
         <source>If you do not have a user account yet, you received your account information in a separate email. You will find further information in this email about how to activate your user account to be able to use the teamroom.</source>
-        <translation type="unfinished"></translation>
+        <translation>Om du inte har ett användarkonto får du kontoinformation i ett separat e-brev. I brevet finns information om hur du aktiverar användarkontot och använder grupprummet.</translation>
     </message>
     <message>
         <source>[%sitename] Teamroom created</source>
@@ -689,19 +689,19 @@ change your settings at:</source>
     </message>
     <message>
         <source>If you want to be notified about new members requesting access to your teamroom you can adjust the notification settings using the following link.</source>
-        <translation type="unfinished"></translation>
+        <translation>Om du vill få blänkare när nya medlemmar begär tillgång till ditt grupprum kan du ändra meddelandeinställningarna genom att följa länken.</translation>
     </message>
     <message>
         <source>If you do not wish to continue receiving these notifications, use the following link to change your personal notification settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Om du inte längre vill få blänkare kan du ändra meddelandeinställningarna genom att följa länken</translation>
     </message>
     <message>
         <source>In order to get access to the system you need to login. This can be done using the following link</source>
-        <translation type="unfinished"></translation>
+        <translation>Du behöver logga in för att komma åt systemet. Du kan följa länken</translation>
     </message>
     <message>
         <source>If you have any questions or problems, please send an email to the site administrator %sitenadmin.</source>
-        <translation type="unfinished"></translation>
+        <translation>Om du har frågor eller problem (beskriv 1) vad du gör, 2) vad du förväntade dej hända, 3) vad som faktiskt hände) så kan du skicka e-brev till webbplatsadministratören %siteadmin.</translation>
     </message>
     <message>
         <source>Approve teamroom membership</source>
@@ -843,15 +843,15 @@ change your settings at:</source>
     </message>
     <message>
         <source>The following list shows the milestones that have been created within this teamroom. A milestone is a collection of tasks and has a date that indicates when the milestone should be reached. You can use the button &quot;New milestone&quot; to create a new milestone. The links shown below &quot;Sort by&quot; can be used to sort the milestones in different orders. By clicking on the same link two times, the sorting order will be reverted. A click on one of the tags shown below &quot;Tags&quot; will filter the displayed milestones and show only those having the selected tag.</source>
-        <translation type="unfinished"></translation>
+        <translation>Milstenar skapade i grupprummet visas i listan. En milsten är en samling uppgifter och som har ett datum när den ska vara nådd. Klicka på &quot;Ny milsten&quot;-knappen för att skapa en ny milsten. Länkarna under &quot;Sortera efter&quot; kan användas för att sortera milstnearna utifrån olika kriterier. Klickar du två gånger på samma länk så blir sorteringsordningen omvänd. Genom att klicka på någon etikett under &quot;Etiketter&quot; så filtrerar du milstenarna så att endast de med den valda etiketten visas.</translation>
     </message>
     <message>
         <source>This message board can be used for teamroom related discussions. You can add a new post using the button &quot;Add new topic&quot;. If you want to read the content of a topic you can click on the title. This will also enable you to reply to that topic.</source>
-        <translation type="unfinished"></translation>
+        <translation>Meddelandeväggen kan användas för grupprumsrelaterade diskussioner. Klicka på &quot;Lägg till nytt ämne&quot;-knappen. Om du vill läsa om ett ämne klickar du på rubriken. Då kan du också skriva svar i ämnet.</translation>
     </message>
     <message>
         <source>This blog can be used to post teamroom related messages in form of a diary. To create a new blog entry you can use the button &quot;Add new entry&quot;. If you click on the title of an entry the full article will be shown and you are enabled to write a comment to the article.</source>
-        <translation type="unfinished"></translation>
+        <translation>Bloggen kan användas för att lägga ut grupprumsrelaterade meddelanden i dagboksform. Klicka på &quot;Lägg till inlägg&quot;-knappen för att skapa ett nytt inlägg. Om du klickar på rubriken så visas hela inlägget och du kan också skriva kommentarer till det.</translation>
     </message>
     <message>
         <source>Boxes</source>
@@ -1388,7 +1388,7 @@ change your settings at:</source>
     <message>
         <source>Unable to load Flash content. You can download the latest version of Flash Player from the</source>
         <translatorcomment>Här är frihand...</translatorcomment>
-        <translation>Kunde inte använda det proprietära flash-innehållet. Om du ska använda det så måste du ladda ner en spelare för det från</translation>
+        <translation>Kunde inte använda det proprietära flash-innehållet. Om du ska använda det så måste du hämta en spelare för det från</translation>
     </message>
     <message>
         <source>Adobe Flash Player Download Center</source>
@@ -1412,7 +1412,7 @@ change your settings at:</source>
     </message>
     <message>
         <source>Download</source>
-        <translation>Ladda ner</translation>
+        <translation>Hämta</translation>
     </message>
     <message>
         <source>Lightbox</source>
@@ -1544,63 +1544,63 @@ change your settings at:</source>
     </message>
     <message>
         <source>Add this folder to the current lightbox</source>
-        <translation type="unfinished"></translation>
+        <translation>Lägg till katalogen till aktuell ljuslåda</translation>
     </message>
     <message>
         <source>Edit this folder or upload a new version</source>
-        <translation type="unfinished"></translation>
+        <translation>Redigera katalogen eller ladda upp en ny version</translation>
     </message>
     <message>
         <source>Delete this folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta bort katalogen</translation>
     </message>
     <message>
         <source>Download this image</source>
-        <translation type="unfinished"></translation>
+        <translation>Hämta bilden</translation>
     </message>
     <message>
         <source>Release this image</source>
-        <translation type="unfinished"></translation>
+        <translation>Släpp bilden</translation>
     </message>
     <message>
         <source>Lock this image</source>
-        <translation type="unfinished"></translation>
+        <translation>Lås bilden</translation>
     </message>
     <message>
         <source>Add this image to the current lightbox</source>
-        <translation type="unfinished"></translation>
+        <translation>Lägg till bilden till aktuell ljuslåda</translation>
     </message>
     <message>
         <source>Show versions of this image</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa versioner av bilden</translation>
     </message>
     <message>
         <source>Edit this image or upload a new version</source>
-        <translation type="unfinished"></translation>
+        <translation>Redigera bilden eller ladda upp en ny version</translation>
     </message>
     <message>
         <source>Delete this image</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta bort bilden</translation>
     </message>
     <message>
         <source>Edit the entry of this lightbox</source>
-        <translation type="unfinished"></translation>
+        <translation>Redigera ljuslådans inlägg</translation>
     </message>
     <message>
         <source>Edit this lightbox entry</source>
-        <translation type="unfinished"></translation>
+        <translation>Redigera ljuslådeinlägget</translation>
     </message>
     <message>
         <source>Download this video</source>
-        <translation type="unfinished"></translation>
+        <translation>Hämta videon</translation>
     </message>
     <message>
         <source>Release this video</source>
-        <translation type="unfinished"></translation>
+        <translation>Släpp videon</translation>
     </message>
     <message>
         <source>Lock this video</source>
-        <translation type="unfinished"></translation>
+        <translation>Lås videon</translation>
     </message>
     <message>
         <source>Show versions of this video</source>
@@ -1612,11 +1612,11 @@ change your settings at:</source>
     </message>
     <message>
         <source>Shown only entries with tag &quot;%1&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa endast inlägg med etiketten &quot;%1&quot;</translation>
     </message>
     <message>
         <source>Are you sure you want to remove the folder?</source>
-        <translation type="unfinished"></translation>
+        <translation> Vill du verkligen ta bort katalogen?</translation>
     </message>
     <message>
         <source>One level up</source>
@@ -1632,19 +1632,19 @@ change your settings at:</source>
     </message>
     <message>
         <source>Only files of category &quot;%1&quot; are shown</source>
-        <translation type="unfinished"></translation>
+        <translation>Endast filer i kategori &quot;%1&quot; visas</translation>
     </message>
     <message>
         <source>Show only files of the category &quot;%1&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa endast filer i kategori &quot;%1&quot;</translation>
     </message>
     <message>
         <source>Only files with tag &quot;%1&quot; are shown</source>
-        <translation type="unfinished"></translation>
+        <translation>Endast filer med etikett &quot;%1&quot; visas</translation>
     </message>
     <message>
         <source>Shown only files with tag &quot;%1&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa endast filer med etikett &quot;%1&quot;</translation>
     </message>
 </context>
 <context>
@@ -1751,27 +1751,27 @@ change your settings at:</source>
     </message>
     <message>
         <source>Edit %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Redigera %1</translation>
     </message>
     <message>
         <source>Edit this entry</source>
-        <translation type="unfinished"></translation>
+        <translation>Redigera inlägget</translation>
     </message>
     <message>
         <source>Delete this entry</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta bort inlägget</translation>
     </message>
     <message>
         <source>Edit this reply</source>
-        <translation type="unfinished"></translation>
+        <translation>Redigera kommentaren</translation>
     </message>
     <message>
         <source>Remove this reply</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta bort kommentaren</translation>
     </message>
     <message>
         <source>Jump to the top of this page</source>
-        <translation type="unfinished"></translation>
+        <translation>Gå till början av sidan</translation>
     </message>
 </context>
 <context>
@@ -1849,462 +1849,462 @@ change your settings at:</source>
     <name>ezteamroom/install/classes</name>
     <message>
         <source>Image</source>
-        <translation type="unfinished"></translation>
+        <translation>Bild</translation>
     </message>
     <message>
         <source>Name</source>
-        <translation type="unfinished"></translation>
+        <translation>Namn</translation>
     </message>
     <message>
         <source>Caption</source>
-        <translation type="unfinished"></translation>
+        <translation>Bildtext</translation>
     </message>
     <message>
         <source>Tags</source>
-        <translation type="unfinished"></translation>
+        <translation>Etiketter</translation>
     </message>
     <message>
         <source>Quicktime</source>
-        <translation type="unfinished"></translation>
+        <translation>Quicktime</translation>
     </message>
     <message>
         <source>Description</source>
-        <translation type="unfinished"></translation>
+        <translation>Beskrivning</translation>
     </message>
     <message>
         <source>File</source>
-        <translation type="unfinished"></translation>
+        <translation>Fil</translation>
     </message>
     <message>
         <source>Real video</source>
-        <translation type="unfinished"></translation>
+        <translation>Real video</translation>
     </message>
     <message>
         <source>Windows media</source>
-        <translation type="unfinished"></translation>
+        <translation>Windows media</translation>
     </message>
     <message>
         <source>User</source>
-        <translation type="unfinished"></translation>
+        <translation>Användare</translation>
     </message>
     <message>
         <source>First name</source>
-        <translation type="unfinished"></translation>
+        <translation>Förnamn</translation>
     </message>
     <message>
         <source>Last name</source>
-        <translation type="unfinished"></translation>
+        <translation>Efternamn</translation>
     </message>
     <message>
         <source>User account</source>
-        <translation type="unfinished"></translation>
+        <translation>Användarkonto</translation>
     </message>
     <message>
         <source>Signature</source>
-        <translation type="unfinished"></translation>
+        <translation>Underskrift</translation>
     </message>
     <message>
         <source>Teamroom comment</source>
-        <translation type="unfinished"></translation>
+        <translation>Grupprumskommentar</translation>
     </message>
     <message>
         <source>Subject</source>
-        <translation type="unfinished"></translation>
+        <translation>Ämne</translation>
     </message>
     <message>
         <source>Author</source>
-        <translation type="unfinished"></translation>
+        <translation>Författare</translation>
     </message>
     <message>
         <source>Message</source>
-        <translation type="unfinished"></translation>
+        <translation>Meddelande</translation>
     </message>
     <message>
         <source>Teamroom blog</source>
-        <translation type="unfinished"></translation>
+        <translation>Grupprumsblogg</translation>
     </message>
     <message>
         <source>Teamroom Blog post</source>
-        <translation type="unfinished"></translation>
+        <translation>Grupprumsblogginlägg</translation>
     </message>
     <message>
         <source>Title</source>
-        <translation type="unfinished"></translation>
+        <translation>Rubrik</translation>
     </message>
     <message>
         <source>Body</source>
-        <translation type="unfinished"></translation>
+        <translation>Meddelande</translation>
     </message>
     <message>
         <source>Publication date</source>
-        <translation type="unfinished"></translation>
+        <translation>Publiceringsdatum</translation>
     </message>
     <message>
         <source>Unpublish date</source>
-        <translation type="unfinished"></translation>
+        <translation>Avpubliceringsdatum</translation>
     </message>
     <message>
         <source>Enable comments</source>
-        <translation type="unfinished"></translation>
+        <translation>Tillåt kommentarer</translation>
     </message>
     <message>
         <source>Teamroom frontpage</source>
-        <translation type="unfinished"></translation>
+        <translation>Grupprumsstartsida</translation>
     </message>
     <message>
         <source>Billboard</source>
-        <translation type="unfinished"></translation>
+        <translation>Anslagstavla</translation>
     </message>
     <message>
         <source>Left column</source>
-        <translation type="unfinished"></translation>
+        <translation>Vänsterkolumnen</translation>
     </message>
     <message>
         <source>Center column</source>
-        <translation type="unfinished"></translation>
+        <translation>Mittkolumnen</translation>
     </message>
     <message>
         <source>Right column</source>
-        <translation type="unfinished"></translation>
+        <translation>Högerkolumnen</translation>
     </message>
     <message>
         <source>Bottom column</source>
-        <translation type="unfinished"></translation>
+        <translation>Bottenfältet</translation>
     </message>
     <message>
         <source>Teamroom documentation page</source>
-        <translation type="unfinished"></translation>
+        <translation>Grupprumsdokumentationssidan</translation>
     </message>
     <message>
         <source>Display sub items</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa underenheter</translation>
     </message>
     <message>
         <source>Teamroom info box</source>
-        <translation type="unfinished"></translation>
+        <translation>Grupprumsinfolåda</translation>
     </message>
     <message>
         <source>Header</source>
-        <translation type="unfinished"></translation>
+        <translation>Rubrik</translation>
     </message>
     <message>
         <source>Box Icon</source>
-        <translation type="unfinished"></translation>
+        <translation>Lådikon</translation>
     </message>
     <message>
         <source>Content</source>
-        <translation type="unfinished"></translation>
+        <translation>Innehåll</translation>
     </message>
     <message>
         <source>URL</source>
-        <translation type="unfinished"></translation>
+        <translation>url</translation>
     </message>
     <message>
         <source>Module URL</source>
-        <translation type="unfinished"></translation>
+        <translation>Modul-url</translation>
     </message>
     <message>
         <source>Check access</source>
-        <translation type="unfinished"></translation>
+        <translation>Kontrollera tillgång</translation>
     </message>
     <message>
         <source>Relates to</source>
-        <translation type="unfinished"></translation>
+        <translation>Relaterar till</translation>
     </message>
     <message>
         <source>Teamroom file</source>
-        <translation type="unfinished"></translation>
+        <translation>Grupprumsfil</translation>
     </message>
     <message>
         <source>Category</source>
-        <translation type="unfinished"></translation>
+        <translation>Kategori</translation>
     </message>
     <message>
         <source>Documents</source>
-        <translation type="unfinished"></translation>
+        <translation>Dokument</translation>
     </message>
     <message>
         <source>Lightboxes</source>
-        <translation type="unfinished"></translation>
+        <translation>Ljuslådor</translation>
     </message>
     <message>
         <source>Sounds</source>
-        <translation type="unfinished"></translation>
+        <translation>Ljud</translation>
     </message>
     <message>
         <source>Pictures</source>
-        <translation type="unfinished"></translation>
+        <translation>Bilder</translation>
     </message>
     <message>
         <source>Thumbnail</source>
-        <translation type="unfinished"></translation>
+        <translation>Tumnagelbild</translation>
     </message>
     <message>
         <source>Teamroom forum</source>
-        <translation type="unfinished"></translation>
+        <translation>Grupprumsforum</translation>
     </message>
     <message>
         <source>Teamroom forum topic</source>
-        <translation type="unfinished"></translation>
+        <translation>Grupprumsforumämne</translation>
     </message>
     <message>
         <source>Sticky</source>
-        <translation type="unfinished"></translation>
+        <translation>Klibbig</translation>
     </message>
     <message>
         <source>Notify me about updates</source>
-        <translation type="unfinished"></translation>
+        <translation>Skicka blänkare om uppdateringar</translation>
     </message>
     <message>
         <source>Teamroom forum reply</source>
-        <translation type="unfinished"></translation>
+        <translation>Grupprumsforumsvar</translation>
     </message>
     <message>
         <source>Teamroom event</source>
-        <translation type="unfinished"></translation>
+        <translation>Grupprumshändelse</translation>
     </message>
     <message>
         <source>Full title</source>
-        <translation type="unfinished"></translation>
+        <translation>Fullständig rubrik</translation>
     </message>
     <message>
         <source>Short title</source>
-        <translation type="unfinished"></translation>
+        <translation>Kortrubrik</translation>
     </message>
     <message>
         <source>Text</source>
-        <translation type="unfinished"></translation>
+        <translation>Text</translation>
     </message>
     <message>
         <source>Date</source>
-        <translation type="unfinished"></translation>
+        <translation>Datum</translation>
     </message>
     <message>
         <source>Location</source>
-        <translation type="unfinished"></translation>
+        <translation>Plats</translation>
     </message>
     <message>
         <source>Teamroom event calendar</source>
-        <translation type="unfinished"></translation>
+        <translation>Grupprumshändelsekalender</translation>
     </message>
     <message>
         <source>Full Title</source>
-        <translation type="unfinished"></translation>
+        <translation>Fullständig rubrik</translation>
     </message>
     <message>
         <source>Short Title</source>
-        <translation type="unfinished"></translation>
+        <translation>Kortrubrik</translation>
     </message>
     <message>
         <source>View</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa</translation>
     </message>
     <message>
         <source>Teamroom news folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Grupprumsnyhetskatalog</translation>
     </message>
     <message>
         <source>Short name</source>
-        <translation type="unfinished"></translation>
+        <translation>Kortrubrik</translation>
     </message>
     <message>
         <source>Folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Katalog</translation>
     </message>
     <message>
         <source>Summary</source>
-        <translation type="unfinished"></translation>
+        <translation>Sammanfattning</translation>
     </message>
     <message>
         <source>Publish date</source>
-        <translation type="unfinished"></translation>
+        <translation>Publiceringsdatum</translation>
     </message>
     <message>
         <source>Teamroom personalized frontpage</source>
-        <translation type="unfinished"></translation>
+        <translation>Anpassad startsida för grupprum</translation>
     </message>
     <message>
         <source>Number of columns</source>
-        <translation type="unfinished"></translation>
+        <translation>Antal kolumner</translation>
     </message>
     <message>
         <source>Allow Minimization</source>
-        <translation type="unfinished"></translation>
+        <translation>Tillåt minimering</translation>
     </message>
     <message>
         <source>Default arrangement</source>
-        <translation type="unfinished"></translation>
+        <translation>Skönslayout</translation>
     </message>
     <message>
         <source>Teamroom room</source>
-        <translation type="unfinished"></translation>
+        <translation>Grupprumsrum</translation>
     </message>
     <message>
         <source>Access type</source>
-        <translation type="unfinished"></translation>
+        <translation>Åtkomsttyp</translation>
     </message>
     <message>
         <source>Feature list</source>
-        <translation type="unfinished"></translation>
+        <translation>Egenskapslista</translation>
     </message>
     <message>
         <source>Teamroom tasks</source>
-        <translation type="unfinished"></translation>
+        <translation>Grupprumsuppgifter</translation>
     </message>
     <message>
         <source>Teamroom task</source>
-        <translation type="unfinished"></translation>
+        <translation>Grupprumsuppgift</translation>
     </message>
     <message>
         <source>Progress</source>
-        <translation type="unfinished"></translation>
+        <translation>Framsteg</translation>
     </message>
     <message>
         <source>Planned end date</source>
-        <translation type="unfinished"></translation>
+        <translation>Planerat slutdatum</translation>
     </message>
     <message>
         <source>End Date</source>
-        <translation type="unfinished"></translation>
+        <translation>Slutdatum</translation>
     </message>
     <message>
         <source>Estimated Effort (hours)</source>
-        <translation type="unfinished"></translation>
+        <translation>Uppskattad tidsåtgång (timmar)</translation>
     </message>
     <message>
         <source>Estimated Effort (minutes)</source>
-        <translation type="unfinished"></translation>
+        <translation>Uppskattad tidsåtgång (minuter)</translation>
     </message>
     <message>
         <source>Users</source>
-        <translation type="unfinished"></translation>
+        <translation>Användare</translation>
     </message>
     <message>
         <source>Related documents</source>
-        <translation type="unfinished"></translation>
+        <translation>Relaterade dokument</translation>
     </message>
     <message>
         <source>Priority</source>
-        <translation type="unfinished"></translation>
+        <translation>Prioritet</translation>
     </message>
     <message>
         <source>Milestone</source>
-        <translation type="unfinished"></translation>
+        <translation>Milsten</translation>
     </message>
     <message>
         <source>Teamroom file folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Grupprumsfilkatalog</translation>
     </message>
     <message>
         <source>Teamroom file subfolder</source>
-        <translation type="unfinished"></translation>
+        <translation>Grupprumsfilunderkatalog</translation>
     </message>
     <message>
         <source>Subfolder</source>
-        <translation type="unfinished"></translation>
+        <translation>Underkatalog</translation>
     </message>
     <message>
         <source>Teamroom infobox folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Grupprumsinfolådekatalog</translation>
     </message>
     <message>
         <source>Teamroom milestone</source>
-        <translation type="unfinished"></translation>
+        <translation>Grupprumsmilsten</translation>
     </message>
     <message>
         <source>Closed</source>
-        <translation type="unfinished"></translation>
+        <translation>Stängd</translation>
     </message>
     <message>
         <source>Teamroom milestone folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Grupprumsmilstenskatalog</translation>
     </message>
     <message>
         <source>Teamroom lightbox</source>
-        <translation type="unfinished"></translation>
+        <translation>Grupprumsljuslåda</translation>
     </message>
     <message>
         <source>Lightbox</source>
-        <translation type="unfinished"></translation>
+        <translation>Ljuslåda</translation>
     </message>
     <message>
         <source>Lock</source>
-        <translation type="unfinished"></translation>
+        <translation>Lås</translation>
     </message>
 </context>
 <context>
     <name>ezteamroom/install/roles</name>
     <message>
         <source>Use Teamroom</source>
-        <translation type="unfinished"></translation>
+        <translation>Använd grupprum</translation>
     </message>
     <message>
         <source>Use Lightbox</source>
-        <translation type="unfinished"></translation>
+        <translation>Använd ljuslåda</translation>
     </message>
     <message>
         <source>Member</source>
-        <translation type="unfinished"></translation>
+        <translation>Medlem</translation>
     </message>
     <message>
         <source>Moderator</source>
-        <translation type="unfinished"></translation>
+        <translation>Moderator</translation>
     </message>
     <message>
         <source>Read Forum</source>
-        <translation type="unfinished"></translation>
+        <translation>Läs forum</translation>
     </message>
     <message>
         <source>Use Forum</source>
-        <translation type="unfinished"></translation>
+        <translation>Använd forum</translation>
     </message>
     <message>
         <source>Read Blog</source>
-        <translation type="unfinished"></translation>
+        <translation>Läs blogg</translation>
     </message>
     <message>
         <source>Use Blog</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <source>Read Calendar</source>
-        <translation type="unfinished"></translation>
+        <translation>Läs kalender</translation>
     </message>
     <message>
         <source>Use Calendar</source>
-        <translation type="unfinished"></translation>
+        <translation>Använd kalender</translation>
     </message>
     <message>
         <source>Read Documents</source>
-        <translation type="unfinished"></translation>
+        <translation>Läs dokument</translation>
     </message>
     <message>
         <source>Use Documents</source>
-        <translation type="unfinished"></translation>
+        <translation>Använd dokument</translation>
     </message>
     <message>
         <source>Read Wiki</source>
-        <translation type="unfinished"></translation>
+        <translation>Läs wiki</translation>
     </message>
     <message>
         <source>Use Wiki</source>
-        <translation type="unfinished"></translation>
+        <translation>Använd wiki</translation>
     </message>
     <message>
         <source>Read Tasks</source>
-        <translation type="unfinished"></translation>
+        <translation>Läs uppgifter</translation>
     </message>
     <message>
         <source>Use Tasks</source>
-        <translation type="unfinished"></translation>
+        <translation>Använd uppgifter</translation>
     </message>
     <message>
         <source>Read Milestones</source>
-        <translation type="unfinished"></translation>
+        <translation>Läs milstenar</translation>
     </message>
     <message>
         <source>Use Milestones</source>
-        <translation type="unfinished"></translation>
+        <translation>Använd milstenar</translation>
     </message>
 </context>
 <context>
@@ -3217,59 +3217,59 @@ change your settings at:</source>
     </message>
     <message>
         <source>Search for existing users or invite new users according to their email addresses</source>
-        <translation type="unfinished"></translation>
+        <translation>Sök användare eller bjud in nya användare med deras e-postadresser</translation>
     </message>
     <message>
         <source>Select an existing user by browsing through all registered users.</source>
-        <translation type="unfinished"></translation>
+        <translation>Bläddra för att välja en redan registrerad användare.</translation>
     </message>
     <message>
         <source>Browse through user groups to find user that already have a user account</source>
-        <translation type="unfinished"></translation>
+        <translation>Bläddra i användargrupper för att hitta redan registrerade användare</translation>
     </message>
     <message>
         <source>Create new account for:</source>
-        <translation type="unfinished"></translation>
+        <translation>Skapa nytt användarkonto för:</translation>
     </message>
     <message>
         <source>Automatically create user accounts for new users and send an invitation email to all users displayed in the list above</source>
-        <translation type="unfinished"></translation>
+        <translation>Skapa automatiskt användarkonton för nya användare och skicka inbjudan med e-post till de som listas ovan</translation>
     </message>
     <message>
         <source>[%siteurl] Teamroom invitation user account</source>
-        <translation type="unfinished"></translation>
+        <translation>[%siteurl] Grupprumsinbjudningsanvändarkonto</translation>
     </message>
     <message>
         <source>You have been invited to join the teamroom &apos;%teamroom&apos;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Du är inbjuden att gå med i grupprummet &apos;%teamroom&apos;.</translation>
     </message>
     <message>
         <source>Therefore a user account was automatically created. If you do not login within the next two weeks your account will be deleted.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ett användarkonto skapades därför automatiskt. Om du inte loggar in inom två veckor så tas det bort utan att du behöver göra något.</translation>
     </message>
     <message>
         <source>Send the invitation email to &quot;%1&quot; again</source>
-        <translation type="unfinished"></translation>
+        <translation>Skicka inbjudanspåminnelse till &quot;%1&quot; via e-post</translation>
     </message>
     <message>
         <source>You have successfully joined the teamroom &quot;%name&quot; and are now member of this teamroom.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ditt medlemskap i grupprummet &quot;%name&quot; har aktiverats utan problem.</translation>
     </message>
     <message>
         <source>To the teamroom</source>
-        <translation type="unfinished"></translation>
+        <translation>Till grupprummet</translation>
     </message>
     <message>
         <source>Do you really want to cancel your membership of this teamroom?</source>
-        <translation type="unfinished"></translation>
+        <translation>Vill du verkligen avsluta medlemskapet i grupprummet?</translation>
     </message>
     <message>
         <source>Your membership of this teamroom has successfully been canceld.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ditt medlemskap i det här grupprummet har avslutats.</translation>
     </message>
     <message>
         <source>To the teamrooms</source>
-        <translation type="unfinished"></translation>
+        <translation>Till grupprummen</translation>
     </message>
     <message>
         <source>User is already Member: </source>
@@ -3281,11 +3281,11 @@ change your settings at:</source>
     </message>
     <message>
         <source>There is no registered user with that email address: </source>
-        <translation type="unfinished"></translation>
+        <translation>Det finns ingen registrerad användare med den e-postadressen:</translation>
     </message>
     <message>
         <source> A new account will be created.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ett nytt användarkonto kommer att skapas.</translation>
     </message>
     <message>
         <source>New invited user</source>
@@ -3293,7 +3293,8 @@ change your settings at:</source>
     </message>
     <message>
         <source>remind of invitation mail send to %1.</source>
-        <translation type="unfinished"></translation>
+        <translatorcomment>för lite kontext</translatorcomment>
+        <translation>Påminn om inbjudan via e-post till %1.</translation>
     </message>
     <message>
         <source>Failed to move Member.</source>
@@ -3305,11 +3306,11 @@ change your settings at:</source>
     </message>
     <message>
         <source>Remove the selected users from the invitation list displayed above</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta bort valda användare från inbjudanslistan ovan</translation>
     </message>
     <message>
         <source>If you forgot your password, use the following link to get a new password</source>
-        <translation type="unfinished"></translation>
+        <translation>Om du glömt lösenordet kan du få ett nytt genom att följa länken</translation>
     </message>
 </context>
 <context>
@@ -4099,11 +4100,11 @@ change your settings at:</source>
     </message>
     <message>
         <source>If you disable features in your teamroom this will have no effect on existing contents in that area. Thus, you can also enable a feature later on and you will get the same content.</source>
-        <translation type="unfinished"></translation>
+        <translation>Om du avaktiverar egenskaper i ditt grupprum påverkar det inte redan existerande innehåll. Du kan därför också aktivera en egenskap senare och fortfarande ha samma innehåll.</translation>
     </message>
     <message>
         <source>Keep in mind that it can take several minutes until the modifications to the teamroom take effect.</source>
-        <translation type="unfinished"></translation>
+        <translation>Tänk på att det kan ta en stund (upp till en kvar) innan ändringar i grupprummet slår igenom.</translation>
     </message>
     <message>
         <source>To create a new teamroom just enter a title and a short description for it.</source>
@@ -4111,19 +4112,19 @@ change your settings at:</source>
     </message>
     <message>
         <source>The access types can be used for access control to your teamroom as follows</source>
-        <translation type="unfinished"></translation>
+        <translation>Åtkomsttyperna kan användas för åtkomstkontroll till ditt grupprum enligt följande</translation>
     </message>
     <message>
         <source>Only those features that you selected will be visible in your teamroom. It is also possible to de-/activate features after the teamroom has been created.</source>
-        <translation type="unfinished"></translation>
+        <translation>Endast de egenskaper du har valt blir synliga i ditt grupprum. Du kan också välja att avaktivera eller aktivera egenskaper senare.</translation>
     </message>
     <message>
         <source>Keep in mind that the creation of your new teamroom can take several minutes.</source>
-        <translation type="unfinished"></translation>
+        <translation>Tänk på att det kan ta en stund (upp till en kvar) innan ditt nya grupprum dyker upp.</translation>
     </message>
     <message>
         <source>A membership is required to access this teamroom. If you want to become a member of this teamroom you can request a membership for this teamroom. After a moderator has approved your membership you will get further access to this teamroom.</source>
-        <translation type="unfinished"></translation>
+        <translation>Medlemskap krävs för åtkomst till grupprummet. Om du vill ansöka om medlemskap så utvärderar en moderator din ansökan innan du eventuellt får tillgång till grupprummet.</translation>
     </message>
     <message>
         <source>Request membership</source>
@@ -4131,31 +4132,31 @@ change your settings at:</source>
     </message>
     <message>
         <source>Even if this is a public teamroom and you can read most of its content, it is possible to join this teamroom to become a permanent member. This will enable to better participate in teamroom activities. After you have joined this teamroom you will be able to make use of the teamroom.</source>
-        <translation type="unfinished"></translation>
+        <translation>Även om du kan läsa det mesta innehållet i ett publikt grupprum, så kan du bättre delta i dess aktiviteter om du blir medlem.</translation>
     </message>
     <message>
         <source>Teamroom Logo</source>
-        <translation type="unfinished"></translation>
+        <translation>Grupprumslogotyp</translation>
     </message>
     <message>
         <source>Add new Teamroom</source>
-        <translation type="unfinished"></translation>
+        <translation>Skapa nytt grupprum</translation>
     </message>
     <message>
         <source>Date</source>
-        <translation type="unfinished"></translation>
+        <translation>Datum</translation>
     </message>
     <message>
         <source>Visibility</source>
-        <translation type="unfinished"></translation>
+        <translation>Synlighet</translation>
     </message>
     <message>
         <source>Remove this teamroom</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta bort grupprummet</translation>
     </message>
     <message>
         <source>There are no Teamrooms yet</source>
-        <translation type="unfinished"></translation>
+        <translation>Det finns ännu inga grupprum</translation>
     </message>
     <message>
         <source>Logout</source>
@@ -4187,15 +4188,15 @@ change your settings at:</source>
     </message>
     <message>
         <source>Teamroom &quot;%name&quot; - Request for membership</source>
-        <translation type="unfinished"></translation>
+        <translation>Grupprum &quot;%name&quot; - medlemskapsförfrågan</translation>
     </message>
     <message>
         <source>Are you sure you want to join the teamroom &quot;%name&quot;?</source>
-        <translation type="unfinished"></translation>
+        <translation>Vill du verkligen gå med i grupprummet &quot;%name&quot;?</translation>
     </message>
     <message>
         <source>Are you sure you want to request a membership for the teamroom &quot;%name&quot;?</source>
-        <translation type="unfinished"></translation>
+        <translation>Vill du verkligen skicka medlemskapsförfrågan till grupprummet &quot;%name&quot;?</translation>
     </message>
     <message>
         <source>Yes</source>
