@@ -3,7 +3,7 @@
 // ## BEGIN COPYRIGHT, LICENSE AND WARRANTY NOTICE ##
 // SOFTWARE NAME: eZ XMP
 // SOFTWARE RELEASE: 1.4.0
-// COPYRIGHT NOTICE: Copyright (C) 1999-2011 eZ Systems AS.
+// COPYRIGHT NOTICE: Copyright (C) 1999-2012 eZ Systems AS.
 // SOFTWARE LICENSE: eZ Business Use License Agreement Version 2.0
 // NOTICE: >
 //  This source file is part of the eZ Publish CMS and is
