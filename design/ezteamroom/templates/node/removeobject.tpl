@@ -1,8 +1,10 @@
+{def $indexURL = ezini( "SiteSettings", "IndexPage" )}
 
 <div class="border-box">
     <div class="border-tl"><div class="border-tr"><div class="border-tc"></div></div></div>
     <div class="border-ml"><div class="border-mr"><div class="border-mc float-break">
-        <form action={concat($module.functions.removeobject.uri)|ezurl} method="post" name="ObjectRemove">
+        <form action={$module.functions.removeobject.uri|ezurl} method="post" name="ObjectRemove">
+            <input type="hidden" name="RedirectURIAfterRemove" value={$indexURL|ezurl()}>
             <h1>{"Are you sure you want to remove these items?"|i18n("ezteamroom/edit")}</h1>
             <div id="message_allcontent">
                 <div class="message-icon float-left">
