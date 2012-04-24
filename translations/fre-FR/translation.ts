@@ -5,11 +5,11 @@
     <name>design/ezevent/content/datatype</name>
     <message>
         <source>Normal</source>
-        <translation type="unfinished"></translation>
+        <translation>Normal</translation>
     </message>
     <message>
         <source>Full Day</source>
-        <translation type="unfinished"></translation>
+        <translation>Toute la journée</translation>
     </message>
 </context>
 <context>
@@ -27,7 +27,7 @@
     <name>design/ezteamroom/content/datatype</name>
     <message>
         <source>Select type</source>
-        <translation type="unfinished"></translation>
+        <translation>Sélectionner le type</translation>
     </message>
     <message>
         <source>Year</source>
@@ -108,7 +108,7 @@
     <name>design/standard/ezoe</name>
     <message>
         <source>Heading </source>
-        <translation type="unfinished"></translation>
+        <translation>Entête</translation>
     </message>
 </context>
 <context>
@@ -913,13 +913,15 @@ Votre demande est en attente de validation. L&apos;adresse URL ci-dessous vous p
     </message>
     <message>
         <source>My Tasks</source>
-        <translation type="unfinished">Mes tâches</translation>
+        <translation>Mes tâches</translation>
     </message>
     <message>
         <source>&amp;lt;header level=&amp;quot;1&amp;quot;&amp;gt;Welcome to this teamrooms wiki.&amp;lt;/header&amp;gt;
 Use the &amp;lt;custom name=&amp;quot;underline&amp;quot;&amp;gt;&amp;lt;emphasize&amp;gt;wiki search&amp;lt;/emphasize&amp;gt;&amp;lt;/custom&amp;gt; on the &amp;lt;strong&amp;gt;left site menu&amp;lt;/strong&amp;gt; to find your article.
 Read a random wiki page by clicking on the &amp;lt;emphasize&amp;gt;random page&amp;lt;/emphasize&amp;gt; link or browse thru all articles in the alphabetical list &amp;lt;emphasize&amp;gt;A to Z&amp;lt;/emphasize&amp;gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;lt;header level=&amp;quot;1&amp;quot;&amp;gt;Bienvenue sur le wiki de cet espace projet.&amp;lt;/header&amp;gt;
+Utilisez la &amp;lt;custom name=&amp;quot;underline&amp;quot;&amp;gt;&amp;lt;emphasize&amp;gt;recherche du wiki&amp;lt;/emphasize&amp;gt;&amp;lt;/custom&amp;gt; du &amp;lt;strong&amp;gt;menu gauche&amp;lt;/strong&amp;gt; pour trouver cet article.
+Lire une page aléatoire du wiki en cliquant sur le &amp;lt;emphasize&amp;gt;random page&amp;lt;/emphasize&amp;gt; lien ou parcourir une liste de tous les articles dans l&apos;ordre alphabétique &amp;lt;emphasize&amp;gt;de A de Z&amp;lt;/emphasize&amp;gt;.</translation>
     </message>
 </context>
 <context>
@@ -1350,19 +1352,19 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>From %2 to %3</source>
-        <translation type="unfinished"></translation>
+        <translation>De %2 à %3</translation>
     </message>
     <message>
         <source>On %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Le %1</translation>
     </message>
     <message>
         <source>On %1 from %2 to %3</source>
-        <translation type="unfinished"></translation>
+        <translation>Le %1 de %2 à %3</translation>
     </message>
     <message>
         <source>At %1</source>
-        <translation type="unfinished"></translation>
+        <translation>A %1</translation>
     </message>
 </context>
 <context>
@@ -1721,39 +1723,39 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source> with tag %1</source>
-        <translation type="unfinished"></translation>
+        <translation> avec le mot clé %1</translation>
     </message>
     <message>
         <source>ascending</source>
-        <translation type="unfinished"></translation>
+        <translation>ascendant</translation>
     </message>
     <message>
         <source>descending</source>
-        <translation type="unfinished"></translation>
+        <translation>descendant</translation>
     </message>
     <message>
         <source>Files of all types%1 are shown sorted by %2 (%3)</source>
-        <translation type="unfinished"></translation>
+        <translation>Les fichiers des types %1 sont triés par %2 (%3)</translation>
     </message>
     <message>
         <source>Files of type %1%2 are shown sorted by %3 (%4)</source>
-        <translation type="unfinished"></translation>
+        <translation>Les fichiers du type %1%2 sont triés par %3 (%4)</translation>
     </message>
     <message>
         <source>Files of all types are shown</source>
-        <translation type="unfinished"></translation>
+        <translation>Les fichiers de tous les types sont affichés</translation>
     </message>
     <message>
         <source>All</source>
-        <translation type="unfinished"></translation>
+        <translation>Tous</translation>
     </message>
     <message>
         <source>Do not show files of type &quot;%1&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>Ne pas montrer les fichiers de type &quot;%1&quot;</translation>
     </message>
     <message>
         <source>Show files of the type &quot;%1&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>Montrer les fichiers de type &quot;%1&quot;</translation>
     </message>
 </context>
 <context>
@@ -2486,7 +2488,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>My Tasks</source>
-        <translation type="unfinished">Mes tâches</translation>
+        <translation>Mes tâches</translation>
     </message>
 </context>
 <context>
@@ -2517,7 +2519,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Create Teamroom Features</source>
-        <translation type="unfinished"></translation>
+        <translation>Créer les caractéristiques de l&apos;espace projet</translation>
     </message>
 </context>
 <context>
@@ -3442,27 +3444,27 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Your email address has been confirmed. An email is send to you. Please follow the link to activate your account.</source>
-        <translation type="unfinished"></translation>
+        <translation>Votre adresse email a été confirmée. Un email vous a été envoyé. Merci de cliquer sur le lien pour activer votre compte.</translation>
     </message>
     <message>
         <source> registration approved</source>
-        <translation type="unfinished"></translation>
+        <translation> enregistrement validé</translation>
     </message>
     <message>
         <source>Thank you for registering at %siteurl.</source>
-        <translation type="unfinished">Merci de vous inscription à %siteurl.</translation>
+        <translation>Merci pour votre inscription à %siteurl.</translation>
     </message>
     <message>
         <source>Your registration has been approved. You can login with your account %username.</source>
-        <translation type="unfinished"></translation>
+        <translation>Votre enregistrement a été validé. Vous pouvez vous connecter avec votre compte %username.</translation>
     </message>
     <message>
         <source>Click the following URL to login:</source>
-        <translation type="unfinished"></translation>
+        <translation>Cliquez sur le lien suivant pour vous connecter :</translation>
     </message>
     <message>
         <source>Click the following URL to verify your email address.</source>
-        <translation type="unfinished"></translation>
+        <translation>Cliquez sur le lien suivant pour vérifier votre adresse email.</translation>
     </message>
 </context>
 <context>
@@ -4363,11 +4365,11 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Planned end:</source>
-        <translation type="unfinished"></translation>
+        <translation>Fin de planification :</translation>
     </message>
     <message>
         <source>Currently there are no new tasks.</source>
-        <translation type="unfinished"></translation>
+        <translation>Il n&apos;y a actuellement aucune nouvelle tâche.</translation>
     </message>
 </context>
 <context>
@@ -4406,27 +4408,27 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Missing previous headings ( %missing_headings ) for heading &quot;%headline&quot; ( %heading ).</source>
-        <translation type="unfinished"></translation>
+        <translation>Il manque les entêtes précédants ( %missing_headings ) pour l&apos;entêete &quot;%headline&quot; ( %heading ).</translation>
     </message>
     <message>
         <source>From A to Z</source>
-        <translation type="unfinished"></translation>
+        <translation>De A à Z</translation>
     </message>
     <message>
         <source>Navigation</source>
-        <translation type="unfinished">Navigation</translation>
+        <translation>Navigation</translation>
     </message>
     <message>
         <source>Wiki home</source>
-        <translation type="unfinished"></translation>
+        <translation>Accueil du wiki</translation>
     </message>
     <message>
         <source>Random page</source>
-        <translation type="unfinished"></translation>
+        <translation>Page aléatoire</translation>
     </message>
     <message>
         <source>Wiki articles:</source>
-        <translation type="unfinished"></translation>
+        <translation>Articles du wiki :</translation>
     </message>
 </context>
 <context>
