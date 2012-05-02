@@ -7,7 +7,7 @@
 // COPYRIGHT NOTICE: Copyright (C) 1999-2012 eZ Systems AS
 // SOFTWARE LICENSE: GNU General Public License v2.0
 // SOFTWARE RELEASE: 1.5.0
-// COPYRIGHT NOTICE: Copyright (C) 1999-2011 eZ Systems AS
+// COPYRIGHT NOTICE: Copyright (C) 1999-2012 eZ Systems AS
 // SOFTWARE LICENSE: eZ Business Use License Agreement Version 2.0
 // NOTICE: >
 //   This program is free software; you can redistribute it and/or
