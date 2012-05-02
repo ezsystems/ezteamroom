@@ -47,9 +47,9 @@ class eZApproveMemberRegistrationType extends eZWorkflowEventType
         $userID     = $parameters['user_id'];
 
         // no approval needed for public teamrooms
-        $classIdentifierMap = eZTeamroom::getClassIdentifierList();
+        $roomIdentifierMap = eZTeamroom::getRoomIdentifierList();
         $teamroomObject     = eZContentObject::fetch( (int) $teamroomID);
-        if ( !is_object( $teamroomObject ) ||  $teamroomObject->attribute( 'class_identifier' ) != $classIdentifierMap['teamroom'] )
+        if ( !is_object( $teamroomObject ) || !in_array( $teamroomObject->attribute( 'class_identifier' ), $roomIdentifierMap ) )
         {
             return eZWorkflowType::STATUS_WORKFLOW_CANCELLED;
         }

@@ -51,9 +51,9 @@ class teamroomOperationCollection
             eZDebug::writeWarning( "Failed to fetch user. Can not send email.", __FILE__.':'.__LINE__. ' ' . __METHOD__ );
             return array( 'status' => eZModuleOperationInfo::STATUS_CONTINUE );
         }
-        $classIdentifierMap = eZTeamroom::getClassIdentifierList();
+        $roomIdentifierMap = eZTeamroom::getRoomIdentifierList();
         $teamroomObject     = eZContentObject::fetch( $teamroomID);
-        if ( !is_object( $teamroomObject ) ||  $teamroomObject->attribute( 'class_identifier' ) != $classIdentifierMap['teamroom'] )
+        if ( !is_object( $teamroomObject ) || !in_array( $teamroomObject->attribute( 'class_identifier' ), $roomIdentifierMap ) )
         {
             return array( 'status' => eZModuleOperationInfo::STATUS_CONTINUE );
         }
