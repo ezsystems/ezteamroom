@@ -2,6 +2,17 @@
 <!DOCTYPE TS>
 <TS version="2.0" language="sv_SE">
 <context>
+    <name>design/ezevent/content/datatype</name>
+    <message>
+        <source>Normal</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Full Day</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>design/ezteamroom</name>
     <message>
         <source>Lightbox</source>
@@ -10,6 +21,13 @@
     <message>
         <source>Add this file to the current lightbox.</source>
         <translation>Lägg till filen till aktuell ljuslåda.</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezteamroom/content/datatype</name>
+    <message>
+        <source>Select type</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -60,6 +78,13 @@
     <message>
         <source>Get version</source>
         <translation>Hämta version</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/ezoe</name>
+    <message>
+        <source>Heading </source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -861,6 +886,10 @@ change your settings at:</source>
         <source>This Teamroom</source>
         <translation>Aktuellt grupprum</translation>
     </message>
+    <message>
+        <source>My Tasks</source>
+        <translation type="unfinished">Mina uppgifter</translation>
+    </message>
 </context>
 <context>
     <name>ezteamroom/design</name>
@@ -1290,6 +1319,22 @@ change your settings at:</source>
         <source>Next Month</source>
         <translation>Nästa månad</translation>
     </message>
+    <message>
+        <source>From %2 to %3</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>On %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>On %1 from %2 to %3</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>At %1</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>ezteamroom/files</name>
@@ -1359,7 +1404,7 @@ change your settings at:</source>
     </message>
     <message>
         <source>Categories</source>
-        <translation>Kategorier</translation>
+        <translation type="obsolete">Kategorier</translation>
     </message>
     <message>
         <source>Keywords</source>
@@ -1496,19 +1541,19 @@ change your settings at:</source>
     </message>
     <message>
         <source>Documents</source>
-        <translation>Dokument</translation>
+        <translation type="obsolete">Dokument</translation>
     </message>
     <message>
         <source>Sounds</source>
-        <translation>Ljud</translation>
+        <translation type="obsolete">Ljud</translation>
     </message>
     <message>
         <source>Pictures</source>
-        <translation>Bilder</translation>
+        <translation type="obsolete">Bilder</translation>
     </message>
     <message>
         <source>Lightboxes</source>
-        <translation>Ljuslådor</translation>
+        <translation type="obsolete">Ljuslådor</translation>
     </message>
     <message>
         <source>Download this file</source>
@@ -1632,11 +1677,11 @@ change your settings at:</source>
     </message>
     <message>
         <source>Only files of category &quot;%1&quot; are shown</source>
-        <translation>Endast filer i kategori &quot;%1&quot; visas</translation>
+        <translation type="obsolete">Endast filer i kategori &quot;%1&quot; visas</translation>
     </message>
     <message>
         <source>Show only files of the category &quot;%1&quot;</source>
-        <translation>Visa endast filer i kategori &quot;%1&quot;</translation>
+        <translation type="obsolete">Visa endast filer i kategori &quot;%1&quot;</translation>
     </message>
     <message>
         <source>Only files with tag &quot;%1&quot; are shown</source>
@@ -1645,6 +1690,42 @@ change your settings at:</source>
     <message>
         <source>Shown only files with tag &quot;%1&quot;</source>
         <translation>Visa endast filer med etikett &quot;%1&quot;</translation>
+    </message>
+    <message>
+        <source> with tag %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>ascending</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>descending</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Files of all types%1 are shown sorted by %2 (%3)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Files of type %1%2 are shown sorted by %3 (%4)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Files of all types are shown</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Do not show files of type &quot;%1&quot;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Show files of the type &quot;%1&quot;</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1913,7 +1994,7 @@ change your settings at:</source>
     </message>
     <message>
         <source>Author</source>
-        <translation>Författare</translation>
+        <translation type="obsolete">Författare</translation>
     </message>
     <message>
         <source>Message</source>
@@ -1973,7 +2054,7 @@ change your settings at:</source>
     </message>
     <message>
         <source>Teamroom documentation page</source>
-        <translation>Grupprumsdokumentationssidan</translation>
+        <translation type="obsolete">Grupprumsdokumentationssidan</translation>
     </message>
     <message>
         <source>Display sub items</source>
@@ -2231,6 +2312,14 @@ change your settings at:</source>
         <source>Lock</source>
         <translation>Lås</translation>
     </message>
+    <message>
+        <source>Teamroom wiki</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Teamroom wiki page</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>ezteamroom/install/roles</name>
@@ -2371,6 +2460,10 @@ change your settings at:</source>
         <source>Latest Messages</source>
         <translation>Senaste meddelanden</translation>
     </message>
+    <message>
+        <source>My Tasks</source>
+        <translation type="unfinished">Mina uppgifter</translation>
+    </message>
 </context>
 <context>
     <name>ezteamroom/install/workflows</name>
@@ -2397,6 +2490,10 @@ change your settings at:</source>
     <message>
         <source>Set Teamroom Membership</source>
         <translation>Sätt medlemskap i grupprum</translation>
+    </message>
+    <message>
+        <source>Create Teamroom Features</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -3312,6 +3409,30 @@ change your settings at:</source>
         <source>If you forgot your password, use the following link to get a new password</source>
         <translation>Om du glömt lösenordet kan du få ett nytt genom att följa länken</translation>
     </message>
+    <message>
+        <source>Your email address has been confirmed. An email is send to you. Please follow the link to activate your account.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source> registration approved</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Thank you for registering at %siteurl.</source>
+        <translation type="unfinished">Tack för din registrering på %siteurl.</translation>
+    </message>
+    <message>
+        <source>Your registration has been approved. You can login with your account %username.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Click the following URL to login:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Click the following URL to verify your email address.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>ezteamroom/messagecenter</name>
@@ -3804,6 +3925,10 @@ change your settings at:</source>
         <source>N/A</source>
         <translation>Inte tillgänglig</translation>
     </message>
+    <message>
+        <source>Name</source>
+        <translation type="unfinished">Namn</translation>
+    </message>
 </context>
 <context>
     <name>ezteamroom/teamroom</name>
@@ -4210,6 +4335,14 @@ change your settings at:</source>
         <source>Move to group &apos;%1&apos;</source>
         <translation>Flytta till grupp &apos;%1&apos;</translation>
     </message>
+    <message>
+        <source>Planned end:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Currently there are no new tasks.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>ezteamroom/wiki</name>
@@ -4244,6 +4377,30 @@ change your settings at:</source>
     <message>
         <source>Remove this entry</source>
         <translation>Ta bort</translation>
+    </message>
+    <message>
+        <source>Missing previous headings ( %missing_headings ) for heading &quot;%headline&quot; ( %heading ).</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>From A to Z</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Navigation</source>
+        <translation type="unfinished">Navigering</translation>
+    </message>
+    <message>
+        <source>Wiki home</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Random page</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Wiki articles:</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

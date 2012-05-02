@@ -919,7 +919,7 @@ Votre demande est en attente de validation. L&apos;adresse URL ci-dessous vous p
         <source>&amp;lt;header level=&amp;quot;1&amp;quot;&amp;gt;Welcome to this teamrooms wiki.&amp;lt;/header&amp;gt;
 Use the &amp;lt;custom name=&amp;quot;underline&amp;quot;&amp;gt;&amp;lt;emphasize&amp;gt;wiki search&amp;lt;/emphasize&amp;gt;&amp;lt;/custom&amp;gt; on the &amp;lt;strong&amp;gt;left site menu&amp;lt;/strong&amp;gt; to find your article.
 Read a random wiki page by clicking on the &amp;lt;emphasize&amp;gt;random page&amp;lt;/emphasize&amp;gt; link or browse thru all articles in the alphabetical list &amp;lt;emphasize&amp;gt;A to Z&amp;lt;/emphasize&amp;gt;.</source>
-        <translation>&amp;lt;header level=&amp;quot;1&amp;quot;&amp;gt;Bienvenue sur le wiki de cet espace projet.&amp;lt;/header&amp;gt;
+        <translation type="obsolete">&amp;lt;header level=&amp;quot;1&amp;quot;&amp;gt;Bienvenue sur le wiki de cet espace projet.&amp;lt;/header&amp;gt;
 Utilisez la &amp;lt;custom name=&amp;quot;underline&amp;quot;&amp;gt;&amp;lt;emphasize&amp;gt;recherche du wiki&amp;lt;/emphasize&amp;gt;&amp;lt;/custom&amp;gt; du &amp;lt;strong&amp;gt;menu gauche&amp;lt;/strong&amp;gt; pour trouver cet article.
 Lire une page aléatoire du wiki en cliquant sur le &amp;lt;emphasize&amp;gt;random page&amp;lt;/emphasize&amp;gt; lien ou parcourir une liste de tous les articles dans l&apos;ordre alphabétique &amp;lt;emphasize&amp;gt;de A de Z&amp;lt;/emphasize&amp;gt;.</translation>
     </message>
@@ -3952,6 +3952,10 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     <message>
         <source>Shown only tasks with tag &quot;%1&quot;</source>
         <translation>Ne montrer que les tâches avec le mot clé &quot;%1&quot;</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation type="unfinished">Nom</translation>
     </message>
 </context>
 <context>
