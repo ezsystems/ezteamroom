@@ -38,6 +38,8 @@
                 <form method="post" action={"content/action/"|ezurl}>
                     <input type="hidden" name="ContentObjectID" value="{$object.id}" />
                     <input type="hidden" name="ContentNodeID" value="{$object.main_node_id}" />
+                    <input type="hidden" name="RedirectURIAfterRemove" value="{$redirect}" />
+                    <input type="hidden" name="RedirectIfCancel" value="{$redirect}" />
                     <input class="" type="image" src={'task_delete.gif'|ezimage} name="ActionRemove" value="{'Remove'|i18n( 'ezteamroom/events' )}" title="{'Remove this item.'|i18n( 'ezteamroom/events' )}" />
                 </form>
             </div>

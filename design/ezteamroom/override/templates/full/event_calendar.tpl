@@ -1,4 +1,10 @@
 {* set-block scope=root variable=cache_ttl}400{/set-block *} {* ab: Commented out to find a better way if possible *}
+{def $redirect_url = $node.url_alias}
+{foreach $view_parameters as $key => $item}
+    {if and(ne($key,offset),$item|ne(''))}
+        {set $redirect_url = concat($redirect_url,'/(',$key,')/',$item)}
+    {/if}
+{/foreach}
 
 {def $default_limit = 15}
 
@@ -545,7 +551,7 @@
             {content_view_gui view = 'cal_line'
                               content_object = $event_object
                               event_date = $key
-                              redirect = $node.url_alias}
+                              redirect = $redirect_url}
 
         {/if}
 
@@ -603,8 +609,8 @@
           <input type="hidden" name="ContentNodeID" value="{$node.node_id}" />
           <input type="hidden" name="ContentObjectID" value="{$node.contentobject_id}" />
           <input type="hidden" name="ContentLanguageCode" value="{ezini( 'RegionalSettings', 'ContentObjectLocale', 'site.ini')}" />
-          <input type="hidden" name="RedirectURIAfterPublish" value="{$node.url_alias}" />
-          <input type="hidden" name="RedirectIfDiscarded" value="{$node.url_alias}" />
+          <input type="hidden" name="RedirectURIAfterPublish" value="{$redirect_url}" />
+          <input type="hidden" name="RedirectIfDiscarded" value="{$redirect_url}" />
           <input type="hidden" name="NodeID" value="{$node.node_id}" />
           <input type="hidden" name="ClassIdentifier" value="{$class_identifier_map['event']}" />
           <div class="submitimage">
