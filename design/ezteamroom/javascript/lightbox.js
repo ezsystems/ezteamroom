@@ -14,6 +14,15 @@ function sendChangeSelectedLightboxRequest( url, responseHandler, responseParame
 {
     parameters = 'ContentObjectID=0' + '&newLightboxID=' + document.getElementById( 'widgetNewLightboxIDInput' ).value +
                  '&redirectAfterSelectionURI=' +  escape( document.getElementById( 'widgetRedirectionInput' ).value ) + '&ChangeUserSelectedLightbox=1';
+
+    // add FormToken if available
+    var hiddenForm = document.getElementById( 'hiddenlightboxselectionwidgetform' );
+    var ezxFormTokenElement = hiddenForm.ezxform_token
+    if ( ezxFormTokenElement )
+    {
+        parameters += '&ezxform_token=' + ezxFormTokenElement.value ;
+    }
+
     sendAJAXPostRequest( url, parameters, responseHandler, responseParameters );
 }
 
