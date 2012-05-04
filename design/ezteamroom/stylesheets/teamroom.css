@@ -72,6 +72,12 @@ input#searchbutton
     margin-top: -0.1em;
 }
 
+div.content-search div.result li
+{
+    list-style-position: outside;
+    list-style-image: url('../images/list.gif');
+    margin: 0.7em 0.2em;
+}
 /* TOP MENU */
 
 div#topmenu

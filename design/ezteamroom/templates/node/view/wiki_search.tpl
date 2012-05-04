@@ -134,7 +134,9 @@
                                                         {if $search_result|count()}
                                                             <ul>
                                                             {foreach $search_result as $result sequence array(bglight,bgdark) as $bgColor}
-                                                                <li class="{$bgColor}"><a class="search-item-link" href={$result.url_alias|ezurl()} title="{$result.name}">{$result.name|wash()}</a></li>
+{*                                                                 <li class="{$bgColor}"><a class="search-item-link" href={$result.url_alias|ezurl()} title="{$result.name}">{$result.name|wash()}</a></li> *}
+                                                                <li class="{$bgColor}">{node_view_gui content_node=$result view='teamroom_search_line'}</li>
+
                                                             {/foreach}
                                                             </ul>
                                                         {/if}

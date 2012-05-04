@@ -64,8 +64,7 @@
               {case}
               <div class="feedback">
               <h2>{'Search for "%1" returned %2 matches'|i18n("ezteamroom/search",,array($search_text|wash,$search_count))}</h2>
-              <p>{'Search time: %1 msecs'|i18n('ezteamroom/search',,array($search_extras.ResponseHeader.QTime|wash))}</p>
-
+{*                 <p>{'Search time: %1 msecs'|i18n('ezteamroom/search',,array($search_extras.ResponseHeader.QTime|wash))}</p> *}
               </div>
               {/case}
             {/switch}
@@ -106,7 +105,9 @@
                 <ul>
                 {foreach $search_result as $result
                          sequence array(bglight,bgdark) as $bgColor}
-                   <li class="{$bgColor}"><a class="search-item-link" href={$result.url_alias|ezurl()} title="{$result.name}">{$result.name|wash()}</a></li>
+{*                    <li class="{$bgColor}"><a class="search-item-link" href={$result.url_alias|ezurl()} title="{$result.name} ({$result.class_name})">{$result.name|wash()}</a> ({$result.class_name})</li> *}
+                   <li class="{$bgColor}">{node_view_gui content_node=$result view='teamroom_search_line'}</li>
+
                 {/foreach}
                 </ul>
 {/if}
