@@ -53,7 +53,6 @@
      $day_array    = " "
      $loop_dayone  = 1
      $loop_daylast = 1
-     $day_events   = array()
      $next_month   = sum( $selected_month, 1 )
      $prev_month   = sub( $selected_month, 1 )
      $next_year    = $selected_year
@@ -78,7 +77,6 @@
                                                          )
                                   )
      $merged_calendar      = merge_events( $events )
-     $next_events          = array()
      $url_back    = concat( 'content/view/module_widget/', $node.node_id, "/(month)/", sub( $selected_month, 1 ), "/(year)/", $selected_year, "/(object)/", $box_object_id )
      $url_forward = concat( 'content/view/module_widget/', $node.node_id, "/(month)/", sum( $selected_month, 1 ), "/(year)/", $selected_year, "/(object)/", $box_object_id )
 }
@@ -98,24 +96,6 @@
            $next_year = $next_year|inc}
 
 {/if}
-
-{foreach $merged_calendar as $date => $event}
-
-    {* Add to list of today events, if mit matches *}
-    {if and( eq( $selected_year|int(),  $date|datetime( 'custom', '%Y' )|int() )
-             eq( $selected_month|int(), $date|datetime( 'custom', '%n' )|int() )
-             eq( $selected_today|int(), $date|datetime( 'custom', '%j' )|int() )
-           )}
-
-        {set $day_events = $day_events|append( $event )}
-
-    {else}
-
-        {set $next_events = $next_events|append( $event )}
-
-    {/if}
-
-{/foreach}
 
    <div id="ezagenda_calendar_container">
     <table cellspacing="0" cellpadding="0" border="0" summary="Event Calendar">
@@ -280,6 +260,46 @@
       <div class="float-break">
 
 
+{def $next_events  = array()
+     $day_events   = array()
+     $ne_today     = $curr_ts|datetime( custom, '%j')
+     $ne_year      = $curr_ts|datetime( custom, '%Y')
+     $ne_month     = $curr_ts|datetime( custom, '%n')
+     $ne_days      = $curr_ts|datetime( custom, '%t')
+     $ne_events    = fetch( 'event', 'list', hash( 'year',           $ne_year,
+                                                   'month',          $ne_month,
+                                                   'parent_node_id', $node.node_id ) )
+     $ne_merged_calendar  = merge_events( $ne_events )
+}
+
+{foreach $ne_merged_calendar as $date => $event}
+    {if $ne_today|int()|lt( $date|datetime( 'custom', '%j' )|int() )}
+        {set $next_events = $next_events|append( $event )}
+    {elseif eq( $ne_today|int(), $date|datetime( 'custom', '%j' )|int() )}
+        {set $day_events = $day_events|append( $event )}
+    {/if}
+{/foreach}
+
+
+{* if there are less than 3 events found have to search in the next month *}
+{if $next_events|count()|le( 3 )}
+
+    {def $ne_next_year      = cond( eq( $ne_month|int(), 12 ), sum( $ne_year, 1 ), $ne_year )
+         $ne_next_month     = cond( eq( $ne_month|int(), 12 ), 1, sum( $ne_month, 1 ) )
+         $ne_next_events    = fetch( 'event', 'list', hash( 'year',           $ne_next_year,
+                                                            'month',          $ne_next_month,
+                                                            'parent_node_id', $node.node_id ) )
+        $ne_next_merged_calendar  = merge_events( $ne_next_events )
+    }
+
+    {foreach $ne_next_merged_calendar as $date => $event}
+        {set $next_events = $next_events|append( $event )}
+    {/foreach}
+
+{/if}
+
+
+
 {if $day_events|count()|gt( 0 )}
 
     {foreach $day_events as $event}
@@ -301,6 +321,8 @@
 
       </div>
      </div>
+
+
 
 {if $next_events|count()|gt( 0 )}
 
