@@ -7,4 +7,15 @@
         <license>//EZP_LICENSE//</license>
         <info_url>http://projects.ez.no/ezteamroom</info_url>
     </metadata>
+    <dependencies>
+      <extends>
+        <extension name="ezevent" />
+        <extension name="ezlightbox" />
+        <extension name="ezxmlinstaller" />
+        <extension name="ezmultiupload" />
+        <extension name="ezwebin" />
+        <extension name="ezoe" />
+        <extension name="ezjscore" />
+      </extends>
+    </dependencies>
 </software>
