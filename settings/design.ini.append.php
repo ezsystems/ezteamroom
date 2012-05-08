@@ -6,7 +6,6 @@ DesignExtensions[]=ezteamroom
 
 [JavaScriptSettings]
 JavaScriptList[]=editfunctions.js
-JavaScriptList[]=ezmultiupload.js
 
 [StylesheetSettings]
 CSSFileList[]=yui/build/calendar/assets/calendar.css
