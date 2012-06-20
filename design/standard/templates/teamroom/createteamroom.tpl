@@ -305,11 +305,10 @@ Read a random wiki page by clicking on the &lt;emphasize&gt;random page&lt;/emph
 
     {/if}
 
-    <ProccessInformation comment="Sending mail to owner" />
 
     {if ezini_hasvariable( 'ContentSettings', 'CachedViewPreferences', 'site.ini' )}
 
-        {def $cachedViewPreferences = ezini( 'ContentSettings', 'CachedViewPreferences', 'site.ini' )}
+        {def $cachedViewPreferences = ezini( 'ContentSettings', 'CachedViewPreferences', 'site.ini', 'settings/siteaccess/ezteamroom/' )}
 
         {if is_set( $cachedViewPreferences['full'] )}
 
@@ -328,6 +327,7 @@ Read a random wiki page by clicking on the &lt;emphasize&gt;random page&lt;/emph
 
     {/if}
 
+    <ProccessInformation comment="Sending mail to owner" />
     <SendMail receiver="{$owner_object_id}" template="teamroom/mail/teamroom_ready.tpl" node="{$main_node_id}" />
 </eZXMLImporter>
 
