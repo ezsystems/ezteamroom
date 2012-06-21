@@ -6,6 +6,22 @@
 {/if}
 
 <div class="class-milestone file-list {$style} float-break">
+    {** Delete button **}
+    <div class="file-list-delete">
+        {if $node.object.can_remove}
+        <form id="removeFile{$node.object.id}" method="post" action={"/content/action"|ezurl}>
+            <input type="hidden" name="ContentNodeID" value="{$node.node_id}" />
+            <input type="hidden" name="ContentObjectID" value="{$node.object.id}" />
+            <input type="hidden" name="HideRemoveConfirmation" value="true" />
+            <input type="hidden" name="RedirectURI" value="{$parent_node.url_alias}"/>
+            <input type="image" id="{concat( 'milestone_list_delete_submit_', $node.contentobject_id )}" name="ActionRemove" value="Remove" 
+                                src={'file/delete.gif'|ezimage} title="{'Delete this milestone'|i18n( 'ezteamroom/tasks' )}" />
+            <br />
+            <label for="{concat( 'milestone_list_delete_submit_', $node.contentobject_id )}" class="submitlabel">{'Remove'|i18n('ezteamroom/tasks')}</label>
+        </form>
+        {/if}
+    </div>
+
         {if $node.data_map.closed.data_int}
     <div class="file-list-download">
             <img src={"close_milestone.gif"|ezimage()} title="{'The milestone has been closed.'|i18n('ezteamroom/tasks')}" alt="close_icon" />
