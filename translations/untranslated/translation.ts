@@ -1201,6 +1201,10 @@ change your settings at:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <source>Weekly on %1 from %2</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>Monthly each %1.</source>
         <translation type="unfinished"></translation>
     </message>

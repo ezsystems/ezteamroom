@@ -82,10 +82,13 @@
         {/case}
         {case match=15} {* Weekly *}
 
-            {if $eventDateContent.start.is_valid}
-
+            {if and( $eventDateContent.start.is_valid, $eventDateContent.end.is_valid )} {*with end date*}
 
                 {'Weekly on %1 from %2 to %3'|i18n( 'ezteamroom/events', , array( $eventDateContent.start.timestamp|datetime( 'custom', '%l' ), $eventDateContent.start.timestamp|l10n( 'shortdate' ), $eventDateContent.end.timestamp|l10n( 'shortdate' ) ) )|wash()}
+
+            {elseif $eventDateContent.start.is_valid} {*without end date*}
+
+                {'Weekly on %1 from %2'|i18n( 'ezteamroom/events', , array( $eventDateContent.start.timestamp|datetime( 'custom', '%l' ), $eventDateContent.start.timestamp|l10n( 'shortdate' ) ) )|wash()}
 
             {else}
 

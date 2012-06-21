@@ -1211,6 +1211,10 @@ change your settings at:</source>
         <translation>Veckovis på %1 från %2 till %3</translation>
     </message>
     <message>
+        <source>Weekly on %1 from %2</source>
+        <translation>Veckovis på %1 från %2</translation>
+    </message>
+    <message>
         <source>Monthly each %1.</source>
         <translation>Månadsvis varje %1.</translation>
     </message>

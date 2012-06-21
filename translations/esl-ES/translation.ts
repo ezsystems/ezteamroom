@@ -1169,6 +1169,10 @@ Read a random wiki page by clicking on the &amp;lt;emphasize&amp;gt;random page&
         <translation>Semanalmente el %1 de %2 a %3</translation>
     </message>
     <message>
+        <source>Weekly on %1 from %2</source>
+        <translation>Semanalmente el %1 depuis %2</translation>
+    </message>
+    <message>
         <source>Monthly each %1.</source>
         <translation>Mensualmente cada %1.</translation>
     </message>

@@ -1458,6 +1458,10 @@ Sie sollten diese Person kontaktieren oder einen neuen eigenen Entwurf anlegen.<
         <translation>Wöchentlich am %1 von %2 bis %3</translation>
     </message>
     <message>
+        <source>Weekly on %1 from %2</source>
+        <translation>Wöchentlich am %1 ab %2</translation>
+    </message>
+    <message>
         <source>Monthly each %1.</source>
         <translation>Monatlich jeden %1.</translation>
     </message>
