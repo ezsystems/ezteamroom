@@ -181,7 +181,7 @@
     </message>
     <message>
         <source>Add new entry</source>
-        <translation>Ajouter un nouvel élément</translation>
+        <translation>Ajouter une entrée</translation>
     </message>
     <message>
         <source>Keywords</source>
@@ -1224,7 +1224,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Add new event</source>
-        <translation>Ajouter un nouvel événement</translation>
+        <translation>Nouvel événement</translation>
     </message>
     <message>
         <source>Filter</source>
@@ -1551,7 +1551,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Upload multiple files</source>
-        <translation>Télécharger plusieurs fichiers</translation>
+        <translation>Télécharger plus. fichiers</translation>
     </message>
     <message>
         <source>Upload more than one file at the same time</source>
@@ -1909,7 +1909,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Add new widget</source>
-        <translation>Ajouter un nouveau gadget</translation>
+        <translation>Ajouter un gadget</translation>
     </message>
     <message>
         <source>Debug</source>
@@ -2526,7 +2526,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     <name>ezteamroom/keepmeupdated</name>
     <message>
         <source>Keep me updated</source>
-        <translation>Tenez-moi au courant des mises à jour</translation>
+        <translation>Me tenir au courant</translation>
     </message>
     <message>
         <source>Receive an email if anything changes in this area</source>
@@ -2944,7 +2944,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Change password</source>
-        <translation>Modifier son mot de passe</translation>
+        <translation>Changer mot de passe</translation>
     </message>
     <message>
         <source>Edit description</source>
@@ -3032,7 +3032,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Edit profile</source>
-        <translation>Modifier mon profile</translation>
+        <translation>Modifier mon profil</translation>
     </message>
     <message>
         <source>My pending items</source>
@@ -3839,7 +3839,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Add new task</source>
-        <translation>Ajouter une nouvelle tâche</translation>
+        <translation>Nouvelle tâche</translation>
     </message>
     <message>
         <source>Filter</source>
@@ -4105,7 +4105,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Create a new teamroom</source>
-        <translation>Créer une nouvel espace projet</translation>
+        <translation>Nouvel espace projet</translation>
     </message>
     <message>
         <source>You are not allowed to create new teamrooms.</source>
