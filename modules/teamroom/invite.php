@@ -366,8 +366,7 @@ elseif ( $actionType == 'Cancel' ){
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //// Template
 
-include_once( 'kernel/common/template.php' );
-$tpl = templateInit();
+$tpl = eZTemplate::factory();
 
 $tpl->setVariable( 'from_page', $inviteUrl );
 $tpl->setVariable( 'errors'  , $errors );

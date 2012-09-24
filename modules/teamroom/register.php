@@ -139,9 +139,8 @@ elseif ( $actionType == 'Register' )
 }
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //// Template
-include_once( 'kernel/common/template.php' );
 
-$tpl = templateInit();
+$tpl = eZTemplate::factory();
 
 $tpl->setVariable( 'from_page', $registerUrl );
 $tpl->setVariable( 'teamroom', $teamroomNode );

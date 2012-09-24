@@ -24,10 +24,9 @@
 //
 
 require_once( 'autoload.php' );
-require_once( 'kernel/common/template.php' );
 
 $http             = eZHTTPTool::instance();
-$tpl              = templateInit();
+$tpl              = eZTemplate::factory();
 $template         = 'design:teamroom/messagecenter.tpl';
 $navigationPart   = 'ezteamroomnavigationpart';
 $uiContext        = 'view';

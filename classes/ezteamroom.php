@@ -24,7 +24,6 @@
 //
 
 require_once( 'autoload.php');
-include_once( 'kernel/common/template.php' );
 
 class eZTeamroom
 {
@@ -38,7 +37,7 @@ class eZTeamroom
     {
         $siteIni      = eZINI::instance();
         $ezMailObject = new eZMail();
-        $tpl          = templateInit();
+        $tpl          = eZTemplate::factory();
 
         if ( !$emailSender )
         {
