@@ -3955,7 +3955,7 @@ Vous devriez contacter l&apos;éditeur de ce brouillon ou créer un nouveau brou
     </message>
     <message>
         <source>Name</source>
-        <translation type="unfinished">Nom</translation>
+        <translation>Nom</translation>
     </message>
 </context>
 <context>
