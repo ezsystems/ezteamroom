@@ -4,7 +4,7 @@
 //
 // Created on: <25.05.2007 10:41:19 tw>
 //
-// Copyright (C) 1999-2012 eZ Systems as. All rights reserved.
+// Copyright (C) 1999-2013 eZ Systems as. All rights reserved.
 //
 
 //------ Basic helper functions ------------------------------------------------

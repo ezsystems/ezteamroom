@@ -4,10 +4,10 @@
 //
 // SOFTWARE NAME: eZ Teamroom extension for eZ Publish
 // SOFTWARE RELEASE: 0.x
-// COPYRIGHT NOTICE: Copyright (C) 1999-2012 eZ Systems AS
+// COPYRIGHT NOTICE: Copyright (C) 1999-2013 eZ Systems AS
 // SOFTWARE LICENSE: GNU General Public License v2.0
 // SOFTWARE RELEASE: 1.5.0
-// COPYRIGHT NOTICE: Copyright (C) 1999-2012 eZ Systems AS
+// COPYRIGHT NOTICE: Copyright (C) 1999-2013 eZ Systems AS
 // SOFTWARE LICENSE: eZ Business Use License Agreement Version 2.0
 // NOTICE: >
 //   This program is free software; you can redistribute it and/or
@@ -32,7 +32,7 @@ class ezteamroomInfo
     {
         return array( 'Name'              => "eZ Publish eZ Teamroom Solution",
                       'Version'           => "//autogentag//",
-                      'Copyright'         => "Copyright (C) 2007-2012 eZ Systems",
+                      'Copyright'         => "Copyright (C) 2007-2013 eZ Systems",
                       'Info_url'          => "http://ez.no",
                       'License'           => "GNU General Public License v2.0" );
     }

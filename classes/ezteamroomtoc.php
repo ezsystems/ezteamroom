@@ -4,7 +4,7 @@
 //
 // SOFTWARE NAME: eZ Teamroom extension for eZ Publish
 // SOFTWARE RELEASE: 1.4.0
-// COPYRIGHT NOTICE: Copyright (C) 1999-2012 eZ Systems AS
+// COPYRIGHT NOTICE: Copyright (C) 1999-2013 eZ Systems AS
 // SOFTWARE LICENSE: eZ Business Use License Agreement Version 2.0
 // NOTICE: >
 //   This program is free software; you can redistribute it and/or
