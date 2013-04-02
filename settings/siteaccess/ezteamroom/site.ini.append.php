@@ -1,5 +1,8 @@
 <?php /* #?ini charset="utf-8"?
 
+[SiteSettings]
+RootNodeDepth=1
+
 [DesignSettings]
 SiteDesign=ezteamroom
 AdditionalSiteDesignList[]
